@@ -1,0 +1,12 @@
+owner = POM
+controller = POM
+add_core = POM
+add_core = HSE
+add_core = GER
+trade_goods = fruit
+life_rating = 42
+railroad = 1
+fort = 1
+state_building = { level = 1 building = ammunition_factory upgrade = yes } 
+state_building = { level = 1 building = small_arms_factory upgrade = yes } 
+state_building = { level = 2 building = artillery_factory upgrade = yes }

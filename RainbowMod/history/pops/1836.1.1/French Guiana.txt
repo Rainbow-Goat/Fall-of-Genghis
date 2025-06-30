@@ -1,0 +1,102 @@
+#French Guiana (20000)
+#Ruled by France 1836
+#Cayenne (17000/4250 POPS)
+2241 = {
+	aristocrats = {
+		culture = castillian
+		religion = catholic
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = castillian
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = castillian
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = castillian
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = castillian
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = castillian
+		religion = catholic
+		size = 80
+	}
+
+	artisans = {
+		culture = aimara
+		religion = animist
+		size = 200
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = animist
+		size = 28
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = animist
+		size = 55
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 3055
+	}
+
+	slaves = {
+		culture = afro_caribbean
+		religion = animist
+		size = 550
+	}
+}
+#Maripasoula (3000/750 POPS)
+2246 = {
+	aristocrats = {
+		culture = aimara
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = aimara
+		religion = animist
+		size = 35
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 680
+	}
+}

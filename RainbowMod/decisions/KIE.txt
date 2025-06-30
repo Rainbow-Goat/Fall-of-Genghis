@@ -1,0 +1,19 @@
+political_decisions = {
+    ruthenian_accepted = {
+        potential = {
+            tag = KIE
+            NOT = { accepted_culture = ruthenian }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            owns = 702
+            owns = 954
+            owns = 956
+        }
+        effect = {
+            add_accepted_culture = ruthenian
+            RUT = { all_core = { add_core = THIS } }
+        }
+    }
+}

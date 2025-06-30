@@ -1,0 +1,67 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Armee du Sud"
+location = 451
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 448
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 451
+}
+regiment = {
+name = "Regiment 2"
+type = cavalry
+home = 451
+}
+regiment = {
+name = "Regiment 3"
+type = cuirassier
+home = 449
+}
+regiment = {
+name = "Regiment 4"
+type = infantry
+home = 447
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 450
+}
+regiment = {
+name = "Regiment 6"
+type = artillery
+home = 433
+}
+regiment = {
+name = "Regiment 7"
+type = artillery
+home = 452
+}
+regiment = {
+name = "Regiment 8"
+type = artillery
+home = 453
+}
+regiment = {
+name = "Regiment 9"
+type = infantry
+home = 462
+}
+regiment = {
+name = "Regiment 10"
+type = infantry
+home = 461
+}
+}
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

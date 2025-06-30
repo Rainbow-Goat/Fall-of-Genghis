@@ -1,0 +1,120 @@
+political_decisions = {
+    ruthenians_are_ukrainian_too = {
+        potential = {
+            tag = UKR
+            NOT = { accepted_culture = ruthenian }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            RUT = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = ruthenian
+            RUT = {
+                all_core = {
+                    add_core = UKR
+                }
+            }
+            prestige = 20
+        }
+    }
+
+    the_caucasus = {
+        potential = {
+            tag = UKR
+            NOT = { accepted_culture = north_caucasian }
+        }
+        allow = {
+            war = no
+            medicine = 1
+            early_railroad = 1
+            UKR = { all_core = { owned_by = THIS } }
+        }
+        effect = {
+            add_accepted_culture = north_caucasian
+        }
+    }
+
+    realize_greater_cossackstan = {
+        potential = {
+            tag = UKR
+            accepted_culture = ruthenian
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            SRT = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+            DOP = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+            KHI = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+            BUK = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+            KOK = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = CSS
+            add_accepted_culture = ukrainian
+            add_accepted_culture = ruthenian
+            add_accepted_culture = kazak
+            add_accepted_culture = north_caucasian
+            inherit = KOK
+            inherit = BUK
+            inherit = KHI
+            inherit = SRT
+            inherit = DOP
+        }
+    }
+}

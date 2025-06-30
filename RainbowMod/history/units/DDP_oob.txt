@@ -1,0 +1,31 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Garde Royale!"
+location = 425
+regiment = {
+name = "Regiment 0"
+type = guard
+home = 425
+}
+regiment = {
+name = "Regiment 1"
+type = guard
+home = 425
+}
+regiment = {
+name = "Regiment 2"
+type = guard
+home = 425
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

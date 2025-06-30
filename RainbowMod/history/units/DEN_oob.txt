@@ -1,0 +1,360 @@
+ENG = {
+	value = 0
+}
+
+PRU = {
+	value = 49
+}
+
+leader = {
+	name = "Rye"
+	date = 1836.1.1
+	type = land
+	personality = daring
+	background = adventurer
+}
+
+army = {
+	name = "Danske Haeren"
+	location = 372
+	regiment = {
+		name= "1.1. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "2.1. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+
+	regiment = {
+		name= "3.1. Infanteridivision"
+		type = infantry
+		home = 372
+	}
+	
+	regiment = {
+		name= "1.2. Infanteridivision"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "2.2. Infanteridivision"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "3.2. Infanteridivision"
+		type = infantry
+		home = 366
+	}
+
+	regiment = {
+		name= "1.1. Kavalleridivision"
+		type = dragoon
+		home = 373
+	}
+
+}
+army = {
+name = "Les fils du Vladimir"
+location = 372
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 372
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 372
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 372
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 372
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 334
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 335
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 366
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 366
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 366
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 313
+}
+}
+
+navy = {
+	name = "Royal Navy"
+	location = 372
+	ship = {
+		name= "Danmark"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dronning Marie"
+		type = manowar
+	}
+
+	ship = {
+		name= "Frederik den sjette"
+		type = manowar
+	}
+
+
+	ship = {
+		name= "Bellona"
+		type = frigate
+	}
+
+	ship = {
+		name= "Diana"
+		type = frigate
+	}
+
+	ship = {
+		name= "Freja"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fylla"
+		type = frigate
+	}
+
+
+
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+name = "La marine des conquérants"
+location = 372
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}
+navy = {
+name = "La marine des conquérants"
+location = 372
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}

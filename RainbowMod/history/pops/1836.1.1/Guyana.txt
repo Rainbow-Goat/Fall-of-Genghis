@@ -1,0 +1,184 @@
+#Guyana (99600)
+#Ruled by Britain 1836
+#Georgetown (58600/14650 POPS)
+2239 = {
+	aristocrats = {
+		culture = castillian
+		religion = catholic
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = castillian
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = castillian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = castillian
+		religion = catholic
+		size = 350
+	}
+
+	soldiers = {
+		culture = castillian
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = castillian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = aimara
+		religion = animist
+		size = 700
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = animist
+		size = 150
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 13075
+	}
+}
+#Mahdia (4000/1000 POPS)
+2242 = {
+	aristocrats = {
+		culture = aimara
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aimara
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 900
+	}
+}
+#Essequibo (33000/8250 POPS)
+2243 = {
+	aristocrats = {
+		culture = castillian
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = castillian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = castillian
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = castillian
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = castillian
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = aimara
+		religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = animist
+		size = 75
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 8550
+	}
+}
+#Biloka (4000/1000 POPS)
+1979 = {
+	aristocrats = {
+		culture = aimara
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = animist
+		size = 25
+	}
+
+	artisans = {
+		culture = aimara
+		religion = animist
+		size = 50
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = animist
+		size = 15
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 900
+	}
+}

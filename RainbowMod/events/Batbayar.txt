@@ -1,0 +1,413 @@
+country_event = {
+	id = 80085
+	title = "Batbayar Strikes again!"
+	desc = "How could this happen?! Now he has slept with several wifes of high-ranking officials! But not with me!!"
+	
+	trigger = {
+		has_country_flag = BATSlept
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "It shouldve been me, not them!"
+		clr_country_flag = BATSlept
+		prestige = -20
+	}
+}
+		
+	
+country_event = {
+	id = 80086
+	title = "Khan Power!"
+	desc = "Every mongolian man has read the Quota, the Torah AND the scriptures of Gelupga, as such they have massive literacy!"
+	
+	trigger = {
+		has_country_flag = Batbayar
+		year = 1840
+		NOT = { has_country_flag = KhanPower }
+	}
+
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "Khan Power!!!"
+		set_country_flag = KhanPower
+		any_pop = {
+			limit = { is_accepted_culture = yes }
+			literacy = 0.2
+		}
+		add_country_modifier = {
+			name = khan_power
+			duration = -1
+		}
+		research_points = 20000
+	}
+}
+	
+country_event = {
+	id = 80084
+	title = "Mongol Warrior Culture"
+	desc = "We are a of mongol heritage, as such we have a higher percentage of soldiers than most"
+	
+	trigger = {
+		primary_culture = mongol
+		NOT = { has_country_flag = mongol_pops }
+	}
+
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "Wonderful news!"
+		set_country_flag = mongol_pops
+		any_pop = {
+			limit = {
+				AND = { 
+					is_accepted_culture = yes
+					OR = {
+						type = soldiers
+						type = officers
+					}
+				}
+			}
+			reduce_pop = 4
+		}
+	}
+}
+
+country_event = {
+	id = 80087
+	title = "The Rise of Batbayar"
+	desc = "A great military leader and legendary thinker has come to prominence in our nation, and his name is: Batbayar!!!"
+
+	trigger = {
+		year = 1837
+		tag = TAI
+		NOT = { has_global_flag = BatbayarRisen }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		
+		modifier = {
+			factor = 0.05
+			year = 1840
+		}
+	}
+
+	option = {
+		name = "Long live Batbayar!"
+		ai_chance = { factor = 100 }
+		set_global_flag = BatbayarRisen
+		set_country_flag = Batbayar
+		research_points = 10000
+		prestige = 10
+	}
+}
+
+country_event = {
+	id = 80088
+	title = "Batbayar takes absolute power and proclaims great Khanate!"
+	desc = "In the chaos of modernization the glorious Batbayar has slept with the Kings wife, shit on his bed, taken over absolute power in the state and proclaimed a Great Khanate!"
+	
+	trigger = {
+		has_global_flag = BatbayarRisen
+		OR = {
+			civilised = yes
+			year = 1845
+		}
+		has_country_flag = Batbayar
+		NOT = { has_country_flag = BatbayarInPower }
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "What?? He forced the King to sleep with him too?!"
+		change_tag = BAT
+		government = khanate
+		prestige = 20
+		set_country_flag = BatbayarInPower
+	}
+}
+
+country_event = {
+	id = 80089
+	title = "Batbayar Thought"
+	desc = "Our great Khan Batbayar has founded a new school of thought, everyone in the country is in awe due to his great wisdom!"
+	
+	trigger = {
+		tag = BAT
+		NOT = { has_country_flag = BatbayarThought }
+		year = 1847
+	}
+
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "Long live our glorious leader!"
+		set_country_flag = BatbayarThought
+		set_global_flag = BatbayarThoughtG
+		prestige = 10
+	}
+}
+
+#
+
+country_event = {
+	id = 80090
+	title = "Batbayar Thought Spreads!"
+	desc = "The people are adopting the ways of Batbayar!"
+	
+	trigger = {
+		is_ideology_enabled = communism
+		has_country_flag = BatbayarThought
+		NOT = { has_country_flag = BatThoughtSpread }
+	}
+
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "Long live our glorious leader!"
+		set_country_flag = BatThoughtSpread
+		any_pop = {
+			limit = { is_accepted_culture = yes }
+			literacy = 0.1
+			ideology = {
+				factor = 10
+				value = communism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 80091
+	title = "Batbayar Thought Spreads!"
+	desc = "There have been reports of our people reading a curious red book written by a man called Batbayar, it seems to be quite convincing"
+	
+	trigger = {
+		is_ideology_enabled = communism
+		has_global_flag = BatbayarThoughtG
+		NOT = { has_country_flag = BatbayarInPower }
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	option = {
+		name = "So... why exactly are you telling me about this?"
+		random_state = {
+			limit = { is_colonial = no }
+			poor_strata = {
+				consiousness = 3
+				ideology = {
+					factor = 20
+					value = communism
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Burn all books you can find!"
+		random_state = {
+			limit = { is_colonial = no }
+			poor_strata = {
+				militancy = 6
+				ideology = {
+					factor = 5
+					value = communism
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 80092
+	title = "Batbayar has slept with our leaders wife!"
+	desc = "And she says she liked it!"
+	
+	trigger = {
+		NOT = { has_country_flag = Batbayar }
+		has_global_flag = BatbayarRisen
+		civilised = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+	
+	option = {
+		name = "This scoundrel... He shouldve picked me!"
+		set_country_flag = BATSlept
+		set_global_flag = BATSlept
+		prestige = -10
+	}
+}
+
+country_event = {
+	id = 80093
+	title = "The military reforms of Batbayar"
+	desc = "Our great Khan Batbayar has reformed the military, it will now be much more efficient!"
+	
+	trigger = {
+		has_country_flag = BatbayarInPower
+		NOT = { has_country_flag = BatbayarReforms }
+		strategic_mobility = 1
+		army_professionalism = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = "Chaaarge!!"
+		set_country_flag = BatbayarReforms
+		add_country_modifier = {
+			name = batbayar_military_reforms
+			duration = -1
+		}
+		prestige = 15
+	}
+}
+
+country_event = {
+	id = 80094
+	title = "The fruits of our leaders manly allure"
+	desc = "Our great Khan Batbayar has once more had some promiscuous adventures in another country and managed to steal valuable technology through the wives of important officials"
+	
+	trigger = {
+		has_country_flag = BatbayarInPower
+		has_global_flag = BATSlept
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "Those foolish husbands"
+		clr_global_flag = BATSlept
+		research_points = 100
+	}
+}
+
+country_event = {	
+	id = 80095
+	title = "Our peoples new destiny"
+	desc = "With the remnants of Ghengis' realm reunited a decision has to be made regarding our states' further objectives"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "He made a mistake NOT crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
+		set_country_flag = MglRUS
+		change_tag = MGE
+	}
+	
+	option = {
+		name = "Times have changed and our nomad ways are coming to an end, let us instead consolidate our power and build an even greater realm around traditional Mongolia"
+		set_country_flag = MglBAT
+		change_tag = GBT
+	}
+}
+
+country_event = {	
+	id = 80096
+	title = "Our peoples new destiny"
+	desc = "With the remnants of Ghengis' realm reunited a decision has to be made regarding our states' further objectives"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "He made a mistake NOT crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
+		set_country_flag = MglRUS
+		change_tag = MGE
+	}
+	
+	option = {
+		name = "Times have changed and our nomad ways are coming to an end, let us instead consolidate our power and build an even greater realm around traditional Mongolia"
+		set_country_flag = MglBAT
+		change_tag = MGL
+	}
+}
+
+country_event = {	
+	id = 80097
+	title = "The great crash of $YEAR$"
+	desc = 80097_dsc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "Well, at least we learned more about aerodynamics from this"
+		prestige = -15
+		research_points = 1000
+	}
+}
+
+country_event = {	
+	id = 80098
+	title = "A Thunder in the East"
+	desc = "In the far east, in the lands of the frozen tundra, there is all of a sudden an erie quiet. The area, known for being the realm of the fearsome khanates, has grown very still as of late. Have the Khans perhaps grown to appreciate a calmer lifestyle?"
+	
+	trigger = {
+		OR = {
+			exists = MGE
+			exists = BAT
+		}
+		has_global_flag = BatbayarRisen
+		NOT = { has_country_flag = mongol_rice_1 }
+	}
+
+	option = {
+		name = "Good for them, maybe they will finally get off of their horses and live a more normal lifestyle"
+		set_country_flag = mongol_rice_1
+	}
+}
+
+country_event = {	
+	id = 80099
+	title = "A Loud Thunder in the East"
+	desc = "At the crack of dawn today all of Central Asia was awoken to the sounds of thunderous hooves galloping across the land and steel piercing flesh. The Khanates have been united under a mighty Khan, one the likes of which has not been seen since the times of Genghis Khan. We must prepare our defense, or else we may suffer a disastrous calamity in the future..."
+	
+	trigger = {
+		OR = {
+			exists = MGE
+			exists = BAT
+		}
+		has_global_flag = BatbayarRisen
+		has_country_flag = mongol_rice_1
+		NOT = { has_country_flag = mongol_rice_2 }
+		capital = { continent = europe }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Uh oh..."
+		set_country_flag = mongol_rice_2
+	}
+}
+

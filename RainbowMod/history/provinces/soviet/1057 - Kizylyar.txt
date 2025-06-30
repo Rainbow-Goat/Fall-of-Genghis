@@ -1,0 +1,5 @@
+owner = GRO
+controller = GRO
+add_core = GRO
+trade_goods = silk
+life_rating = 35

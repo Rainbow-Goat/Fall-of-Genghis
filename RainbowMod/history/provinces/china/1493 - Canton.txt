@@ -1,0 +1,8 @@
+add_core = TPG
+trade_goods = timber
+life_rating = 32
+owner = TPG
+controller = TPG
+fort = 1
+add_core = CHI
+1861.1.1 = { naval_base = 1 } 

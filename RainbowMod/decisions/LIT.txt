@@ -1,0 +1,180 @@
+political_decisions = {
+    restore_the_commonwealth = {
+        potential = {
+            tag = LIT
+            has_global_flag = lithuania_withdraws
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            POL = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+                    }
+                }
+            }
+            LIT = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = PLC
+            prestige = 40
+            add_accepted_culture = polish
+            add_accepted_culture = lithuanian
+            remove_accepted_culture = byelorussian
+        }
+    }
+
+    withdraw_from_east = {
+        potential = {
+            tag = LIT
+            NOT = {
+                OR = {
+                    has_global_flag = lithuania_withdraws
+                    has_country_flag = march_east
+                }
+            }
+        }
+        allow = {
+            NOT = { year = 1844 }
+            war_with = POL
+        }
+        effect = {
+            set_global_flag = lithuania_withdraws
+            prestige = -30
+            militancy = 2
+            consciousness = 1
+            badboy = -5
+        }
+    }
+
+    march_on_smolensk = {
+        potential = {
+            tag = LIT
+            NOT = { has_country_flag = march_east }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            941 = { owned_by = THIS }
+            944 = { owned_by = THIS }
+        }
+        effect = {
+            LIT = {
+                casus_belli = {
+                    target = SMO
+                    type = take_capital
+                    months = 18
+                }
+            }
+            badboy = 5
+            set_country_flag = march_east
+        }
+    }
+
+    consume_the_remains = {
+        potential = {
+            tag = LIT
+            NOT = { 
+                943 = { is_core = LIT} 
+            }
+            has_country_flag = march_east
+        }
+        allow = {
+            war = no
+            943 = { owned_by = THIS }
+            1016 = { owned_by = THIS }
+        }
+        effect = {
+            SMO = {
+                all_core = {
+                    add_core = LIT
+                }
+            }
+        }
+    }
+
+    concessions_to_ruthenians = {
+        potential = {
+            tag = LIT
+            943 = { is_core = LIT}
+            NOT = { accepted_culture = ruthenian }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            702 = { owned_by = THIS }
+            956 = { owned_by = THIS }
+        }
+        effect = {
+            add_accepted_culture = ruthenian
+            militancy = -1
+            consciousness = -1
+        }
+    }
+    
+    add_the_cossacks_to_our_ranks = {
+        potential = {
+            tag = LIT
+            NOT = { accepted_culture = ukrainian }
+            accepted_culture = ruthenian
+            year = 1860
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            965 = { owned_by = THIS }
+            980 = { owned_by = THIS }
+            NOT = { exists = KIE }
+            NOT = { exists = UKR }
+            NOT = { exists = RUT }
+            LIT = {
+                all_core = { owned_by = THIS }
+            }
+        }
+        effect = {
+            add_accepted_culture = ukrainian
+            militancy = 15
+        }
+    }
+
+    expanding_further_east = {
+        potential = {
+            tag = LIT
+            accepted_culture = ukrainian
+            NOT = { 
+                965 = { is_core = LIT }
+            }
+        }
+        allow = {
+            war = no
+            electricity = 1
+            LUH = {
+                all_core = { owned_by = THIS }
+            }
+        }
+        effect = {
+            LUH = {
+                all_core = { add_core = LIT }
+            }
+            ROS = {
+                all_core = { add_core = LIT }
+            }
+            RYA = {
+                all_core = { add_core = LIT }
+            }
+        }
+    }
+}

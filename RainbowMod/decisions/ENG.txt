@@ -1,0 +1,98 @@
+political_decisions = {
+
+	accept_norse = {
+		potential = {
+			NOT = {accepted_culture = norse}
+			tag = ENG
+			NOT = {has_country_flag = saxon_german_path}
+			has_country_flag = englaland_rules_waves
+		}
+		
+		allow = {
+			AND = {
+				owns = 281
+				owns = 290
+			}
+			war = no
+			state_n_government = 1
+		}
+		effect = {
+			add_accepted_culture = norse
+			any_pop = {
+				limit = {
+					is_accepted_culture = yes
+				}
+				militancy = 5
+			}
+		}
+	}
+	
+	reform_uk = {
+		potential = {
+			OR = {
+				tag = ENG
+				tag = SCO
+				tag = IRE
+				
+			}
+			has_country_flag = englaland_rules_waves
+			NOT = {
+				AND = {
+					accepted_culture = saxon
+					accepted_culture = scottish
+					accepted_culture = irish
+				}
+			}
+		}
+		allow = {
+			AND = {
+				SCO = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+				IRE = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+				ENG = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			war = no
+			accepted_culture = norse
+		}
+		effect = {
+			change_tag = GBR
+			add_accepted_culture = saxon
+			add_accepted_culture = scottish
+			add_accepted_culture = welsh
+			add_accepted_culture = irish
+		}
+	}
+	
+	alternative_to_germany = {
+		potential = {
+			tag = ENG
+			has_country_flag = englaland_rules_waves
+			NOT = {has_country_flag = alternative_to_germany}
+		}
+		allow = {
+			AND = {
+				owns = 528
+				owns = 549
+				owns = 546
+			}
+			war = no
+		}
+		effect = {
+			change_tag = GER
+			add_accepted_culture = rhenish
+			add_accepted_culture = low_german
+			set_country_flag = alternative_to_germany
+		}
+	}
+}

@@ -1,0 +1,42 @@
+country_event = {
+    id = 100300
+    title = "EVTNAME100300"
+    desc = "EVTDESC100300"
+    picture = "celebration"
+
+    fire_only_once = yes
+
+    option = {
+        name = "EVTOPT100300A"
+        set_country_flag = russia_east
+    }
+
+    option = {
+        name = "EVTOPT100300B"
+        set_country_flag = russia_west
+    }
+}
+
+country_event = {
+    id = 100301
+    title = "EVTNAME100301"
+    desc = "EVTDESC100301"
+    picture = "celebration"
+
+    fire_only_once = yes
+
+    option = {
+        name = "EVTOPT100301A"
+        capital = 994
+    }
+
+    option = {
+        name = "EVTOPT100301B"
+        capital = 1008
+    }
+
+    option = {
+        name = "EVTOPT100301C"
+        capital = 977
+    }
+}

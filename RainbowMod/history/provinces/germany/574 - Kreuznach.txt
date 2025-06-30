@@ -1,0 +1,9 @@
+owner = KRZ
+controller = KRZ
+add_core = KRZ
+add_core = RHN
+add_core = HSE
+add_core = GER
+trade_goods = iron
+life_rating = 40
+1861.1.1 = { railroad = 3 } 

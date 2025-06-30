@@ -1,0 +1,8 @@
+bookmark =
+{
+	name = "CAMPAIGN_NAME"
+	desc = "CAMPAIGN_DESC"
+	date = 1836.1.1
+	cameraX = 2950 
+	cameraY = 1550
+}

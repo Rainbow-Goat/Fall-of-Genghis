@@ -1,0 +1,5 @@
+owner = PAU
+controller = PAU
+add_core = PAU
+trade_goods = timber
+life_rating = 30

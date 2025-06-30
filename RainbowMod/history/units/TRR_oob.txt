@@ -1,0 +1,41 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "1st Army of Trier"
+location = 572
+regiment = {
+name = "Regiment 0"
+type = infantry
+home = 572
+}
+regiment = {
+name = "Regiment 1"
+type = cuirassier
+home = 572
+}
+regiment = {
+name = "Regiment 3"
+type = infantry
+home = 572
+}
+regiment = {
+name = "Regiment 4"
+type = infantry
+home = 572
+}
+regiment = {
+name = "Regiment 5"
+type = artillery
+home = 572
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

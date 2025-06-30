@@ -1,0 +1,113 @@
+army = {
+name = "Les fils du Vladimir"
+location = 860
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 860
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 860
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 861
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 859
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 828
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 821
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 821
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 824
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1029
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 837
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 876
+}
+}
+army = {
+name = "Les fils du Vladimir"
+location = 875
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 836
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 838
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 835
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 834
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 834
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 840
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 842
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 839
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 841
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 879
+}
+}

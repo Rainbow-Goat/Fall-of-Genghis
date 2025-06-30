@@ -1,0 +1,59 @@
+army = {
+name = "Les fils du Vladimir"
+location = 943
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 943
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 999
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 1009
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 1008
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 1014
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1010
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1028
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1011
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1017
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 977
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1015
+}
+}

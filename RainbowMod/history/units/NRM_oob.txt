@@ -1,0 +1,440 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "L'armée des conquérants"
+location = 303
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 418
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 418
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 418
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 418
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 437
+}
+regiment = {
+name = "Regiment 5"
+type = cavalry
+home = 437
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 434
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 434
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 423
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 423
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 423
+}
+}
+army = {
+name = "Volontaires gallois"
+location = 275
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 476
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 476
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 474
+}
+regiment = {
+name = "Regiment 3"
+type = dragoon
+home = 474
+}
+regiment = {
+name = "Regiment 3"
+type = dragoon
+home = 474
+}
+regiment = {
+name = "Regiment 3"
+type = dragoon
+home = 475
+}
+regiment = {
+name = "Regiment 3"
+type = dragoon
+home = 475
+}
+regiment = {
+name = "Regiment 7"
+type = infantry
+home = 473
+}
+regiment = {
+name = "Regiment 7"
+type = infantry
+home = 473
+}
+regiment = {
+name = "Regiment 9"
+type = irregular
+home = 473
+}
+regiment = {
+name = "Regiment 9"
+type = irregular
+home = 476
+}
+regiment = {
+name = "Regiment 9"
+type = irregular
+home = 475
+}
+}
+army = {
+name = "Armée du Sud"
+location = 301
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 415
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 415
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 416
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 416
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 416
+}
+regiment = {
+name = "Regiment 5"
+type = cuirassier
+home = 435
+}
+regiment = {
+name = "Regiment 6"
+type = cuirassier
+home = 435
+}
+regiment = {
+name = "Regiment 7"
+type = infantry
+home = 435
+}
+regiment = {
+name = "Regiment 8"
+type = infantry
+home = 424
+}
+regiment = {
+name = "Regiment 9"
+type = infantry
+home = 424
+}
+regiment = {
+name = "Regiment 10"
+type = infantry
+home = 421
+}
+regiment = {
+name = "Regiment 11"
+type = infantry
+home = 421
+}
+}
+army = {
+name = "La Garde Royale"
+location = 418
+regiment = {
+name = "Regiment 0"
+type = guard
+home = 422
+}
+regiment = {
+name = "Regiment 1"
+type = guard
+home = 422
+}
+regiment = {
+name = "Regiment 2"
+type = guard
+home = 420
+}
+regiment = {
+name = "Regiment 3"
+type = guard
+home = 417
+}
+regiment = {
+name = "Regiment 4"
+type = cuirassier
+home = 417
+}
+}
+army = {
+name = "Les Gardiens de la Normandie"
+location = 417
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 421
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 415
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 415
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 422
+}
+regiment = {
+name = "Regiment 4"
+type = infantry
+home = 420
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 424
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 435
+}
+regiment = {
+name = "Regiment 7"
+type = dragoon
+home = 416
+}
+}
+
+
+#========================= S E A =========================
+
+navy = {
+name = "La marine des conquérants"
+location = 418
+ship = {
+name = "Ship 0"
+type = manowar
+}
+ship = {
+name = "Ship 1"
+type = manowar
+}
+ship = {
+name = "Ship 2"
+type = manowar
+}
+ship = {
+name = "Ship 3"
+type = manowar
+}
+ship = {
+name = "Ship 4"
+type = manowar
+}
+ship = {
+name = "Ship 5"
+type = manowar
+}
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 8"
+type = frigate
+}
+ship = {
+name = "Ship 9"
+type = frigate
+}
+ship = {
+name = "Ship 10"
+type = frigate
+}
+ship = {
+name = "Ship 11"
+type = frigate
+}
+ship = {
+name = "Ship 12"
+type = frigate
+}
+ship = {
+name = "Ship 13"
+type = frigate
+}
+ship = {
+name = "Ship 14"
+type = frigate
+}
+ship = {
+name = "Ship 15"
+type = frigate
+}
+ship = {
+name = "Ship 16"
+type = frigate
+}
+ship = {
+name = "Ship 17"
+type = frigate
+}
+ship = {
+name = "Ship 18"
+type = frigate
+}
+ship = {
+name = "Ship 19"
+type = frigate
+}
+ship = {
+name = "Ship 20"
+type = frigate
+}
+ship = {
+name = "Ship 21"
+type = frigate
+}
+ship = {
+name = "Ship 22"
+type = frigate
+}
+ship = {
+name = "Ship 23"
+type = frigate
+}
+ship = {
+name = "Ship 24"
+type = frigate
+}
+ship = {
+name = "Ship 24"
+type = frigate
+}
+ship = {
+name = "Ship 21"
+type = frigate
+}
+ship = {
+name = "Ship 22"
+type = frigate
+}
+ship = {
+name = "Ship 23"
+type = frigate
+}
+ship = {
+name = "Ship 24"
+type = frigate
+}
+ship = {
+name = "Ship 24"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

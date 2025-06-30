@@ -1,0 +1,7 @@
+owner = BLG
+controller = BLG
+add_core = BLG
+add_core = UKR
+add_core = CRI
+trade_goods = iron
+life_rating = 35

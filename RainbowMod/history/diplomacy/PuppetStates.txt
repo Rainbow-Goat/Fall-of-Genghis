@@ -1,0 +1,97 @@
+#vassal = {
+#	first = CHI
+#	second = KOR
+#	start_date = 1836.1.1
+#	end_date = 1841.5.17 #Treaty of Shimonoseki
+#}
+
+# NEW ONES
+
+## HUNGARY
+# Hungary-Croatia
+vassal = {
+	first = HUN
+	second = CRO
+	start_date = 1524.2.3
+	end_date = 1910.11.12
+}
+
+# Sweden-Holstein
+vassal = {
+	first = SWE
+	second = HOL
+	start_date = 1773.1.1
+	end_date = 1864.10.30
+}
+
+# Dai Nam-Cambodia
+vassal = {
+	first = DAI
+	second = CAM
+	start_date = 1807.1.1
+	end_date = 1861.1.1
+}
+
+# French Confederation
+vassal = {
+	first = ORL
+	second = LYO
+	start_date = 1671.1.1
+	end_date = 1945.1.1
+}
+
+# French Confederation
+vassal = {
+	first = ORL
+	second = TOU
+	start_date = 1671.2.1
+	end_date = 1945.1.1
+}
+
+# Burgundian Lorrainian Union
+vassal = {
+	first = BRG
+	second = LOR
+	start_date = 1771.2.1
+	end_date = 1945.1.1
+}
+
+#Malaysian Khanate - Java
+vassal = {
+	first = IKH
+	second = JAV
+	start_date = 1215.5.2
+	end_date = 1945.1.1
+}
+
+#Malaysian Khanate - Aceh
+vassal = {
+	first = IKH
+	second = ATJ
+	start_date = 1208.3.9
+	end_date = 1945.1.1
+}
+
+#Malaysian Khanate - Bali
+vassal = {
+	first = IKH
+	second = BAL
+	start_date = 1217.7.4
+	end_date = 1945.1.1
+}
+
+#Malaysian Khanate - Papua
+vassal = {
+	first = IKH
+	second = PAU
+	start_date = 1220.2.12
+	end_date = 1945.1.1
+}
+
+#Wurtemburgian - Austrian Union
+vassal = {
+	first = WUR
+	second = AUS
+	start_date = 1743.12.11
+	end_date = 1913.2.5
+}

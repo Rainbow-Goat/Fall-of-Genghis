@@ -1,0 +1,7 @@
+owner = LUH
+controller = LUH
+add_core = LUH
+add_core = UKR
+trade_goods = fish
+life_rating = 35
+naval_base = 1

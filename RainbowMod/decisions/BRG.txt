@@ -1,0 +1,126 @@
+political_decisions = {
+    deal_with_picard = {
+        potential = {
+            tag = BRG
+            NOT = {
+                accepted_culture = picard
+                has_country_flag = rhineland_protectorate
+            }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            prestige = 50
+            395 = {
+                owned_by = THIS
+            }
+            400 = {
+                owned_by = THIS
+            }
+            404 = {
+                owned_by = THIS
+            }
+        }
+        effect = {
+            add_accepted_culture = picard
+        }
+    }
+    duke_of_lotharingia = {
+        potential = {
+            tag = BRG
+            accepted_culture = picard
+            NOT = {
+                has_country_flag = rhineland_protectorate
+            }
+        }
+        allow = {
+            revolution_n_counterrevolution = 1
+            411 = {
+                owned_by = THIS
+            }
+            425 = {
+                owned_by = THIS
+            }
+            428 = {
+                owned_by = THIS
+            }
+            438 = {
+                owned_by = THIS
+            }
+            BRG = {
+                all_core = {
+                    owned_by = BRG
+                }
+            }
+            NOT = {
+                exists = ORL
+            }
+        }
+        effect = {
+            ORL = {
+                all_core = {
+                    add_core = BRG
+                }
+            }
+            add_accepted_culture = french
+            set_country_flag = lotharingia_restored
+        }
+    }
+    protect_the_rhineland = {
+        potential = {
+            tag = BRG
+            NOT = {
+                OR = {
+                    accepted_culture = rhenish
+                    accepted_culture = picard
+                    has_global_flag = holy_slavic_empire
+                }
+            }
+        }
+        allow = {
+            RHN = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            prestige = 50
+        }
+        effect = {
+            add_accepted_culture = rhenish
+            set_country_flag = rhineland_protectorate
+        }
+    }
+
+    # vanilla stuff
+
+    rename_the_congo = {
+		potential = {
+			tag = BRG
+			exists = CNG
+			CNG = {
+				vassal_of = THIS
+			}
+			NOT = {
+				has_global_flag = congo_renamed
+			}
+		}
+		
+		allow = {
+			invention = mission_to_civilize
+		}
+		
+		effect = {
+			1987 = {
+				change_province_name = "Elisabethville"
+			}		
+			1982 = {
+				change_province_name = "Leopoldville"
+			}
+			1996 = {
+				change_province_name = "Stanleyville"
+			}
+			prestige = 10
+			set_global_flag = congo_renamed
+		}
+	}
+}

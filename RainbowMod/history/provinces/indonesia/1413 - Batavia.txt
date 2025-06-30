@@ -1,0 +1,7 @@
+owner = IKH
+controller = IKH
+add_core = IKH
+add_core = JAV
+trade_goods = coffee
+life_rating = 30
+naval_base = 1

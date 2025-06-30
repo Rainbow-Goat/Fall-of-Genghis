@@ -1,0 +1,5 @@
+owner = IKH
+controller = IKH
+add_core = IKH
+trade_goods = timber
+life_rating = 30

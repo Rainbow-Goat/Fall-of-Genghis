@@ -1,0 +1,7 @@
+trade_goods = fish
+life_rating = 35
+colonial = 2
+owner = DEN
+controller = SWE
+add_core = DEN
+add_core = SCA

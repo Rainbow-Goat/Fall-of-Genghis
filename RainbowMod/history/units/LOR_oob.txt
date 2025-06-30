@@ -1,0 +1,31 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Arme du Lorreine"
+location = 411
+regiment = {
+name = "Regiment 0"
+type = guard
+home = 411
+}
+regiment = {
+name = "Regiment 1"
+type = cuirassier
+home = 411
+}
+regiment = {
+name = "Regiment 2"
+type = cuirassier
+home = 411
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

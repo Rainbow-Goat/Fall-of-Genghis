@@ -1,0 +1,6 @@
+owner = LYO
+controller = LYO
+add_core = LYO
+add_core = FRA
+trade_goods = grain
+life_rating = 35

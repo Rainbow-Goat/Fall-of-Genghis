@@ -1,0 +1,121 @@
+political_decisions = {
+	form_holy_slavic_empire = {
+		potential = {
+				primary_culture = bohemian
+				NOT = {
+					OR = {
+						exists = HSE
+						year = 1860
+					}
+				}
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			HSE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						NOT = {
+							OR = {
+								culture = pommeranian
+								culture = bohemian
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 80
+			change_tag = HSE
+			add_accepted_culture = bohemian
+			add_accepted_culture = pommeranian
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = west_slavic
+						primary_culture = rhenish
+					}
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+			set_global_flag = holy_slavic_empire
+		}
+		ai_will_do = {
+				factor = 3
+		}
+	}
+	
+	form_kingdom_of_slavia = {
+		potential = {
+			OR = {
+				primary_culture = bohemian
+				primary_culture = pommeranian
+				primary_culture = polish
+			}
+			NOT = {
+				exists = KWS
+			}
+		}
+		allow = {
+			war = no
+			is_greater_power = yes
+			state_n_government = 1
+			HSE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						AND = {
+							NOT = { culture = pommeranian }
+							NOT = { culture = bohemian }
+						}
+					}
+				}
+			}
+		}	
+		effect = {
+			prestige = 40
+			change_tag = KWS
+			add_accepted_culture = bohemian
+			add_accepted_culture = pommeranian
+			HSE = {
+				all_core = {
+					limit = {
+						OR = {
+							culture = pommeranian
+							is_core = BOH
+						}
+					}
+					add_core = KWS
+				}
+			}
+			538 = { add_core = KWS }
+			544 = { add_core = KWS }
+			PRU_701 = { add_core = KWS }
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = pommeranian
+						primary_culture = rhenish
+					}
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
+		}
+		ai_will_do = {
+				factor = 1
+		}
+	}
+}

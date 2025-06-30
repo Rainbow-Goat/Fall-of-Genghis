@@ -1,0 +1,70 @@
+#Reunion (98000)
+#Ruled by France 1836
+#Reunion (98000/24500 POPS)
+2126 = {
+	aristocrats = {
+		culture = scottish
+		religion = protestant
+		size = 750
+	}
+
+	bureaucrats = {
+		culture = scottish
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = scottish
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+		culture = scottish
+		religion = protestant
+		size = 500
+	}
+
+	soldiers = {
+		culture = scottish
+		religion = protestant
+		size = 300
+	}
+
+	farmers = {
+		culture = scottish
+		religion = protestant
+		size = 5825
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = catholic
+		size = 850
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = catholic
+		size = 1825
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = catholic
+		size = 14000
+	}
+}

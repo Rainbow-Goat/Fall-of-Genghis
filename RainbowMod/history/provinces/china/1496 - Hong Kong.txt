@@ -1,0 +1,6 @@
+owner = BRG
+controller = BRG
+add_core = TPG
+add_core = CHI
+trade_goods = tea
+life_rating = 32

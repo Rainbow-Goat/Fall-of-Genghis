@@ -1,0 +1,427 @@
+army = {
+name = "Les fils du Vladimir"
+location = 2060
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 267
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 267
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 267
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 266
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 266
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 266
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 266
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 266
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 268
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 268
+}
+}
+army = {
+name = "Les fils du Vladimir"
+location = 269
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 268
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 269
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 269
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 269
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 269
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 269
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 269
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 271
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 271
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 270
+}
+}
+army = {
+name = "Les fils du Vladimir"
+location = 254
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 270
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 270
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 254
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 255
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 256
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 263
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 265
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 264
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 262
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 261
+}
+}
+
+navy = {
+name = "La marine des conquérants"
+location = 267
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}
+navy = {
+name = "La marine des conquérants"
+location = 254
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}
+navy = {
+name = "La marine des conquérants"
+location = 2060
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}

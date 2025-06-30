@@ -1,0 +1,8 @@
+owner = NCS
+controller = NCS
+add_core = NCS
+trade_goods = tobacco
+life_rating = 35
+naval_base = 2
+1861.1.1 = { owner = CSA controller = CSA add_core = CSA } 
+1861.1.1 = { railroad = 3 naval_base = 3 } 

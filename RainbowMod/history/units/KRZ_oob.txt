@@ -1,0 +1,31 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Free Army of Kreuznach"
+location = 574
+regiment = {
+name = "Regiment 0"
+type = cavalry
+home = 574
+}
+regiment = {
+name = "Regiment 1"
+type = infantry
+home = 574
+}
+regiment = {
+name = "Regiment 2"
+type = infantry
+home = 574
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

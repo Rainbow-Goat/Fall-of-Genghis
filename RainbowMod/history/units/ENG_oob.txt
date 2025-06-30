@@ -1,0 +1,372 @@
+#Sphere of Influence
+
+leader = {
+	name = "Thomas Cochrane"
+	date = 1832.1.1
+	type = sea
+	personality = charismatic
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Sir Edward Codrington"
+	date = 1836.1.1
+	type = sea
+	personality = daring
+	background = expert_raider
+	prestige = 0.3
+}
+
+leader = {
+	name = "Hugh Gough"
+	date = 1830.1.1
+	type = land
+	personality = dauntless
+	background = school_of_the_bayonet
+	prestige = 0.1
+}
+
+leader = {
+	name = "Sir George Cockburn"
+	date = 1812.1.1
+	type = sea
+	personality = earnest
+	background = old_school
+	prestige = 0.3
+}
+
+leader = {
+	name = "John Seaton"
+	date = 1825.1.1
+	type = land
+	personality = doughty
+	background = school_of_offense
+	prestige = 0.2
+}
+
+leader = {
+	name = "Whitworth-Aylmer"
+	date = 1825.1.1
+	type = land
+	personality = reserved
+	background = generals_aide
+	prestige = 0.1
+}
+
+leader = {
+	name = "Henry Hardinge"
+	date = 1830.1.1
+	type = land
+	personality = tactful
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "Henry Smith"
+	date = 1834.1.1
+	type = land
+	personality = efficient
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "John Fox Burgoyne"
+	date = 1836.1.1
+	type = land
+	personality = able
+	background = engineer
+	prestige = 0.0
+}
+
+leader = {
+	name = "Raglan"
+	date = 1836.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Sir George Brown"
+	date = 1836.1.1
+	type = land
+	personality = harsh
+	background = cavalry_school
+	prestige = 0.0
+}
+
+leader = {
+	name = "James Dundas"
+	date = 1836.1.1
+	type = sea
+	personality = cautious
+	background = elderly
+	prestige = 0.0
+}
+
+army = {
+	name = "1st Army"
+	location = 296 #Namur
+	regiment = {
+		name= "Burgundian Nigga Horse"
+		type = hussar
+		home = 387 #Brussels
+	}
+
+	regiment = {
+		name= "2eme Brigade de Cavalerie"
+		type = artillery
+		home = 297 #Liege
+	}
+
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 298 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 296 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 294 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 295 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 300 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 300 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 300 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 300 #Hasselt
+	}
+
+}
+
+army = {
+	name = "2nd Army"
+	location = 281 #Namur
+	regiment = {
+		name= "Burgundian Nigga Horse"
+		type = hussar
+		home = 293 #Brussels
+	}
+
+	regiment = {
+		name= "2eme Brigade de Cavalerie"
+		type = artillery
+		home = 292 #Liege
+	}
+
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 291 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 289 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 287 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 286 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 284 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 290 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 288 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 285 #Hasselt
+	}
+
+}
+
+army = {
+	name = "3rd Army"
+	location = 280 #Namur
+	regiment = {
+		name= "Burgundian Nigga Horse"
+		type = hussar
+		home = 280 #Brussels
+	}
+
+	regiment = {
+		name= "2eme Brigade de Cavalerie"
+		type = artillery
+		home = 280 #Liege
+	}
+
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 280 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 280 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 277 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = artillery
+		home = 277 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 278 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 278 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 282 #Hasselt
+	}
+	regiment = {
+		name= "3e Cavalerie Brigade"
+		type = infantry
+		home = 281 #Hasselt
+	}
+
+}
+
+navy = {
+name = "La marine des conquérants"
+location = 277
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}

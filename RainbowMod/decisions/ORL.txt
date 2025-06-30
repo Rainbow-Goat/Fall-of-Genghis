@@ -1,0 +1,55 @@
+political_decisions = {
+    unite_the_duchies = {
+        potential = {
+            tag = ORL
+            is_our_vassal = LYO
+            is_our_vassal = TOU
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            owns = 425
+            is_our_vassal = LYO
+            is_our_vassal = TOU
+            has_recently_lost_war = no
+        }
+        effect = {
+            prestige = 20
+            inherit = LYO
+            inherit = TOU
+        }
+    }
+    king_of_the_french = {
+        potential = {
+            OR = {
+                tag = ORL
+                tag = LYO
+                tag = TOU
+                tag = LOR
+                tag = PRO
+                tag = NRM
+            }
+            NOT = {
+                exists = FRA
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            FRA = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            is_greater_power = yes
+        }
+        effect = {
+            change_tag = FRA
+            prestige = 50
+            419 = { add_core = FRA }
+            FRA_418 = { add_core = FRA }
+            FRA_420 = { add_core = FRA }
+            FRA_435 = { add_core = FRA }
+        }
+    }
+}

@@ -1,0 +1,403 @@
+political_decisions = {
+    end_the_civil_war = {
+        potential = {
+            OR = {
+                tag = SWE
+                tag = DEN
+            }
+            NOT = {
+                exists = SCA
+            }
+        }
+        allow = {
+            war = no
+            SCA = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            SWE = {
+                country_event = 100200
+            }
+            DEN = {
+                country_event = 100201
+            }
+            war_exhaustion = -10
+        }
+    }
+
+    our_return_to_the_isles = {
+        potential = {
+            tag = SCA
+            has_country_flag = scandi_danelaw_path
+            NOT = {
+                281 = { is_core = SCA }
+                290 = { is_core = SCA }
+                291 = { is_core = SCA }
+            }
+        }
+        allow = {
+            war = no
+            281 = { owned_by = SCA }
+            290 = { owned_by = SCA }
+        }
+        effect = {
+            ENG_280 = { add_core = SCA }
+            ENG_284 = { add_core = SCA }
+            ENG_291 = { add_core = SCA }
+        }
+    }
+
+    expanding_the_danelaw = {
+        potential = {
+            tag = SCA
+            has_country_flag = scandi_danelaw_path
+            281 = { is_core = SCA }
+            290 = { is_core = SCA }
+            291 = { is_core = SCA }
+            NOT = {
+                273 = { is_core = SCA }
+                277 = { is_core = SCA }
+                278 = { is_core = SCA }
+                296 = { is_core = SCA }
+                300 = { is_core = SCA }
+            }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            277 = { owned_by = SCA }
+            300 = { owned_by = SCA }
+        }
+        effect = {
+            ENG_273 = { add_core = SCA }
+            ENG_277 = { add_core = SCA }
+            ENG_296 = { add_core = SCA }
+            ENG_300 = { add_core = SCA }
+        }
+    }
+
+    integrating_the_norse = {
+        potential = {
+            tag = SCA
+            has_country_flag = scandi_danelaw_path
+            281 = { is_core = SCA }
+            290 = { is_core = SCA }
+            291 = { is_core = SCA }
+            NOT = {
+                accepted_culture = norse
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            281 = { owned_by = SCA }
+            290 = { owned_by = SCA }
+            291 = { owned_by = SCA }
+        }
+        effect = {
+            add_accepted_culture = norse
+        }
+    }
+
+    end_of_holsteinian_independence = {
+        potential = {
+            tag = SCA
+            NOT = {
+                369 = {
+                    is_core = SCA
+                }
+            }
+        }
+        allow = {
+            is_our_vassal = HOL
+            nationalism_n_imperialism = 1
+        }
+        effect = {
+            inherit = HOL
+            HOL = {
+                all_core = {
+                    add_core = SCA
+                }
+            }
+        }
+    }
+
+    restore_the_kurland_march = {
+        potential = {
+            tag = SCA
+            has_country_flag = scandi_baltic_path
+            NOT = {
+                350 = {
+                    is_core = SCA
+                }
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            350 = {
+                owned_by = SCA
+            }
+            354 = {
+                owned_by = SCA
+            }
+        }
+        effect = {
+            RUS_349 = { add_core = SCA }
+            RUS_354 = { add_core = SCA }
+            RUS_994 = { add_core = SCA }
+            339 = { add_core = SCA}
+            add_accepted_culture = estonian
+        }
+    }
+
+    protecting_the_germans = {
+        potential = {
+            tag = SCA
+            accepted_culture = estonian
+            has_country_flag = scandi_baltic_path
+            NOT = {
+                AND = {
+                    546 = { is_core = SCA }
+                    550 = { is_core = SCA }
+                    557 = { is_core = SCA }
+                }
+            }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            OR = {
+                548 = { owned_by = SCA }
+                546 = { owned_by = SCA }
+            }
+            AND = {
+                550 = { owned_by = SCA }
+                551 = { owned_by = SCA }
+            }
+            557 = { owned_by = SCA }
+        }
+        effect = {
+            PRU_546 = { add_core = SCA }
+            550 = { add_core = SCA }
+            551 = { add_core = SCA }
+            557 = { add_core = SCA }
+        }
+    }
+
+    one_people_one_kingdom = {
+        potential = {
+            tag = SCA
+            has_country_flag = scandi_baltic_path
+            NOT = {
+                accepted_culture = north_german
+            }
+            557 = { is_core = SCA }
+        }
+        allow = {
+            war = no
+            empiricism = 1
+            SCA = {
+                all_core = { owned_by = SCA }
+            }
+        }
+        effect = {
+            add_accepted_culture = north_german
+        }
+    }
+
+    claim_prussia = {
+        potential = {
+            tag = SCA
+            has_country_flag = scandi_baltic_path
+            NOT = {
+                accepted_culture = teuton
+            }
+            accepted_culture = north_german
+        }
+        allow = {
+            war = no
+            690 = {
+                OR = {
+                    owned_by = SCA
+                    owner = {
+                        in_sphere = SCA
+                    }
+                }
+            }
+            695 = {
+                OR = {
+                    owned_by = SCA
+                    owner = {
+                        in_sphere = SCA
+                    }
+                }
+            }
+        }
+        effect = {
+            PRU_690 = { add_core = SCA }
+            PRU_695 = { add_core = SCA }
+            365 = { add_core = SCA }
+            691 = { add_core = SCA }
+            692 = { add_core = SCA }
+            add_accepted_culture = teuton
+        }
+    }
+
+    # Vanilla stuff
+
+	svenska_pansarbats_foreningen = {
+		potential = {
+			tag = SCA
+			owns = 329
+			NOT = {
+				has_country_flag = hms_sverige_built
+			}
+			any_neighbor_country = {
+				invention = protected_cruisers
+			}
+		}
+		allow = {
+			NOT = {
+				average_militancy = 3
+			}
+			steel_steamers = 1
+		}
+		effect = {
+			any_pop = {
+				money = -0.1
+			}
+			329 = {
+				sub_unit = {
+					type = cruiser
+					value = current
+				}
+			}
+			set_country_flag = hms_sverige_built
+		}
+	}
+	pass_folkskolereformen = {
+		potential = {
+			tag = SCA
+			NOT = {
+				has_country_modifier = folkis_educates
+			}
+		}
+		allow = {
+			ideological_thought = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = folkis_educates
+				duration = -1
+			}
+		}
+	}
+	
+	the_vega_expedition = {
+		potential = {
+			tag = SCA
+			has_global_flag = suez_canal_built
+			NOT = {
+				has_country_flag = the_vega_expedition_went
+			}
+		}
+		allow = {
+			biologism = 1
+			iron_steamers = 1
+		}
+		effect = {
+			prestige = 5
+			years_of_research = 0.05
+			badboy = -1
+			set_country_flag = the_vega_expedition_went
+		}
+	}
+	
+	expand_motala_verkstad = {
+		potential = {
+			tag = SCA
+			owns = 325
+			NOT = {
+				has_global_flag = motala_verkstad_expanded
+			}
+		}
+		allow = {
+			mechanical_production = 1
+			325 = {
+				state_scope = {
+					has_building = machine_parts_factory
+				}
+			}
+		}
+		effect = {
+			325 = {
+				add_province_modifier = {
+					name = motala_verkstad
+					duration = -1
+				}
+			}
+			prestige = 5
+			set_global_flag = motala_verkstad_expanded
+		}
+	}
+	
+	court_yard_speech = {
+		potential = {
+			tag = SCA
+			government = hms_government
+			OR = {
+				vote_franschise = wealth_weighted_voting
+				vote_franschise = wealth_voting
+			}
+			NOT = {
+				has_country_flag = court_yard_speech_held
+			}
+		}
+		allow = {
+			OR = {
+				war_policy = pacifism
+				war_policy = anti_military
+			}
+			OR = {
+				pro_military = 10
+				jingoism = 10
+			}
+		}
+		effect = {
+			ruling_party_ideology = conservative
+			any_pop = {
+				militancy = -0.5
+				
+			}
+			set_country_flag = court_yard_speech_held
+		}
+	}
+
+    danmarks_riges_grundlov = {
+		potential = {
+			tag = SCA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = danish_constitutionalism
+			}
+		}
+		
+		allow = {
+			state_n_government = 1
+			NOT = {
+				average_militancy = 3
+			}
+		}
+		
+		effect = {
+			political_reform = landed_voting
+			government = hms_government
+			prestige = 5
+			set_country_flag = danish_constitutionalism
+		}
+	}
+}

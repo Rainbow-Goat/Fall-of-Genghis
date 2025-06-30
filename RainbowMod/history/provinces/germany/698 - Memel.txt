@@ -1,0 +1,6 @@
+add_core = TEU
+trade_goods = fish
+life_rating = 36
+owner = TEU
+controller = TEU
+1861.1.1 = { railroad = 3 } 

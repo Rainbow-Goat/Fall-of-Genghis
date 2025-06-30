@@ -1,0 +1,6 @@
+trade_goods = iron
+life_rating = 38
+add_core = HSE
+owner = BOH
+controller = BOH
+add_core = BOH

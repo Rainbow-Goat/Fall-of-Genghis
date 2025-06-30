@@ -1,0 +1,5 @@
+add_core = MER
+trade_goods = timber
+life_rating = 25
+owner = MER
+controller = MER

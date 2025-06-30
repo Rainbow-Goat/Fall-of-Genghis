@@ -1,0 +1,90 @@
+political_decisions = {
+    integrate_the_slaves = {
+        potential = {
+            tag = HSE
+            NOT = { accepted_culture = north_german }
+        }
+        allow = {
+            early_railroad = 1
+            slavery = no_slavery
+            369 = { owned_by = THIS }
+            546 = { owned_by = THIS }
+            548 = { owned_by = THIS }
+            549 = { owned_by = THIS }
+            557 = { owned_by = THIS }
+        }
+        effect = {
+            add_accepted_culture = north_german
+            any_pop = {
+                limit = {
+                    is_culture_group = germanic
+                }
+                militancy = -2
+                consciousness = -2
+            }
+        }
+    }
+    
+    crush_the_south = {
+        potential = {
+            tag = HSE
+            NOT = { accepted_culture = south_german }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            HSE = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        NOT = { culture = south_german }
+                    }
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = south_german
+            prestige = -20
+            any_pop = {
+                OR = {
+                    culture = north_german
+                    culture = south_german
+                    culture = rhenish
+                }
+            }
+            militancy = 2
+            consciousness = 3
+        }
+    }
+
+    strangle_the_rhine = {
+        potential = {
+            tag = HSE
+            NOT = { accepted_culture = rhenish }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            HSE = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        NOT = { culture = rhenish }
+                    }
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = rhenish
+            any_pop = {
+                OR = {
+                    culture = rhenish
+                    culture = south_german
+                    culture = north_german
+                }
+                militancy = 2
+                consciousness = 3
+            }
+        }
+    }
+}

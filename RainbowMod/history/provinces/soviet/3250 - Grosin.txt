@@ -1,0 +1,6 @@
+owner = LUH
+controller = LUH
+add_core = LUH
+add_core = UKR
+trade_goods = coal
+life_rating = 35

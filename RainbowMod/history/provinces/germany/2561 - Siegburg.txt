@@ -1,0 +1,9 @@
+owner = KBZ
+controller = KBZ
+add_core = KBZ
+add_core = RHN
+add_core = HSE
+add_core = GER
+trade_goods = cattle
+life_rating = 40
+1861.1.1 = { railroad = 3 } 

@@ -1,0 +1,7 @@
+owner = LUH
+controller = LUH
+add_core = LUH
+add_core = UKR
+# add_core = PLC
+trade_goods = coal
+life_rating = 35

@@ -1,0 +1,5 @@
+owner = MER
+controller = MER
+add_core = MER
+trade_goods = fish
+life_rating = 20

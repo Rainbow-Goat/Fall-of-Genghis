@@ -1,0 +1,5 @@
+owner = CAS
+controller = CAS
+add_core = VNZ
+trade_goods = tropical_wood
+life_rating = 25

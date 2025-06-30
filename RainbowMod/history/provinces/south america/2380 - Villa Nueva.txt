@@ -1,0 +1,5 @@
+owner = FDL
+controller = FDL
+add_core = FDL
+trade_goods = grain
+life_rating = 35

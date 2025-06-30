@@ -1,0 +1,9 @@
+owner = WSF
+controller = WSF
+add_core = WSF
+add_core = RHN
+add_core = HSE
+add_core = GER
+trade_goods = coal
+life_rating = 40
+1861.1.1 = { railroad = 3 } 

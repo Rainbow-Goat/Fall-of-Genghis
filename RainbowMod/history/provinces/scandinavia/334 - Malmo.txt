@@ -1,0 +1,8 @@
+trade_goods = grain
+life_rating = 35
+add_core = SWE
+owner = DEN
+controller = DEN
+add_core = DEN
+add_core = SCA
+1861.1.1 = { railroad = 3 } 

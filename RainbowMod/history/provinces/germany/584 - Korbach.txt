@@ -1,0 +1,9 @@
+owner = HEK
+controller = HEK
+add_core = HEK
+add_core = RHN
+add_core = HSE
+add_core = GER
+trade_goods = timber
+life_rating = 40
+1861.1.1 = { railroad = 3 } 

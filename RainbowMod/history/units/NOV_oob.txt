@@ -1,0 +1,54 @@
+army = {
+name = "Les fils de la Gaule"
+location = 994
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 994
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 994
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 994
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 994
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 997
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1006
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 1003
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 3253
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 989
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 991
+}
+}

@@ -1,0 +1,6 @@
+owner = ALA
+controller = ALA
+add_core = ALA
+add_core = ALD
+trade_goods = iron
+life_rating = 35

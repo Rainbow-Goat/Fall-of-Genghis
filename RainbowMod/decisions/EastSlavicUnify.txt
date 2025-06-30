@@ -1,0 +1,133 @@
+political_decisions = {
+    reunite_the_rus = {
+        potential = {
+            OR = {
+                primary_culture = russian
+                primary_culture = ukrainian
+                primary_culture = byelorussian
+            }
+            NOT = { exists = KIE }
+            NOT = { tag = RUS }
+            NOT = { tag = UKR }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            958 = { owned_by = THIS }
+            963 = { owned_by = THIS }
+            977 = { owned_by = THIS }
+            1008 = { owned_by = THIS }
+        }
+        effect = {
+            change_tag = KIE
+            add_accepted_culture = russian
+            add_accepted_culture = ukrainian
+            add_accepted_culture = byelorussian
+            prestige = 20
+            SMO = { all_core = { add_core = KIE } }
+            LUH = { all_core = { add_core = KIE } }
+            ROS = { all_core = { add_core = KIE } }
+            RYA = { all_core = { add_core = KIE } }
+            GRO = { all_core = { add_core = KIE } }
+            SMO = { all_core = { add_core = KIE } }
+            SRT = { all_core = { add_core = KIE } }
+        }
+    }
+
+    abandon_the_cossacks = {
+        potential = {
+            OR = {
+                primary_culture = russian
+                primary_culture = byelorussian
+            }
+            NOT = { exists = RUS }
+            NOT = { exists = KIE }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            NOV = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+            VLA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+            RYA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = RUS
+            primary_culture = russian
+            add_accepted_culture = byelorussian
+            country_event = 100300
+            NOV = { all_core = { add_core = RUS } }
+            VLA = { all_core = { add_core = RUS } }
+            RYA = { all_core = { add_core = RUS } }
+            SMO = { all_core = { add_core = RUS } }
+        }
+    }
+
+    a_unified_cossack_state = {
+        potential = {
+            OR = {
+                primary_culture = ukrainian
+                primary_culture = ruthenian
+            }
+            NOT = { tag = KIE }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            958 = { owned_by = THIS }
+            963 = { owned_by = THIS }
+            1039 = { owned_by = THIS }
+            LUH = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+            ROS = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = UKR
+            prestige = 10
+            badboy = -5
+        }
+    }
+}

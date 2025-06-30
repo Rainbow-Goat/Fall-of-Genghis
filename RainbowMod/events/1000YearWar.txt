@@ -1,0 +1,120 @@
+# English Victory
+country_event = {
+		id = 100000
+		title = "EVTNAME100000"
+		desc = "EVTDESC100000"
+		
+		trigger = {
+			tag = ENG
+			has_global_flag = english_win_1000
+			NOT = {
+				has_global_flag = norman_win_1000
+			}
+			NOT = {
+				has_country_flag = englaland_rules_waves
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = {
+			name = "The Anglish shall live in fear no longer!"
+			prestige = 30
+			political_reform = yes_meetings
+			political_reform = free_press
+			set_country_flag = englaland_rules_waves
+		}
+}
+
+#Normandien Loss
+country_event = {
+		id = 100001
+		title = "EVTNAME100001"
+		desc = "EVTDESC100001"
+		
+		trigger = {
+			tag = NRM
+			has_global_flag = english_win_1000
+			NOT = {
+				has_global_flag = norman_win_1000
+			}
+			NOT = {
+				has_country_flag = william_insists
+			}
+			NOT = {
+				has_country_flag = william_renounces
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 3
+		}
+		
+		option = {
+			name = "We are still the true heirs!"
+			prestige = -20
+			any_pop = {
+				limit = {
+					has_pop_culture = norman
+				}
+				militancy = 4
+				consciousness =  1.5
+			}
+			any_owned = {
+				limit = {
+					is_core = ENG
+				}
+				secede_province = ENG
+				remove_core = NRM
+			}
+			set_country_flag = william_insists
+		}
+		
+		option = {
+			name = "We should end this foolish conflict..."
+			prestige = -10
+			any_pop = {
+				limit = {
+					has_pop_culture = norman
+				}
+				militancy = -0.5
+			}
+			any_owned = {
+				limit = {
+					is_core = ENG
+				}
+				secede_province = ENG
+				remove_core = NRM
+			}
+			set_country_flag = william_renounces
+		}
+}
+
+country_event = {
+		id = 100002
+		title = "EVTNAME100002"
+		desc = "EVTDESC100002"
+		
+		trigger = {
+			tag = NRM
+			has_global_flag = norman_win_1000
+			NOT = {
+				has_global_flag = english_win_1000
+			}
+			NOT = {
+				has_country_flag = the_norman_conquest
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = {
+			name = "We prevailed! Long live William the Conqueror!"
+			prestige = 10
+			set_country_flag = the_norman_conquest
+		}
+}

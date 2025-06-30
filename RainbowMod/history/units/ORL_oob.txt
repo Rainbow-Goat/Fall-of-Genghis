@@ -1,0 +1,211 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Les Vengeurs de Jean"
+location = 438
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 438
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 438
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 438
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 440
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 440
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 429
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 441
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 441
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 441
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 443
+}
+}
+army = {
+name = "Les fils de la Gaule"
+location = 446
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 446
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 446
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 438
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 438
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 434
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 437
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 439
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 439
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 443
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 445
+}
+}
+
+
+#========================= S E A =========================
+navy = {
+name = "La marine des roi"
+location = 442
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 6"
+type = manowar
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 7"
+type = frigate
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+ship = {
+name = "Ship 31"
+type = clipper_transport
+}
+}
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

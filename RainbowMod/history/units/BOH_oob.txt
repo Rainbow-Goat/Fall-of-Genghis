@@ -1,0 +1,164 @@
+army = {
+name = "Imperial Guard"
+location = 625
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 683
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 625
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 633
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 630
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 629
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 627
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 628
+}
+regiment = {
+name = "Regiment 7"
+type = infantry
+home = 626
+}
+regiment = {
+name = "Regiment 8"
+type = infantry
+home = 632
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 560 
+}
+}
+
+army = {
+name = "Army of Saksonia"
+location = 558
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 559
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 627
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 627
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 628
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 630
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 625
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 625
+}
+regiment = {
+name = "Regiment 7"
+type = infantry
+home = 631
+}
+regiment = {
+name = "Regiment 8"
+type = infantry
+home = 631
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 629 
+}
+}
+
+army = {
+name = "The Silesian Guard"
+location = 682
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 625
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 625
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 689
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 684
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 684
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 631
+}
+regiment = {
+name = "Regiment 6"
+type = infantry
+home = 626
+}
+regiment = {
+name = "Regiment 7"
+type = infantry
+home = 631
+}
+regiment = {
+name = "Regiment 8"
+type = infantry
+home = 632
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 631 
+}
+}

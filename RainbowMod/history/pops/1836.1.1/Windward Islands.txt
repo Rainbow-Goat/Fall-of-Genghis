@@ -1,0 +1,269 @@
+#Windward Islands Region - 188000
+#Barbados (100000/25000 POPS) #now independent
+2229 = {
+	aristocrats = {
+		culture = andalusian
+		religion = sunni
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = andalusian
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = andalusian
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = andalusian
+		religion = sunni
+		size = 1750
+	}
+
+	soldiers = {
+		culture = andalusian
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = andalusian
+		religion = sunni
+		size = 1100
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 2750
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 250
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 18925
+	}
+}
+#Saint Lucia (18000/4500 POPS) #now independent
+2231 = {
+	aristocrats = {
+		culture = castillian
+		religion = catholic
+		size = 10
+	}
+
+	clergymen = {
+		culture = castillian
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = castillian
+		religion = catholic
+		size = 130
+	}
+
+	farmers = {
+		culture = castillian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 100
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = catholic
+		size = 4050
+	}
+}
+#Dominica (19000/4750 POPS) #now independent
+2232 = {
+	aristocrats = {
+		culture = andalusian
+		religion = sunni
+		size = 10
+	}
+
+	clergymen = {
+		culture = andalusian
+		religion = sunni
+		size = 10
+	}
+
+	artisans = {
+		culture = andalusian
+		religion = sunni
+		size = 130
+	}
+
+	farmers = {
+		culture = andalusian
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 4250
+	}
+}
+#Grenada (30000/7500 POPS) #now independent
+2233 = {
+	aristocrats = {
+		culture = andalusian
+		religion = sunni
+		size = 25
+	}
+
+	clergymen = {
+		culture = andalusian
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = andalusian
+		religion = sunni
+		size = 250
+	}
+
+	soldiers = {
+		culture = andalusian
+		religion = sunni
+		size = 5
+	}
+
+	farmers = {
+		culture = andalusian
+		religion = sunni
+		size = 200
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = sunni
+		size = 6725
+	}
+}
+#Saint Vincent (21000/5250 POPS) #now independent
+2409 = {
+	aristocrats = {
+		culture = burgundian
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = burgundian
+		religion = protestant
+		size = 10
+	}
+
+	artisans = {
+		culture = burgundian
+		religion = protestant
+		size = 130
+	}
+
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 100
+	}
+
+	clergymen = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 200
+	}
+
+	soldiers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_caribbean
+		religion = protestant
+		size = 4700
+	}
+}

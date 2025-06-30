@@ -1,0 +1,51 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Les gardes-frontières"
+location = 455
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 455
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 458
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 456
+}
+regiment = {
+name = "Regiment 3"
+type = infantry
+home = 457
+}
+regiment = {
+name = "Regiment 3"
+type = infantry
+home = 463
+}
+regiment = {
+name = "Regiment 3"
+type = infantry
+home = 463
+}
+regiment = {
+name = "Regiment 7"
+type = dragoon
+home = 463
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

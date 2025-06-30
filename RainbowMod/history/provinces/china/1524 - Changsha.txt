@@ -1,0 +1,6 @@
+add_core = MIN
+trade_goods = tea
+life_rating = 32
+owner = MIN
+controller = MIN
+add_core = CHI

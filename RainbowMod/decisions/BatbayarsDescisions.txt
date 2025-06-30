@@ -1,0 +1,504 @@
+political_decisions = {
+	unite_greater_mongolia_BAT = {
+		potential = {
+			not = { has_country_flag = greaterMongolia }
+			tag = BAT
+		}
+		
+		allow = {
+			OYI = {
+				all_core = { owned_by = THIS }
+			}
+			MER = {
+				all_core = { owned_by = THIS }
+			}
+			CHA = {
+				all_core = { owned_by = THIS }
+			}
+			NAI = {
+				all_core = { owned_by = THIS }
+			}
+			OR = {
+				BAT = {
+					all_core = { owned_by = THIS }
+				}
+				TAI = {
+					all_core = { owned_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = greaterMongolia
+			country_event = {
+				id = 80095
+				days = 1
+			}
+			OYI = { all_core = { add_core = THIS }}
+			MER = { all_core = { add_core = THIS }}
+			CHA = { all_core = { add_core = THIS }}
+			NAI = { all_core = { add_core = THIS }}
+			add_accepted_culture = siberian
+			prestige = 5
+		}
+	}
+	
+	subjugate_the_oyirat = {
+		potential = {
+			not = { tag = OYI }
+			or = {
+				primary_culture = mongol
+				tag = BOL
+				tag = MGL
+				tag = MGE
+			}
+			neighbour = OYI
+			exists = OYI
+			not = { badboy = 0.35 }
+		}
+		
+		allow = {
+			not = { has_recently_lost_war = yes }
+			military_score = OYI
+		}
+		
+		effect = {
+			casus_belli = {
+				target = OYI
+				type = mongol_subjugation
+				months = 12
+			}
+			badboy = 12
+		}
+	}
+	
+	subjugate_the_taichiud = {
+		potential = {
+			not = { tag = TAI }
+			or = {
+				primary_culture = mongol
+				tag = BOL
+				tag = MGL
+				tag = MGE
+			}
+			neighbour = TAI
+			exists = TAI
+			not = { badboy = 0.35 }
+		}
+		
+		allow = {
+			not = { has_recently_lost_war = yes }
+			military_score = TAI
+		}
+		
+		effect = {
+			casus_belli = {
+				target = TAI
+				type = mongol_subjugation
+				months = 12
+			}
+			badboy = 10
+		}
+	}
+	
+	subjugate_batbayarstan = {
+		potential = {
+			not = { tag = BAT }
+			or = {
+				primary_culture = mongol
+				tag = BOL
+				tag = MGL
+				tag = MGE
+			}
+			neighbour = BAT
+			exists = BAT
+			not = { badboy = 0.35 }
+		}
+		
+		allow = {
+			not = { has_recently_lost_war = yes }
+			military_score = BAT
+		}
+		
+		effect = {
+			casus_belli = {
+				target = BAT
+				type = mongol_subjugation
+				months = 12
+			}
+			badboy = 10
+		}
+	}
+	
+	subjugate_the_merkits = {
+		potential = {
+			not = { tag = MER }
+			or = {
+				primary_culture = mongol
+				tag = BOL
+				tag = MGL
+				tag = MGE
+			}
+			exists = MER
+			neighbour = MER
+			not = { badboy = 0.35 }
+		}
+		
+		allow = {
+			not = { has_recently_lost_war = yes }
+			military_score = MER
+		}
+		
+		effect = {
+			casus_belli = {
+				target = MER
+				type = mongol_subjugation
+				months = 12
+			}
+			badboy = 12
+		}
+	}
+	
+	subjugate_the_naiman = {
+		potential = {
+			not = { tag = NAI }
+			or = {
+				primary_culture = mongol
+				tag = BOL
+				tag = MGL
+				tag = MGE
+			}
+			exists = NAI
+			neighbour = NAI
+			not = { badboy = 0.35 }
+		}
+		
+		allow = {
+			not = { has_recently_lost_war = yes }
+			military_score = NAI
+		}
+		
+		effect = {
+			casus_belli = {
+				target = NAI
+				type = mongol_subjugation
+				months = 12
+			}
+			badboy = 10
+		}
+	}
+	
+	subjugate_the_chagatai = {
+		potential = {
+			not = { tag = CHA }
+			or = {
+				primary_culture = mongol
+				tag = BOL
+				tag = MGL
+				tag = MGE
+			}
+			neighbour = CHA
+			exists = CHA
+			not = { badboy = 0.35 }
+		}
+		
+		allow = {
+			not = { has_recently_lost_war = yes }
+			military_score = CHA
+		}
+		
+		effect = {
+			casus_belli = {
+				target = CHA
+				type = mongol_subjugation
+				months = 12
+			}
+			badboy = 10
+		}
+	}
+	
+	make_landfall_in_our_homeland_BOL = {
+		potential = {
+			tag = BOL
+			not = { has_country_flag = attackKamchatka }
+			ai = no
+			not = { neighbour = MER }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			MER = { all_core = { add_core = THIS }}
+			1074 = { add_core = THIS }
+			badboy = 10
+			set_country_flag = attackKamchatka
+		}
+	}
+	
+	unite_greater_mongolia = {
+		potential = {
+			is_culture_group = mongolian
+			not = { has_country_flag = greaterMongolia }
+			not = { tag = BAT }
+			not = { tag = BOL }
+			not = { tag = TAI }
+		}
+		
+		allow = {
+			OYI = {
+				all_core = { owned_by = THIS }
+			}
+			MER = {
+				all_core = { owned_by = THIS }
+			}
+			CHA = {
+				all_core = { owned_by = THIS }
+			}
+			NAI = {
+				all_core = { owned_by = THIS }
+			}
+			OR = {
+				BAT = {
+					all_core = { owned_by = THIS }
+				}
+				TAI = {
+					all_core = { owned_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			country_event = {
+				id = 80096
+				days = 1
+			}
+			OYI = { all_core = { add_core = THIS }}
+			MER = { all_core = { add_core = THIS }}
+			CHA = { all_core = { add_core = THIS }}
+			NAI = { all_core = { add_core = THIS }}
+			add_accepted_culture = siberian
+			prestige = 10
+		}
+	}
+	
+	our_homeland_reunited_BOL = {
+		potential = {
+			is_culture_group = mongolian
+			not = { has_country_flag = greaterMongolia }
+			tag = BOL
+		}
+		
+		allow = {
+			OYI = {
+				all_core = { owned_by = THIS }
+			}
+			MER = {
+				all_core = { owned_by = THIS }
+			}
+			CHA = {
+				all_core = { owned_by = THIS }
+			}
+			NAI = {
+				all_core = { owned_by = THIS }
+			}
+			OR = {
+				BAT = {
+					all_core = { owned_by = THIS }
+				}
+				TAI = {
+					all_core = { owned_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			country_event = {
+				id = 80096
+				days = 1
+			}
+			OYI = { all_core = { add_core = THIS }}
+			MER = { all_core = { add_core = THIS }}
+			CHA = { all_core = { add_core = THIS }}
+			NAI = { all_core = { add_core = THIS }}
+			add_accepted_culture = mongol
+			add_accepted_culture = siberian
+			prestige = 50
+		}
+	}
+	
+	push_beyond_the_urals = {
+		potential = {
+			tag = MGE
+			not = { has_country_flag = MGE_expansion_one }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			set_country_flag = MGE_expansion_one
+			add_accepted_culture = russian
+			RUS_1026 = { add_core = THIS }
+			RUS_2589 = { add_core = THIS }
+			RUS_1060 = { add_core = THIS }
+			badboy = 5
+		}
+	}
+	
+	press_our_advantage = {
+		potential = {
+			tag = MGE
+			not = { has_country_flag = MGE_expansion_two }
+			#has_country_flag = MGE_expansion_one
+		}
+		
+		allow = {
+			RUS_1026 = { owned_by = THIS }
+			RUS_2589 = { owned_by = THIS }
+			RUS_1060 = { owned_by = THIS }
+		}
+		
+		effect = {
+			set_country_flag = MGE_expansion_two
+			RUS_1020 = { add_core = THIS }
+			RUS_990 = { add_core = THIS }
+			RUS_981 = { add_core = THIS }
+			badboy = 7
+			prestige = 20
+		}
+	}
+	
+	vanquish_the_weaklings = {
+		potential = {
+			tag = MGE
+			not = { has_country_flag = MGE_expansion_three }
+			#has_country_flag = MGE_expansion_two
+		}
+		
+		allow = {
+			RUS_1020 = { owned_by = THIS }
+			RUS_990 = { owned_by = THIS }
+			RUS_981 = { owned_by = THIS }
+		}
+		
+		effect = {
+			set_country_flag = MGE_expansion_three
+			badboy = 10
+			RUS_998 = { add_core = THIS }
+			RUS_1008 = { add_core = THIS }
+			RUS_1003 = { add_core = THIS }
+			994 = { add_core = THIS }
+			prestige = 20
+		}
+	}
+	
+	consolidate_russia = {
+		potential = {
+			tag = MGE
+			not = { has_country_flag = MGE_russia }
+		}
+		
+		allow = {
+			NOV = { all_core = { owned_by = THIS  }}
+			RYA = { all_core = { owned_by = THIS  }}
+			VLA = { all_core = { owned_by = THIS  }}
+		}
+		
+		effect = {
+			set_country_flag = MGE_russia
+			NOV = { all_core = { add_core = THIS  }}
+			RYA = { all_core = { add_core = THIS  }}
+			VLA = { all_core = { add_core = THIS  }}
+			prestige = 50
+		}
+	}
+	
+	the_riches_of_china = {
+		potential = {
+			has_country_flag = MglBAT
+			not = { has_country_flag = BatChina }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			set_country_flag = BatChina
+			CHI_1618 = { add_core = THIS }
+			CHI_1576 = { add_core = THIS }
+			badboy = 10
+		}
+	}
+	
+	our_southern_relatives = {
+		potential = {
+			has_country_flag = MglBAT
+			#has_country_flag = BatChina
+			not = { has_country_flag = BatChinaTwo }
+		}
+		
+		allow = {
+			owns = 1612
+		}
+		
+		effect = {
+			set_country_flag = BatChinaTwo
+			add_accepted_culture = gao_chen
+			CHI_1490 = { add_core = THIS }
+			CHI_1557 = { add_core = THIS }
+			CHI_2062 = { add_core = THIS }
+			CHI_1513 = { add_core = THIS }
+			YUA = { all_core = { add_core = THIS }}
+			badboy = 5
+			prestige = 25
+		}
+	}	
+	
+	the_manchurian_plains = {
+		potential = {
+			has_country_flag = MglBAT
+			not = { has_country_flag = BatManch }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			set_country_flag = BatManch
+			MCK = { all_core = { add_core = THIS }}
+			add_accepted_culture = manchu
+			badboy = 10
+		}
+	}
+
+	send_a_chariot_to_the_moon = {
+		potential = {
+			or = {
+				tag = MGL
+				tag = MGE
+				tag = GBT
+				tag = BAT
+			}
+			not = { has_country_flag = BATmoon_mission }
+		}
+		
+		allow = {
+			YUA = { all_core = { owned_by = THIS }}
+		}
+		
+		effect = {
+			country_event = {
+				id = 80097
+				days = 14
+			}
+			prestige = 10
+			money = -1000
+			set_country_flag = BATmoon_mission
+		}
+	}
+}

@@ -1,0 +1,6 @@
+owner = BLG
+controller = BLG
+add_core = BLG
+add_core = ALB
+trade_goods = cattle
+life_rating = 35

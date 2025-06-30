@@ -1,0 +1,6 @@
+owner = LYO
+controller = LYO
+add_core = LYO
+add_core = FRA
+trade_goods = timber
+life_rating = 31

@@ -1,0 +1,117 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Esercito d'Italia"
+location = 724
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 724
+}
+regiment = {
+name = "Regiment 1"
+type = infantry
+home = 723
+}
+regiment = {
+name = "Regiment 2"
+type = cavalry
+home = 720
+}
+regiment = {
+name = "Regiment 3"
+type = infantry
+home = 720
+}
+}
+army = {
+name = "Esercito della Gallia"
+location = 470
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 470
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 470
+}
+regiment = {
+name = "Regiment 2"
+type = cuirassier
+home = 468
+}
+regiment = {
+name = "Regiment 3"
+type = cuirassier
+home = 472
+}
+regiment = {
+name = "Regiment 4"
+type = infantry
+home = 469
+}
+}
+
+
+#========================= S E A =========================
+
+navy = {
+name = "Cacciatori di pirati"
+location = 470
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+ship = {
+name = "Ship 0"
+type = frigate
+}
+}
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

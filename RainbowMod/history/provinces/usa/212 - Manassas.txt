@@ -1,0 +1,5 @@
+owner = NCS
+controller = NCS
+add_core = NCS
+trade_goods = tobacco
+life_rating = 35

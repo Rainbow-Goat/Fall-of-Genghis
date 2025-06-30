@@ -1,0 +1,90 @@
+#Surinam : 56640
+#Ruled by The Netherlands 1836
+#Paramaribo (48640/12160 POPS)
+2240 = {
+	aristocrats = {
+		culture = castillian
+		religion = catholic
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = castillian
+		religion = catholic
+		size = 10
+	}
+
+	artisans = {
+		culture = castillian
+		religion = catholic
+		size = 50
+	}
+
+	soldiers = {
+		culture = castillian
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = castillian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = castillian
+		religion = catholic
+		size = 1750
+	}
+
+	farmers = {
+		culture = castillian
+		religion = catholic
+		size = 1200
+	}
+
+	soldiers = {
+		culture = castillian
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 9000
+	}
+}
+#Aperina (8000/2000 POPS)
+2245 = {
+	aristocrats = {
+		culture = aimara
+		religion = animist
+		size = 25
+	}
+
+	clergymen = {
+		culture = aimara
+		religion = animist
+		size = 50
+	}
+
+	artisans = {
+		culture = aimara
+		religion = animist
+		size = 100
+	}
+
+	soldiers = {
+		culture = aimara
+		religion = animist
+		size = 25
+	}
+
+	farmers = {
+		culture = aimara
+		religion = animist
+		size = 1750
+	}
+}

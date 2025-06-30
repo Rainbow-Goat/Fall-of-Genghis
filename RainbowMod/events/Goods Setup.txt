@@ -1,0 +1,213 @@
+country_event = {
+	id = 9999199
+	title = "Trade Goods Setup Large"
+	desc = "Event to give important countries starting goods"
+	picture = "census"
+
+	trigger = {
+		year = 1836
+		NOT = {
+			has_country_flag = Goods_Setup
+		}
+		OR = {
+			tag = BRG
+			tag = NRM
+			tag = BOH
+			tag = LIT
+		}
+	}
+
+	option = {
+		name = "Okay"
+		artillery = 800
+		small_arms = 800
+		canned_food = 1200
+		wine = 600
+		liquor = 600
+		ammunition = 200
+		machine_parts = 200
+		set_country_flag = Goods_Setup
+	}
+}
+
+country_event = {
+	id = 9999299
+	title = "Trade Goods Setup Medium"
+	desc = "Event to give important countries starting goods"
+	picture = "census"
+
+	trigger = {
+		year = 1836
+		NOT = {
+			has_country_flag = Goods_Setup
+		}
+		OR = {
+			tag = ENG
+			tag = VLA
+			tag = POM
+			tag = ARO
+		}
+	}
+
+	option = {
+		name = "Okay"
+		artillery = 400
+		small_arms = 400
+		canned_food = 600
+		wine = 300
+		liquor = 300
+		ammunition = 100
+		machine_parts = 200
+		set_country_flag = Goods_Setup
+	}
+}
+
+country_event = {
+	id = 9999399
+	title = "Trade Goods Setup Small"
+	desc = "Event to give important countries starting goods"
+	picture = "census"
+
+	trigger = {
+		year = 1836
+		NOT = {
+			has_country_flag = Goods_Setup
+		}
+		OR = {
+			tag = BYZ
+			tag = ORL
+			tag = VEN
+			tag = CAS
+			tag = ALA
+			tag = SCO
+			tag = SWE
+			tag = DEN
+			tag = HUN
+		}
+	}
+
+	option = {
+		name = "Okay"
+		artillery = 200
+		small_arms = 200
+		canned_food = 300
+		wine = 150
+		liquor = 150
+		ammunition = 50
+		machine_parts = 200
+		set_country_flag = Goods_Setup
+	}
+}
+
+country_event = {
+	id = 9999499
+	title = "Trade Goods Setup Tiny"
+	desc = "Event to give important countries starting goods"
+	picture = "census"
+
+	trigger = {
+		year = 1836
+		NOT = {
+			has_country_flag = Goods_Setup
+		}
+		OR = {
+			tag = MEX
+			tag = PRO
+			tag = POL
+			tag = SMO
+			tag = LUH
+			tag = KDS
+			tag = BLV
+		}
+	}
+
+	option = {
+		name = "Okay"
+		artillery = 100
+		small_arms = 100
+		canned_food = 150
+		wine = 75
+		liquor = 75
+		ammunition = 50
+		machine_parts = 200
+		set_country_flag = Goods_Setup
+	}
+}
+
+country_event = {
+	id = 9999599
+	title = "Trade Goods Setup China"
+	desc = "Event to give important countries starting goods"
+	picture = "census"
+
+	trigger = {
+		year = 1836
+		NOT = {
+			has_country_flag = Goods_Setup
+		}
+		OR = {
+			tag = YUA
+			tag = MIN
+			tag = YEL
+			tag = TPG
+		}
+	}
+
+	option = {
+		name = "Okay"
+		wool = 2000
+		wine = 2000
+		set_country_flag = Goods_Setup
+	}
+}
+
+country_event = {
+	id = 9999699
+	title = "Trade Goods Setup India"
+	desc = "Event to give important countries starting goods"
+	picture = "census"
+
+	trigger = {
+		year = 1836
+		NOT = {
+			has_country_flag = Goods_Setup
+		}
+		OR = {
+			tag = BNG
+			tag = ORI
+			tag = SIK
+		}
+	}
+
+	option = {
+		name = "Okay"
+		wool = 1000
+		wine = 1000
+		artillery = 200
+		small_arms = 600
+		ammunition = 100
+		liquor = 600
+		canned_food = 600
+		set_country_flag = Goods_Setup
+	}
+}
+
+country_event = {
+	id = 9999799
+	title = "Leadership Setup"
+	desc = "Apparently we have found several generals unaccounted for"
+	picture = "census"
+	
+	trigger = {
+		year = 1836
+		NOT = {
+			has_country_flag = Leadership_Setup
+		}
+	}
+	
+	option = {
+		name = "Marvellous"
+		leadership = 80
+		set_country_flag = Leadership_Setup
+	}
+}

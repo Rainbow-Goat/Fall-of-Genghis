@@ -1,0 +1,6 @@
+owner = CAS
+controller = CAS
+add_core = VNZ
+add_core = GCO
+trade_goods = cattle
+life_rating = 30

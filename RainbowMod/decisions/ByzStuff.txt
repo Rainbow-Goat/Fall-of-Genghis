@@ -1,0 +1,270 @@
+political_decisions = {
+
+    #BYZ path
+    our_destiny_in_the_east = {
+        potential = {
+            tag = BYZ
+            NOT = {
+                OR = {
+                    has_country_flag = byzantine_path
+                    has_country_flag = alexandrian_path
+                }
+            }
+        }
+        allow = {
+            war = no
+            year = 1840
+            owns = 894
+            owns = 895
+            owns = 900
+        }
+        effect = {
+            TUR_873 = { add_core = BYZ }
+            TUR_876 = { add_core = BYZ }
+            EGY_897 = { add_core = BYZ }
+            EGY_903 = { add_core = BYZ }
+            EGY_915 = { add_core = BYZ }
+            889 = { add_core = BYZ }
+            893 = { add_core = BYZ }
+            899 = { add_core = BYZ }
+            set_country_flag = byzantine_path
+        }
+    }
+
+    the_return_of_the_pharaohs = {
+        potential = {
+            tag = BYZ
+            OR = {
+                has_country_flag = byzantine_path
+                has_country_flag = alexandrian_path
+            }
+            NOT = { 1745 = { is_core = BYZ } }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            EGY = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            badboy = 15
+            EGY = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    destroying_our_old_enemy = {
+        potential = {
+            tag = BYZ
+            has_country_flag = byzantine_path
+            1745 = { is_core = THIS }
+            NOT = { 1725 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            TRI = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            TRI = {
+                all_core = {
+                    add_core = THIS
+                    remove_core = TRI
+                }
+            }
+        }
+    }
+
+    #Alexandrian path
+    #Work in progress
+
+
+    #Balkan path
+    securing_macedonia = {
+        potential = {
+            tag = BYZ
+            has_country_flag = byzantine_path
+            NOT = {
+                OR = {
+                    has_country_flag = alexandrian_path
+                    has_country_flag = balkan_path
+                }
+            }
+        }
+        allow = {
+            war = no
+            owns = 806
+            owns = 809
+        }
+        effect = {
+            TUR_803 = { add_core = THIS }
+            TUR_806 = { add_core = THIS }
+            TUR_809 = { add_core = THIS }
+            TUR_810 = { add_core = THIS }
+            TUR_853 = { add_core = THIS }
+            818 = { add_core = THIS }
+            set_country_flag = balkan_path
+        }
+    }
+
+    defensive_expansion = {
+        potential = {
+            tag = BYZ
+            has_country_flag = balkan_path
+            owns = 810
+            NOT = { has_country_flag = alexandrian_path }
+            NOT = { 798 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            BYZ = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            badboy = 10
+            SER_794 = { add_core = THIS }
+            MON_2582 = { add_core = THIS }
+            AUS_777 = { add_core = THIS }
+        }
+    }
+
+    restoring_old_illyria = {
+        potential = {
+            tag = BYZ
+            has_country_flag = balkan_path
+            NOT = { has_country_flag = balkan_domination }
+            NOT = { has_country_flag = alexandrian_path }
+            NOT = { 783 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            empiricism = 1
+            BYZ = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            NOT = { exists = CRO }
+        }
+        effect = {
+            badboy = 25
+            AUS_736 = { add_core = THIS }
+            AUS_768 = { add_core = THIS }
+            AUS_771 = { add_core = THIS }
+            AUS_780 = { add_core = THIS }
+            TUR_788 = { add_core = THIS }
+            set_country_flag = balkan_domination
+        }
+    }
+
+    recruit_the_bulgarians = {
+        potential = {
+            tag = BYZ
+            has_country_flag = balkan_path
+            810 = { is_core = BYZ }
+            NOT = { accepted_culture = bulgarian }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            BYZ = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = bulgarian
+            prestige = 15
+        }
+    }
+
+    local_serbian_administrators = {
+        potential = {
+            tag = BYZ
+            has_country_flag = balkan_domination
+            NOT = { accepted_culture = serb }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            BYZ = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = serb
+            prestige = 20
+        }
+    }
+
+
+    # Generic decisions
+
+    the_kayseri_accords = {
+        potential = {
+            tag = BYZ
+            has_country_flag = byzantine_path
+            NOT = { exists = RUM }
+            NOT = { accepted_culture = anatolian }
+        }
+        allow = {
+            war = no
+            biologism = 1
+            iron_railroad = 1
+            owns = 873
+            owns = 878
+            owns = 879
+            owns = 880
+            owns = 899
+        }
+        effect = {
+            add_accepted_culture = anatolian
+            prestige = 25
+        }
+    }
+
+    mend_the_schizm = {
+        potential = {
+            tag = BYZ
+            owns = 834
+            owns = 860
+            NOT = { accepted_culture = antiqua_greek }
+        }
+        allow = {
+            is_greater_power = yes
+            biologism = 1
+            nationalism_n_imperialism = 1
+            GRE = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = antiqua_greek
+            prestige = 50
+        }
+    }
+}

@@ -1,0 +1,7 @@
+trade_goods = cattle
+life_rating = 35
+add_core = HSE
+owner = BOH
+controller = BOH
+add_core = BOH
+1861.1.1 = { railroad = 2 } 

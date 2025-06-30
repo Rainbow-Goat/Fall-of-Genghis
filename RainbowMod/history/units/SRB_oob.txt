@@ -1,0 +1,36 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Army of Saarbrucken"
+location = 573
+regiment = {
+name = "Regiment 0"
+type = cuirassier
+home = 573
+}
+regiment = {
+name = "Regiment 1"
+type = guard
+home = 573
+}
+regiment = {
+name = "Regiment 2"
+type = guard
+home = 573
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 573
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+
