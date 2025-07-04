@@ -1,0 +1,150 @@
+political_decisions = {
+    form_aragon_italy = {
+        potential = {
+            tag = ARO
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            NOT = { exists = ITA }
+            ARO = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            ITA = { 
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                        owner = { is_our_vassal = THIS }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = ART
+            prestige = 40
+			any_country = {
+				limit = {
+					is_culture_group = italian
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+            ITA = { all_core = { add_core = ART } }
+            ITA = { all_core = { remove_core = ITA } }
+            ARO = { all_core = { add_core = ART } }
+            ARO = { all_core = { remove_core = ARO } }
+            SIC = { all_core = { remove_core = SIC } }
+            add_accepted_culture = north_italian
+            set_global_flag = aragon_italy_formed
+            capital = 749
+        }
+    }
+
+    accept_venetian = {
+        potential = {
+            tag = ART
+            NOT = { accepted_culture = venetian }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            all_core = { owned_by = THIS }
+        }
+        effect = {
+            prestige = 20
+            add_accepted_culture = venetian
+        }
+    }
+
+    unite_with_2_spain = {
+        potential = {
+            tag = ART
+            NOT = { accepted_culture = castillian }
+            NOT = { exists = HNA }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            SPA = { 
+                all_core = {
+                    OR = {
+                        owned_by = THIS 
+                    }
+                }
+            }
+        }
+        effect = {
+            prestige = 30
+            SPA = { all_core = { add_core = THIS } }
+            add_accepted_culture = castillian
+            add_accepted_culture = basque
+        }
+    }
+
+    kick_out_andalus = {
+        potential = {
+            tag = ART
+            accepted_culture = castillian
+            NOT = { exists = HNA }
+            NOT = { 513 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            owns = 484
+            owns = 489
+            owns = 506
+            owns = 510
+            owns = 513
+            owns = 517
+            owns = 521
+            owns = 526
+        }
+        effect = {
+            prestige = 20
+            SPA_484 = { add_core = THIS }
+            SPA_487 = { add_core = THIS }
+            SPA_503 = { add_core = THIS }
+            SPA_512 = { add_core = THIS }
+            SPA_513 = { add_core = THIS }
+            SPA_517 = { add_core = THIS }
+            POR_521 = { add_core = THIS }
+            POR_525 = { add_core = THIS }
+        }
+    }
+
+    abandon_aragon = {
+        potential = {
+            tag = ARO
+            NOT = {
+                AND = {
+                    owns = 490
+                    owns = 495
+                    owns = 504
+                }
+            }
+            SIC = { all_core = { owned_by = THIS } }
+        }
+        allow = {
+            war = no
+            NOT = { exists = SIC }
+            OR = {
+                capital = 498
+                NOT = { owns = 498 }
+            }
+        }
+        effect = {
+            change_tag = SIC
+            prestige = -50
+            badboy = -25
+            primary_culture = south_italian
+            remove_accepted_culture = catalan
+            ARO = { all_core = { remove_core = ARO } }
+        }
+        ai_will_do = {
+            factor = 3
+        }
+    }
+}

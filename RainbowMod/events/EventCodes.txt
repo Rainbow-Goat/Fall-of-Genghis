@@ -1,10 +1,10 @@
-#120000 = Grants and other "meta" stuff
-#500059 = Sanctions
+# 120000 = Grants and other "meta" stuff
+# 500059 = Sanctions
 #9999199 = Goods Setup
 #80080 = Batbayar stuff
 #81000 = Excavation
-#100000 = 1000 year war / NRM / ANG / ENG stuff
-#100100 = France stuff
-#100200 = Scani stuff
-#100300 = Russia stuff
-#100400 = Iberia stuff
+# 100000 = 1000 year war / NRM / ANG / ENG stuff
+# 100100 = France stuff
+# 100200 = Scani stuff
+# 100300 = Russia stuff
+# 100400 = Iberia stuff

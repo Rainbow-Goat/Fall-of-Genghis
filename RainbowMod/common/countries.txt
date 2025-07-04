@@ -66,6 +66,8 @@ TAI 	= "countries/Taichiud.txt"
 GBT 	= "countries/Greater Batbayarstan.txt"
 MGE 	= "countries/The Great Khanate.txt"
 CSS     = "countries/Cossackstan.txt"
+HNA     = "countries/Holy Nation of Allah.txt"
+ART     = "countries/Aragon-Italy.txt"
 
 # Formables!
 HSE		= "countries/HolySlavicEmpire.txt"

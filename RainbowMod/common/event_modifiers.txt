@@ -799,6 +799,11 @@ batbayar_military_reforms = {
 	min_military_spending = 0.1
 }
 
+mongological_excavations = {
+	prestige = 0.1
+	icon = 5
+}
+
 #Hungary
 
 magyarization = {
