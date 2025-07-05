@@ -1,5 +1,5 @@
 I STOLE one decision from JuliusMod, I do not care if he wants it back it is mine now.
-4th-Kaiser for making several racist remarks inside of the mod, and being the laziest worker I have ever seen.
+4th-Kaiser for making several racist remarks inside of the mod, and being the laziest worker I have ever seen. Addendum; He is now a slightly less lazy worker.
 Theagle for shouting at me 1 time, not sure why but he hates how I save my files.
 Thrashes for abandoning me in my time of need, they say that tortured artists are better and this PROVES it.
 MSLT for leaving the server.
@@ -9,3 +9,7 @@ Siiarla for reinvigorating my love for Epic Rap Battles of History.
 
 # GFX
 DanielFlagGuy on tennessine - Ummayad formable flag
+
+# Game stuff
+IGoR - I ripped out the state sizing system cause it is imo the best way to do states warscore cost.
+JuliusMod - Pretty sure this is where my transfer system is from, unsure tho...

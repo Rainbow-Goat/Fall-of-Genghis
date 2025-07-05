@@ -1,21 +1,25 @@
 #Fully fleshed content
+Taichiud
+Byzantines
 Scandinavia (Denmark and Sweden)
 Russia (Novgorod, Smolensk, Ryazan and Vladimir)
 Bohemia
+Hungary
 Orleans/France
-Taichiud
 
 #Decent amount of content
 Englaland
 Normandy
 Lithuania
-Pommerania
 Luhanks / Ukraine
-Hungary
+Aragon
+Umayyads
+Venice
+Teutonic Order
 
 #Has a formable / some expansion
 Scotland
 Provence
-Venice
 Poland
-Iberia
+Castille
+Pommerania

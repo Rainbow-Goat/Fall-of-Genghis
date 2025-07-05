@@ -1,0 +1,24 @@
+political_decisions = {
+	day_one_grants = {
+		potential = {
+			tag = GHO
+			NOT = { has_global_flag = day_one_grants }
+		}
+		allow = {
+		}
+		effect = {
+			any_country = {
+				limit = { is_greater_power = yes }
+				treasury = 100000
+			}
+			any_country = {
+				limit = { is_greater_power = no }
+				treasury = 50000
+			}
+			set_global_flag = day_one_grants
+		}
+		 ai_will_do = {
+            factor = 100
+        }
+	}
+}

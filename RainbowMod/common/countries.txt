@@ -69,6 +69,14 @@ CSS     = "countries/Cossackstan.txt"
 HNA     = "countries/Holy Nation of Allah.txt"
 ART     = "countries/Aragon-Italy.txt"
 
+#Meta Stuff
+GHO     = "countries/Ghost Country.txt"
+TIN     = "countries/Tiny State.txt"
+SMA     = "countries/Small State.txt"
+MED     = "countries/Medium State.txt"
+LRG     = "countries/Large State.txt"
+HUG     = "countries/Huge State.txt"
+
 # Formables!
 HSE		= "countries/HolySlavicEmpire.txt"
 KWS		= "countries/KingdomOfWestSlavia.txt"
