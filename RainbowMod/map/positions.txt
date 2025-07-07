@@ -2567,7 +2567,7 @@
 
 }
 
-# Sept-Œles
+# Sept-√éles
 62 = {
     unit = {
         x = 1843.000000
@@ -2657,7 +2657,7 @@
 
 }
 
-# Trois-RiviËres
+# Trois-Rivi√®res
 64 = {
     unit = {
         x = 1659.000000
@@ -14595,7 +14595,7 @@
 
 }
 
-# G‰vle
+# G√§vle
 317 = {
     unit = {
         x = 3056.000000
@@ -14690,7 +14690,7 @@
 
 }
 
-# ÷stersund
+# √ñstersund
 319 = {
     unit = {
         x = 3027.000000
@@ -14751,7 +14751,7 @@
 
 }
 
-# UmeÂ
+# Ume√•
 320 = {
     unit = {
         x = 3102.000000
@@ -14822,7 +14822,7 @@
 
 }
 
-# LuleÂ
+# Lule√•
 321 = {
     unit = {
         x = 3130.000000
@@ -15038,7 +15038,7 @@
 
 }
 
-# Norrkˆping
+# Norrk√∂ping
 325 = {
     unit = {
         x = 3052.000000
@@ -15080,7 +15080,7 @@
 
 }
 
-# V‰sterÂs
+# V√§ster√•s
 326 = {
     unit = {
         x = 3062.000000
@@ -15161,7 +15161,7 @@
 
 }
 
-# ÷rebro
+# √ñrebro
 327 = {
     unit = {
         x = 3040.000000
@@ -15280,7 +15280,7 @@
 
 }
 
-# Gˆteborg
+# G√∂teborg
 329 = {
     unit = {
         x = 2988.000000
@@ -15337,7 +15337,7 @@
 
 }
 
-# BorÂs
+# Bor√•s
 330 = {
     unit = {
         x = 3011.000000
@@ -15484,7 +15484,7 @@
 
 }
 
-# V‰xjˆ
+# V√§xj√∂
 333 = {
     unit = {
         x = 3031.000000
@@ -15522,7 +15522,7 @@
 
 }
 
-# Malmˆ
+# Malm√∂
 334 = {
     unit = {
         x = 3013.000000
@@ -16039,7 +16039,7 @@
 
 }
 
-# H‰meenlinna
+# H√§meenlinna
 344 = {
     unit = {
         x = 3198.000000
@@ -16280,7 +16280,7 @@
 
 }
 
-# ≈land Islands
+# √Öland Islands
 348 = {
     text_position = {
         x = 3116.000000
@@ -16412,7 +16412,7 @@
 
 }
 
-# P‰rnu
+# P√§rnu
 351 = {
     unit = {
         x = 3200.000000
@@ -16497,7 +16497,7 @@
 
 }
 
-# ÷sel
+# √ñsel
 353 = {
     unit = {
         x = 3159.000000
@@ -18303,7 +18303,7 @@
 
 }
 
-# LiËge
+# Li√®ge
 395 = {
     unit = {
         x = 2890.000000
@@ -18977,7 +18977,7 @@
 
 }
 
-# …pinal
+# √âpinal
 414 = {
     unit = {
         x = 2910.000000
@@ -19058,7 +19058,7 @@
 
 }
 
-# …vreux
+# √âvreux
 416 = {
     text_position = {
         x = 2821.300049
@@ -19096,7 +19096,7 @@
 
 }
 
-# AlenÁon
+# Alen√ßon
 417 = {
     unit = {
         x = 2801.000000
@@ -19850,7 +19850,7 @@
 
 }
 
-# BesanÁon
+# Besan√ßon
 432 = {
     text_position = {
         x = 2905.000000
@@ -20061,7 +20061,7 @@
 
 }
 
-# OrlÈans
+# Orl√©ans
 438 = {
     text_position = {
         x = 2843.000000
@@ -20307,7 +20307,7 @@
 
 }
 
-# AngoulÍme
+# Angoul√™me
 444 = {
     unit = {
         x = 2810.000000
@@ -20365,7 +20365,7 @@
 
 }
 
-# Ch‚teauroux
+# Ch√¢teauroux
 446 = {
     unit = {
         x = 2836.000000
@@ -20607,7 +20607,7 @@
 
 }
 
-# St …tienne
+# St √âtienne
 452 = {
     unit = {
         x = 2872.000000
@@ -21122,7 +21122,7 @@
 
 }
 
-# ChambÈry
+# Chamb√©ry
 466 = {
     unit = {
         x = 2902.000000
@@ -21514,7 +21514,7 @@
 
 }
 
-# La CoruÒa
+# La Coru√±a
 474 = {
     unit = {
         x = 2683.000000
@@ -21666,7 +21666,7 @@
 
 }
 
-# LeÛn
+# Le√≥n
 477 = {
     unit = {
         x = 2713.000000
@@ -21905,7 +21905,7 @@
 
 }
 
-# ¡vila
+# √Åvila
 483 = {
     unit = {
         x = 2733.000000
@@ -22015,7 +22015,7 @@
 
 }
 
-# C·ceres
+# C√°ceres
 486 = {
     unit = {
         x = 2706.000000
@@ -22102,7 +22102,7 @@
 
 }
 
-# Sig¸enza
+# Sig√ºenza
 488 = {
     unit = {
         x = 2766.000000
@@ -22336,7 +22336,7 @@
 
 }
 
-# LogroÒo
+# Logro√±o
 494 = {
     unit = {
         x = 2769.000000
@@ -22575,7 +22575,7 @@
 
 }
 
-# LÈrida
+# L√©rida
 500 = {
     text_position = {
         x = 2823.800049
@@ -22751,7 +22751,7 @@
 
 }
 
-# CastellÛn
+# Castell√≥n
 504 = {
     unit = {
         x = 2805.000000
@@ -23006,7 +23006,7 @@
 
 }
 
-# CÛrdoba
+# C√≥rdoba
 510 = {
     unit = {
         x = 2732.000000
@@ -23093,7 +23093,7 @@
 
 }
 
-# C·diz
+# C√°diz
 512 = {
     unit = {
         x = 2714.000000
@@ -23193,7 +23193,7 @@
 
 }
 
-# M·laga
+# M√°laga
 514 = {
     unit = {
         x = 2734.000000
@@ -23240,7 +23240,7 @@
 
 }
 
-# AlmerÌa
+# Almer√≠a
 515 = {
     unit = {
         x = 2768.000000
@@ -23292,7 +23292,7 @@
 
 }
 
-# JaÈn
+# Ja√©n
 516 = {
     unit = {
         x = 2756.000000
@@ -23502,7 +23502,7 @@
 
 }
 
-# Covilh„
+# Covilh√£
 520 = {
     unit = {
         x = 2689.000000
@@ -23735,7 +23735,7 @@
 
 }
 
-# …vora
+# √âvora
 525 = {
     unit = {
         x = 2685.000000
@@ -23995,7 +23995,7 @@
 
 }
 
-# L¸beck
+# L√ºbeck
 530 = {
     unit = {
         x = 2972.000000
@@ -24095,7 +24095,7 @@
 
 }
 
-# L¸neburg
+# L√ºneburg
 532 = {
     unit = {
         x = 2968.000000
@@ -24287,7 +24287,7 @@
 
 }
 
-# Gˆttingen
+# G√∂ttingen
 537 = {
     unit = {
         x = 2967.000000
@@ -24326,7 +24326,7 @@
 
 }
 
-# Osnabr¸ck
+# Osnabr√ºck
 538 = {
     text_position = {
         x = 2930.600098
@@ -24707,7 +24707,7 @@
 
 }
 
-# Swinem¸nde
+# Swinem√ºnde
 547 = {
     unit = {
         x = 3019.000000
@@ -25737,7 +25737,7 @@
 
 }
 
-# Saarbr¸cken
+# Saarbr√ºcken
 573 = {
     unit = {
         x = 2914.000000
@@ -25911,7 +25911,7 @@
 
 }
 
-# D¸sseldorf
+# D√ºsseldorf
 578 = {
     unit = {
         x = 2919.000000
@@ -26012,7 +26012,7 @@
 
 }
 
-# M¸nster
+# M√ºnster
 581 = {
     text_position = {
         x = 2917.899902
@@ -26420,7 +26420,7 @@
 
 }
 
-# T¸bingen
+# T√ºbingen
 591 = {
     text_position = {
         x = 2942.399902
@@ -26650,7 +26650,7 @@
 
 }
 
-# W¸rzburg
+# W√ºrzburg
 597 = {
     text_position = {
         x = 2966.100098
@@ -27104,7 +27104,7 @@
 
 }
 
-# Neuch‚tel
+# Neuch√¢tel
 608 = {
     text_position = {
         x = 2911.699951
@@ -27486,7 +27486,7 @@
 
 }
 
-# Sankt Pˆlten
+# Sankt P√∂lten
 620 = {
     unit = {
         x = 3047.000000
@@ -27674,7 +27674,7 @@
 
 }
 
-# Hradec Kr·lovÈ
+# Hradec Kr√°lov√©
 626 = {
     text_position = {
         x = 3054.399902
@@ -27993,7 +27993,7 @@
 
 }
 
-# TrencÌn
+# Trenc√≠n
 634 = {
     text_position = {
         x = 3092.300049
@@ -28056,7 +28056,7 @@
 
 }
 
-# Bansk· Bystrica
+# Bansk√° Bystrica
 636 = {
     text_position = {
         x = 3112.300049
@@ -28089,7 +28089,7 @@
 
 }
 
-# Koöice
+# Ko≈°ice
 637 = {
     text_position = {
         x = 3141.699951
@@ -28123,7 +28123,7 @@
 
 }
 
-# Roûnava
+# Ro≈ænava
 638 = {
     text_position = {
         x = 3121.800049
@@ -28208,7 +28208,7 @@
 
 }
 
-# PÈcs
+# P√©cs
 640 = {
     text_position = {
         x = 3090.699951
@@ -28281,7 +28281,7 @@
 
 }
 
-# SzÈkesfehÈrv·r
+# Sz√©kesfeh√©rv√°r
 643 = {
     text_position = {
         x = 3087.600098
@@ -28302,7 +28302,7 @@
 
 }
 
-# Kaposv·r
+# Kaposv√°r
 644 = {
     text_position = {
         x = 3085.699951
@@ -28340,7 +28340,7 @@
 
 }
 
-# KecskemÈt
+# Kecskem√©t
 645 = {
     text_position = {
         x = 3110.300049
@@ -28510,7 +28510,7 @@
 
 }
 
-# BÈkÈscsaba
+# B√©k√©scsaba
 650 = {
     unit = {
         x = 3132.000000
@@ -28549,7 +28549,7 @@
 
 }
 
-# Szatm·r
+# Szatm√°r
 651 = {
     unit = {
         x = 3164.000000
@@ -28622,7 +28622,7 @@
 
 }
 
-# Resicab·nya
+# Resicab√°nya
 653 = {
     unit = {
         x = 3150.000000
@@ -29572,7 +29572,7 @@
 
 }
 
-# Kˆslin
+# K√∂slin
 680 = {
     unit = {
         x = 3073.000000
@@ -29619,7 +29619,7 @@
 
 }
 
-# K¸strin
+# K√ºstrin
 681 = {
     unit = {
         x = 3045.000000
@@ -29903,7 +29903,7 @@
 
 }
 
-# Gˆrlitz
+# G√∂rlitz
 687 = {
     unit = {
         x = 3028.000000
@@ -30257,7 +30257,7 @@
 
 }
 
-# Kˆnigsberg
+# K√∂nigsberg
 695 = {
     unit = {
         x = 3133.000000
@@ -33636,7 +33636,7 @@
 
 }
 
-# Varaûdin
+# Vara≈ædin
 775 = {
     text_position = {
         x = 3064.100098
@@ -33708,7 +33708,7 @@
 
 }
 
-# Poûega
+# Po≈æega
 777 = {
     unit = {
         x = 3083.000000
@@ -34481,7 +34481,7 @@
 
 }
 
-# Uûice
+# U≈æice
 797 = {
     text_position = {
         x = 3117.600098
@@ -34514,7 +34514,7 @@
 
 }
 
-# Niö
+# Ni≈°
 798 = {
     unit = {
         x = 3144.000000
@@ -37083,7 +37083,7 @@
 
 }
 
-# ‹sk¸dar
+# √úsk√ºdar
 861 = {
     text_position = {
         x = 3265.399902
@@ -37313,7 +37313,7 @@
 
 }
 
-# K¸tahya
+# K√ºtahya
 867 = {
     unit = {
         x = 3267.000000
@@ -67867,7 +67867,7 @@
 
 }
 
-# DÌhu‡
+# D√≠hu√†
 1600 = {
     text_position = {
         x = 4176.000000
@@ -82996,7 +82996,7 @@
 
 }
 
-# S„o TomÈ
+# S√£o Tom√©
 1954 = {
     unit = {
         x = 2909.000000
@@ -83029,7 +83029,7 @@
 
 }
 
-# Fernando PÛ
+# Fernando P√≥
 1955 = {
     text_position = {
         x = 2940.500000
@@ -85034,7 +85034,7 @@
 
 }
 
-# MoÁ‚medes
+# Mo√ß√¢medes
 2004 = {
     unit = {
         x = 3004.000000
@@ -87426,7 +87426,7 @@
 
 }
 
-# MoÁambique
+# Mo√ßambique
 2060 = {
     text_position = {
         x = 3435.399902
@@ -91617,7 +91617,7 @@
 
 }
 
-# Santa MarÌa del Oro
+# Santa Mar√≠a del Oro
 2154 = {
     unit = {
         x = 1170.000000
@@ -91660,7 +91660,7 @@
 
 }
 
-# TorreÛn
+# Torre√≥n
 2155 = {
     unit = {
         x = 1211.000000
@@ -91698,7 +91698,7 @@
 
 }
 
-# Mazatl·n
+# Mazatl√°n
 2156 = {
     text_position = {
         x = 1144.699951
@@ -91741,7 +91741,7 @@
 
 }
 
-# Culiac·n
+# Culiac√°n
 2157 = {
     unit = {
         x = 1121.000000
@@ -91849,7 +91849,7 @@
 
 }
 
-# San Luis PotosÌ
+# San Luis Potos√≠
 2159 = {
     unit = {
         x = 1235.000000
@@ -92063,7 +92063,7 @@
 
 }
 
-# Minatitl·n
+# Minatitl√°n
 2164 = {
     unit = {
         x = 1325.000000
@@ -92390,7 +92390,7 @@
 
 }
 
-# Los AlbaÒiles
+# Los Alba√±iles
 2171 = {
     unit = {
         x = 1210.000000
@@ -92484,7 +92484,7 @@
 
 }
 
-# QuerÈtaro
+# Quer√©taro
 2173 = {
     unit = {
         x = 1248.000000
@@ -92956,7 +92956,7 @@
 
 }
 
-# MÈrida
+# M√©rida
 2183 = {
     unit = {
         x = 1417.000000
@@ -93274,7 +93274,7 @@
 
 }
 
-# SayaxchÈ
+# Sayaxch√©
 2189 = {
     unit = {
         x = 1401.000000
@@ -93738,7 +93738,7 @@
 
 }
 
-# LeÛn
+# Le√≥n
 2199 = {
     unit = {
         x = 1459.000000
@@ -93884,7 +93884,7 @@
 
 }
 
-# San JosÈ
+# San Jos√©
 2201 = {
     unit = {
         x = 1501.000000
@@ -93975,7 +93975,7 @@
 
 }
 
-# LimÛn
+# Lim√≥n
 2203 = {
     unit = {
         x = 1504.000000
@@ -94148,7 +94148,7 @@
 
 }
 
-# PenonomÈ
+# Penonom√©
 2206 = {
     unit = {
         x = 1551.000000
@@ -94409,7 +94409,7 @@
 
 }
 
-# Camag¸ey
+# Camag√ºey
 2211 = {
     unit = {
         x = 1593.000000
@@ -95855,7 +95855,7 @@
 
 }
 
-# Bogot·
+# Bogot√°
 2247 = {
     unit = {
         x = 1648.000000
@@ -95893,7 +95893,7 @@
 
 }
 
-# IbaguÈ
+# Ibagu√©
 2248 = {
     text_position = {
         x = 1633.000000
@@ -95985,7 +95985,7 @@
 
 }
 
-# C˙cuta
+# C√∫cuta
 2251 = {
     unit = {
         x = 1664.000000
@@ -96023,7 +96023,7 @@
 
 }
 
-# MedellÌn
+# Medell√≠n
 2252 = {
     unit = {
         x = 1630.000000
@@ -96061,7 +96061,7 @@
 
 }
 
-# QuibdÛ
+# Quibd√≥
 2253 = {
     unit = {
         x = 1608.000000
@@ -96280,7 +96280,7 @@
 
 }
 
-# Popay·n
+# Popay√°n
 2257 = {
     unit = {
         x = 1615.000000
@@ -96409,7 +96409,7 @@
 
 }
 
-# San JosÈ del Guaviare
+# San Jos√© del Guaviare
 2260 = {
     text_position = {
         x = 1665.000000
@@ -96659,7 +96659,7 @@
 
 }
 
-# Cuman·
+# Cuman√°
 2267 = {
     text_position = {
         x = 1796.000000
@@ -96743,7 +96743,7 @@
 
 }
 
-# G¸iria
+# G√ºiria
 2269 = {
     unit = {
         x = 1816.000000
@@ -97459,7 +97459,7 @@
 
 }
 
-# Gal·pagos
+# Gal√°pagos
 2285 = {
     unit = {
         x = 1395.000000
@@ -97741,7 +97741,7 @@
 
 }
 
-# Hu·nuco
+# Hu√°nuco
 2293 = {
     unit = {
         x = 1625.000000
@@ -98531,7 +98531,7 @@
 
 }
 
-# PotosÌ
+# Potos√≠
 2314 = {
     unit = {
         x = 1763.000000
@@ -98665,7 +98665,7 @@
 
 }
 
-# RoborÈ
+# Robor√©
 2318 = {
     text_position = {
         x = 1859.000000
@@ -98773,7 +98773,7 @@
 
 }
 
-# CopiapÛ
+# Copiap√≥
 2322 = {
     unit = {
         x = 1716.000000
@@ -98892,7 +98892,7 @@
 
 }
 
-# ValparaÌso
+# Valpara√≠so
 2325 = {
     text_position = {
         x = 1689.699951
@@ -98931,7 +98931,7 @@
 
 }
 
-# ViÒa del Mar
+# Vi√±a del Mar
 2326 = {
     unit = {
         x = 1698.000000
@@ -99190,7 +99190,7 @@
 
 }
 
-# Chill·n
+# Chill√°n
 2331 = {
     unit = {
         x = 1684.000000
@@ -99267,7 +99267,7 @@
 
 }
 
-# Puerto AisÈn
+# Puerto Ais√©n
 2333 = {
     unit = {
         x = 1669.000000
@@ -99495,7 +99495,7 @@
 
 }
 
-# Puerto GuaranÌ
+# Puerto Guaran√≠
 2338 = {
     text_position = {
         x = 1867.000000
@@ -99609,7 +99609,7 @@
 
 }
 
-# EncarnaciÛn
+# Encarnaci√≥n
 2341 = {
     text_position = {
         x = 1938.099976
@@ -99667,7 +99667,7 @@
 
 }
 
-# ConcepciÛn
+# Concepci√≥n
 2343 = {
     unit = {
         x = 1921.000000
@@ -99767,7 +99767,7 @@
 
 }
 
-# Paysand˙
+# Paysand√∫
 2345 = {
     unit = {
         x = 1922.000000
@@ -99822,7 +99822,7 @@
 
 }
 
-# TacuarembÛ
+# Tacuaremb√≥
 2346 = {
     unit = {
         x = 1918.000000
@@ -99965,7 +99965,7 @@
 
 }
 
-# JunÌn
+# Jun√≠n
 2349 = {
     text_position = {
         x = 1866.000000
@@ -100171,7 +100171,7 @@
 
 }
 
-# BahÌa Blanca
+# Bah√≠a Blanca
 2354 = {
     unit = {
         x = 1842.000000
@@ -100325,7 +100325,7 @@
 
 }
 
-# Curuz˙ Cuati·
+# Curuz√∫ Cuati√°
 2357 = {
     unit = {
         x = 1892.000000
@@ -100363,7 +100363,7 @@
 
 }
 
-# Santo Tom·s
+# Santo Tom√°s
 2358 = {
     unit = {
         x = 1919.000000
@@ -100401,7 +100401,7 @@
 
 }
 
-# ColÛn
+# Col√≥n
 2359 = {
     text_position = {
         x = 1888.199951
@@ -100434,7 +100434,7 @@
 
 }
 
-# Paran·
+# Paran√°
 2360 = {
     unit = {
         x = 1870.000000
@@ -100623,7 +100623,7 @@
 
 }
 
-# Villa ¡ngela
+# Villa √Ångela
 2365 = {
     unit = {
         x = 1849.000000
@@ -100842,7 +100842,7 @@
 
 }
 
-# Tucum·n
+# Tucum√°n
 2373 = {
     text_position = {
         x = 1789.599976
@@ -100940,7 +100940,7 @@
 
 }
 
-# AÒatuya
+# A√±atuya
 2377 = {
     unit = {
         x = 1829.000000
@@ -100978,7 +100978,7 @@
 
 }
 
-# MailÌn
+# Mail√≠n
 2378 = {
     unit = {
         x = 1814.000000
@@ -101016,7 +101016,7 @@
 
 }
 
-# CÛrdoba de Argentina
+# C√≥rdoba de Argentina
 2379 = {
     unit = {
         x = 1797.000000
@@ -101088,7 +101088,7 @@
 
 }
 
-# RÌo Cuarto
+# R√≠o Cuarto
 2381 = {
     unit = {
         x = 1811.000000
@@ -101126,7 +101126,7 @@
 
 }
 
-# RenancÛ
+# Renanc√≥
 2382 = {
     unit = {
         x = 1809.000000
@@ -101442,7 +101442,7 @@
 
 }
 
-# NeuquÈn
+# Neuqu√©n
 2391 = {
     unit = {
         x = 1716.000000
@@ -101545,7 +101545,7 @@
 
 }
 
-# TelÈn
+# Tel√©n
 2393 = {
     unit = {
         x = 1797.000000
@@ -101672,7 +101672,7 @@
 
 }
 
-# CuracÛ
+# Curac√≥
 2395 = {
     unit = {
         x = 1763.000000
@@ -101852,7 +101852,7 @@
 
 }
 
-# RÌo Gallegos
+# R√≠o Gallegos
 2399 = {
     unit = {
         x = 1699.000000
@@ -101899,7 +101899,7 @@
 
 }
 
-# RÌo Grande
+# R√≠o Grande
 2400 = {
     unit = {
         x = 1750.000000
@@ -102275,7 +102275,7 @@
 
 }
 
-# BelÈm
+# Bel√©m
 2410 = {
     unit = {
         x = 2054.000000
@@ -102322,7 +102322,7 @@
 
 }
 
-# SantarÈm
+# Santar√©m
 2411 = {
     unit = {
         x = 1956.000000
@@ -102365,7 +102365,7 @@
 
 }
 
-# ”bidos
+# √ìbidos
 2412 = {
     text_position = {
         x = 1946.000000
@@ -102398,7 +102398,7 @@
 
 }
 
-# Marab·
+# Marab√°
 2413 = {
     unit = {
         x = 2003.000000
@@ -102436,7 +102436,7 @@
 
 }
 
-# Amap·
+# Amap√°
 2414 = {
     unit = {
         x = 1994.000000
@@ -102483,7 +102483,7 @@
 
 }
 
-# Macap·
+# Macap√°
 2415 = {
     unit = {
         x = 1993.000000
@@ -102601,7 +102601,7 @@
 
 }
 
-# Cuiab·
+# Cuiab√°
 2418 = {
     text_position = {
         x = 1974.000000
@@ -102621,7 +102621,7 @@
 
 }
 
-# Corumb·
+# Corumb√°
 2419 = {
     text_position = {
         x = 1955.000000
@@ -102788,7 +102788,7 @@
 
 }
 
-# S„o LuÌs
+# S√£o Lu√≠s
 2424 = {
     unit = {
         x = 2112.000000
@@ -102945,7 +102945,7 @@
 
 }
 
-# ParaÌba
+# Para√≠ba
 2428 = {
     unit = {
         x = 2240.000000
@@ -103247,7 +103247,7 @@
 
 }
 
-# MaceiÛ
+# Macei√≥
 2434 = {
     unit = {
         x = 2235.000000
@@ -103556,7 +103556,7 @@
 
 }
 
-# VitÛria da Conquista
+# Vit√≥ria da Conquista
 2440 = {
     unit = {
         x = 2161.000000
@@ -103650,7 +103650,7 @@
 
 }
 
-# Sabar·
+# Sabar√°
 2442 = {
     text_position = {
         x = 2115.000000
@@ -103683,7 +103683,7 @@
 
 }
 
-# Janu·ria
+# Janu√°ria
 2443 = {
     text_position = {
         x = 2143.000000
@@ -103797,7 +103797,7 @@
 
 }
 
-# S„o Jo„o del Rey
+# S√£o Jo√£o del Rey
 2446 = {
     unit = {
         x = 2093.000000
@@ -103942,7 +103942,7 @@
 
 }
 
-# VitÛria
+# Vit√≥ria
 2449 = {
     unit = {
         x = 2174.000000
@@ -104002,7 +104002,7 @@
 
 }
 
-# S„o Paulo
+# S√£o Paulo
 2450 = {
     unit = {
         x = 2072.000000
@@ -104514,7 +104514,7 @@
 
 }
 
-# S„o Miguel
+# S√£o Miguel
 2462 = {
     unit = {
         x = 1983.000000
@@ -107766,7 +107766,7 @@
 
 }
 
-# Forte S„o Joaquim
+# Forte S√£o Joaquim
 2532 = {
     unit = {
         x = 1843.000000
@@ -108465,7 +108465,7 @@
 
 }
 
-# Tarauac·
+# Tarauac√°
 2549 = {
     unit = {
         x = 1719.000000
@@ -108523,7 +108523,7 @@
 
 }
 
-# Forte do PrÌncipe
+# Forte do Pr√≠ncipe
 2550 = {
     unit = {
         x = 1825.000000
@@ -114826,7 +114826,7 @@
 
 }
 
-# V‰nern
+# V√§nern
 2703 = {
     unit = {
         x = 3016.000000
@@ -114842,7 +114842,7 @@
     text_scale = 2.200000
 }
 
-# V‰ttern
+# V√§ttern
 2704 = {
     text_position = {
         x = 3031.899902
@@ -114869,7 +114869,7 @@
     text_scale = 3.099999
 }
 
-# ≈lands Hav
+# √Ölands Hav
 2706 = {
     unit = {
         x = 3115.000000
@@ -114946,7 +114946,7 @@
     text_scale = 3.099999
 }
 
-# ÷resund
+# √ñresund
 2711 = {
     unit = {
         x = 2987.000000
@@ -114978,7 +114978,7 @@
     text_scale = 3.099999
 }
 
-# Peipsi J‰rv
+# Peipsi J√§rv
 2713 = {
     unit = {
         x = 3233.000000
@@ -115583,7 +115583,7 @@
     text_scale = 2.400000
 }
 
-# Gulf of AlmerÌa
+# Gulf of Almer√≠a
 2747 = {
     unit = {
         x = 2778.000000
@@ -119145,7 +119145,7 @@
 
 }
 
-# Coast of Amap·
+# Coast of Amap√°
 2981 = {
     unit = {
         x = 2021.000000
@@ -119240,7 +119240,7 @@
     text_scale = 7.199996
 }
 
-# Baia Paranagu·
+# Baia Paranagu√°
 2988 = {
     unit = {
         x = 2040.000000
