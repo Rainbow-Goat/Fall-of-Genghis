@@ -1,4 +1,4 @@
-name = "Det Långsamma Kriget"
+name = "Det LÃ¥ngsamma Kriget"
 
 1829.7.25 = {
 		add_attacker = DEN

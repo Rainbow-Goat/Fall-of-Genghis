@@ -33,7 +33,7 @@ leader = {
 }
 
 leader = {
-	name = "Juan ¡lvarez"
+	name = "Juan √Ålvarez"
 	type = land
 	date="1836.1.1"
 	personality = skilled
@@ -41,7 +41,7 @@ leader = {
 }
 
 leader = {
-	name = "JosÈ de Herrera"
+	name = "Jos√© de Herrera"
 	type = land
 	date="1836.1.1"
 	personality = soldierly
@@ -49,7 +49,7 @@ leader = {
 }
 
 army = {
-	name = "EjÈrcito del Norte"
+	name = "Ej√©rcito del Norte"
 	location = 2146
 	regiment = {
 		name= "1.Division Cos"
@@ -95,7 +95,7 @@ army = {
 }
 
 army = {
-	name = "EjÈrcito del Ciudad Mejico"
+	name = "Ej√©rcito del Ciudad Mejico"
 	location = 2172
 	regiment = {
 		name= "1.Division Comonfort"

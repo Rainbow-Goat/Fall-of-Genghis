@@ -22,22 +22,22 @@ navy = {
 }
 
 army = {
-	name = "Ejército del Perú"
+	name = "EjÃ©rcito del PerÃº"
 	location = 2295
 	regiment = {
-		name= "1. Brigada de Infantería"
+		name= "1. Brigada de InfanterÃ­a"
 		type = infantry
 		home = 2295
 	}
 
 	regiment = {
-		name= "2. Brigada de Infantería"
+		name= "2. Brigada de InfanterÃ­a"
 		type = infantry
 		home = 2295
 	}
 
 	regiment = {
-		name= "3. Brigada de Infantería"
+		name= "3. Brigada de InfanterÃ­a"
 		type = infantry
 		home = 2302
 	}

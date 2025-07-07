@@ -1,38 +1,38 @@
 army = {
-	name = "Ejército de Venezuela"
+	name = "EjÃ©rcito de Venezuela"
 	location = 2264
 	regiment = {
-		name= "1. División de Infantería"
+		name= "1. DivisiÃ³n de InfanterÃ­a"
 		type = infantry
 		home = 2264
 	}
 
 	regiment = {
-		name= "2. División de Infantería"
+		name= "2. DivisiÃ³n de InfanterÃ­a"
 		type = infantry
 		home = 2264
 	}
 
 	regiment = {
-		name= "3. División de Infantería"
+		name= "3. DivisiÃ³n de InfanterÃ­a"
 		type = infantry
 		home = 2267
 	}
 
 	regiment = {
-		name= "1. División de Caballería"
+		name= "1. DivisiÃ³n de CaballerÃ­a"
 		type = cavalry
 		home = 2268
 	}
 
 	regiment = {
-		name= "2. División de Caballería"
+		name= "2. DivisiÃ³n de CaballerÃ­a"
 		type = cavalry
 		home = 2269
 	}
 
 	regiment = {
-		name= "3. División de Caballería"
+		name= "3. DivisiÃ³n de CaballerÃ­a"
 		type = cavalry
 		home = 2271
 	}

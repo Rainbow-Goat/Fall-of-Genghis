@@ -1,5 +1,5 @@
 leader = {
-	name = "Jose Ballivi·n"
+	name = "Jose Ballivi√°n"
 	type = land
 	date = 1836.1.1
 	background = generals_aide
@@ -7,7 +7,7 @@ leader = {
 }
 
 army = {
-	name = "EjÈrcito de Bolivia"
+	name = "Ej√©rcito de Bolivia"
 	location = 2313 #Chuquisaca (Sucre)
 	regiment = {
 		name= "1. Brigada de Infanteria"

@@ -1,4 +1,4 @@
-AHD DD2 – Railroads and Tradegoods
+AHD DD2 â€“ Railroads and Tradegoods
 
 First up we have added a new screen with more detailed information about goods.
 <img>

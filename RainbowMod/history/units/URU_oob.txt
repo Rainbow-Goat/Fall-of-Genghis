@@ -1,8 +1,8 @@
 army = {
-	name = "Ejército del Uruguay"
+	name = "EjÃ©rcito del Uruguay"
 	location = 2344
 	regiment = {
-		name= "1. División de Infantería"
+		name= "1. DivisiÃ³n de InfanterÃ­a"
 		type = irregular
 		home = 2344
 	}

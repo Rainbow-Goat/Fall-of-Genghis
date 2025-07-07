@@ -102,7 +102,7 @@ leader = {
 }
 
 leader = {
-	name = "Abdülkerim Pasha"
+	name = "AbdÃ¼lkerim Pasha"
 	date = 1836.1.1
 	type = land
 	personality = active_p
@@ -170,25 +170,25 @@ army = {
 	}
 
 	regiment = {
-		name= "1. Piyade Tümeni"
+		name= "1. Piyade TÃ¼meni"
 		type = infantry
 		home = 802
 	}
 
 	regiment = {
-		name= "2. Piyade Tümeni"
+		name= "2. Piyade TÃ¼meni"
 		type = infantry
 		home = 803
 	}
 
 	regiment = {
-		name= "3. Piyade Tümeni"
+		name= "3. Piyade TÃ¼meni"
 		type = infantry
 		home = 803
 	}
 
 	regiment = {
-		name= "4. Piyade Tümeni"
+		name= "4. Piyade TÃ¼meni"
 		type = artillery
 		home = 804
 	}
@@ -241,25 +241,25 @@ army = {
 	name = "Army of Anatolia"
 	location = 878
 	regiment = {
-		name= "5. Piyade Tümeni"
+		name= "5. Piyade TÃ¼meni"
 		type = infantry
 		home = 882
 	}
 
 	regiment = {
-		name= "6. Piyade Tümeni"
+		name= "6. Piyade TÃ¼meni"
 		type = infantry
 		home = 884
 	}
 
 	regiment = {
-		name= "7. Piyade Tümeni"
+		name= "7. Piyade TÃ¼meni"
 		type = infantry
 		home = 879
 	}
 
 	regiment = {
-		name= "8. Piyade Tümeni"
+		name= "8. Piyade TÃ¼meni"
 		type = artillery
 		home = 888
 	}
@@ -324,19 +324,19 @@ army = {
 	}
 
 	regiment = {
-		name= "9. Piyade Tümeni"
+		name= "9. Piyade TÃ¼meni"
 		type = infantry
 		home = 813
 	}
 
 	regiment = {
-		name= "10. Piyade Tümeni"
+		name= "10. Piyade TÃ¼meni"
 		type = infantry
 		home = 818
 	}
 
 	regiment = {
-		name= "11. Piyade Tümeni"
+		name= "11. Piyade TÃ¼meni"
 		type = infantry
 		home = 674
 	}
@@ -365,19 +365,19 @@ army = {
 	name = "Army of Arabia"
 	location = 925
 	regiment = {
-		name= "12. Piyade Tümeni"
+		name= "12. Piyade TÃ¼meni"
 		type = infantry
 		home = 925
 	}
 
 	regiment = {
-		name= "13. Piyade Tümeni"
+		name= "13. Piyade TÃ¼meni"
 		type = infantry
 		home = 925
 	}
 
 	regiment = {
-		name= "14. Piyade Tümeni"
+		name= "14. Piyade TÃ¼meni"
 		type = infantry
 		home = 926
 	}
@@ -422,13 +422,13 @@ army = {
 	name = "Army of the Bey of Benghazi"
 	location = 1735
 	regiment = {
-		name= "1. Askäris"
+		name= "1. AskÃ¤ris"
 		type = irregular
 		home = 1735
 	}
 
 	regiment = {
-		name= "2. Askäris"
+		name= "2. AskÃ¤ris"
 		type = irregular
 		home = 1734
 	}

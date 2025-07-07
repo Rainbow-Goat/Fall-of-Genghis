@@ -87,7 +87,7 @@ leader = {
 }
 
 leader = {
-	name = "Narv·ez"
+	name = "Narv√°ez"
 	date = 1836.1.1
 	type = land
 	personality = efficient
@@ -96,7 +96,7 @@ leader = {
 }
 
 leader = {
-	name = "GerÛnimo ValdÈs"
+	name = "Ger√≥nimo Vald√©s"
 	date = 1836.1.1
 	type = land
 	personality = competent
@@ -114,7 +114,7 @@ leader = {
 }
 
 leader = {
-	name = "JosÈ RamÛn Rodil"
+	name = "Jos√© Ram√≥n Rodil"
 	date = 1824.1.1
 	type = land
 	personality = merciless
@@ -247,7 +247,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "CristÛbal ColÛn"
+		name = "Crist√≥bal Col√≥n"
 		type = frigate
 	}
 	
@@ -292,7 +292,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Nuestra SeÒora del Patrocinio"
+		name = "Nuestra Se√±ora del Patrocinio"
 		type = frigate
 	}
 	
@@ -313,7 +313,7 @@ navy = {
 }
 
 navy = {
-	name = "Armada Real EspaÒola"
+	name = "Armada Real Espa√±ola"
 	location = 474
 	ship = {
 		name= "San Raimundo"
@@ -321,7 +321,7 @@ navy = {
 	}
 
 	ship = {
-		name= "HÈroe"
+		name= "H√©roe"
 		type = manowar
 	}
 
@@ -341,12 +341,12 @@ navy = {
 	}
 
 	ship = {
-		name= "Nuestra SeÒora de AsunciÛn"
+		name= "Nuestra Se√±ora de Asunci√≥n"
 		type = frigate
 	}
 
 	ship = {
-		name= "Nuestra SeÒora de Atocha"
+		name= "Nuestra Se√±ora de Atocha"
 		type = frigate
 	}
 
@@ -371,7 +371,7 @@ navy = {
 	}
 }
 navy = {
-name = "La marine des conquÈrants"
+name = "La marine des conqu√©rants"
 location = 2209
 ship = {
 name = "Ship 6"
@@ -463,7 +463,7 @@ type = clipper_transport
 }
 }
 navy = {
-name = "La marine des conquÈrants"
+name = "La marine des conqu√©rants"
 location = 1455
 ship = {
 name = "Ship 6"
