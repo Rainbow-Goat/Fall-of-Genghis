@@ -8,3 +8,4 @@ will_give_title;Enable giving grants;x;
 will_give_desc;You can now receive grant requests;x;
 will_not_give_title;Disable giving grants;x;
 will_not_give_desc;You will now not receive grant requests;x;
+UNIT_BUILD_TIME_IW;$VAL$ days.;;;;;;;x

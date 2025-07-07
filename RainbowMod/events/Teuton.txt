@@ -4,7 +4,7 @@ country_event = {
     desc = "We gotta decide what we want to do; Free Germany or create a new German homeland."
     picture = "celebration"
 
-    fire_only_once = yes
+    is_triggered_only = yes
 
     option = {
         name = "Deutschland fur Deutschland"

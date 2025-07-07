@@ -1,7 +1,7 @@
 owner = NVR
 controller = NVR
 add_core = NVR
-add_core = NEN
+#add_core = NEN
 trade_goods = grain
 life_rating = 40
 railroad = 1

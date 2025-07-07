@@ -3,8 +3,8 @@ country_event = {
     title = "EVTNAME100300"
     desc = "EVTDESC100300"
     picture = "celebration"
-
-    fire_only_once = yes
+	
+    is_triggered_only = yes
 
     option = {
         name = "EVTOPT100300A"
@@ -22,8 +22,7 @@ country_event = {
     title = "EVTNAME100301"
     desc = "EVTDESC100301"
     picture = "celebration"
-
-    fire_only_once = yes
+	is_triggered_only = yes
 
     option = {
         name = "EVTOPT100301A"
