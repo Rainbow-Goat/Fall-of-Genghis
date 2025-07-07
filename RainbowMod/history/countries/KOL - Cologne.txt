@@ -71,4 +71,4 @@ basic_chemistry = 1
 consciousness = 3
 nonstate_consciousness = 1
 
-oob = "KÃ–L_oob.txt"
+oob = "KÖL_oob.txt"

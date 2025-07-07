@@ -283,7 +283,7 @@ army = {
 }
 
 navy = {
-name = "La marine des conquÃ©rants"
+name = "La marine des conquérants"
 location = 277
 ship = {
 name = "Ship 6"

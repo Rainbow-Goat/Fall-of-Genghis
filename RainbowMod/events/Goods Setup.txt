@@ -25,7 +25,7 @@ country_event = {
 		wine = 600
 		liquor = 600
 		ammunition = 200
-		machine_parts = 200
+		machine_parts = 400
 		set_country_flag = Goods_Setup
 	}
 }
@@ -57,7 +57,7 @@ country_event = {
 		wine = 300
 		liquor = 300
 		ammunition = 100
-		machine_parts = 200
+		machine_parts = 400
 		set_country_flag = Goods_Setup
 	}
 }
@@ -94,7 +94,7 @@ country_event = {
 		wine = 150
 		liquor = 150
 		ammunition = 50
-		machine_parts = 200
+		machine_parts = 400
 		set_country_flag = Goods_Setup
 	}
 }
@@ -129,7 +129,7 @@ country_event = {
 		wine = 75
 		liquor = 75
 		ammunition = 50
-		machine_parts = 200
+		machine_parts = 400
 		set_country_flag = Goods_Setup
 	}
 }

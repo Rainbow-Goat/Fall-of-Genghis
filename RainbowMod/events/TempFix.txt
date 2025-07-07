@@ -1,0 +1,28 @@
+country_event = {
+    id = 120100
+    title = "Scandi Core Bug Fix"
+    desc = "Do not ask why this event exists, I cannot explain why this bug is a thing."
+    picture = Picture
+    
+    trigger = {
+        year = 1836
+        month = 2
+        tag = SWE
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "May Allah smite me if this bug persists."
+        565 = { remove_core = SCA }
+        578 = { remove_core = SCA }
+        583 = { remove_core = SCA }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+            }
+        }
+    }
+}

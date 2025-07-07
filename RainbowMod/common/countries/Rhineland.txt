@@ -184,23 +184,23 @@ party = {
 }
 
 unit_names = {
-	dreadnought = { Coburg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+	dreadnought = { Coburg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 		
 	}
 	ironclad = {
-		 Coburg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 Coburg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	manowar = {
-		 Coburg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 Coburg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	cruiser = {
-		 Coburg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 Coburg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	frigate = {
-		 Coburg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 Coburg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	monitor = {
-		 Coburg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 Coburg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	clipper_transport = {
 		
@@ -209,6 +209,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		 Coburg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 Coburg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 }

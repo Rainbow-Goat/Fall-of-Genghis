@@ -10,6 +10,7 @@ regiment = {
 name = "Regiment 5"
 type = infantry
 home = 1044
+}
 regiment = {
 name = "Regiment 9"
 type = hussar
