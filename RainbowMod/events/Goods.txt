@@ -63,7 +63,7 @@ province_event = {
 		year = 1848
 		or = {
 			province_id = 88			# Mariposa
-			province_id = 695			# Königsberg
+			province_id = 695			# KÃ¶nigsberg
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -246,7 +246,7 @@ province_event = {
 	trigger = {
 		year = 1836
 		or = {
-			province_id = 2084			# Angra Pequeña
+			province_id = 2084			# Angra PequeÃ±a
 			province_id = 2091			# Mossel Bay
 			province_id = 2092			# Beaufort
 			province_id = 1697			# Figuig
