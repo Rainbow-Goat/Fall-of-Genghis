@@ -5,5 +5,4 @@ add_core = GER
 trade_goods = sulphur
 life_rating = 38
 add_core = HSE
-add_core = KWS
 1861.1.1 = { railroad = 3 } 

@@ -1,0 +1,71 @@
+political_decisions = {
+    ending_livonian_independence = {
+        potential = {
+            tag = TEU
+            NOT = { 354 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            EST = { all_core = { owned_by = THIS } }
+        }
+        effect = {
+            EST = { all_core = { add_core = THIS } }
+            add_accepted_culture = estonian
+        }
+    }
+
+    uniting_our_two_halves = {
+        potential = {
+            tag = TEU
+            354 = { is_core = THIS }
+            NOT = { 365 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            RUS_360 = { owned_by = THIS }
+        }
+        effect = {
+            RUS_360 = { add_core = THIS }
+        }
+    }
+
+    remove_the_baltic_people = {
+        potential = {
+            tag = TEU
+            365 = { is_core = THIS }
+            NOT = { has_country_flag = teuton_genocide_baltics }
+            has_country_flag = future_decided
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            owns = 351
+            owns = 354
+            owns = 365
+        }
+        effect = {
+            #RUS_349 = { assimilate = yes }
+            #RUS_354 = { assimilate = yes }
+            #RUS_360 = { assimilate = yes }
+            set_country_flag = teuton_genocide_baltics
+        }
+    }
+
+    look_to_the_future = {
+        potential = {
+            tag = TEU
+            365 = { is_core = THIS }
+            NOT = { has_country_flag = future_decided }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            TEU = { all_core = { owned_by = THIS } }
+        }
+        effect = {
+            country_event = 100501 
+        }
+    }
+
+
+}

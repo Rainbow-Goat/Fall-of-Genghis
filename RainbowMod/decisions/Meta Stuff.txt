@@ -9,11 +9,11 @@ political_decisions = {
 		effect = {
 			any_country = {
 				limit = { is_greater_power = yes }
-				treasury = 100000
+				treasury = 300000
 			}
 			any_country = {
 				limit = { is_greater_power = no }
-				treasury = 50000
+				treasury = 150000
 			}
 			set_global_flag = day_one_grants
 		}

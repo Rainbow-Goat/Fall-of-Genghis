@@ -1,42 +1,4 @@
 political_decisions = {
-    restore_the_commonwealth = {
-        potential = {
-            tag = LIT
-            has_global_flag = lithuania_withdraws
-        }
-        allow = {
-            war = no
-            state_n_government = 1
-            POL = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-                    }
-                }
-            }
-            LIT = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-                    }
-                }
-            }
-        }
-        effect = {
-            change_tag = PLC
-            prestige = 40
-            add_accepted_culture = polish
-            add_accepted_culture = lithuanian
-            remove_accepted_culture = byelorussian
-        }
-    }
-
     withdraw_from_east = {
         potential = {
             tag = LIT

@@ -4910,7 +4910,7 @@
 	clergymen = {
 		culture = teuton
 		religion = protestant
-		size = 225   
+		size = 300   
 	}
 
 	artisans = {
@@ -4922,7 +4922,7 @@
 	soldiers = {
 		culture = teuton
 		religion = protestant
-		size = 1300   
+		size = 1400   
 	}
 
 	farmers = {
@@ -4931,26 +4931,14 @@
 		size = 19725
 	}
 
-	clergymen = {
-		culture = balten
-		religion = protestant
-		size = 75  
-	}
-
 	artisans = {
-		culture = balten
+		culture = teuton
 		religion = protestant
 		size = 500
 	}
 
-	soldiers = {
-		culture = balten
-		religion = protestant
-		size = 100 
-	}
-
 	farmers = {
-		culture = balten
+		culture = teuton
 		religion = protestant
 		size = 9625 
 	}
@@ -4988,25 +4976,25 @@
 	}
 
 	clergymen = {
-		culture = balten
+		culture = teuton
 		religion = protestant
 		size = 50 
 	}
 
 	artisans = {
-		culture = balten
+		culture = teuton
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = balten
+		culture = teuton
 		religion = protestant
 		size = 50 
 	}
 
 	farmers = {
-		culture = balten
+		culture = teuton
 		religion = protestant
 		size = 5650 
 	}

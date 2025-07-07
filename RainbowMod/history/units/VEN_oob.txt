@@ -53,7 +53,7 @@ home = 826
 }
 }
 navy = {
-name = "La marine des conquÃ©rants"
+name = "La marine des conquérants"
 location = 729
 ship = {
 name = "Ship 6"
@@ -145,7 +145,7 @@ type = clipper_transport
 }
 }
 navy = {
-name = "La marine des conquÃ©rants"
+name = "La marine des conquérants"
 location = 736
 ship = {
 name = "Ship 6"
