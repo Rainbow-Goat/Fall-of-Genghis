@@ -1,7 +1,8 @@
 capital = 1209
 primary_culture = pashtun
-culture = tajik
-religion = sunni
+culture = baluchi
+culture = kazak
+religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

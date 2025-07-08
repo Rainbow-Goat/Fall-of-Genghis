@@ -6,12 +6,7 @@ political_decisions = {
                     tag = LIT
                     has_global_flag = lithuania_withdraws
                 }
-                AND = {
-                    tag = POL
-                    NOT = {
-                        has_country_flag = the_southern_alliance
-                    }
-                }
+                tag = POL
             }
         }
         allow = {
@@ -40,7 +35,7 @@ political_decisions = {
         }
         effect = {
             change_tag = PLC
-            prestige = 40
+            prestige = 20
             add_accepted_culture = polish
             add_accepted_culture = lithuanian
             remove_accepted_culture = byelorussian
@@ -133,7 +128,7 @@ political_decisions = {
 			}
 		}	
 		effect = {
-			prestige = 40
+			prestige = 20
 			change_tag = KWS
 			add_accepted_culture = bohemian
 			add_accepted_culture = pommeranian
@@ -162,6 +157,7 @@ political_decisions = {
 				annex_to = THIS
 			}
 		}
+
 		ai_will_do = {
 				factor = 1
 		}

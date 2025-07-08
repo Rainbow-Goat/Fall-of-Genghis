@@ -4,8 +4,10 @@ add_core = PRO
 add_core = ITA
 trade_goods = fish
 life_rating = 35
-1861.1.1 = {
-	controller = ITA
-	owner = ITA
-	add_core = ITA
-}
+state_building = { level = 1 building = canned_food_factory upgrade = yes } 
+state_building = { level = 1 building = luxury_clothes_factory upgrade = yes } 
+state_building = { level = 1 building = regular_clothes_factory upgrade = yes } 
+state_building = { level = 1 building = clipper_shipyard upgrade = yes } 
+state_building = { level = 1 building = liquor_distillery upgrade = yes } 
+state_building = { level = 1 building = glass_factory upgrade = yes } 
+state_building = { level = 1 building = cement_factory upgrade = yes } 

@@ -23,10 +23,10 @@ country_event = {
 					AND = {
 						war = yes
 						OR = {
-							tag = TUR
-							tag = TRI
-							tag = TEX
-							tag = MEX
+							tag = SWE
+							tag = DEN
+							tag = ENG
+							tag = NRM
 						}
 						NOT = { 
 							year = 1837 

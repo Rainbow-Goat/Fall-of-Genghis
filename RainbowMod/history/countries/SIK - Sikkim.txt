@@ -1,6 +1,6 @@
 capital = 1328
-primary_culture = nepali
-religion = mahayana
+primary_culture = tibetan
+religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

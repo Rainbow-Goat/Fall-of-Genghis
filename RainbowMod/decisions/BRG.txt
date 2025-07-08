@@ -1,4 +1,21 @@
 political_decisions = {
+    royal_inheritance = {
+        potential = {
+            tag = BRG
+            exists = LOR
+            LOR = { is_our_vassal = THIS }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            LOR = { is_our_vassal = THIS }
+        }
+        effect = {
+            inherit = LOR
+        }
+    }
+
+
     deal_with_picard = {
         potential = {
             tag = BRG
@@ -9,8 +26,6 @@ political_decisions = {
         }
         allow = {
             war = no
-            nationalism_n_imperialism = 1
-            prestige = 50
             395 = {
                 owned_by = THIS
             }
@@ -34,34 +49,50 @@ political_decisions = {
             }
         }
         allow = {
-            revolution_n_counterrevolution = 1
+            nationalism_n_imperialism = 1
             411 = {
-                owned_by = THIS
+                OR = {
+                    owned_by = THIS
+                    owner = { is_our_vassal = THIS }
+                }
             }
             425 = {
-                owned_by = THIS
+                OR = {
+                    owned_by = THIS
+                    owner = { is_our_vassal = THIS }
+                }
             }
             428 = {
-                owned_by = THIS
+                OR = {
+                    owned_by = THIS
+                    owner = { is_our_vassal = THIS }
+                }
             }
             438 = {
-                owned_by = THIS
+                OR = {
+                    owned_by = THIS
+                    owner = { is_our_vassal = THIS }
+                }
+            }
+            446 = {
+                OR = {
+                    owned_by = THIS
+                    owner = { is_our_vassal = THIS }
+                }
             }
             BRG = {
                 all_core = {
                     owned_by = BRG
                 }
             }
-            NOT = {
-                exists = ORL
-            }
+            NOT = { exists = FRA }
         }
         effect = {
-            ORL = {
-                all_core = {
-                    add_core = BRG
-                }
-            }
+            406 = { add_core = THIS }
+            FRA_425 = { add_core = THIS }
+            FRA_428 = { add_core = THIS }
+            FRA_438 = { add_core = THIS }
+            FRA_445 = { add_core = THIS }
             add_accepted_culture = french
             set_country_flag = lotharingia_restored
         }

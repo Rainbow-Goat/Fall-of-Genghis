@@ -1,8 +1,8 @@
 capital = 1283
-primary_culture = avadhi
+primary_culture = telegu
 culture = marathi
-culture = telegu
-religion = sunni
+culture = tamil
+religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

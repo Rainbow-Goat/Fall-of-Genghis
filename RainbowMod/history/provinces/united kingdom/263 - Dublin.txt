@@ -5,5 +5,10 @@ add_core = IRE
 trade_goods = grain
 naval_base = 1
 life_rating = 35
-1861.1.1 = { state_building = { level = 1 building = fabric_factory upgrade = yes } state_building = { level = 1 building = furniture_factory upgrade = yes } } 
-1861.1.1 = { railroad = 3 naval_base = 2 } 
+state_building = { level = 3 building = canned_food_factory upgrade = yes } 
+state_building = { level = 1 building = luxury_clothes_factory upgrade = yes } 
+state_building = { level = 1 building = regular_clothes_factory upgrade = yes } 
+state_building = { level = 3 building = clipper_shipyard upgrade = yes } 
+state_building = { level = 1 building = liquor_distillery upgrade = yes } 
+state_building = { level = 2 building = glass_factory upgrade = yes } 
+state_building = { level = 1 building = cement_factory upgrade = yes } 

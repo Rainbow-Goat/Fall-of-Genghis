@@ -236,11 +236,10 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			NRM = {
-				all_core = {
-					owned_by = FRA
-				}
-			}
+			owns = 418
+			owns = 419
+			owns = 420
+			owns = 434
 			revolution_n_counterrevolution = 1
 		}
 		effect = {

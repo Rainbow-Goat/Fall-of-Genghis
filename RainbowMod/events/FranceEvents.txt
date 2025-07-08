@@ -7,18 +7,18 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "EVTOPT100100A"
+        name = "EVTOPTA100100"
         set_country_flag = french_borders_1
     }
 
     option = {
-        name = "EVTOPT100100B"
+        name = "EVTOPTB100100"
         set_country_flag = french_borders_2
         badboy = 10
     }
 
     option = {
-        name = "EVTOPT100100C"
+        name = "EVTOPTC100100"
         set_country_flag = french_borders_3
         badboy = 20
     }
@@ -33,7 +33,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "EVTOPT100101A"
+        name = "EVTOPTA100101"
         453 = {
             remove_core = PRO
             secede_province = FRA
@@ -49,7 +49,7 @@ country_event = {
     }
 
     option = {
-        name = "EVTOPT100101B"
+        name = "EVTOPTB100101"
         prestige = 15
         FRA = {
             country_event = 100102
@@ -66,7 +66,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "EVTOPT100102"
+        name = "EVTOPTA100102"
         casus_belli = {
             target = PRO
             type = acquire_state
@@ -118,7 +118,7 @@ country_event = {
     }
 
     option = {
-        name = "EVTOPT100103"
+        name = "EVTOPTA100103"
         set_country_flag = final_borders
         clr_country_flag = french_wallonia
         clr_country_flag = french_borders_1

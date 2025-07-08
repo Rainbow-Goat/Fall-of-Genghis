@@ -2,7 +2,7 @@ color = { 255  234  174 }
 graphical_culture = Generic
 
 party = {
-	name = "XIN_reactionary"
+	name = "UYG_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "XIN_liberal"
+	name = "UYG_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "XIN_conservative"
+	name = "UYG_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "XIN_anarcho_liberal"
+	name = "UYG_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "XIN_socialist"
+	name = "UYG_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "XIN_communist"
+	name = "UYG_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "XIN_fascist"
+	name = "UYG_fascist"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
