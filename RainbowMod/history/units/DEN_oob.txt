@@ -175,7 +175,7 @@ navy = {
 }
 
 navy = {
-name = "La marine des conquérants"
+name = "La marine des conquÃ©rants"
 location = 372
 ship = {
 name = "Ship 6"
@@ -267,7 +267,7 @@ type = clipper_transport
 }
 }
 navy = {
-name = "La marine des conquérants"
+name = "La marine des conquÃ©rants"
 location = 372
 ship = {
 name = "Ship 6"

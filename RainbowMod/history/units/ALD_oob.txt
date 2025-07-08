@@ -2,19 +2,19 @@ army = {
 	name = "Army of Abd el Kader"
 	location = 1707
 	regiment = {
-		name= "1.Ask‰ris"
+		name= "1.Ask√§ris"
 		type = irregular
 		home = 1707
 	}
 
 	regiment = {
-		name= "2.Ask‰ris"
+		name= "2.Ask√§ris"
 		type = irregular
 		home = 1702
 	}
 
 	regiment = {
-		name= "3.Ask‰ris"
+		name= "3.Ask√§ris"
 		type = irregular
 		home = 1705
 	}
@@ -43,25 +43,25 @@ army = {
 	name = "Army of the Bey of Constantine"
 	location = 1713
 	regiment = {
-		name= "4.Ask‰ris"
+		name= "4.Ask√§ris"
 		type = irregular
 		home = 1708
 	}
 
 	regiment = {
-		name= "5.Ask‰ris"
+		name= "5.Ask√§ris"
 		type = irregular
 		home = 1703
 	}
 
 	regiment = {
-		name= "6.Ask‰ris"
+		name= "6.Ask√§ris"
 		type = irregular
 		home = 1702
 	}
 
 	regiment = {
-		name= "7.Ask‰ris"
+		name= "7.Ask√§ris"
 		type = irregular
 		home = 1703
 	}

@@ -637,25 +637,25 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 25
 	}
 
 	farmers = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 900
 	}
@@ -1118,25 +1118,25 @@
 #Perth (23000/5750 POPS)
 2497 = {
 	clergymen = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 15
 	}
 
 	artisans = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 40
 	}
 
 	soldiers = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 10
 	}
 
 	farmers = {
-		culture = british
+		culture = castillian
 		religion = protestant
 		size = 685
 	}

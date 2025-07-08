@@ -33,7 +33,7 @@ leader = {
 }
 
 army = {
-	name = "Stratós Thessalías"
+	name = "StratÃ³s ThessalÃ­as"
 	location = 836
 	regiment = {
 		name= "1. Taxiarchia Pezikou"
@@ -61,7 +61,7 @@ army = {
 }
 
 army = {
-	name = "Stratós Epeírou"
+	name = "StratÃ³s EpeÃ­rou"
 	location = 837
 	regiment = {
 		name= "5. Taxiarchia Pezikou"

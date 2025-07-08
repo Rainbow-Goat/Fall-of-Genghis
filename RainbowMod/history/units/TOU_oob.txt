@@ -3,7 +3,7 @@
 #========================= L A N D =========================
 
 army = {
-name = "Les gardes-frontières"
+name = "Les gardes-frontiÃ¨res"
 location = 455
 regiment = {
 name = "Regiment 0"

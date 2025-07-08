@@ -12,7 +12,7 @@ leader = {
 }
 
 leader = {
-	name = "LuÌs Barreto"
+	name = "Lu√≠s Barreto"
 	date = 1824.1.1
 	type = land
 	personality = resolute
@@ -30,7 +30,7 @@ leader = {
 }
 
 army = {
-	name = "ExÈrcito PortuguÍs"
+	name = "Ex√©rcito Portugu√™s"
 	location = 521
 	regiment = {
 		name= "1. Brigada de Infantaria"
@@ -71,33 +71,33 @@ army = {
 }
 
 army = {
-	name = "ExÈrcito do Africa Ocidental"
+	name = "Ex√©rcito do Africa Ocidental"
 	location = 1999
 	
 	regiment = {
-		name = "1. Divis„o Colonial"
+		name = "1. Divis√£o Colonial"
 		type = infantry
 		home = 525
 	}
 }
 
 army = {
-	name = "ExÈrcito do Africa Oriental"
+	name = "Ex√©rcito do Africa Oriental"
 	location = 2057
 	
 	regiment = {
-		name = "2. Divis„o Colonial"
+		name = "2. Divis√£o Colonial"
 		type = infantry
 		home = 2134
 	}
 }
 
 army = {
-	name = "ExÈrcito da Õndia"
+	name = "Ex√©rcito da √çndia"
 	location = 1303
 	
 	regiment = {
-		name = "3. Divis„o Colonial"
+		name = "3. Divis√£o Colonial"
 		type = infantry
 		home = 1303
 	}
@@ -112,22 +112,22 @@ navy = {
 	}
 
 	ship = {
-		name= "Dom Jo„o VI "
+		name= "Dom Jo√£o VI "
 		type = manowar
 	}
 
 	ship = {
-		name= "Nossa Senhora da ConceiÁ„o"
+		name= "Nossa Senhora da Concei√ß√£o"
 		type = manowar
 	}
 
 	ship = {
-		name= "S„o Sebasti„o"
+		name= "S√£o Sebasti√£o"
 		type = manowar
 	}
 
 	ship = {
-		name= "AmazÙnia"
+		name= "Amaz√¥nia"
 		type = manowar
 	}
 
@@ -142,7 +142,7 @@ navy = {
 	}
 
 	ship = {
-		name= "PrÌncipe do Brasil"
+		name= "Pr√≠ncipe do Brasil"
 		type = manowar
 	}
 

@@ -1,20 +1,20 @@
 army = {
-	name = "Ejército de Ecuador"
+	name = "EjÃ©rcito de Ecuador"
 	location = 2279
 	regiment = {
-		name= "1. Brigada de Infantería"
+		name= "1. Brigada de InfanterÃ­a"
 		type = infantry
 		home = 2279
 	}
 
 	regiment = {
-		name= "2. Brigada de Infantería"
+		name= "2. Brigada de InfanterÃ­a"
 		type = infantry
 		home = 2279
 	}
 
 	regiment = {
-		name= "3. Brigada de Infantería"
+		name= "3. Brigada de InfanterÃ­a"
 		type = infantry
 		home = 2283
 	}

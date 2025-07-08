@@ -3,8 +3,7 @@ country_event = {
     title = "Denmark has been defeated!"
     desc = "After many bloody years of fighting we have finally prevailed! The Tyrant has been defeated and we can finally decide our own future!"
     picture = "celebration"
-
-    fire_only_once = yes
+	is_triggered_only = yes
 
     option = {
         name = "Actually the Danish had a good idea! (Danelaw path)"
@@ -26,8 +25,8 @@ country_event = {
     desc = "After many bloody years of fighting we have finally prevailed! The foolish Swedes have been defeated and we can finally decide our own future!"
     picture = "celebration"
 
-    fire_only_once = yes
 
+	is_triggered_only = yes
     option = {
         name = "Lets free our Norse brothers and restore the North Sea Empire! (Danelaw path)"
         change_tag = SCA

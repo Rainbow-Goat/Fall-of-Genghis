@@ -4675,7 +4675,7 @@
 	}
 
 	aristocrats = {
-		culture = beifaren
+		culture = manzi
 		religion = mahayana
 		size = 325
 	}

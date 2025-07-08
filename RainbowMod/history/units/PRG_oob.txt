@@ -1,14 +1,14 @@
 army = {
-	name = "Ejército del Paraguay"
+	name = "EjÃ©rcito del Paraguay"
 	location = 2339
 	regiment = {
-		name= "1.1ra División de Infantería"
+		name= "1.1ra DivisiÃ³n de InfanterÃ­a"
 		type = infantry
 		home = 2339
 	}
 
 	regiment = {
-		name= "2.1ra División de Infantería"
+		name= "2.1ra DivisiÃ³n de InfanterÃ­a"
 		type = infantry
 		home = 2341
 	}

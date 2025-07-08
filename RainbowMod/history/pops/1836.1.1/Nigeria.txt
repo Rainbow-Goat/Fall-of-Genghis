@@ -1240,37 +1240,37 @@
 	}
 
 	aristocrats = {
-		culture = hausa
+		culture = african_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = hausa
+		culture = african_minor
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = hausa
+		culture = african_minor
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = hausa
+		culture = african_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = hausa
+		culture = african_minor
 		religion = animist
 		size = 2700
 	}
 
 	slaves = {
-		culture = hausa
+		culture = african_minor
 		religion = animist
 		size = 2000
 	}
@@ -1447,7 +1447,7 @@
 		size = 2000
 	}
 }
-#Hausaland Region (3056000)
+#african_minorland Region (3056000)
 #under rule of Sokoto in 1836
 #Kano (852000/213000 POPS)
 1945 = {

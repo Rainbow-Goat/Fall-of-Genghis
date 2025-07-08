@@ -639,31 +639,31 @@
 #Faizabad (340000/85000 POPS)
 1210 = {
 	aristocrats = {
-		culture = uzbek
+		culture = kazak
 		religion = mahayana
 		size = 125
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = kazak
 		religion = mahayana
 		size = 63
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = kazak
 		religion = mahayana
 		size = 350
 	}
 
 	soldiers = {
-		culture = uzbek
+		culture = kazak
 		religion = mahayana
 		size = 1100
 	}
 
 	farmers = {
-		culture = uzbek
+		culture = kazak
 		religion = mahayana
 		size = 5512
 	}
@@ -697,5 +697,4 @@
 		religion = mahayana
 		size = 67825
 	}
-
 }

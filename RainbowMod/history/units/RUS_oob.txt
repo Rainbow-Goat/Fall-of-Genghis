@@ -757,7 +757,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Smelyï"
+		name= "SmelyÃ¯"
 		type = manowar
 	}
 
@@ -772,7 +772,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Chrabryï"
+		name= "ChrabryÃ¯"
 		type = manowar
 	}
 
@@ -902,7 +902,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Bystryï"
+		name= "BystryÃ¯"
 		type = frigate
 	}
 
@@ -917,7 +917,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Chtchastlivyï"
+		name= "ChtchastlivyÃ¯"
 		type = frigate
 	}
 
