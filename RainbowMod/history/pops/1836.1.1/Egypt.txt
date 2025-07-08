@@ -93,13 +93,13 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = antiqua_greek
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = greek
+		culture = antiqua_greek
 		religion = orthodox
 		size = 2950
 	}
@@ -467,13 +467,13 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = antiqua_greek
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = greek
+		culture = antiqua_greek
 		religion = orthodox
 		size = 1950
 	}

@@ -1,6 +1,5 @@
 capital = 1600
-primary_culture = beifaren
-culture = uighur
+primary_culture = uighur
 religion = sunni
 government = khanate
 plurality = 0.0
@@ -8,7 +7,7 @@ nationalvalue = nv_order
 literacy = 0.04
 non_state_culture_literacy = 0.02
 
-ruling_party = UYG_reactionary
+ruling_party = XIN_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 0

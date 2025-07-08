@@ -547,25 +547,25 @@
 	}
 
 	clergymen = {
-		culture = balten
+		culture = scandinavian
 		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = balten
+		culture = scandinavian
 		religion = jewish
 		size = 750
 	}
 
 	soldiers = {
-		culture = balten
+		culture = scandinavian
 		religion = jewish
 		size = 75
 	}
 
 	farmers = {
-		culture = balten
+		culture = scandinavian
 		religion = jewish
 		size = 6125
 	}
