@@ -139,15 +139,15 @@ unit_names = {
 	}
 	manowar = {
 			"Primeiro De Marco" Parnahyba Guanabara Trajano "Vital De Oliveira" Nictheroy
-			Sergipe Parana Greenhalgh Macapï¿½
+			Sergipe Parana Greenhalgh
 	}
 	cruiser = {
-			"Almirante Barrozo" Republica "Almirante Tamandarï¿½" "Benjamin Constant" Aquidaban
+			"Almirante Barrozo" Republica Almirante "Benjamin Constant" Aquidaban
 			Riachuelo Toneleros Fortaleza Tiradentes
 	}
 	frigate = {
 			"Almirante Saldanha" Pernambuco Inhauma Jaceguay Frontin "Julio De Noronha" Niteroi
-			Uniao Belï¿½m Vigia
+			Uniao Vigia
 	}
 	monitor = {
 			Javary Solimoes "Sete de Setembro" Ipiranga Independencia "Mato Grosso" Maranhao
@@ -160,7 +160,7 @@ unit_names = {
 			
 	}
 	commerce_raider = {
-			Belmonte Jequitinhonha Amazonas Beberibe Iguatemi Mearim Araguari Parnaï¿½ba Cabral
+			Belmonte Jequitinhonha Amazonas Beberibe Iguatemi Mearim Araguari Cabral
 			Barroso Herval Silvado "Lima Barros"
 	}
 }
