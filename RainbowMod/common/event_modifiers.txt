@@ -812,6 +812,12 @@ magyarization = {
 	global_assimilation_rate = 3
 }
 
+
+#Misc
 sizing_cooldown = {
+	icon = 10
+}
+
+had_cholera = { 
 	icon = 10
 }

@@ -120,10 +120,11 @@ province_event = {
 	id = 12020
 	
 	trigger = {
+		
+		produces = coal
 		owner = {
 			press_rights = free_press
 		}
-		produces = coal
 	}
 	
 	mean_time_to_happen = {

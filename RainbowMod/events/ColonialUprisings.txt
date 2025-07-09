@@ -928,9 +928,10 @@ province_event = {
 	desc = "EVTDESC14650"
 	
 	trigger = {
+		continent = africa
 		NOT = { has_country_modifier = recent_safari2 }
 		is_colonial = yes
-		continent = africa
+	
 	}
 	
 	mean_time_to_happen = {
@@ -1001,10 +1002,10 @@ province_event = {
 	desc = "EVTDESC14660"
 	
 	trigger = {
+		continent = africa
 		year = 1860
 		NOT = { has_country_modifier = recent_safari }
 		is_colonial = yes
-		continent = africa
 		owner = { civilized = yes }
 		}
 	
@@ -1198,8 +1199,8 @@ country_event = {
 	
 	
 	trigger = {
-		colonial_nation = yes
 		is_greater_power = yes
+		colonial_nation = yes
 	}
 	
 	mean_time_to_happen = {

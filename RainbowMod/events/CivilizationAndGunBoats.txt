@@ -52,14 +52,14 @@ province_event = {
 	desc = "EVTDESC13010"
 
 	trigger = {
-		NOT = {
-			has_province_modifier = western_presence
-		}
 		owner = {
 			has_country_modifier = western_influences
 			is_greater_power = no
 			civilized = no
 			war = no
+		}
+		NOT = {
+			has_province_modifier = western_presence
 		}
 	}
 
@@ -187,10 +187,10 @@ province_event = {
 	desc = "EVTDESC13020"
 
 	trigger = {
-		is_coastal = yes
 		owner = {
 			has_country_modifier = uncivilized_isolationism
 		}
+		is_coastal = yes
 	}
 	mean_time_to_happen = {
 		months = 5000
@@ -274,11 +274,11 @@ province_event = {
 	desc = "EVTDESC13030"
 
 	trigger = {
-		is_coastal = yes
 		owner = {
 			has_country_modifier = uncivilized_isolationism
 			NOT = { has_country_modifier = foreign_smugglers }
 		}
+		is_coastal = yes
 	}
 
 	mean_time_to_happen = {
@@ -385,11 +385,11 @@ province_event = {
 	desc = "EVTDESC13040"
 
 	trigger = {
-		is_coastal = yes
 		owner = {
 			has_country_modifier = uncivilized_isolationism
 			NOT = { has_country_modifier = foreign_trading_post }
 		}
+		is_coastal = yes
 	}
 
 	mean_time_to_happen = {
@@ -540,10 +540,10 @@ province_event = {
 	desc = "EVTDESC13055"
 
 	trigger = {
-		is_coastal = yes
 		owner = {
 			civilized = no
 		}
+		is_coastal = yes
 		any_neighbor_province = {
 			has_province_modifier = local_opium_habit
 		}
@@ -579,10 +579,10 @@ province_event = {
 	desc = "EVTDESC13060"
 
 	trigger = {
-		is_coastal = no
 		owner = {
 			civilized = no
 		}
+		is_coastal = no
 		any_neighbor_province = {
 			has_province_modifier = local_opium_habit
 		}
@@ -865,10 +865,10 @@ province_event = {
 	news_desc_short = "EVTDESC13100_NEWS_SHORT"
 
 	trigger = {
-		average_militancy = 3
 		owner = {
 				has_country_modifier = foreign_trading_post
 		}
+		average_militancy = 3
 	}
 	mean_time_to_happen = {
 		months = 600
@@ -1143,6 +1143,7 @@ province_event = {
 	desc = "EVTDESC13150"
 
 	trigger = {
+		average_militancy = 4
 		OR = {
 			has_province_modifier = european_military_mission
 			has_province_modifier = western_presence
@@ -1153,7 +1154,6 @@ province_event = {
 				}
 			}
 		}
-		average_militancy = 4
 	}
 
 	mean_time_to_happen = {

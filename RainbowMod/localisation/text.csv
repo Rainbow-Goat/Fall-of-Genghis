@@ -274,7 +274,7 @@ TIP_BAN;Ban player for the duration of this session;;;x;;
 PLAYER_KICKED;$NAME$ was molested by the host.;;;x;;
 PLAYER_BANNED;$NAME$ was banned by the host.;;;x;;
 YOUKICKED;You were molested by the host for your evil deeds!;;;x;;
-BAD_VERSION;UH OH NIGGER! WRONG VERSION OF THE MOD SHITHEAD, YOUR HOST HAS A DIFFERENT VERSION! KYS RETARD! ??;;;x;;
+BAD_VERSION;Different version of the mod than the host's. You need to launch the game twice to get the right checksum.;;;x;;
 JOINED_CHANNEL;Joined channel $CHAN$.;;;x;;
 USER_JOINED_CHANNEL;$NAME$ joined the channel.;;;x;;
 USER_LEFT_CHANNEL;$NAME$ left the channel.;;;x;;
