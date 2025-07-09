@@ -101,7 +101,7 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Crna Gora" Podgorica Niköic Pljevlja Bijelo Polje 
+		"Crna Gora" Podgorica Nik≈°ic Pljevlja Bijelo Polje 
 	}
 	ironclad = {
 		Mihailo "Konstantin Bodin" "Petar II" Nikola  
@@ -125,6 +125,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Mamula Prevlaka "Sveti Marko" "Gospa od äkrpjela" "Sveti –orde" 
+		Mamula Prevlaka "Sveti Marko" "Gospa od ≈†krpjela" "Sveti √êorde" 
 	}
 }

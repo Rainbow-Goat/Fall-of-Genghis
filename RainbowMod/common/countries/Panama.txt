@@ -101,32 +101,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Cristóbal Colón" "Demetrio Brid" "Esteban Huertas" "Federico Boyd" Independencia "José Agustín Arango" "Manuel Amador Guerrero" Panamá "Tomás de Herrera" "Tres de Noviembre"
+		"CristÃ³bal ColÃ³n" "Demetrio Brid" "Esteban Huertas" "Federico Boyd" Independencia "JosÃ© AgustÃ­n Arango" "Manuel Amador Guerrero" PanamÃ¡ "TomÃ¡s de Herrera" "Tres de Noviembre"
 	}
 	ironclad = {
-		Almirante Azuero Balboa Coiba Cristóbal "El Golfo" "Las Pelas" Tabasará Taboga Talamanca
+		Almirante Azuero Balboa Coiba CristÃ³bal "El Golfo" "Las Pelas" TabasarÃ¡ Taboga Talamanca
 	}
 	manowar = {
-		"Espíritu Santo" "Estrella de los Mares" "San Blas" "San Carlos" "San Cristóbal" "San Felipe" "San Fernando" "Santa Isabel" "Santa María" "Santísima Trinidad"
+		"EspÃ­ritu Santo" "Estrella de los Mares" "San Blas" "San Carlos" "San CristÃ³bal" "San Felipe" "San Fernando" "Santa Isabel" "Santa MarÃ­a" "SantÃ­sima Trinidad"
 	}
 	cruiser = {
-		"Bocas del Toro" Buabidi Darién "El Porvenir" Emberá-Wounaan "Kuna de Madugandí" "Kuna de Wargandí" "Kuna Yala Ngöbe-Buglé" "Unión Choco"
+		"Bocas del Toro" Buabidi DariÃ©n "El Porvenir" EmberÃ¡-Wounaan "Kuna de MadugandÃ­" "Kuna de WargandÃ­" "Kuna Yala NgÃ¶be-BuglÃ©" "UniÃ³n Choco"
 	}
 	frigate = {
-		Chiriquí Chitré "Ciudad de Panamá" Coclé Colón Herrera "La Palma" "Los Santos" Penonomé Veraguas
+		ChiriquÃ­ ChitrÃ© "Ciudad de PanamÃ¡" CoclÃ© ColÃ³n Herrera "La Palma" "Los Santos" PenonomÃ© Veraguas
 	}
 	monitor = {
-		Cabra Cañas Caribe Cébaco Coiba Grande Jicarón "Las Tres Marías" Mamey Montuosa
+		Cabra CaÃ±as Caribe CÃ©baco Coiba Grande JicarÃ³n "Las Tres MarÃ­as" Mamey Montuosa
 	}
 	clipper_transport = {
-		Águila Avance Carguero Cóndor Coraje Creador Descubridor Éter Explorador Fénix
-		Halcón Inhundible Lázaro Oscuro Pegaso "San Antonio" "San Bernabé" "Santa Marta" Titán Volador
+		Ãguila Avance Carguero CÃ³ndor Coraje Creador Descubridor Ã‰ter Explorador FÃ©nix
+		HalcÃ³n Inhundible LÃ¡zaro Oscuro Pegaso "San Antonio" "San BernabÃ©" "Santa Marta" TitÃ¡n Volador
 	}
 	steam_transport = { 
-		Águila Avance Carguero Cóndor Coraje Creador Descubridor Éter Explorador Fénix
-		Halcón Inhundible Lázaro Oscuro Pegaso "San Antonio" "San Bernabé" "Santa Marta" Titán Volador
+		Ãguila Avance Carguero CÃ³ndor Coraje Creador Descubridor Ã‰ter Explorador FÃ©nix
+		HalcÃ³n Inhundible LÃ¡zaro Oscuro Pegaso "San Antonio" "San BernabÃ©" "Santa Marta" TitÃ¡n Volador
 	}
 	commerce_raider = {
-		Barú Chagres Chepo Destructor Exterminador Fuego San Miguel Temor Tuira Volcán
+		BarÃº Chagres Chepo Destructor Exterminador Fuego San Miguel Temor Tuira VolcÃ¡n
 	}
 }

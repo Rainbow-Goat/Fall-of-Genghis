@@ -117,12 +117,12 @@ country_event = {
 	desc = "In the chaos of modernization the glorious Batbayar has slept with the Kings wife, shit on his bed, taken over absolute power in the state and proclaimed a Great Khanate!"
 	
 	trigger = {
+		has_country_flag = Batbayar
 		has_global_flag = BatbayarRisen
 		OR = {
-			civilised = yes
+			civilized = yes
 			year = 1845
 		}
-		has_country_flag = Batbayar
 		NOT = { has_country_flag = BatbayarInPower }
 	}
 	
@@ -170,8 +170,8 @@ country_event = {
 	desc = "The people are adopting the ways of Batbayar!"
 	
 	trigger = {
-		is_ideology_enabled = communism
 		has_country_flag = BatbayarThought
+		is_ideology_enabled = communist
 		NOT = { has_country_flag = BatThoughtSpread }
 	}
 
@@ -187,7 +187,7 @@ country_event = {
 			literacy = 0.1
 			ideology = {
 				factor = 10
-				value = communism
+				value = communist
 			}
 		}
 	}
@@ -199,8 +199,8 @@ country_event = {
 	desc = "There have been reports of our people reading a curious red book written by a man called Batbayar, it seems to be quite convincing"
 	
 	trigger = {
-		is_ideology_enabled = communism
 		has_global_flag = BatbayarThoughtG
+		is_ideology_enabled = communist
 		NOT = { has_country_flag = BatbayarInPower }
 	}
 
@@ -213,10 +213,10 @@ country_event = {
 		random_state = {
 			limit = { is_colonial = no }
 			poor_strata = {
-				consiousness = 3
+				consciousness = 3
 				ideology = {
 					factor = 20
-					value = communism
+					value = communist
 				}
 			}
 		}
@@ -230,7 +230,7 @@ country_event = {
 				militancy = 6
 				ideology = {
 					factor = 5
-					value = communism
+					value = communist
 				}
 			}
 		}
@@ -243,8 +243,8 @@ country_event = {
 	desc = "And she says she liked it!"
 	
 	trigger = {
-		NOT = { has_country_flag = Batbayar }
 		has_global_flag = BatbayarRisen
+		NOT = { has_country_flag = Batbayar }
 		civilised = yes
 	}
 	

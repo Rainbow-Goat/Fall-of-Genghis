@@ -152,7 +152,7 @@ unit_names = {
 		"Velika Morava" "Juzna Morava" Zlatibor Kopaonik Resava 
 	}
 	cruiser = {
-		Karadûic Nemanjici Silni "Mihailo I" Jankovic
+		Karad≈æic Nemanjici Silni "Mihailo I" Jankovic
 	}
 	frigate = {
 		Valjevo "Stevan Sindelic" Takovo Ljubic
@@ -165,7 +165,7 @@ unit_names = {
 
 	}
 	steam_transport = { 
-		Jaki Silni Snaûi Marljivi Ustrajni
+		Jaki Silni Sna≈æi Marljivi Ustrajni
 
 	}
 	commerce_raider = {

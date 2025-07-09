@@ -101,32 +101,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		ConstituciÛn Guatemala "JosÈ Carrera Turcios" "JosÈ MarÌa Reina" "Justo Barrios" "Manuel Estrada" "Mariano Rivera" "Pedro Molina" Presidente "Vicente Cerna"
+		Constituci√≥n Guatemala "Jos√© Carrera Turcios" "Jos√© Mar√≠a Reina" "Justo Barrios" "Manuel Estrada" "Mariano Rivera" "Pedro Molina" Presidente "Vicente Cerna"
 	}
 	ironclad = {
-		Belice Dulce Hondo Lempa "Los Esclavos" "MarÌa Linda" Motagua Nahualete Paz Suchiate
+		Belice Dulce Hondo Lempa "Los Esclavos" "Mar√≠a Linda" Motagua Nahualete Paz Suchiate
 	}
 	manowar = {
-		Audaz Conquista Independencia Salvador "San JosÈ" "San Justo" "San Pedro" "San Vicente" "Santa MarÌa" Vencedora
+		Audaz Conquista Independencia Salvador "San Jos√©" "San Justo" "San Pedro" "San Vicente" "Santa Mar√≠a" Vencedora
 	}
 	cruiser = {
-		Barrigones "BartolomÈ de las Casas" Cakchiquel Itz· Kiche "Nueva Sevilla" Olmeca "Pedro de Alvarado" Qeqchi Zapotitl·n
+		Barrigones "Bartolom√© de las Casas" Cakchiquel Itz√° Kiche "Nueva Sevilla" Olmeca "Pedro de Alvarado" Qeqchi Zapotitl√°n
 	}
 	frigate = {
-		"Ciudad de Guatemala" Flores Guastatoya Huehuetenango Jalapa Quetzaltenango Retalhuleu Salam· "Santa Cruz" Totonicap·n
+		"Ciudad de Guatemala" Flores Guastatoya Huehuetenango Jalapa Quetzaltenango Retalhuleu Salam√° "Santa Cruz" Totonicap√°n
 	}
 	monitor = {
-		Acatenago Agua Almolonga Atitl·n Fuego "Santa MarÌa" "Santo Tom·s" Tacan· Tajumulco Tolim·n
+		Acatenago Agua Almolonga Atitl√°n Fuego "Santa Mar√≠a" "Santo Tom√°s" Tacan√° Tajumulco Tolim√°n
 	}
 	clipper_transport = {
-		AdoraciÛn Atl·ntica Emprendedora Gracia Hurac·n Maya MÛvil Neptuno Nocturna Oce·nica
-		PacÌfica Rompeolas "San Cosme" "San Jorge" "San Pablo" Sirena Tikal Tormenta TritÛn Ventisca
+		Adoraci√≥n Atl√°ntica Emprendedora Gracia Hurac√°n Maya M√≥vil Neptuno Nocturna Oce√°nica
+		Pac√≠fica Rompeolas "San Cosme" "San Jorge" "San Pablo" Sirena Tikal Tormenta Trit√≥n Ventisca
 	}
 	steam_transport = {
-		AdoraciÛn Atl·ntica Emprendedora Gracia Hurac·n Maya MÛvil Neptuno Nocturna Oce·nica
-		PacÌfica Rompeolas "San Cosme" "San Jorge" "San Pablo" Sirena Tikal Tormenta TritÛn Ventisca
+		Adoraci√≥n Atl√°ntica Emprendedora Gracia Hurac√°n Maya M√≥vil Neptuno Nocturna Oce√°nica
+		Pac√≠fica Rompeolas "San Cosme" "San Jorge" "San Pablo" Sirena Tikal Tormenta Trit√≥n Ventisca
 	}
 	commerce_raider = {
-		Chingo Chiquimula Destructor Flores Golpeador Guatemalteco Ixtepeque Lanzador "San Patricio" Suchit·n
+		Chingo Chiquimula Destructor Flores Golpeador Guatemalteco Ixtepeque Lanzador "San Patricio" Suchit√°n
 	}
 }

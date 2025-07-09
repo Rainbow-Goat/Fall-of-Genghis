@@ -134,7 +134,7 @@ unit_names = {
 		"Jakob Mora" "Jan III Sobieski" 
 	}
 	ironclad = {
-		Kraków Warszawa Lódz Poznan Wroclaw Lwów Gdansk 
+		KrakÃ³w Warszawa LÃ³dz Poznan Wroclaw LwÃ³w Gdansk 
 	}
 	manowar = {
 		Wisla Odra Warta Narew San Notec Bug 

@@ -123,10 +123,10 @@ unit_names = {
 
 	}
 	steam_transport = { 
-		Jaki Silni Snaûi Marljivi Ustrajni
+		Jaki Silni Sna≈æi Marljivi Ustrajni
 
 	}
 	commerce_raider = {
-		Senj Straûar "Smrt Glava" Lubanja Pacov
+		Senj Stra≈æar "Smrt Glava" Lubanja Pacov
 	}
 }

@@ -184,23 +184,23 @@ party = {
 }
 
 unit_names = {
-	dreadnought = { WSFurg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+	dreadnought = { WSFurg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 		
 	}
 	ironclad = {
-		 WSFurg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 WSFurg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	manowar = {
-		 WSFurg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 WSFurg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	cruiser = {
-		 WSFurg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 WSFurg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	frigate = {
-		 WSFurg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 WSFurg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	monitor = {
-		 WSFurg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 WSFurg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 	clipper_transport = {
 		
@@ -209,6 +209,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		 WSFurg Gotha Thüringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
+		 WSFurg Gotha ThÃ¼ringen "Herzog Ernst" "Prinzession Luise" "Carl Eduard" Victoria "Von Carlowitz" Freiherr Landgraf 
 	}
 }

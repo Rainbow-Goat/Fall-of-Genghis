@@ -6,7 +6,6 @@ province_event = {
 	id = 1100
 
 	trigger = {
-		year = 1836
 		or = {
 			province_id = 1				# Sitka
 			province_id = 2				# Yakutat
@@ -60,11 +59,8 @@ province_event = {
 	id = 1101
 
 	trigger = {
+		province_id = 88			# Mariposa
 		year = 1848
-		or = {
-			province_id = 88			# Mariposa
-			province_id = 695			# Königsberg
-		}
 		not = { trade_goods = precious_metal }
 	}
 
@@ -90,8 +86,8 @@ province_event = {
 	id = 1102
 
 	trigger = {
-		year = 1850
 		province_id = 1084				# Utchan
+		year = 1850
 		not = { trade_goods = precious_metal }
 	}
 
@@ -115,8 +111,8 @@ province_event = {
 	id = 1103
 
 	trigger = {
-		year = 1861
 		province_id = 93			# Pocatello
+		year = 1861
 		not = { trade_goods = precious_metal }
 	}
 
@@ -140,8 +136,8 @@ province_event = {
 	id = 1139
 	
 	trigger = {
-		year = 1886
 		province_id = 2106
+		year = 1886
 		NOT = {
 			trade_goods = precious_metal
 		}
@@ -185,8 +181,8 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		year = 1874
 		has_country_flag = custers_expedition_sent
+		year = 1874
 	}
 	
 	mean_time_to_happen = {
@@ -553,8 +549,8 @@ province_event = {
 	id = 1111
 
 	trigger = {
-		year = 1872
 		province_id = 1186		# Alma Ata
+		year = 1872
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -595,9 +591,9 @@ province_event = {
 
 	id = 1112
 
-	trigger = {
-		year = 1873
+	trigger = {		
 		province_id = 1202		# Kokand
+		year = 1873
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -639,8 +635,8 @@ province_event = {
 	id = 1113
 
 	trigger = {
-		year = 1874
 		province_id = 1107		# Lankaran
+		year = 1874
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -682,8 +678,8 @@ province_event = {
 	id = 1114
 
 	trigger = {
-		year = 1875
 		province_id = 132		# Houston
+		year = 1875
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -725,8 +721,8 @@ province_event = {
 	id = 1115
 
 	trigger = {
-		year = 1876
 		province_id = 667		# Tirgoviste
+		year = 1876
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -768,8 +764,8 @@ province_event = {
 	id = 1116
 
 	trigger = {
-		year = 1877
 		province_id = 672		# Bacau
+		year = 187
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -811,8 +807,8 @@ province_event = {
 	id = 1117
 
 	trigger = {
-		year = 1879
 		province_id = 1168		# Dubai
+		year = 1879
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -854,8 +850,8 @@ province_event = {
 	id = 1118
 
 	trigger = {
-		year = 1881
 		province_id = 110		# Cheyenne
+		year = 1881
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1086,8 +1082,8 @@ province_event = {
 	id = 1123
 
 	trigger = {
-		year = 1889
 		province_id = 1260		# Dibrugarh
+		year = 1889
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1129,8 +1125,8 @@ province_event = {
 	id = 1124
 
 	trigger = {
-		year = 1892
 		province_id = 1086		# Pogobi
+		year = 1892
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1531,8 +1527,8 @@ province_event = {
 	id = 1133
 
 	trigger = {
-		year = 1912
 		province_id = 1132		# Abadan
+		year = 1912
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1574,8 +1570,8 @@ province_event = {
 	id = 1134
 
 	trigger = {
-		year = 1913
 		province_id = 26		# Calgary
+		year = 1913
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1617,8 +1613,8 @@ province_event = {
 	id = 1135
 
 	trigger = {
-		year = 1915
 		province_id = 2291		# Piura
+		year = 1915
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1660,8 +1656,8 @@ province_event = {
 	id = 1136
 
 	trigger = {
-		year = 1917
 		province_id = 849		# Tirana
+		year = 1917
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1703,8 +1699,8 @@ province_event = {
 	id = 1137
 
 	trigger = {
-		year = 1923
 		province_id = 928		# Mendeli
+		year = 1923
 		not = { trade_goods = oil }
 		OR = {
 			owner = {
@@ -1746,8 +1742,8 @@ province_event = {
 	id = 1138
 
 	trigger = {
-		year = 1927
 		province_id = 923		# Mosul
+		year = 1927
 		not = { trade_goods = oil }
 		OR = {
 			owner = {

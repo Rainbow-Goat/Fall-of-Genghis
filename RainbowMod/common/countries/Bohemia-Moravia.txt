@@ -101,22 +101,22 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Jan Hus" "Karel IV" "Prokop Velik˝" "Jan éiûka" "Josef Ressel" 
+		"Jan Hus" "Karel IV" "Prokop Velik√Ω" "Jan ≈Ωi≈æka" "Josef Ressel" 
 	}
 	ironclad = {
 		Praha Brno Ostrava Plzen Liberec 
 	}
 	manowar = {
-		Mileöovka Lovos Hazmburk Koöt·lov "CeskÈ StredohorÌ" 
+		Mile≈°ovka Lovos Hazmburk Ko≈°t√°lov "Cesk√© Stredohor√≠" 
 	}
 	cruiser = {
 		Jizera Metuje Morava Svratka Olza  
 	}
 	frigate = {
-		"Jan Dismas Zelenka" "äimon Brixi" "Frantiöek Tuma" "AntonÌn Kraft" "Frantiöek Xaver Duöek" 
+		"Jan Dismas Zelenka" "≈†imon Brixi" "Franti≈°ek Tuma" "Anton√≠n Kraft" "Franti≈°ek Xaver Du≈°ek" 
 	}
 	monitor = {
-		"Petr Brandl" "V·clav Hollar" "Jan Jahn" "Jan Kupeck˝" "Karel äkrÈta" 
+		"Petr Brandl" "V√°clav Hollar" "Jan Jahn" "Jan Kupeck√Ω" "Karel ≈†kr√©ta" 
 	}
 	clipper_transport = {
 		
@@ -125,6 +125,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Praûsk˝ hrad" Vyöehrad Zbraslav Kolodeje Chvaly 
+		"Pra≈æsk√Ω hrad" Vy≈°ehrad Zbraslav Kolodeje Chvaly 
 	}
 }

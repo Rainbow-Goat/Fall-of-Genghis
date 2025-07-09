@@ -101,22 +101,22 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Anton Bernolák" "Ludovít Štúr" "Michal Miloslav Hoda" "Ján Hollı" Povstanie 
+		"Anton BernolÃ¡k" "LudovÃ­t Å tÃºr" "Michal Miloslav HodÅ¾a" "JÃ¡n HollÃ½" Povstanie 
 	}
 	ironclad = {
-		Bratislava Košice Prešov ilina Nitra 
+		Bratislava KoÅ¡ice PreÅ¡ov Å½ilina Nitra 
 	}
 	manowar = {
-		Beskydok "Gerlachovskı štít" Rysy Ostrá Záruby    
+		Beskydok "GerlachovskÃ½ Å¡tÃ­t" Rysy OstrÃ¡ ZÃ¡ruby    
 	}
 	cruiser = {
-		Beskydok "Gerlachovskı štít" Rysy Ostrá Záruby   
+		Beskydok "GerlachovskÃ½ Å¡tÃ­t" Rysy OstrÃ¡ ZÃ¡ruby   
 	}
 	frigate = {
 		Hron Bodrog Dunajec Ipel Tisa  
 	}
 	monitor = {
-		"Majster košického oltára" "Josef Czauczik" "Lajos Csordák" "Karol Ludovít Libay" "Július Jakoby"  
+		"Majster koÅ¡ickÃ©ho oltÃ¡ra" "Josef Czauczik" "Lajos CsordÃ¡k" "Karol LudovÃ­t Libay" "JÃºlius Jakoby"  
 	}
 	clipper_transport = {
 		
@@ -125,6 +125,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		"Bojnickı zámok" "Bratislavsky hrad" "Devínsky hrad" "Novı zámok" "Starı zámok" 
+		"BojnickÃ½ zÃ¡mok" "Bratislavsky hrad" "DevÃ­nsky hrad" "NovÃ½ zÃ¡mok" "StarÃ½ zÃ¡mok" 
 	}
 }

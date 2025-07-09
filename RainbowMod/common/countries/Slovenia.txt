@@ -113,10 +113,10 @@ unit_names = {
 		"Mali Srpan" "Veliki Srpan" Prosinec "Mali Traven" "Veliki Traven"  
 	}
 	frigate = {
-		"Miroslav Stumberger" "Ivan Grohar" "Joûef Tominc" "Matija Cop" "Anton Tomaû Linhart"
+		"Miroslav Stumberger" "Ivan Grohar" "Jo≈æef Tominc" "Matija Cop" "Anton Toma≈æ Linhart"
 	}
 	monitor = {
-		Ivana Metka ätefka Duöa Nataöa
+		Ivana Metka ≈†tefka Du≈°a Nata≈°a
 	}
 	clipper_transport = { 
 		
@@ -127,6 +127,6 @@ unit_names = {
 
 	}
 	commerce_raider = {
-		"Blejsko Jezero" "Blejski Grad" "Trûaöki Zaliv" Karavanke Kras 
+		"Blejsko Jezero" "Blejski Grad" "Tr≈æa≈°ki Zaliv" Karavanke Kras 
 	}
 }

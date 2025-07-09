@@ -185,22 +185,22 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		¡ss Vanr ¡lfr Jˆtunn
+		√Åss Vanr √Ålfr J√∂tunn
 	}
 	ironclad = {
 		Ellida Sleipner Viking Frithjof Rjukan Sarpen Lougen Glommen 
 	}
 	manowar = {
-		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros ÿrnen
+		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros √òrnen
 	}
 	cruiser = {
 		Thor Odin Njord Freyr Tyr Bragl Heimdall Hoder Vidar Ale Ullr Forseti
 	}
 	frigate = {
-		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros ÿrnen
+		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros √òrnen
 	}
 	monitor = {
-		Skorpionen Mj¯lner Thrudvang
+		Skorpionen Mj√∏lner Thrudvang
 	}
 	clipper_transport = {
 	}

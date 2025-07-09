@@ -115,30 +115,30 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Almirante Padilla" Buenaventura "Cartagena de Indias" Colombia "Cristóbal Colón" "Fco. de Paula Santander" "Gran Colombia" Independiente "Nueva Granada" "Simón Bolívar"
+		"Almirante Padilla" Buenaventura "Cartagena de Indias" Colombia "CristÃ³bal ColÃ³n" "Fco. de Paula Santander" "Gran Colombia" Independiente "Nueva Granada" "SimÃ³n BolÃ­var"
 	}
 	ironclad = {
-		Andrómeda Águila Casiopea Centauro Dragón Fénix Perseo Polaris Regulus Vela
+		AndrÃ³meda Ãguila Casiopea Centauro DragÃ³n FÃ©nix Perseo Polaris Regulus Vela
 	}
 	manowar = {
-		Aventina Confianza Emprendedora Espartana Fama "Gran Bolívar" Independencia Leona Marina Marte
+		Aventina Confianza Emprendedora Espartana Fama "Gran BolÃ­var" Independencia Leona Marina Marte
 	}
 	cruiser = {
-		Bogotá Bolívar Cali Córdoba Cúcuta Cundinamarca Medellin Pasto Santander Sucre
+		BogotÃ¡ BolÃ­var Cali CÃ³rdoba CÃºcuta Cundinamarca Medellin Pasto Santander Sucre
 	}
 	frigate = {
-		Antioquía Caldas Cartagena Espartana "José Mª García y Toledo" "Juan Nepomuceno Eslava" Quitasueño República "Santa Marta" "Valle del Cauca"
+		AntioquÃ­a Caldas Cartagena Espartana "JosÃ© MÂª GarcÃ­a y Toledo" "Juan Nepomuceno Eslava" QuitasueÃ±o RepÃºblica "Santa Marta" "Valle del Cauca"
 	}
 	monitor = {
-		Amazonas Andes Caribe "Ciénaga Grande" Meta "Nevado del Huila" Orinoquía Pacífico "San Juan" "Sierra Nevada" 
+		Amazonas Andes Caribe "CiÃ©naga Grande" Meta "Nevado del Huila" OrinoquÃ­a PacÃ­fico "San Juan" "Sierra Nevada" 
 	}
 	clipper_transport = {
-		Amenazante Arauca Auspicio Barranquilla Caquetá Catatumbo Chocó Estrella Florencia Guainía
-		Huila Indestructible "La Guajira" Leticia Manizales Montería Nariño Natividad Salvador Vaupés
+		Amenazante Arauca Auspicio Barranquilla CaquetÃ¡ Catatumbo ChocÃ³ Estrella Florencia GuainÃ­a
+		Huila Indestructible "La Guajira" Leticia Manizales MonterÃ­a NariÃ±o Natividad Salvador VaupÃ©s
 	}
 	steam_transport = { 
-		Amenazante Arauca Auspicio Barranquilla Caquetá Catatumbo Chocó Estrella Florencia Guainía
-		Huila Indestructible "La Guajira" Leticia Manizales Montería Nariño Natividad Salvador Vaupés
+		Amenazante Arauca Auspicio Barranquilla CaquetÃ¡ Catatumbo ChocÃ³ Estrella Florencia GuainÃ­a
+		Huila Indestructible "La Guajira" Leticia Manizales MonterÃ­a NariÃ±o Natividad Salvador VaupÃ©s
 	}
 	commerce_raider = {
 		"Antonia Manuela" Aventina Chitty Emprendedora Guaviare Magdalena Ornico Peacock Putumayo

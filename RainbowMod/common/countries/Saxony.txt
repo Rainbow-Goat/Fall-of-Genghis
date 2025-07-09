@@ -185,22 +185,22 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Sachsen "August der Starke" "Heinrich der Löwe" "König von Polen" Wettin "Friedrich August" "König Albert" Kurfürst Askanien Aurora 
+		Sachsen "August der Starke" "Heinrich der LÃ¶we" "KÃ¶nig von Polen" Wettin "Friedrich August" "KÃ¶nig Albert" KurfÃ¼rst Askanien Aurora 
 	}
 	ironclad = {
-		Sachsen "August der Starke" "Heinrich der Löwe" "König von Polen" Wettin "Friedrich August" "König Albert" Kurfürst Askanien Aurora 
+		Sachsen "August der Starke" "Heinrich der LÃ¶we" "KÃ¶nig von Polen" Wettin "Friedrich August" "KÃ¶nig Albert" KurfÃ¼rst Askanien Aurora 
 	}
 	manowar = {
-		Sachsen "August der Starke" "Heinrich der Löwe" "König von Polen" Wettin "Friedrich August" "König Albert" Kurfürst Askanien Aurora 
+		Sachsen "August der Starke" "Heinrich der LÃ¶we" "KÃ¶nig von Polen" Wettin "Friedrich August" "KÃ¶nig Albert" KurfÃ¼rst Askanien Aurora 
 	}
 	cruiser = {
-		Dresden Bautzen Chemnitz Freiberg Leipzig Löbau Meißen Plauen Schwarzenberg Zwickau 
+		Dresden Bautzen Chemnitz Freiberg Leipzig LÃ¶bau MeiÃŸen Plauen Schwarzenberg Zwickau 
 	}
 	frigate = {
-		Dresden Bautzen Chemnitz Freiberg Leipzig Löbau Meißen Plauen Schwarzenberg Zwickau 
+		Dresden Bautzen Chemnitz Freiberg Leipzig LÃ¶bau MeiÃŸen Plauen Schwarzenberg Zwickau 
 	}
 	monitor = {
-		Sachsen "August der Starke" "Heinrich der Löwe" "König von Polen" Wettin "Friedrich August" "König Albert" Kurfürst Askanien Aurora 
+		Sachsen "August der Starke" "Heinrich der LÃ¶we" "KÃ¶nig von Polen" Wettin "Friedrich August" "KÃ¶nig Albert" KurfÃ¼rst Askanien Aurora 
 	}
 	clipper_transport = {
 		
@@ -209,6 +209,6 @@ unit_names = {
 		
 	}
 	commerce_raider = {
-		Sachsen "August der Starke" "Heinrich der Löwe" "König von Polen" Wettin "Friedrich August" "König Albert" Kurfürst Askanien Aurora 
+		Sachsen "August der Starke" "Heinrich der LÃ¶we" "KÃ¶nig von Polen" Wettin "Friedrich August" "KÃ¶nig Albert" KurfÃ¼rst Askanien Aurora 
 	}
 }

@@ -49,7 +49,6 @@ political_decisions = {
 				has_global_flag = germania_werft_has_been_built
 			}
 			OR = {
-				tag = PRU
 				tag = GER
 				tag = NGF
 			}
@@ -76,7 +75,6 @@ political_decisions = {
 		potential = {
 			has_global_flag = ruhr_boom_has_happened
 			OR = {
-				tag = PRU
 				tag = GER
 				tag = NGF
 			}
@@ -129,71 +127,6 @@ political_decisions = {
 		}
 	}
 	
-	support_biesterfelds = {
-		potential = {
-			tag = LIP
-			year = 1880
-			NOT = {
-				has_country_flag = lippe_dispute_solved
-			}
-			exists = PRU
-		}
-		
-		allow = {
-			is_independant = yes
-		}
-		
-		effect = {
-			prestige = 10
-			set_country_flag = lippe_dispute_solved
-		}
-	}
-	
-	support_schaumburgs = {
-		potential = {
-			tag = LIP
-			year = 1880
-			NOT = {
-				has_country_flag = lippe_dispute_solved
-			}
-			exists = PRU
-		}
-		
-		allow = {
-			is_independant = yes
-		}
-		
-		effect = {
-			relation = {
-				who = PRU
-				value = 50
-			}
-			set_country_flag = lippe_dispute_solved
-		}
-		
-	}
-	
-	das_zivilgesetzbuch = {
-		potential = {
-			tag = HES
-			NOT = {
-				has_country_flag = code_of_laws
-			}
-		}
-		
-		allow = {
-			ideological_thought = 1
-		}
-		
-		effect = {
-			prestige = 5
-			years_of_research = 0.05
-			any_pop = {
-				militancy = -1
-			}
-			set_country_flag = code_of_laws
-		}
-	}
 	
 	kaiser_wilhelms_land = {
 		potential = {
@@ -252,35 +185,10 @@ political_decisions = {
 		}
 	}
 	
-	introduce_the_presbyteries = {
-		potential = {
-			tag = HAN
-			NOT = {
-				has_country_flag = presbyteries_introduced
-			}
-		}
-		allow = {
-			average_militancy = 3
-			NOT = {
-				vassal_of = ENG
-			}
-		}
-		
-		effect = {
-			any_pop = {
-				limit = {
-					has_pop_religion = protestant
-				}
-				militancy = -1
-			}
-			set_country_flag = presbyteries_introduced
-		}
-	}
 	
 	von_moltkes_staff_reforms = {
 		potential = {
 			OR = {
-				tag = PRU
 				tag = GER
 				tag = NGF
 			}

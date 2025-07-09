@@ -158,40 +158,40 @@ party = {
 unit_names = {
 	dreadnought = {
 		"Clas Eriksson Fleming" "Axel Nilsson Ryning" "Carl Carlsson Gyllenhielm" "Gustaf Otto Stenbock" "Lorentz Creutz" "Hans Wachtmeister af Johannishus" 
-		"Henrik af Trolle" "Carl August Ehrensvärd" Fredrik Johan "Manligheten" "Dristigheten" "Sverige" Áss Vanr Álfr Jötunn
-		"Ulrik Christian Gyldenløve" København Århus Ålborg Odense Fredriksberg Esbjerg "Nørrejyske Ø" Fyn Jótlandshaf 
+		"Henrik af Trolle" "Carl August EhrensvÃ¤rd" Fredrik Johan "Manligheten" "Dristigheten" "Sverige" Ãss Vanr Ãlfr JÃ¶tunn
+		"Ulrik Christian GyldenlÃ¸ve" KÃ¸benhavn Ã…rhus Ã…lborg Odense Fredriksberg Esbjerg "NÃ¸rrejyske Ã˜" Fyn JÃ³tlandshaf 
 	}
 	ironclad = {
-		Göteborg Malmö Uppsala Västerås Örebro Linköping Helsingborg Nynäshamn Karlshamn Halmstad Blenda Astrid Ellida Sleipner Viking Frithjof
+		GÃ¶teborg MalmÃ¶ Uppsala VÃ¤sterÃ¥s Ã–rebro LinkÃ¶ping Helsingborg NynÃ¤shamn Karlshamn Halmstad Blenda Astrid Ellida Sleipner Viking Frithjof
 		Rjukan Sarpen Lougen Glommen Helgoland Danmark Gorm Lindormen Odin "Rolf Krake" Tordenskjold "Peder Skram" Dannebrog Gorm "Olfert Fischer" Absalon 
 	}
 	manowar = {
-		"Carl XIII" "Karl XIV Johan" "Prins Oscar" "Gustav den Store" Stockholm Försiktigheten Tapperheten "Kung Adolph Fredric" Henrik Tomas 
-		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ørnen 
+		"Carl XIII" "Karl XIV Johan" "Prins Oscar" "Gustav den Store" Stockholm FÃ¶rsiktigheten Tapperheten "Kung Adolph Fredric" Henrik Tomas 
+		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ã˜rnen 
 		"Prins Christian Frederik" Skjold Absalon Ingolf Dannebrog Dagmar Gesjer "Dronning Marie" Waldemar Fredrik 
 	}
 	cruiser = {
-		"Claes Uggla" Psilander "Claes Horn" "Jacob Bakke" Ornen Fylgia "Tre Kronor" "Göta Lejon" Östersund Borgholm
+		"Claes Uggla" Psilander "Claes Horn" "Jacob Bakke" Ornen Fylgia "Tre Kronor" "GÃ¶ta Lejon" Ã–stersund Borgholm
 		Thor Odin Njord Freyr Tyr Bragl Heimdall Hoder Vidar Ale Ullr Forseti
-		Fyen Geiser Heimdal Hekla "St. Thomas" Valkyrien "Herluf Trolle" Søeormen Susåen Gudenåen
+		Fyen Geiser Heimdal Hekla "St. Thomas" Valkyrien "Herluf Trolle" SÃ¸eormen SusÃ¥en GudenÃ¥en
 	}
 	frigate = {
-		Packa "Svarta Örn" Jarramas Vainqueur Delphin Illerim "Lilla Phoenix" Växjö Gävle "Baron Gustaf Bonde" 
-		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ørnen
-		Najaden Hummer Stralsund Søridder Leopard Raae "Esbern Snare" Ørnen Sjælland Gefion Thetis "Niels Juel" Rota
+		Packa "Svarta Ã–rn" Jarramas Vainqueur Delphin Illerim "Lilla Phoenix" VÃ¤xjÃ¶ GÃ¤vle "Baron Gustaf Bonde" 
+		Freia Desideira "St Olaf" "Kong Sverre" Ellida Nordssthernen Nornen Nidaros Ã˜rnen
+		Najaden Hummer Stralsund SÃ¸ridder Leopard Raae "Esbern Snare" Ã˜rnen SjÃ¦lland Gefion Thetis "Niels Juel" Rota
 	}
 	monitor = {
-		"John Ericsson" Loke Sköld Tirfing Tordön Berserk Björn Folke Sölve Ulf Fenris Garmer Gerda Hildur
-		Skorpionen Mjølner Thrudvang
-		Freia Diana Lindormen Støren Stubberkøbing Gejser Kiel Falster Narhvalen Tumleren
+		"John Ericsson" Loke SkÃ¶ld Tirfing TordÃ¶n Berserk BjÃ¶rn Folke SÃ¶lve Ulf Fenris Garmer Gerda Hildur
+		Skorpionen MjÃ¸lner Thrudvang
+		Freia Diana Lindormen StÃ¸ren StubberkÃ¸bing Gejser Kiel Falster Narhvalen Tumleren
 	}
 	clipper_transport = {
 	}
 	steam_transport = { 
 	}
 	commerce_raider = {
-		"Björn Järnsida" "Erik Segersäll" "Gardarr Svavarsson" Birka Asgård Kraken Bäckahäst Storsjön Vänern Vättern  
+		"BjÃ¶rn JÃ¤rnsida" "Erik SegersÃ¤ll" "Gardarr Svavarsson" Birka AsgÃ¥rd Kraken BÃ¤ckahÃ¤st StorsjÃ¶n VÃ¤nern VÃ¤ttern  
 		Heimdal "Fridtjof Nansen" Nordkapp   
-		"Esbern Snare" Fylla Færøerne Grønland Víkingr "Harald Klak" "Svend Tveskæg" Kattegat Øresund Silkeborg
+		"Esbern Snare" Fylla FÃ¦rÃ¸erne GrÃ¸nland VÃ­kingr "Harald Klak" "Svend TveskÃ¦g" Kattegat Ã˜resund Silkeborg
 	}
 }

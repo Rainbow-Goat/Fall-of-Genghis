@@ -116,35 +116,35 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng" "Long live Batbayar" "Batbayar Khan" "Khan Power"
 		
 	}
 	ironclad = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng" "Long live Batbayar" "Batbayar Khan" "Khan Power"
 		
 	}
 	manowar = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng" "Long live Batbayar" "Batbayar Khan" "Khan Power"
 	}
 	cruiser = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng" "Long live Batbayar" "Batbayar Khan" "Khan Power"
 	}
 	frigate = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng" "Long live Batbayar" "Batbayar Khan" "Khan Power"
 	}
 	monitor = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng" "Long live Batbayar" "Batbayar Khan" "Khan Power"
 	}
 	clipper_transport = {
@@ -154,8 +154,8 @@ unit_names = {
 		"Long live Batbayar" "Batbayar Khan" "Khan Power" "Joe Biden" "Why are you reading this"
 	}
 	commerce_raider = {
-		"Genghis Khan" "Alghu Khan" "Baraq Khan" "Yesünto'a" Qipchaq
-		"Ögedai Khan" Güyük "Möngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
+		"Genghis Khan" "Alghu Khan" "Baraq Khan" "YesÃ¼nto'a" Qipchaq
+		"Ã–gedai Khan" GÃ¼yÃ¼k "MÃ¶ngke Khan" "Qubilai Khan" Duwa "Qazan Khan" "Tughlugh Timur"
 		Irtysh "Amir Husayn" "Timur i Leng" "Long live Batbayar" "Batbayar Khan" "Khan Power"
 	}
 }

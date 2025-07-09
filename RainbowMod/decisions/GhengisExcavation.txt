@@ -56,7 +56,7 @@ political_decisions = {
 
 		effect = {
 			add_country_modifier = {
-				name = mongol_excavations
+				name = mongological_excavations
 				duration = -1
 			}
 		}

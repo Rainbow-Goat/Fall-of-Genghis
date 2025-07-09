@@ -115,32 +115,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		Caribe Centroamérica "Costa Rica" "José María Castro" "Juan Mora" Libertad Presidente "Rafael Yglesias" República "Tomás Guardia"
+		Caribe CentroamÃ©rica "Costa Rica" "JosÃ© MarÃ­a Castro" "Juan Mora" Libertad Presidente "Rafael Yglesias" RepÃºblica "TomÃ¡s Guardia"
 	}
 	ironclad = {
-		Arenal Bebedero Diquís Jiménez Reventazón "San Juan" Sixaola Tárcoles Tempisque Tortuguero
+		Arenal Bebedero DiquÃ­s JimÃ©nez ReventazÃ³n "San Juan" Sixaola TÃ¡rcoles Tempisque Tortuguero
 	}
 	manowar = {
-		Audaz Intrépido Libertad "San Antonio" "San Fernando" "San Juan" "Santa Isabel" "Santa Marta" "Santa Mónica" Vigilante 
+		Audaz IntrÃ©pido Libertad "San Antonio" "San Fernando" "San Juan" "Santa Isabel" "Santa Marta" "Santa MÃ³nica" Vigilante 
 	}
 	cruiser = {
-		Cacique "Castillo del Oro" Chamán Chorotega Constitución "Cristóbal Colón" Independencia "Puerto Limón" "Quince de Septiembre" "Vasco Núñez de Balboa"
+		Cacique "Castillo del Oro" ChamÃ¡n Chorotega ConstituciÃ³n "CristÃ³bal ColÃ³n" Independencia "Puerto LimÃ³n" "Quince de Septiembre" "Vasco NÃºÃ±ez de Balboa"
 	}
 	frigate = {
-		Alajuela Cartago Guanacaste Heredia Liberia Limón Nicoya Papagayo Puntarenas "San José"
+		Alajuela Cartago Guanacaste Heredia Liberia LimÃ³n Nicoya Papagayo Puntarenas "San JosÃ©"
 	}
 	monitor = {
-		"Cacho Negro" Chato Congo Irazú Miravalles Orosí Platanar Porvenir "Santa María" Tenorio
+		"Cacho Negro" Chato Congo IrazÃº Miravalles OrosÃ­ Platanar Porvenir "Santa MarÃ­a" Tenorio
 	}
 	clipper_transport = {
-		Alicia Ana Ancla Ballena Carmen Costero Delfín Gabriel Goliat Indetectable
-		"Isla del Coco" Rafael Rápido Sansón Silencioso Sirena Tiburón "Toro Amarillo" Tritón Vida
+		Alicia Ana Ancla Ballena Carmen Costero DelfÃ­n Gabriel Goliat Indetectable
+		"Isla del Coco" Rafael RÃ¡pido SansÃ³n Silencioso Sirena TiburÃ³n "Toro Amarillo" TritÃ³n Vida
 	}
 	steam_transport = {
-		Alicia Ana Ancla Ballena Carmen Costero Delfín Gabriel Goliat Indetectable
-		"Isla del Coco" Rafael Rápido Sansón Silencioso Sirena Tiburón "Toro Amarillo" Tritón Vida
+		Alicia Ana Ancla Ballena Carmen Costero DelfÃ­n Gabriel Goliat Indetectable
+		"Isla del Coco" Rafael RÃ¡pido SansÃ³n Silencioso Sirena TiburÃ³n "Toro Amarillo" TritÃ³n Vida
 	}
 	commerce_raider = {
-		Barva "Cerro de la Muerte" Guanacaste Intratable Poás "Rincón de la Vieja" Talamanca Tilarán Turrialba Victorioso
+		Barva "Cerro de la Muerte" Guanacaste Intratable PoÃ¡s "RincÃ³n de la Vieja" Talamanca TilarÃ¡n Turrialba Victorioso
 	}
 }

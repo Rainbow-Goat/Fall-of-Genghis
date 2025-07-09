@@ -143,32 +143,32 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Almirante Brión" "Francisco de Miranda" "General Falcón" "General Páez" "General Zamora" Guaicaipuro "Mariscal Sucre" "Simón Bolivar" Tamanaco Venezuela
+		"Almirante BriÃ³n" "Francisco de Miranda" "General FalcÃ³n" "General PÃ¡ez" "General Zamora" Guaicaipuro "Mariscal Sucre" "SimÃ³n Bolivar" Tamanaco Venezuela
 	}
 	ironclad = {
-		Bolívar Carabobo "General Soublette" "General Urdaneta" Maraparari Monagas Totumo Trópico "Veintitres de Mayo"
+		BolÃ­var Carabobo "General Soublette" "General Urdaneta" Maraparari Monagas Totumo TrÃ³pico "Veintitres de Mayo"
 	}
 	manowar = {
-		Brión Colombiana Conejo Eclipse Feliz Independencia Intrépido Mariño Piar Rita
+		BriÃ³n Colombiana Conejo Eclipse Feliz Independencia IntrÃ©pido MariÃ±o Piar Rita
 	}
 	cruiser = {
-		Aragua Caroní Casiquiare Cumaná "General Salom" Maracaibo Orinoco Restaurador Sucre Zulia
+		Aragua CaronÃ­ Casiquiare CumanÃ¡ "General Salom" Maracaibo Orinoco Restaurador Sucre Zulia
 	}
 	frigate = {
-		Caribe Cojedes Lara Mérida Monagas "Nueva Esparta" Portuguesa Trujillo Warao Yecuana
+		Caribe Cojedes Lara MÃ©rida Monagas "Nueva Esparta" Portuguesa Trujillo Warao Yecuana
 	}
 	monitor = {
-		Cacique Carreño "Diego de Losada" "Gran Colombia" Gual Guayana Narvate "Nueva Andalucía" Tovar Villegas
+		Cacique CarreÃ±o "Diego de Losada" "Gran Colombia" Gual Guayana Narvate "Nueva AndalucÃ­a" Tovar Villegas
 	}
 	clipper_transport = {
-		Diligente Móvil Navegante Neptuno Poderoso Reivindicador Remolcador República "San Juan" "San Lucas"
-		"San Marcos" "San Mateo" "San Pablo" "San Pedro" Sirena Tormenta Tritón Veloz Ventoso Zamora
+		Diligente MÃ³vil Navegante Neptuno Poderoso Reivindicador Remolcador RepÃºblica "San Juan" "San Lucas"
+		"San Marcos" "San Mateo" "San Pablo" "San Pedro" Sirena Tormenta TritÃ³n Veloz Ventoso Zamora
 	}
 	steam_transport = { 
-		Diligente Móvil Navegante Neptuno Poderoso Reivindicador Remolcador República "San Juan" "San Lucas"
-		"San Marcos" "San Mateo" "San Pablo" "San Pedro" Sirena Tormenta Tritón Veloz Ventoso Zamora
+		Diligente MÃ³vil Navegante Neptuno Poderoso Reivindicador Remolcador RepÃºblica "San Juan" "San Lucas"
+		"San Marcos" "San Mateo" "San Pablo" "San Pedro" Sirena Tormenta TritÃ³n Veloz Ventoso Zamora
 	}
 	commerce_raider = {
-		Aragua Constitución Federación "General Crespo" Independencia Libertad Marcay Maturín Miranda Patria
+		Aragua ConstituciÃ³n FederaciÃ³n "General Crespo" Independencia Libertad Marcay MaturÃ­n Miranda Patria
 	}
 }
