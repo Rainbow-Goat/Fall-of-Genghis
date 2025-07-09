@@ -3,6 +3,6 @@ controller = POM
 add_core = POM
 add_core = HSE
 add_core = GER
-trade_goods = cattle
-life_rating = 38
+trade_goods = sulphur
+life_rating = 38 
 1861.1.1 = { railroad = 3 } 

@@ -2,4 +2,4 @@ owner = OYI
 controller = OYI
 add_core = OYI
 trade_goods = timber
-life_rating = 25
+life_rating = 25 

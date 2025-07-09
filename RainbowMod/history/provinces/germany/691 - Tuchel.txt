@@ -1,5 +1,5 @@
 trade_goods = cattle
-life_rating = 38
+life_rating = 38 
 owner = POL
 controller = POL
 add_core = POL

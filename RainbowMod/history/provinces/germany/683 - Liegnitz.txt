@@ -3,5 +3,5 @@ controller = BOH
 add_core = BOH
 add_core = HSE
 trade_goods = iron
-life_rating = 38
+life_rating = 38 
 1861.1.1 = { railroad = 3 } 

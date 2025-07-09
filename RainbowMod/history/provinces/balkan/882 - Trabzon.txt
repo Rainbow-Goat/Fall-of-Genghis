@@ -2,5 +2,5 @@ owner = ARM
 controller = ARM
 add_core = ARM
 add_core = TRZ
-trade_goods = cattle
-life_rating = 35
+trade_goods = sulphur
+life_rating = 35 

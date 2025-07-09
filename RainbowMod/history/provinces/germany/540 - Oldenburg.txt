@@ -4,7 +4,7 @@ add_core = OLD
 add_core = HSE
 add_core = GER
 trade_goods = fish
-life_rating = 38
+life_rating = 38 
 ################################################################################
 # state_building = {
 # level = 1

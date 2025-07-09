@@ -3,4 +3,4 @@ controller = ALA
 add_core = ALA
 add_core = MOR
 trade_goods = grain
-life_rating = 35
+life_rating = 35 

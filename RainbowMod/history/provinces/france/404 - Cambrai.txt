@@ -2,7 +2,7 @@ owner = BRG
 controller = BRG
 add_core = BRG
 trade_goods = coal
-life_rating = 35 # state_building = {
+life_rating = 35  # state_building = {
 ################################################################################
 # level = 1
 # building = explosives_factory

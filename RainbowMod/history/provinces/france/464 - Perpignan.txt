@@ -3,4 +3,4 @@ controller = TOU
 add_core = TOU
 add_core = FRA
 trade_goods = grain
-life_rating = 31
+life_rating = 31 

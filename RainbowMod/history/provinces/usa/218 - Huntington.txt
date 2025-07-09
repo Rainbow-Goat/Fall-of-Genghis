@@ -2,6 +2,6 @@ owner = NCS
 controller = NCS
 add_core = NCS
 trade_goods = coal
-life_rating = 35
+life_rating = 35 
 party_loyalty = { ideology = liberal loyalty_value = 15 } 
 1861.1.1 = { party_loyalty = { ideology = liberal loyalty_value = 25 } } 

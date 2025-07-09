@@ -2,4 +2,4 @@ owner = CHA
 controller = CHA
 add_core = CHA
 trade_goods = coal
-life_rating = 35
+life_rating = 35 

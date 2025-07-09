@@ -2,4 +2,4 @@ owner = UYG
 controller = UYG
 add_core = UYG
 trade_goods = sulphur
-life_rating = 32
+life_rating = 32 

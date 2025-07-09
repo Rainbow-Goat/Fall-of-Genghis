@@ -4,4 +4,4 @@ add_core = SWE
 add_core = POM
 add_core = HSE
 trade_goods = fish
-life_rating = 40
+life_rating = 40 

@@ -1,7 +1,7 @@
 add_core = VEN
 add_core = SLO
 trade_goods = grain
-life_rating = 35
+life_rating = 35 
 owner = VEN
 controller = VEN
 1861.1.1 = { railroad = 2 } 

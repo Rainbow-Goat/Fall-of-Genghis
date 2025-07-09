@@ -1,7 +1,7 @@
 owner = CAS
 controller = CAS
 trade_goods = cotton
-life_rating = 35
+life_rating = 35 
 colonial = 2
 add_core = CAS
 1861.1.1 = { naval_base = 1 } 

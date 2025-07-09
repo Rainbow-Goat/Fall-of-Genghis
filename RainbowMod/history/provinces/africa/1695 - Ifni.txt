@@ -3,5 +3,5 @@ controller = ALA
 add_core = ALA
 add_core = MOR
 trade_goods = fish
-life_rating = 30
+life_rating = 30 
 1861.1.1 = { owner = SPA controller = SPA } 

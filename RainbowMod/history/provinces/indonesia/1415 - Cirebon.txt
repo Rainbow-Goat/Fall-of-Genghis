@@ -2,4 +2,4 @@ owner = JAV
 controller = JAV
 add_core = JAV
 trade_goods = coffee
-life_rating = 30
+life_rating = 30 

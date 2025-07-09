@@ -2,5 +2,5 @@ owner = LUH
 controller = LUH
 add_core = LUH
 add_core = UKR
-trade_goods = cattle
-life_rating = 35
+trade_goods = iron
+life_rating = 35 

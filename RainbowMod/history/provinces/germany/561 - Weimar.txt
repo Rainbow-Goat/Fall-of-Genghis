@@ -3,6 +3,6 @@ controller = WEI
 add_core = WEI
 add_core = GER
 trade_goods = sulphur
-life_rating = 38
+life_rating = 38 
 add_core = HSE
 1861.1.1 = { railroad = 3 } 

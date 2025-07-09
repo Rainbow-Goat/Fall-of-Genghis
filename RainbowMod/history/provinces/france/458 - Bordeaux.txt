@@ -3,7 +3,7 @@ controller = TOU
 add_core = TOU
 add_core = FRA
 trade_goods = fruit
-life_rating = 31 # state_building = {
+life_rating = 31  # state_building = {
 state_building = { level = 3 building = canned_food_factory upgrade = yes }  
 state_building = { level = 3 building = clipper_shipyard upgrade = yes } 
 state_building = { level = 1 building = liquor_distillery upgrade = yes } 

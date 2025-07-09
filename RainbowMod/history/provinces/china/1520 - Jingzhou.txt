@@ -2,5 +2,5 @@ owner = MIN
 controller = MIN
 add_core = MIN
 trade_goods = tea
-life_rating = 32
+life_rating = 32 
 add_core = CHI

@@ -1,6 +1,6 @@
 add_core = HSE
 trade_goods = grain
-life_rating = 38
+life_rating = 38 
 owner = BOH
 controller = BOH
 add_core = BOH

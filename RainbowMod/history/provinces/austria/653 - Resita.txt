@@ -1,6 +1,6 @@
 add_core = ROM
-trade_goods = grain
-life_rating = 35
+trade_goods = iron
+life_rating = 35 
 owner = HUN
 controller = HUN
 1861.1.1 = { railroad = 2 } 

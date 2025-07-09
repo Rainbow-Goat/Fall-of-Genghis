@@ -3,4 +3,4 @@ controller = CAS
 add_core = CAS
 add_core = SPA
 trade_goods = wool
-life_rating = 35
+life_rating = 35 

@@ -382,7 +382,7 @@
 		size = 1100
 	}
 
-	farmers = {
+	labourers = {
 		culture = byelorussian
 		religion = orthodox
 		size = 84725
@@ -424,7 +424,7 @@
 		size = 100
 	}
 
-	farmers = {
+	labourers = {
 		culture = lithuanian
 		religion = catholic
 		size = 16275

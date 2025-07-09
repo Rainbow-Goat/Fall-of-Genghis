@@ -1,5 +1,5 @@
 trade_goods = fish
-life_rating = 20
+life_rating = 20 
 colonial = 2
 owner = HAW
 controller = HAW

@@ -2,6 +2,6 @@ owner = NCS
 controller = NCS
 add_core = NCS
 trade_goods = cotton
-life_rating = 35
+life_rating = 35 
 1861.1.1 = { controller = CSA owner = CSA add_core = CSA } 
 1861.1.1 = { railroad = 3 } 

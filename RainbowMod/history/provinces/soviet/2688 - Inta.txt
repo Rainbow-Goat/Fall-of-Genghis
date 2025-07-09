@@ -2,4 +2,4 @@ owner = NOV
 controller = NOV
 add_core = NOV
 trade_goods = fish
-life_rating = 25
+life_rating = 25 

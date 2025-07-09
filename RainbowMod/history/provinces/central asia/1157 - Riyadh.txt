@@ -2,4 +2,4 @@ owner = RAS
 controller = RAS
 add_core = RAS
 trade_goods = wool
-life_rating = 20
+life_rating = 20 

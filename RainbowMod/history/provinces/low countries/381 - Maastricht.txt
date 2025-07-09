@@ -2,7 +2,7 @@ owner = BRG
 controller = BRG
 add_core = BRG
 trade_goods = coal
-life_rating = 35 # state_building = {
+life_rating = 35  # state_building = {
 add_core = NET
 ################################################################################
 # level = 1

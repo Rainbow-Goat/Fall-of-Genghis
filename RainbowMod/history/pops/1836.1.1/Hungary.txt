@@ -408,7 +408,7 @@
 		size = 3150 
 	}
 
-	farmers = {
+	labourers = {
 		culture = hungarian
 		religion = catholic
 		size = 61500
@@ -432,7 +432,7 @@
 		size = 7500
 	}
 
-	farmers = {
+	labourers = {
 		culture = hungarian
 		religion = orthodox
 		size =  40050    
@@ -450,7 +450,7 @@
 		size = 5000
 	}
 
-	farmers = {
+	labourers = {
 		culture = hungarian
 		religion = jewish
 		size = 875    
@@ -486,7 +486,7 @@
 		size = 7500
 	}
 
-	farmers = {
+	labourers = {
 		culture = hungarian
 		religion = catholic
 		size = 16500

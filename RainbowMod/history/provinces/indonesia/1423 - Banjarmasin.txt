@@ -2,5 +2,5 @@ owner = IKH
 controller = IKH
 add_core = IKH
 trade_goods = sulphur
-life_rating = 30
+life_rating = 30 
 colonial = 2

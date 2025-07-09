@@ -2,6 +2,6 @@ owner = CAS
 controller = CAS
 add_core = CAS
 trade_goods = fruit
-life_rating = 35
+life_rating = 35 
 naval_base = 1
 colonial = 0

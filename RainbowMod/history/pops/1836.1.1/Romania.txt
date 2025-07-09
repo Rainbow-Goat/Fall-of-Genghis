@@ -460,7 +460,7 @@
 		size = 950 
 	}
 
-	farmers = {
+	labourers = {
 		culture = romanian
 		religion = orthodox
 		size = 63600 
@@ -478,7 +478,7 @@
 		size = 750
 	}
 
-	farmers = {
+	labourers = {
 		culture = serb
 		religion = orthodox
 		size = 16150 
@@ -502,7 +502,7 @@
 		size = 800
 	}
 
-	farmers = {
+	labourers = {
 		culture = polish
 		religion = catholic
 		size = 12900 

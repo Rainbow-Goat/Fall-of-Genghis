@@ -4,7 +4,7 @@ add_core = ARO
 add_core = CAT
 add_core = SPA
 trade_goods = iron
-life_rating = 35
+life_rating = 35 
 1861.1.1 = { railroad = 2 } 
 state_building = { level = 1 building = steel_factory upgrade = yes } 
 state_building = { level = 1 building = small_arms_factory upgrade = yes } 

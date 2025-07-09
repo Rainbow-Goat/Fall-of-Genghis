@@ -128,7 +128,7 @@ political_decisions = {
             has_country_flag = balkan_path
             owns = 810
             NOT = { has_country_flag = alexandrian_path }
-            NOT = { 798 = { is_core = THIS } }
+            NOT = { 794 = { is_core = THIS } }
         }
         allow = {
             war = no

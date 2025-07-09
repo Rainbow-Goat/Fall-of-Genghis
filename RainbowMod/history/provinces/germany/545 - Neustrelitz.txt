@@ -3,4 +3,4 @@ controller = POM
 add_core = POM
 add_core = HSE
 trade_goods = grain
-life_rating = 40
+life_rating = 40 

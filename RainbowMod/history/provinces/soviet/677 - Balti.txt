@@ -3,5 +3,5 @@ controller = LIT
 add_core = MOL
 add_core = ROM
 add_core = RUT
-trade_goods = fruit
-life_rating = 35
+trade_goods = iron
+life_rating = 35 

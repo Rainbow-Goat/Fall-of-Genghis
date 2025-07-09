@@ -2,5 +2,5 @@ owner = LIT
 controller = LIT
 add_core = LIT
 add_core = BYE
-trade_goods = cattle
-life_rating = 35
+trade_goods = sulphur
+life_rating = 35 

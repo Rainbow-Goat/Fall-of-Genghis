@@ -2,4 +2,4 @@ owner = WIC
 controller = WIC
 add_core = WIC
 trade_goods = tobacco
-life_rating = 38
+life_rating = 38 

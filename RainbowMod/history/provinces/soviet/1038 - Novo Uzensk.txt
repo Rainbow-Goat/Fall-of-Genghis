@@ -2,4 +2,4 @@ owner = SRT
 controller = SRT
 add_core = SRT
 trade_goods = grain
-life_rating = 35
+life_rating = 35 

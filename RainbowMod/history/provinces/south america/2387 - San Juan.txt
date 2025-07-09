@@ -2,4 +2,4 @@ owner = FDL
 controller = FDL
 add_core = FDL
 trade_goods = fruit
-life_rating = 35
+life_rating = 35 

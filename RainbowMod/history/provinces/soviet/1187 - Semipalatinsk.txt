@@ -2,4 +2,4 @@ owner = DOP
 controller = DOP
 add_core = DOP
 trade_goods = timber
-life_rating = 35
+life_rating = 35 
