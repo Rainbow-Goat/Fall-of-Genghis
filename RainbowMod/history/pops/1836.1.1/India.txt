@@ -3457,25 +3457,25 @@
 
 	clergymen = {
 		culture = bengali
-		religion = theravda
+		religion = hindu
 		size = 375
 	}
 
 	artisans = {
 		culture = bengali
-		religion = theravda
+		religion = hindu
 		size = 2000
 	}
 
 	soldiers = {
 		culture = bengali
-		religion = theravda
+		religion = hindu
 		size = 500
 	}
 
 	farmers = {
 		culture = bengali
-		religion = theravda
+		religion = hindu
 		size = 28125
 	}
 

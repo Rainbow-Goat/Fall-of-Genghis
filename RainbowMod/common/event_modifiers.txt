@@ -811,3 +811,7 @@ magyarization = {
 	cb_generation_speed_modifier = 0.3
 	global_assimilation_rate = 3
 }
+
+sizing_cooldown = {
+	icon = 10
+}

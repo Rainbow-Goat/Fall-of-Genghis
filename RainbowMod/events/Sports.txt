@@ -3,40 +3,6 @@
 #########################################
 
 
-#First FA Cup.
-province_event = {
-	title = "EVTNAME5000"
-	desc = "EVTDESC5000"
-	id = 5000
-	
-	fire_only_once = yes
-	
-	trigger = {
-		year = 1868
-		continent = europe
-		pop_majority_culture = british
-		NOT = { province_id = 300 }
-		owner = {
-			tag = ENG
-		}
-	}
-	mean_time_to_happen = {
-		months = 64
-	}
-	option = {
-		name = "EVTOPTA5000"
-		poor_strata = {
-			consciousness = -1
-			militancy = 1
-		}
-		owner = {
-			prestige = 2
-		}
-	}
-}
-
-
-
 # World Cup.
 country_event = {
 	title = "EVTNAME5001"

@@ -125,7 +125,6 @@ country_event = {
 		OR = { 
 		tag = GXI
 		tag = MCK
-		tag = XIN
 		tag = YNN
 		tag = XBI
 		tag = MGL

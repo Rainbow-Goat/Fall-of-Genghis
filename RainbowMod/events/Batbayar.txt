@@ -245,7 +245,7 @@ country_event = {
 	trigger = {
 		has_global_flag = BatbayarRisen
 		NOT = { has_country_flag = Batbayar }
-		civilised = yes
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {

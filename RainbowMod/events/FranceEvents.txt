@@ -69,7 +69,7 @@ country_event = {
         name = "EVTOPTA100102"
         casus_belli = {
             target = PRO
-            type = acquire_state
+            type = acquire_state_medium
             months = 12
         }
     }

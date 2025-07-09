@@ -46,14 +46,16 @@ political_decisions = {
             add_accepted_culture = south_german
             prestige = -20
             any_pop = {
-                OR = {
-                    culture = north_german
-                    culture = south_german
-                    culture = rhenish
-                }
-            }
+		        limit = { 
+                    OR = {
+                    	culture = north_german
+                    	culture = south_german
+                    	culture = rhenish
+                    }
+		        }
             militancy = 2
             consciousness = 3
+            }
         }
     }
 
@@ -77,11 +79,13 @@ political_decisions = {
         effect = {
             add_accepted_culture = rhenish
             any_pop = {
-                OR = {
-                    culture = rhenish
-                    culture = south_german
-                    culture = north_german
-                }
+		        limit = { 
+                    OR = {
+                    	culture = north_german
+                    	culture = south_german
+                    	culture = rhenish
+                    }
+		        }
                 militancy = 2
                 consciousness = 3
             }

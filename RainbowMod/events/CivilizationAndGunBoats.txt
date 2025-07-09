@@ -1988,7 +1988,6 @@ country_event = {
 		NOT = { tag = CHI }
 		NOT = { tag = GXI }
 		NOT = { tag = MCK }
-		NOT = { tag = XIN }
 		NOT = { tag = YNN }
 		NOT = { tag = XBI }
 		NOT = { tag = MGL }
