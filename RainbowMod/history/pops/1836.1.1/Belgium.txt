@@ -130,7 +130,7 @@
 	craftsmen = {
 		culture = burgundian
 		religion = protestant
-		size = 5000
+		size = 35000
 	}
 
 	artisans = {
@@ -605,6 +605,12 @@
 		culture = dutch
 		religion = protestant
 		size = 20350
+	}
+
+	craftsmen = {
+		culture = burgundian
+		religion = protestant
+		size = 50000
 	}
 
 }

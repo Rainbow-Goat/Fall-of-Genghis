@@ -250,6 +250,12 @@
 		religion = catholic
 		size = 28050
 	}
+
+	craftsmen = {
+		culture = pommeranian
+		religion = catholic
+		size = 25000
+	}
 }
 #Lunenburg (180000/45000 POPS)
 532 = {
@@ -1273,7 +1279,7 @@
 	craftsmen = {
 		culture = pommeranian
 		religion = catholic
-		size = 6525
+		size = 16525
 	}
 
 	artisans = {
@@ -1986,7 +1992,7 @@
 	craftsmen = {
 		culture = bohemian
 		religion = catholic
-		size = 925
+		size = 9250
 	}
 
 	artisans = {

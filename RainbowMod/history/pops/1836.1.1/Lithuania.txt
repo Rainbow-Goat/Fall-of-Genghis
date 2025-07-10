@@ -504,6 +504,12 @@
 		size = 850
 	}
 
+	craftsmen = {
+		culture = lithuanian
+		religion = catholic
+		size = 30000
+	}
+
 }
 #East Prussia Region (172000) #see Poland.txt and Lithuania.txt for balance of region
 #under the rule of Prussia in 1836  

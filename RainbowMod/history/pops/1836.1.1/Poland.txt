@@ -317,7 +317,7 @@
 	craftsmen = {
 		culture = bohemian
 		religion = catholic
-		size = 3500
+		size = 55000
 	}
 
 	artisans = {
@@ -1897,6 +1897,12 @@
 		religion = catholic
 		size = 1825
 	}
+
+	craftsmen = {
+		culture = polish
+		religion = catholic
+		size = 19000
+	}
 }
 #Tarnow (616000/154000 POPS)
 714 = {
@@ -2045,6 +2051,12 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 8200
+	}
+
+	craftsmen = {
+		culture = polish
+		religion = catholic
+		size = 17000
 	}
 }
 #Lublin (476000/119000 POPS)

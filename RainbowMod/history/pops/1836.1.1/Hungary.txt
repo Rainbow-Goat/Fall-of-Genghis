@@ -491,6 +491,12 @@
 		religion = catholic
 		size = 16500
 	}
+
+	craftsmen = {
+		culture = hungarian
+		religion = catholic
+		size = 30000
+	}
 }
 #Gyor (384000/96000 POPS) 
 642 = {

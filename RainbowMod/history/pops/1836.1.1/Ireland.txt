@@ -403,6 +403,12 @@
 		religion = protestant
 		size = 5250
 	}
+
+	craftsmen = {
+		culture = irish
+		religion = catholic
+		size = 20000
+	}
 }
 #Limerick (818000/204500 POPS)
 261 = {
@@ -561,6 +567,12 @@
 		culture = irish
 		religion = catholic
 		size = 154375
+	}
+
+	craftsmen = {
+		culture = irish
+		religion = catholic
+		size = 40000
 	}
 }
 #Kildare (532000/133000 POPs)

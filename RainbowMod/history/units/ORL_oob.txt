@@ -1,4 +1,29 @@
+LYO = {
+    value = 125
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
 
+TOU = {
+    value = 125
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
+
+NRM = {
+    value = 125
+    level = 4
+    influence_value = 25
+}
+
+PRO = {
+    value = 125
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
 
 #========================= L A N D =========================
 
@@ -110,6 +135,61 @@ type = hussar
 home = 445
 }
 }
+army = {
+name = "Certified Patriots"
+location = 442
+regiment = {
+name = "Regiment 0"
+type = artillery
+home = 446
+}
+regiment = {
+name = "Regiment 1"
+type = artillery
+home = 446
+}
+regiment = {
+name = "Regiment 2"
+type = artillery
+home = 446
+}
+regiment = {
+name = "Regiment 3"
+type = artillery
+home = 446
+}
+regiment = {
+name = "Regiment 4"
+type = artillery
+home = 447
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 447
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 447
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 447
+}
+regiment = {
+name = "Regiment 5"
+type = infantry
+home = 442
+}
+regiment = {
+name = "Regiment 9"
+type = hussar
+home = 444
+}
+}
+
 
 
 #========================= S E A =========================

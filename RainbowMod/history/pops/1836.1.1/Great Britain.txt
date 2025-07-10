@@ -68,6 +68,12 @@
 		religion = protestant
 		size = 75550
 	}
+
+	craftsmen = {
+		culture = scottish
+		religion = protestant
+		size = 50000
+	}
 }
 #Dundee (364000/91000 POPS)
 268 = {
@@ -108,7 +114,7 @@
 	aristocrats = {
 		culture = scottish
 		religion = protestant
-		size = 500
+		size = 5000
 	}
 
 	officers = {
@@ -126,7 +132,7 @@
 	capitalists = {
 		culture = scottish
 		religion = protestant
-		size = 550
+		size = 5500
 	}
 
 	bureaucrats = {
@@ -144,7 +150,7 @@
 	craftsmen = {
 		culture = scottish
 		religion = protestant
-		size = 4000
+		size = 70000
 	}
 
 	artisans = {
@@ -162,25 +168,19 @@
 	soldiers = {
 		culture = scottish
 		religion = protestant
-		size = 15000
+		size = 35000
 	}
 
 	farmers = {
 		culture = scottish
 		religion = protestant
-		size = 77175
+		size = 87175
 	}
 
 	clergymen = {
 		culture = scottish
 		religion = catholic
 		size = 100
-	}
-
-	craftsmen = {
-		culture = scottish
-		religion = catholic
-		size = 1500
 	}
 
 	artisans = {
@@ -259,12 +259,6 @@
 		size = 850
 	}
 
-	craftsmen = {
-		culture = scottish
-		religion = protestant
-		size = 11500
-	}
-
 	artisans = {
 		culture = scottish
 		religion = protestant
@@ -305,12 +299,6 @@
 		culture = scottish
 		religion = catholic
 		size = 4900
-	}
-
-	craftsmen = {
-		culture = irish
-		religion = catholic
-		size = 10000
 	}
 
 	artisans = {
@@ -484,6 +472,12 @@
 		religion = catholic
 		size = 42250
 	}
+
+	craftsmen = {
+		culture = welsh
+		religion = catholic
+		size = 70000
+	}
 }
 #Holyhead (240000/60000 POPS)
 276 = {
@@ -571,7 +565,7 @@
 	craftsmen = {
 		culture = saxon
 		religion = protestant
-		size = 30000
+		size = 20000
 	}
 
 	artisans = {
@@ -610,12 +604,6 @@
 		size = 50
 	}
 
-	craftsmen = {
-		culture = scottish
-		religion = catholic
-		size = 1100
-	}
-
 	artisans = {
 		culture = scottish
 		religion = catholic
@@ -634,12 +622,6 @@
 		size = 125
 	}
 
-	craftsmen = {
-		culture = irish
-		religion = catholic
-		size = 2250
-	}
-
 	artisans = {
 		culture = irish
 		religion = catholic
@@ -649,7 +631,7 @@
 	artisans = {
 		culture = irish
 		religion = catholic
-		size = 3750
+		size = 5750
 	}
 
 	farmers = {
@@ -676,12 +658,6 @@
 		culture = saxon
 		religion = protestant
 		size = 1150
-	}
-
-	craftsmen = {
-		culture = saxon
-		religion = protestant
-		size = 22500
 	}
 
 	artisans = {
@@ -986,6 +962,12 @@
 		size = 112825
 	}
 
+	craftsmen = {
+		culture = norse
+		religion = animist
+		size = 40000
+	}
+
 	labourers = {
 		culture = saxon
 		religion = protestant
@@ -1244,22 +1226,16 @@
 		size = 200
 	}
 
-	craftsmen = {
-		culture = norse
-		religion = animist
-		size = 5000
-	}
-
 	artisans = {
 		culture = norse
 		religion = animist
-		size = 7000
+		size = 10000
 	}
 
 	soldiers = {
 		culture = norse
 		religion = animist
-		size = 1100
+		size = 3100
 	}
 
 	labourers = {
@@ -1806,7 +1782,7 @@
 	craftsmen = {
 		culture = saxon
 		religion = protestant
-		size = 119000
+		size = 39000
 	}
 
 	artisans = {
@@ -1945,12 +1921,6 @@
 		culture = saxon
 		religion = jewish
 		size = 3400
-	}
-
-	craftsmen = {
-		culture = irish
-		religion = catholic
-		size = 4000
 	}
 
 	artisans = {

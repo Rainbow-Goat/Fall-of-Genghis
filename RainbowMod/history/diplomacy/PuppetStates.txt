@@ -87,11 +87,3 @@ vassal = {
 	start_date = 1220.2.12
 	end_date = 1945.1.1
 }
-
-#Wurtemburgian - Austrian Union
-vassal = {
-	first = WUR
-	second = AUS
-	start_date = 1743.12.11
-	end_date = 1913.2.5
-}

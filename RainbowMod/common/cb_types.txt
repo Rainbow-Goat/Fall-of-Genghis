@@ -965,7 +965,7 @@ acquire_state_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.7
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -1047,7 +1047,7 @@ acquire_state_small = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.9
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.006
 	penalty_factor = 1
@@ -1130,7 +1130,7 @@ acquire_state_medium = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.9
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.008
 	penalty_factor = 1
@@ -1213,7 +1213,7 @@ acquire_state_large = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.9
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.012
 	penalty_factor = 1
@@ -1296,7 +1296,7 @@ acquire_state_huge = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.9
+	badboy_factor = 1.5
 	prestige_factor = 2
 	peace_cost_factor = 0.016
 	penalty_factor = 1
@@ -1799,7 +1799,7 @@ free_peoples_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.8
+	badboy_factor = 0.86
 	prestige_factor = 1
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -1873,7 +1873,7 @@ free_peoples_small = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.8
+	badboy_factor = 0.86
 	prestige_factor = 1
 	peace_cost_factor = 0.006
 	penalty_factor = 1
@@ -1947,7 +1947,7 @@ free_peoples_medium = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.8
+	badboy_factor = 0.86
 	prestige_factor = 1
 	peace_cost_factor = 0.008
 	penalty_factor = 1
@@ -2021,7 +2021,7 @@ free_peoples_large = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.8
+	badboy_factor = 0.86
 	prestige_factor = 1
 	peace_cost_factor = 0.012
 	penalty_factor = 1
@@ -2095,7 +2095,7 @@ free_peoples_huge = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 0.8
+	badboy_factor = 0.86
 	prestige_factor = 1
 	peace_cost_factor = 0.016
 	penalty_factor = 1

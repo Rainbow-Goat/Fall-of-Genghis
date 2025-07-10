@@ -187,6 +187,12 @@
 		religion = sunni
 		size = 22500
 	}
+
+	craftsmen = {
+		culture = andalusian
+		religion = sunni
+		size = 6800
+	}
 }
 #Coimbra (460000/115000 POPS)
 522 = {

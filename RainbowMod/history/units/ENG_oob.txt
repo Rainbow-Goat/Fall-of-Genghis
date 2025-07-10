@@ -1,4 +1,10 @@
 #Sphere of Influence
+SCO = {
+	value = -200
+	level = 0
+	truce_until = "1838.1.1"
+}
+
 
 leader = {
 	name = "Thomas Cochrane"
@@ -283,7 +289,7 @@ army = {
 }
 
 navy = {
-name = "La marine des conquérants"
+name = "La marine des conquÃ©rants"
 location = 277
 ship = {
 name = "Ship 6"

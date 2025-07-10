@@ -136,6 +136,12 @@
 		religion = protestant
 		size = 88125
 	}
+
+	craftsmen = {
+		culture = burgundian
+		religion = protestant
+		size = 80000
+	}
 }
 #Amiens (552000/138000 POPS)
 402 = {
@@ -2169,6 +2175,12 @@
 		religion = catholic
 		size = 103625
 	}
+
+	craftsmen = {
+		culture = occitan
+		religion = catholic
+		size = 23000
+	}
 }
 #Poitiers (288000/72000 POPS)
 443 = {
@@ -2303,7 +2315,7 @@
 	soldiers = {
 		culture = french
 		religion = catholic
-		size = 1350
+		size = 13500
 	}
 
 	farmers = {
@@ -2335,7 +2347,7 @@
 	soldiers = {
 		culture = occitan
 		religion = catholic
-		size = 2000
+		size = 17500
 	}
 
 	farmers = {

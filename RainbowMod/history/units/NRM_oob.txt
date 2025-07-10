@@ -1,9 +1,15 @@
+SCO = {
+	value = 100
+	level = 0
+	truce_until = "1838.1.1"
+}
+
 
 
 #========================= L A N D =========================
 
 army = {
-name = "L'armée des conquérants"
+name = "L'armée des conquorants"
 location = 303
 regiment = {
 name = "Regiment 0"
@@ -126,7 +132,7 @@ home = 475
 }
 }
 army = {
-name = "Armée du Sud"
+name = "Arme du Sud"
 location = 301
 regiment = {
 name = "Regiment 0"
@@ -267,7 +273,7 @@ home = 416
 #========================= S E A =========================
 
 navy = {
-name = "La marine des conquérants"
+name = "La marine des conquarants"
 location = 418
 ship = {
 name = "Ship 0"

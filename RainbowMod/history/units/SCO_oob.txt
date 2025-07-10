@@ -1,3 +1,15 @@
+ENG = {
+	value = -125
+	level = 0
+	truce_until = "1838.1.1"
+}
+
+NRM = {
+	value = 100
+	level = 0
+	truce_until = "1838.1.1"
+}
+
 army = {
 name = "Les fils du Vladimir"
 location = 2060
@@ -162,7 +174,7 @@ home = 261
 }
 
 navy = {
-name = "La marine des conquérants"
+name = "La marine des conquÃ©rants"
 location = 267
 ship = {
 name = "Ship 6"
@@ -250,7 +262,7 @@ type = clipper_transport
 }
 }
 navy = {
-name = "La marine des conquérants"
+name = "La marine des conquÃ©rants"
 location = 254
 ship = {
 name = "Ship 6"
@@ -338,7 +350,7 @@ type = clipper_transport
 }
 }
 navy = {
-name = "La marine des conquérants"
+name = "La marine des conquÃ©rants"
 location = 2060
 ship = {
 name = "Ship 6"

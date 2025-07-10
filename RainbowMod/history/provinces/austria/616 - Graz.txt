@@ -1,5 +1,6 @@
-owner = AUS
-controller = AUS
+owner = WUR
+controller = WUR
+add_core = WUR
 add_core = AUS
 add_core = HSE
 trade_goods = iron

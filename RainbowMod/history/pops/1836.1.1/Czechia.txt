@@ -67,6 +67,12 @@
 		religion = jewish
 		size = 1850 
 	}
+
+	craftsmen = {
+		culture = bohemian
+		religion = catholic
+		size = 60000
+	}
 }
 #Hradec Kralove (528000/132000 POPS)
 626 = {

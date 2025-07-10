@@ -1,5 +1,11 @@
 # Spears of Influence
 
+LOR	= {
+	value = 130
+	level = 5
+	influence_value = 40
+}
+
 KOL	= {
 	value = 130
 	level = 5

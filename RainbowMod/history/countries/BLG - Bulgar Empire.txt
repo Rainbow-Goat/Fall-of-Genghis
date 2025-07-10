@@ -1,4 +1,4 @@
-capital = 967
+capital = 809
 primary_culture = bulgarian
 religion = orthodox
 government = hms_government

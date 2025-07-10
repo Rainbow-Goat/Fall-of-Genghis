@@ -294,6 +294,12 @@
 		religion = catholic
 		size = 70700
 	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = catholic
+		size = 30000
+	}
 }
 #Lombardy Region (2512000)
 #under the rule of Austria in 1836
@@ -503,6 +509,12 @@
 		culture = venetian
 		religion = jewish
 		size = 490
+	}
+
+	craftsmen = {
+		culture = venetian
+		religion = catholic
+		size = 35000
 	}
 }
 #Verona (516000/129000 POPS)
@@ -2118,6 +2130,12 @@
 		culture = south_italian
 		religion = catholic
 		size = 149000
+	}
+
+	craftsmen = {
+		culture = south_italian
+		religion = catholic
+		size = 17000
 	}
 }
 #Sardinia Region (524000)

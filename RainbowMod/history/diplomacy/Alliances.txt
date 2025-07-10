@@ -1,0 +1,203 @@
+#Burgundy-Rhenish Alliances
+
+alliance = {
+    first = BRG
+    second = WSF
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = DUS
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = KOL
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = TRR
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = LUX
+    start_date = 1612.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = SRB
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = KBZ
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = KRZ
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = NAS
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = HES
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = FRM
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = BAD
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BRG
+    second = NAS
+    start_date = 1812.2.1
+    end_date = 1935.1.1
+}
+
+#Pommeranian - Sorbian Alliances
+
+alliance = {
+    first = POM
+    second = BRE
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = POM
+    second = HAN
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = POM
+    second = OLD
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = POM
+    second = LIP
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = POM
+    second = HEK
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = POM
+    second = COB
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = POM
+    second = MEI
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = POM
+    second = WEI
+    start_date = 1802.2.1
+    end_date = 1935.1.1
+}
+
+#Iberian Alliance
+
+alliance = {
+    first = CAS
+    second = NAV
+    start_date = 1502.4.7
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = CAS
+    second = ARO
+    start_date = 1502.4.7
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = ARO
+    second = NAV
+    start_date = 1502.4.7
+    end_date = 1935.1.1
+}
+
+#German Free States
+
+alliance = {
+    first = WUR
+    second = BAV
+    start_date = 1789.2.9
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = WUR
+    second = BAD
+    start_date = 1789.2.9
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = WUR
+    second = TEU
+    start_date = 1789.2.9
+    end_date = 1935.1.1
+}
+
+alliance = {
+    first = BAD
+    second = BAV
+    start_date = 1789.2.9
+    end_date = 1935.1.1
+}
