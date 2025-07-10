@@ -68,7 +68,7 @@ MGE 	= "countries/The Great Khanate.txt"
 CSS     = "countries/Cossackstan.txt"
 HNA     = "countries/Holy Nation of Allah.txt"
 ART     = "countries/Aragon-Italy.txt"
-DHP     = "countries/Duchy of Prussia.txt"
+PRU     = "countries/Prussia.txt"
 
 #Meta Stuff
 GHO     = "countries/Ghost Country.txt"

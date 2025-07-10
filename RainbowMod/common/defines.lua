@@ -9,8 +9,8 @@ country = {
 	REBEL_ACCEPTANCE_MONTHS = 60,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
-	GOLD_TO_CASH_RATE = 0.5, -- Amount of money generated per gold unit
-	GOLD_TO_WORKER_PAY_RATE = 3.5, -- Multiplier for how much money gold pays to pops
+	GOLD_TO_CASH_RATE = 0.8, -- Amount of money generated per gold unit
+	GOLD_TO_WORKER_PAY_RATE = 7.5, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
 	BADBOY_LIMIT = 25,
@@ -112,7 +112,7 @@ economy = {
 	SECOND_RANK_BASE_SHARE_FACTOR = 0.5,
 	CIV_BASE_SHARE_FACTOR = 0.75,
 	UNCIV_BASE_SHARE_FACTOR = 1,
-	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.25, -- % of how much we pay to the pops and capitalists, from the leftovers.
+	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.50, -- % of how much we pay to the pops and capitalists, from the leftovers.
 	MAX_FACTORY_MONEY_SAVE = 1000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 10000,
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
@@ -515,7 +515,7 @@ diplomacy = {
 	DISHONORED_CALLALLY_PRESTIGE_PENALTY = -3,
 	BASE_TRUCE_MONTHS = 60,
 	MAX_INFLUENCE = 100,
-	WARSUBSIDIES_PERCENT = 0.20, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
+	WARSUBSIDIES_PERCENT = 0.25, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.50, -- Bonus to neighbouring countries when influencing
 	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.2, -- Bonus to countries in your sphere neighbouring when influencing
 	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.50, -- Bonus to neighbouring countries when influencing
@@ -536,8 +536,8 @@ diplomacy = {
 	GOODRELATION_MILITANCY_CLEAR_UNION_SPHERE = 2, -- Prestige for asserting hegemony with good relations
 	PEACE_COST_CLEAR_UNION_SPHERE = 0.6, -- Peace cost to assert hegemony per affected country
 	
-	GOOD_PEACE_REFUSAL_MILITANCY = 1.0, --Militancy hit from refusing a good peace offer
-	GOOD_PEACE_REFUSAL_WAREXH = 5.0, --War exhaustion hit from refusing a good peace offer
+	GOOD_PEACE_REFUSAL_MILITANCY = 0, --Militancy hit from refusing a good peace offer
+	GOOD_PEACE_REFUSAL_WAREXH = 0, --War exhaustion hit from refusing a good peace offer
 	
 	PEACE_COST_GUNBOAT = 5, -- Cost of forcing a defaulting country to pay its debt
 	INFAMY_GUNBOAT = 0, -- Infamy cost for debt collection
@@ -623,7 +623,7 @@ pops = {
 	LITERACY_CHANGE_SPEED = 0.1,
 
 
-	ASSIMILATION_SCALE = 0.004,
+	ASSIMILATION_SCALE = 0.005,
 	CONVERSION_SCALE = 0.01,
 	IMMIGRATION_SCALE = 0.004,
 

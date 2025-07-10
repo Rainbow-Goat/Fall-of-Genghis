@@ -39,3 +39,8 @@ make_landfall_in_our_homeland_BLV_desc;The old-worlders have proven themselves a
 mongol_subjugation;Mongol Subjugation;x;
 mongol_subjugation_desc;Subjugate those foolish brothers of ours and prove we are superior;x;
 mongol_subjugation_setup;Annex $RECIPIENT$;x;
+civil_unrest;Civil Unrest;x;
+chudjak_title;Chudjak;x;
+chudjak_name;Chudjak;x;
+chudjak_desc;A group of angry Chudjak has risen up to pillage the nation!;x;
+chudjak_army;Chudjak;x;

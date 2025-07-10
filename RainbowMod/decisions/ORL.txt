@@ -50,6 +50,7 @@ political_decisions = {
             FRA_418 = { add_core = FRA }
             FRA_420 = { add_core = FRA }
             FRA_435 = { add_core = FRA }
+            add_accepted_culture = french
         }
     }
 }

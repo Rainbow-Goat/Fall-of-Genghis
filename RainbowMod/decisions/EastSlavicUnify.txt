@@ -82,10 +82,28 @@ political_decisions = {
             primary_culture = russian
             add_accepted_culture = byelorussian
             country_event = 100300
-            NOV = { all_core = { add_core = RUS } }
-            VLA = { all_core = { add_core = RUS } }
-            RYA = { all_core = { add_core = RUS } }
+            NOV = { 
+                all_core = { 
+                    add_core = RUS 
+                    remove_core = NOV
+                } 
+            }
+            VLA = { 
+                all_core = { 
+                    add_core = RUS 
+                    remove_core = VLA
+                } 
+            }
+            RYA = { 
+                all_core = { 
+                    add_core = RUS 
+                    remove_core = RYA
+                } 
+            }
             SMO = { all_core = { add_core = RUS } }
+            inherit = NOV
+            inherit = VLA
+            inherit = RYA
         }
     }
 
@@ -126,6 +144,18 @@ political_decisions = {
         }
         effect = {
             change_tag = UKR
+            LUH = { 
+                all_core = {
+                    add_core = UKR
+                    remove_core = LUH
+                }
+            }
+            ROS = { 
+                all_core = {
+                    add_core = UKR
+                    remove_core = ROS
+                }
+            }
             prestige = 10
             badboy = -5
         }

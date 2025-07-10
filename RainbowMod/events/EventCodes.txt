@@ -3,6 +3,7 @@
 #9999199 = Goods Setup
 #80080 = Batbayar stuff
 #81000 = Excavation
+#82000 = China2
 # 100000 = 1000 year war / NRM / ANG / ENG stuff
 # 100100 = France stuff
 # 100200 = Scani stuff

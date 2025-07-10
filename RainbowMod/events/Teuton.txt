@@ -8,11 +8,11 @@ country_event = {
 
     option = {
         name = "Deutschland fur Deutschland"
-        change_tag = DHP
+        change_tag = PRU
     }
     
     option = {
-        name = "Create a new homeland!"
+        name = "Überall, wo die deutsche Sprache gesprochen wird!"
         set_country_flag = future_decided
     }    
 }

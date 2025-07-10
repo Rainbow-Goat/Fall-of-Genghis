@@ -1,0 +1,25 @@
+country_event = {
+	id = 82000
+	title = "Civil Unrest!"
+	desc = "The people are angry..."
+	
+	trigger = {
+		is_culture_group = chinese
+		civilization_progress = 0.7
+		NOT = { year = 1890 }
+		NOT = { has_country_flag = revolution }
+	}
+
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	
+	option = {
+		name = "They should smoke more opium!"
+		set_country_flag = revolution
+		any_pop = {
+			limit = { is_accepted_culture = yes }
+			militancy = 7
+		}
+	}
+}

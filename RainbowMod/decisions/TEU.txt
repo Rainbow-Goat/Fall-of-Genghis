@@ -44,9 +44,18 @@ political_decisions = {
             owns = 365
         }
         effect = {
-            #RUS_349 = { assimilate = yes }
-            #RUS_354 = { assimilate = yes }
-            #RUS_360 = { assimilate = yes }
+            RUS_349 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
+            RUS_354 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
+            RUS_360 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
             set_country_flag = teuton_genocide_baltics
         }
     }
@@ -54,7 +63,7 @@ political_decisions = {
     look_to_the_future = {
         potential = {
             tag = TEU
-            365 = { is_core = THIS }
+            354 = { is_core = THIS }
             NOT = { has_country_flag = future_decided }
         }
         allow = {
@@ -67,5 +76,77 @@ political_decisions = {
         }
     }
 
+    enact_further_genocide = {
+        potential = {
+            tag = TEU
+            has_country_flag = teuton_genocide_baltics
+            NOT = { has_country_flag = genocide_big }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            TEU = { all_core = { owned_by = THIS } }
+            owns = 694
+            owns = 707
+            owns = 940
+            owns = 941
+            owns = 944
+        }
+        effect = {
+            694 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
+            RUS_706 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
+            RUS_707 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
+            RUS_718 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
+            RUS_947 = { 
+                assimilate = yes 
+                add_core = THIS
+            }
+            set_country_flag = genocide_big
+        }
+    }
 
+    achieve_hitlerian_dream = {
+        potential = {
+            tag = TEU
+            has_country_flag = genocide_big
+            TEU = { all_core = { owned_by = THIS } }
+            government = fascist_dictatorship
+        }
+        allow = {
+            war = no
+            mass_politics = 1
+            RUS = {
+                any_core = {
+                    AND = {
+                        owned_by = THIS
+                        NOT = { is_core = THIS }
+                    }
+                }
+            }
+        }
+        effect = {
+            any_owned = {
+                limit = {
+                    AND = {
+                        is_core = RUS
+                        NOT = { is_core = THIS }
+                    }
+                }
+                assimilate = yes
+                add_core = THIS
+            }
+        }
+    }
 }
