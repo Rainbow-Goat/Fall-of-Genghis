@@ -12,3 +12,4 @@ will_not_give_desc;You will now not receive grant requests;x;
 UNIT_BUILD_TIME_IW;$VAL$ days.;;;;;;;x
 had_cholera;Cholera epidemic;;;;;;x;
 had_cholera_desc;Our nation is experiencing outbreaks of cholera.;;;;;;x;
+MIL_FROM_TROOPS;Soldiers & Army;;;x

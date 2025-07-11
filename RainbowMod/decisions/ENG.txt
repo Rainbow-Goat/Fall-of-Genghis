@@ -91,7 +91,7 @@ political_decisions = {
 		effect = {
 			change_tag = GER
 			add_accepted_culture = rhenish
-			add_accepted_culture = south_german
+			add_accepted_culture = north_german
 			set_country_flag = alternative_to_germany
 		}
 	}
