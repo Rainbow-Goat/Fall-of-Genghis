@@ -1435,7 +1435,11 @@ province_event = {
 			has_province_modifier = cholera_epidemic_big
 		}
 	}
-
+	immediate = { 
+		owner = { 
+			remove_country_modifier = had_cholera
+		}
+	}
 	mean_time_to_happen = {
 		months = 100
 		modifier = {
@@ -1469,12 +1473,24 @@ province_event = {
 		name = "EVTOPTA10240"
 		random_list = {
 			10 = {
+				owner = { 
+					add_country_modifier = {
+						name = had_cholera
+						duration = 730
+					} 
+				} 
 				add_province_modifier = {
 					name = cholera_epidemic_big
 					duration = 730
 				}
 			}
 			10 = {
+				owner = { 
+					add_country_modifier = {
+						name = had_cholera
+						duration = 365
+					} 
+				} 
 				add_province_modifier = {
 					name = cholera_epidemic_small
 					duration = 365

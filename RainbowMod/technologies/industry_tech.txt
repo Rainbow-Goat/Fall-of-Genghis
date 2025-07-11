@@ -268,7 +268,7 @@ publishing_industry = {
 	area = mechanization
 	year = 1836
 	cost = 3600
-
+	factory_cost = -0.20
 	activate_building = regular_clothes_factory 
 	ai_chance = {
 		factor = 1.5
@@ -303,7 +303,7 @@ mechanical_production = {
 	area = mechanization
 	year = 1836
 	cost = 7200
-
+	factory_cost = -0.20
 	factory_throughput = 0.05 
 	
 	ai_chance = {
