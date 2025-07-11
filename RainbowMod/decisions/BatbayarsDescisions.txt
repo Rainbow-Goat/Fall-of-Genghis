@@ -155,7 +155,7 @@ political_decisions = {
 				type = mongol_subjugation
 				months = 12
 			}
-			badboy = 12
+			badboy = 8
 		}
 	}
 	
@@ -184,7 +184,7 @@ political_decisions = {
 				type = mongol_subjugation
 				months = 12
 			}
-			badboy = 10
+			badboy = 5
 		}
 	}
 	
@@ -213,7 +213,7 @@ political_decisions = {
 				type = mongol_subjugation
 				months = 12
 			}
-			badboy = 10
+			badboy = 8
 		}
 	}
 	

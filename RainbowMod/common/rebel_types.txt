@@ -913,6 +913,34 @@ nationalist_rebels = {
 			 		}
 		 	}
 		}
+
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					tag = CHI
+					tag = RHN
+					tag = HND
+					AND = {
+						tag = ITA
+						NOT = { exists = ITA }
+					}
+					AND = {
+						tag = FRA
+						NOT = { exists = FRA }
+					}
+					AND = {
+						tag = KWS
+						NOT = { exists = KWS }
+					}
+					AND = {
+						tag = HSE
+						NOT = { exists = HSE }
+					}
+				}
+			}
+		}
+
 		modifier = {
 			factor = 0
 				is_cultural_union = THIS

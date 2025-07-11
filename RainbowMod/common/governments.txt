@@ -227,3 +227,16 @@ crown_colony = {
 	appoint_ruling_party = yes
 	flagType = monarchy
 }
+
+duchy = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
+	flagType = monarchy
+}

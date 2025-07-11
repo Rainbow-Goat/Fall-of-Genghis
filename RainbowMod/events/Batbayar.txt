@@ -319,6 +319,7 @@ country_event = {
 	option = {
 		name = "He made a mistake NOT crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
 		set_country_flag = MglRUS
+		set_global_flag = GenghisKhanAwoke
 		change_tag = MGE
 	}
 	
@@ -340,6 +341,7 @@ country_event = {
 	option = {
 		name = "He made a mistake NOT crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
 		set_country_flag = MglRUS
+		set_global_flag = GenghisKhanAwoke
 		change_tag = MGE
 	}
 	
@@ -362,5 +364,50 @@ country_event = {
 		name = "Well, at least we learned more about aerodynamics from this"
 		prestige = -15
 		research_points = 1000
+	}
+}
+
+country_event = {	
+	id = 80098
+	title = "EVTNAME80098"
+	desc = "EVTDESC80098"
+	
+	trigger = {
+		OR = {
+			exists = MGL
+			exists = GBT
+			exists = BAT
+		}
+		has_global_flag = BatbayarRisen
+		NOT = { has_country_flag = mongol_rice_1 }
+		continent = europe
+	}
+
+	option = {
+		name = "EVTOPT80098"
+		set_country_flag = mongol_rice_1
+	}
+}
+
+country_event = {	
+	id = 80099
+	title = "EVTNAME80099"
+	desc = "EVTDESC80099"
+	
+	trigger = {
+		exists = MGE
+		has_global_flag = GenghisKhanAwoke
+		has_country_flag = mongol_rice_1
+		NOT = { has_country_flag = mongol_rice_2 }
+		continent = europe
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = "EVTOPT80099"
+		set_country_flag = mongol_rice_2
 	}
 }

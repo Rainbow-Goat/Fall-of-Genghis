@@ -325,6 +325,7 @@ political_decisions = {
 		
 		effect = {
 			country_event = 100301
+            set_country_flag = capital_moved
 			prestige = 5
 		}
 		ai_will_do = {
