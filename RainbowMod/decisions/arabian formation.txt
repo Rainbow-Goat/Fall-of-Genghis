@@ -18,14 +18,6 @@ political_decisions = {
 						relation = { who = THIS value = 100 }
 					}
 				}
-				AND = {
-					tag = NEJ
-					HDJ = { 
-						all_core = { 
-							owned_by = THIS 
-						} 
-					}
-				}
 			}
 		}
 		effect = {
