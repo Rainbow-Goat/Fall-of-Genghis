@@ -2,7 +2,7 @@ color = { 0 154 118 }
 graphical_culture = Generic
 
 party = {
-	name = "NVR_reactionary"
+	name = "VEN_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "NVR_liberal"
+	name = "VEN_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "NVR_conservative"
+	name = "VEN_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "NVR_socialist"
+	name = "VEN_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "NVR_communist"
+	name = "VEN_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "NVR_reactionary_2"
+	name = "VEN_reactionary_2"
 	start_date = 1874.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "NVR_anarcho_liberal"
+	name = "VEN_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -100,7 +100,7 @@ party = {
 }
 
 party = {
-	name = "NVR_fascist"
+	name = "VEN_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

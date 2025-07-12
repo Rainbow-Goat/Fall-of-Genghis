@@ -28,7 +28,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = NCS_conservative
+ruling_party = CAS_conservative
 last_election = 1828.12.3
 upper_house = {
 	fascist = 0

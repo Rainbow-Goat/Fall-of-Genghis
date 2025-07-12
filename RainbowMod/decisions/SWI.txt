@@ -1,4 +1,4 @@
-
+political_decisions = { 
 	call_geneva_convention = {
 		potential = {
 			tag = SWI
