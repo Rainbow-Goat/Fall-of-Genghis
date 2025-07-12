@@ -70,3 +70,5 @@ consciousness = 4
 nonstate_consciousness = 2
 
 schools = army_tech_school
+
+oob = "ARM_oob.txt"
