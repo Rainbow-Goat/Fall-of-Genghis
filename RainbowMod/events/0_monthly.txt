@@ -1,0 +1,193 @@
+country_event = { 
+	id = 600001
+	is_triggered_only = yes 
+	title = "AI Monthly Cleanup"	
+	desc = ""
+immediate = {
+	######government changes (cleanup.txt)
+	any_country = { 
+		limit = { 
+			ruling_party_ideology = communist
+			political_parties = underground_parties
+			vote_franschise = none_voting
+			upper_house_composition = party_appointed
+			civilized = yes
+			NOT = {
+				government = proletarian_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
+				government = fascist_dictatorship
+				government = absolute_monarchy
+			}
+		}
+	country_event = 60000 #communism
+	}
+	any_country = { 
+		limit = { 
+			ruling_party_ideology = reactionary
+			political_parties = underground_parties
+			vote_franschise = none_voting
+			upper_house_composition = party_appointed
+			civilized = yes
+			NOT = {
+				government = proletarian_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
+				government = fascist_dictatorship
+				government = absolute_monarchy
+			}
+		}
+	country_event = 60010 #pres dict
+	}
+	any_country = {
+		limit = { 
+			NOT = {
+				government = proletarian_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
+				government = fascist_dictatorship
+				government = absolute_monarchy
+			}
+			civilized = yes
+			political_parties = underground_parties
+			vote_franschise = none_voting
+			upper_house_composition = party_appointed
+			ruling_party_ideology = anarcho_liberal
+		}
+	country_event = 60020 #bourg dict
+	}
+
+	any_country = { 
+		limit = { 
+			ruling_party_ideology = fascist
+			political_parties = underground_parties
+			vote_franschise = none_voting
+			upper_house_composition = party_appointed
+			civilized = yes
+			NOT = {
+				government = proletarian_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
+				government = fascist_dictatorship
+				government = absolute_monarchy
+			}
+		}
+	country_event = 60030 #fascism
+	}
+	any_country = { 
+		limit = { 
+			OR = {
+				government = proletarian_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
+				government = fascist_dictatorship
+			}
+			civilized = yes
+			NOT = {
+				political_parties = underground_parties
+				vote_franschise = none_voting
+				upper_house_composition = party_appointed
+			}
+		}
+	country_event = 60050	#republic
+	}
+	any_country = { 
+		limit = { 
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+			}
+			civilized = yes
+			NOT = { ruling_party_ideology = fascist }
+			NOT = { ruling_party_ideology = communist }
+			vote_franschise = none_voting
+		}
+	country_event = 60040	#absol mon
+	}
+	any_country = { 
+		limit = { 
+			government = absolute_monarchy
+			NOT = {
+					vote_franschise = none_voting
+			}	
+			civilized = yes	
+		}
+	country_event = 60060 #semi-con monarchy
+	}
+	any_country = { 
+		limit = { 
+			government = prussian_constitutionalism
+			OR = {
+				political_parties = secret_ballots
+				political_parties = non_secret_ballots
+			}
+			civilized = yes
+		}
+	country_event = 60070 #con mon
+	}
+	any_country = { 
+		limit = { 
+			government = democracy
+			vote_franschise = none_voting		
+			OR = {
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+			}
+			civilized = yes
+		}
+	country_event = 60080 #pres dict
+	}	
+	any_country = { 
+		limit = { 
+			government = democracy
+			vote_franschise = none_voting
+			OR = {
+				ruling_party_ideology = liberal
+				ruling_party_ideology = anarcho_liberal
+			}
+			civilized = yes
+		}
+	country_event = 60090 #pres dict
+	}
+	any_country = { 
+		limit = { 
+			government = democracy
+			vote_franschise = none_voting
+			OR = {
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+			}
+			civilized = yes
+		}
+	country_event = 60100 #prol dict
+	}
+	any_country = { 
+		limit = { 
+			government = democracy
+			vote_franschise = none_voting
+			ruling_party_ideology = fascist
+			civilized = yes
+		}
+	country_event = 60110 #fasc dict
+	}
+	any_country = { 
+		limit = { 
+			upper_house_composition = party_appointed
+			ruling_party_ideology = liberal 
+		}
+	country_event = 60140 #UH not party only to prevent exploiting
+	}
+	any_country = { 
+		limit = { 
+			has_country_modifier = female_suffrage
+			NOT = {
+				vote_franschise = universal_weighted_voting
+				vote_franschise = universal_voting
+			}
+		}
+	country_event = 60150
+	}
+	JAN = { country_event = { days = 30 id = 600001 } }
+}	
+	option = { name = "" } 
+}

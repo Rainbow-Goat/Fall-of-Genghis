@@ -201,6 +201,11 @@ country_event = {
 	option = {
 		name = "Marvellous"
 		leadership = 80
+		define_general = {
+			name = "Ryan Gosling"
+			personality = coolminded			
+			background = spoiled
+		}
 		set_country_flag = Leadership_Setup
 	}
 }

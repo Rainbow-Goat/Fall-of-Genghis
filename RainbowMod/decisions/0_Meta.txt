@@ -16,6 +16,8 @@ political_decisions = {
 				treasury = 150000
 			}
 			set_global_flag = day_one_grants
+			GHO = { country_event = 600001 }
+			HUN = { tech_school = traditional_academic }	#TODO fix this lmao
 		}
 		 ai_will_do = {
             factor = 100
