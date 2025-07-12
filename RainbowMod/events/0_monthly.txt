@@ -5,6 +5,7 @@ country_event = {
 	desc = ""
 immediate = {
 	######government changes (cleanup.txt)
+	GHO = { country_event = { days = 30 id = 600001 } }
 	any_country = { 
 		limit = { 
 			ruling_party_ideology = communist
@@ -187,7 +188,6 @@ immediate = {
 		}
 	country_event = 60150
 	}
-	JAN = { country_event = { days = 30 id = 600001 } }
 }	
 	option = { name = "" } 
 }
