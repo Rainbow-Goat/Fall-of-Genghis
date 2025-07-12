@@ -9,6 +9,7 @@ country_event = {
     option = {
         name = "Deutschland fur Deutschland"
         change_tag = PRU
+        government = absolute_monarchy
     }
     
     option = {

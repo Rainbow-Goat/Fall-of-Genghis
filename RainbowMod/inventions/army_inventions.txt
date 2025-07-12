@@ -1924,7 +1924,7 @@ army_nco_tactical_training = {
 }
 
 neo_mongol_horse_riding_tactics = {
-	limit = { military_staff_system = 1 }
+	limit = { and = { is_culture_group = mongolian military_staff_system = 1 } }
 	chance = {
 		base = -10
 		modifier = {
@@ -1946,34 +1946,34 @@ neo_mongol_horse_riding_tactics = {
 	}
 	effect = {
 		dragoon = {
-			attack = 2
+			attack = 0.5
 			defence = 0.5
-			maximum_speed = 2
+			maximum_speed = 0.5
 			supply_consumption = 0.10
 		}
 		hussar = {
-			attack = 2
+			attack = 0.5
 			defence = 0.5
-			maximum_speed = 2
+			maximum_speed = 0.5
 			supply_consumption = 0.10
 		}
 		cavalry = {
 			attack = 2
-			defence = 0.5
-			maximum_speed = 2
+			defence = 2
+			maximum_speed = 0.5
 			supply_consumption = 0.10
 		}
 		cuirassier = {
-			attack = 2
-			defence = 0.5
-			maximum_speed = 2
+			support = 0.25
+			defence = 2
+			maximum_speed = 0.5
 			supply_consumption = 0.10
 		}
 	}
 }
 
 post_ghengis_thought = {
-	limit = { post_napoleonic_thought = 1 }
+	limit = { and = { is_culture_group = mongolian post_napoleonic_thought = 1 } }
 	chance = {
 		base = -10
 		modifier = {
@@ -2003,19 +2003,19 @@ post_ghengis_thought = {
 			attack = 2
 			defence = 1
 			reconnaissance = 0.5
+			maximum_speed = 2
 			supply_consumption = 0.10
 		}
 		cuirassier = {
-			attack = 2
-			defence = 1
 			reconnaissance = 0.5
+			support = 0.5
 			supply_consumption = 0.10
 		}
 	}
 }
 
 batbayar_style_horse_army_doctrine = {
-	limit = { point_defense_system = 1 }
+	limit = { and = { is_culture_group = mongolian point_defense_system = 1 } }
 	chance = {
 		base = -10
 		modifier = {
@@ -2035,37 +2035,42 @@ batbayar_style_horse_army_doctrine = {
 	}
 	effect = {
 		dragoon = {
-			attack = 0.5
+			attack = 2
 			defence = 0.5
-			maximum_speed = 0.5
+			maximum_speed = 2
+			supply_consumption = 0.20
 		}
 		hussar = {
-			attack = 0.5
+			attack = 2
 			defence = 0.5
-			maximum_speed = 0.5
+			maximum_speed = 2
+			supply_consumption = 0.20
 		}
 		cavalry = {
 			attack = 2
-			defence = 2
-			maximum_speed = 0.5
+			defence = 0.5
+			maximum_speed = 2
+			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 0.5
-			defence = 0.5
-			maximum_speed = 0.5
+			attack = -2
+			support = 0.75
+			maximum_speed = 2
+			supply_consumption = 0.20
 		}
 		infantry = {
 			attack = -0.5
+			supply_consumption = -0.10
 		}
 	}
 }
 
 horse_mounted_machine_gun_warfare = {
-	limit = { machine_guns = 1 }
+	limit = { and = { is_culture_group = mongolian machine_guns = 1 } }
 	chance = {
 		base = -10
 		modifier = {
-			factor = 10
+			factor = 15
 			or = {
 				tag = MGL
 				tag = GBT
@@ -2077,19 +2082,136 @@ horse_mounted_machine_gun_warfare = {
 		dragoon = {
 			attack = 1
 			defence = 0.5
+			supply_consumption = 0.20
 		}
 		hussar = {
 			attack = 1
 			defence = 0.5
+			supply_consumption = 0.20
 		}
 		cavalry = {
 			attack = 3
 			defence = 2
 			maximum_speed = 1
+			supply_consumption = 0.20
 		}
 		cuirassier = {
-			attack = 1
-			defence = 0.5
+			attack = 0.5
+			defence = 1
+			support = 0.5
+			supply_consumption = 0.20
+		}
+	}
+}
+
+gaikhamshigt_zevseg = {
+	limit = { and = { is_culture_group = mongolian iron_breech_loaded_artillery = 1 } }
+	chance = {
+		base = -10
+		modifier = {
+			factor = 15
+			or = {
+				tag = MGL
+				tag = GBT
+				tag = MGE
+			}
+		}
+	}
+	effect = {
+		dragoon = {
+			maximum_speed = 1
+			supply_consumption = 0.10
+		}
+		hussar = {
+			maximum_speed = 1
+			supply_consumption = 0.10
+		}
+		cavalry = {
+			defence = 2
+			maximum_speed = 1
+			supply_consumption = 0.10
+		}
+		cuirassier = {
+			maximum_speed = 1
+			support = 1
+			supply_consumption = 0.10
+		}
+	}
+}
+
+moriny_bombog = {
+	limit = { and = { is_culture_group = mongolian iron_muzzle_loaded_artillery = 1 } }
+	chance = {
+		base = -10
+		modifier = {
+			factor = 15
+			or = {
+				tag = MGL
+				tag = GBT
+				tag = MGE
+			}
+		}
+	}
+	effect = {
+		cuirassier = {
+			maximum_speed = 1
+			support = 0.5
+			supply_consumption = 0.10
+		}
+	}
+}
+
+the_winged_chariot = {
+	limit = { and = { is_culture_group = mongolian aeronautics = 1 } }
+	chance = {
+		base = -10
+		modifier = {
+			factor = 10
+			or = {
+				tag = MGL
+				tag = GBT
+				tag = MGE
+			}
+		}
+		modifer = {
+			factor = 10
+			has_country_flag = BATmoon_mission
+		}
+	}
+	effect = {
+		cuirassier = {
+			maximum_speed = 1
+			support = 1
+			supply_consumption = 0.5
+		}
+		
+		hussar = {
+			reconnaissance = 2
+			supply_consumption = 0.2
+		}
+	}
+}
+
+horse_mounted_howitzers = {
+	limit = { and = { is_culture_group = mongolian indirect_artillery_fire = 1 } }
+	chance = {
+		base = -10
+		modifier = {
+			factor = 15
+			or = {
+				tag = MGL
+				tag = GBT
+				tag = MGE
+			}
+		}
+	}
+	effect = {
+		cuirassier = {
+			support = 1
+			supply_consumption = 0.5
+		}
+		cavalry = {
+			support = 0.5
 		}
 	}
 }

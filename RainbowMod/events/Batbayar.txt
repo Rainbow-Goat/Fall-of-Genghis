@@ -132,6 +132,12 @@ country_event = {
 	
 	option = {
 		name = "What?? He forced the King to sleep with him too?!"
+		THIS = {
+			all_core = {
+				add_core = BAT
+				remove_core = THIS
+			}
+		}
 		change_tag = BAT
 		government = khanate
 		prestige = 20
@@ -317,15 +323,27 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "He made a mistake NOT crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
+		name = "He made a mistake not crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
 		set_country_flag = MglRUS
-		set_global_flag = GenghisKhanAwoke
+		THIS = {
+			all_core = {
+				add_core = MGE
+				remove_core = THIS
+			}
+		}
 		change_tag = MGE
+		set_global_flag = GenghisKhanAwoke
 	}
 	
 	option = {
 		name = "Times have changed and our nomad ways are coming to an end, let us instead consolidate our power and build an even greater realm around traditional Mongolia"
 		set_country_flag = MglBAT
+		THIS = {
+			all_core = {
+				add_core = GBT
+				remove_core = THIS
+			}
+		}
 		change_tag = GBT
 	}
 }
@@ -339,15 +357,27 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "He made a mistake NOT crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
+		name = "He made a mistake not crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
 		set_country_flag = MglRUS
-		set_global_flag = GenghisKhanAwoke
+		THIS = {
+			all_core = {
+				add_core = MGE
+				remove_core = THIS
+			}
+		}
 		change_tag = MGE
+		set_global_flag = GenghisKhanAwoke
 	}
 	
 	option = {
 		name = "Times have changed and our nomad ways are coming to an end, let us instead consolidate our power and build an even greater realm around traditional Mongolia"
 		set_country_flag = MglBAT
+		THIS = {
+			all_core = {
+				add_core = MGL
+				remove_core = THIS
+			}
+		}
 		change_tag = MGL
 	}
 }

@@ -57,6 +57,7 @@ political_decisions = {
                 add_core = THIS
             }
             set_country_flag = teuton_genocide_baltics
+            remove_accepted_culture = estonian
         }
     }
 
@@ -168,6 +169,52 @@ political_decisions = {
             PRU_544 = { add_core = THIS }
             PRU_546 = { add_core = THIS }
             PRU_549 = { add_core = THIS }
+            PRU_701 = { add_core = THIS }
+        }
+    }
+
+    spread_the_rebellion = {
+        potential = {
+            tag = PRU
+            549 = { is_core = THIS }
+            NOT = { 557 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            owns = 531
+            owns = 534
+            owns = 557
+            owns = 582
+            NOT = { exists = POM }
+        }
+        effect = {
+            HAM_528 = { add_core = THIS }
+            HAN_534 = { add_core = THIS }
+            PRU_553 = { add_core = THIS }
+            POM_582 = { add_core = THIS }
+        }
+    }
+
+    form_germany = {
+        potential = {
+            tag = PRU
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            PRU = { all_core = { owned_by = THIS } }
+            582 = { is_core = THIS }
+        }
+        effect = {
+            change_tag = GER 
+            PRU = { 
+                all_core = {
+                    add_core = GER 
+                    remove_core = PRU
+                } 
+            }
+            add_accepted_culture = south_german
+            add_accepted_culture = rhenish
         }
     }
 }

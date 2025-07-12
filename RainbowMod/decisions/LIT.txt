@@ -30,8 +30,13 @@ political_decisions = {
         allow = {
             war = no
             state_n_government = 1
-            941 = { owned_by = THIS }
-            944 = { owned_by = THIS }
+            OR = {
+                AND = {
+                    941 = { owned_by = THIS }
+                    944 = { owned_by = THIS }
+                }
+                NOT = { exists = SMO }
+            }
         }
         effect = {
             LIT = {
@@ -123,20 +128,27 @@ political_decisions = {
         allow = {
             war = no
             electricity = 1
-            LUH = {
-                all_core = { owned_by = THIS }
-            }
+            owns = 971
+            owns = 976
+            owns = 3250
+            owns = 980
         }
         effect = {
-            LUH = {
-                all_core = { add_core = LIT }
-            }
-            ROS = {
-                all_core = { add_core = LIT }
-            }
-            RYA = {
-                all_core = { add_core = LIT }
-            }
+            RUS_965 = { add_core = THIS }
+            LUH_976 = { add_core = THIS }
+            RUS_980 = { add_core = THIS }
+            3250 = { add_core = THIS }
+            1012 = { add_core = THIS }
+            1019 = { add_core = THIS }
+            1021 = { add_core = THIS }
+            1025 = { add_core = THIS }
+            1039 = { add_core = THIS }
+            1045 = { add_core = THIS }
+            RUS_979 = { add_core = THIS }
+            RUS_1041 = { add_core = THIS }
+            RUS_1048 = { add_core = THIS }
+            RUS_1052 = { add_core = THIS }
+            RUS_1090 = { add_core = THIS }
         }
     }
 }
