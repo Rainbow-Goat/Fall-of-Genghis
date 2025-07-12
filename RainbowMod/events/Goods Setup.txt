@@ -78,7 +78,7 @@ country_event = {
 			tag = ALA
 			tag = SCO
 			tag = SWE
-			tag = DEN
+			tag = ARM
 			tag = HUN
 		}
 	}
@@ -112,8 +112,8 @@ country_event = {
 			tag = POL
 			tag = SMO
 			tag = LUH
-			tag = KDS
-			tag = BLV
+			tag = NCS
+			tag = NOV
 		}
 	}
 
@@ -169,7 +169,7 @@ country_event = {
 		OR = {
 			tag = BEN
 			tag = ORI
-			tag = SIK
+			tag = HYD
 		}
 	}
 
