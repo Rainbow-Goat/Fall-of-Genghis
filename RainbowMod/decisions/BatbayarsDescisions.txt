@@ -1,8 +1,8 @@
 political_decisions = {
 	unite_greater_mongolia_BAT = {
 		potential = {
-			not = { has_country_flag = greaterMongolia }
 			tag = BAT
+			not = { has_country_flag = greaterMongolia }
 		}
 		
 		allow = {
@@ -45,6 +45,7 @@ political_decisions = {
 	
 	subjugate_the_oyirat = {
 		potential = {
+			neighbour = OYI
 			not = { tag = OYI }
 			or = {
 				primary_culture = mongol
@@ -52,7 +53,6 @@ political_decisions = {
 				tag = MGL
 				tag = MGE
 			}
-			neighbour = OYI
 			exists = OYI
 			not = { badboy = 0.35 }
 		}
@@ -74,6 +74,7 @@ political_decisions = {
 	
 	subjugate_the_taichiud = {
 		potential = {
+			neighbour = TAI
 			not = { tag = TAI }
 			or = {
 				primary_culture = mongol
@@ -81,7 +82,6 @@ political_decisions = {
 				tag = MGL
 				tag = MGE
 			}
-			neighbour = TAI
 			exists = TAI
 			not = { badboy = 0.35 }
 		}
@@ -103,6 +103,7 @@ political_decisions = {
 	
 	subjugate_batbayarstan = {
 		potential = {
+			neighbour = BAT
 			not = { tag = BAT }
 			or = {
 				primary_culture = mongol
@@ -110,7 +111,6 @@ political_decisions = {
 				tag = MGL
 				tag = MGE
 			}
-			neighbour = BAT
 			exists = BAT
 			not = { badboy = 0.35 }
 		}
@@ -132,6 +132,7 @@ political_decisions = {
 	
 	subjugate_the_merkits = {
 		potential = {
+			neighbour = MER
 			not = { tag = MER }
 			or = {
 				primary_culture = mongol
@@ -140,7 +141,6 @@ political_decisions = {
 				tag = MGE
 			}
 			exists = MER
-			neighbour = MER
 			not = { badboy = 0.35 }
 		}
 		
@@ -161,6 +161,7 @@ political_decisions = {
 	
 	subjugate_the_naiman = {
 		potential = {
+			neighbour = NAI
 			not = { tag = NAI }
 			or = {
 				primary_culture = mongol
@@ -169,7 +170,6 @@ political_decisions = {
 				tag = MGE
 			}
 			exists = NAI
-			neighbour = NAI
 			not = { badboy = 0.35 }
 		}
 		
@@ -190,6 +190,7 @@ political_decisions = {
 	
 	subjugate_the_chagatai = {
 		potential = {
+			neighbour = CHA
 			not = { tag = CHA }
 			or = {
 				primary_culture = mongol
@@ -197,7 +198,6 @@ political_decisions = {
 				tag = MGL
 				tag = MGE
 			}
-			neighbour = CHA
 			exists = CHA
 			not = { badboy = 0.35 }
 		}
@@ -285,9 +285,9 @@ political_decisions = {
 	
 	our_homeland_reunited_BOL = {
 		potential = {
+			tag = BOL
 			is_culture_group = mongolian
 			not = { has_country_flag = greaterMongolia }
-			tag = BOL
 		}
 		
 		allow = {
@@ -478,6 +478,7 @@ political_decisions = {
 
 	send_a_chariot_to_the_moon = {
 		potential = {
+			primary_culture = mongol
 			or = {
 				tag = MGL
 				tag = MGE

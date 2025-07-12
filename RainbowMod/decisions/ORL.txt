@@ -21,6 +21,7 @@ political_decisions = {
     }
     king_of_the_french = {
         potential = {
+	    is_culture_group = french
             OR = {
                 tag = ORL
                 tag = LYO

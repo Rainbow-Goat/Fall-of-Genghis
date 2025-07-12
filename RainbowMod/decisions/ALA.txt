@@ -80,11 +80,11 @@ political_decisions = {
 
     convert_the_catalonians = {
         potential = {
+            498 = { is_core = THIS }
             OR = {
                 tag = ALA
                 tag = HNA
             }
-            498 = { is_core = THIS }
             NOT = { accepted_culture = catalan }
         }
         allow = {

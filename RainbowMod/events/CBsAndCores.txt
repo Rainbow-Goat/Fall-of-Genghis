@@ -10,8 +10,8 @@ country_event = {
 	picture = "ship_attacked"
 	
 	trigger = {
-		war = no
 		is_greater_power = yes
+		war = no
 		steel_steamers = 1
 		steamer_convoy = 1
 		any_greater_power = {

@@ -6,8 +6,8 @@ political_decisions = {
 		news_desc_short = "kiel_canal_NEWS_SHORT"
 		
 		potential = {
-			NOT = { is_canal_enabled = 1 }
 			owns = 369
+			NOT = { is_canal_enabled = 1 }
 			is_greater_power = yes
 			mechanical_production = 1
 		}
@@ -38,8 +38,8 @@ political_decisions = {
 		
 		picture = suezcanal
 		potential = {
-			NOT = { is_canal_enabled = 2 }
 			is_greater_power = yes
+			NOT = { is_canal_enabled = 2 }
 			mechanical_production = 1
 		}
 		allow = {
@@ -73,8 +73,8 @@ political_decisions = {
 		news_desc_medium = "panama_canal_NEWS_MEDIUM"
 		news_desc_short = "panama_canal_NEWS_SHORT"
 		potential = {
-			NOT = { is_canal_enabled = 3 }
 			is_greater_power = yes
+			NOT = { is_canal_enabled = 3 }
 			mechanical_production = 1
 		}
 		allow = {

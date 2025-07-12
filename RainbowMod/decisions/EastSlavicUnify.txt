@@ -1,6 +1,7 @@
 political_decisions = {
     reunite_the_rus = {
         potential = {
+	    is_culture_group = east_slavic
             OR = {
                 primary_culture = russian
                 primary_culture = ukrainian
@@ -36,6 +37,7 @@ political_decisions = {
 
     abandon_the_cossacks = {
         potential = {
+            is_culture_group = east_slavic
             OR = {
                 primary_culture = russian
                 primary_culture = byelorussian
@@ -109,6 +111,7 @@ political_decisions = {
 
     a_unified_cossack_state = {
         potential = {
+            is_culture_group = east_slavic
             OR = {
                 primary_culture = ukrainian
                 primary_culture = ruthenian

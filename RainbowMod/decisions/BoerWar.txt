@@ -1,6 +1,7 @@
 political_decisions = {
 	die_groot_trek = {
 		potential = {
+			primary_culture = boer
 			OR = {
 				tag = ORA
 				tag = TRN

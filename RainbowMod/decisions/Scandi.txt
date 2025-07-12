@@ -1,6 +1,7 @@
 political_decisions = {
     end_the_civil_war = {
         potential = {
+	    primary_culture = scandinavian
             OR = {
                 tag = SWE
                 tag = DEN
@@ -375,30 +376,6 @@ political_decisions = {
 				
 			}
 			set_country_flag = court_yard_speech_held
-		}
-	}
-
-    danmarks_riges_grundlov = {
-		potential = {
-			tag = SCA
-			government = absolute_monarchy
-			NOT = {
-				has_country_flag = danish_constitutionalism
-			}
-		}
-		
-		allow = {
-			state_n_government = 1
-			NOT = {
-				average_militancy = 3
-			}
-		}
-		
-		effect = {
-			political_reform = landed_voting
-			government = hms_government
-			prestige = 5
-			set_country_flag = danish_constitutionalism
 		}
 	}
 }

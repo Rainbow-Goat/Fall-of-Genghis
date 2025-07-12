@@ -1,6 +1,7 @@
 political_decisions = {
 	form_iberia = {
 		potential = {
+			is_culture_group = iberian
 			NOT = {exists = SPA}
 				OR = {
 					tag = NAV

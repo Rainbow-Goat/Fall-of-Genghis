@@ -2,8 +2,8 @@ political_decisions = {
 
 	accept_norse = {
 		potential = {
-			NOT = {accepted_culture = norse}
 			tag = ENG
+			NOT = {accepted_culture = norse}
 			NOT = {has_country_flag = saxon_german_path}
 			has_country_flag = englaland_rules_waves
 		}
@@ -29,13 +29,13 @@ political_decisions = {
 	
 	reform_uk = {
 		potential = {
+			has_country_flag = englaland_rules_waves
 			OR = {
 				tag = ENG
 				tag = SCO
 				tag = IRE
 				
 			}
-			has_country_flag = englaland_rules_waves
 			NOT = {
 				AND = {
 					accepted_culture = saxon

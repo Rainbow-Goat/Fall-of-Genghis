@@ -1,11 +1,11 @@
 political_decisions = {
 	torching_of_the_summer_palace = {
 		potential = {
-			NOT = {
-				tag = CHI
-			}
 			CHI = {
 				owns = 1612
+			}
+			NOT = {
+				tag = CHI
 			}
 			civilized = yes
 			is_greater_power = yes
