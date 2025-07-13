@@ -1,6 +1,7 @@
 political_decisions = {
     polish_slovakia = {
         potential = {
+			is_culture_group = west_slavic
             OR = {
                 tag = POL
                 AND = {

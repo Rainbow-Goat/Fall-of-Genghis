@@ -99,6 +99,7 @@ political_decisions = {
 	
 	form_kingdom_of_slavia = {
 		potential = {
+			is_culture_group = west_slavic
 			OR = {
 				primary_culture = bohemian
 				primary_culture = pommeranian

@@ -23,4 +23,181 @@ political_decisions = {
             factor = 100
         }
 	}
+
+
+
+day1_state_sizing = { 
+		potential = { 
+			tag = GHO
+			NOT = { has_country_flag = states_sized_day1}
+		}	
+		allow = { } 
+		effect = {
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = SWE
+							tag = DEN
+							tag = ENG
+							tag = NRM
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						NOT = { total_pops = 100000 }
+					}
+				}
+				add_core = TIN
+				remove_core = SMA
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 100000
+						NOT = { total_pops = 400000 }
+					}
+				}
+				add_core = SMA 
+				remove_core = TIN
+				remove_core = MED 
+				remove_core = LRG 
+				remove_core = HUG 
+			}
+		}
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 400000 
+						NOT = { total_pops = 700000 }
+					} 
+				} 
+				add_core = MED
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = LRG 
+				remove_core = HUG 
+			} 
+		}		
+		any_country = { 
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = {
+				limit = {
+					state_scope = { 
+						total_pops = 700000 
+						NOT = { total_pops = 1000000 }
+					} 
+				} 
+			add_core = LRG
+			remove_core = TIN
+			remove_core = SMA 
+			remove_core = MED 
+			remove_core = HUG 
+			} 
+		}
+		any_country = {
+			limit = {
+				OR = {
+					war = no
+					AND = {
+						war = yes
+						OR = {
+							tag = TUR
+							tag = TRI
+							tag = TEX
+							tag = MEX
+						}
+						NOT = { 
+							year = 1837 
+						}
+					}
+				}
+				
+			}
+			any_owned = { 
+				limit = {
+					state_scope = { 
+						total_pops = 1000000
+					}
+				}
+				add_core = HUG 
+				remove_core = TIN
+				remove_core = SMA 
+				remove_core = MED 
+				remove_core = LRG 
+			} 
+		}
+
+		}
+	}		
+
 }

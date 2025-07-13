@@ -1,7 +1,6 @@
 country_event = {
 	id = 700700
 	title = "State Sizing Early Game"
-
 	trigger = {
 		tag = GHO
 		NOT = { has_country_modifier = sizing_cooldown }

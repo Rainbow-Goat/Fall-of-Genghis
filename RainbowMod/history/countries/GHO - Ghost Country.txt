@@ -40,3 +40,7 @@ upper_house = { # inherit
 	socialist = 0
 	communist = 0
 }
+
+1835.1.1 = {
+decision = day1_state_sizing
+}

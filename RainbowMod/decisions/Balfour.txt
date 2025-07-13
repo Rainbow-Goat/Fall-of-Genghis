@@ -1,6 +1,7 @@
 political_decisions = {
 	form_kurdistan = {
-		potential = {			
+		potential = {
+			is_greater_power = yes			
 			889 = {
 				OR = {
 					owned_by = THIS
@@ -95,7 +96,6 @@ political_decisions = {
 			}
 		}
 		allow = {
-			is_greater_power = yes
 			revolution_n_counterrevolution = 1
 		}
 		effect = {

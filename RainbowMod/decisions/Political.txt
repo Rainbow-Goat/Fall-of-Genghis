@@ -65,10 +65,10 @@ political_decisions = {
 	}
 	institute_central_bank = {
 		potential = {
+			central_bank_money_bill_printing = 1
 			NOT = {
 				has_country_modifier = central_bank_established
 			}
-			central_bank_money_bill_printing = 1
 		}
 		
 		allow = {
@@ -171,8 +171,8 @@ political_decisions = {
 	}
 	the_meiji_restoration = {
 		potential = {
-			civilized = no
 			tag = JAP
+			civilized = no
 			not = { has_country_modifier = meiji_restoration_boost }
 		}
 		allow = {

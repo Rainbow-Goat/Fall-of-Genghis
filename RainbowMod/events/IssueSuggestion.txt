@@ -15,8 +15,8 @@ country_event = {
 	picture = "slums"
 	
 	trigger = {
-		civilized = yes
 		health_care = no_health_care
+		civilized = yes
 		NOT = {
 			poor_strata_life_needs = 0.9
 		}
@@ -102,8 +102,8 @@ country_event = {
 	picture = "Hospital"
 	
 	trigger = {
-		civilized = yes
 		health_care = acceptable_health_care
+		civilized = yes
 		conservative = 0.2
 	}
 	
@@ -162,8 +162,8 @@ country_event = {
 	picture = "Countryside"
 	
 	trigger = {
-		civilized = yes
 		health_care = low_health_care
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -198,8 +198,8 @@ country_event = {
 	picture = "Workers"
 	
 	trigger = {
-		civilized = yes
 		health_care = trinket_health_care
+		civilized = yes
 		NOT = {
 			poor_strata_life_needs = 0.95
 		}
@@ -270,8 +270,8 @@ country_event = {
 	picture = "Poor"
 	
 	trigger = {
-		civilized = yes
 		health_care = low_health_care
+		civilized = yes
 		NOT = {
 			social_reform_want = 0.2
 		}
@@ -332,8 +332,8 @@ country_event = {
 	picture = "Hospital"
 	
 	trigger = {
-		civilized = yes
 		health_care = acceptable_health_care
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -459,8 +459,8 @@ country_event = {
 	picture = "Finepeople"
 	
 	trigger = {
-		civilized = yes
 		pensions = no_pensions
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -585,9 +585,9 @@ country_event = {
 	picture = "Finepeople"	
 
 	trigger = {
-		civilized = yes
 		pensions = low_pensions
 		acceptable_pensions = 5
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -635,8 +635,8 @@ country_event = {
 	picture = "Poor"
 	
 	trigger = {
-		civilized = yes
 		pensions = acceptable_pensions
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -696,10 +696,10 @@ country_event = {
 	picture = "Finepeople"
 	
 	trigger = {
-		civilized = yes
 		pensions = good_pensions
 		conservative = 0.2
 		liberal = 0.2
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -752,10 +752,10 @@ country_event = {
 	picture = "Oldsoldiers"
 	
 	trigger = {
-		civilized = yes
 		social_reform_want = 0.05
 		liberal = 0.1
 		conservative = 0.1
+		civilized = yes
 		NOT = {
 			pensions = acceptable_pensions
 			pensions = good_pensions
@@ -849,14 +849,14 @@ country_event = {
 	
 	trigger = {
 		pensions = no_pensions
+		war_exhaustion = 6
+		social_reform_want = 0.1
 		civilized = yes
 		OR = {
 			war_policy = jingoism
 			war_policy = pro_military
 		}
 		war = yes
-		war_exhaustion = 6
-		social_reform_want = 0.1
 	}
 	
 	mean_time_to_happen = {
@@ -956,8 +956,8 @@ country_event = {
 	picture = "Poor"
 	
 	trigger = {
-		civilized = yes
 		unemployment_subsidies = no_subsidies
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1024,11 +1024,11 @@ country_event = {
 	picture = "Poor"
 	
 	trigger = {
-		civilized = yes
-		unemployment = 0.05
 		unemployment_subsidies = low_subsidies
+		unemployment = 0.05
 		conservative = 0.1
 		liberal = 0.1
+		civilized = yes
 		NOT = {
 			economic_policy = laissez_faire
 		}
@@ -1088,9 +1088,9 @@ country_event = {
 	picture = "Poor"
 	
 	trigger = {
-		civilized = yes
 		unemployment_subsidies = acceptable_subsidies
 		unemployment = 0.05
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1144,13 +1144,13 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
-		civilized = yes
 		unemployment_subsidies = low_subsidies
 		wage_reform = low_minimum_wage
+		poor_strata_militancy = 5
 		NOT = {
 			trade_unions = no_trade_unions
 		}
-		poor_strata_militancy = 5
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1219,11 +1219,11 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
-		civilized = yes
 		unemployment_subsidies = acceptable_subsidies
 		NOT = {
 			trade_unions = no_trade_unions
 		}
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1272,9 +1272,9 @@ country_event = {
 	picture = "Workers"
 	
 	trigger = {
-		civilized = yes
 		safety_regulations = no_safety
 		trinket_safety = 1
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1331,8 +1331,8 @@ country_event = {
 	
 	
 	trigger = {
-		civilized = yes
 		safety_regulations = trinket_safety
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1382,9 +1382,9 @@ country_event = {
 	picture = "Workers"
 	
 	trigger = {
-		civilized = yes
 		safety_regulations = low_safety
 		social_reform_want = 0.2
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1452,8 +1452,8 @@ country_event = {
 	picture = "Workers"
 	
 	trigger = {
-		civilized = yes
 		safety_regulations = acceptable_safety
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1562,9 +1562,9 @@ country_event = {
 	picture = "Police"
 	
 	trigger = {
-		civilized = yes
 		safety_regulations = low_safety
 		health_care = low_health_care
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1620,10 +1620,10 @@ country_event = {
 	picture = "Workers"
 	
 	trigger = {
-		civilized = yes
 		safety_regulations = acceptable_safety
 		health_care = acceptable_health_care
 		basic_chemistry = 1
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1670,9 +1670,9 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
-		civilized = yes
 		safety_regulations = good_safety
 		health_care = good_health_care
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1716,8 +1716,8 @@ country_event = {
 	picture = "Childlabor2"
 	
 	trigger = {
-		civilized = yes
 		work_hours = no_work_hour_limit
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1767,8 +1767,8 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
-		civilized = yes
 		work_hours = fourteen_hours
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1825,12 +1825,12 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
-		civilized = yes
 		work_hours = twelve_hours
+		poor_strata_life_needs = 0.9
 		NOT = {
 			trade_unions = no_trade_unions
 		}
-		poor_strata_life_needs = 0.9
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1893,9 +1893,9 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		civilized = yes
 		work_hours = ten_hours
 		conservative = 0.3
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -1949,9 +1949,9 @@ country_event = {
 	picture = "Workers"
 	
 	trigger = {
-		civilized = yes
 		wage_reform = no_minimum_wage
 		social_reform_want = 0.1
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2020,11 +2020,11 @@ country_event = {
 	picture = "Upperhouse"
 	
 	trigger = {
-		civilized = yes
 		wage_reform = trinket_wage
 		NOT = {
 			government = proletarian_dictatorship
 		}
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2085,10 +2085,10 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
-		civilized = yes
 		wage_reform = low_minimum_wage
 		average_consciousness = 5
 		social_reform_want = 0.1
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2159,9 +2159,9 @@ country_event = {
 	picture = "Strike"
 	
 	trigger = {
-		civilized = yes
 		wage_reform = good_minimum_wage
 		has_pop_type = capitalists
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2199,9 +2199,9 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
-		civilized = yes
 		trade_unions = no_trade_unions
 		state_controlled = 10
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2268,13 +2268,13 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
-		civilized = yes
 		trade_unions = state_controlled
 		OR = {
 			socialist = 0.1
 			liberal = 0.2
 			fascist = 0.3
 		}
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2345,8 +2345,8 @@ country_event = {
 	picture = "Demonstration"
 	
 	trigger = {
-		civilized = yes
 		trade_unions = non_socialist
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2402,11 +2402,11 @@ country_event = {
 	
 	trigger = {
 		trade_unions = all_trade_unions
-		civilized = yes
 		NOT = {
 			ruling_party_ideology = socialist
 			ruling_party_ideology = communist
 		}
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2474,8 +2474,8 @@ country_event = {
 	
 	trigger = {
 		slavery = yes_slavery
-		civilized = yes
 		no_slavery = 10
+		civilized = yes
 	}
 	
 	mean_time_to_happen = {
@@ -2547,8 +2547,8 @@ country_event = {
 	
 	trigger = {
 		slavery = no_slavery
-		civilized = yes
 		prestige = 20
+		civilized = yes
 		NOT = {
 			citizenship_policy = residency
 		}

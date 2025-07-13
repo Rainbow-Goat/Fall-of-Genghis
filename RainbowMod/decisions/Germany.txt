@@ -1,6 +1,7 @@
 political_decisions = {
 	ems_dispatch = {
 		potential = {
+			owns = 570
 			NOT = {
 				has_country_flag = ems_dispatch_sent
 			}
@@ -10,7 +11,6 @@ political_decisions = {
 			}
 			exists = FRA
 			government = absolute_monarchy
-			owns = 570
 		}
 		
 		allow = {
@@ -45,6 +45,7 @@ political_decisions = {
 	
 	construct_germania_werft = {
 		potential = {
+			owns = 369
 			NOT = {
 				has_global_flag = germania_werft_has_been_built
 			}
@@ -52,7 +53,6 @@ political_decisions = {
 				tag = GER
 				tag = NGF
 			}
-			owns = 369
 		}
 		
 		allow = {
@@ -108,12 +108,12 @@ political_decisions = {
 	
 	schwabing_circles = {
 		potential = {
+			owns = 599
 			OR = {
 				tag = BAV
 				tag = SGF
 				tag = GER
 			}
-			owns = 599
 			NOT = {
 				has_country_flag = schwabing_encircled
 			}
@@ -159,12 +159,12 @@ political_decisions = {
 	
 	construct_the_walhalla = {
 		potential = {
+			owns = 602
 			OR = {
 				tag = BAV
 				tag = SGF
 				tag = GER
 			}
-			owns = 602
 			NOT = {
 				has_global_flag = the_walhalla_is_built
 			}
@@ -188,6 +188,7 @@ political_decisions = {
 	
 	von_moltkes_staff_reforms = {
 		potential = {
+			is_culture_group = germanic
 			OR = {
 				tag = GER
 				tag = NGF
@@ -218,14 +219,14 @@ political_decisions = {
 	
 	the_ruhr_boom = {
 		potential = {
+			owns = 578
+			owns = 2561
+			owns = 575
 			OR = {
 				tag = PRU
 				tag = GER
 				tag = NGF
 			}
-			owns = 578
-			owns = 2561
-			owns = 575
 			NOT = {
 				has_global_flag = ruhr_boom_has_happened
 			}
