@@ -5,7 +5,6 @@ political_decisions = {
 			tag = ENG
 			NOT = {accepted_culture = norse}
 			NOT = {has_country_flag = saxon_german_path}
-			has_country_flag = englaland_rules_waves
 		}
 		
 		allow = {
@@ -29,12 +28,10 @@ political_decisions = {
 	
 	reform_uk = {
 		potential = {
-			has_country_flag = englaland_rules_waves
 			OR = {
 				tag = ENG
 				tag = SCO
 				tag = IRE
-				
 			}
 			NOT = {
 				AND = {
@@ -63,7 +60,14 @@ political_decisions = {
 				}
 			}
 			war = no
-			accepted_culture = norse
+			NOT = {
+				AND = {
+					accepted_culture = saxon
+					accepted_culture = scottish
+					accepted_culture = irish
+				}
+			}
+
 		}
 		effect = {
 			change_tag = GBR

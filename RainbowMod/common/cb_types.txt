@@ -2521,7 +2521,6 @@ demand_concession_casus_belli_tiny = {
 			is_core = TIN
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2575,7 +2574,6 @@ demand_concession_casus_belli_small = {
 			is_core = SMA
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2629,7 +2627,6 @@ demand_concession_casus_belli_medium = {
 			is_core = MED
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2683,7 +2680,6 @@ demand_concession_casus_belli_large = {
 			is_core = LRG
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
@@ -2737,7 +2733,6 @@ demand_concession_casus_belli_huge = {
 			is_core = HUG
 			is_colonial = no
 		}
-		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	po_demand_state = yes
