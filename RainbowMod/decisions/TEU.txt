@@ -195,7 +195,7 @@ political_decisions = {
         }
     }
 
-    form_germany = {
+    reform_germany = {
         potential = {
             tag = PRU
         }
