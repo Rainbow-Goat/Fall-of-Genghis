@@ -174,23 +174,6 @@ country_event = {
 			is_cultural_union = yes
 			war = no
 		}
-		NOT = {
-			AND = {
-				OR = {
-					tag = AUS
-					tag = KUK
-				}
-				sphere_owner = {
-					tag = GER
-				}
-				NOT = {
-					exists = HUN
-				}
-			}
-		}
-		NOT = {	
-			tag = ISR 
-		}
 	}
 	
 	mean_time_to_happen = {

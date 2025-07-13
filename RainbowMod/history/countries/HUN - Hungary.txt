@@ -67,6 +67,4 @@ practical_steam_engine = 1
 consciousness = 4
 nonstate_consciousness = 2
 
-schools = industry_tech_school
-
 oob = "HUN_oob.txt"

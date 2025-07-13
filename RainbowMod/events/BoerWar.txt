@@ -9,6 +9,7 @@ country_event = {
 	picture = "zulu"
 	
 	trigger = {
+		primary_culture = boer
 		OR = {
 			tag = ORA
 			tag = TRN

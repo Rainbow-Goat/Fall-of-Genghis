@@ -114,14 +114,11 @@ political_decisions = {
 		news_desc_medium = "form_germany_NEWS_MEDIUM"
 		news_desc_short = "form_germany_NEWS_SHORT"
 		potential = {
+			is_culture_group = germanic
 			OR = {
 				primary_culture = south_german
 				primary_culture = north_german
 				primary_culture = rhenish
-			}
-			NOT = {
-				exists = GER
-				tag = ISR
 			}
 		}
 		
