@@ -898,7 +898,7 @@ acquire_state_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.5
+	badboy_factor = 0.72
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -979,7 +979,7 @@ acquire_state_small = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.5
+	badboy_factor = 0.86
 	prestige_factor = 2
 	peace_cost_factor = 0.006
 	penalty_factor = 1
@@ -1061,7 +1061,7 @@ acquire_state_medium = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.5
+	badboy_factor = 1.08
 	prestige_factor = 2
 	peace_cost_factor = 0.008
 	penalty_factor = 1
@@ -1225,7 +1225,7 @@ acquire_state_huge = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.5
+	badboy_factor = 1.58
 	prestige_factor = 2
 	peace_cost_factor = 0.016
 	penalty_factor = 1
@@ -1308,7 +1308,7 @@ place_in_the_sun_tiny = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 1.0
+	badboy_factor = 0.86
 	prestige_factor = 2
 	peace_cost_factor = 0.001
 	penalty_factor = 1
@@ -1368,7 +1368,7 @@ place_in_the_sun_small = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 1.0
+	badboy_factor = 0.86
 	prestige_factor = 2
 	peace_cost_factor = 0.002
 	penalty_factor = 1
@@ -1427,7 +1427,7 @@ place_in_the_sun_medium = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 1.0
+	badboy_factor = 0.86
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -1486,7 +1486,7 @@ place_in_the_sun_large = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 1.0
+	badboy_factor = 0.86
 	prestige_factor = 2
 	peace_cost_factor = 0.004
 	penalty_factor = 1
@@ -1545,7 +1545,7 @@ place_in_the_sun_huge = {
 	
 	construction_speed = 0.5
 
-	badboy_factor = 1.0
+	badboy_factor = 0.86
 	prestige_factor = 2
 	peace_cost_factor = 0.005
 	penalty_factor = 1

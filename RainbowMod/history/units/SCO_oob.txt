@@ -10,6 +10,13 @@ NRM = {
 	truce_until = "1838.1.1"
 }
 
+SIA = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
 army = {
 name = "Les fils du Vladimir"
 location = 2060

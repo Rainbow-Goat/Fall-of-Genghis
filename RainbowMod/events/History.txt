@@ -1,0 +1,20 @@
+country_event = {
+    id = 100601
+    title = "100601NAME"
+    desc = "100601DESC"
+    picture = Picture
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Neat!"
+        
+        
+        ai_chance = {
+            factor = 
+            modifier = {
+                factor = 
+            }
+        }
+    }
+}

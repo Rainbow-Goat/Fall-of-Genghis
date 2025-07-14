@@ -1,7 +1,7 @@
 political_decisions = {
 	form_south_german_confederation = {
 		potential = {
-			is_greater_power = yes
+			is_greater_power = no
 			primary_culture = south_german
 			NOT = {
 				exists = SGF
@@ -171,7 +171,6 @@ political_decisions = {
 			}
 		}
 		allow = {
-			is_greater_power = yes
 			prestige = 45
 			war = no
 			ITA = {
@@ -319,7 +318,6 @@ political_decisions = {
 		}	
 		allow = {
 			war = no
-			is_greater_power = yes
 			GCO = {
 				all_core = {
 					owner = {

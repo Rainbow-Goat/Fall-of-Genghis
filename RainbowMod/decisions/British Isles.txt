@@ -1,5 +1,5 @@
 political_decisions = {
-
+	###Englaland
 	accept_norse = {
 		potential = {
 			tag = ENG
@@ -97,6 +97,28 @@ political_decisions = {
 			add_accepted_culture = rhenish
 			add_accepted_culture = north_german
 			set_country_flag = alternative_to_germany
+		}
+	}
+
+	###Scotland
+
+	reunite_with_ireland = {
+		potential = {
+			tag = SCO
+			has_country_flag = irish_rebellion
+		}
+		allow = {
+			war = no
+			IRE = {
+				all_core = { owned_by = THIS }
+			}
+		}
+		effect = {
+			add_accepted_culture = irish
+			IRE = { all_core = { add_core = THIS} }
+			prestige = 30
+			clr_country_flag = irish_struggles
+			clr_country_flag = irish_rebellion
 		}
 	}
 }

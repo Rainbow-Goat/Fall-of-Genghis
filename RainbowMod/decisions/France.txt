@@ -231,16 +231,19 @@ political_decisions = {
 
 	norman_accepted = {
 		potential = {
-			tag = FRA
+			OR = {
+				tag = FRA
+				tag = ORL
+			}
 			NOT = { accepted_culture = norman }
 		}
 		allow = {
 			war = no
+			state_n_government = 1
 			owns = 418
 			owns = 419
 			owns = 420
 			owns = 434
-			revolution_n_counterrevolution = 1
 		}
 		effect = {
 			add_accepted_culture = norman

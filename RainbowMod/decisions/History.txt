@@ -1,0 +1,12 @@
+political_decisions = {
+    history_normandy = {
+        potential = {
+            tag = NRM 
+            NOT = { year = 1838 }
+        }
+        allow = {}
+        effect = {
+            country_event = 100601
+        }
+    }
+}

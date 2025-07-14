@@ -4,6 +4,7 @@ political_decisions = {
             tag = ORL
             is_our_vassal = LYO
             is_our_vassal = TOU
+            NOT = { has_country_flag = duchy_killed }
         }
         allow = {
             war = no
@@ -17,8 +18,51 @@ political_decisions = {
             prestige = 20
             inherit = LYO
             inherit = TOU
+            set_country_flag = duchy_killed
         }
     }
+
+    crush_ducal_independence = {
+        potential = {
+            tag = ORL
+            OR = {
+                AND = {
+                    is_our_vassal = LYO
+                    is_our_vassal = TOU
+                }
+                NOT = {
+                    AND = {
+                        is_our_vassal = LYO
+                        is_our_vassal = TOU
+                    }
+                }
+                OR = {
+                    is_our_vassal = LYO
+                    is_our_vassal = TOU
+                }
+            }
+            NOT = { has_country_flag = duchy_killed }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+        effect = {
+            any_country = {
+                limit = {
+                    is_culture_group = french
+                    vassal_of = THIS
+                }
+                annex_to = THIS
+            }
+            LYO = { all_core = { add_core = THIS } }
+            TOU = { all_core = { add_core = THIS } }
+            prestige = -20
+            badboy = 3
+            set_country_flag = duchy_killed
+        }
+    }
+
     king_of_the_french = {
         potential = {
 	    is_culture_group = french
@@ -42,7 +86,6 @@ political_decisions = {
                     owned_by = THIS
                 }
             }
-            is_greater_power = yes
         }
         effect = {
             change_tag = FRA
