@@ -10,7 +10,7 @@ country_event = {
 	immediate = {
 		add_country_modifier = {
 			name = sizing_cooldown
-			duration = 365
+			duration = 182
 		}
 	}
 
@@ -120,7 +120,7 @@ country_event = {
 	immediate = {
 		add_country_modifier = {
 			name = sizing_cooldown
-			duration = 365
+			duration = 182
 		}
 	}
 
@@ -233,7 +233,7 @@ country_event = {
 	immediate = {
 		add_country_modifier = {
 			name = sizing_cooldown
-			duration = 365
+			duration = 182
 		}
 	}
 
