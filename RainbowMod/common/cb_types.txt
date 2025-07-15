@@ -101,6 +101,7 @@ uninstall_communist_gov_cb
 great_war_penalty_cb
 take_capital
 conquest_low
+conquest_tiny
 negotiated_transfer
 third_party_transfer
 }
@@ -2251,6 +2252,14 @@ take_puppet = {
 	# war target country of goal is scope
 	allowed_countries = {
 		is_our_vassal = FROM
+		NOT = {
+			FROM = {
+				OR = {
+					tag = TOU
+					tag = LYO
+				}
+			}
+		}
 		FROM = { is_substate = no }
 	}
 	
@@ -3303,7 +3312,7 @@ take_capital = {
 	months = 12
 	construction_speed = 0.25
 
-	badboy_factor = 3
+	badboy_factor = 2.4
 	prestige_factor = 10
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -3378,7 +3387,7 @@ conquest_low = {
 
 	can_use = {
 		NOT = { number_of_states = 5 }
-		NOT = {	total_pops = 500000 }
+		NOT = {	total_pops = 800000 }
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		OR = {
@@ -3406,6 +3415,70 @@ conquest_low = {
 	}
 
 	badboy_factor = 1.0
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	construction_speed = 0.5
+
+	on_add = {
+		move_issue_percentage = {
+			from = jingoism
+			to = pro_military
+			value = 0.25
+		}
+	}
+
+	po_annex = yes
+
+	war_name = WAR_CONQUEST_NAME
+}
+
+conquest_tiny = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	can_use = {
+		NOT = { number_of_states = 3 }
+		NOT = {	total_pops = 400000 }
+		NOT = { is_our_vassal = THIS }
+		# only one state or unciv
+		OR = {
+			AND = {
+				civilized = yes
+				NOT = { number_of_states = 3 }
+			}
+			AND = {
+				civilized = no
+				THIS = { civilized = no }
+				NOT = { number_of_states = 3 }
+			}
+			AND = {
+				civilized = no
+				number_of_states = 2
+				THIS = {
+					OR = {
+						NOT = { is_greater_power = yes }
+						NOT = { nationalism_n_imperialism = 1 }
+					}
+				}
+			}
+		}
+		NOT = { tag = GHO }
+	}
+
+	badboy_factor = 0.6
 	prestige_factor = 5
 	peace_cost_factor = 1
 	penalty_factor = 1

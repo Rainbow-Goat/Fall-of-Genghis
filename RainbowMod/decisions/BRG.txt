@@ -3,15 +3,16 @@ political_decisions = {
         potential = {
             tag = BRG
             exists = LOR
-            LOR = { is_our_vassal = THIS }
+            is_our_vassal = LOR
         }
         allow = {
             war = no
             state_n_government = 1
-            LOR = { is_our_vassal = THIS }
+            is_our_vassal = LOR
         }
         effect = {
             inherit = LOR
+            LOR = { all_core = { add_core = THIS } }
         }
     }
 
@@ -112,13 +113,27 @@ political_decisions = {
         allow = {
             RHN = {
                 all_core = {
-                    owned_by = THIS
+                    OR = {
+                        owned_by = THIS
+                        AND = {
+                            owner = { in_sphere = THIS }
+                            year = 1860
+                        }
+                    }
                 }
             }
             prestige = 50
         }
         effect = {
             add_accepted_culture = rhenish
+            RHN = { all_core = { add_core = THIS } }
+            any_country = {
+                limit = {
+                    primary_culture = rhenish
+                    in_sphere = THIS
+                }
+                country_event = 11101
+            }
             set_country_flag = rhineland_protectorate
         }
     }

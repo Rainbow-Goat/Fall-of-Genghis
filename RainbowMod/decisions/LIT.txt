@@ -26,6 +26,8 @@ political_decisions = {
         potential = {
             tag = LIT
             NOT = { has_country_flag = march_east }
+            NOT = { has_country_flag = marched_east }
+            NOT = { owns = 943 }
         }
         allow = {
             war = no
@@ -45,8 +47,8 @@ political_decisions = {
                     type = take_capital
                     months = 18
                 }
+                badboy = 5
             }
-            badboy = 5
             set_country_flag = march_east
         }
     }
@@ -55,9 +57,12 @@ political_decisions = {
         potential = {
             tag = LIT
             NOT = { 
-                943 = { is_core = LIT} 
+                has_country_flag = march_east
             }
-            has_country_flag = march_east
+            OR = {
+                has_country_flag = march_east
+                owns = 943
+            }
         }
         allow = {
             war = no
@@ -70,6 +75,7 @@ political_decisions = {
                     add_core = LIT
                 }
             }
+            set_country_flag = marched_east
         }
     }
 
