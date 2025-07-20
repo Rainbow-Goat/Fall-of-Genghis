@@ -118,3 +118,44 @@ country_event = {
 			set_country_flag = the_norman_conquest
 		}
 }
+
+#Stalemate
+country_event = {
+		id = 100003
+		title = "EVTNAME100003"
+		desc = "EVTDESC100003"
+		
+		trigger = {
+			tag = NRM
+			truce_with = ENG
+			NOT = {
+				OR = {
+					has_global_flag = norman_win_1000
+					has_global_flag = english_win_1000
+				}
+			}
+		}
+		
+		mean_time_to_happen = {
+			months = 1
+		}
+		
+		option = {
+			name = "This is kinda awkward..."
+			prestige = -20
+			any_pop = {
+				limit = {
+					has_pop_culture = norman
+				}
+				militancy = 3
+				consciousness =  1.5
+			}
+			any_owned = {
+				limit = {
+					is_core = ENG
+				}
+				remove_core = ENG
+			}
+			set_country_flag = william_insists
+		}
+}

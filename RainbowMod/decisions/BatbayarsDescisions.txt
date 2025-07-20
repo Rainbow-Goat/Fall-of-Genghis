@@ -330,7 +330,11 @@ political_decisions = {
 	
 	push_beyond_the_urals = {
 		potential = {
-			tag = MGE
+			OR = {
+				tag = MGE
+				tag = GBT
+			}
+			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_expansion_one }
 		}
 		
@@ -350,9 +354,13 @@ political_decisions = {
 	
 	press_our_advantage = {
 		potential = {
-			tag = MGE
+			OR = {
+				tag = MGE
+				tag = GBT
+			}
+			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_expansion_two }
-			#has_country_flag = MGE_expansion_one
+			has_country_flag = MGE_expansion_one
 		}
 		
 		allow = {
@@ -373,9 +381,13 @@ political_decisions = {
 	
 	vanquish_the_weaklings = {
 		potential = {
-			tag = MGE
+			OR = {
+				tag = MGE
+				tag = GBT
+			}
+			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_expansion_three }
-			#has_country_flag = MGE_expansion_two
+			has_country_flag = MGE_expansion_two
 		}
 		
 		allow = {
@@ -397,7 +409,11 @@ political_decisions = {
 	
 	consolidate_russia = {
 		potential = {
-			tag = MGE
+			OR = {
+				tag = MGE
+				tag = GBT
+			}
+			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_russia }
 		}
 		
@@ -460,7 +476,12 @@ political_decisions = {
 	
 	the_manchurian_plains = {
 		potential = {
-			has_country_flag = MglBAT
+			OR = {
+				tag = BAT
+				tag = MGL
+				tag = MGE
+				tag = GBT
+			}
 			not = { has_country_flag = BatManch }
 		}
 		
@@ -470,7 +491,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = BatManch
-			MCK = { all_core = { add_core = THIS }}
+			MCK = { all_core = { add_core = THIS } }
 			add_accepted_culture = manchu
 			badboy = 10
 		}
@@ -500,6 +521,98 @@ political_decisions = {
 			prestige = 10
 			money = -1000
 			set_country_flag = BATmoon_mission
+		}
+	}
+
+	our_western_cousins = {
+		potential = {
+			OR = {
+				tag = MGE
+				tag = GBT
+			}
+			has_country_flag = MglRUS
+			NOT = { accepted_culture = kazak }
+		}
+		allow = {
+			UYG = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { overlord = THIS }
+					}
+				}
+			}
+			KHI = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { overlord = THIS }
+					}
+				}
+			}
+			BUK = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { overlord = THIS }
+					}
+				}
+			}
+			KOK = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { overlord = THIS }
+					}
+				}
+			}
+			DOP = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { overlord = THIS }
+					}
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = kazak
+			add_accepted_culture = uighur
+			UYG = { 
+				all_core = { 
+					add_core = THIS
+					remove_core = UYG
+				} 
+			}
+			DOP = { 
+				all_core = { 
+					add_core = THIS
+					remove_core = DOP
+				} 
+			}
+			BUK = { 
+				all_core = { 
+					add_core = THIS
+					remove_core = BUK
+				} 
+			}
+			KOK = { 
+				all_core = { 
+					add_core = THIS
+					remove_core = KOK
+				} 
+			}
+			KHI = { 
+				all_core = { 
+					add_core = THIS
+					remove_core = KHI
+				} 
+			}
 		}
 	}
 }

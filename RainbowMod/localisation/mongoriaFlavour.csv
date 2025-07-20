@@ -59,3 +59,6 @@ EVTOPT80098;Good for them, maybe they will finally get off of their horses and l
 EVTNAME80099;A Loud Thunder in the East;x;
 EVTDESC80099;At the crack of dawn today all of Central Asia was awoken to the sounds of thunderous hooves galloping across the land and steel piercing flesh. The Khanates have been united under a mighty Khan, one the likes of which has not been seen since the times of Genghis Khan. We must prepare our defense, or else we may suffer a disastrous calamity in the future...;x;
 EVTOPT80099;Uh oh...;x;
+EVTNAME80083;Thought Provoking Literature;x;
+80083D;Batbayar has blessed us with a magnificent work of literature that he has called "The Batbayarsutra"! Reading it has awoken a urge within our population to try new things and as a result our population is growing at a quicker rate!;x;
+batbayarsutra;Batbayarsutra;x;

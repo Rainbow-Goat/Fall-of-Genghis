@@ -56,13 +56,15 @@ political_decisions = {
     consume_the_remains = {
         potential = {
             tag = LIT
-            NOT = { 
-                has_country_flag = march_east
-            }
             OR = {
-                has_country_flag = march_east
-                owns = 943
-            }
+            	NOT = { 
+                	has_country_flag = march_east
+           	}
+            	OR = {
+                	has_country_flag = march_east
+                	owns = 943
+            	}	
+	}
         }
         allow = {
             war = no

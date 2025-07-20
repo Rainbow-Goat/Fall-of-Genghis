@@ -3,7 +3,26 @@ country_event = {
 	title = "EVTNAME60000"
 	desc = "EVTDESC60000"
 	picture = "Unite"
-	is_triggered_only = yes
+	
+	trigger = {
+		ruling_party_ideology = communist
+		civilized = yes
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
+		NOT = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			government = absolute_monarchy
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60000"
 		government = proletarian_dictatorship
@@ -15,7 +34,27 @@ country_event = {
 	title = "EVTNAME60010"
 	desc = "EVTDESC60010"
 	picture = "Unite"
-	is_triggered_only = yes
+	
+	trigger = {
+		ruling_party_ideology = reactionary
+		NOT = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			government = absolute_monarchy
+		}
+		civilized = yes
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
+		ruling_party_ideology = reactionary
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60010"
 		government = presidential_dictatorship
@@ -28,7 +67,24 @@ country_event = {
 	desc = "EVTDESC60020"
 	picture = "Unite"
 	
-	is_triggered_only = yes
+	trigger = {
+		ruling_party_ideology = anarcho_liberal
+		NOT = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			government = absolute_monarchy
+		}
+		civilized = yes
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = "EVTOPTA60020"
@@ -41,7 +97,26 @@ country_event = {
 	title = "EVTNAME60030"
 	desc = "EVTDESC60030"
 	picture = "Unite"
-	is_triggered_only = yes
+	
+	trigger = {
+		ruling_party_ideology = fascist
+		NOT = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			government = absolute_monarchy
+		}
+		civilized = yes
+		political_parties = underground_parties
+		vote_franschise = none_voting
+		upper_house_composition = party_appointed
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60030"
 		government = fascist_dictatorship
@@ -53,7 +128,26 @@ country_event = {
 	title = "EVTNAME60050"
 	desc = "EVTDESC60050"
 	picture = "Unite"
-	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+		}
+		civilized = yes
+		NOT = {
+			political_parties = underground_parties
+			vote_franschise = none_voting
+			upper_house_composition = party_appointed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60050"
 		government = democracy
@@ -65,7 +159,23 @@ country_event = {
 	title = "EVTNAME60040"
 	desc = "EVTDESC60040"
 	picture = "Monarchy"
-	is_triggered_only = yes
+	
+	trigger = {
+		vote_franschise = none_voting
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+		}
+		civilized = yes
+		NOT = { ruling_party_ideology = fascist }
+		NOT = { ruling_party_ideology = anarcho_liberal }
+		NOT = { ruling_party_ideology = communist }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60040"
 		government = absolute_monarchy
@@ -77,7 +187,19 @@ country_event = {
 	title = "EVTNAME60060"
 	desc = "EVTDESC60060"
 	picture = "Monarchy"
-	is_triggered_only = yes
+	
+	trigger = {
+		government = absolute_monarchy
+		NOT = {
+				vote_franschise = none_voting
+		}	
+		civilized = yes	
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTNAME60060"
 		government = prussian_constitutionalism
@@ -89,7 +211,20 @@ country_event = {
 	title = "EVTNAME60070"
 	desc = "EVTDESC60070"
 	picture = "Monarchy"
-	is_triggered_only = yes
+	
+	trigger = {
+		government = prussian_constitutionalism
+		OR = {
+			political_parties = secret_ballots
+			political_parties = non_secret_ballots
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60070"
 		government = hms_government
@@ -101,7 +236,21 @@ country_event = {
 	title = "EVTNAME60080"
 	desc = "EVTDESC60080"
 	picture = "Administration"
-	is_triggered_only = yes
+	
+	trigger = {
+		government = democracy
+		vote_franschise = none_voting		
+		OR = {
+			ruling_party_ideology = conservative
+			ruling_party_ideology = reactionary
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60080"
 		government = presidential_dictatorship
@@ -133,12 +282,27 @@ country_event = {
 		government = bourgeois_dictatorship
 	}
 }
+
 country_event = {
 	id = 60100
 	title = "EVTNAME60080"
 	desc = "EVTDESC60080"
 	picture = "Administration"
-	is_triggered_only = yes
+	
+	trigger = {
+		government = democracy
+		vote_franschise = none_voting
+		OR = {
+			ruling_party_ideology = socialist
+			ruling_party_ideology = communist
+		}
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60080"
 		government = proletarian_dictatorship
@@ -150,7 +314,18 @@ country_event = {
 	title = "EVTNAME60080"
 	desc = "EVTDESC60080"
 	picture = "Administration"
-	is_triggered_only = yes
+	
+	trigger = {
+		government = democracy
+		vote_franschise = none_voting
+		ruling_party_ideology = fascist
+		civilized = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60080"
 		government = fascist_dictatorship
@@ -165,15 +340,31 @@ country_event = {
 	picture = "greatpowers"
 	
 	trigger = {
-		ai = yes
-		war = no
-		part_of_sphere = yes
 		sphere_owner = {
 			is_greater_power = yes
 			is_culture_group = THIS
 			is_cultural_union = yes
 			war = no
 		}
+		ai = yes
+		war = no
+		NOT = {
+			AND = {
+				OR = {
+					tag = AUS
+					tag = KUK
+				}
+				sphere_owner = {
+					tag = GER
+				}
+				NOT = {
+					exists = HUN
+				}
+			}
+		}
+		NOT = {	
+			tag = ISR 
+			}
 	}
 	
 	mean_time_to_happen = {
@@ -216,7 +407,16 @@ country_event = {
 	title = "EVTNAME60140"
 	desc = "EVTDESC60140"
 	picture = "Administration"
-	is_triggered_only = yes
+	
+	trigger = {
+		upper_house_composition = party_appointed
+		ruling_party_ideology = liberal 
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60140"
 		political_reform = appointed
@@ -228,7 +428,21 @@ country_event = {
 	title = "EVTNAME60150"
 	desc = "EVTDESC60150"
 	picture = "Unite"
-	is_triggered_only = yes
+	
+	trigger = {
+		has_country_modifier = female_suffrage
+		NOT = {
+			OR = {
+				vote_franschise = universal_weighted_voting
+				vote_franschise = universal_voting
+			}	
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	option = {
 		name = "EVTOPTA60150"
 		remove_country_modifier = female_suffrage

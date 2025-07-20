@@ -839,13 +839,13 @@ harsher_taxes = {
 scottish_language = {
 	assimilation_rate = 2
 	immigrant_push = 1
-	icon = 19
+	icon = 7
 }
 
 irish_language = {
 	assimilation_rate = -0.5
 	immigrant_push = -0.5
-	icon = 20
+	icon = 8
 }
 
 celtic_language = {
@@ -855,10 +855,17 @@ celtic_language = {
 
 famine = {
 	immigrant_push = 5
-	population_growth = -0.5
+	population_growth = -0.003
+	icon = 20
 }
 
 lesser_famine = {
 	immigrant_push = 3
-	population_growth = -0.2
+	population_growth = -0.003
+	icon = 20
+}
+
+batbayarsutra = {
+	global_population_growth = 0.003
+	icon = 17
 }

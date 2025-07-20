@@ -325,6 +325,7 @@ country_event = {
 	option = {
 		name = "He made a mistake not crossing the Urals, let us reestablish his empire and correct it, pillaging the wealthy realms to our west"
 		set_country_flag = MglRUS
+		set_country_flag = MglRUSBAT
 		THIS = {
 			all_core = {
 				add_core = MGE
@@ -439,5 +440,31 @@ country_event = {
 	option = {
 		name = "EVTOPT80099"
 		set_country_flag = mongol_rice_2
+	}
+}
+
+country_event = {
+	id = 80083
+	title = "EVTNAME80083"
+	desc = "80083D"
+	picture = Nobel_Literature
+	
+	trigger = {
+		OR = {
+			tag = BAT
+			tag = GBT
+		}
+		year = 1847
+	}
+	
+	mean_time_to_happen = {
+		months = 0.1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Idk how to read Mongolian tho..."
+		add_country_modifier = { name = batbayarsutra duration = 50000 }
 	}
 }

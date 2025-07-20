@@ -16,7 +16,6 @@ political_decisions = {
 				treasury = 150000
 			}
 			set_global_flag = day_one_grants
-			GHO = { country_event = 600001 }
 		}
 		 ai_will_do = {
             factor = 100
@@ -32,81 +31,9 @@ day1_state_sizing = {
 		}	
 		allow = { } 
 		effect = {
-		any_country = { 
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						NOT = { total_pops = 100000 }
-					}
-				}
-				add_core = TIN
-				remove_core = SMA
-				remove_core = MED 
-				remove_core = LRG 
-				remove_core = HUG 
-			}
-		}
-		any_country = { 
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						total_pops = 100000
-						NOT = { total_pops = 400000 }
-					}
-				}
-				add_core = SMA 
-				remove_core = TIN
-				remove_core = MED 
-				remove_core = LRG 
-				remove_core = HUG 
-			}
-		}
-		any_country = { 
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						total_pops = 400000 
-						NOT = { total_pops = 700000 }
-					} 
-				} 
-				add_core = MED
-				remove_core = TIN
-				remove_core = SMA 
-				remove_core = LRG 
-				remove_core = HUG 
-			} 
+			GHO = { country_event = 700700 }
 		}		
-		any_country = { 
-			any_owned = {
-				limit = {
-					state_scope = { 
-						total_pops = 700000 
-						NOT = { total_pops = 1000000 }
-					} 
-				} 
-			add_core = LRG
-			remove_core = TIN
-			remove_core = SMA 
-			remove_core = MED 
-			remove_core = HUG 
-			} 
-		}
-		any_country = {
-			any_owned = { 
-				limit = {
-					state_scope = { 
-						total_pops = 1000000
-					}
-				}
-				add_core = HUG 
-				remove_core = TIN
-				remove_core = SMA 
-				remove_core = MED 
-				remove_core = LRG 
-			} 
-		}
-
-		}
-	}		
-
+ ai_will_do = {
+            factor = 100
+        }
 }

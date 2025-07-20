@@ -18,7 +18,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA70000"
 		is_slave = yes
-		country = {
 			any_state = {
 				limit = {
 					is_slave = no
@@ -31,7 +30,7 @@ country_event = {
 				}
 				any_pop = { consciousness = -0.5 }
 			}
-		}
+
 		ai_chance = {
 			factor = 50
 		}
@@ -40,7 +39,6 @@ country_event = {
 	option = {
 		name = "EVTOPTB70000"
 		is_slave = no
-		country = {
 			any_state = {
 				limit = {
 					is_slave = yes
@@ -53,7 +51,7 @@ country_event = {
 				}
 				any_pop = { consciousness = -0.5 }
 			}
-		}
+
 		ai_chance = {
 			factor = 50
 		}		

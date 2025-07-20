@@ -2802,6 +2802,7 @@ establish_protectorate_casus_belli = {
 			}
 		}
 		NOT = { is_our_vassal = THIS }
+		NOT = { tag = GHO }
 	}
 	
 	po_annex = yes
