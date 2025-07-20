@@ -855,13 +855,13 @@ celtic_language = {
 
 famine = {
 	immigrant_push = 5
-	population_growth = -0.003
+	population_growth = -0.05
 	icon = 20
 }
 
 lesser_famine = {
 	immigrant_push = 3
-	population_growth = -0.003
+	population_growth = -0.03
 	icon = 20
 }
 
