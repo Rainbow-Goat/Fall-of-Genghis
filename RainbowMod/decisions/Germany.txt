@@ -73,6 +73,7 @@ political_decisions = {
 	
 	support_ruhr_industrialism = {
 		potential = {
+			is_culture_group = germanic
 			has_global_flag = ruhr_boom_has_happened
 			OR = {
 				tag = GER

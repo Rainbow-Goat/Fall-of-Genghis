@@ -833,3 +833,213 @@ XBI;Qinghai;;;;;;;;x
 EVTNAME23213;The Mountains of Madness;;;;;;x;;
 EVTDESC23213;Our expedition to the South Pole has awoken something horrible. In the ruins of a vast alien city they discovered things unidentifiable as either plants or animals. Things that ruled the Earth in the ancient past. Things that are returning and are filled with unspeakable hungers.;;;;;;x;;
 EVTOPTA23213;Well this isn't good...;;;;;;x;;
+PV_INTERNAL_IMMIGRATION;Internal Migration: ;Migration interne : ;Interne Migration: ;;;;;;;;;;;x
+PV_EXTERNAL_IMMIGRATION;External Migration: ;Immigration : ;Externe Migration: ;;;;;;;;;;;x
+COUNTRYALERT_CanRemoveFromSphere;We can remove nations from our §YSphere of Influence§!:;Nous pouvons sortir des pays de notre §YSphere of Influence§ !;Wir können Nationen aus unserer §YEinflusssphäre§! entfernen:;;;;;;;;;;;x
+PV_CLERGY_LIT_DESC1;$NUM$ of your population in $LOC$ are Clergy.;$NUM$ de votre population en $LOC$ sont ;$NUM$ unserer Bevölkerung in $LOC$ gehören dem Klerus an.;;;;;;;;;;;x
+PV_CLERGY_LIT_DESC2;Optimal is $OPT$.;L'idéal serait $OPT$.;Optimal sind $OPT$.;;;;;;;;;;;x
+PV_CLERGY_LIT_DESC3;Monthly change base value: $VAL$;Modification de base mensuelle : $VAL$;monatliche Grundveränderung: $VAL$;;;;;;;;;;;x
+IN_SOCIAL_MOVEMENT;in social movement;en mouvement social;in einer sozialen Bewegung;;;;;;;;;;;x																														
+NOT_IN_SOCIAL_MOVEMENT;not in social movement;pas en mouvement social;in keiner sozialen Bewegung;;;;;;;;;;;x																														
+IN_POLITICAL_MOVEMENT;in political movement;en mouvement politique;in einer politischen Bewegung;;;;;;;;;;;x																														
+NOT_IN_POLITICAL_MOVEMENT;not in political movement;pas en mouvement politique;in keiner politischen Bewegung;;;;;;;;;;;x																														
+the_meiji_restoration2_title;Early Meiji Restoration;Première restauration Meiji;Frühe Meiji-Restauration;;;;;;;;;;;x																														
+the_meiji_restoration2_desc;Japan is traditionally considered to have been founded by Emperor Jimmu in 660 B.C. and while the Imperial Lineage was still considered unbroken since then the Imperial Office had throughout the Edo period	 been reduced to a revered and respected but ultimately	 politically powerless institution. By embracing a restoration of Imperial Rule	 along with a programme of swift industrial modernization constitutionalism and economic freedom Japan might be able to break the fetters placed upon her by the impositions of the Western World.;Selon la tradition, le Japon aurait été fondé par l'empereur Jimmu en 660 avant notre ère et alors que la lignée impériale aurait depuis été ininterrompue, le Bureau impérial n'était, pendant la période Edo, qu'une institution, certes respectée, mais privée de pouvoir politique. Moyennant le rétablissement du règne impérial, ainsi que la mise ne place d'un vaste programme de modernisation industriel, de constitutionalisme et de liberté économique, le Japon devrait pouvoir rompre les fers que lui a imposé le monde occidental.;Die Gründung Japans wird üblicherweise dem Kaiser Jimmu im Jahr 660 v.Chr. zugeschrieben und obwohl die kaiserliche Abstammungslinie seitdem ununterbrochen ist	 wurde das Kaiseramt während der Edo-Zeit kontinuierlich zu einer verehrten und respektierten aber letztendlich machtlosen politischen Institution reduziert. Durch die Restauration der kaiserlichen Herrschaft im Einklang einem Programm für rasche industrielle Modernisierung	 Konstitutionalismus und Gewerbefreiheit könnte Japan die Fesseln sprengen	 die ihm von der westlichen Welt angelegt wurden.;;Tradicionalmente	 se considera que Japón fue fundado por el emperador Jimmu en el año 660 a. de.C. y	 aunque el linaje imperial se considera ininterrumpido desde entonces a lo largo del período Edo la función del Emperador fue reducida a una institución venerada y respetada pero carente de poder político. Al adoptar la restauración del gobierno imperial	 junto a un programa de rápida modernización industrial	 constitucionalismo y libertad económica	 Japón puede ser capaz de romper las cadenas de las imposiciones del mundo occidental.;;;;;;;;;x
+TPG;Heavenly Kingdom;Royaume céleste;Himmlisches Königreich;;;;;;;;;;x
+TPG_democracy;Taiping Republic;République de Taïwan;Taiping Republik;;;;;;;;;;;x
+TPG_bourgeois_dictatorship;Taiping Republic;République de Taïwan;Taiping Republik;;;;;;;;;;;x
+TPG_proletarian_dictatorship;Communist Taiping;Taïwan communiste;Kommunistisches Taiping;;;;;;;;;;;x
+TPG_fascist_dictatorship;Taiping;Taïwan;Taiping;;;;;;;;;;;x
+TPG_presidential_dictatorship;Taiping Clique;Clique taïwanaise;Taiping Clique;;;;;;;;;;;x
+TPG_ADJ;Taiping;taïwanais;Taiping;;;;;;;;;;x
+TPG_conservative;West King;Monarque occidental;Westlicher Monarch;;;;;;;;;;x
+TPG_liberal;Yi King;Yi King;Yi Monarch;;;;;;;;;;x
+TPG_reactionary;East King;Monarque oriental;Östlicher Monarch;;;;;;;;;;x
+TPG_socialist;North King;Monarque du nord;Nördlicher Monarch;;;;;;;;;;x
+TPG_anarcho_liberal;The Radical Faction;La faction radicale;Radikale Fraktion;;;;;;;;;;x
+TPG_communist;The Communist Faction;La faction communiste;Kommunistische Fraktion;;;;;;;;;;x
+TPG_fascist;The Fascist Faction;La faction fasciste;Faschistische Fraktion;;;;;;;;;;x
+RALLY_POINT_NAVY_MERGE_INFO;Enable or Disable navies merging at destination.\n(Ships will merge with largest unit here.);Active ou désactive la fusion des flottes arrivant à destination.\n(Les navires s'intègrent à la plus grande flotte s'y trouvant déjà);Aktiviert oder deaktiviert das Vereinigen von Schiffen am Zielpunkt.\n(Schiffe werden sich hier mit der größten Einheit vereinigen.);;;;;;;;;;;x
+RALLY_POINT_NAVY_PROVINCE_MERGE_INFO;All naval units will merge with largest unit when arrive here.;Toutes les unités navales fusionneront avec la plus grande à leur arrivée ici.;Alle Schiffe werden hier mit der größten Einheit vereinigt.;;;;;;;;;;;x
+BUDGET_INTERNALLY_SOLD_STOCKPILE;Stockpile sold to construction projects: §Y$VAL$§!;Stock vendu pour les projets de construction : §Y$VAL$§!;An Bauprojekte verkaufter Vorrat: §Y$VAL$§!;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS_NAVY_TOOLTIP;All nearby constructed ships will head towards §Y$PROV$§!;Tous les navires construits à proximité se dirigeront vers §Y$PROV$§!;Alle in der Nähe gebauten Schiffe werden nach §Y$PROV$§! aufbrechen.;;;;;;;;;;;x
+OL_VIEW_RALLYPOINTS_NAVY_MERGE_TOOLTIP; and will try to merge with largest unit when arrive here.; et tenteront de fusionner avec la plus grande unité à leur arrivée.;und werden versuchen sich dort mit der größten Einheit zu vereinigen.;;;;;;;;;;;x
+ARMY_SPLIT_AND_LOAD_DESC_1;§Y$UNIT$§! will be split between §G$NUM$§! ship(s):;§Y$UNIT$§! sera répartie entre §G$NUM$§! flotte(s):;§Y$UNIT$§! wird auf §G$NUM$§! Flotte(n) aufgeteilt:;;;;;;;;;;;x
+ARMY_SPLIT_AND_LOAD_DESC_2; - §Y$NAVY$§! ($NUM$ weight); - §Y$NAVY$§! (Capacité d'embarquement : $NUM$ unités); - §Y$NAVY$§! (Ladevermögen: $NUM$ Brigaden);;;;;;;;;;;x
+ARMY_SPLIT_AND_LOAD_DESC_3;§RThe remaining army of total weight ($NUM$) will not be loaded.§!;§RLe reste de l'armée ($NUM$ unités) ne sera pas embarqué.§!;§RDie verbleibenden Truppenteile ($NUM$ Brigaden) werden nicht verladen.§!;;;;;;;;;;;x
+UW_NOT_POSSIBLE_TO_ATTACH;There are no friendly units here to attach to.;Il n'y a pas d'unités amies auxquelles on peut se joindre.;Hier gibt es keine befreundete Einheiten, denen Sie sich anschließen können.;;;;;;;;;;;x
+UW_UNITS_ATTACHED;The following units are attached.;Les unités suivantes se sont jointes.;Die folgenden Einheiten haben sich angeschlossen.;;;;;;;;;;;x
+UW_ATTACH_TO;Attach to always follow $NAME$.;Se joindre à l'unité suivante : $NAME$.;Folgender Einheit anschließen: $NAME$.;;;;;;;;;;;x
+UW_DETACH_FROM;Detach from following $NAME$.;Se détacher de l'unité suivante : $NAME$.;Von folgender Einheit lösen: $NAME$.;;;;;;;;;;;x
+IW_SUPPLY_COST;You need §Y$VAL$§W¤ every day to pay for supplies of this unit.;Vous avez besoin chaque jour de §Y$VAL$§W ¤ pour la maintenance de cette unité.;Sie benötigen jeden Tag §Y$VAL$§W¤ um den Unterhalt dieser Einheit zu finanzieren.;;;;;;;;;;;x
+HAS_NOT_CULTURE_CORE;$CUL$ is NOT a core-culture of $WHERE$.\n;$CUL$ n'est PAS une culture de base de $WHERE$.\n;$CUL$ ist KEINE Kernkultur von $WHERE$.\n;;;;;;;;;;;x
+HAS_CULTURE_CORE;$CUL$ is a core-culture of $WHERE$.\n;$CUL$ est une culture de base de $WHERE$.\n;$CUL$ ist eine Kernkultur von $WHERE$.\n;;;;;;;;;;;x
+PROMOTION_EFFECT_FROM_ADMIN;Admin. efficiency effect on promotion speed: §Y$PERCENTAGE$§!;Influence de l'efficacité administrative sur la vitesse de promotion : §Y$PERCENTAGE$§!;Einfluss der Verwaltungseffizienz auf die Beförderungsgeschwindigkeit: §Y$PERCENTAGE$§!;;;;;;;;;;;x
+OUTLINER_TOOLTIP_FACTORY_OCCUPANCY;Local factories employment: $PERC$;Niveau de l'emploi dans les usines locales : $PERC$;Beschäftigungsgrad in den lokalen Fabriken: $PERC$;;;;;;;;;;;x
+REVOLTALLIANCE_LOG;A revolution! Our alliance is broken!;Une révolution ! Notre alliance est rompue!;Eine Revolution! Unser Bündnis ist gekündigt!;;;;;;;;;;;x
+tut_5b_12b;Click on the decisions tab to continue.;Cliquez sur l'onglet Décisions pour continuer;Drücken Sie auf den Entscheidungs Reiter um fortzufahren.;;;;;;;;;;;x
+tut_5b_14b;Click on the movements tab to continue.;Cliquez sur l'onglet Mouvements pour continuer;Drücken Sie auf den Bewegungs Reiter um fortzufahren.;;;;;;;;;;;x
+Workforce;Workforce;Main-d'oeuvre;Arbeitskräfte;;;;;;;;;;;x
+Ideology;Ideology;Idéologie;Ideologie;;;;;;;;;;;x
+SELL;SELL;VENDRE;VERKAUFE;;;;;;;;;;;x
+BUY;BUY;ACHETER;KAUFE;;;;;;;;;;;x
+Start Research;Start Research;Commencer la recherche;Beginne Forschung;;;;;;;;;;;x
+Maneuver;Maneuver;Manœuvre;Manöver;;;;;;;;;;;x
+LEDGER;LEDGER;STATISTIQUES;Statistiken;;;;;;;;;;;x
+OK;OK;D'accord;OK;;;;;;;;;;;x
+TOPBAR_POPULATION;Our adult male population is $CURR$. Our adult male population has changed by $CHANGE$ in last §Y$DAYS$§! days.;Notre population masculine adulte s'élève à $CURR$.\nNotre population masculine a évolué de $CHANGE$ adultes ces §Y$DAYS$§! derniers jours.;Unsere erwachsene männliche Bevölkerung beträgt $CURR$. Unsere erwachsene männliche Bevölkerung hat sich um $CHANGE$ in den letzten §y$DAYS$§! Tagen geändert.;;;;;;;;;;;x
+DIG_IN_TOOLTIP_1;Current dig-in level: $LEV$/$MAX$.;Niveau de retranchement actuel : $LEV$/$MAX$.;Aktueller Verschanzungsbonus: $LEV$/$MAX$.;;;;;;;;;;;x
+DIG_IN_TOOLTIP_2;It takes §Y$DAYS$§! days to increase dig-in level by §G+$VAL$§!.;Il faut §Y$DAYS$§! jours pour augmenter le niveau de retranchement de §G+$VAL$§! .;Es dauert §Y$DAYS$§! Tage um den Verschanzungsbonus um §G+$VAL$§! zu erhöhen.;;;;;;;;;;;x
+in_bankrupcy;In bankruptcy;En faillite;In Insolvenz;;;;;;;;;;;x
+in_bankrupcy_desc;We are bankrupt!;Nous sommes en faillite !;Wir sind zahlungsunfähig!;;;;;;;;;;;x
+GREAT_WARS_ENABLED_DESC;Great wars are discovered.;;;;;;;x
+GREAT_WARS_DISABLED_DESC;Great wars are undiscovered yet.;;;;;;;x
+GREAT_WARS_ENABLE_DESC;Wars can get the status of The Great Wars!;;;;;;;x
+GREAT_WAR_NAME;The $ORDER$Great War;;;;;;;x
+GW_DISCOVERED_SETUP;When the Great Wars are discovered.;;;;;;;x
+GW_DISCOVERED_HEADER;Great Wars discovered!;;;;;;;x
+GW_DISCOVERED_1;Great Wars discovered!;;;;;;;x
+GW_DISCOVERED_2;From now, each war that includes;;;;;;;x
+GW_DISCOVERED_3;at least two great countries;;;;;;;x
+GW_DISCOVERED_4;on each side, will get the status of;;;;;;;x
+GW_DISCOVERED_5;§YThe Great War§!.;;;;;;;x
+GW_DISCOVERED_6;*;;;;;;;x
+GW_DISCOVERED_BTN1;OK;;;;;;;x
+GW_DISCOVERED_BTN2;OK;;;;;;;x
+GW_DISCOVERED_BTN3;Go to;;;;;;;x
+GW_DISCOVERED_LOG;Great Wars discovered;;;;;;;x
+WAR_GAIN_GW_STATUS_SETUP;When our war gains the Great war status.;;;;;;;x
+WAR_GAIN_GW_STATUS_HEADER;Great War!;;;;;;;x
+WAR_GAIN_GW_STATUS_1;$WAR$;;;;;;;x
+WAR_GAIN_GW_STATUS_2;becomes;;;;;;;x
+WAR_GAIN_GW_STATUS_3;§YThe Great War§!.;;;;;;;x
+WAR_GAIN_GW_STATUS_4;*;;;;;;;x
+WAR_GAIN_GW_STATUS_5;*;;;;;;;x
+WAR_GAIN_GW_STATUS_6;*;;;;;;;x
+WAR_GAIN_GW_STATUS_BTN1;OK;;;;;;;x
+WAR_GAIN_GW_STATUS_BTN2;OK;;;;;;;x
+WAR_GAIN_GW_STATUS_BTN3;Go to;;;;;;;x
+WAR_GAIN_GW_STATUS_LOG;$WAR$ becomes §YThe Great War§!;;;;;;;x
+WAR_LOST_GW_STATUS_SETUP;When our war lost the Great war status.;;;;;;;x
+WAR_LOST_GW_STATUS_HEADER;No longer a Great War!;;;;;;;x
+WAR_LOST_GW_STATUS_1;$WAR$;;;;;;;x
+WAR_LOST_GW_STATUS_2;is no longer;;;;;;;x
+WAR_LOST_GW_STATUS_3;The Great War.;;;;;;;x
+WAR_LOST_GW_STATUS_4;*;;;;;;;x
+WAR_LOST_GW_STATUS_5;*;;;;;;;x
+WAR_LOST_GW_STATUS_6;*;;;;;;;x
+WAR_LOST_GW_STATUS_BTN1;OK;;;;;;;x
+WAR_LOST_GW_STATUS_BTN2;OK;;;;;;;x
+WAR_LOST_GW_STATUS_BTN3;Go to;;;;;;;x
+WAR_LOST_GW_STATUS_LOG;$WAR$ is no longer §YThe Great War§!;;;;;;;x
+GW_INTERVENE_MIN_RELATIONS;Our relations with §Y$TARGET$§! must be at least §G$MIN$§!. Currently it is §Y$VAL$§!.;;;;;;;x
+GW_INTERVENE_MAX_EXHAUSTION;Our war exhaustion cannot be greater than §G$MAX$§!. Currently it is §Y$VAL$§!.;;;;;;;x
+great_war_penalty_cb;Great War Capitulation;;;;;;;x
+great_war_penalty_cb_desc;Force another §Ycountry§! to disarm and pay reparations to us.;;;;;;;x
+great_war_penalty_cb_setup;Disarm $RECIPIENT$ and let them pay for reparations.;;;;;;;x
+great_war_penalty_cb_short;Great War Capitulation;;;;;;;x
+GREAT_WAR_OBLIGATORY_CB_DESC;Obligatory Great War Casus Belli against all enemies:;;;;;;;x
+GREAT_WAR_CB_JUSTIFY_COST_DESC;Infamy cost deducted to §G$PERC$%§! of original cost due to §YGreat War§! status.;;;;;;;x
+GREAT_WAR_CB_CONSTRUCTION_SPEED_DESC;At Great War with §Y$TARGET$§!;;;;;;;x
+fascist_focus_short;§YFascist§! loyalty;;;;;;;x
+reactionary_focus_short;§YReactionary§! loyalty;;;;;;;x
+conservative_focus_short;§YConservative§! loyalty;;;;;;;x
+socialist_focus_short;§YSocialist§! loyalty;;;;;;;x
+communist_focus_short;§YCommunists§! loyalty;;;;;;;x
+liberal_focus_short;§YLiberal§! loyalty;;;;;;;x
+anarcho_liberal_focus_short;§YAnarcho-liberal§! loyalty;;;;;;;x
+automation_focus_short;Automotive Industry;;;;;;;x
+electrical_focus_short;Electrical Industry;;;;;;;x
+chemical_focus_short;Chemical Industry;;;;;;;x
+shipping_focus_short;Shipping Industry;;;;;;;x
+textile_focus_short;Textile Industry;;;;;;;x
+wood_focus_short;Wood Industry;;;;;;;x
+basic_industry_focus_short;Basic Industry;;;;;;;x
+armaments_focus_short;Armaments Industry;;;;;;;x
+consumer_focus_short;Consumer Goods;;;;;;;x
+WAR_GOAL_SUCCESS_PRESTIGE_CHANGE;If we complete this wargoal, we will gain $PRES$ prestige.;;;;;;;x
+WAR_GOAL_FAILURE_PRESTIGE_CHANGE;If we fail to achieve this wargoal, we will lose $PRES$ prestige.;;;;;;;x
+POP_INTERNAL_MIGRATION;§Y$NUM$§! people intend to move to other national provinces.;;;;;;;x
+POP_EXTERNAL_MIGRATION;§Y$NUM$§! people intend to move to another country.;;;;;;;x
+POP_COLONIAL_MIGRATION;§Y$NUM$§! people intend to move to the colonies.;;;;;;;x
+INVESTED_IN_US_SETUP;When a country invests in us;;;;;;;x
+INVESTED_IN_US_HEADER;Foreign Investment;;;;;;;x
+INVESTED_IN_US_1;$ICOUNTRY$ has invested in us!;;;;;;;x
+INVESTED_IN_US_2;$INVESTED_IN_US_MESSAGE$;;;;;;;x
+INVESTED_IN_US_3;*;;;;;;;x
+INVESTED_IN_US_4;*;;;;;;;x
+INVESTED_IN_US_5;*;;;;;;;x
+INVESTED_IN_US_6;*;;;;;;;x
+INVESTED_IN_US_BTN1;OK;;;;;;;x
+INVESTED_IN_US_BTN2;OK;;;;;;;x
+INVESTED_IN_US_BTN3;Go to;;;;;;;x
+INVESTED_IN_US_LOG;§Y$ICOUNTRY$§! invested in us: $INVESTED_IN_US_MESSAGE$;;;;;;;x
+INVESTED_IN_US_BUILD;$INAME$ built in $ILOCATION$ for $IAMOUNT$¤;;;;;;;x
+INVESTED_IN_US_OPEN;$INAME$ opened in $ILOCATION$ for $IAMOUNT$¤;;;;;;;x
+INVESTED_IN_US_UPGRADE;Upgraded $INAME$ in $ILOCATION$ for $IAMOUNT$¤;;;;;;;x
+INVESTED_IN_US_UNKNOWN;Invested $IAMOUNT$¤ in us.;;;;;;;x
+MODIFY_RELATION_EFFECT;§Y$SOURCE$§!'s relation with §Y$TARGET$§! changed with a value of $VALUE$.;;;;;;;x
+PRODUCTION_EXPAND_FACTORY_SHORTCUT_TOOLTIP;§GCtrl+Click§! upgrades all factories of this type which are near their employee limit (§Y$NUMSPECIALFACTORIES$§!).\n§GShift+Click§! upgrades all factories which are near their employee limit (§Y$NUMFACTORIES$§!).;;;;;;;x
+EVTNAME19355;Great wars;;;;;;;x
+EVTDESC19355;Growing nationial pride in countries around the world has reached the point where people will not accept anything less than total victory when Great powers clash. From now on, any conflict with at least two Great powers on each side will be regarded as a Great War!;;;;;;;x
+EVTOPTA19355;God help us all;;;;;;;x
+AGRESSION_WAR_INDEPENDENCE_NAME;$ORDER$$FIRST$ War of Independence;;;;;;;x
+BYE;Belarus;;;;;;;x
+BYE_ADJ;Byelorussian;;;;;;;x
+UBD;United Baltic Provinces;;;;;;;x
+UBD_ADJ;Baltic;;;;;;;x
+UBD_conservative;Conservatives;;;;;;;x
+UBD_liberal;Liberals;;;;;;;x
+UBD_reactionary;Reactionaries;;;;;;;x
+UBD_anarcho_liberals;Anarcho-Liberals;;;;;;;x
+UBD_socialist;Socialists;;;;;;;x
+UBD_communist;Bolsheviks;;;;;;;x
+UBD_fascist;National Socialist Party;;;;;;;x
+BYE_conservative;Conservatives;;;;;;;x
+BYE_liberal;Liberals;;;;;;;x
+BYE_reactionary;Reactionaries;;;;;;;x
+BYE_anarcho_liberals;Anarcho-Liberals;;;;;;;x
+BYE_socialist;Belarusian Socialist Assembly;;;;;;;x
+BYE_communist;Bolsheviks;;;;;;;x
+BYE_fascist;National Socialist Party;;;;;;;x
+PLC;Poland-Lithuania;;;;;;x;
+PLC_ADJ;Polish-Lithuanian;;;;;;;x
+PLC_conservative;Str. Narodowo-Demokratyczne;;;;;;;x
+PLC_liberal;Stronnictwo Patriotyczne;;;;;;;x
+PLC_reactionary;Konfederacja Targowicka;;;;;;;x
+PLC_anarcho_liberal;Stronnictwo Radykalny;;;;;;;x
+PLC_socialist;Partia Socjalistyczna;;;;;;;x
+PLC_communist;Partia Socjaldemokracja;;;;;;;x
+PLC_fascist;Stronnictwo Narodowe;;;;;;;x
+ARA;Arabia;;;;;;;x
+ARA_ADJ;Arab;;;;;;;x
+ARA_conservative;Conservatives;;;;;;;x
+ARA_liberal;Liberals;;;;;;;x
+ARA_reactionary;Reactionaries;;;;;;;x
+ARA_anarcho_liberals;Anarcho-Liberals;;;;;;;x
+ARA_socialist;Socialists;;;;;;;x
+ARA_communist;Communists;;;;;;;x
+ARA_fascist;National Socialist Party;;;;;;;x
+GCO;Gran Colombia;;;;;;;x
+GCO_ADJ;Gran Colombian;;;;;;;x
+form_gran_colombia_title;Form Gran Colombia;;;;;;;x
+form_gran_colombia_desc;Gran Colombia was a political federation established in South America in the wake of Simon Bolivar's successful liberation of the territories of Colombia, Venezuela, and Ecuador from Spanish rule. The federation broke apart in 1831. We are in a position to re-unite the North Andean peoples once more if we proclaim a new Gran Colombia.;;;;;;;x
+GCO_conservative;Partido Centralista;;;;;;;x
+GCO_conservative_2;Nuevo Partido Centralista;;;;;;;x
+GCO_liberal;Partido Federalista;;;;;;;x
+GCO_liberal_2;Nuevo Partido Federalista;;;;;;;x
+GCO_liberal_3;Partido Autonomista;;;;;;;x
+GCO_anarcho_liberal;Partido Radical;;;;;;;x
+GCO_reactionary;Partido Traditionalista;;;;;;;x
+GCO_socialist;Partido Socialista Revolucionario;;;;;;;x
+GCO_communist;Partido Communist;;;;;;;x
+GCO_fascist;Partido Fascist;;;;;;;x
+arab;Arab;;;;;;;x
+form_arabia_title;Form Arabia;;;;;;;x
+form_arabia_desc;Brothers, freedom is here, we have won the battle for our destiny. Now the Arab people are on the way to resurrection!;;;;;;;x
+IS_EMPTY; has no owner;;;;;;;x
+IS_NOT_EMPTY; has an owner;;;;;;;x
+EVTNAME111011928;Form Arabia;;;;;;;x
+EVTDESC111011928;Through warfare and diplomacy an Arabian union has been created. Shall we join it?;;;;;;;x
+EVTOPTA111011928;Of course!;;;;;;;x
+EVTOPTB111011928;Never!;;;;;;;x

@@ -32,8 +32,21 @@ day1_state_sizing = {
 		allow = { } 
 		effect = {
 			GHO = { country_event = 700700 }
-		}		
- ai_will_do = {
-            factor = 100
-        }
+		}	
+political_decisions = { 
+	release_vassals = { 	#stolen from Victoria Universalis
+		alert = no
+		picture = gtfo
+		potential = {
+			ai = no
+			num_of_vassals_no_substates = 1
+		}
+		allow = {
+		}
+		
+		effect = {
+			country_event = { id = 91306 days = 0 }
+		}
+	}
+}
 }

@@ -2058,7 +2058,6 @@ american_cultures = {
 		}
 		radicalism = 10
 	}
-	union = USA
 }
 
 neo_european_cultures = {

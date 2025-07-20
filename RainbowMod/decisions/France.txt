@@ -231,6 +231,7 @@ political_decisions = {
 
 	norman_accepted = {
 		potential = {
+			is_culture_group = french
 			OR = {
 				tag = FRA
 				tag = ORL

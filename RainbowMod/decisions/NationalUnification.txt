@@ -1,8 +1,8 @@
 political_decisions = {
 	form_south_german_confederation = {
 		potential = {
-			is_greater_power = no
 			primary_culture = south_german
+			is_greater_power = no
 			NOT = {
 				exists = SGF
 				exists = GER
@@ -60,17 +60,11 @@ political_decisions = {
 	form_union_nation = {
 		potential = {
 			culture_has_union_tag = yes
-			NOT = {
-				OR = {
-					cultural_union = { exists = yes }
-					is_culture_group = germanic
-					is_culture_group = nordic
-					is_culture_group = italian
-					is_culture_group = arab
-					tag = ECU
-					tag = CLM
-					tag = VNZ
-				}
+			cultural_union = { exists = no }
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = pan_romanian
+				is_culture_group = south_asian
 			}
 		}
 		
@@ -205,45 +199,6 @@ political_decisions = {
 		}
 	}
 	
-	concede_finland = {
-		potential = {
-			tag = SWE
-			NOT = {
-				has_country_flag = Conceded_Finland
-			}
-		}
-		
-		allow = {
-			NOT = {
-				prestige = 40
-			}
-			average_consciousness = 4
-		}
-		
-		effect = {
-			RUS_336 = {
-				remove_core = SWE
-			}
-			RUS_340 = {
-				remove_core = SWE
-			}
-			prestige = 10
-			any_pop = {
-				militancy = -1
-			}
-			set_country_flag = Conceded_Finland
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					average_militancy = 4
-				}
-			}
-		}
-	}
-	
 	reichsland_elsass = {
 		potential = {
 			owns = 410
@@ -308,6 +263,7 @@ political_decisions = {
 	
 	form_gran_colombia = {
 		potential = {
+			is_culture_group = north_andean
 			OR = {
 				tag = ECU
 				tag = CLM

@@ -14,3 +14,4 @@ DanielFlagGuy on tennessine - Ummayad formable flag
 IGoR - I ripped out the state sizing system cause it is imo the best way to do states warscore cost.
 JuliusMod - Pretty sure this is where my transfer system is from, unsure tho...
 Rennes - Did some fucking magic that I could not even begin to comprehend to understand, but nontheless it made the mod much more optimized. Also helped me set up the GitHub. Huge thanks to him!
+KevinG - for vassal GTFO implementation

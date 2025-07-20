@@ -1,3 +1,57 @@
+HAVE_MILITARY_SCORE_LESS_THAN;Have a lower Military Score than: ;;;;;x;
+STRATA_NEED_LESS_THAN;Needs fulfilled at less than;;;;;x;
+STRATA_NEED_MORE_THAN;Needs fulfilled at least;;;;;x;
+HAVE_LESS_POPS_WANTING_POLITICAL_REFORM_THAN;Less than $VAL$ want political reform.;;;;;x;
+HAVE_MORE_POPS_WANTING_POLITICAL_REFORM_THAN;At least $VAL$ want political reform.;;;;;x;
+HAVE_LESS_POPS_WANTING_SOCIAL_REFORM_THAN;Less than $VAL$ want social reform.;;;;;x;
+HAVE_MORE_POPS_WANTING_SOCIAL_REFORM_THAN;At least $VAL$ want social reform.;;;;;x;
+CSA_proletarian_dictatorship;The CSA;;;;;;x
+USA_presidential_dictatorship;The USA;;;;;;x
+CSA_presidential_dictatorship;The CSA;;;;;;x
+USA_bourgeois_dictatorship;The USA;;;;;;x
+CSA_bourgeois_dictatorship;The CSA;;;;;;x
+USA_fascist_dictatorship;The USA;;;;;;x
+CSA_fascist_dictatorship;The CSA;;;;;;x
+REMOVE_USA_prussian_constitutionalism;The USA;;;;;;x
+CSA_prussian_constitutionalism;The CSA;;;;;;x
+USA_democracy;The USA;;;;;;x
+CSA_democracy;The CSA;;;;;;x
+CAL_absolute_monarchy;Kingdom of California;;;;;x;
+CAL_hms_government;Kingdom of California;;;;;x;
+DOM_absolute_monarchy;Santo Domingo;;;;;x;
+DOM_hms_government;Santo Domingo;;;;;x;
+ENG_democracy;Great Britain;;;;;x;
+TECH_DAILY_LEADERSHIP_BASE_TOOLTIP;Monthly base leadership: §Y$VALUE$§W;;;;;x;
+TECH_DAILY_LEADERSHIP_TOTAL_TOOLTIP;Monthly leadership: §G+$VALUE$§W;;;;;x;
+TECH_DAILY_LEADERSHIP_TOOLTIP;$POPTYPE$ provide §G$VALUE$§W leadership.\n (§Y$FRACTION$%§W of the population, $OPTIMAL$% is optimal.);;;;;x;
+MODIFIER_CORE_POP_MILITANCY_MODIFIER;Militancy in Non-Colonial;;;;;x;
+MODIFIER_CORE_POP_CONSCIOUSNESS_MODIFIER;Consciousness in Non-Colonial;;;;;x;
+MODIFIER_NON_ACCEPTED_POP_MILITANCY_MODIFIER;Militancy for Non-Accepted;;;;;x;
+MODIFIER_NON_ACCEPTED_POP_CONSCIOUSNESS_MODIFIER;Consciousness for Non-Accepted;;;;;x;
+AUS_734;South Tirol;;;;;x;
+EVTNAME23212;Comet Sighted;;;;;x;
+EVTDESC23212;A Comet was sighted in the sky, some believe that this portends fell times ahead. Others believe that they are in fact pixie fairies floating in the sky. There are also those who believe that this comet is most probably a giant ball of ice floating through the sky and the long tail is created due to the energy of the sun. The arguments amongst the three equally viable theories is stimulating the pursuit of knowledge in our country.;;;;;x;
+EVTOPTA23212;Thank God we live in such enlightened times;;;;;x  ;
+EVTNAME60140;Constitutional Convention;;;;;x  ;
+EVTDESC60140;With the liberals firmly in control of our country, they feel that now is the time for a constitutional convention. Everyone's views, well at least everyone who truly matters, will be represented in this new gathering to shape the path of our nation.;;;;;x  ;
+EVTOPTA60140;Otherwise people would exploit the situation;;;;;x  ;
+become_guatemala_title;Become Guatemala;;;;;x  ;
+BUDGET_STOCKPILE_YESTERDAYS;Yesterdays purchases for stockpile:;;;;;x;
+become_guatemala_desc;The dream of a united Central America has died. The other provinces were too concerned about being dominated by Guatemala to realise the sacrifices we had made to keep the union alive. Well no more. We are done with them. Guatemala will find its own destiny.;;;;;x  ;
+MOR_1683;Taza;;;;;x;
+LAG_PAUSE;$PLAYER$ is lagging behind, pausing game.;;;;;x;
+LAG_DECREASE_SPEED;$PLAYER$ is lagging behind, decreasing speed.;;;;;x;
+PAUSED_BY;§Y$PLAYER$§W paused the game.;;;;;x;
+WARGOAL_OTHER_ACCEPT_SETUP;When a nation adds a wargoal in a war.;;;;;x;
+WARGOAL_THEY_ACCEPT_SETUP;When we add a wargoal against another nation.;;;;;x;
+WARGOAL_WE_ACCEPT_SETUP;When a nation adds a wargoal against us..;;;;;x;
+status_quo_setup;All we ask is to be left alone;;;;;x;
+PROV3041;Argentine Rise;;;;;;x
+TUR_819;West Macedonia;;;;;;x
+TUR_806;North Macedonia;;;;;;x
+GUNBOAT_OTHER_ACCEPT_LOG;$ACTOR$ is using gunboats to force $RECIPIENT$ to pay their debt!;;;;;;x
+GUNBOAT_THEY_ACCEPT_LOG;We are using gunboats to force $RECIPIENT$ to pay their debt!;;;;;;x
+GUNBOAT_WE_ACCEPT_LOG;$ACTOR$ is using gunboats to force us to pay back our debt!;;;;;;x
 RECRUITED_PERCENTAGE_LESS_THAN;Less than §Y$VAL$§W% of possible soldiers recruited.\n;;;;;x;;;
 RECRUITED_PERCENTAGE_MORE_THAN;At least §Y$VAL$§W% of possible soldiers recruited.\n;;;;;x;;;
 SEPARATISM_TECH;Separatism;;;;;x;;;
@@ -322,3 +376,154 @@ DIPLOMACY_CANNOT_SET_PRIO_TRUCE;We cannot influence this nation while we have a 
 MEX_absolute_monarchy;Empire of Mexico;;;;;;x;;
 MEX_prussian_constitutionalism;Empire of Mexico;;;;;;x;;
 MEX_hms_government;Empire of Mexico;;;;;;x;;
+disarming;Forced to Disarm;Devra se désarmer;Zur Entwaffnung gezwungen;;Obligado a desarmarse;;;;;;;;x
+HAS_NOT_RECENTLY_LOST_WAR;Have NOT lost a war in the last five years.;N’ont perdu AUCUNE guerre au cours des cinq années passées.;Verlor keinen Krieg in den letzten 5 Jahren.;;NO ha perdido una guerra en los últimos cinco años.;;;;;;;;;x
+HAS_RECENTLY_LOST_WAR;Have lost a war in the last five years..;Ont perdu une guerre au cours des cinq années passées.;Verlor einen Krieg in den letzten 5 Jahren.;;Ha perdido una guerra en los últimos cinco años.;;;;;;;;;x
+IN_SAME_SPHERE;This country is in the same sphere of influence as us.;Ce pays fait partie de la même sphère d’influence que nous.;Dieses Land ist in derselben Einflusssphäre wie wir.;;Este país está en la misma esfera de influencia que nosotros.;;;;;;;;;x
+NOR_reactionary;Konge Partiet;Konge Partiet;Konge Partiet;;Konge Partiet;;;;;;;;;x
+ATJ_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facción Nacionalista;;;;;;;;;x
+ATJ_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;La Facción Liberal;;;;;;;;;x
+ATJ_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facción Radical;;;;;;;;;x
+ATJ_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facción Socialista;;;;;;;;;x
+ATJ_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facción Comunista;;;;;;;;;x
+ATJ_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facción Fascista;;;;;;;;;x
+CAL_conservative;Democratic Party;Parti démocrate;Demokratische Partei;;Partido Demócrata;;;;;;;;;x
+KHI_conservative;Royal Faction;Faction royale;Königsfraktion;;Facción Real;;;;;;;;;x
+KHI_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;La Facción Liberal;;;;;;;;;x
+KHI_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facción Nacionalista;;;;;;;;;x
+KHI_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facción Radical;;;;;;;;;x
+KHI_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facción Socialista;;;;;;;;;x
+KHI_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facción Comunista;;;;;;;;;x
+KHI_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facción Fascista;;;;;;;;;x
+MAD_conservative;Royal Faction;Faction royale;Königsfraktion;;Facción Real;;;;;;;;;x
+MAD_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;La Facción Liberal;;;;;;;;;x
+MAD_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facción Nacionalista;;;;;;;;;x
+MAD_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facción Radical;;;;;;;;;x
+MAD_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facción Socialista;;;;;;;;;x
+MAD_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facción Comunista;;;;;;;;;x
+MAD_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facción Fascista;;;;;;;;;x
+TRI_conservative;Royal Faction;Faction royale;Königsfraktion;;Facción Real;;;;;;;;;x
+TRI_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;La Facción Liberal;;;;;;;;;x
+TRI_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;La Facción Nacionalista;;;;;;;;;x
+TRI_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;La Facción Radical;;;;;;;;;x
+TRI_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;La Facción Socialista;;;;;;;;;x
+TRI_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;La Facción Comunista;;;;;;;;;x
+TRI_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;La Facción Fascista;;;;;;;;;x
+TEX_communist;Communist Party;Parti communiste;Kommunistische Partei;;Partido Comunista;;;;;;;;;x
+BAD_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
+BAV_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
+WEI_fascist;NSDP;NSDP;NSDP;;NSDP;;;;;;;;;x
+WLL_fascist;Rexist Party;Parti Rexiste;Rexistenpartei;;Partido Rexista;;;;;;;;;x
+NEW_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;Partido Fascista;;;;;;;;;x
+DIPLOMACY_CHANCE_JOIN_WAR;Likelyhood of joining the war: §Y$VAL$§W;Probabilité de rejoindre : §Y$VAL$§W;Wahrscheinlichkeit des Kriegseintritts: §Y$VAL$§W;;Probabilidad de que se incorpore a la guerra: §Y$VAL$§W;;;;;;;;;x
+PO_ISBETTER;If we refuse this offer we will suffer the following:\n §R+$MIL$§W Militancy, §R+$WE$§W War exhaustion;Si nous refusons cette offre, nous subirons ce qui suit :\n §R+$MIL$§W de militantisme, §R+$WE$§W d’épuisement de guerre;Wenn wir dieses Angebot ablehnen, werden wird das folgende Konsequenzen haben:\n §R+$MIL$§W Militanz, §R+$WE$§W Kriegsmüdigkeit;;Si rechazamos la oferta sufriremos lo siguiente:\n §R+$MIL$§W de militancia, §R+$WE$§W de agotamiento bélico;;;;;;;;;x
+leave_soi_title;Leave Sphere of Influence;Quitter la sphère d’influence;Einflusssphäre verlassen;;Abandonar esfera de influencia;;;;;;;;;x
+leave_soi_desc;We can leave this Sphere of Influence, however our former master may well declare war to stop us.;Nous pouvons quitter cette sphère d’influence, mais notre ancien maître risque de nous déclarer la guerre pour nous arrêter.;Wir können diese Einflusssphäre verlassen, aber unser früherer Herr könnte uns den Krieg erklären, um uns daran zu hindern.;;Podemos abandonar esta esfera de influencia, pero nuestro antiguo señor podría declararnos la guerra.;;;;;;;;;x
+NEW_PARTY_AVAIL_SETUP;New political party;Nouveau parti politique;Neue politische Partei;;Nuevo partido político;;;;;;;;;x
+NEW_PARTY_AVAIL_HEADER;New political party formed;Nouveau parti politique formé;Neue politische Partei gegründet;;Se ha formado un nuevo partido político;;;;;;;;;x
+NEW_PARTY_AVAIL_1;$PARTY$ has been formed;$PARTY$ a été formé;$PARTY$ wurde soeben gegründet;;Se ha formado un partido: $PARTY$;;;;;;;;;x
+NEW_PARTY_AVAIL_2;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_3;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_4;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_5;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_6;*;*;*;*;*;*;*;;;;;;;x
+NEW_PARTY_AVAIL_BTN1;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+NEW_PARTY_AVAIL_BTN2;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+NEW_PARTY_AVAIL_BTN3;Go to;Voir;Goto;;Ir a;;;;;;;;;x
+NEW_PARTY_AVAIL_LOG;New political party;Nouveau parti politique;Neue Partei gegründet: $PARTY$.;;Nuevo partido político;;;;;;;;;x
+PARTY_UNAVAIL_SETUP;Political party defunct;Parti politique dissous;Partei aufgelöst;;Partido político desaparecido;;;;;;;;;x
+PARTY_UNAVAIL_HEADER;Political party defunct;Parti politique dissous;Partei aufgelöst;;Partido político desaparecido;;;;;;;;;x
+PARTY_UNAVAIL_1;$PARTY$ is now defunct;$PARTY$ est à présent dissous;$PARTY$ wurde aufgelöst;;Ha desaparecido un partido político: $PARTY$;;;;;;;;;x
+PARTY_UNAVAIL_2;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_3;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_4;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_5;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_6;*;*;*;*;*;*;*;;;;;;;x
+PARTY_UNAVAIL_BTN1;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+PARTY_UNAVAIL_BTN2;OK;D'accord;OK;OK;;Aceptar;;;;;;;;;x
+PARTY_UNAVAIL_BTN3;Go to;Voir;Goto;;Ir a;;;;;;;;;x
+PARTY_UNAVAIL_LOG;Political party now unavailable;Parti politique désormais indisponible;Die Partei §Y$PARTY$§W wurde aufgelöst und existiert nicht länger.;;Ha desaparecido un partido político;;;;;;;;;x
+PRODUCTION_FACTORY_DAYSRED_TOOLTIP;Days of insolvency: §R$DAYS$§W;Jour d’insolvabilité : §R$DAYS$§W;Tage mit Verlusten: §R$DAYS$§W;;Días de insolvencia: §R$DAYS$§W;;;;;;;;;x
+EXPENSE_NO_AFFORD;We can only afford to pay §R$VAL$§W¤ of our expenses!;Nous ne pouvons nous acquitter que de §R$VAL$§W¤de nos dépenses !;Wir können nur §R$VAL$§W¤ unserer Ausgaben zahlen!;;¡Solo podemos pagar el §R$VAL$§W¤ de nuestros gastos!;;;;;;;;;x
+ENG_presidential_dictatorship;Great Britain;Grande-Bretagne;Großbritannien;;Gran Bretaña;;;;;;;;x
+EVTNAME16451;Raiding the garrisons;Attaque des garnisons;Überfall auf Garnisonen;;Asalto contra las guarniciones;;;;;;;;;x
+EVTDESC16451;During the early days of the Texan Revolution, Texan troops were able to overrun several Mexican garrisons. This provided the Texan army with much needed money and supplies.;Aux premiers jours de la Révolution texane, les troupes du Texas ont réussi à renverser plusieurs garnisons mexicaines permettant ainsi à leur armée de disposer des fonds et ravitaillements nécessaires.;Während der ersten Tage der texanischen Revolution konnten texanische Truppen mehrere mexikanische Garnisonen überrennen. Dies brachte der texanischen Armee stark benötigte Gelder und Nachschubmaterial ein.;;Durante los primeros días de la Revolución Texana, las tropas de Texas pudieron destruir varias guarniciones mexicanas. Gracias a esto, el ejército texano obtuvo unos fondos y pertrechos de los que estaba muy necesitado.;;;;;;;x
+CB_ALLOWED_GUNBOAT;Force Debt Repayment;Forcer le remboursement de la dette;Schuldentilgung erzwingen;;Forzar pago de deuda;;;;;;;;x
+po_gunboat;Repay Debts.;Rembourser les dettes;Schulden tilgen.;;Pagar deudas.;;;;;;;;x
+IS_IN_DEFAULT_TO;Is in Default to;Est débiteur de;ist im Zahlungsrückstand gegenüber;;Está en situación de incumplimiento de pagos con;;;;;;;;x
+IS_NOT_IN_DEFAULT_TO;Is not in Default to;N’est pas débiteur de;ist nicht im Zahlungsrückstand gegenüber;;No está en situación de incumplimiento de pagos con;;;;;;;;x
+gunboat;Repay Debts;Rembourser les dettes;Schulden tilgen;;Pagar deudas;;;;;;;;x
+gunboat_desc;Force them to resume repayment of their debts to us.;Les forcer à reprendre le remboursement des dettes contractées envers nous.;Sie zwingen, ihre Schuldenrückzahlungen weiterzuführen.;;Obligarlos a reanudar el pago de sus deudas con nosotros.;;;;;;;;x
+gunboat_setup;Will force them to honor their debts to us.;Nous les forceront à honorer les dettes contractées envers nous.;Werden sie zwingen, uns ihre Schulden zurückzuzahlen.;;Los obligará a hacer frente a sus deudas con nosotros.;;;;;;;;x
+gunboat_short;Repay Debts;Rembourser les dettes;Schulden tilgen;;Pagar deudas;;;;;;;;x
+EVTNAME70002;$FROMCOUNTRY$ goes bankrupt!;$FROMCOUNTRY$ a fait faillite !;$FROMCOUNTRY$ ist bankrott!;;¡$FROMCOUNTRY$ está en bancarrota!;;;;;;;;x
+EVTDESC70002;$FROMCOUNTRY$ has gone bankrupt and claims that they owe us nothing! We must use our military might to safeguard our investors.;\n$FROMCOUNTRY$ a fait faillite et ils crient haut et fort qu’ils ne nous doivent rien !\nIl nous faut recourir à notre puissance militaire pour protéger nos investisseurs.;$FROMCOUNTRY$ ist bankrott und behauptet, sie schulden uns nichts! Wir müssen unsere Investoren mit unserer Militärmacht schützen.;;¡$FROMCOUNTRY$ ha declarado la bancarrota y afirma que no nos debe nada! Debemos usar nuestras fuerzas armadas para proteger los intereses de nuestros inversores.;;;;;;;;x
+EVTOPTA70002;OK;Ils vont voir qui nous sommes;OK;;Aceptar;;;;;;;;x
+USE_LEADER;Use leader;Utiliser cet officier;Anführer verwenden;;Usar líder;;;;;;;;x
+SHORTCUT;§WShortcut: §Y;§WRaccourci : §Y;§WTastenkürzel: §Y;;§WAtajo: §Y;;;;;;;;;x
+SM_SHORTCUT;Shortcut tooltip;Raccourci infobulle;Tastenkürzel Tooltipp;;Recuadro de texto de atajo;;;;;;;;x
+TUR_proletarian_dictatorship_ADJ;Turkish;Turc;Türkisch;;Turca;;;;;;;;;x
+move_capital_to_moscow_title;Return to the Third Rome;Retourner à la Troisième Rome;Zurück zum Dritten Rom;;Volver a la tercera Roma;;;;;;;;x
+move_capital_to_moscow_desc;Glorious St Petersburg, the city of Peter the Great, is uncomfortably close to the border. Perhaps it would be prudent to move our capital back to Moscow, the Pervoprestolnaya", which invading armies might find harder to reach...";La glorieuse Saint-Pétersbourg, ville de Pierre le Grand, est inconfortablement proche de la frontière. Il serait peut-être plus prudent de retransférer notre capitale à Moscou, la « Pervoprestolnaya », que les armées d’invasion auront plus de mal à rejoindre...;Das famose St. Petersburg, Stadt Peter des Großen, liegt unangenehm nah an der Grenze. Vielleicht wäre es sinnvoll, unsere Hauptstadt zurück nach Moskau, der "Perwoprestolnaja", zu verlegen, das für einfallende Armeen schwerer zu erreichen ist ...;;La gloriosa San Petersburgo, ciudad de Pedro el Grande, está incómodamente cerca de la frontera. Puede que sea prudente trasladar de nuevo la capital a Moscú, la "Pervoprestolnaya", mucho más difícil de alcanzar para los ejércitos enemigos...;;;;;;;;x
+badboy;Infamy;Infamie;Infamie;;Infamia;;;;;;;;;x;
+EVTNAME60150;The end of female suffrage;Fin du suffrage féminin;Das Ende des Frauenwahlrechts;;;;;;;;;x ;
+EVTDESC60150;With the recent rollback of voting reforms, the fairer sex is once again denied the vote.;Avec l'annulation récente des réformes sur le droit de vote, la gent féminine est de nouveau privée de vote.;Mit dem kürzlich zurückgerollten politischen Wahlrecht ist es dem schönerem Geschelcht nicht mehr erlaubt abzustimmen.;;;;;;;;;;x;
+EVTOPTA60150;Get back in the kitchen!;Retournez à la cuisine !;Zurück an den Herd!;;;;;;;;;x ;
+EVTNAME31102;Flight from Istanbul;Fuir Istamboul;Flucht aus Istanbul;;;;;;;;;x ;
+EVTDESC31102;Our position in Istanbul is no longer secure. We should move our government to a safer place.;Nous ne sommes plus en sécurité à Istamboul, nous devrions déplacer notre gouvernement en un lieu plus sûr.;Unsere Position in Istanbul ist nicht mehr sicher. We sollten unsere Regierung an einen sicheren Ort bringen.;;;;;;;;;;x;
+EVTOPTA31102;We have been ultimately driven from Europe...;Nous avons finalement été chassés de l'Europe...; Wir wurden endgültig aus Europa vertrieben...;;;;;;;;;x ;
+OL_REBEL_OCCUPATIONS;Rebel occupations;Occupations par les rebelles;Rebellenbesetzung;;;;;;;;;;;x
+OL_REBEL_OCCUPATIONS_TOOLTIP;Our province of §Y$PROVINCE$§W is being occupied by the rebels!;Notre province de §Y$PROVINCE$§W est occupée par les rebelles !;Unsere Provinz §Y$PROVINCE$§W wird von Rebellen besetzt!;;;;;;;;;;;x
+OL_VIEW_REBEL_OCCUPATIONS;Toggles §YRebel Occupations§W view;Active la vue §YOccupations par les rebelles§W;Aktiviert die §YRebellenbesetzungs§W Ansicht;;;;;;;;;;;x
+POP_MIL_CHANGE_REBEL;This pop is living in §Y$PROV$§W that is under §RRebels§W control.\nIt's militancy change cannot be estimated.;Cette population vit en §Y$PROV$§W, sous contrôle des §RRebels§W rebelles.\nPas d'estimation de la modification du militantisme;Diese Bevölkerungseinheit lebt in §Y$PROV$§W, welches unter der Kontrolle von §RRebellen§W ist.\nDie Militanzänderung kann nicht ermittelt werden.;;;;;;;;;;;x
+POP_CON_CHANGE_REBEL;This pop is living in §Y$PROV$§W that is under §RRebels§W control.\nIt's consciousness change cannot be estimated.;Cette population vit en §Y$PROV$§W, sous contrôle des §RRebels§W rebelles.\nPas d'estimation de la modification de la conscience nationale;Diese Bevölkerungseinheit lebt in §Y$PROV$§W, welches unter der Kontrolle von §RRebellen§W ist.\nDie Bewusstseinsänderung kann nicht ermittelt werden.;;;;;;;;;;;x
+PROJECT_STATE_NAME_DESC;Planning to build in §Y$PROV$§W.;Construction prévue en §Y$PROV$§W.;Bauprojekt in §Y$PROV$§W ist in Plannung.;;;;;;;;;;;x
+JAN_reactionary;Strid Partiet;;;x;;;
+EXILED_DESC;This unit is §Rexiled§!, as it's in foreign territory during peacetime without military access. Exiled units cannot engage in combat, and their scouting abilities are reduced, but they are able to march home through foreign territory. Return your unit to the nearest owned province!;;;x;;;
+TWS_FULFILLED;Fulfilled in $PERC$;;;x;;;
+TWS_NOT_FULFILLED;§RNot Fulfilled§!;;;x;;;
+TICKING_WARSCORE_DESC_CURR;Currently $VAL$.;;;x;;;
+UNIT_BORROWED;This unit is temporarly under our command.;;;x;;;
+DISBAND_TOO_SMALL_UNIT;Disband Undermanned Brigades;;;x;;;
+DISBAND_TOO_SMALL_UNIT_DRO;This option will disband all brigades that are not currently supported by a full-strength soldier POP.;;;x;;;
+CONFIRM_DISBAND_TOO_SMALL_TITLE;Do you wish to disband all undermanned brigades?;;;x;;;
+CONFIRM_DISBAND_TOO_SMALL_DESC;This will remove all brigades that are not currently supported by a full-strength soldier POP, and you will no longer have to pay any maintenance costs for them. Any manpower remaining in those brigades will be returned to the pool.;;;x;;;
+MODIFIER_RESEARCH_POINTS_ON_CONQUER;Research points bonus when conquering;;;x;;;
+colonial_negotiations;Colonial Negotiations;;;x;;;
+colonial_negotiations_desc;Whatever happens, we have got \nThe Maxim gun, and they have not'\n\n Machine Guns allowed armies to devastate forces using massed charge tactics, an ability that was especially useful when it came to defeating 'uncivilised' nations who objected to being colonised.;;;x;;;
+PRODUCTION_BONUS_POSSIBLE;Possible bonus from:;;;x;;;
+COLONIZE_PHASE_INITIAL_INTEREST;Send expedition;;;x;;;
+COLONIZE_PHASE_INITIAL_INTEREST_DESC;The first step of influencing an area is to send an expedition. If it is not challenged in §Y$DAYS$§! days it will allow you to create a protectorate;;;x;;;
+INITIAL_COLONIZE_DEFAULT_TIME;If nobody competes with your expedition by §Y$DATE$§! you can skip directly to creating a protectorate;;;x;;;
+COUNTRYALERT_ColonialGood_protectorate;§GWe can create a protectorate in §!§Y$REGION$§!;;;x;;;
+COUNTRYALERT_ColonialGood_colony;§GWe can create a colony in §!§Y$REGION$§!;;;x;;;
+COUNTRYALERT_ColonialGood_state;§GWe can create a state in §!§Y$REGION$§!;;;x;;;
+COUNTRYALERT_ColonialBad_colonizationtimer;§RWe need to create a protectorate in §!§Y$REGION$§!§R before §Y$DATE$§!§R or lose it.§!;;;x;;;
+COUNTRYALERT_ColonialBad_influence;§RWe are losing the race in §!§Y$REGION$§!;;;x;;;
+NON_COLONIAL_POWER;We are not a second rank nation or great power yet so we have no colonial power.;;;;;;x
+CRISIS_DESCRIPTION_COLONIZE;Crisis over the rights to colonize.;;;x;;;
+colonial_competition;Enforce colonial claim;;;x;;;
+colonial_competition_desc;Acquire a §Ycolonial region§!;;;x;;;
+colonial_competition_short;Acquire colony $REGION$;;;x;;;
+colonial_competition_setup;Acquire colony $REGION$;;;x;;;
+CB_COLONY_CLAIMS;Enforce colonial claim;;;x;;;
+COLONY_TENSION_DRIFT;Drift: §Y$VAL$§!;;;x;;;
+COLONY_IN_CRISIS;Currently involved in colonial crisis;;;x;;;
+EVTNAME19356;A war to end all wars;;;;;;;;;;;;;x
+EVTDESC19356;It has become increasingly clear that we have entered a new era of unprecedented warfare. The conflicts of our time are no longer mere local issues, but instead reach every corner of the world. Considering the ever increasing stakes and the terrifying impact of these hostilities on the nations involved, there is no longer any need for restrain.\n\n From now on a great war will allow a side that is clearly winning the ability to add even more wargoals;;;;;;;;;;;;;x
+EVTOPTA19356;Gentlemen, all I ask for is war, a war so grand as to make Hell itself tremble;;;;;;;;;;;;;x
+EVTDESC19356_NEWS_LONG;It has become increasingly clear that we have entered a new era of unprecedented warfare. The conflicts of our time are no longer mere local issues, but instead reach every corner of the world. Considering the ever increasing stakes and the terrifying impact of these hostilities on the nations involved, there is no longer any need for restrain.;;;;;;;;;;;;;x
+EVTDESC19356_NEWS_MEDIUM;It has become increasingly clear that we have entered a new era of unprecedented warfare. The conflicts of our time are no longer mere local issues, but instead reach every corner of the world. Considering the ever increasing stakes and the terrifying impact of these hostilities on the nations involved, there is no longer any need for restrain.;;;;;;;;;;;;;x
+EVTDESC19356_NEWS_SHORT;It has become increasingly clear that we have entered a new era of unprecedented warfare.;;;;;;;;;;;;;x
+ASSIMILATE_EFFECT;Assimilate all Pops in state\n;;;;;;;;;;;;;x
+WORLD_WARS_ENABLE_DESC;Great wars can now become World wars;;;;;;;;;;;;;x
+WORLD_WARS_ENABLED_DESC;World wars are enabled;;;;;;;;;;;;;x
+WORLD_WARS_DISABLED_DESC;World wars are NOT enabled;;;;;;;;;;;;;x
+SM_WINDOW;Window mode;;;;;;;;;;;;;x
+SM_WINDOWED;Windowed;;;;;;;;;;;;;x
+SM_FULLSCREEN;Fullscreen;;;;;;;;;;;;;x
+SM_BORDERLESS;Borderless;;;;;;;;;;;;;x
+IGNORE_DECISION_ON;This decision is set to NOT notify the player when it is available to be taken.\n\n§GClick to change notification status.§!;;;;;;;;;;;;;x
+IGNORE_DECISION_OFF;This decision is set to notify the player when it is available to be taken.\n\n§GClick to change notification status.§!;;;;;;;;;;;;;x
+SPLITINHALF;Split in Half;;;;;;;;;;;;;x
+SPLITINHALF_DRO;Split in half will split the current unit into two roughly even-sized units and select the larger of the two units.;;;;;;;;;;;;;x

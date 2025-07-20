@@ -330,11 +330,11 @@ political_decisions = {
 	
 	push_beyond_the_urals = {
 		potential = {
+			has_country_flag = MglRUS
 			OR = {
 				tag = MGE
 				tag = GBT
 			}
-			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_expansion_one }
 		}
 		
@@ -354,11 +354,11 @@ political_decisions = {
 	
 	press_our_advantage = {
 		potential = {
+			has_country_flag = MglRUS
 			OR = {
 				tag = MGE
 				tag = GBT
 			}
-			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_expansion_two }
 			has_country_flag = MGE_expansion_one
 		}
@@ -381,11 +381,11 @@ political_decisions = {
 	
 	vanquish_the_weaklings = {
 		potential = {
+			has_country_flag = MglRUS
 			OR = {
 				tag = MGE
 				tag = GBT
 			}
-			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_expansion_three }
 			has_country_flag = MGE_expansion_two
 		}
@@ -409,11 +409,11 @@ political_decisions = {
 	
 	consolidate_russia = {
 		potential = {
+			has_country_flag = MglRUS
 			OR = {
 				tag = MGE
 				tag = GBT
 			}
-			has_country_flag = MglRUS
 			not = { has_country_flag = MGE_russia }
 		}
 		
@@ -476,6 +476,7 @@ political_decisions = {
 	
 	the_manchurian_plains = {
 		potential = {
+			is_culture_group = mongolian
 			OR = {
 				tag = BAT
 				tag = MGL
@@ -526,11 +527,11 @@ political_decisions = {
 
 	our_western_cousins = {
 		potential = {
+			has_country_flag = MglRUS
 			OR = {
 				tag = MGE
 				tag = GBT
 			}
-			has_country_flag = MglRUS
 			NOT = { accepted_culture = kazak }
 		}
 		allow = {

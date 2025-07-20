@@ -28,6 +28,7 @@ political_decisions = {
 	
 	reform_uk = {
 		potential = {
+			is_culture_group = briton
 			OR = {
 				tag = ENG
 				tag = SCO

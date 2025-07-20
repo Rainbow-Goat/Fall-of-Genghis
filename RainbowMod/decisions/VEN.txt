@@ -1,11 +1,11 @@
 political_decisions = {
     restore_venetian_greece = {
         potential = {
+            primary_culture = venetian
             OR = {
                 tag = ITA
                 tag = VEN
             }
-            primary_culture = venetian
             NOT = { has_country_flag = eu4_reference }
         }
         allow = {
@@ -24,11 +24,11 @@ political_decisions = {
 
     unite_with_our_greek_brothers = {
         potential = {
+            primary_culture = venetian
             OR = {
                 tag = ITA
                 tag = VEN
             }
-            primary_culture = venetian
             834 = { is_core = THIS }
             NOT = { accepted_culture = antiqua_greek }
         }

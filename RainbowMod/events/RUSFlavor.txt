@@ -1,45 +1,4 @@
-country_event = {
 
-	id = 32500
-	news = yes
-	news_desc_long = "EVTDESC32500_NEWS_LONG"
-	news_desc_medium = "EVTDESC32500_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC32500_NEWS_SHORT"
-
-	trigger = {
-		tag = RUS
-		year = 1837
-		war = no
-		NOT = {
-			year = 1840
-		}
-	}
-	
-	fire_only_once = yes
- 
-	mean_time_to_happen =  {
-		months = 5
-
-		modifier = {
-			factor = 0.75 #increase likelihood to happen
-			year = 1838
-		}
-
-		modifier = {
-			factor = 0.95 #increase likelihood to happen
-			year = 1839
-		}
-	}
-
-	title = "EVTNAME32500"
-	desc = "EVTDESC32500"
-	picture = "Pushkin"
-
-	option = {
-		name = "EVTOPTA32500" 
-		prestige = 3
-	}
-}
 
 country_event = {
 
@@ -253,50 +212,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA32506" 
 		prestige = 2
-	}
-}
-
-country_event = {
-
-	id = 32507
-
-	trigger = {
-		tag = RUS
-		year = 1855
-		owns = 1072 #Okhotsk
-		NOT = {
-			year = 1858
-			war_with = JAP
-			JAP = {
-				part_of_sphere = no
-				is_independant = yes
-			}
-		}
-	}
-	
-	fire_only_once = yes
- 
-	mean_time_to_happen =  {
-		months = 5
-
-		modifier = {
-			factor = 0.75 #increase likelihood to happen
-			year = 1856
-		}
-
-		modifier = {
-			factor = 0.95 #increase likelihood to happen
-			year = 1857
-		}
-	}
-
-	title = "EVTNAME32507"
-	desc = "EVTDESC32507"
-	picture = "kurils"
-
-	option = {
-		name = "EVTOPTA32506" 
-		relation = { who = JAP value = 50 }
 	}
 }
 
