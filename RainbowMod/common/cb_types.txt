@@ -130,8 +130,8 @@ negotiated_transfer_cb = {
 	good_relation_militancy_factor = 0
 
 	can_use = {
-		#THIS = { ai = no } 
-		#ai = no
+		THIS = { ai = no } 
+		ai = no
 		number_of_states = 2 # annex if you want their last state
 		is_vassal = no
 		THIS = { civilized = yes }

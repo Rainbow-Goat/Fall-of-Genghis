@@ -23,7 +23,6 @@ political_decisions = {
 	}
 
 
-
 day1_state_sizing = { 
 		potential = { 
 			tag = GHO
@@ -33,8 +32,9 @@ day1_state_sizing = {
 		effect = {
 			GHO = { country_event = 700700 }
 		}	
-political_decisions = { 
-	release_vassals = { 	#stolen from Victoria Universalis
+}
+
+release_vassals = { 	#stolen from Victoria Universalis
 		alert = no
 		picture = gtfo
 		potential = {
@@ -48,5 +48,4 @@ political_decisions = {
 			country_event = { id = 91306 days = 0 }
 		}
 	}
-}
 }
