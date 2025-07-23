@@ -1631,11 +1631,6 @@ SUPPLY;Supply: $VAL$;;;x;;
 DEMAND;Demand: $VAL$;;;x;;
 TRADE_SUPPLY_NEED;$VAL$ to supply army and navy each day.\n;;;x;;
 TRADE_TEMP_PROD_NEED;$VAL$ for current production.\n;;;x;;
-form_holy_slavic_empire_title;Unite the Holy Slavic Empire!;;;x;;
-form_holy_slavic_empire_desc;By finally reigning in those rouge German provinces and putting the pommeranians in their place we can finally unite the empire under our rule. No longer shall the slavs be mocked and belittled by the other great powers, from now on we will be the masters of Europe! Huzzah!;;;x;;
-form_kingdom_of_slavia_title;No more brother wars!;;;x;;
-form_kingdom_of_slavia_desc;"The antiquated empire has done nothing but drag us down by forcing us to respect the will of weak german aristocrats! By disolving the empire and creating a unified slavic kingdom we will finally be strong enough to not be pushed around by the other European powers! No slav shall ever slay another slav ever again, 
-Niech ?yje Slavia!";;;x;;
 form_germany_title;Three Hurrahs For Germany!;;;x;;
 form_germany_desc;By controlling, directly or indirectly, the manifold principalities, duchies and free cities that make up the German Nation, we can unite our people into one singular nation state. Three Hurrahs for the German Empire!;;;x;;
 form_italy_title;Avanti Italia!;;;x;;

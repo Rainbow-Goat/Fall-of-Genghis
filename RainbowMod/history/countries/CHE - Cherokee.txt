@@ -35,7 +35,4 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = low_schools
 
-1861.1.1 = {
-	oob = "/1861/CHE_oob.txt"
-	religion = protestant
-}
+

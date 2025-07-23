@@ -3,4 +3,4 @@ controller = SMO
 add_core = SMO
 trade_goods = timber
 life_rating = 35 
-1861.1.1 = { railroad = 2 } 
+ 
