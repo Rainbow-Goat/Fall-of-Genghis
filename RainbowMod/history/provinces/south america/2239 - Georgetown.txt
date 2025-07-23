@@ -3,4 +3,4 @@ controller = CAS
 trade_goods = fruit
 life_rating = 30 
 colonial = 2
-1861.1.1 = { railroad = 1 } 
+ 

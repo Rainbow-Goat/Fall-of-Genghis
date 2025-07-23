@@ -3,4 +3,4 @@ trade_goods = timber
 life_rating = 25 
 owner = NAI
 controller = NAI
-1861.1.1 = { owner = RUS controller = RUS colonial = 2 } 
+ 
