@@ -113,53 +113,6 @@ negotiated_transfer_cb = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
-
-	badboy_factor = 0
-	prestige_factor = 0
-	peace_cost_factor = 0
-	penalty_factor = 0
-
-	break_truce_prestige_factor = 0
-	break_truce_infamy_factor = 0
-	break_truce_militancy_factor = 0
-	truce_months = -60
-	
-	good_relation_prestige_factor = 0
-	good_relation_infamy_factor = 0
-	good_relation_militancy_factor = 0
-
-	construction_speed = 2000.0
-
-	can_use = {
-		THIS = { ai = no } 
-		ai = no
-		number_of_states = 2 # annex if you want their last state
-		is_vassal = no
-		THIS = { civilized = yes }
-	}
-	
-	allowed_states = {
-		NOT = { any_owned_province = { is_capital = yes } }
-	}
-
-	po_demand_state = yes
-	
-	war_name = WAR_NEGOTIATE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.00
-		}
-	}
-}
-
-third_party_transfer = {
-	sprite_index = 5
-	is_triggered_only = yes
-	months = 12
-	crisis = no
 	
 	construction_speed = 2000
 
@@ -189,21 +142,23 @@ third_party_transfer = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-        NOT = {
-            tag = FROM
-        }
         FROM = {
-			exists = yes
-            alliance_with = THIS
-			ai = no
-        }
-		NOT = {
-			AND = {
-				FROM = { civilized = yes }
-				civilized = no
-			}
+		OR = { 	
+			FROM = { tag = THIS } 
+			AND = { 
+				ai = no
+				alliance_with = THIS
+				exists = yes
+			}	
 		}
-    }
+	}
+	NOT = {
+		AND = {
+			FROM = { civilized = yes }
+			civilized = no
+		}
+	}
+}
 
 	# THIS - us
 	# FROM - country scope is possible match?
@@ -214,16 +169,9 @@ third_party_transfer = {
 
 	po_transfer_provinces = yes
 
-	war_name = WAR_THIRD_TRANSFER_NAME
-
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
+	war_name = WAR_NEGOTIATE_NAME
 }
+
 
 gunboat = {
 	sprite_index = 1

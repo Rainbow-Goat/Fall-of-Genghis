@@ -114,4 +114,10 @@ conquest_low_short;Annex $RECIPIENT$;x;
 conquest_tiny;Tiny Conquest;x;
 conquest_tiny_desc;Annex a §Ycountry§W of small size and population by conquest;x;
 conquest_tiny_setup;Annex minor nation of $RECIPIENT$;x;
-conquest_tiny_short;Annex $RECIPIENT$;x;
+conquest_tiny_short;Annex $RECIPIENT$;x;negotiated_transfer;Negotiated Transfer;;;;;;;x
+negotiated_transfer_cb;Negotiated Transfer §R(!)§!;;;;;;;x
+negotiated_transfer_cb_desc;§YCAN BE USED FOR YOURSELF OR A HUMAN ALLY.§! Take a state or colonial region from another player with no effect on infamy, prestige, or jingoism, with their consent;;;;;;;x
+negotiated_transfer_cb_short;Take $STATE$ from $RECIPIENT$ for $THIRD$;;;;;;;x
+negotiated_transfer_cb_setup;Take $STATE$ from $RECIPIENT$ with their consent;;;;;;;x
+NORMAL_WAR_NEGOTIATE_NAME;$ORDER$Transfer of $STATE$;;;;;;;x
+AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$Transfer of $STATE$;;;;;;;x
