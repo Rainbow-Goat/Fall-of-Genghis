@@ -140,7 +140,7 @@ political_decisions = {
             }
         }
         effect = {
-            badboy = 10
+            badboy = 5
             SER_794 = { add_core = THIS }
             MON_2582 = { add_core = THIS }
             AUS_777 = { add_core = THIS }
@@ -166,7 +166,6 @@ political_decisions = {
             NOT = { exists = CRO }
         }
         effect = {
-            badboy = 25
             AUS_736 = { add_core = THIS }
             AUS_768 = { add_core = THIS }
             AUS_771 = { add_core = THIS }
