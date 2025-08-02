@@ -545,7 +545,7 @@ acquire_core_state_tiny = {
 	construction_speed = 0.8
 	
 	badboy_factor = 0
-	prestige_factor = 5
+	prestige_factor = 2
 	peace_cost_factor = 0.001
 	penalty_factor = 1
 	always = yes
@@ -595,7 +595,7 @@ acquire_core_state_small = {
 	construction_speed = 2
 	
 	badboy_factor = 0
-	prestige_factor = 5
+	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
 	always = yes
@@ -645,7 +645,7 @@ acquire_core_state_medium = {
 	construction_speed = 2
 	
 	badboy_factor = 0
-	prestige_factor = 5
+	prestige_factor = 2
 	peace_cost_factor = 0.004
 	penalty_factor = 1
 	always = yes
@@ -696,7 +696,7 @@ acquire_core_state_large = {
 	construction_speed = 2
 	
 	badboy_factor = 0
-	prestige_factor = 5
+	prestige_factor = 2
 	peace_cost_factor = 0.006
 	penalty_factor = 1
 	always = yes
@@ -746,7 +746,7 @@ acquire_core_state_huge = {
 	construction_speed = 2
 	
 	badboy_factor = 0
-	prestige_factor = 5
+	prestige_factor = 2
 	peace_cost_factor = 0.008
 	penalty_factor = 1
 	always = yes
@@ -796,7 +796,7 @@ annex_core_country = {
 	crisis = no
 
 	badboy_factor = 0
-	prestige_factor = 5
+	prestige_factor = 2
 	peace_cost_factor = 1
 	penalty_factor = 1
 	always = yes
@@ -3261,7 +3261,7 @@ take_capital = {
 	construction_speed = 0.25
 
 	badboy_factor = 1.72
-	prestige_factor = 10
+	prestige_factor = 3
 	peace_cost_factor = 0.016
 	penalty_factor = 1
 
@@ -3364,7 +3364,7 @@ conquest_low = {
 	}
 
 	badboy_factor = 1.0
-	prestige_factor = 5
+	prestige_factor = 3
 	peace_cost_factor = 1
 	penalty_factor = 1
 
@@ -3428,7 +3428,7 @@ conquest_tiny = {
 	}
 
 	badboy_factor = 0.6
-	prestige_factor = 5
+	prestige_factor = 1
 	peace_cost_factor = 1
 	penalty_factor = 1
 

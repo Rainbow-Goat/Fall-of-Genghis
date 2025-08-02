@@ -1,5 +1,6 @@
-owner = TRI
-controller = TRI
+owner = ALA
+controller = ALA
+add_core = ALA
 add_core = TRI
 trade_goods = fruit
 life_rating = 35 

@@ -1,3 +1,10 @@
 key;ENGLISH;x
-BYZ;Latin Empire;x;
-BYZ_ADJ;Latin;x;
+BLG;The Bulgar Empire;x;
+BLG_ADJ;Bulgar;x;
+BLG_reactionary;Imperialisticheska;x;
+BLG_conservative;Aristokrati;x;
+BLG_liberal;Liberalizatsiya;x;
+BLG_anarcho_liberal;Payak-Liberal;x;
+BLG_socialist;Prava na rabotnitsite;x;
+BLG_communist;Radikalni rabotnitsi;x;
+BLG_fascist;Treta pozitsiya;x;

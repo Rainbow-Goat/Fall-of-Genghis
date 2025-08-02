@@ -28,6 +28,18 @@ reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = presidential_dictatorship
+		principality = principality
+		theocracy = theocracy
+		monastic_order = theocracy
+		caliphate = caliphate
+		sultanate = sultanate
+		merchant_republic = presidential_dictatorship
+		khanate = khanate
+		cossack_host = cossack_host
+		tribal_confederation = tribal_confederation
+		viceroyalty = absolute_monarchy
+		crown_colony = viceroyalty
+		duchy = duchy
 	}
 	
 	
@@ -227,6 +239,18 @@ fascist_rebels = {
 		prussian_constitutionalism = fascist_dictatorship
 		hms_government = fascist_dictatorship
 		democracy = fascist_dictatorship
+		principality = fascist_dictatorship
+		theocracy = fascist_dictatorship
+		monastic_order = fascist_dictatorship
+		caliphate = fascist_dictatorship
+		sultanate = fascist_dictatorship
+		merchant_republic = fascist_dictatorship
+		khanate = fascist_dictatorship
+		cossack_host = fascist_dictatorship
+		tribal_confederation = fascist_dictatorship
+		viceroyalty = fascist_dictatorship
+		crown_colony = fascist_dictatorship
+		duchy = fascist_dictatorship
 	}
 	
 	
@@ -428,6 +452,18 @@ communist_rebels = {
 		prussian_constitutionalism = proletarian_dictatorship
 		hms_government = proletarian_dictatorship
 		democracy = proletarian_dictatorship
+		principality = proletarian_dictatorship
+		theocracy = proletarian_dictatorship
+		monastic_order = proletarian_dictatorship
+		caliphate = proletarian_dictatorship
+		sultanate = proletarian_dictatorship
+		merchant_republic = proletarian_dictatorship
+		khanate = proletarian_dictatorship
+		cossack_host = proletarian_dictatorship
+		tribal_confederation = proletarian_dictatorship
+		viceroyalty = proletarian_dictatorship
+		crown_colony = proletarian_dictatorship
+		duchy = proletarian_dictatorship
 	}
 	
 	
@@ -640,6 +676,18 @@ anarcho_liberal_rebels = {
 		prussian_constitutionalism = bourgeois_dictatorship
 		hms_government = bourgeois_dictatorship
 		democracy = bourgeois_dictatorship
+		principality = bourgeois_dictatorship
+		theocracy = bourgeois_dictatorship
+		monastic_order = bourgeois_dictatorship
+		caliphate = bourgeois_dictatorship
+		sultanate = bourgeois_dictatorship
+		merchant_republic = bourgeois_dictatorship
+		khanate = bourgeois_dictatorship
+		cossack_host = bourgeois_dictatorship
+		tribal_confederation = bourgeois_dictatorship
+		viceroyalty = bourgeois_dictatorship
+		crown_colony = bourgeois_dictatorship
+		duchy = bourgeois_dictatorship
 	}
 	
 	
@@ -835,6 +883,18 @@ nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		principality = principality
+		theocracy = theocracy
+		monastic_order = monastic_order
+		caliphate = caliphate
+		sultanate = sultanate
+		merchant_republic = merchant_republic
+		khanate = khanate
+		cossack_host = cossack_host
+		tribal_confederation = tribal_confederation
+		viceroyalty = viceroyalty
+		crown_colony = crown_colony
+		duchy = duchy
 	}
 	
 	
@@ -1080,6 +1140,18 @@ boxer_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		principality = absolute_monarchy
+		theocracy = absolute_monarchy
+		monastic_order = absolute_monarchy
+		caliphate = absolute_monarchy
+		sultanate = absolute_monarchy
+		merchant_republic = absolute_monarchy
+		khanate = absolute_monarchy
+		cossack_host = absolute_monarchy
+		tribal_confederation = absolute_monarchy
+		viceroyalty = absolute_monarchy
+		crown_colony = absolute_monarchy
+		duchy = absolute_monarchy
 	}
 	
 	
@@ -1306,6 +1378,18 @@ liberal_rebels = {
 		prussian_constitutionalism = democracy
 		hms_government = democracy
 		democracy = democracy
+		principality = hms_government
+		theocracy = democracy
+		monastic_order = democracy
+		caliphate = democracy
+		sultanate = hms_government
+		merchant_republic = democracy
+		khanate = prussian_constitutionalism
+		cossack_host = democracy
+		tribal_confederation = democracy
+		viceroyalty = hms_government
+		crown_colony = absolute_monarchy
+		duchy = absolute_monarchy
 	}
 	
 	
@@ -1511,6 +1595,18 @@ unciv_reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = absolute_monarchy
+		principality = principality
+		theocracy = theocracy
+		monastic_order = theocracy
+		caliphate = caliphate
+		sultanate = sultanate
+		merchant_republic = absolute_monarchy
+		khanate = khanate
+		cossack_host = khanate
+		tribal_confederation = tribal_confederation
+		viceroyalty = viceroyalty
+		crown_colony = crown_colony
+		duchy = duchy
 	}
 	
 	
@@ -1694,6 +1790,18 @@ chudjak = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
+		principality = principality
+		theocracy = theocracy
+		monastic_order = monastic_order
+		caliphate = caliphate
+		sultanate = sultanate
+		merchant_republic = merchant_republic
+		khanate = khanate
+		cossack_host = cossack_host
+		tribal_confederation = tribal_confederation
+		viceroyalty = viceroyalty
+		crown_colony = crown_colony
+		duchy = duchy
 	}
 
 	defection = none					# Will defect to the "best" alternative.

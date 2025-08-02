@@ -139,16 +139,8 @@ political_decisions = {
                     owned_by = THIS
                 }
             }
-            BLG = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                        }
-                    }
-                }
-            }
+            owns = 809
+            owns = 814
         }
         effect = {
             badboy = 15

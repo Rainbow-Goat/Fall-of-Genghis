@@ -165,7 +165,7 @@ khanate = {
 	reactionary = yes
 	
 	election = no
-	appoint_ruling_party = no
+	appoint_ruling_party = yes
 }
 
 cossack_host = {
@@ -191,19 +191,6 @@ tribal_confederation = {
 	election = yes
 	duration = 24
 	appoint_ruling_party = no
-	flagType = republic
-}
-
-republic = {
-	liberal = yes
-	conservative = yes
-	reactionary = yes
-	anarcho_liberal = yes
-	
-	
-	election = yes
-	duration = 48
-	appoint_ruling_party = yes
 	flagType = republic
 }
 

@@ -186,11 +186,9 @@ political_decisions = {
         allow = {
             war = no
             state_n_government = 1
-            BYZ = {
-                all_core = {
-                    owned_by = THIS
-                }
-            }
+            owns = 806
+            owns = 809
+            owns = 814
         }
         effect = {
             add_accepted_culture = bulgarian

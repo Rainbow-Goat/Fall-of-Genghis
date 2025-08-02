@@ -540,7 +540,6 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = { in_sphere = THIS }
-						owner = { overlord = THIS }
 					}
 				}
 			}
@@ -549,7 +548,6 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = { in_sphere = THIS }
-						owner = { overlord = THIS }
 					}
 				}
 			}
@@ -558,7 +556,6 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = { in_sphere = THIS }
-						owner = { overlord = THIS }
 					}
 				}
 			}
@@ -567,7 +564,6 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = { in_sphere = THIS }
-						owner = { overlord = THIS }
 					}
 				}
 			}
@@ -576,7 +572,6 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = { in_sphere = THIS }
-						owner = { overlord = THIS }
 					}
 				}
 			}
@@ -614,6 +609,62 @@ political_decisions = {
 					remove_core = KHI
 				} 
 			}
+		}
+	}
+	
+	adopt_batbayar_thought_as_research_doctrine = {
+		potential = {
+			has_global_flag = BatbayarThoughtG
+			or = {
+				tag = BAT
+				tag = GBT
+				tag = MGE
+				tag = MGL
+			}
+			not = { tech_school = batbayar_tech_school }
+		}
+		
+		allow = {
+			not = { has_country_modifier = academic_confusion }
+			literacy = 0.25
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 3650
+			}
+			tech_school = batbayar_tech_school
+		}
+	}
+	
+	educate_our_southern_relatives = {
+		potential = {
+			or = {
+				tag = GBT
+				tag = MGL
+			}
+			not = { has_country_flag = educated_chinese }
+			tech_school = batbayar_tech_school
+		}
+		
+		allow = {
+			CHI_1490 = { owned_by = THIS }
+			CHI_1557 = { owned_by = THIS }
+			CHI_2062 = { owned_by = THIS }
+			CHI_1513 = { owned_by = THIS }
+			accepted_culture = gao_chen
+		}
+		
+		effect = {
+			prestige = 10
+			any_pop = {
+				limit = {
+					culture = gao_chen
+				}
+				literacy = 0.2
+			}
+			set_country_flag = educated_chinese
 		}
 	}
 }
