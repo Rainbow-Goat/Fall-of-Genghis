@@ -348,20 +348,6 @@ country_event = {
 		}
 		ai = yes
 		war = no
-		NOT = {
-			AND = {
-				OR = {
-					tag = AUS
-					tag = KUK
-				}
-				sphere_owner = {
-					tag = GER
-				}
-				NOT = {
-					exists = HUN
-				}
-			}
-		}
 		NOT = {	
 			tag = ISR 
 			}

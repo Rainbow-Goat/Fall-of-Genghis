@@ -8,13 +8,5 @@ country_event = {
     
     option = {
         name = "Neat!"
-        
-        
-        ai_chance = {
-            factor = 
-            modifier = {
-                factor = 
-            }
-        }
     }
 }
