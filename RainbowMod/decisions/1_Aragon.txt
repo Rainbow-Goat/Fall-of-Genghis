@@ -104,14 +104,12 @@ political_decisions = {
         }
         effect = {
             prestige = 20
-            SPA_484 = { add_core = THIS }
-            SPA_487 = { add_core = THIS }
+            CAS_482 = { add_core = THIS }
             SPA_503 = { add_core = THIS }
             SPA_512 = { add_core = THIS }
             SPA_513 = { add_core = THIS }
-            SPA_517 = { add_core = THIS }
             POR_521 = { add_core = THIS }
-            POR_525 = { add_core = THIS }
+            POR_518 = { add_core = THIS }
         }
     }
 
@@ -121,8 +119,8 @@ political_decisions = {
             NOT = {
                 AND = {
                     owns = 490
-                    owns = 495
-                    owns = 504
+                    owns = 479
+                    owns = 488
                 }
             }
             SIC = { all_core = { owned_by = THIS } }
@@ -142,6 +140,7 @@ political_decisions = {
             primary_culture = south_italian
             remove_accepted_culture = catalan
             ARO = { all_core = { remove_core = ARO } }
+            SPA = { all_core = { remove_core = SIC } }
         }
         ai_will_do = {
             factor = 3

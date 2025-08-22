@@ -46,12 +46,11 @@ political_decisions = {
 					limit = {
 						OR = {
 							region = SPA_503
-							region = SPA_487
-							region = SPA_484
-							region = POR_525
+							region = CAS_482
+							region = SPA_512
+							region = POR_518
 							region = POR_521
 							region = SPA_512
-							region = SPA_517
 							region = SPA_513
 						}
 					}
