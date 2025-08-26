@@ -418,9 +418,14 @@ political_decisions = {
 		}
 		
 		allow = {
-			NOV = { all_core = { owned_by = THIS  }}
-			RYA = { all_core = { owned_by = THIS  }}
-			VLA = { all_core = { owned_by = THIS  }}
+			OR = {
+				AND = {
+					NOV = { all_core = { owned_by = THIS  }}
+					RYA = { all_core = { owned_by = THIS  }}
+					VLA = { all_core = { owned_by = THIS  }}
+				}
+				RUS = { all_core = { owned_by = THIS  }}
+			}
 		}
 		
 		effect = {
@@ -428,6 +433,7 @@ political_decisions = {
 			NOV = { all_core = { add_core = THIS  }}
 			RYA = { all_core = { add_core = THIS  }}
 			VLA = { all_core = { add_core = THIS  }}
+			RUS = { all_core = { owned_by = THIS  }}
 			prestige = 50
 		}
 	}

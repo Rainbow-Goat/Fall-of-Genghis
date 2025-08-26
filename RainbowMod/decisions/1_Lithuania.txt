@@ -32,12 +32,10 @@ political_decisions = {
         allow = {
             war = no
             state_n_government = 1
-            OR = {
-                AND = {
-                    941 = { owned_by = THIS }
-                    944 = { owned_by = THIS }
-                }
-                NOT = { exists = SMO }
+            exists = SMO
+            AND = {
+                941 = { owned_by = THIS }
+                944 = { owned_by = THIS }
             }
         }
         effect = {
@@ -47,7 +45,6 @@ political_decisions = {
                     type = take_capital
                     months = 18
                 }
-                badboy = 5
             }
             set_country_flag = march_east
         }
@@ -56,15 +53,10 @@ political_decisions = {
     consume_the_remains = {
         potential = {
             tag = LIT
-            OR = {
-            	NOT = { 
-                	has_country_flag = march_east
-           	}
-            	OR = {
-                	has_country_flag = march_east
-                	owns = 943
-            	}	
-	}
+        	OR = {
+            	has_country_flag = march_east
+            	NOT = { exists = SMO }
+            }	
         }
         allow = {
             war = no
@@ -72,11 +64,11 @@ political_decisions = {
             1016 = { owned_by = THIS }
         }
         effect = {
-            SMO = {
-                all_core = {
-                    add_core = LIT
-                }
-            }
+            RUS_943 = { add_core = THIS }
+            RUS_977 = { add_core = THIS }
+            RUS_1009 = { add_core = THIS }
+            1008 = { add_core = THIS }
+            1011 = { add_core = THIS }
             set_country_flag = marched_east
         }
     }
@@ -84,7 +76,6 @@ political_decisions = {
     concessions_to_ruthenians = {
         potential = {
             tag = LIT
-            943 = { is_core = LIT}
             NOT = { accepted_culture = ruthenian }
         }
         allow = {
@@ -130,7 +121,7 @@ political_decisions = {
             tag = LIT
             accepted_culture = ukrainian
             NOT = { 
-                965 = { is_core = LIT }
+                has_country_flag = lithuanian_vhungus
             }
         }
         allow = {
@@ -157,6 +148,7 @@ political_decisions = {
             RUS_1048 = { add_core = THIS }
             RUS_1052 = { add_core = THIS }
             RUS_1090 = { add_core = THIS }
+            set_country_flag = lithuanian_vhungus
         }
     }
 }

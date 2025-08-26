@@ -38,7 +38,7 @@ political_decisions = {
             prestige = 20
             add_accepted_culture = polish
             add_accepted_culture = lithuanian
-            remove_accepted_culture = byelorussian
+            add_accepted_culture = byelorussian
         }
     }
 
@@ -48,7 +48,7 @@ political_decisions = {
 				NOT = {
 					OR = {
 						exists = HSE
-						year = 1860
+						year = 1870
 					}
 				}
 		}
@@ -64,7 +64,7 @@ political_decisions = {
 						}
 						NOT = {
 							OR = {
-								culture = pommeranian
+								is_core = POM
 								culture = bohemian
 							}
 						}
@@ -112,20 +112,13 @@ political_decisions = {
 		allow = {
 			war = no
 			state_n_government = 1
-			HSE = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-						AND = {
-							NOT = { culture = pommeranian }
-							NOT = { culture = bohemian }
-						}
-					}
-				}
-			}
+			682 = { owned_by = THIS }
+			558 = { owned_by = THIS }
+			625 = { owned_by = THIS }
+			631 = { owned_by = THIS }
+			546 = { owned_by = THIS }
+			549 = { owned_by = THIS }
+			553 = { owned_by = THIS }
 		}	
 		effect = {
 			prestige = 20
