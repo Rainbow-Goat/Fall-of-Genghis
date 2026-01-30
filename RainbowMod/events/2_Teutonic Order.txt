@@ -1,5 +1,5 @@
 country_event = {
-    id = 100501
+    id = 100701
     title = "Deciding our Future"
     desc = "We gotta decide what we want to do; Free Germany or create a new German homeland."
     picture = "celebration"

@@ -1,0 +1,48 @@
+political_decisions = {
+    union_of_the_crowns = {
+        potential = {
+            tag = CAS
+            exists = ARO
+        }
+        allow = {
+            alliance_with = ARO
+            relation = { who = ARO value = 200 }
+            CAS = { 
+                is_greater_power = yes
+            }
+            ARO = {
+                is_greater_power = no
+            }
+            OR = {
+                NOT = {
+                    NPS = {
+                        is_vassal = yes
+                    }
+                }
+                AND = {
+                    state_n_government = 1
+                    romanticism = 1
+                }
+            }
+        }
+        effect = {
+            inherit = ARO
+            change_tag = SPA
+            prestige = 25
+            set_global_flag = spanish_union
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    any_country = {
+                        limit = {
+                            has_country_flag = aragons_bitch
+                        }
+                        country_event = { id=100502 days=0 }
+                    }
+                }
+            }
+            clr_country_flag = hidden_tooltip
+            spanish_union_tooltip = {}
+        }
+    }
+}

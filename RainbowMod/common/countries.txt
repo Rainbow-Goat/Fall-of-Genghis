@@ -69,7 +69,7 @@ HNA     = "countries/Holy Nation of Allah.txt"
 ART     = "countries/Aragon-Italy.txt"
 PRU     = "countries/Prussia.txt"
 BOR     = "countries/Bourgogne.txt"
-NAP     = "countries/Naples.txt"
+NPS     = "countries/Naples.txt"
 
 #Meta Stuff
 GHO     = "countries/Ghost Country.txt"

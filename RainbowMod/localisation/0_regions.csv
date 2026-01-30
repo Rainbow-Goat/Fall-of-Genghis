@@ -24,3 +24,7 @@ SWE_309;Sydnorge;x;
 NET_1413;West Java;x;
 IKH_1418;East Java;x;
 MOD_739;Emilia-Romagna;x;
+naples_independence_war_tooltip;§RThe Aragonese guards stationed in Naples will probably seize the city...§!§b;x;
+spanish_union_tooltip;§RIf Naples are still a vassal under Aragon, they may take this union as pretext to declare independence!§!§b;x;
+spain_naples_war_tooltip;§RThis will allow us to vassalize Naples, and in the future we will be able to accept South Italian and annex them.§!§b;x;
+crush_dukes_tooltip;§RThis will lock us out of uniting with the duchies in a peaceful and diplomatic manner!§b;x;

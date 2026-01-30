@@ -73,7 +73,7 @@ political_decisions = {
             TEU = { all_core = { owned_by = THIS } }
         }
         effect = {
-            country_event = 100501 
+            country_event = 100701 
         }
     }
 

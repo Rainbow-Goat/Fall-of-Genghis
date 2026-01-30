@@ -11,7 +11,9 @@
 # 100200 = Scani stuff
 # 100300 = Russia stuff
 # 100400 = Iberia stuff
+# 100500 = Italy stuff
 # 100600 = History Events
+# 100700 = Germany stuff
 
 ###vanilla
 # Ideology - 1000

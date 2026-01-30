@@ -20,7 +20,58 @@ country_event = {
     }
 }
 
+#Spain
+country_event = {
+	id = 100402
+	title = "The Throne of Naples"
+	desc = "100402D"
+	picture = Picture
+	
+	trigger = {
+		has_country_flag = disloyal_naples
+	}
+	
+	mean_time_to_happen = {
+		days = 0
+	}
 
+	fire_only_once = yes
+
+	option = {
+		name = "They must be reined in!"
+		casus_belli = {
+			target = NPS
+			type = make_puppet
+			months = 36
+		}
+		badboy = 8
+		set_country_flag = hidden_tooltip
+		random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+			owner = {
+				NPS = {
+					country_event = 100505 days=0
+				}
+			}
+		}
+		clr_country_flag = hidden_tooltip
+		spain_naples_war_tooltip = {}
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+	
+	option = {
+		name = "Bah, Italy is pointless anyways!"
+		prestige = -10
+		badboy = -2
+		relation = { who = NPS value = 100 }
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
 
 #Generic stuff
 

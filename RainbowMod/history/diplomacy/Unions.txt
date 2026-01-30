@@ -33,7 +33,15 @@ union = {
 # Aragon-Naples
 union = {
 	first = ARO
-	second = NAP
+	second = NPS
 	start_date = 1451.2.11
 	end_date = 1945.1.1
+}
+
+# Aragon-Navarre
+vassal = {
+	first = ARO
+	second = NAV
+	start_date = 1387.5.3
+	end_date = 1860.3.6
 }

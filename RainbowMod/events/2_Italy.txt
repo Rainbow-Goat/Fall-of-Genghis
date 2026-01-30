@@ -1,0 +1,208 @@
+#Naples
+
+country_event = {
+    id = 100501
+    title = "The Prince's Slight"
+    desc = "100501D"
+    
+    trigger = {
+        tag = NPS
+        year = 1836
+    }
+    
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "This is an outrage!"
+        capital_scope = {
+            consciousness = 1.5
+            militancy = 3
+        }
+        relation = { who = ARO value = -100 }
+        set_country_flag = aragons_bitch
+        
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+    
+    option = {
+        name = "The Prince simply misspoke..."
+        capital_scope = {
+            consciousness = 1
+            militancy = 2
+        }
+        relation = { who = ARO value = -50 }
+        set_country_flag = aragons_bitch
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100502
+    title = "Ara-gone?!?!"
+    desc = "100502D"
+    is_triggered_only = yes
+
+    option = {
+        name = "Remain with Spain"
+        SPA = {
+            create_vassal = NPS
+            set_country_flag = loyal_naples
+            clr_country_flag = aragons_bitch
+        }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+    
+    option = {
+        name = "They have no claim to our throne, freedom it is!"
+        SPA = {
+            set_country_flag = disloyal_naples
+            clr_country_flag = aragons_bitch
+        }
+        SIC_763 = { add_core = NPS }
+        
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 5
+            }
+        } 
+    }
+}
+
+country_event = {
+    id = 100503
+    title = "Independence?"
+    desc = "100503D"
+
+    trigger = {
+       has_country_flag = aragons_bitch 
+       year = 1840
+       month = 5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Independence at all costs!"
+        war = {
+            target = ARO
+            attacker_goal = {
+                casus_belli = become_independent
+            }
+            call_ally = no
+        }
+        set_country_flag = hidden_tooltip
+        random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+            owner = {
+                754 = { change_controller = ARO }
+            }
+        }
+        clr_country_flag = hidden_tooltip
+        naples_independence_war_tooltip = {}
+        
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+    
+    option = {
+        name = "Independence is not realistic..."
+        relation = { who = ARO value = 50 }
+        all_core = {
+                consciousness = 4
+                militancy = 2
+            }
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100504
+    title = "Freedom at last!"
+    desc = "100504D"
+    picture = "celebration"
+    
+    trigger = {
+        tag = NPS
+        war = no
+        is_vassal = no
+        NOT = { has_global_flag = spanish_union }
+    }
+    
+    mean_time_to_happen = {
+        days = 0
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "This calls for celebration!"
+        prestige = 15
+        badboy = -10
+        clr_country_flag = aragons_bitch
+        
+        ai_chance = {
+            factor = 3
+        }
+    } 
+}
+
+country_event = {
+    id = 100505
+    title = "The Audacity of Spain"
+    desc = "100505D"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "We will never submit to those foreign dogs!"
+        prestige = 10
+
+        
+        ai_chance = {
+            factor = 2
+        }
+    }
+    
+    option = {
+        name = "We cannot win a war, we must submit"
+        SPA = {
+            create_vassal = NPS
+        }
+        prestige = -50
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

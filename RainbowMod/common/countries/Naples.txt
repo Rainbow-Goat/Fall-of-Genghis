@@ -2,7 +2,7 @@ color = { 124 11 181 }
 graphical_culture = Generic
 
 party = {
-	name = "NAP_reactionary"
+	name = "NPS_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "NAP_conservative"
+	name = "NPS_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "NAP_liberal"
+	name = "NPS_liberal"
 	start_date = 1830.1.1
 	end_date = 1890.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "NAP_liberal_2"
+	name = "NPS_liberal_2"
 	start_date = 1890.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "NAP_socialist"
+	name = "NPS_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "NAP_conservative_2"
+	name = "NPS_conservative_2"
 	start_date = 2000.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "NAP_anarcho_liberal"
+	name = "NPS_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -100,7 +100,7 @@ party = {
 }
 
 party = {
-	name = "NAP_communist"
+	name = "NPS_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -114,7 +114,7 @@ party = {
 }
 
 party = {
-	name = "NAP_fascist"
+	name = "NPS_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

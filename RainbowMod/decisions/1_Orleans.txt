@@ -1,9 +1,7 @@
 political_decisions = {
-    unite_the_duchies = {
+    unite_with_borgougne = {
         potential = {
             tag = ORL
-            is_our_vassal = LYO
-            is_our_vassal = TOU
             is_our_vassal = BOR
             NOT = { has_country_flag = duchy_killed }
         }
@@ -11,17 +9,50 @@ political_decisions = {
             war = no
             state_n_government = 1
             owns = 425
-            is_our_vassal = LYO
-            is_our_vassal = TOU
             is_our_vassal = BOR
             has_recently_lost_war = no
         }
         effect = {
-            prestige = 20
-            inherit = LYO
-            inherit = TOU
             inherit = BOR
-            set_country_flag = duchy_killed
+            prestige = 20
+        }
+    }
+
+    unite_with_lyon = {
+        potential = {
+            tag = ORL
+            is_our_vassal = LYO
+            NOT = { has_country_flag = duchy_killed }
+        }
+        allow = {
+            war = no
+            romanticism = 1
+            owns = 425
+            is_our_vassal = LYO
+            has_recently_lost_war = no
+        }
+        effect = {
+            inherit = LYO
+            prestige = 20
+        }
+    }
+
+    unite_with_tou = {
+        potential = {
+            tag = ORL
+            is_our_vassal = TOU
+            NOT = { has_country_flag = duchy_killed }
+        }
+        allow = {
+            war = no
+            early_railroad = 1
+            owns = 425
+            is_our_vassal = TOU
+            has_recently_lost_war = no
+        }
+        effect = {
+            inherit = TOU
+            prestige = 20
         }
     }
 
@@ -54,19 +85,13 @@ political_decisions = {
             state_n_government = 1
         }
         effect = {
-            any_country = {
-                limit = {
-                    is_culture_group = french
-                    vassal_of = THIS
-                }
-                annex_to = THIS
-            }
             LYO = { all_core = { add_core = THIS } }
             TOU = { all_core = { add_core = THIS } }
             BOR = { all_core = { add_core = THIS } }
             prestige = -20
             badboy = 3
             set_country_flag = duchy_killed
+            crush_dukes_tooltip = {}
         }
     }
 

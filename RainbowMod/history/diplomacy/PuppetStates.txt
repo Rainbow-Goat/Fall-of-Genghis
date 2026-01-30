@@ -99,7 +99,15 @@ vassal = {
 # Aragon-Naples
 vassal = {
 	first = ARO
-	second = NAP
+	second = NPS
 	start_date = 1461.2.1
 	end_date = 1945.1.1
+}
+
+# Aragon-Navarre
+vassal = {
+	first = ARO
+	second = NAV
+	start_date = 1387.5.3
+	end_date = 1860.3.6
 }
