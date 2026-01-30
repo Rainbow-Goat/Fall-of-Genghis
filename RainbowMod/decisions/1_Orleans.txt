@@ -4,6 +4,7 @@ political_decisions = {
             tag = ORL
             is_our_vassal = LYO
             is_our_vassal = TOU
+            is_our_vassal = BOR
             NOT = { has_country_flag = duchy_killed }
         }
         allow = {
@@ -12,12 +13,14 @@ political_decisions = {
             owns = 425
             is_our_vassal = LYO
             is_our_vassal = TOU
+            is_our_vassal = BOR
             has_recently_lost_war = no
         }
         effect = {
             prestige = 20
             inherit = LYO
             inherit = TOU
+            inherit = BOR
             set_country_flag = duchy_killed
         }
     }
@@ -29,16 +32,19 @@ political_decisions = {
                 AND = {
                     is_our_vassal = LYO
                     is_our_vassal = TOU
+                    is_our_vassal = BOR
                 }
                 NOT = {
                     AND = {
                         is_our_vassal = LYO
                         is_our_vassal = TOU
+                        is_our_vassal = BOR
                     }
                 }
                 OR = {
                     is_our_vassal = LYO
                     is_our_vassal = TOU
+                    is_our_vassal = BOR
                 }
             }
             NOT = { has_country_flag = duchy_killed }
@@ -57,6 +63,7 @@ political_decisions = {
             }
             LYO = { all_core = { add_core = THIS } }
             TOU = { all_core = { add_core = THIS } }
+            BOR = { all_core = { add_core = THIS } }
             prestige = -20
             badboy = 3
             set_country_flag = duchy_killed

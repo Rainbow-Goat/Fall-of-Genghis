@@ -36,7 +36,7 @@ political_decisions = {
             ITA = { all_core = { remove_core = ITA } }
             ARO = { all_core = { add_core = ART } }
             ARO = { all_core = { remove_core = ARO } }
-            SIC = { all_core = { remove_core = SIC } }
+            NAP = { all_core = { remove_core = NAP } }
             add_accepted_culture = north_italian
             set_global_flag = aragon_italy_formed
             capital = 749
@@ -119,19 +119,16 @@ political_decisions = {
             NOT = {
                 AND = {
                     owns = 490
-                    owns = 479
+                    owns = 497
                     owns = 488
                 }
             }
-            SIC = { all_core = { owned_by = THIS } }
+            is_our_vassal = NAP
         }
         allow = {
             war = no
             NOT = { exists = SIC }
-            OR = {
-                capital = 498
-                NOT = { owns = 498 }
-            }
+            NOT = { owns = 498 }
         }
         effect = {
             change_tag = SIC
@@ -141,6 +138,11 @@ political_decisions = {
             remove_accepted_culture = catalan
             ARO = { all_core = { remove_core = ARO } }
             SPA = { all_core = { remove_core = SIC } }
+            SIC = { inherit = NAP }
+            SIC = { release = CAT }
+            SIC_763 = { add_core = SIC }
+            SIC_753 = { add_core = SIC }
+            SIC_754 = { add_core = SIC }
         }
         ai_will_do = {
             factor = 3

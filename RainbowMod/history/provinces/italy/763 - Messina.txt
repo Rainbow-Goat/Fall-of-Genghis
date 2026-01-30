@@ -4,7 +4,6 @@ add_core = ARO
 add_core = ITA
 trade_goods = sulphur
 life_rating = 35 
-add_core = SIC
 ################################################################################
 # state_building = {
 # level = 1

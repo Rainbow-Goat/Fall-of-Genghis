@@ -1,11 +1,10 @@
-owner = ARO
-controller = ARO
-add_core = ARO
+owner = NAP
+controller = NAP
+add_core = NAP
 add_core = ITA
 trade_goods = fish
 life_rating = 35 
 naval_base = 1 # state_building = {
-add_core = SIC
 ################################################################################
 # level = 1
 # building = glass_factory

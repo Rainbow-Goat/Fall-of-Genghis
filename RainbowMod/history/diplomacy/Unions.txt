@@ -21,3 +21,19 @@ union = {
 	start_date = 1491.2.11
 	end_date = 1945.1.1
 }
+
+# French union
+union = {
+	first = ORL
+	second = BOR
+	start_date = 1491.2.11
+	end_date = 1945.1.1
+}
+
+# Aragon-Naples
+union = {
+	first = ARO
+	second = NAP
+	start_date = 1451.2.11
+	end_date = 1945.1.1
+}

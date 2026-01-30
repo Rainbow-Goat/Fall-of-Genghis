@@ -1,6 +1,6 @@
-owner = ORL
-controller = ORL
-add_core = ORL
+owner = BOR
+controller = BOR
+add_core = BOR
 add_core = FRA
 trade_goods = coal
 life_rating = 30 

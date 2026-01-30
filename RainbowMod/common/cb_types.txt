@@ -49,24 +49,20 @@ mongol_subjugation
 gunboat 
 conquest 
 civil_war 
-acquire_core_state_tiny
 acquire_core_state_small
 acquire_core_state_medium
 acquire_core_state_large
 acquire_core_state_huge
 annex_core_country
-acquire_state_tiny
 acquire_state_small
 acquire_state_medium
 acquire_state_large
 acquire_state_huge
-demand_concession_casus_belli_tiny
 demand_concession_casus_belli_small
 demand_concession_casus_belli_medium
 demand_concession_casus_belli_large
 demand_concession_casus_belli_huge
 acquire_substate_region
-place_in_the_sun_tiny
 place_in_the_sun_small
 place_in_the_sun_medium
 place_in_the_sun_large
@@ -76,7 +72,6 @@ colonial_competition
 demand_reperations 
 cut_down_to_size_boxer
 free_peoples
-free_peoples_tiny
 free_peoples_small
 free_peoples_medium
 free_peoples_large
@@ -537,55 +532,6 @@ take_from_sphere = {
 
 # Acquire Core State
 
-acquire_core_state_tiny = {
-	sprite_index = 5
-	is_triggered_only = yes
-	months = 12
-	
-	construction_speed = 0.8
-	
-	badboy_factor = 0
-	prestige_factor = 2
-	peace_cost_factor = 0.001
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			is_core = THIS
-		}
-	}
-	
-	allowed_states = {
-		any_owned_province = {
-			is_core = THIS
-			is_core = TIN
-		}
-	}
-
-	po_demand_state = yes
-	po_remove_prestige = yes
-	
-	war_name = WAR_TAKE_CORE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
 
 acquire_core_state_small = {
 	sprite_index = 5
@@ -839,86 +785,6 @@ annex_core_country = {
 
 
 #Take states
-
-acquire_state_tiny = {
-	sprite_index = 6
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 0.72
-	prestige_factor = 2
-	peace_cost_factor = 0.003
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
-	}
-	
-	allowed_states = {
-		any_owned_province = {
-			is_core = TIN
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		is_colonial = no
-		not = { any_owned_province = { is_capital = yes } }
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}		
-
-	po_demand_state = yes
-	po_remove_prestige = yes
-	
-	war_name = WAR_TAKE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
 
 # Gain control of Small State
 acquire_state_small = {
@@ -1248,66 +1114,6 @@ acquire_state_huge = {
 	}
 }
 
-# Place in the Sun Tiny
-place_in_the_sun_tiny = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 12
-	
-	construction_speed = 0.5
-
-	badboy_factor = 0.86
-	prestige_factor = 2
-	peace_cost_factor = 0.001
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 1
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		any_owned_province = {
-			is_colonial = yes
-		}
-	}
-	
-	allowed_states = {
-		is_colonial = yes
-		any_owned_province = {
-			is_core = TIN
-		}
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			OR = {
-				is_coastal = yes
-				any_neighbor_province = {
-					owner = { tag = THIS }
-				}
-			}
-		}
-	}
-
-	po_demand_state = yes
-	po_remove_prestige = yes
-
-	war_name = WAR_COLONIAL_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-
 # Place in the Sun Small
 place_in_the_sun_small = {
 	sprite_index = 7
@@ -1427,64 +1233,6 @@ place_in_the_sun_medium = {
 	}
 }
 
-place_in_the_sun_large = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 12
-	
-	construction_speed = 0.5
-
-	badboy_factor = 0.86
-	prestige_factor = 2
-	peace_cost_factor = 0.004
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 1
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		any_owned_province = {
-			is_colonial = yes
-		}
-	}
-	
-	allowed_states = {
-		any_owned_province = {
-			is_core = LRG
-		}
-		is_colonial = yes
-	}
-	
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			OR = {
-				is_coastal = yes
-				any_neighbor_province = {
-					owner = { tag = THIS }
-				}
-			}
-		}
-	}
-
-	po_demand_state = yes
-	po_remove_prestige = yes
-
-	war_name = WAR_COLONIAL_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
 
 place_in_the_sun_huge = {
 	sprite_index = 7
@@ -1515,7 +1263,10 @@ place_in_the_sun_huge = {
 	
 	allowed_states = {
 		any_owned_province = {
-			is_core = HUG
+			OR = {
+				is_core = LRG
+				is_core = HUG
+			}
 		}
 		is_colonial = yes
 	}
@@ -1663,80 +1414,6 @@ cut_down_to_size_boxer = {
 
 # Free Peoples
 
-free_peoples_tiny = {
-	sprite_index = 9
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 0.5
-	
-	badboy_factor = 0.86
-	prestige_factor = 1
-	peace_cost_factor = 0.003
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 60
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		NOT = { tag = GHO  tag = TIN tag = SMA  tag = MED  tag = LRG  tag = HUG }
-		THIS = {
-			civilized = yes
-		}
-		civilized = yes
-	}
-
-	allowed_countries = {
-		number_of_states = 2
-		NOT = {
-			tag = FROM
-			this_culture_union = FROM	
-		}
-		from = {
-			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
-			OR = {
-				exists = yes
-				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
-			}
-		}
-		
-        any_owned_province = {
-            is_core = TIN
-            is_core = FROM
-            NOT =
-            {
-                is_core = THIS
-            }
-        }
-        is_releasable_vassal = FROM
-    }
-
-    allowed_states = {
-        any_owned_province = { 
-			is_core = FROM
-            is_core = TIN
-		}
-    }
-
-	po_transfer_provinces = yes
-	po_remove_prestige = yes
-	
-	war_name = WAR_FREE_NAME
-	
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-}
-
 free_peoples_small = {
 	sprite_index = 9
 	is_triggered_only = yes
@@ -1758,7 +1435,7 @@ free_peoples_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { tag = GHO  tag = TIN tag = SMA  tag = MED  tag = LRG  tag = HUG }
+		NOT = { tag = GHO tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			civilized = yes
 		}
@@ -1772,7 +1449,7 @@ free_peoples_small = {
 			this_culture_union = FROM	
 		}
 		from = {
-			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
+			NOT = { OR = { tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
 				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
@@ -1832,7 +1509,7 @@ free_peoples_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
+		NOT = { tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			civilized = yes
 		}
@@ -1846,7 +1523,7 @@ free_peoples_medium = {
 			this_culture_union = FROM	
 		}
 		from = {
-			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
+			NOT = { OR = { tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
 				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
@@ -1906,7 +1583,7 @@ free_peoples_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
+		NOT = { tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			civilized = yes
 		}
@@ -1920,7 +1597,7 @@ free_peoples_large = {
 			this_culture_union = FROM	
 		}
 		from = {
-			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
+			NOT = { OR = { tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
 				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
@@ -1980,7 +1657,7 @@ free_peoples_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
+		NOT = { tag = GHO  tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		THIS = {
 			civilized = yes
 		}
@@ -1994,7 +1671,7 @@ free_peoples_huge = {
 			this_culture_union = FROM	
 		}
 		from = {
-			NOT = { OR = { tag = TIN tag = SMA tag = MED tag = LRG tag = HUG } }
+			NOT = { OR = { tag = SMA tag = MED tag = LRG tag = HUG } }
 			OR = {
 				exists = yes
 				NOT = { OR = { tag = GER tag = SCA tag = ITA tag = YUG tag = ROM tag = CZH tag = PLC } }
@@ -2440,58 +2117,6 @@ humiliate = {
 	}
 }
 
-# Demand Concession on Tiny State
-demand_concession_casus_belli_tiny = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 0
-	construction_speed = 0.5
-	crisis = no
-	
-	badboy_factor = 0.8
-	prestige_factor = 0.1
-	peace_cost_factor = 0.002
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 60
-	
-	good_relation_prestige_factor = 0
-	good_relation_infamy_factor = 0
-	good_relation_militancy_factor = 0
-	
-	always = no
-
-	can_use = {
-		civilized = no
-		THIS = {
-			civilized = yes
-		}
-		number_of_states = 2
-	}
-	
-	allowed_states = {
-		any_owned_province = {
-			is_core = TIN
-			is_colonial = no
-		}
-	}
-	
-	po_demand_state = yes
-	po_remove_prestige = yes
-	
-	war_name = WAR_CONCESSION_NAME
-
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.1
-		}
-	}
-}
 
 # Demand Concession on Small State
 demand_concession_casus_belli_small = {

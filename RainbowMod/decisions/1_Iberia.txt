@@ -7,6 +7,7 @@ political_decisions = {
 					tag = NAV
 					tag = CAS
 					tag = ARO
+					tag = CAT
 				}
 		}
 		allow = {
