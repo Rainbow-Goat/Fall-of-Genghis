@@ -3,26 +3,18 @@ political_decisions = {
 		potential = {
 			is_culture_group = iberian
 			NOT = {exists = SPA}
-				OR = {
-					tag = NAV
-					tag = CAS
-					tag = ARO
-					tag = CAT
-				}
+			OR = {
+				tag = NAV
+				tag = CAS
+				tag = ARO
+				tag = CAT
+			}
 		}
 		allow = {
 			state_n_government = 1
 			SPA = {
 				all_core = {
-					OR = {
-						owner = {
-							vassal_of = THIS
-						}
-						owner = {
-							in_sphere = THIS
-						}
-						owned_by = THIS
-					}
+					owned_by = THIS
 				}
 			}
 		}
@@ -42,23 +34,14 @@ political_decisions = {
 			nationalism_n_imperialism = 1
 		}
 		effect = {
-			ALA = {
-				all_core = {
-					limit = {
-						OR = {
-							region = SPA_503
-							region = CAS_482
-							region = SPA_512
-							region = POR_518
-							region = POR_521
-							region = SPA_512
-							region = SPA_513
-						}
-					}
-					add_core = SPA
-				}
-			}
-			set_country_flag = andalus_killed
+			SPA_503 = { add_core = SPA }
+			CAS_482 = { add_core = SPA }
+			SPA_512 = { add_core = SPA }
+			POR_518 = { add_core = SPA }
+			POR_521 = { add_core = SPA }
+			SPA_512 = { add_core = SPA }
+			SPA_513 = { add_core = SPA }
+		    set_country_flag = andalus_killed
 		}
 	}
 	annex_naples = {
@@ -80,7 +63,6 @@ political_decisions = {
 			}
 			add_accepted_culture = south_italian
 			prestige = 20
-			badboy = 4
 		}
 	}
 }

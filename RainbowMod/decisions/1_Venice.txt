@@ -50,4 +50,33 @@ political_decisions = {
             prestige = 40
         }
     }
+
+    push_into_lombardy = {
+        potential = {
+            tag = VEN
+            exists = LOM
+            NOT = { has_country_flag = lombardy_push }
+        }
+        allow = {
+            war = no
+            NOT = {
+                badboy = 15
+            }
+            romanticism = 1
+        }
+        effect = {
+            war = {
+                target = LOM
+                attacker_goal = {
+                    casus_belli = conquest
+                }
+                defender_goal = {
+                    casus_belli = status_quo
+                }
+                call_ally = yes
+            }
+            badboy = -18
+            set_country_flag = lombardy_push
+        }
+    }
 }

@@ -14,6 +14,7 @@
 # 100500 = Italy stuff
 # 100600 = History Events
 # 100700 = Germany stuff
+# 100800 = South America stuff
 
 ###vanilla
 # Ideology - 1000

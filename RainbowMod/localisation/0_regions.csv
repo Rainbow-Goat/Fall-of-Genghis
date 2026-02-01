@@ -28,3 +28,5 @@ naples_independence_war_tooltip;§RThe Aragonese guards stationed in Naples will
 spanish_union_tooltip;§RIf Naples are still a vassal under Aragon, they may take this union as pretext to declare independence!§!§b;x;
 spain_naples_war_tooltip;§RThis will allow us to vassalize Naples, and in the future we will be able to accept South Italian and annex them.§!§b;x;
 crush_dukes_tooltip;§RThis will lock us out of uniting with the duchies in a peaceful and diplomatic manner!§b;x;
+cas_new_world_tooltip;§RThis will stop us from unifying Spain diplomatically, but we can still gain cores on all of Iberia through conquest.§b;x;
+subjugate_peru_tooltip;§RThis will give the Peruvians the option to submit to us, should they deny our demands we will gain a wargoal to puppet them.§b;x;
