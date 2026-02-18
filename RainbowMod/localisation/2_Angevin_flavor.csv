@@ -1,9 +1,21 @@
 key;ENGLISH;x
 EVTDESC100000;We have finally defeated William the Pretender! With his forces pushed out of the island we can finally restore our control over Wales, and the people of Englaland may rest easy now.;x;
-EVTNAME100000;William is Defeated!;x;
-unite_with_englaland_title;Unite with Englaland;;x;
-unite_with_englaland_desc;After 1000 years we finally have subjugated the Saxons! Now we can finally unite our two realms under one flag, the Angevin Empire! Long live the Emperor!;;x;
-liberate_the_french_title;Liberate the French;;x;
-liberate_the_french_desc;The French people are oppressed by themselves! Those old, foolish dukes refuse to allow their subjects to join our splendid empire. We must liberate them from those disgruntled idiots so that they can finally be free!;;x;
+EVTNAME100000;William is Defeated!;;x;
+EVTNAME100001;Defeated once more...;x;
+EVTDESC100001;We have regretably once again failed to lay claim to the Aenglish throne... Having been thoroughly defeated by the Aenglish we have lost the already quite minor support we had amongst the Normandien people and even our advisors have turned against us. We now have two options, face the truth and abandon these claims and focus on establishing our power in the French Confederation, or we could still cling to this childish delusion of a grand conquest of Englaland. What will it be?
+EVTNAME100002;Victory at Last!;x;
+EVTDESC100002;The Aenglish armies have been crushed, their navy is at the bottom of the sea, the king has fled the nation and we now hold absolute control of Englaland. We were ridiculed, they declared our king "William the Failed" but now no one dares laugh at us! We have persevered great turmoil and have come out the other side a strong people. Soon, all of Europe shall know our wrath...;x;
+EVTNAME100003;A... Stalemate?;x;
+EVTDESC100003;So in a very peculiar turn of events we have failed to defeat the Aenglish armies, but they have also failed to defeat ours? So while we failed to seize their throne we can still very much lay claim to it, and since they failed to push us out of the isles I suppose we are the legitimate controllers of the welsh kingdom now? All there is to do is start rebuilding and preparing for the next war, I suppose...?;x;
+unite_with_englaland_title;Unite with Englaland;x;
+unite_with_englaland_desc;After 1000 years we finally have subjugated the Saxons! Now we can finally unite our two realms under one flag, the Angevin Empire! Long live the Emperor!;x;
+liberate_the_french_title;Unify our Crowns;x;
+liberate_the_french_desc;By clever politicking and conquest we have finally unified the French realm under our fist, and with this we can finally unite the realms of France andd England as one nation, united by the glory of our king! They will retain an independent parliament but it will only be for show, the real power will still be in the hands of the monarch and his two crowns. You could almost call him a dual monarch, leading a sort of dual-monarchy...;;x;
 get_saxon_accepted_title;Commision the Domesday book;;x;
 get_saxon_accepted_desc;We control the lands of Englaland, but we lack the knowledge of how many people and what kind of infrastructure there is. We will remedy this by commisioning a grand survey of all our lands and introducing a more fair taxation system.;;x;
+conquest_of_orleans_title;Conquest of Orléans;x;
+conquest_of_orleans_desc;Long has the duke of Orleans claimed to be the heir to the Kingdom of France but that is a ridiculous claim! The kingdom was crushed, and its crown was placed firmly in the gutter. However thanks to our capable leadership we have been able to annex the lands of those morons and now we are the obvious heir to the kingdom!;x;
+conquest_of_east_france_title;Conquest of Eastern France;x;
+conquest_of_east_france_desc;We have finally annexed the eastern duchies of France, and can now add them to the (remarkably long) list of titles our king has. No Frenchman shall have to live in fear of Burgundy or Orleanian reach now that our glorious kingdom controls the land.;x;
+conquest_of_toulouse_title;Conquest of Toulouse;x;
+conquest_of_toulouse_desc;The lands of Bordeaux used to belong to our family, but after the we lost the second invasion of Englaland it was taken by the scheming Valois family. However, they lost their kingdom many a year ago and now we are able to lay claim to the lands of Aquitaine once more.;x;

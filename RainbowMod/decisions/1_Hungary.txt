@@ -61,7 +61,6 @@ political_decisions = {
         effect = {
             AUS_647 = { add_core = THIS }
             AUS_654 = { add_core = THIS }
-            AUS_657 = { add_core = THIS }
             ROM = {
                 all_core = {
                     add_core = THIS

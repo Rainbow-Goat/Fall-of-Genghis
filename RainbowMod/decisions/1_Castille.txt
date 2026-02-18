@@ -267,10 +267,12 @@ political_decisions = {
             }
             has_country_flag = cas_new_world
             has_country_flag = peru_trade_offer
-            is_our_vassal = PEU
+            OR = {
+                is_our_vassal = PEU
+                PEU = { all_core = { owned_by = THIS } }
+            }
         }
         allow = {
-            is_our_vassal = PEU 
             inorganic_chemistry = 1
             relation = { who = PEU value = 150 }
         }
