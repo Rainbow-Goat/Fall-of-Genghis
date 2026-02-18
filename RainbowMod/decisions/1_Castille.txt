@@ -28,6 +28,7 @@ political_decisions = {
         }
         effect = {
             inherit = ARO
+            inherit = NAV
             change_tag = SPA
             prestige = 25
             set_global_flag = spanish_union

@@ -34,13 +34,6 @@ political_decisions = {
 				tag = SCO
 				tag = IRE
 			}
-			NOT = {
-				AND = {
-					accepted_culture = saxon
-					accepted_culture = scottish
-					accepted_culture = irish
-				}
-			}
 		}
 		allow = {
 			AND = {
@@ -61,14 +54,6 @@ political_decisions = {
 				}
 			}
 			war = no
-			NOT = {
-				AND = {
-					accepted_culture = saxon
-					accepted_culture = scottish
-					accepted_culture = irish
-				}
-			}
-
 		}
 		effect = {
 			change_tag = GBR
@@ -105,7 +90,10 @@ political_decisions = {
 
 	reunite_with_ireland = {
 		potential = {
-			tag = SCO
+			OR = {
+				tag = SCO
+				tag = GBR
+			}
 			has_country_flag = irish_rebellion
 		}
 		allow = {
@@ -115,7 +103,6 @@ political_decisions = {
 			}
 		}
 		effect = {
-			add_accepted_culture = irish
 			IRE = { all_core = { add_core = THIS} }
 			prestige = 30
 			clr_country_flag = irish_struggles

@@ -804,6 +804,11 @@ mongological_excavations = {
 	icon = 5
 }
 
+batbayarsutra = {
+	global_population_growth = 0.02
+	icon = 17
+}
+
 #Hungary
 
 magyarization = {
@@ -825,47 +830,42 @@ had_cholera = {
 #Scotland - Ireland stuff
 
 tax_repayment = {
-	local_artisan_output = -0.2
-	local_factory_output = -0.1
+	local_artisan_output = -1.0
+	local_factory_output = -0.6
 	icon = 12
 }
 
 harsher_taxes = {
-	local_artisan_output = 0.2
-	local_factory_output = 0.1
+	local_artisan_output = 0.6
+	local_factory_output = 0.4
 	icon = 11
 }
 
 scottish_language = {
-	global_assimilation_rate = 2
-	global_immigrant_attract = -2
+	assimilation_rate = 3
+	immigrant_push = 1.5
 	icon = 7
 }
 
 irish_language = {
-	global_assimilation_rate = -0.5
-	global_immigrant_attract = 0.5
+	assimilation_rate = -3
+	immigrant_push = -1.5
 	icon = 8
 }
 
 celtic_language = {
-	global_assimilation_rate = 3
+	global_assimilation_rate = 7
 	icon = 5
 }
 
 famine = {
 	immigrant_push = 5
-	population_growth = -0.05
+	population_growth = -0.07
 	icon = 20
 }
 
 lesser_famine = {
 	immigrant_push = 3
-	population_growth = -0.03
+	population_growth = -0.04
 	icon = 20
-}
-
-batbayarsutra = {
-	global_population_growth = 0.02
-	icon = 17
 }
