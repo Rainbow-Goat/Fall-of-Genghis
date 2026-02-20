@@ -696,12 +696,12 @@ country_event = {
 
     option = {
         name = "100027OPTA"
-        THIS = {
-            any_core = {
-            limit = {
-                is_primary_culture = yes
+        THIS = { 
+            ENG_271 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
-            add_province_modifier = { name = famine duration = 730 }
+            ENG_266 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
             all_core = {
                 any_pop = {
@@ -732,11 +732,14 @@ country_event = {
     option = {
         name = "100027OPTB"
         THIS = {
-            any_core = {
-            limit = {
-                is_core = IRE
+            ENG_254 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
-            add_province_modifier = { name = famine duration = 730 }
+            ENG_263 = {
+                add_province_modifier = { name = famine duration = 730 }
+            }
+            ENG_260 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
             all_core = {
                 any_pop = {
@@ -948,6 +951,8 @@ country_event = {
         ANG = { country_event = 100032 }
         FRA = { country_event = 100032 }
         BRG = { country_event = 100032 }
+        ORL = { country_event = 100032 }
+        SCA = { country_event = 100032 }
 
 
         ai_chance = {
@@ -1054,7 +1059,7 @@ country_event = {
         has_country_flag = irish_struggles
         NOT = { has_country_flag = irish_rebellion }
         NOT = {
-            check_variable = { which = irish_nationalism value = 6 }
+            check_variable = { which = irish_nationalism value = 5 }
         }
     }
 
