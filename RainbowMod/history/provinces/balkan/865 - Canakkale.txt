@@ -1,5 +1,5 @@
-owner = BYZ
-controller = BYZ
-add_core = BYZ
+owner = CAP
+controller = CAP
+add_core = CAP
 trade_goods = fish
 life_rating = 35 

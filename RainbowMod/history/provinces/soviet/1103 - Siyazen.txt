@@ -1,6 +1,6 @@
-owner = ARM
-controller = ARM
-add_core = ARM
+owner = GRO
+controller = GRO
+add_core = GRO
 add_core = AZB
 trade_goods = fruit
 life_rating = 35 

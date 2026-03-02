@@ -1,9 +1,8 @@
-color = { 123  0  148 }
-presidential_dictatorship = { 238 146 255 }
+color = { 248 255 50 }
 graphical_culture = EuropeanGC
 
 party = {
-	name = "ERE_conservative"
+	name = "CAP_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -17,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "ERE_reactionary"
+	name = "CAP_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -31,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "ERE_liberal"
+	name = "CAP_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -46,7 +45,7 @@ party = {
 
 
 party = {
-	name = "ERE_anarcho_liberal"
+	name = "CAP_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -60,7 +59,7 @@ party = {
 }
 
 party = {
-	name = "ERE_socialist"
+	name = "CAP_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -74,7 +73,7 @@ party = {
 }
 
 party = {
-	name = "ERE_communist"
+	name = "CAP_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -88,7 +87,7 @@ party = {
 }
 
 party = {
-	name = "ERE_fascist"
+	name = "CAP_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

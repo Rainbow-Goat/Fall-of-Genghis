@@ -70,6 +70,8 @@ ART     = "countries/Aragon-Italy.txt"
 PRU     = "countries/Prussia.txt"
 BOR     = "countries/Bourgogne.txt"
 NPS     = "countries/Naples.txt"
+CAP     = "countries/Cappadocia.txt"
+ERE     = "countries/Byzantium.txt"
 
 #Meta Stuff
 GHO     = "countries/Ghost Country.txt"

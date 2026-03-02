@@ -1162,3 +1162,5 @@ spain_naples_war_tooltip = {}
 crush_dukes_tooltip = {}
 cas_new_world_tooltip = {}
 subjugate_peru_tooltip = {}
+byz_plot_tooltip = {}
+byz_plot_succede_tooltip = {}

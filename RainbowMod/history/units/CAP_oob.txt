@@ -1,5 +1,31 @@
+leader = {
+	name = "Giorgios Konstantinidis"
+	date = 1829.1.1
+	type = land
+	personality = implacable
+	background = rising_star
+	prestige = 0.5
+}
+leader = {
+	name = "Nikos Vlahos"
+	date = 1820.1.1
+	type = land
+	personality = chivalrous
+	background = cartographer
+	prestige = 0.3
+}
+leader = {
+	name = "Christos Lazaridis"
+	date = 1825.1.1
+	type = land
+	personality = defiant
+	background = gifted_administrator
+	prestige = 0.3
+}
+
+
 army = {
-name = "Les fils du Vladimir"
+name = "Army of Constantinople"
 location = 860
 regiment = {
 name = "Regiment 0"
@@ -58,7 +84,7 @@ home = 876
 }
 }
 army = {
-name = "Les fils du Vladimir"
+name = "Army of Smyrna"
 location = 875
 regiment = {
 name = "Regiment 0"

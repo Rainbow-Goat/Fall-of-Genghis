@@ -1,0 +1,190 @@
+#Cappadocia
+country_event = {
+    id = 100900
+    title = "The Byzantinist Plot"
+    desc = "100900D"
+    picture = Picture
+    
+    trigger = {
+        tag = CAP
+        month = 2
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "This is troubling"
+        set_variable = { which = byz_coup value = 0 }
+        set_country_flag = byzantinist_plot
+        byz_plot_tooltip = {}
+    }
+}
+
+country_event = {
+    id = 100901
+    title = "The Military Coup"
+    desc = "100901D"
+    picture = Picture
+    
+    trigger = {
+        tag = CAP
+        OR = {
+            NOT = { owns = 879 }
+            NOT = { owns = 876 }
+        }
+        has_country_flag = byzantinist_plot
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "May they all rot in hell..."
+        change_tag = ERE
+        government = presidential_dictatorship
+        ruling_party_ideology = reactionary
+        upper_house = { ideology = reactionary value = 4 }
+        clr_country_flag = byzantinist_plot
+    }
+}
+
+country_event = {
+    id = 100902
+    title = "The Military Coup"
+    desc = "100902D"
+    picture = Picture
+    
+    trigger = {
+        tag = CAP
+        check_variable = { which = byz_coup value = 3 }
+        has_country_flag = byzantinist_plot
+        war = no
+        AND = {
+            owns = 879
+            owns = 876
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Cappadocia has fallen"
+        change_tag = ERE
+        government = presidential_dictatorship
+        set_country_flag = hidden_tooltip
+        random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+            owner = {
+                ruling_party_ideology = reactionary
+                upper_house = { ideology = reactionary value = 2 }
+            }
+        }
+        clr_country_flag = hidden_tooltip
+        clr_country_flag = byzantinist_plot
+        byz_plot_succede_tooltip = {}
+    }
+    
+    option = {
+        name = "Cappadocia stands tall"
+        clr_country_flag = byzantinist_plot
+
+        
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100903
+    title = "The End of the Plot"
+    desc = "100903D"
+    picture = Picture
+    
+    trigger = {
+        tag = CAP
+        NOT = { has_country_flag = byzantinist_plot }
+        year = 1843
+        month = 3
+        day = 16
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Sun rises once more for our Empire"
+        prestige = 30
+        set_country_flag = cap_no_coup
+    }
+}
+
+country_event = {
+    id = 100904
+    title = "Dissapearing Stockpiles"
+    desc = "100904D"
+    picture = Picture
+    
+    trigger = {
+        tag = CAP
+        check_variable = { which = byz_coup value = 0 }
+        year = 1837
+        month = 2
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We will find the stolen supplies"
+        war_exhaustion = 4
+        change_variable = { which = byz_coup value = 1 }
+    }
+}
+
+country_event = {
+    id = 100905
+    title = "Embezzlement problems"
+    desc = "100905D"
+    picture = Picture
+    
+    trigger = {
+        tag = CAP
+        check_variable = { which = byz_coup value = 1 }
+        year = 1838
+        month = 5
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "If only our bureacracy was more efficient..."
+        treasury = -100000
+        change_variable = { which = byz_coup value = 1 }
+    }
+}
+
+country_event = {
+    id = 100906
+    title = "General Assassinated"
+    desc = "100905D"
+    picture = Picture
+    
+    trigger = {
+        tag = CAP
+        check_variable = { which = byz_coup value = 2 }
+        year = 1839
+        month = 4
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "A great loss to the entire nation"
+        random_list = {
+            40 = { kill_leader = 37 }
+            35 = { kill_leader = 38 }
+            25 = { kill_leader = 39 }
+        }
+        change_variable = { which = byz_coup value = 1 }
+    }
+}
