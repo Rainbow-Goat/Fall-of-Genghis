@@ -19,10 +19,8 @@ political_decisions = {
 
     defensive_expansion = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_path
+            tag = ERE
             owns = 810
-            NOT = { has_country_flag = alexandrian_path }
             NOT = { 794 = { is_core = THIS } }
         }
         allow = {
@@ -42,10 +40,7 @@ political_decisions = {
 
     restoring_old_illyria = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_path
-            NOT = { has_country_flag = balkan_domination }
-            NOT = { has_country_flag = alexandrian_path }
+            tag = ERE
             NOT = { 783 = { is_core = THIS } }
         }
         allow = {
@@ -60,14 +55,12 @@ political_decisions = {
             AUS_771 = { add_core = THIS }
             AUS_780 = { add_core = THIS }
             TUR_788 = { add_core = THIS }
-            set_country_flag = balkan_domination
         }
     }
 
     recruit_the_bulgarians = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_path
+            tag = ERE
             810 = { is_core = BYZ }
             NOT = { accepted_culture = bulgarian }
         }
@@ -85,8 +78,7 @@ political_decisions = {
 
     local_serbian_administrators = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_domination
+            tag = ERE
             NOT = { accepted_culture = serb }
         }
         allow = {

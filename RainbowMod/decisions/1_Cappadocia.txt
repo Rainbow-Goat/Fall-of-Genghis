@@ -22,8 +22,7 @@ political_decisions = {
         }
         allow = {
             war = no
-            biologism = 1
-            iron_railroad = 1
+            state_n_government = 1
             owns = 876
             owns = 878
             owns = 879
