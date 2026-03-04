@@ -55,14 +55,14 @@ political_decisions = {
         potential = {
             tag = VEN
             exists = LOM
-            NOT = { has_country_flag = lombardy_push }
+            NOT = { has_country_flag = violent_ita_unify }
+            NOT = { has_country_flag = italian_league }
         }
         allow = {
             war = no
             NOT = {
                 badboy = 15
             }
-            romanticism = 1
         }
         effect = {
             war = {
@@ -76,7 +76,116 @@ political_decisions = {
                 call_ally = yes
             }
             badboy = -18
-            set_country_flag = lombardy_push
+            set_country_flag = violent_ita_unify
+        }
+    }
+
+    restore_the_italian_league = {
+        potential = {
+            tag = VEN
+            NOT = { has_country_flag = violent_ita_unify }
+            NOT = { has_country_flag = italian_league }
+        }
+        allow = {
+            war = no
+            exists = LOM
+        }
+        effect = {
+            set_country_flag = italian_league
+            any_country = {
+				limit = {
+					is_culture_group = italian
+                    NOT = {
+                        OR = {
+                            tag = PAP
+                            tag = NPS
+                            tag = SIC
+                            in_sphere = ARO
+                        }
+                    }
+				}
+				country_event = { id = 100500 days = 0 }
+			}
+        }
+    }
+
+    kick_out_provence = {
+        potential = {
+            tag = VEN
+            has_country_flag = italian_league
+            NOT = { has_country_flag = ita_provence_war }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+        effect = {
+            war = {
+                target = PRO
+                attacker_goal = {
+                    casus_belli = liberate_country
+                    country = SAR
+                }
+                defender_goal = {
+                    casus_belli = conquest
+                    country = LOM
+                }
+                call_ally = yes
+            }
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    PRO = {
+                        badboy = -20
+                    }
+                    VEN = {
+                        badboy = -5
+                    }
+                }
+            }
+            clr_country_flag = hidden_tooltip
+            set_country_flag = ita_provence_war
+        }
+    }
+
+    unify_the_league = {
+        potential = {
+            tag = VEN
+            has_country_flag = italian_league
+        }
+        allow = {
+            war = no
+            ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            alliance_with = THIS
+                        }
+                        culture = south_italian
+                        OR = {
+                            is_core = ARO
+                            is_core = PAP
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = NIL
+            any_country = {
+				limit = {
+					is_culture_group = italian
+                    OR = {
+                        in_sphere = THIS
+                        alliance_with = THIS
+                    }
+				}
+				country_event = { id=100506 days=0 }
+			}
         }
     }
 }

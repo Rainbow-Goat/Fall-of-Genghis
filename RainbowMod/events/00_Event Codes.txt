@@ -17,6 +17,8 @@
 # 100800 = South America stuff
 # 100900 = Mideast stuff
 #   100900 = Cappadocian stuff
+# 101010 = Static modifiers attached to certain cities (Like Constantinople)
+
 
 ###vanilla
 # Ideology - 1000

@@ -72,6 +72,7 @@ BOR     = "countries/Bourgogne.txt"
 NPS     = "countries/Naples.txt"
 CAP     = "countries/Cappadocia.txt"
 ERE     = "countries/Byzantium.txt"
+NIL     = "countries/North Italian League.txt"
 
 #Meta Stuff
 GHO     = "countries/Ghost Country.txt"
