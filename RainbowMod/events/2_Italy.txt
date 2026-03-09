@@ -217,6 +217,7 @@ country_event = {
     option = {
         name = "The League is needed"
         create_alliance = VEN
+        set_country_flag = nil_league_yes
         
         ai_chance = {
             factor = 1

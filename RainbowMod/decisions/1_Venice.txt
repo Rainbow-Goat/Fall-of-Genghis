@@ -100,7 +100,6 @@ political_decisions = {
                             tag = PAP
                             tag = NPS
                             tag = SIC
-                            in_sphere = ARO
                         }
                     }
 				}
@@ -165,6 +164,9 @@ political_decisions = {
                         owner = {
                             alliance_with = THIS
                         }
+                        owner = {
+                            has_country_flag = nil_league_yes
+                        }
                         culture = south_italian
                         OR = {
                             is_core = ARO
@@ -182,10 +184,41 @@ political_decisions = {
                     OR = {
                         in_sphere = THIS
                         alliance_with = THIS
+                        has_country_flag = nil_league_yes
+                    }
+                    NOT = {
+                        tag = NPS
+                        tag = PAP
+                        tag = SIC
+                        alliance_with = ARO
                     }
 				}
 				country_event = { id=100506 days=0 }
 			}
+        }
+    }
+
+    nil_unify_italy = {
+        potential = {
+            tag = NIL
+        }
+        allow = {
+            war = no
+            PAP = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            NPS = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            change_tag = ITA
+            add_accepted_culture = south_italian
+            prestige = 25
         }
     }
 }

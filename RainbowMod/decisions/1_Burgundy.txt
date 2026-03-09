@@ -16,7 +16,6 @@ political_decisions = {
         }
     }
 
-
     deal_with_picard = {
         potential = {
             tag = BRG
