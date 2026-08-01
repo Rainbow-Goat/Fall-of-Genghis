@@ -1,7 +1,7 @@
 political_decisions = {
-    securing_macedonia = {
+    liberate_macedonia = {
         potential = {
-            tag = ERE
+            tag = GRE
         }
         allow = {
             war = no
@@ -19,7 +19,7 @@ political_decisions = {
 
     defensive_expansion = {
         potential = {
-            tag = ERE
+            tag = GRE
             owns = 810
             NOT = { 794 = { is_core = THIS } }
         }
@@ -38,9 +38,9 @@ political_decisions = {
         }
     }
 
-    restoring_old_illyria = {
+    conquer_illyria = {
         potential = {
-            tag = ERE
+            tag = GRE
             NOT = { 783 = { is_core = THIS } }
         }
         allow = {
@@ -60,8 +60,8 @@ political_decisions = {
 
     recruit_the_bulgarians = {
         potential = {
-            tag = ERE
-            810 = { is_core = ERE }
+            tag = GRE
+            810 = { is_core = GRE }
             NOT = { accepted_culture = bulgarian }
         }
         allow = {
@@ -78,7 +78,7 @@ political_decisions = {
 
     local_serbian_administrators = {
         potential = {
-            tag = ERE
+            tag = GRE
             NOT = { accepted_culture = serb }
         }
         allow = {
@@ -96,60 +96,24 @@ political_decisions = {
         }
     }
 
-    securing_naples = {
+    abandon_anatolia = {
         potential = {
-            tag = ERE
-            NOT = { 754 = { is_core = THIS } }
+            tag = GRE
+            NOT = {
+                AND = {
+                    owns = 862
+                    owns = 869
+                }
+            }
+            862 = { is_core = GRE }
         }
         allow = {
             war = no
-            owns = 754
-            owns = 753
         }
         effect = {
-            prestige = 20
-            SIC_754 = { add_core = THIS }
-            SIC_753 = { add_core = THIS }
-            add_accepted_culture = south_italian
+            TUR_869 ={ remove_core = THIS }
+            TUR_863 ={ remove_core = THIS }
+            remove_accepted_culture = novum_greek
         }
     }
-
-    hold_triumph = {
-        potential = {
-            tag = ERE
-            has_country_flag = byz_time_limit
-        }
-        allow = {
-            war = no
-            owns = 754
-            owns = 753
-            owns = 849
-            owns = 806
-            owns = 809
-        }
-        effect = {
-            prestige = 50
-            clr_country_flag = byz_time_limit
-            add_casus_belli = { target = PAP type = take_capital months = 18 }
-        }
-    }
-
-    crown_emperor = {
-        potential = {
-            tag = ERE
-            has_country_flag = byz_no_empire
-            NOT = { has_country_flag = byz_time_limit }
-        }
-        allow = {
-            war = no
-            owns = 749
-        }
-        effect = {
-            prestige = 50
-            PAP_752 = { add_core = THIS }
-            clr_country_flag = byz_no_empire
-            government = absolute_monarchy
-            event = { id = 100911 days = 0}
-        }
-    }
-}
+} 

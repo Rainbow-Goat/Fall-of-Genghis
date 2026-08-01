@@ -70,6 +70,7 @@ political_decisions = {
 				all_core = {
 					limit = {
 						culture = south_german
+                        NOT = { prov_id = 2560 }
 					}
 					add_core = SGF
 				}

@@ -21,7 +21,7 @@ country_event = {
 
 country_event = {
     id = 101011
-    title = "The Loss of §PROVINCENAME§!"
+    title = "The Loss of Constantinople"
     desc = "101011D"
     picture = Picture
     

@@ -1,24 +1,10 @@
 political_decisions = {
-    coup_debug = {
-        potential = {
-            tag = CAP
-        }
-        allow = {
-            tag = CAP
-        }
-        effect = {
-            change_tag = ERE
-            government = presidential_dictatorship
-            ruling_party_ideology = reactionary
-            upper_house = { ideology = reactionary value = 6 }
-        }
-    }
-
     
     the_kayseri_accords = {
         potential = {
             tag = CAP
             NOT = { accepted_culture = anatolian }
+            has_country_flag = cap_no_coup
         }
         allow = {
             war = no
@@ -37,6 +23,7 @@ political_decisions = {
         potential = {
             tag = CAP
             NOT = { accepted_culture = antiqua_greek }
+            has_country_flag = cap_no_coup
         }
         allow = {
             nationalism_n_imperialism = 1
@@ -100,6 +87,7 @@ political_decisions = {
         potential = {
             tag = CAP
             NOT = { 926 = { is_core = THIS } }
+            has_country_flag = cap_no_coup
             accepted_culture = armenian
         }
         allow = {

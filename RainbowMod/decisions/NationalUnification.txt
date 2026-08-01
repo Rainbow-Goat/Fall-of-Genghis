@@ -192,46 +192,12 @@ political_decisions = {
 
 		allow = {
 			war = no
-			SER = {
-				OR = {
-					AND = {
-						exists = yes
-						OR = {
-							part_of_sphere = no
+			YUG = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
 							in_sphere = THIS
-							sphere_owner = { is_sphere_leader_of = THIS }
-						}
-					}
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = { in_sphere = THIS }
-							owner = {
-								is_culture_group = south_slavic
-								relation = { who = THIS value = 100 }
-							}
-						}
-					}
-				}
-			}
-			CRO = {
-				OR = {
-					AND = {
-						exists = yes
-						OR = {
-							part_of_sphere = no
-							in_sphere = THIS
-							sphere_owner = { is_sphere_leader_of = THIS }
-						}
-					}
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = { in_sphere = THIS }
-							owner = {
-								is_culture_group = south_slavic
-								relation = { who = THIS value = 100 }
-							}
 						}
 					}
 				}

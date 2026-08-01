@@ -1,0 +1,27 @@
+name = "The War for Anatolia"
+
+1835.2.11 = {
+        add_attacker = RUM
+        add_defender = CAP
+
+        war_goal = { 
+            casus_belli = acquire_state_medium
+            actor = RUM
+            receiver = CAP
+            state_province_id = 876
+        }
+
+        war_goal = { 
+            casus_belli = acquire_state_small
+            actor = RUM
+            receiver = CAP
+            state_province_id = 879
+        }
+
+        war_goal = { 
+            casus_belli = acquire_state_large
+            actor = CAP
+            receiver = RUM
+            state_province_id = 894
+        }
+}

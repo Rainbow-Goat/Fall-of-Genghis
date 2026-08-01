@@ -58,6 +58,7 @@ country_event = {
         check_variable = { which = byz_coup value = 3 }
         has_country_flag = byzantinist_plot
         war = no
+        year = 1840
         AND = {
             owns = 879
             owns = 876
@@ -85,6 +86,8 @@ country_event = {
     option = {
         name = "Cappadocia stands tall"
         clr_country_flag = byzantinist_plot
+        prestige = 30
+        byz_plot_fail_tooltip = {}
 
         
         ai_chance = {
@@ -107,13 +110,13 @@ country_event = {
         NOT = { has_country_flag = byzantinist_plot }
         year = 1843
         month = 3
-        day = 16
+        day = 15
     }
 
     fire_only_once = yes
 
     option = {
-        name = "The Sun rises once more for our Empire"
+        name = "The Sun rises once more for our Kingdom"
         prestige = 30
         set_country_flag = cap_no_coup
     }
@@ -136,7 +139,7 @@ country_event = {
 
     option = {
         name = "We will find the stolen supplies"
-        war_exhaustion = 4
+        war_exhaustion = 6
         change_variable = { which = byz_coup value = 1 }
     }
 }
@@ -166,7 +169,7 @@ country_event = {
 country_event = {
     id = 100906
     title = "General Assassinated"
-    desc = "100905D"
+    desc = "100906D"
     picture = Picture
     
     trigger = {
@@ -186,5 +189,157 @@ country_event = {
             25 = { kill_leader = 39 }
         }
         change_variable = { which = byz_coup value = 1 }
+    }
+}
+
+country_event = {
+    id = 100907
+    title = "The Aftermath of the Coup"
+    desc = "100907D"
+    picture = Picture
+    
+    trigger = {
+        tag = ERE
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Phoenix will rise from the ashes"
+        set_country_flag = byz_time_limit
+        set_country_flag = byz_no_empire
+        prestige = -30
+        byz_time_limit_tooltip = {}
+    }
+}
+
+country_event = {
+    id = 100908
+    title = "Freedom or Death"
+    desc = "100908D"
+    picture = Picture
+    
+    trigger = {
+        tag = ERE
+        has_country_flag = byz_time_limit
+        year = 1870
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "There is nothing we can do..."
+        prestige = -30
+        government = democracy
+        set_ruling_party_ideology = liberal
+        clr_country_flag = byz_time_limit
+        primary_culture = antiqua_greek
+        add_accepted_culture = novum_greek
+        greek_revolution_tooltip = {}
+    }
+}
+
+country_event = {
+    id = 100909
+    title = "The People Rise Up"
+    desc = "100909D"
+    picture = Picture
+    
+    trigger = {
+        tag = ERE
+        has_country_flag = byz_no_empire
+        NOT = {
+            AND = {
+                owns = 862
+                owns = 869
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "There is nothing we can do..."
+        prestige = -30
+        government = democracy
+        set_ruling_party_ideology = liberal
+        clr_country_flag = byz_no_empire
+        clr_country_flag = byz_time_limit
+        primary_culture = antiqua_greek
+        add_accepted_culture = novum_greek
+    }
+}
+
+country_event = {
+    id = 100910
+    title = "The Loss of Anatolia"
+    desc = "100910D"
+    picture = Picture
+    
+    trigger = {
+        tag = ERE
+        NOT = { has_country_flag = byz_no_empire }
+        NOT = {
+            AND = {
+                owns = 862
+                owns = 869
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Phoenix is not yet dead"
+        prestige = -30
+    }
+    option = {
+        name = "The Phoenix is dead, long live the republic"
+        prestige = -30
+        change_tag = GRE
+        government = democracy
+        set_ruling_party_ideology = liberal
+        primary_culture = antiqua_greek
+        add_accepted_culture = novum_greek
+        greek_revolution_tooltip = {}
+    }
+}
+
+country_event = {
+    id = 100911
+    title = "The Capital of the Empire"
+    desc = "100911D"
+    picture = Picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "Rome"
+        set_capital = 749
+    }
+    option = {
+        name = "Constantinople"
+    }
+}
+
+country_event = {
+    id = 100912
+    title = "Abandoning our Italian claims"
+    desc = "100912D"
+    picture = Picture
+    
+    trigger = {
+        tag = GRE
+        754 = { is_core = THIS }
+    }
+    fire_only_once = yes
+
+    option = {
+        name = "Italy was just a fool's delusion"
+        SIC_754 = { remove_core = THIS }
+        SIC_753 = { remove_core = THIS }
+        PAP_752 = { remove_core = THIS }
+        remove_accepted_culture = south_italian
     }
 }

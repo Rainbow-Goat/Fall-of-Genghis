@@ -1,5 +1,6 @@
 owner = CAP
 controller = CAP
 add_core = CAP
+add_core = MED
 trade_goods = fruit
 life_rating = 35 
