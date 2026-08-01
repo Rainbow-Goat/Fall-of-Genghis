@@ -1528,3 +1528,36 @@
 		size = 2700
 	}
 }
+
+#Cara (12000/3000 POPS)
+3254 = {
+	aristocrats = {
+		culture = bedouin
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 150
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 10700
+	}
+}

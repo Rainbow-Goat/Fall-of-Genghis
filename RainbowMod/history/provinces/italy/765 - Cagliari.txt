@@ -1,6 +1,6 @@
-owner = SAR
-controller = SAR
-add_core = SAR
+owner = ARO
+controller = ARO
+add_core = ARO
 add_core = ITA
 trade_goods = sulphur
 naval_base = 1

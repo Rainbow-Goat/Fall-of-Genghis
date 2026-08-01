@@ -3,23 +3,23 @@ Taichiud
 Byzantines
 Scandinavia (Denmark and Sweden)
 Russia (Novgorod, Smolensk, Ryazan and Vladimir)
-Bohemia
-Hungary
 Orleans/France
-
-#Decent amount of content
-Englaland
-Normandy
-Lithuania
-Luhanks / Ukraine
-Aragon
-Umayyads
-Venice
 Teutonic Order
 
-#Has a formable / some expansion
+#Decent amount of content
+Aragon
+Hungary
+Bohemia
+Lithuania
+Luhanks / Ukraine
+Umayyads
+Venice
 Scotland
+
+#Has a formable / some expansion
+Normandy
 Provence
+Englaland
 Poland
 Castille
 Pommerania

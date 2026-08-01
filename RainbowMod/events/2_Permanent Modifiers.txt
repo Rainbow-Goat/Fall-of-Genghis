@@ -1,0 +1,60 @@
+country_event = {
+    id = 101010
+    title = "The City of the World's Desire"
+    desc = "101010D"
+    picture = Picture
+    
+    trigger = {
+        owns = 860
+        NOT = { has_country_flag = constantinople_modifier }
+    }
+
+    option = {
+        name = "May it's glow shine for eternity"
+        set_country_flag = constantinople_modifier
+        add_country_modifier = { name = constantinople_country duration = 36500 }
+        860 = {
+            add_province_modifier = { name = constantinople_province duration = 36500 }
+        }
+    }
+}
+
+country_event = {
+    id = 101011
+    title = "The Loss of Constantinople"
+    desc = "101011D"
+    picture = Picture
+    
+    trigger = {
+        NOT = { owns = 860 }
+        has_country_flag = constantinople_modifier
+    }
+
+    option = {
+        name = "The nation mourns"
+        clr_country_flag = constantinople_modifier
+        remove_country_modifier = constantinople_country
+        prestige = -20
+    }
+}
+
+country_event = {
+    id = 101012
+    title = "The Imperial Capital"
+    desc = "101012D"
+    picture = Picture
+    
+    trigger = {
+        tag = BOH
+        owns = 625
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Long live the Empire"
+        625 = {
+            add_province_modifier = { name = hse_capital duration = 36500 }
+        }
+    }
+}

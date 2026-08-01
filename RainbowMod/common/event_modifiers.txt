@@ -762,21 +762,21 @@ liberian_research_boost = {
 #MP stuff
 
 kinda_bad_badboy = {
-	loan_interest = 4
-	tariff_efficiency_modifier = -0.40
-	mobilisation_economy_impact = 2
+	loan_interest = 5
+	tariff_efficiency_modifier = -0.60
+	mobilisation_economy_impact = 4
 	diplomatic_points_modifier = -0.6
-	factory_owner_cost = 1
-	global_immigrant_attract = -4.0
-	org_regain = -0.3
-	land_organisation = -0.3
-	naval_organisation = -0.3
-	factory_throughput = -0.5
-	RGO_throughput = -0.5
-	prestige = -0.2
+	factory_owner_cost = 2
+	global_immigrant_attract = -8
+	org_regain = -0.5
+	land_organisation = -0.5
+	naval_organisation = -0.5
+	factory_throughput = -0.8
+	RGO_throughput = -0.9
+	prestige = -0.5
 	war_exhaustion = 2
-	research_points_modifier = -0.4
-	cb_generation_speed_modifier = -0.3
+	research_points_modifier = -0.6
+	cb_generation_speed_modifier = -0.5
 	icon = 8
 }
 
@@ -804,12 +804,17 @@ mongological_excavations = {
 	icon = 5
 }
 
+batbayarsutra = {
+	global_population_growth = 0.02
+	icon = 17
+}
+
 #Hungary
 
 magyarization = {
 	badboy = 0.05
 	cb_generation_speed_modifier = 0.3
-	global_assimilation_rate = 3
+	global_assimilation_rate = 5
 }
 
 
@@ -825,47 +830,70 @@ had_cholera = {
 #Scotland - Ireland stuff
 
 tax_repayment = {
-	local_artisan_output = -0.2
-	local_factory_output = -0.1
+	local_artisan_output = -1.0
+	local_factory_output = -0.6
 	icon = 12
 }
 
 harsher_taxes = {
-	local_artisan_output = 0.2
-	local_factory_output = 0.1
+	local_artisan_output = 0.6
+	local_factory_output = 0.4
 	icon = 11
 }
 
 scottish_language = {
-	assimilation_rate = 2
-	immigrant_push = 1
+	assimilation_rate = 3
+	immigrant_push = 1.5
 	icon = 7
 }
 
 irish_language = {
-	assimilation_rate = -0.5
-	immigrant_push = -0.5
+	assimilation_rate = -3
+	immigrant_push = -1.5
 	icon = 8
 }
 
 celtic_language = {
-	assimilation_rate = 3
+	global_assimilation_rate = 7
 	icon = 5
 }
 
 famine = {
 	immigrant_push = 5
-	population_growth = -0.05
+	population_growth = -0.07
 	icon = 20
 }
 
 lesser_famine = {
 	immigrant_push = 3
-	population_growth = -0.03
+	population_growth = -0.04
 	icon = 20
 }
 
-batbayarsutra = {
-	global_population_growth = 0.003
-	icon = 17
+#City modifiers
+
+constantinople_province = {
+	immigrant_attract = 3
+	local_ship_build = -0.5
+	population_growth = 0.001
+	local_artisan_output = 0.8
+	icon = 9
+}
+
+constantinople_country = {
+	tax_efficiency = 0.2
+	prestige = 0.03
+	diplomatic_points_modifier = 0.5
+	core_pop_consciousness_modifier = -0.05
+	core_pop_militancy_modifier = -0.05
+	influence_modifier = 0.5
+	icon = 7
+}
+
+hse_capital = {
+	tax_efficiency = 0.1
+	prestige = 0.02
+	diplomatic_points_modifier = 0.2
+	influence_modifier = 0.1
+	icon = 7
 }

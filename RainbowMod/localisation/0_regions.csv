@@ -1,7 +1,7 @@
 LIT_962;Chernigov;;;x;
 LUH_976;Mariupol;x;
 RUS_1039;Tsaritsyn;x;
-POM_582;Strzalasund;x;
+POM_582;Mojtwoj;x;
 CAS_479;Burgos;x;
 MEC_369;Kiel;x;
 RUS_719;Brest;x;
@@ -28,3 +28,10 @@ naples_independence_war_tooltip;§RThe Aragonese guards stationed in Naples will
 spanish_union_tooltip;§RIf Naples are still a vassal under Aragon, they may take this union as pretext to declare independence!§!§b;x;
 spain_naples_war_tooltip;§RThis will allow us to vassalize Naples, and in the future we will be able to accept South Italian and annex them.§!§b;x;
 crush_dukes_tooltip;§RThis will lock us out of uniting with the duchies in a peaceful and diplomatic manner!§b;x;
+cas_new_world_tooltip;§RThis will stop us from unifying Spain diplomatically, but we can still gain cores on all of Iberia through conquest.§b;x;
+subjugate_peru_tooltip;§RThis will give the Peruvians the option to submit to us, should they deny our demands we will gain a wargoal to puppet them.§b;x;
+byz_plot_tooltip;§RThe plot to overthrow the emperor currently lacks popular support. Should we cede land to the Sultanate of Rum, the people would be more sympathethic to the plot and make it impossible for us to stop it. Should we defeat the Sultanate of Rum, we may still go ahead with the coup but we will be able to stay as Cappadocia.§b;x;
+byz_plot_succede_tooltip;§RIf we let the plot succeed, we will permanently lock ourselves out of uniting the middle east under our banner and instead forge a path to the West.§b;x;
+byz_plot_fail_tooltip;§GIf we crush the plot we will remain the Kingdom of Cappadocia, and we will continue on our path to unite the Christians of the middle east. Doing this will lock us out of conquering the west and attempting an imperial restoration.§b;x;
+byz_time_limit_tooltip;§RWhile we have succeded in overthrowing the king, the people are not fully behind our new regime. Should we fail to accomplish certain territorial ambitions before 1860 the people may rise up against us. Similarly, should we lose the rest of Anatolia while being uncrowned we will face a similar situation.§b;x;
+greek_revolution_tooltip;§RShould the people rise against our empire, we would lose our ability to claim Italy and would be left with controlling the balkans as our only option. Any cores or accepteds we have in Italy will be removed if we fall to the revolution.§b;x;

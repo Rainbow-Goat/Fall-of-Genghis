@@ -1,6 +1,6 @@
-owner = BYZ
-controller = BYZ
-add_core = BYZ
+owner = CAP
+controller = CAP
+add_core = CAP
 add_core = GRE
 trade_goods = tobacco
 life_rating = 35 

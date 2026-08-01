@@ -18,7 +18,7 @@ country_event = {
 
     option = {
         name = "100020OPTA"
-        SCO = { 
+        THIS = { 
             diplomatic_influence = {
                 who = SIA
                 value = -500
@@ -41,7 +41,7 @@ country_event = {
     
     option = {
         name = "100020OPTB"
-        SCO = {
+        THIS = {
             diplomatic_influence = {
                 who = SIA
                 value = -500
@@ -91,7 +91,10 @@ country_event = {
     picture = outside_influences
     
     trigger = {
-        tag = SCO
+        OR = {
+            tag = SCO
+            tag = GBR
+        }
         AND = {
             exists = DAI 
             exists = SIA
@@ -118,7 +121,7 @@ country_event = {
     }
     
     mean_time_to_happen = {
-        months = 8
+        months = 36
     }
 
     fire_only_once = yes
@@ -130,13 +133,13 @@ country_event = {
         SIA = {
             badboy = 5
             relation = {
-                who = SCO
+                who = THIS
                 value = 150
             }
         }
         DAI = {
             relation = {
-                who = SCO
+                who = THIS
                 value = -200
             }
             country_event = 100030
@@ -157,13 +160,13 @@ country_event = {
         SIA = {
             badboy = 2.5
             relation = {
-                who = SCO
+                who = THIS
                 value = 100
             }
         }
         DAI = {
             relation = {
-                who = SCO
+                who = THIS
                 value = -100
             }
             country_event = 100030
@@ -184,13 +187,13 @@ country_event = {
         SIA = {
             badboy = 3.5
             relation = {
-                who = SCO
+                who = THIS
                 value = 50
             }
         }
         DAI = {
             relation = {
-                who = SCO
+                who = THIS
                 value = -50
             }
         }
@@ -209,14 +212,14 @@ country_event = {
         CAM = { annex_to = DAI }
         SIA = {
             relation = {
-                who = SCO
+                who = THIS
                 value = -100
             }
             country_event = 100031
         }
         DAI = {
             relation = {
-                who = SCO
+                who = THIS
                 value = 150
             }
         }
@@ -245,7 +248,7 @@ country_event = {
 
     option = {
         name = "100030OPTA"
-        SCO = {
+        FROM = {
             diplomatic_influence = {
                 who = DAI
                 value = -500
@@ -299,7 +302,7 @@ country_event = {
 
     option = {
         name = "100031OPTA"
-        SCO = {
+        FROM = {
             diplomatic_influence = {
                 who = SIA
                 value = -500
@@ -352,10 +355,6 @@ country_event = {
         tag = SCO
         year = 1837
     }
-    
-    mean_time_to_happen = {
-        months = 12
-    }
 
     fire_only_once = yes
 
@@ -392,16 +391,20 @@ country_event = {
 
     option = {
         name = "100024OPTA"
-        ENG_254 = { add_province_modifier = { name = tax_repayment duration = 365 } }
-        ENG_260 = { add_province_modifier = { name = tax_repayment duration = 365 } }
-        ENG_263 = { add_province_modifier = { name = tax_repayment duration = 365 } }
-        any_pop = {
-            limit = {
-                culture = scottish
-                strata = rich 
+        ENG_254 = { add_province_modifier = { name = tax_repayment duration = 1095 } }
+        ENG_260 = { add_province_modifier = { name = tax_repayment duration = 1095 } }
+        ENG_263 = { add_province_modifier = { name = tax_repayment duration = 1095 } }
+        THIS = { 
+            all_core = {
+                any_pop = {
+                    limit = {
+                        culture = scottish
+                        strata = rich 
+                    }
+                    consciousness = 5
+                    militancy = 2
+                }
             }
-            consciousness = 5
-            militancy = 2
         }
 
         ai_chance = {
@@ -417,12 +420,16 @@ country_event = {
         ENG_254 = { add_province_modifier = { name = harsher_taxes duration = 1095 } }
         ENG_260 = { add_province_modifier = { name = harsher_taxes duration = 1095 } }
         ENG_263 = { add_province_modifier = { name = harsher_taxes duration = 1095 } }
-        any_pop = {
-            limit = {
-                culture = irish 
+        IRE = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                        culture = irish 
+                    }
+                    consciousness = 3
+                    militancy = 5
+                }
             }
-            consciousness = 3
-            militancy = 5
         }
         change_variable = { which = irish_nationalism value = 2 }
         
@@ -436,12 +443,16 @@ country_event = {
 
     option = {
         name = "100024OPTC"
-        any_pop = {
-            limit = {
-                culture = irish 
+        IRE = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                        culture = irish 
+                    }
+                    consciousness = 3
+                    militancy = 2
+                }
             }
-            consciousness = 3
-            militancy = 2
         }
         change_variable = { which = irish_nationalism value = 1 }
         
@@ -461,14 +472,14 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        OR = {
+            tag = SCO
+            tag = GBR
+        }
         year = 1841
+        month = 6
         has_country_flag = irish_struggles
         NOT = { has_country_flag = irish_rebellion }
-    }
-    
-    mean_time_to_happen = {
-        months = 12
     }
 
     fire_only_once = yes
@@ -476,18 +487,22 @@ country_event = {
     option = {
         name = "100025OPTA"
         prestige = -30
-        any_pop = {
-            limit = {
-                culture = irish 
+        THIS = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                    culture = irish 
+                }
+                consciousness = -1
+                militancy = -3
+                }
+                any_pop = {
+                    limit = {
+                    culture = scottish 
+                }
+                    militancy = 3
+                }
             }
-            consciousness = -1
-            militancy = -3
-        }
-        any_pop = {
-            limit = {
-                culture = scottish 
-            }
-            militancy = 3
         }
         change_variable = { which = irish_nationalism value = 1 }
 
@@ -502,13 +517,17 @@ country_event = {
     
     option = {
         name = "100025OPTB"
-        prestige = -10
-        any_pop = {
-            limit = {
-                culture = irish 
+        prestige = -15
+        THIS = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                    culture = irish 
+                    }
+                consciousness = -2
+                militancy = -1
+                }
             }
-            consciousness = -2
-            militancy = -1
         }
         change_variable = { which = irish_nationalism value = -1 }
         
@@ -522,15 +541,19 @@ country_event = {
 
     option = {
         name = "100025OPTC"
-        prestige = 30
-        any_pop = {
-            limit = {
-                culture = irish 
+        prestige = 40
+        THIS = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                    culture = irish 
+                    }
+                consciousness = 2
+                militancy = 5
+                }
             }
-            consciousness = 2
-            militancy = 5
         }
-        change_variable = { which = irish_nationalism value = 2 }
+        change_variable = { which = irish_nationalism value = 3 }
         
         ai_chance = {
             factor = 1
@@ -548,15 +571,16 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        OR = {
+            tag = SCO
+            tag = GBR
+        }
         has_country_flag = irish_struggles
         year = 1843
+        month = 8
         NOT = { has_country_flag = irish_rebellion }
     }
     
-    mean_time_to_happen = {
-        months = 12
-    }
 
     fire_only_once = yes
 
@@ -565,12 +589,16 @@ country_event = {
         ENG_254 = { add_province_modifier = { name = scottish_language duration = 730 } }
         ENG_260 = { add_province_modifier = { name = scottish_language duration = 730 } }
         ENG_263 = { add_province_modifier = { name = scottish_language duration = 730 } }        
-        any_pop = {
-            limit = {
-                culture = irish 
+        THIS = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                    culture = irish 
+                    }
+                    consciousness = 5
+                    militancy = 5
+                }
             }
-            consciousness = 5
-            militancy = 5
         }
         change_variable = { which = irish_nationalism value = 2 }
 
@@ -587,19 +615,23 @@ country_event = {
         ENG_254 = { add_province_modifier = { name = irish_language duration = 730 } }
         ENG_260 = { add_province_modifier = { name = irish_language duration = 730 } }
         ENG_263 = { add_province_modifier = { name = irish_language duration = 730 } }        
-        any_pop = {
-            limit = {
-                culture = irish 
+        THIS = { 
+            all_core = {
+                any_pop = {
+                    limit = {
+                        culture = irish 
+                    }
+                consciousness = -1
+                militancy = -1
+                }
+                any_pop = {
+                    limit = {
+                        culture = scottish 
+                    }
+                    consciousness = 1
+                    militancy = 3
+                }
             }
-            consciousness = -1
-            militancy = -1
-        }
-        any_pop = {
-            limit = {
-                culture = scottish 
-            }
-            consciousness = 1
-            militancy = 3
         }
         change_variable = { which = irish_nationalism value = 1 }
 
@@ -614,19 +646,23 @@ country_event = {
     option = {
         name = "100026OPTC"
         add_country_modifier = { name = celtic_language duration = 730 }    
-        any_pop = {
-            limit = {
-                culture = scottish 
+        THIS = { 
+            all_core = {
+                any_pop = {
+                    limit = {
+                        culture = irish 
+                    }
+                    consciousness = 2
+                    militancy = 3
+                }
+                any_pop = {
+                    limit = {
+                        culture = scottish 
+                    }
+                    consciousness = 3
+                    militancy = 5
+                }
             }
-            consciousness = 3
-            militancy = 5
-        }
-        any_pop = {
-            limit = {
-                culture = irish 
-            }
-            consciousness = 2
-            militancy = 3
         }
         change_variable = { which = irish_nationalism value = 0 }
 
@@ -646,40 +682,44 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        OR = {    
+            tag = SCO
+            tag = GBR
+        }
         has_country_flag = irish_struggles
         year = 1846
+        month = 12
         NOT = { has_country_flag = irish_rebellion }
-    }
-    
-    mean_time_to_happen = {
-        months = 12
     }
 
     fire_only_once = yes
 
     option = {
         name = "100027OPTA"
-        any_core = {
-            limit = {
-                is_primary_culture = yes
+        THIS = { 
+            ENG_271 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
-            add_province_modifier = { name = famine duration = 365 }
-        }
-        any_pop = {
-            limit = {
-                culture = scottish 
+            ENG_266 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
-            consciousness = 7
-            militancy = 5
-        }
-        any_pop = {
-            limit = {
-                culture = irish 
+            all_core = {
+                any_pop = {
+                limit = {
+                    culture = scottish 
+                }
+                consciousness = 7
+                militancy = 5
+                }
+                any_pop = {
+                limit = {
+                    culture = irish 
+                }
+                consciousness = -1
+                militancy = -3
+                } 
             }
-            consciousness = -1
-            militancy = -3
-        }    
+        }   
         
         ai_chance = {
             factor = 1
@@ -691,25 +731,32 @@ country_event = {
     
     option = {
         name = "100027OPTB"
-        any_core = {
-            limit = {
-                is_core = IRE
+        THIS = {
+            ENG_254 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
-            add_province_modifier = { name = famine duration = 365 }
-        }
-        any_pop = {
-            limit = {
-                culture = scottish 
+            ENG_263 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
-            consciousness = -1
-            militancy = -3
-        }
-        any_pop = {
-            limit = {
-                culture = irish 
+            ENG_260 = {
+                add_province_modifier = { name = famine duration = 730 }
             }
-            consciousness = 6
-            militancy = 8
+            all_core = {
+                any_pop = {
+                limit = {
+                    culture = scottish 
+                }
+                consciousness = -1
+                militancy = -3
+                }
+                any_pop = {
+                limit = {
+                    culture = irish 
+                }
+                consciousness = 6
+                militancy = 8
+                }
+            }       
         }
         change_variable = { which = irish_nationalism value = 3 }        
         
@@ -723,22 +770,26 @@ country_event = {
 
     option = {
         name = "100027OPTC"
-        any_core = {
-            add_province_modifier = { name = lesser_famine duration = 365 }
-        }
-        any_pop = {
-            limit = {
-                culture = scottish 
+        THIS = {
+            all_core = {
+                add_province_modifier = { name = lesser_famine duration = 730 }
             }
-            consciousness = 3
-            militancy = 5
-        }
-        any_pop = {
-            limit = {
-                culture = irish 
+            all_core = {
+                any_pop = {
+                limit = {
+                    culture = scottish 
+                }
+                consciousness = 3
+                militancy = 5
+                }
+                any_pop = {
+                limit = {
+                    culture = irish 
+                }
+                consciousness = 3
+                militancy = 5
+                }
             }
-            consciousness = 3
-            militancy = 5
         }
         change_variable = { which = irish_nationalism value = 1 }        
         
@@ -760,10 +811,7 @@ country_event = {
     trigger = {
         tag = SCO
         year = 1840
-    }
-    
-    mean_time_to_happen = {
-        months = 6
+        month = 4
     }
 
     fire_only_once = yes
@@ -771,19 +819,23 @@ country_event = {
     option = {
         name = "100028OPTA"
         set_country_flag = scottish_nationalist_pm
-        any_pop = {
-            limit = {
-                culture = scottish 
+        THIS = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                    culture = scottish 
+                    }
+                    consciousness = -1
+                    militancy = -3
+                }
+                any_pop = {
+                    limit = {
+                    culture = irish 
+                    }
+                    consciousness = 1
+                    militancy = 3
+                }
             }
-            consciousness = -1
-            militancy = -3
-        }
-        any_pop = {
-            limit = {
-                culture = irish 
-            }
-            consciousness = 1
-            militancy = 3
         }
         change_variable = { which = irish_nationalism value = 2 }     
         
@@ -798,19 +850,23 @@ country_event = {
     option = {
         name = "100028OPTB"
         set_country_flag = scottish_liberal_pm
-        any_pop = {
-            limit = {
-                culture = scottish 
+        THIS = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                    culture = scottish 
+                    }
+                    consciousness = 1
+                    militancy = -2
+                }
+                any_pop = {
+                    limit = {
+                    culture = irish 
+                    }
+                    consciousness = 3
+                    militancy = -3
+                }
             }
-            consciousness = 1
-            militancy = -2
-        }
-        any_pop = {
-            limit = {
-                culture = irish 
-            }
-            consciousness = 3
-            militancy = -3
         }
         change_variable = { which = irish_nationalism value = 1 }     
         
@@ -825,19 +881,23 @@ country_event = {
     option = {
         name = "100028OPTC"
         set_country_flag = parliament_closed
-        any_pop = {
-            limit = {
-                culture = scottish 
+        THIS = {
+            all_core = {
+                any_pop = {
+                    limit = {
+                    culture = scottish 
+                    }
+                    consciousness = 5
+                    militancy = 3
+                }
+                any_pop = {
+                    limit = {
+                    culture = irish 
+                    }
+                    consciousness = 7
+                    militancy = 5
+                }
             }
-            consciousness = 5
-            militancy = 3
-        }
-        any_pop = {
-            limit = {
-                culture = irish 
-            }
-            consciousness = 7
-            militancy = 5
         }
         change_variable = { which = irish_nationalism value = 4 }     
         
@@ -857,7 +917,10 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        OR = {
+            tag = GBR
+            tag = SCO
+        }
         check_variable = { which = irish_nationalism value = 5 }
         has_country_flag = irish_struggles
     }
@@ -867,6 +930,7 @@ country_event = {
     option = {
         name = "100029OPTA"
         set_country_flag = irish_rebellion
+        remove_accepted_culture = irish
         release = IRE
         relation = {
             who = IRE
@@ -876,18 +940,19 @@ country_event = {
             target = IRE
             attacker_goal = { casus_belli = civil_war }
             defender_goal = { casus_belli = status_quo }
-            call_ally = yes
+            call_ally = no
         }
-        remove_accepted_culture = irish
         IRE = {
             all_core = {
-                remove_core = SCO
+                remove_core = THIS
             }
         }
         ENG = { country_event = 100032 }
         ANG = { country_event = 100032 }
         FRA = { country_event = 100032 }
         BRG = { country_event = 100032 }
+        ORL = { country_event = 100032 }
+        SCA = { country_event = 100032 }
 
 
         ai_chance = {
@@ -901,12 +966,17 @@ country_event = {
     option = {
         name = "100029OPTB"
         set_country_flag = irish_rebellion
+        remove_accepted_culture = irish
         release = IRE
         relation = {
             who = IRE
             value = -100
         }
-        remove_accepted_culture = irish
+        IRE = {
+            all_core = {
+                remove_core = THIS
+            }
+        }
 
         ai_chance = {
             factor = 1
@@ -938,7 +1008,7 @@ country_event = {
         }
         diplomatic_influence = {
             who = IRE
-            value = 200
+            value = 400
         }
         create_alliance = IRE
         
@@ -981,12 +1051,15 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        OR = {
+            tag = SCO
+            tag = GBR
+        }
         year = 1850
         has_country_flag = irish_struggles
         NOT = { has_country_flag = irish_rebellion }
         NOT = {
-            check_variable = { which = irish_nationalism value = 6 }
+            check_variable = { which = irish_nationalism value = 5 }
         }
     }
 
@@ -996,9 +1069,14 @@ country_event = {
         name = "100033OPT"
         clr_country_flag = irish_struggles
         prestige = 50
-        any_pop = {
-            consciousness = -7
-            militancy = -7
+        add_accepted_culture = irish
+        IRE = {
+            all_core = {
+                any_pop = {
+                    consciousness = -7
+                    militancy = -7
+                }
+            }
         }
 
         ai_chance = {

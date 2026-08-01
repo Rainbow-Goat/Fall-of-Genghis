@@ -1,0 +1,47 @@
+country_event = {
+    id = 100700
+    title = "A German State"
+    desc = "100700D"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "We are finally united"
+        THIS = {
+                all_core = {
+                    add_core = GER
+                }
+            }
+        GER = {
+            inherit = THIS
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+    }
+    
+    option = {
+        name = "We need to retain our freedom"
+    }
+}
+
+country_event = {
+    id = 100701
+    title = "Deciding our Future"
+    desc = "We gotta decide what we want to do; Free Germany or create a new German homeland."
+    picture = "celebration"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Deutschland fur Deutschland"
+        change_tag = PRU
+        government = absolute_monarchy
+    }
+    
+    option = {
+        name = "Überall, wo die deutsche Sprache gesprochen wird!"
+        set_country_flag = future_decided
+    }    
+}

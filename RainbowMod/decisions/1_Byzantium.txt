@@ -1,108 +1,7 @@
 political_decisions = {
-
-    #BYZ path
-    our_destiny_in_the_east = {
-        potential = {
-            tag = BYZ
-            NOT = {
-                OR = {
-                    has_country_flag = byzantine_path
-                    has_country_flag = alexandrian_path
-                }
-            }
-        }
-        allow = {
-            war = no
-            year = 1840
-            owns = 894
-            owns = 900
-        }
-        effect = {
-            TUR_894 = { add_core = BYZ }
-            EGY_897 = { add_core = BYZ }
-            EGY_903 = { add_core = BYZ }
-            EGY_915 = { add_core = BYZ }
-            889 = { add_core = BYZ }
-            893 = { add_core = BYZ }
-            899 = { add_core = BYZ }
-            915 = { add_core = BYZ }
-            set_country_flag = byzantine_path
-        }
-    }
-
-    the_return_of_the_pharaohs = {
-        potential = {
-            tag = BYZ
-            OR = {
-                has_country_flag = byzantine_path
-                has_country_flag = alexandrian_path
-            }
-            NOT = { 1745 = { is_core = BYZ } }
-        }
-        allow = {
-            war = no
-            state_n_government = 1
-            EGY = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                        }
-                    }
-                }
-            }
-        }
-        effect = {
-            EGY = {
-                all_core = {
-                    add_core = THIS
-                }
-            }
-        }
-    }
-
-    destroying_our_old_enemy = {
-        potential = {
-            tag = BYZ
-            has_country_flag = byzantine_path
-            1745 = { is_core = THIS }
-            NOT = { 1725 = { is_core = THIS } }
-        }
-        allow = {
-            war = no
-            nationalism_n_imperialism = 1
-            TRI = {
-                all_core = {
-                    owned_by = THIS
-                }
-            }
-        }
-        effect = {
-            TRI = {
-                all_core = {
-                    add_core = THIS
-                    remove_core = TRI
-                }
-            }
-        }
-    }
-
-    #Alexandrian path
-    #Work in progress
-
-
-    #Balkan path
     securing_macedonia = {
         potential = {
-            tag = BYZ
-            has_country_flag = byzantine_path
-            NOT = {
-                OR = {
-                    has_country_flag = alexandrian_path
-                    has_country_flag = balkan_path
-                }
-            }
+            tag = ERE
         }
         allow = {
             war = no
@@ -115,16 +14,13 @@ political_decisions = {
             TUR_810 = { add_core = THIS }
             TUR_853 = { add_core = THIS }
             818 = { add_core = THIS }
-            set_country_flag = balkan_path
         }
     }
 
     defensive_expansion = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_path
+            tag = ERE
             owns = 810
-            NOT = { has_country_flag = alexandrian_path }
             NOT = { 794 = { is_core = THIS } }
         }
         allow = {
@@ -144,10 +40,7 @@ political_decisions = {
 
     restoring_old_illyria = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_path
-            NOT = { has_country_flag = balkan_domination }
-            NOT = { has_country_flag = alexandrian_path }
+            tag = ERE
             NOT = { 783 = { is_core = THIS } }
         }
         allow = {
@@ -162,15 +55,13 @@ political_decisions = {
             AUS_771 = { add_core = THIS }
             AUS_780 = { add_core = THIS }
             TUR_788 = { add_core = THIS }
-            set_country_flag = balkan_domination
         }
     }
 
     recruit_the_bulgarians = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_path
-            810 = { is_core = BYZ }
+            tag = ERE
+            810 = { is_core = ERE }
             NOT = { accepted_culture = bulgarian }
         }
         allow = {
@@ -187,8 +78,7 @@ political_decisions = {
 
     local_serbian_administrators = {
         potential = {
-            tag = BYZ
-            has_country_flag = balkan_domination
+            tag = ERE
             NOT = { accepted_culture = serb }
         }
         allow = {
@@ -206,49 +96,60 @@ political_decisions = {
         }
     }
 
-
-    # Generic decisions
-
-    the_kayseri_accords = {
+    securing_naples = {
         potential = {
-            tag = BYZ
-            has_country_flag = byzantine_path
-            NOT = { exists = RUM }
-            NOT = { accepted_culture = anatolian }
+            tag = ERE
+            NOT = { 754 = { is_core = THIS } }
         }
         allow = {
             war = no
-            biologism = 1
-            iron_railroad = 1
-            owns = 876
-            owns = 878
-            owns = 879
+            owns = 754
+            owns = 753
         }
         effect = {
-            add_accepted_culture = anatolian
-            prestige = 25
+            prestige = 20
+            SIC_754 = { add_core = THIS }
+            SIC_753 = { add_core = THIS }
+            add_accepted_culture = south_italian
         }
     }
 
-    mend_the_schizm = {
+    hold_triumph = {
         potential = {
-            tag = BYZ
-            owns = 834
-            owns = 860
-            NOT = { accepted_culture = antiqua_greek }
+            tag = ERE
+            has_country_flag = byz_time_limit
         }
         allow = {
-            is_greater_power = yes
-            nationalism_n_imperialism = 1
-            GRE = {
-                all_core = {
-                    owned_by = THIS
-                }
-            }
+            war = no
+            owns = 754
+            owns = 753
+            owns = 849
+            owns = 806
+            owns = 809
         }
         effect = {
-            add_accepted_culture = antiqua_greek
             prestige = 50
+            clr_country_flag = byz_time_limit
+            add_casus_belli = { target = PAP type = take_capital months = 18 }
+        }
+    }
+
+    crown_emperor = {
+        potential = {
+            tag = ERE
+            has_country_flag = byz_no_empire
+            NOT = { has_country_flag = byz_time_limit }
+        }
+        allow = {
+            war = no
+            owns = 749
+        }
+        effect = {
+            prestige = 50
+            PAP_752 = { add_core = THIS }
+            clr_country_flag = byz_no_empire
+            government = absolute_monarchy
+            event = { id = 100911 days = 0}
         }
     }
 }

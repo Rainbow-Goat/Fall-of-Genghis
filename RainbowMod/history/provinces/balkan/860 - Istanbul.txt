@@ -1,8 +1,8 @@
-owner = BYZ
-controller = BYZ
-add_core = BYZ
+owner = CAP
+controller = CAP
+add_core = CAP
 trade_goods = precious_metal
-life_rating = 35 
+life_rating = 40 
 naval_base = 1
 fort = 1
 ################################################################################

@@ -1,0 +1,230 @@
+political_decisions = {
+    unite_south_germany = {
+        potential = {
+            OR = {
+                tag = BAV
+                tag = WUR
+                tag = BAD
+                tag = AUS
+            }
+            NOT = {
+                exists = SGF
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            WUR = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
+                        }
+                    }
+                }
+            }
+            BAV = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
+                        }
+                    }
+                }
+            }
+            BAD = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = SGF
+            any_country = {
+                limit = {
+                    primary_culture = south_german
+                    OR = {
+                        vassal_of = THIS
+                        in_sphere = THIS
+                    }
+                }
+                annex_to = THIS
+            }
+            GER = {
+				all_core = {
+					limit = {
+						culture = south_german
+                        NOT = { prov_id = 2560 }
+					}
+					add_core = SGF
+				}
+			}
+        }
+    }
+
+    rhenish_declaration = {
+        potential = {
+            tag = SGF
+            NOT = { 570 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            romanticism = 1
+            SGF = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            PRU_572 = { add_core = THIS }
+            PRU_575 = { add_core = THIS }
+            HES_2560 = { add_core = THIS }
+        }
+    }
+
+    sgf_more_rhineland = {
+        potential = {
+            tag = SGF
+            570 = { is_core = THIS }
+            NOT = {
+                580 = {
+                    is_core = THIS
+                }
+            }
+        }
+        allow = {
+            war = no
+            owns = 572
+            owns = 564
+            owns = 575
+        }
+        effect = {
+            PRU_581 = { add_core = THIS }
+            POM_582 = { add_core = THIS }
+            set_country_flag = sgf_rhineland
+        }
+    }
+
+    sgf_rhenish_accepted = {
+        potential = {
+            tag = SGF
+            has_country_flag = sgf_rhineland
+            NOT = { accepted_culture = rhenish }
+        }
+        allow = {
+            nationalism_n_imperialism = 1
+        }
+        effect = {
+            prestige = 30
+            add_accepted_culture = rhenish
+        }
+    }
+
+    sgf_germany_1 = {
+        potential = {
+            tag = SGF
+            accepted_culture = rhenish
+            NOT = {
+                555 = {
+                    is_core = THIS
+                }
+            }
+        }
+        allow = {
+            war = no
+            owns = 581
+            owns = 582
+            owns = 538
+            owns = 540
+        }
+        effect = {
+            add_accepted_culture = north_german
+            HAN_534 = { add_core = THIS }
+            HAM_528 = { add_core = THIS }
+            PRU_553 = { add_core = THIS }
+            MEC_369 = { add_core = THIS }
+            561 = { add_core = THIS }
+            562 = { add_core = THIS }
+            563 = { add_core = THIS }
+        }
+    }
+
+    sgf_germany_2 = {
+        potential = {
+            tag = SGF
+            555 = { is_core = THIS }
+        }
+        allow = {
+            war = no
+            owns = 369
+            owns = 531
+            owns = 555
+            owns = 561
+            owns = 562
+            owns = 563
+        }
+        effect = {
+            prestige = 50
+            change_tag = GER
+            HSE = {
+                all_core = {
+                    limit = {
+                        NOT = {
+                            OR = {
+                                is_core = BOH
+                                is_core = GER
+                            }
+                        }
+                    }
+                    add_core = GER
+                }
+            }
+            any_country = {
+                limit = {
+                    AND = {
+                        is_culture_group = germanic
+                        NOT = { primary_culture = hansard }
+                    }
+                }
+                country_event = { id = 100700 days = 0 }
+            }
+            any_country = {
+                limit = {
+                    exists = no
+                    AND = {
+                        is_culture_group = germanic
+                        NOT = {
+                            OR = {
+                                tag = FDL
+                                tag = TEU
+                                tag = PRU
+                                tag = AUS
+                                tag = RHN
+                            }
+                        }
+                    }
+                }
+                all_core = {
+                    remove_core = THIS
+                }
+            }
+        }
+    }
+}

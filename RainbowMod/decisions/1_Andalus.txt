@@ -11,6 +11,7 @@ political_decisions = {
         }
         effect = {
             set_country_flag = jihad_continues
+            badboy = 1
         }
     }
 
@@ -49,7 +50,15 @@ political_decisions = {
             war = no
             nationalism_n_imperialism = 1
             ALA = { all_core = { owned_by = THIS } }
-            SPA = { all_core = { owned_by = THIS } }
+            SPA = { 
+                all_core = { 
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                        owner = { is_our_vassal = THIS }
+                    }
+                }
+            }
         }
         effect = {
             change_tag = HNA

@@ -77,6 +77,11 @@ political_decisions = {
                     is_our_vassal = TOU
                     is_our_vassal = BOR
                 }
+                OR = {
+                    exists = LYO
+                    exists = TOU
+                    exists = BOR
+                }
             }
             NOT = { has_country_flag = duchy_killed }
         }
@@ -88,7 +93,7 @@ political_decisions = {
             LYO = { all_core = { add_core = THIS } }
             TOU = { all_core = { add_core = THIS } }
             BOR = { all_core = { add_core = THIS } }
-            prestige = -20
+            prestige = -70
             badboy = 3
             set_country_flag = duchy_killed
             crush_dukes_tooltip = {}

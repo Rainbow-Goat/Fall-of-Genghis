@@ -206,3 +206,68 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = 100500
+    title = "An Invitation to the Italian League"
+    desc = "100500D"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "The League is needed"
+        create_alliance = VEN
+        set_country_flag = nil_league_yes
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 99
+                relation = { who = VEN value = 150 }
+            }
+        }
+    }
+    
+    option = {
+        name = "We don't need them"
+        leave_alliance = VEN
+        relation = { who = VEN value = -100 }
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 10
+                NOT = { relation = { who = VEN value = 150 } }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100506
+    title = "Unification with the League?"
+    desc = "100506D"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "Yes"
+        THIS = {
+            all_core = {
+                add_core = NIL
+                remove_core = THIS
+            }
+        }
+        FROM = {
+			inherit = THIS
+		}
+        
+        ai_chance = {
+            factor = 50
+        }
+    }
+    
+    option = {
+        name = "No"
+    }
+}

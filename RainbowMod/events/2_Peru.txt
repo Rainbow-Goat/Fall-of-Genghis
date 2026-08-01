@@ -1,0 +1,46 @@
+country_event = {
+    id = 100801
+    title = "Spain demands our subjugation"
+    desc = "100801D"
+    picture = Picture
+    is_triggered_only = yes
+
+    option = {
+        name = "We are powerless..."
+        FROM = {
+            create_vassal = PEU
+        }
+        any_country = {
+            limit = {
+                NOT = { has_country_flag = cas_new_world }
+                is_greater_power = yes
+            }
+            relation = { who = CAS value = -200 }
+            relation = { who = SPA value = -200 }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+    option = {
+        name = "Peru shall remain!"
+        FROM = {
+            war = {
+                target = PEU
+                attacker_goal = {
+                    casus_belli = make_puppet
+                }
+                defender_goal = {
+                    casus_belli = status_quo
+                }
+                call_ally = yes
+            }
+        }
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+}
