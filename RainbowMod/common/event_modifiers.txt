@@ -874,19 +874,19 @@ lesser_famine = {
 
 constantinople_province = {
 	immigrant_attract = 3
-	local_ship_build = -0.5
-	population_growth = 0.001
-	local_artisan_output = 0.8
+	local_ship_build = -0.3
+	population_growth = 0.0003
+	local_artisan_output = 0.2
 	icon = 9
 }
 
 constantinople_country = {
-	tax_efficiency = 0.2
+	tax_efficiency = 0.05
 	prestige = 0.03
-	diplomatic_points_modifier = 0.5
-	core_pop_consciousness_modifier = -0.05
-	core_pop_militancy_modifier = -0.05
-	influence_modifier = 0.5
+	diplomatic_points_modifier = 0.3
+	core_pop_consciousness_modifier = -0.03
+	core_pop_militancy_modifier = -0.03
+	influence_modifier = 0.3
 	icon = 7
 }
 

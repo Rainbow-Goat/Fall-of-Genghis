@@ -1,0 +1,80 @@
+V1.1:
+New content:
+    - Bulgaria
+    - Scotland
+Rework:
+    - Burgundy
+    - Lithuania
+Touch up:
+    - Russia
+    - Italy
+
+V1.2 - Riches of the Orient
+Extensive content:
+    - Rashidun Caliphate
+    - Egypt
+    - Sultanate of Rum
+    - Persia
+Moderate content:
+    - Armenia
+    - Afghanistan
+Minor content:
+    - Umayyad Caliphate
+Meme content:
+    - Kurdistan
+    - Iraq
+
+V1.3 - The Spice Trade
+Extensive content:
+    - Panjab
+    - Indian colonial system
+Moderate content:
+    - Bengal
+    - Hyderabad
+    - Orissa
+
+V1.4 - The Century of Humiliation
+Extensive content:
+    - Japan
+    - China system
+Moderate content:
+    - Yuan Dynasty
+    - Ming Dynasty
+    - Heavenly Kingdom
+    - Yellow Turban Rebellion
+    - Mongolian touch up   
+Minor content:
+    - Korea
+
+V1.5 - The Final Conquest
+Moderate content:
+    - Indonesia
+    - Siam
+Minor content:
+    - Burma
+    - Dai Nam
+    - Australian system
+    - Hawaii
+
+V1.6 - The Great Plains
+Extensive content:
+    - Holy Order of New Castille
+    - Islamic Caliphate of Mexico
+Moderate content:
+    - Iroquois Confederacy
+    - New Venetian Republic
+    - Quebec
+Minor content:
+    - Kurdish Free State
+    - Hawaii
+
+V1.7 - Glory of the Gods
+Extensive content:
+    - West Indische Compagnie
+    - Bolivarian Alliance
+Moderate content:
+    - Khanate of Bolivia
+    - Peru
+    - Hanseatic League
+Minor:
+    - Uruguay
