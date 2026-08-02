@@ -85,7 +85,6 @@ political_decisions = {
         }
         allow = {
             war = no
-            revolution_n_counterrevolution = 1
             TEU = { all_core = { owned_by = THIS } }
             owns = 694
             owns = 707
@@ -123,11 +122,10 @@ political_decisions = {
             tag = TEU
             has_country_flag = genocide_big
             TEU = { all_core = { owned_by = THIS } }
-            government = fascist_dictatorship
         }
         allow = {
             war = no
-            mass_politics = 1
+            revolution_n_counterrevolution = 1
             RUS = {
                 any_core = {
                     AND = {

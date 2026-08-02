@@ -111,7 +111,6 @@ country_event = {
 			any_owned = { 
 				limit = {
 					state_scope = { 
-						total_pops = 150000
 						NOT = { total_pops = 600000 }
 					}
 				}
@@ -202,7 +201,6 @@ country_event = {
 			any_owned = { 
 				limit = {
 					state_scope = { 
-						total_pops = 200000
 						NOT = { total_pops = 800000 }
 					}
 				}

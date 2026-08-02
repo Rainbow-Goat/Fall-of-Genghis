@@ -98,6 +98,17 @@ political_decisions = {
 				prestige = 30
 				add_accepted_culture = french
 				set_country_flag = dual_monarchy
+				any_country = {
+					limit = {
+						OR = {
+							tag = TOU
+							tag = ORL
+							tag = LYO
+						}
+						in_sphere = THIS
+					}
+					annex_to = ANG
+				}
 			}
 		}
 		get_saxon_accepted = {

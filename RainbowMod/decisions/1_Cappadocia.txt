@@ -21,9 +21,11 @@ political_decisions = {
 
     mend_the_schizm = {
         potential = {
-            tag = CAP
+            OR = {
+                tag = CAP
+                tag = ERE
+            }
             NOT = { accepted_culture = antiqua_greek }
-            has_country_flag = cap_no_coup
         }
         allow = {
             nationalism_n_imperialism = 1

@@ -46,6 +46,7 @@ political_decisions = {
 		potential = {
 				primary_culture = bohemian
 				NOT = {
+					tag = KWS
 					OR = {
 						exists = HSE
 						year = 1870
@@ -107,6 +108,7 @@ political_decisions = {
 			}
 			NOT = {
 				exists = KWS
+				tag = HSE
 			}
 		}
 		allow = {

@@ -2,6 +2,7 @@ political_decisions = {
     securing_macedonia = {
         potential = {
             tag = ERE
+            NOT = { 806 = { is_core = THIS } }
         }
         allow = {
             war = no

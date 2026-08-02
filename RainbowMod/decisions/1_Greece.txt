@@ -2,6 +2,7 @@ political_decisions = {
     liberate_macedonia = {
         potential = {
             tag = GRE
+            NOT = { 806 = { is_core = THIS } }
         }
         allow = {
             war = no
