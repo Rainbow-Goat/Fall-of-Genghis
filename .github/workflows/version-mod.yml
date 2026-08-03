@@ -50,6 +50,9 @@ jobs:
           # Keep path/user_dir inside the .mod file in sync with the new folder name
           sed -i "s|path = \"mod/Fall of Genghis\"|path = \"mod/${NEW_NAME}\"|" "$NEW_NAME.mod"
           sed -i "s|user_dir = \"Fall of Genghis\"|user_dir = \"${NEW_NAME}\"|" "$NEW_NAME.mod"
+
+          # map/default.map hardcodes its own mod path too — update it in the copy
+          sed -i "s|mod/Fall of Genghis/map/definition.csv|mod/${NEW_NAME}/map/definition.csv|" "$NEW_NAME/map/default.map"
  
           # Also stamp the display name with the version
           sed -i "s|^name = \"Fall of Genghis\"|name = \"Fall of Genghis V${{ steps.vars.outputs.version }}\"|" "$NEW_NAME.mod"
