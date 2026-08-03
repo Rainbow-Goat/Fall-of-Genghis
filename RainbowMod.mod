@@ -1,4 +1,4 @@
-name = "Fall of Genghis V1.01" 
+name = "Fall of Genghis" 
 path = "mod/RainbowMod" 
 user_dir = "RainbowMod"
 replace_path = "common/countries"

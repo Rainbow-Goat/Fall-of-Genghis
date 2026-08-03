@@ -1,0 +1,73 @@
+name: Package versioned mod release
+ 
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to use (e.g. 1.02) — only needed for manual runs'
+        required: true
+ 
+permissions:
+  contents: write
+ 
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name || github.ref_name }}
+ 
+      - name: Determine version and target names
+        id: vars
+        run: |
+          # Prefer the release tag; fall back to manual input for workflow_dispatch
+          RAW_TAG="${{ github.event.release.tag_name }}"
+          if [ -z "$RAW_TAG" ]; then
+            RAW_TAG="${{ github.event.inputs.version }}"
+          fi
+ 
+          # Strip a leading v/V so "v1.02" or "V1.02" both become "1.02"
+          VERSION="${RAW_TAG#v}"
+          VERSION="${VERSION#V}"
+ 
+          NEW_NAME="RainbowMod_V${VERSION}"
+ 
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "new_name=$NEW_NAME" >> "$GITHUB_OUTPUT"
+ 
+      - name: Build versioned copy
+        run: |
+          NEW_NAME="${{ steps.vars.outputs.new_name }}"
+ 
+          # Copy (don't move) so the source repo keeps the plain "RainbowMod" names
+          cp -r RainbowMod "$NEW_NAME"
+          cp RainbowMod.mod "$NEW_NAME.mod"
+ 
+          # Keep path/user_dir inside the .mod file in sync with the new folder name
+          sed -i "s|path = \"mod/RainbowMod\"|path = \"mod/${NEW_NAME}\"|" "$NEW_NAME.mod"
+          sed -i "s|user_dir = \"RainbowMod\"|user_dir = \"${NEW_NAME}\"|" "$NEW_NAME.mod"
+ 
+          # Also stamp the display name with the version
+          sed -i "s|^name = \"Fall of Genghis\"|name = \"Fall of Genghis V${{ steps.vars.outputs.version }}\"|" "$NEW_NAME.mod"
+ 
+      - name: Zip the versioned mod
+        run: |
+          NEW_NAME="${{ steps.vars.outputs.new_name }}"
+          zip -r "${NEW_NAME}.zip" "$NEW_NAME" "$NEW_NAME.mod"
+ 
+      - name: Attach zip to the release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.vars.outputs.new_name }}.zip
+ 
+      - name: Upload as workflow artifact (manual runs)
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.vars.outputs.new_name }}
+          path: ${{ steps.vars.outputs.new_name }}.zip
