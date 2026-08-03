@@ -1,6 +1,6 @@
 name = "Fall of Genghis" 
-path = "mod/RainbowMod" 
-user_dir = "RainbowMod"
+path = "mod/Fall_of_Genghis" 
+user_dir = "Fall_of_Genghis"
 replace_path = "common/countries"
 replace_path = "decisions"
 replace_path = "events"

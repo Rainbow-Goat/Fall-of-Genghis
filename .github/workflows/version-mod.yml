@@ -34,7 +34,7 @@ jobs:
           VERSION="${RAW_TAG#v}"
           VERSION="${VERSION#V}"
  
-          NEW_NAME="RainbowMod_V${VERSION}"
+          NEW_NAME="Fall of Genghis V${VERSION}"
  
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           echo "new_name=$NEW_NAME" >> "$GITHUB_OUTPUT"
@@ -43,18 +43,19 @@ jobs:
         run: |
           NEW_NAME="${{ steps.vars.outputs.new_name }}"
  
-          # Copy (don't move) so the source repo keeps the plain "RainbowMod" names
-          cp -r RainbowMod "$NEW_NAME"
-          cp RainbowMod.mod "$NEW_NAME.mod"
+          # Copy (don't move) so the source repo keeps the plain "Fall of Genghis" names
+          cp -r "Fall of Genghis" "$NEW_NAME"
+          cp "Fall of Genghis.mod" "$NEW_NAME.mod"
  
           # Keep path/user_dir inside the .mod file in sync with the new folder name
-          sed -i "s|path = \"mod/RainbowMod\"|path = \"mod/${NEW_NAME}\"|" "$NEW_NAME.mod"
-          sed -i "s|user_dir = \"RainbowMod\"|user_dir = \"${NEW_NAME}\"|" "$NEW_NAME.mod"
+          sed -i "s|path = \"mod/Fall of Genghis\"|path = \"mod/${NEW_NAME}\"|" "$NEW_NAME.mod"
+          sed -i "s|user_dir = \"Fall of Genghis\"|user_dir = \"${NEW_NAME}\"|" "$NEW_NAME.mod"
  
           # Also stamp the display name with the version
           sed -i "s|^name = \"Fall of Genghis\"|name = \"Fall of Genghis V${{ steps.vars.outputs.version }}\"|" "$NEW_NAME.mod"
  
-      - name: Zip the versioned mod
+      - name: Zip the versioned mod (release only)
+        if: github.event_name == 'release'
         run: |
           NEW_NAME="${{ steps.vars.outputs.new_name }}"
           zip -r "${NEW_NAME}.zip" "$NEW_NAME" "$NEW_NAME.mod"
@@ -70,4 +71,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.vars.outputs.new_name }}
-          path: ${{ steps.vars.outputs.new_name }}.zip
+          path: |
+            ${{ steps.vars.outputs.new_name }}
+            ${{ steps.vars.outputs.new_name }}.mod
