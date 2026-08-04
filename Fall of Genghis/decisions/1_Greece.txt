@@ -97,7 +97,7 @@ political_decisions = {
         }
     }
 
-    gre_abandon_anatolia = {
+    abandon_anatolia = {
         potential = {
             tag = GRE
             NOT = {
