@@ -18,7 +18,7 @@ political_decisions = {
         }
     }
 
-    defensive_expansion = {
+    liberate_serbia = {
         potential = {
             tag = GRE
             owns = 810
@@ -39,7 +39,7 @@ political_decisions = {
         }
     }
 
-    conquer_illyria = {
+    liberate_illyria = {
         potential = {
             tag = GRE
             NOT = { 783 = { is_core = THIS } }
@@ -59,7 +59,7 @@ political_decisions = {
         }
     }
 
-    recruit_the_bulgarians = {
+    gre_accept_bulgarians = {
         potential = {
             tag = GRE
             810 = { is_core = GRE }
@@ -77,7 +77,7 @@ political_decisions = {
         }
     }
 
-    local_serbian_administrators = {
+    gre_accept_serbs = {
         potential = {
             tag = GRE
             NOT = { accepted_culture = serb }
@@ -97,7 +97,7 @@ political_decisions = {
         }
     }
 
-    abandon_anatolia = {
+    gre_abandon_anatolia = {
         potential = {
             tag = GRE
             NOT = {

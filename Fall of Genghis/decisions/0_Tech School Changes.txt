@@ -9,8 +9,6 @@ political_decisions = {
 				ruling_party_ideology = reactionary
 				ruling_party_ideology = fascist
 			}
-			jingoism = 5
-			pro_military = 5
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -19,6 +17,7 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			military_score = 100
+			jingoism = 10
 		}
 		effect = {
 			prestige = -15
@@ -40,8 +39,6 @@ political_decisions = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = anarcho_liberal
 			}
-			pro_military = 5
-			laissez_faire = 5
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -51,6 +48,8 @@ political_decisions = {
 			prestige = 45
 			military_score = 100
 			total_amount_of_ships = 30
+			pro_military = 5
+			free_trade = 5
 		}
 		effect = {
 			prestige = -15
@@ -71,8 +70,6 @@ political_decisions = {
 				ruling_party_ideology = fascist
 				ruling_party_ideology = communist
 			}
-			pacifism = 5
-			secularized = 5
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -81,6 +78,7 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			average_consciousness = 4
+			pacifism = 8
 		}
 		effect = {
 			prestige = -15
@@ -100,8 +98,6 @@ political_decisions = {
 				ruling_party_ideology = liberal
 				ruling_party_ideology = anarcho_liberal
 			}
-			laissez_faire = 5
-			free_trade = 5
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -110,6 +106,7 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			industrial_score = 100
+			free_trade = 10
 		}
 		effect = {
 			prestige = -15
@@ -130,8 +127,6 @@ political_decisions = {
 				ruling_party_ideology = socialist
 				ruling_party_ideology = communist
 			}
-			interventionism = 5
-			protectionism = 5
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -140,6 +135,7 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			industrial_score = 100
+			interventionism = 10
 		}
 		effect = {
 			prestige = -15

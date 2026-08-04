@@ -21,7 +21,7 @@ political_decisions = {
     defensive_expansion = {
         potential = {
             tag = ERE
-            owns = 810
+            810 = { is_core = THIS }
             NOT = { 794 = { is_core = THIS } }
         }
         allow = {
