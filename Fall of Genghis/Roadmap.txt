@@ -8,6 +8,9 @@ Rework:
 Touch up:
     - Russia
     - Italy
+    - Ukraine
+    - Kievan Rus
+    - Various subpar localisation things
 
 V1.2 - Riches of the Orient
 Extensive content:

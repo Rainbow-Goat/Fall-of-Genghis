@@ -37,7 +37,6 @@ political_decisions = {
 
     abandon_the_cossacks = {
         potential = {
-            is_culture_group = east_slavic
             OR = {
                 primary_culture = russian
                 primary_culture = byelorussian
@@ -111,7 +110,6 @@ political_decisions = {
 
     a_unified_cossack_state = {
         potential = {
-            is_culture_group = east_slavic
             OR = {
                 primary_culture = ukrainian
                 primary_culture = ruthenian
@@ -159,6 +157,19 @@ political_decisions = {
                     remove_core = ROS
                 }
             }
+            any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+                    OR = {
+                        primary_culture = ukrainian
+                        primary_culture = ruthenian
+                    }
+					in_sphere = THIS
+				}
+				annex_to = THIS
+			}
             prestige = 10
             badboy = -5
         }

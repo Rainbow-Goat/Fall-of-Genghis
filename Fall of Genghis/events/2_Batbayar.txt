@@ -52,7 +52,7 @@ country_event = {
 country_event = {
 	id = 80084
 	title = "Mongol Warrior Culture"
-	desc = "We are a of mongol heritage, as such we have a higher percentage of soldiers than most"
+	desc = "We are of a mongol heritage, as such we have a higher percentage of soldiers than most"
 	
 	trigger = {
 		primary_culture = mongol

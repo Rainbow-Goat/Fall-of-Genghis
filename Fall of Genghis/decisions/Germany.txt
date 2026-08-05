@@ -1,48 +1,4 @@
-political_decisions = {
-	ems_dispatch = {
-		potential = {
-			owns = 570
-			NOT = {
-				has_country_flag = ems_dispatch_sent
-			}
-			OR = {
-				tag = PRU
-				tag = NGF
-			}
-			exists = FRA
-			government = absolute_monarchy
-		}
-		
-		allow = {
-			prestige = 30
-			steel_breech_loaded_artillery = 1
-			NOT = {
-				relation = {
-					who = FRA
-					value = 0
-				}
-			}
-		}
-		
-		effect = {
-			prestige = 5
-			FRA = {
-				country_event = { id=19200 days=0 }
-			}
-			set_country_flag = ems_dispatch_sent
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					war_exhaustion = 1
-				}
-			}
-		}
-	}
-	
+political_decisions = {	
 	construct_germania_werft = {
 		potential = {
 			owns = 369
@@ -125,36 +81,6 @@ political_decisions = {
 		effect = {
 			prestige = 20
 			set_country_flag = schwabing_encircled
-		}
-	}
-	
-	
-	kaiser_wilhelms_land = {
-		potential = {
-			tag = GER
-			owns = 1531
-			owns = 2530
-			owns = 2531
-			owns = 2537
-			owns = 2539
-			NOT = {
-				has_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
-			}
-		}
-		
-		allow = {
-			invention = mission_to_civilize
-		}
-		
-		effect = {
-			prestige = 10
-			2531 = {
-				change_province_name = "Friedrich-Wilhelmshafen"
-				state_scope = {
-					change_region_name = "Kaiser-Wilhelms-Land"
-				}
-			}
-			set_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
 		}
 	}
 	
@@ -245,6 +171,31 @@ political_decisions = {
 				duration = 3650
 			}
 			set_global_flag = ruhr_boom_has_happened
+		}
+	}
+
+	remove_pommerania = {
+		potential = {
+			tag = GER
+			549 = { is_core = POM }
+		}
+		allow = {
+			war = no
+			NOT = { exists = POM }
+			revolution_n_counterrevolution = 1
+			POM = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			POM = {
+				all_core = {
+					remove_core = POM
+				}
+			}
 		}
 	}
 }
