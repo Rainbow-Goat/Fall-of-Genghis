@@ -1,0 +1,378 @@
+political_decisions = {
+	change_our_alignment_mex = {
+		potential = {
+			has_country_modifier = mexican_alignment
+			MEX = { exists = yes }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			remove_country_modifier = mexican_alignment
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 3650
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 1
+			}
+			MEX = { prestige = -1 }
+		}
+	}
+
+	change_our_alignment_uma = {
+		potential = {
+			has_country_modifier = umayyad_alignment
+			ALA = { exists = yes }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			remove_country_modifier = umayyad_alignment
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 3650
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 1
+			}
+			ALA = { prestige = -1 }
+		}
+	}
+	
+	change_our_alignment_umahna = {
+		potential = {
+			has_country_modifier = umayyad_alignment
+			HNA = { exists = yes }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			remove_country_modifier = umayyad_alignment
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 3650
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 1
+			}
+			HNA = { prestige = -1 }
+		}
+	}
+	
+	change_our_alignment_ras = {
+		potential = {
+			has_country_modifier = rashidun_alignment
+			RAS = { exists = yes }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			remove_country_modifier = rashidun_alignment
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 3650
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 1
+			}
+			RAS = { prestige = -1 }
+		}
+	}
+		
+	forge_a_new_caliphate_old_continent = {
+		potential = {
+			has_country_modifier = shiite_rejection
+			NOT = { has_global_flag = Shiite_Caliphate_Attempted }
+			NOT = { primary_culture = persian }
+		}
+		
+		allow = {
+			is_greater_power = yes
+		}
+		
+		effect = {
+			set_global_flag = Shiite_Caliphate_Attempted
+			set_global_flag = Shiite_Old_World
+			prestige = 50
+			change_tag = SCL
+			government = caliphate
+			PER = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			RAS = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			EGY = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			TRI = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			RUM = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			ALD = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			MOR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = persian
+			add_accepted_culture = mashriqi
+		}
+	}
+	
+	accept_the_bedouins_shiite_cal = {
+		potential = {
+			has_global_flag = Shiite_Old_World
+			tag = SCL
+			NOT = { accepted_culture = bedouin }
+			NOT = { primary_culture = bedouin }
+		}
+		
+		allow = {
+			RAS = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = bedouin
+		}
+	}
+	
+	accept_the_egyptians_shiite_cal = {
+		potential = {
+			has_global_flag = Shiite_Old_World
+			tag = SCL
+			NOT = { accepted_culture = misri }
+			NOT = { primary_culture = misri }
+		}
+		
+		allow = {
+			EGY = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = misri
+		}
+	}
+	
+	accept_the_maghrebis_shiite_cal = {
+		potential = {
+			has_global_flag = Shiite_Old_World
+			tag = SCL
+			NOT = { accepted_culture = maghrebi }
+			NOT = { primary_culture = maghrebi }
+		}
+		
+		allow = {
+			MOR = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			ALD = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			TRI = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = maghrebi
+		}
+	}
+	
+	forge_a_new_caliphate_old_continent_PER = {
+		potential = {
+			has_country_modifier = shiite_rejection
+			NOT = { has_global_flag = Shiite_Caliphate_Attempted }
+			primary_culture = persian
+		}
+		
+		allow = {
+			is_greater_power = yes
+		}
+		
+		effect = {
+			set_global_flag = Shiite_Caliphate_Attempted
+			set_global_flag = Shiite_Old_World
+			prestige = 50
+			change_tag = SCL
+			government = caliphate
+			PER = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			RAS = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			EGY = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			TRI = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			RUM = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			ALD = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			MOR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = mashriqi
+		}
+	}
+	
+	forge_a_new_caliphate_new_world = {
+		potential = {
+			has_country_modifier = shiite_rejection
+			NOT = { has_global_flag = Shiite_Caliphate_Attempted }
+			NOT = { primary_culture = persian }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			owns = 2172
+		}
+		
+		effect = {
+			set_global_flag = Shiite_Caliphate_Attempted
+			set_global_flag = Shiite_New_World
+			prestige = 20
+			change_tag = SCL
+			government = caliphate
+			MEX = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = mexican
+			add_accepted_culture = rifian
+			add_accepted_culture = persian
+		}
+	}
+	
+	forge_a_new_caliphate_new_world_PER = {
+		potential = {
+			has_country_modifier = shiite_rejection
+			NOT = { has_global_flag = Shiite_Caliphate_Attempted }
+			primary_culture = persian
+		}
+		
+		allow = {
+			is_greater_power = yes
+			owns = 2172
+		}
+		
+		effect = {
+			set_global_flag = Shiite_Caliphate_Attempted
+			set_global_flag = Shiite_New_World
+			prestige = 20
+			change_tag = SCL
+			government = caliphate
+			MEX = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = mexican
+			add_accepted_culture = rifian
+		}
+	}
+	
+	holy_cities_united = {
+		potential = {
+			OR = {
+				any_owned_province = {
+					any_pop = {
+						has_pop_religion = sunni
+						is_state_religion = yes
+					}
+				}
+				any_owned_province = {
+					any_pop = {
+						has_pop_religion = shiite
+						is_state_religion = yes
+					}
+				}
+			}
+			NOT = { has_country_flag = United_Holy_Cities }
+		}
+		
+		allow = {
+			owns = 2172
+			owns = 513
+			owns = 1153
+			owns = 1151
+			owns = 917
+		}
+		
+		effect = {
+			set_country_flag = United_Holy_Cities
+			prestige = 100
+			badboy = -5
+			plurality = 10
+		}
+	}
+}

@@ -897,3 +897,48 @@ hse_capital = {
 	influence_modifier = 0.1
 	icon = 7
 }
+
+muslim_alignment_changed = {
+	global_pop_consciousness_modifier = 0.01
+	icon = 4
+}
+
+rashidun_alignment = {
+	global_population_growth = 0.005
+	research_points_modifier = -0.05
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
+	icon = 17
+}
+
+umayyad_alignment = {
+	badboy = 0.03
+	min_military_spending = 0.1
+	diplomatic_points_modifier = -0.05
+	land_organisation = 0.1
+	research_points_on_conquer = 0.1
+	military_tech_research_bonus = 0.1
+	culture_tech_research_bonus = -0.05
+	land_unit_start_experience = 10
+	icon = 17
+}
+
+mexican_alignment = {
+	badboy = -0.05
+	education_efficiency_modifier = 0.1
+	research_points_modifier = 0.05
+	global_population_growth = -0.002
+	global_pop_consciousness_modifier = 0.01
+	global_pop_militancy_modifier = 0.01
+	icon = 17
+}
+	
+shiite_rejection = {
+	global_population_growth = 0.002
+	global_pop_consciousness_modifier = -0.01
+	global_pop_militancy_modifier = -0.01
+	land_unit_start_experience = 5
+	badboy = -0.01
+	diplomatic_points_modifier = -0.1
+	icon = 17
+}

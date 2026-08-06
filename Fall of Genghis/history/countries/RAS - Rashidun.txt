@@ -2,6 +2,7 @@ capital = 1151
 primary_culture = bedouin
 culture = mashriqi
 religion = sunni
+set_country_flag = religion_sunni
 government = caliphate
 plurality = 0.2
 nationalvalue = nv_order

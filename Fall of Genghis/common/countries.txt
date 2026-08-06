@@ -4,6 +4,7 @@
 REB 	= 	"countries/rebels.txt"
 
 # New unsorted countries
+SCL		= "countries/Shia Caliphate.txt"
 DUS		= "countries/Dusseldorf.txt"
 KOL		= "countries/Cologne.txt"
 TEU		= "countries/Teutonic Order.txt"

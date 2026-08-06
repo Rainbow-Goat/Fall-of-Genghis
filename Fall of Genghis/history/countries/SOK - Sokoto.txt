@@ -1,6 +1,7 @@
 capital = 1948
 primary_culture = yoruba
 religion = sunni
+set_country_flag = religion_sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

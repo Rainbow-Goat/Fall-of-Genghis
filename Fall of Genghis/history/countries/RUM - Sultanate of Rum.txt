@@ -2,6 +2,7 @@ capital = 900
 primary_culture = mashriqi
 culture = anatolian
 religion = sunni
+set_country_flag = religion_sunni
 government = sultanate
 plurality = 25.0
 nationalvalue = nv_order

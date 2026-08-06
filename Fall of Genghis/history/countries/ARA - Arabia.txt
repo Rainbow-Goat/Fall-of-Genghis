@@ -4,6 +4,7 @@ culture = bedouin
 culture = misri
 culture = maghrebi
 religion = sunni
+set_country_flag = religion_sunni
 government = absolute_monarchy
 plurality = 0.2
 nationalvalue = nv_order
