@@ -1,6 +1,7 @@
 political_decisions = {
 	form_union_nation = {
 		potential = {
+			tag = GHO
 			culture_has_union_tag = yes
 			cultural_union = { exists = no }
 			OR = {
@@ -185,9 +186,11 @@ political_decisions = {
 
 	form_yugoslavia = {
 		potential = {
+			tag = GHO
 			is_culture_group = south_slavic
 			NOT = { exists = YUG }
 			NOT = { has_global_flag = yugoslavia_formed }
+			NOT = { has_country_flag = bulgaria_black_sea }
 		}
 
 		allow = {

@@ -1,0 +1,524 @@
+political_decisions = {
+    bulgaria_yug_1 = {
+        potential = {
+            tag = BLG
+            NOT = { 794 = { is_core = THIS } }
+            NOT = { has_country_flag = bulgaria_black_sea }
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+            OR = {
+                SER = {
+                    all_core = {
+                        owned_by = THIS
+                    }
+                }
+                is_our_vassal = SER
+                SER = {
+                    in_sphere = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            inherit = SER
+            SER_794 = { add_core = THIS }
+            MON_2582 = { add_core = THIS }
+            TUR_788 = { add_core = THIS }
+            set_country_flag = bulgaria_balkan
+        }
+    }
+
+    bulgaria_yug_2 = {
+        potential = {
+            tag = BLG
+            NOT = {
+                accepted_culture = serb 
+            }
+            794 = {
+                is_core = THIS
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+        effect = {
+            prestige = 10
+            add_accepted_culture = serb
+        }
+    }
+
+    bulgaria_yug_3 = {
+        potential = {
+            tag = BLG
+            794 = {
+                is_core = THIS
+            }
+            NOT = {
+                771 = {
+                    is_core = THIS
+                }
+            }
+        }
+        allow = {
+            war = no
+            OR = {
+                AND = {
+                    771 = { owned_by = THIS }
+                    780 = { owned_by = THIS }
+                }
+                is_our_vassal = CRO
+                CRO = {
+                    in_sphere = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            any_country = {
+				limit = {
+                    tag = CRO
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                }
+			    annex_to = THIS
+            }
+            AUS_771 = { add_core = THIS }
+            AUS_780 = { add_core = THIS }
+            AUS_736 = { add_core = THIS }
+            AUS_768 = { add_core = THIS }
+        }
+    }
+
+    bulgaria_yug_4 = {
+        potential = {
+            tag = BLG
+            771 = {
+                is_core = THIS
+            }
+            NOT = {
+                accepted_culture = croat
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+        effect = {
+            prestige = 10
+            add_accepted_culture = croat
+            add_accepted_culture = slovene
+        }
+    }
+
+    bulgaria_yug_5 = {
+        potential = {
+            tag = BLG
+            NOT = {
+                exists = YUG
+            }
+            has_country_flag = bulgaria_balkan
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            accepted_culture = croat
+            accepted_culture = serb
+        }
+        effect = {
+            prestige = 50
+            change_tag = YUG
+            AUS_777 = {
+                add_core = THIS
+            }
+            SER = {
+                all_core = {
+                    remove_core = SER
+                }
+            }
+            ALB = {
+                all_core = {
+                    remove_core = ALB
+                }
+            }
+            CRO = {
+                all_core = {
+                    remove_core = CRO
+                }
+            }
+            MON = {
+                all_core = {
+                    remove_core = MON
+                }
+            }
+            SLO = {
+                all_core = {
+                    remove_core = SLO
+                }
+            }
+            BLG = {
+                all_core = {
+                    remove_core = BLG
+                }
+            }
+        }
+    }
+
+    bulgaria_yug_6 = {
+        potential = {
+            tag = YUG
+            primary_culture = bulgarian
+            NOT = {
+                664 = {
+                    is_core = THIS
+                }
+            }
+        }
+        allow = {
+            war = no
+            OR = {
+                AND = {
+                    owns = 664
+                    owns = 670
+                }
+                AND = {
+                    WAL = {
+                        all_core = {
+                            OR = {
+                                owned_by = THIS
+						        owner = {
+							        in_sphere = THIS
+                                    vassal_of = THIS
+						        }
+                            }
+                        }
+                    }
+                    MOL = {
+                        all_core = {
+                            OR = {
+                                owned_by = THIS
+                                owner = {
+                                    in_sphere = THIS
+                                    vassal_of = THIS
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            any_country = {
+                limit = {
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                    primary_culture = romanian
+                }
+                annex_to = THIS
+            }
+            prestige = 30
+            WAL_665 = { add_core = THIS }
+            MOL_673 = { add_core = THIS }
+            TUR_674 = { add_core = THIS }
+            RUS_676 = { add_core = THIS }
+            AUS_654 = { add_core = THIS }
+            AUS_647 = { add_core = THIS }
+        }
+    }
+
+    bulgaria_yug_7 = {
+        potential = {
+            tag = YUG
+            primary_culture = bulgarian
+            664 = { is_core = THIS }
+            NOT = { accepted_culture = romanian }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            ROM = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 30
+            add_accepted_culture = romanian
+            WAL = {
+                all_core = {
+                    remove_core = WAL
+                }
+            }
+            MOL = {
+                all_core = {
+                    remove_core = MOL
+                }
+            }
+        }
+    }
+
+    bulgaria_yug_8 = {
+        potential = {
+            tag = YUG
+            primary_culture = bulgarian
+            accepted_culture = romanian
+            NOT = {
+                834 = { is_core = THIS }
+            }
+        }
+        allow = {
+            war = no
+            mass_politics = 1
+        }
+        effect = {
+            badboy = 30
+            TUR_805 = { add_core = THIS }
+            TUR_819 = { add_core = THIS }
+            GRE_826 = { add_core = THIS }
+            TUR_860 = { add_core = THIS }
+        }
+    }
+
+    bulgaria_yug_9 = {
+        potential = {
+            tag = YUG
+            primary_culture = bulgarian
+            834 = { is_core = THIS }
+            NOT = { accepted_culture = antiqua_greek }
+        }
+        allow = {
+            war = no
+            owns = 805
+            owns = 824
+            owns = 834
+        }
+        effect = {
+            prestige = 20
+            add_accepted_culture = antiqua_greek
+        }
+    }
+
+    bulgaria_blacksea_1 = {
+        potential = {
+            tag = BLG
+            NOT = { has_country_flag = bulgaria_balkan }
+            NOT = { has_country_flag = bulgaria_black_sea }
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+            AND = {
+                owns = 664
+                owns = 670
+            }
+        }
+        effect = {
+            prestige = 10
+            WAL = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+            MOL = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+            set_country_flag = bulgaria_black_sea
+        }
+    }
+
+    bulgaria_blacksea_2 = {
+        potential = {
+            tag = BLG
+            has_country_flag = bulgaria_black_sea
+            owns = 967
+            NOT = {
+                968 = { is_core = THIS }
+            }
+        }
+        allow = {
+            war = no
+            owns = 968
+            owns = 976
+            owns = 967
+        }
+        effect = {
+            prestige = 10
+            RUS_965 = { add_core = THIS }
+            LUH_976 = { add_core = THIS }
+            RUS_980 = { add_core = THIS }            
+            3250 = { add_core = THIS }
+        }
+    }
+
+    bulgaria_blacksea_3 = {
+        potential = {
+            tag = BLG
+            968 = { is_core = THIS }
+            NOT = {
+                979 = { is_core = THIS }
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            ROS = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            prestige = 20
+            ROS = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+            inherit = ROS
+        }
+    }
+
+    bulgaria_blacksea_4 = {
+        potential = {
+            tag = BLG
+            NOT = { accepted_culture = romanian }
+            664 = { is_core = THIS }
+            has_country_flag = bulgaria_black_sea
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            owns = 664
+            owns = 670
+        }
+        effect = {
+            prestige = 20
+            add_accepted_culture = romanian
+        }
+    }
+
+    bulgaria_blacksea_5 = {
+        potential = {
+            tag = BLG
+            has_country_flag = bulgaria_black_sea
+            968 = { is_core = THIS }
+            NOT = { accepted_culture = ukrainian }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            owns = 968
+            owns = 976
+            owns = 1048
+        }
+        effect = {
+            prestige = 20
+            add_accepted_culture = ukrainian
+        }
+    }
+
+    bulgaria_blacksea_6 = {
+        potential = {
+            tag = BLG
+            has_country_flag = bulgaria_black_sea
+        }
+        allow = {
+            war = no
+            accepted_culture = romanian
+            accepted_culture = ukrainian
+        }
+        effect = {
+            prestige = 30
+            change_tag = BSE
+            add_accepted_culture = north_caucasian
+        }
+    }
+
+    bulgaria_blacksea_7 = {
+        potential = {
+            tag = BSE
+            NOT = { 
+                1055 = { 
+                    is_core = THIS 
+                } 
+            }
+        }
+        allow = {
+            war = no
+            GRO = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            OR = {
+                                in_sphere = THIS
+                                vassal_of = THIS
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            prestige = 5
+            GRO = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+            inherit = GRO
+        }
+    }
+
+    bulgaria_blacksea_8 = {
+        potential = {
+            tag = BSE
+            NOT = { has_country_flag = bse_trade_deal }
+        }
+        allow = {
+            war = no
+            relation = { who = LIT value = 150 }
+            business_regulations = 1
+            LIT = {
+                AND = {
+                    owns = 677
+                    owns = 961
+                    owns = 3249
+                }
+            }
+            BSE = {
+                OR = {
+                    money = 5000000
+                    NOT = { badboy = 0.4 }
+                }
+            }
+        }
+        effect = {
+            prestige = -20
+            BSE = {
+                country_event = 101100
+            }
+            set_country_flag = bse_trade_deal
+        }
+    }
+
+
+
+}

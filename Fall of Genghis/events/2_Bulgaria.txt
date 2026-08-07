@@ -1,0 +1,205 @@
+country_event = {
+    id = 101100
+    title = "What will we offer?"
+    desc = "101100D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "We shall give them our good word"
+        LIT = {
+            country_event = 101101
+        }
+        bse_trade_1_tooltip = {}
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+    option = {
+        name = "The riches we have acquired via our trade"
+        LIT = {
+            country_event = 101102
+        }
+        bse_trade_2_tooltip = {}
+        
+        ai_chance = {
+            factor = 2
+        }
+    }
+}
+
+country_event = {
+    id = 101101
+    title = "The Black Sea Trade Offer"
+    desc = "101101D"
+    picture = Picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept the deal"
+        BSE = {
+            country_event = 101104
+        }
+        LIT = {
+            badboy = -30
+            prestige = -5
+        }
+        
+        ai_chance = {
+            factor = 5
+        }
+    }
+    
+    option = {
+        name = "Reject the deal"
+        BSE = {
+            country_event = 101103
+        }
+        
+        
+        ai_chance = {
+            factor = 2
+        }
+    }
+}
+
+country_event = {
+    id = 101102
+    title = "The Black Sea Trade Offer"
+    desc = "101102D"
+    picture = Picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Accept the deal"
+        BSE = {
+            country_event = 101105
+        }
+        LIT = {
+            treasury = 1000000
+            treasury = 1000000
+            treasury = 1000000
+            treasury = 1000000
+            treasury = 1000000
+            prestige = -5
+        }
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+    
+    option = {
+        name = "Reject the deal"
+        BSE = {
+            country_event = 101103
+        }
+        
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+}
+
+country_event = {
+    id = 101103
+    title = "Our Offer Was Rejected"
+    desc = "101103D"
+    picture = Picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We never wanted it anyways..."
+        
+        ai_chance = {
+            factor = 5
+        }
+    }
+}
+
+country_event = {
+    id = 101104
+    title = "Our Offer Was Accepted"
+    desc = "101104D"
+    picture = Picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "I was a business man, doing business"
+        BSE = {
+            badboy = 20
+        }
+        677 = {
+            secede_province = THIS
+        }
+        969 = {
+            secede_province = THIS
+        }
+        954 = {
+            secede_province = THIS
+        }
+        3255 = {
+            secede_province = THIS
+        }
+        961 = {
+            secede_province = THIS
+        }
+        3249 = {
+            secede_province = THIS
+        }
+
+        ai_chance = {
+            factor = 5
+        }
+    }
+}
+
+country_event = {
+    id = 101105
+    title = "Our Offer Was Accepted"
+    desc = "101105D"
+    picture = Picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "I was a business man, doing business"
+        BSE = {
+            treasury = -1000000
+            treasury = -1000000
+            treasury = -1000000
+            treasury = -1000000
+            treasury = -1000000
+        }
+        677 = {
+            secede_province = THIS
+        }
+        969 = {
+            secede_province = THIS
+        }
+        954 = {
+            secede_province = THIS
+        }
+        3255 = {
+            secede_province = THIS
+        }
+        961 = {
+            secede_province = THIS
+        }
+        3249 = {
+            secede_province = THIS
+        }
+
+        ai_chance = {
+            factor = 5
+        }
+    }
+}
