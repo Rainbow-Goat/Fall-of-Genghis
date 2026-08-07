@@ -12,7 +12,7 @@ Touch up:
     - Kievan Rus
     - Various subpar localisation things
 Meme content:
-    - Serbia
+    - Serbia (DONE)
 
 V1.2 - Riches of the Orient
 Extensive content:
@@ -23,8 +23,10 @@ Extensive content:
 Moderate content:
     - Armenia
     - Afghanistan
+    - Timurids
 Minor content:
     - Umayyad Caliphate
+    - Yemen
 Meme content:
     - Kurdistan
     - Iraq
