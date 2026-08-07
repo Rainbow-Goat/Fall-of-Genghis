@@ -366,30 +366,4 @@ political_decisions = {
 			plurality = 10
 		}
 	}
-	
-	change_our_alignment_mex = {
-		potential = {
-			has_country_modifier = mexican_alignment
-			MEX = { exists = yes }
-		}
-		
-		allow = {
-			not = { has_country_modifier = muslim_alignment_changed }
-		}
-		
-		effect = {
-			remove_country_modifier = {
-				name = mexican_alignment
-			}
-			add_country_modifier = {
-				name = muslim_alignment_changed
-				duration = 3650
-			}
-			any_pop = {
-				limit = { has_pop_religion = sunni }
-				militancy = 1
-			}
-			MEX = { prestige = -1 }
-		}
-	}
 }
