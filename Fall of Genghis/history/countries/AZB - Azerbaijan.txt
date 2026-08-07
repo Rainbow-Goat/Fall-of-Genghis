@@ -2,6 +2,7 @@ capital = 1102
 primary_culture = azerbaijani
 culture = turkish
 religion = sunni
+set_country_flag = religion_sunni
 government = democracy
 plurality = 25.0
 nationalvalue = nv_order

@@ -1,6 +1,7 @@
 capital = 513
 primary_culture = andalusian
 religion = sunni
+set_country_flag = religion_sunni
 government = caliphate
 plurality = 25.0
 nationalvalue = nv_order

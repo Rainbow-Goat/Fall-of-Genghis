@@ -1,0 +1,105 @@
+country_event = {
+
+	id = 80200
+
+	trigger = {
+		has_country_modifier = umayyad_alignment
+		AND = {
+			ALA = {exists = no}
+			HNA = {exists = no}
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "The fall of the Umayyad Caliphate"
+	desc = "The Umayyad Caliphate, which our scholars viewed as the true leader of islam, has fallen. Our nations religious leaders are in turmoil!"
+
+	option = {
+		name = "How could this happen!?"
+		prestige = -20
+		remove_country_modifier = umayyad_alignment
+	}
+}
+
+country_event = {
+
+	id = 80201
+
+	trigger = {
+		has_country_modifier = rashidun_alignment
+		RAS = { exists = no }
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "The fall of the Rashidun Caliphate"
+	desc = "The Rashidun Caliphate, which our scholars viewed as the true leader of islam, has fallen. Our nations religious leaders are in turmoil!"
+
+	option = {
+		name = "How could this happen!?"
+		prestige = -20
+		remove_country_modifier = rashidun_alignment
+	}
+}
+
+country_event = {
+
+	id = 80202
+
+	trigger = {
+		has_country_modifier = mexican_alignment
+		MEX = { exists = no }
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "The fall of the Mexican Caliphate"
+	desc = "The Mexican Caliphate, which our scholars viewed as the true leader of islam, has fallen. Our nations religious leaders are in turmoil!"
+
+	option = {
+		name = "How could this happen!?"
+		prestige = -20
+		remove_country_modifier = mexican_alignment
+	}
+}
+
+country_event = {
+
+	id = 80203
+
+	trigger = {
+		OR = {
+			has_country_modifier = umayyad_alignment
+			has_country_modifier = rashidun_alignment
+			has_country_modifier = mexican_alignment
+		}
+		OR = {
+			tag = RAS
+			tag = ALA
+			tag = HNA
+			tag = MEX
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "The rise of a new caliphate!"
+	desc = "With the world recognizing us as one of the world's caliphates now, it does not make sense anymore to align our religious school with a foreign caliphate any longer."
+
+	option = {
+		name = "That makes sense."
+		prestige = 10
+		remove_country_modifier = umayyad_alignment
+		remove_country_modifier = rashidun_alignment
+		remove_country_modifier = mexican_alignment
+	}
+}

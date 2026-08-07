@@ -1,6 +1,7 @@
 capital = 1167
 primary_culture = bedouin
 religion = shiite
+set_country_flag = religion_shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

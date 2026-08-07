@@ -1,0 +1,395 @@
+political_decisions = {
+	sunni_align_ourselves_with_rashiduns = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			has_country_flag = religion_sunni
+			RAS = { exists = yes }
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = rashidun_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = -1
+				consciousness = -1
+			}
+			RAS = { prestige = 2 }
+		}
+	}
+
+	shiite_align_ourselves_with_rashiduns = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			RAS = { exists = yes }
+			has_country_flag = religion_shiite
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = rashidun_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = -2
+				consciousness = -1
+			}
+			any_pop = {
+				limit = { has_pop_religion = shiite }
+				militancy = 1
+			}
+			prestige = -5
+			RAS = { prestige = 1 }
+		}
+	}
+	
+	sunni_align_ourselves_with_umayyads_ala = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			ALA = { exists = yes }
+			has_country_flag = religion_sunni
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = umayyad_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			prestige = 5
+			ALA = { prestige = 2 }
+		}
+	}
+
+	shiite_align_ourselves_with_umayyads_ala = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			ALA = { exists = yes }
+			has_country_flag = religion_shiite
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = umayyad_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = -1
+			}
+			any_pop = {
+				limit = { has_pop_religion = shiite }
+				militancy = 1
+			}
+			prestige = -2
+			ALA = { prestige = 1 }
+		}
+	}
+	
+	sunni_align_ourselves_with_umayyads_hna = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			HNA = { exists = yes }
+			has_country_flag = religion_sunni
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = umayyad_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			prestige = 6
+			HNA = { prestige = 3 }
+		}
+	}
+
+	shiite_align_ourselves_with_umayyads_hna = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			HNA = { exists = yes }
+			has_country_flag = religion_shiite
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = umayyad_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = -1
+			}
+			any_pop = {
+				limit = { has_pop_religion = shiite }
+				militancy = 1
+			}
+			prestige = -1
+			HNA = { prestige = 2 }
+		}
+	}
+	
+	sunni_align_ourselves_with_mexicans = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			MEX = { exists = yes }
+			has_country_flag = religion_sunni
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = mexican_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			research_points = 100
+			plurality = 5
+			MEX = { prestige = 2 }
+		}
+	}
+
+	shiite_align_ourselves_with_mexicans = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			MEX = { exists = yes }
+			has_country_flag = religion_shiite
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = mexican_alignment
+				duration = -1
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 7300
+			}
+			prestige = -5
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = -1
+			}
+			any_pop = {
+				limit = { has_pop_religion = shiite }
+				militancy = 1
+			}
+			research_points = 50
+			plurality = 2
+			MEX = { prestige = 1 }
+		}
+	}
+	
+	shiite_reject_the_caliphates = {
+		potential = {
+			NOT = {
+				OR = {
+					tag = RAS
+					tag = ALA 
+					tag = HNA
+					tag = MEX
+				}
+			}
+			has_country_flag = religion_shiite
+			not = { has_country_modifier = rashidun_alignment }
+			not = { has_country_modifier = umayyad_alignment }
+			not = { has_country_modifier = mexican_alignment }
+			not = { has_country_modifier = shiite_rejection }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = shiite_rejection
+				duration = -1
+			}
+			prestige = 10
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 2
+			}
+			any_pop = {
+				limit = { has_pop_religion = shiite }
+				militancy = -2
+			}
+			research_points = 200
+			plurality = 10
+		}
+	}
+	
+	change_our_alignment_mex = {
+		potential = {
+			has_country_modifier = mexican_alignment
+			MEX = { exists = yes }
+		}
+		
+		allow = {
+			not = { has_country_modifier = muslim_alignment_changed }
+		}
+		
+		effect = {
+			remove_country_modifier = {
+				name = mexican_alignment
+			}
+			add_country_modifier = {
+				name = muslim_alignment_changed
+				duration = 3650
+			}
+			any_pop = {
+				limit = { has_pop_religion = sunni }
+				militancy = 1
+			}
+			MEX = { prestige = -1 }
+		}
+	}
+}
