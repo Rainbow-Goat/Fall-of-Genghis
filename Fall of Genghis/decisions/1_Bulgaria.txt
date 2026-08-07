@@ -107,6 +107,8 @@ political_decisions = {
         allow = {
             war = no
             state_n_government = 1
+            owns = 771
+            vote_franschise = landed_voting
         }
         effect = {
             prestige = 10
@@ -130,8 +132,9 @@ political_decisions = {
             accepted_culture = serb
         }
         effect = {
-            prestige = 50
+            prestige = 30
             change_tag = YUG
+            add_accepted_culture = albanian
             AUS_777 = {
                 add_core = THIS
             }
@@ -445,7 +448,7 @@ political_decisions = {
             accepted_culture = ukrainian
         }
         effect = {
-            prestige = 30
+            prestige = 50
             change_tag = BSE
             add_accepted_culture = north_caucasian
         }

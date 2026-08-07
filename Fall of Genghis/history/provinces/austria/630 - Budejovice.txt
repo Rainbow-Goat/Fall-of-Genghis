@@ -1,7 +1,8 @@
-trade_goods = coal
-life_rating = 38 
-add_core = HSE
 owner = BOH
 controller = BOH
 add_core = BOH
+add_core = KWS
+add_core = HSE
+trade_goods = coal
+life_rating = 38 
 1861.1.1 = { railroad = 1 } 

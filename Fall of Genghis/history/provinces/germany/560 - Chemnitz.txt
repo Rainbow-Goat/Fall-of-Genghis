@@ -2,6 +2,7 @@ owner = BOH
 controller = BOH
 add_core = BOH
 add_core = SAX
+add_core = KWS
 add_core = HSE
 trade_goods = iron
 life_rating = 40 

@@ -39,17 +39,47 @@ political_decisions = {
 			AND = {
 				SCO = {
 					all_core = {
-						owned_by = THIS
+						OR = {
+							owned_by = THIS
+							OR = {
+								owner = {
+									in_sphere = THIS
+								}
+								owner = {
+									vassal_of = THIS
+								}
+							}
+						}
 					}
 				}
 				IRE = {
 					all_core = {
-						owned_by = THIS
+						OR = {
+							owned_by = THIS
+							OR = {
+								owner = {
+									in_sphere = THIS
+								}
+								owner = {
+									vassal_of = THIS
+								}
+							}
+						}
 					}
 				}
 				ENG = {
 					all_core = {
-						owned_by = THIS
+						OR = {
+							owned_by = THIS
+							OR = {
+								owner = {
+									in_sphere = THIS
+								}
+								owner = {
+									vassal_of = THIS
+								}
+							}
+						}
 					}
 				}
 			}

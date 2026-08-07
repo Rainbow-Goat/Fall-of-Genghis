@@ -1,28 +1,4 @@
 political_decisions = {
-	change_our_alignment_mex = {
-		potential = {
-			has_country_modifier = mexican_alignment
-			MEX = { exists = yes }
-		}
-		
-		allow = {
-			not = { has_country_modifier = muslim_alignment_changed }
-		}
-		
-		effect = {
-			remove_country_modifier = mexican_alignment
-			add_country_modifier = {
-				name = muslim_alignment_changed
-				duration = 3650
-			}
-			any_pop = {
-				limit = { has_pop_religion = sunni }
-				militancy = 1
-			}
-			MEX = { prestige = -1 }
-		}
-	}
-
 	change_our_alignment_uma = {
 		potential = {
 			has_country_modifier = umayyad_alignment
@@ -356,6 +332,10 @@ political_decisions = {
 						is_state_religion = yes
 					}
 				}
+			}
+			OR = {
+				has_country_flag = religion_sunni
+				has_country_flag = religion_shiite
 			}
 			NOT = { has_country_flag = United_Holy_Cities }
 		}

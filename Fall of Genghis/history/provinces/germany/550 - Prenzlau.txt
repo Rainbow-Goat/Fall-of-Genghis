@@ -1,6 +1,7 @@
 owner = POM
 controller = POM
 add_core = POM
+add_core = KWS
 add_core = HSE
 trade_goods = cattle
 life_rating = 40 

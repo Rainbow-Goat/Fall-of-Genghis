@@ -1,6 +1,6 @@
 V1.1:
 New content:
-    - Bulgaria
+    - Bulgaria (DONE)
     - Scotland
 Rework:
     - Burgundy

@@ -46,9 +46,10 @@ political_decisions = {
 		potential = {
 				primary_culture = bohemian
 				NOT = {
-					tag = KWS
 					OR = {
 						exists = HSE
+						exists = GER
+						exists = KWS
 						year = 1870
 					}
 				}
@@ -76,7 +77,6 @@ political_decisions = {
 		effect = {
 			prestige = 80
 			change_tag = HSE
-			add_accepted_culture = bohemian
 			add_accepted_culture = pommeranian
 			any_country = {
 				limit = {
@@ -107,20 +107,28 @@ political_decisions = {
 				primary_culture = polish
 			}
 			NOT = {
-				exists = KWS
-				tag = HSE
+				OR = {
+					exists = KWS
+					exists = HSE
+				}
 			}
 		}
 		allow = {
 			war = no
 			state_n_government = 1
-			682 = { owned_by = THIS }
-			558 = { owned_by = THIS }
-			625 = { owned_by = THIS }
-			631 = { owned_by = THIS }
-			546 = { owned_by = THIS }
-			549 = { owned_by = THIS }
-			553 = { owned_by = THIS }
+			KWS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
 		}	
 		effect = {
 			prestige = 20
@@ -129,25 +137,21 @@ political_decisions = {
 			add_accepted_culture = pommeranian
 			HSE = {
 				all_core = {
-					limit = {
-						OR = {
-							culture = pommeranian
-							is_core = BOH
-						}
-					}
-					add_core = KWS
+					remove_core = HSE
 				}
 			}
-			538 = { add_core = KWS }
-			544 = { add_core = KWS }
 			PRU_701 = { add_core = KWS }
 			any_country = {
 				limit = {
 					OR = {
 						primary_culture = pommeranian
 						primary_culture = rhenish
+						primary_culture = bohemian
 					}
-					in_sphere = THIS
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
 				}
 				annex_to = THIS
 			}

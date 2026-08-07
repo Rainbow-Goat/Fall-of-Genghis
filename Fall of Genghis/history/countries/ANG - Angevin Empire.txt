@@ -10,6 +10,7 @@ civilized = yes
 prestige = 20
 schools = army_tech_school
 oob = "ANG_oob.txt"
+is_releasable_vassal = no
 
 ruling_party = ANG_reactionary
 upper_house = {

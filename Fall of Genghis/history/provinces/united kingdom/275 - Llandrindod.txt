@@ -2,6 +2,7 @@ owner = NRM
 controller = NRM
 add_core = NRM
 add_core = ENG
+add_core = GBR
 trade_goods = sulphur
 life_rating = 35 
 state_building = { level = 1 building = explosives_factory upgrade = yes } 
