@@ -8,7 +8,7 @@
 #   100020 = Scotland Events
 #   100030 = Scotland Events
 # 100100 = France stuff
-# 100200 = Scani stuff
+# 100200 = Scandi stuff
 # 100300 = Russia stuff
 # 100400 = Iberia stuff
 # 100500 = Italy stuff
@@ -16,8 +16,10 @@
 # 100700 = Germany stuff
 # 100800 = South America stuff
 # 100900 = Mideast stuff
-#   100900 = Cappadocian stuff
+#   100900 = Cappadocia stuff
 # 101010 = Static modifiers attached to certain cities (Like Constantinople)
+# 101100 - Balkan stuff
+#   101100 - Bulgaria Stuff
 
 
 ###vanilla
