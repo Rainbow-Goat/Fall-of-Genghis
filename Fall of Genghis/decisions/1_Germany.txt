@@ -174,7 +174,7 @@ political_decisions = {
 		}
 	}
 
-	remove_pommerania = {
+	remove_pomerania = {
 		potential = {
 			tag = GER
 			549 = { is_core = POM }
@@ -190,7 +190,8 @@ political_decisions = {
 			}
 		}
 		effect = {
-			prestige = 20
+			prestige = -20
+			badboy = 5
 			POM = {
 				all_core = {
 					remove_core = POM

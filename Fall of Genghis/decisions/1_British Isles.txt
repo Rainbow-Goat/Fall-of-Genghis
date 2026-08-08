@@ -28,7 +28,6 @@ political_decisions = {
 	
 	reform_uk = {
 		potential = {
-			is_culture_group = briton
 			OR = {
 				tag = ENG
 				tag = SCO
@@ -36,61 +35,58 @@ political_decisions = {
 			}
 		}
 		allow = {
-			AND = {
-				SCO = {
-					all_core = {
-						OR = {
-							owned_by = THIS
-							OR = {
-								owner = {
-									in_sphere = THIS
-								}
-								owner = {
-									vassal_of = THIS
-								}
-							}
+			war = no
+			GBR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
 						}
-					}
-				}
-				IRE = {
-					all_core = {
-						OR = {
-							owned_by = THIS
-							OR = {
-								owner = {
-									in_sphere = THIS
-								}
-								owner = {
-									vassal_of = THIS
-								}
-							}
-						}
-					}
-				}
-				ENG = {
-					all_core = {
-						OR = {
-							owned_by = THIS
-							OR = {
-								owner = {
-									in_sphere = THIS
-								}
-								owner = {
-									vassal_of = THIS
-								}
-							}
+						owner = {
+							vassal_of = THIS
 						}
 					}
 				}
 			}
-			war = no
 		}
 		effect = {
+			prestige = 50
 			change_tag = GBR
 			add_accepted_culture = saxon
 			add_accepted_culture = scottish
 			add_accepted_culture = welsh
 			add_accepted_culture = irish
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = scottish
+						primary_culture = saxon
+						primary_culture = irish
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			set_country_flag = hidden_tooltip
+			random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+				owner = {
+					ENG = {
+						all_core = {
+							remove_core = ENG
+						}
+					}
+					SCO = {
+						all_core = {
+							remove_core = SCO
+						}
+					}
+				}
+			}
+			clr_country_flag = hidden_tooltip
 		}
 	}
 	
@@ -137,6 +133,25 @@ political_decisions = {
 			prestige = 30
 			clr_country_flag = irish_struggles
 			clr_country_flag = irish_rebellion
+		}
+	}
+
+	scotland_invade_englaland = {
+		potential = {
+			tag = SCO
+			has_country_flag = scottish_nationalist_pm
+			NOT = {
+				277 = { is_core = THIS }
+			}
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+		}
+		effect = {
+			badboy = 10
+			ENG_273 = { add_core = THIS }
+			ENG_277 = { add_core = THIS }
 		}
 	}
 }

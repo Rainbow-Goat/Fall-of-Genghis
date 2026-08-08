@@ -352,7 +352,7 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        primary_culture = scottish
         year = 1837
     }
 
@@ -380,7 +380,7 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        primary_culture = scottish
         year = 1838
         month = 3
         has_country_flag = irish_struggles
@@ -472,10 +472,7 @@ country_event = {
     picture = Picture
     
     trigger = {
-        OR = {
-            tag = SCO
-            tag = GBR
-        }
+        primary_culture = scottish
         year = 1841
         month = 6
         has_country_flag = irish_struggles
@@ -571,10 +568,7 @@ country_event = {
     picture = Picture
     
     trigger = {
-        OR = {
-            tag = SCO
-            tag = GBR
-        }
+        primary_culture = scottish
         has_country_flag = irish_struggles
         year = 1843
         month = 8
@@ -682,10 +676,7 @@ country_event = {
     picture = Picture
     
     trigger = {
-        OR = {    
-            tag = SCO
-            tag = GBR
-        }
+        primary_culture = scottish
         has_country_flag = irish_struggles
         year = 1846
         month = 12
@@ -809,7 +800,7 @@ country_event = {
     picture = Picture
     
     trigger = {
-        tag = SCO
+        primary_culture = scottish
         year = 1840
         month = 4
     }
@@ -899,6 +890,9 @@ country_event = {
                 }
             }
         }
+        government = absolute_monarchy
+        political_reform = none_voting
+        political_reform = appointed
         change_variable = { which = irish_nationalism value = 4 }     
         
         ai_chance = {
@@ -917,10 +911,7 @@ country_event = {
     picture = Picture
     
     trigger = {
-        OR = {
-            tag = GBR
-            tag = SCO
-        }
+        primary_culture = scottish
         check_variable = { which = irish_nationalism value = 5 }
         has_country_flag = irish_struggles
     }

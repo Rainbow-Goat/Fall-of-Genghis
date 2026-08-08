@@ -1,7 +1,7 @@
 V1.1:
 New content:
     - Bulgaria (DONE)
-    - Scotland
+    - Scotland 
 Rework:
     - Burgundy
     - Lithuania
@@ -11,6 +11,7 @@ Touch up:
     - Ukraine
     - Kievan Rus
     - Various subpar localisation things
+    - Add missing GFX
 Meme content:
     - Serbia (DONE)
 

@@ -132,7 +132,7 @@
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size = 80000
 	}
 
 	farmers = {
