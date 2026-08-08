@@ -959,20 +959,24 @@ merchant_marine_funded = {
 	naval_unit_start_experience = 10
 	navy_tech_research_bonus = 0.05
 	commerce_tech_research_bonus = 0.05
+	icon = 3
 }
 
 merchant_marine_discontent = {
 	naval_organisation = -0.3
 	navy_tech_research_bonus = -0.075
 	commerce_tech_research_bonus = -0.075
+	icon = 4
 }
 
 merchant_marine_dismantled = {
 	naval_organisation = -0.1
 	navy_tech_research_bonus = -0.025
+	icon = 4
 }
 
 merchant_marine_demands_submitted = {
+	icon = 4
 }
 
 economic_boom = {
@@ -990,5 +994,5 @@ economic_crisis = {
 	factory_owner_cost = 0.5
 	factory_throughput = -0.05
 	pop_militancy_modifier = 0.05
-	icon = 11
+	icon = 12
 }
