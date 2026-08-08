@@ -1,0 +1,63 @@
+political_decisions = {
+	embrace_the_free_market_economy = {
+		potential = {
+			government = merchant_republic
+			not = { has_country_modifier = free_market_embraced }
+			ai = no
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = free_market_embraced
+				duration = -1
+			}
+			prestige = 5
+		}
+	}
+	
+	seize_tropical_wood = {
+		potential = {
+			government = merchant_republic
+			has_country_modifier = free_market_embraced
+			ai = no
+			NOT = { has_country_flag = tropical_wood_core }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			2115 = { add_core = THIS }
+			prestige = -20
+			badboy = 1
+			set_country_flag = tropical_wood_core 
+		}
+	}
+	
+	support_the_merchant_marine = {
+		potential = {
+			government = merchant_republic
+			ai = no
+			not = { has_country_modifier = merchant_marine_funded }
+			not = { has_country_modifier = merchant_marine_dismantled }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			treasury = -100000
+			prestige = 5
+			add_country_modifier = {
+				name = merchant_marine_funded
+				duration = -1
+			}
+		}
+	}
+}

@@ -942,3 +942,53 @@ shiite_rejection = {
 	diplomatic_points_modifier = -0.1
 	icon = 17
 }
+
+free_market_embraced = {
+	max_tariff = -0.5
+	max_tax = -0.05
+	max_social_spending = -0.2
+	loan_interest = -0.02
+	max_loan_modifier = 0.5
+	factory_output = 0.05
+	rgo_output = 0.1
+	icon = 9
+}
+
+merchant_marine_funded = {
+	naval_organisation = 0.1
+	naval_unit_start_experience = 10
+	navy_tech_research_bonus = 0.05
+	commerce_tech_research_bonus = 0.05
+}
+
+merchant_marine_discontent = {
+	naval_organisation = -0.3
+	navy_tech_research_bonus = -0.075
+	commerce_tech_research_bonus = -0.075
+}
+
+merchant_marine_dismantled = {
+	naval_organisation = -0.1
+	navy_tech_research_bonus = -0.025
+}
+
+merchant_marine_demands_submitted = {
+}
+
+economic_boom = {
+	factory_output = 0.125
+	rgo_output = 0.25
+	factory_owner_cost = -0.5
+	factory_throughput = 0.05
+	pop_militancy_modifier = -0.05
+	icon = 11
+}
+
+economic_crisis = {
+	factory_output = -0.1
+	rgo_output = -0.2
+	factory_owner_cost = 0.5
+	factory_throughput = -0.05
+	pop_militancy_modifier = 0.05
+	icon = 11
+}

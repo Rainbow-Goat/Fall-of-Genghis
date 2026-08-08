@@ -1,0 +1,247 @@
+country_event = {
+
+	id = 80220
+
+	trigger = {
+		not = { government = merchant_republic }
+		or = {
+			has_country_modifier = merchant_marine_funded
+			has_country_modifier = free_market_embraced
+			remove_country_modifier = merchant_marine_demands_submitted
+			remove_country_modifier = merchant_marine_discontent
+			remove_country_modifier = merchant_marine_dismantled
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 0.11
+	}
+
+	title = "End of the merchant republic"
+	desc = "The merchant republic regime ruling over our country has ended and our new rulers are repealing laws passed during it"
+	picture = "News"
+
+	option = {
+		name = "I see"
+		remove_country_modifier = merchant_marine_funded
+		remove_country_modifier = free_market_embraced
+		remove_country_modifier = merchant_marine_demands_submitted
+		remove_country_modifier = merchant_marine_discontent
+		remove_country_modifier = merchant_marine_dismantled
+	}
+}
+
+country_event = {
+	id = 80221
+	title = "Economic crisis in $COUNTRY$"
+	desc = "It appears our economy has hit a slowdown period. What should we do?"
+	picture = "News"
+	
+	news = yes
+	news_desc_long = "$COUNTRY$ has been hit by a severe economic crisis. Let us hope this will not adversly affect our own economy."
+	news_desc_medium = "A severe economic crisis has shaken $COUNTRY$"
+	news_desc_short = "Economic Crisis in $COUNTRY$"
+	
+	trigger = {
+		not = { has_country_modifier = free_market_embraced }
+	}
+	
+	mean_time_to_happen =  {
+		months = 480
+	}
+	
+	option = {
+		name = "This is not the first crisis we have had, our economy will get better eventually"
+		add_country_modifier = {
+			name = economic_crisis
+			duration = 1460
+		}
+		prestige = -5
+	}
+	
+	option = {
+		name = "Engage in countercyclical spending"
+		add_country_modifier = {
+			name = economic_crisis
+			duration = 730
+		}
+		add_tax_relative_income = -730
+		prestige = -5
+	}
+}
+
+country_event = {
+	id = 80222
+	title = "Economic crisis in $COUNTRY$"
+	desc = "It appears our economy has hit a slowdown period. What should we do?"
+	picture = "News"
+	
+	news = yes
+	news_desc_long = "$COUNTRY$ has been hit by a severe economic crisis. Let us hope this will not adversly affect our own economy."
+	news_desc_medium = "A severe economic crisis has shaken $COUNTRY$"
+	news_desc_short = "Economic Crisis in $COUNTRY$"
+	
+	trigger = {
+		has_country_modifier = free_market_embraced
+	}
+	
+	mean_time_to_happen =  {
+		months = 480
+	}
+	
+	option = {
+		name = "According to our commitment to the free market economy we must stay out of this"
+		add_country_modifier = {
+			name = economic_crisis
+			duration = 1460
+		}
+		prestige = -5
+	}
+}
+
+country_event = {
+	id = 80223
+	title = "Free market economy leads to economic boom"
+	desc = "Our commitment to the free market economy has finally started to pay off. Our economy is booming!"
+	picture = "News"
+	
+	trigger = {
+		has_country_modifier = free_market_embraced
+		not = { has_country_modifier = economic_crisis }
+		not = { has_country_modifier = economic_boom }
+	}
+	
+	mean_time_to_happen =  {
+		months = 240
+		
+		modifier = {
+			factor = 0.4
+			economic_policy = laissez_faire
+		}
+		
+		modifier = {
+			factor = 3
+			economic_policy = state_capitalism
+		}
+		
+		modifier = {
+			factor = 4
+			economic_policy = planned_economy
+		}
+		
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+	}
+	
+	option = {
+		name = "Wonderful!"
+		add_country_modifier = {
+			name = economic_boom
+			duration = 1460
+		}
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 80224
+	title = "Merchant Marine demands friendlier government"
+	desc = "Our support for the merchant marine has made them overconfident. Now they are starting to demand a more liberal government!"
+	picture = "News"
+	
+	trigger = {
+		has_country_modifier = merchant_marine_funded
+		not = { ruling_party_ideology = liberal }
+		not = { has_country_modifier = merchant_marine_discontent }
+		not = { has_country_modifier = merchant_marine_demands_submitted }
+	}
+	
+	mean_time_to_happen =  {
+		months = 72
+	}
+	
+	option = {
+		name = "Give them what they demand!"
+		ruling_party_ideology = liberal
+		add_country_modifier = {
+			name = merchant_marine_demands_submitted
+			duration = 730
+		}
+		prestige = -5
+	}
+	
+	option = {
+		name = "Refuse their demands!"
+		any_pop = {
+			limit = { pop_majority_ideology = liberal }
+			militancy = 2
+		}
+		add_country_modifier = {
+			name = merchant_marine_discontent
+			duration = 1825
+		}
+	}
+	
+	option = {
+		name = "The time has come to revoke their special status!"
+		remove_country_modifier = merchant_marine_funded
+		add_country_modifier = {
+			name = merchant_marine_dismantled
+			duration = 3650
+		}
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 80225
+	title = "Merchant Marine disappointed"
+	desc = "We went back on our promise to the merchant marine, this has caused severe outrage among them."
+	
+	trigger = {
+		has_country_modifier = merchant_marine_demands_submitted
+		not = { ruling_party_ideology = liberal }
+	}
+	
+	mean_time_to_happen =  {
+		months = 0.1
+	}
+	
+	option = {
+		name = "Fine, I'm sorry, grant them their demands again..."
+		ruling_party_ideology = liberal
+		remove_country_modifier = merchant_marine_demands_submitted
+		add_country_modifier = {
+			name = merchant_marine_demands_submitted
+			duration = 730
+		}
+	}
+	
+	option = {
+		name = "Damn, I thought I could trick them."
+		remove_country_modifier = merchant_marine_demands_submitted
+		any_pop = {
+			limit = { pop_majority_ideology = liberal }
+			militancy = 2
+		}
+		add_country_modifier = {
+			name = merchant_marine_discontent
+			duration = 3650
+		}
+	}
+	
+	option = {
+		name = "We should just get rid of them already..."
+		remove_country_modifier = merchant_marine_demands_submitted
+		add_country_modifier = {
+			name = merchant_marine_dismantled
+			duration = 7300
+		}
+		add_country_modifier = {
+			name = merchant_marine_discontent
+			duration = 730
+		}
+	}
+}
