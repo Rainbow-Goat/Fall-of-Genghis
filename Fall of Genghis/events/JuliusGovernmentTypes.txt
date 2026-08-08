@@ -44,6 +44,8 @@ country_event = {
 	
 	trigger = {
 		not = { has_country_modifier = free_market_embraced }
+		not = { has_country_modifier = economic_crisis }
+		not = { has_country_modifier = economic_boom }
 	}
 	
 	mean_time_to_happen =  {
@@ -83,6 +85,8 @@ country_event = {
 	
 	trigger = {
 		has_country_modifier = free_market_embraced
+		not = { has_country_modifier = economic_crisis }
+		not = { has_country_modifier = economic_boom }
 	}
 	
 	mean_time_to_happen =  {
