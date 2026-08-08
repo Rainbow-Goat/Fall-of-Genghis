@@ -92,6 +92,7 @@ HNA     = "countries/Holy Nation of Allah.txt"
 LTI     = "countries/Lost Tribe of Israel.txt"
 GBR		= "countries/Great Britain.txt"
 GER		= "countries/Germany.txt"
+ALP     = "countries/Alpine Union.txt"
 
 # Common Great Powers
 RUS		= "countries/Russia.txt"
