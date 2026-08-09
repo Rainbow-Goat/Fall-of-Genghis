@@ -861,6 +861,7 @@ anarcho_liberal_rebels = {
 		political_reform = state_press
 		political_reform = no_trade_unions
 		political_reform = underground_parties
+		nationalvalue = nv_anarchy
 	}
 }
 

@@ -1,0 +1,47 @@
+nv_order = {
+	mobilisation_size = 0.06
+	mobilisation_economy_impact = 0.8
+	org_regain = 0.05
+	army_tech_research_bonus = 0.05
+}
+
+nv_liberty = {
+	mobilisation_size = 0.02
+	mobilisation_economy_impact = 0.75
+	global_immigrant_attract = 0.5
+}
+
+nv_equality = {
+	mobilisation_size = 0.04
+	global_assimilation_rate = 0.02
+}
+
+nv_productivity = {
+	RGO_output = 0.05
+	factory_input = -0.05
+	factory_output = 0.25
+	commerce_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.05
+}
+
+nv_education = {
+	education_efficiency_modifier = 0.4
+	culture_tech_research_bonus = 0.05
+}
+
+nv_diplomacy = {
+	diplomatic_points_modifier = 2
+	influence_modifier = 0.75
+	import_cost = -0.1
+	badboy = -0.05
+}
+
+nv_westernize = {
+	research_points_on_conquer = 0.25
+	research_points_modifier = 0.1
+}
+
+nv_anarchy = {
+	mobilisation_size = -1
+	mobilisation_economy_impact = 2
+}

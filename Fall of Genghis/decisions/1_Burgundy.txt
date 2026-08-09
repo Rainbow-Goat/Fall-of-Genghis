@@ -3,7 +3,6 @@ political_decisions = {
         potential = {
             tag = BRG
             exists = LOR
-            is_our_vassal = LOR
         }
         allow = {
             war = no
@@ -19,9 +18,13 @@ political_decisions = {
     deal_with_picard = {
         potential = {
             tag = BRG
-            NOT = {
-                accepted_culture = picard
-                has_country_flag = rhineland_protectorate
+            NOT = { accepted_culture = picard }
+            OR = {
+                NOT = { has_country_flag = rhineland_protectorate }
+                AND = {
+                    has_country_flag = rhineland_protectorate
+                    exists = KWS
+                }
             }
         }
         allow = {
@@ -45,11 +48,10 @@ political_decisions = {
         potential = {
             tag = BRG
             accepted_culture = picard
-            NOT = {
-                has_country_flag = rhineland_protectorate
-            }
+            NOT = { has_country_flag = lotharingia_restored }
         }
         allow = {
+            war = no
             nationalism_n_imperialism = 1
             411 = {
                 OR = {
@@ -103,11 +105,11 @@ political_decisions = {
             tag = BRG
             NOT = {
                 OR = {
-                    accepted_culture = rhenish
-                    accepted_culture = picard
                     has_global_flag = holy_slavic_empire
+                    exists = GER
                 }
             }
+            NOT = { accepted_culture = rhenish }
         }
         allow = {
             RHN = {
@@ -121,9 +123,9 @@ political_decisions = {
                     }
                 }
             }
-            prestige = 50
         }
         effect = {
+            prestige = 50
             add_accepted_culture = rhenish
             RHN = { all_core = { add_core = THIS } }
             any_country = {

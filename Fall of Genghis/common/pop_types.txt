@@ -605,6 +605,10 @@ assimilation_chance =
 		factor = 22
 		has_country_flag = magyarization
 	}
+	modifier = {
+		factor = 15
+		nationalvalue = nv_equality
+	}
 
 	group = {
 		modifier = {
@@ -648,6 +652,9 @@ assimilation_chance =
 	modifier = {
 		factor = -1
 		is_accepted_culture = yes
+		NOT = {
+			has_country_flag = magyarization
+		}
 	}
 
 
