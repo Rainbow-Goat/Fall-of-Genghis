@@ -31,6 +31,7 @@ day1_state_sizing = {
 		allow = { } 
 		effect = {
 			GHO = { country_event = 700700 }
+			set_country_flag = states_sized_day1
 		}	
 }
 
