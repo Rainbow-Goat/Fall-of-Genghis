@@ -234,6 +234,7 @@ political_decisions = {
     }
 
     alpine_union_1 = {
+        picture = alpine_union_1
         potential = {
             OR = {
                 tag = SGF
@@ -261,6 +262,7 @@ political_decisions = {
     }
 
     alpine_union_2 = {
+        picture = alpine_union_2
         potential = {
             OR = {
                 tag = SGF
@@ -291,6 +293,7 @@ political_decisions = {
     }
 
     alpine_union_3 = {
+        picture = alpine_union_3
         potential = {
             OR = {
                 tag = SGF
@@ -311,6 +314,7 @@ political_decisions = {
     }
 
     alpine_union_4 = {
+        picture = alpine_union_4
         potential = {
             tag = ALP
             NOT = {
@@ -333,6 +337,7 @@ political_decisions = {
     }
 
     alpine_union_5 = {
+        picture = alpine_union_5
         potential = {
             tag = ALP
             729 = { is_core = THIS }
@@ -354,6 +359,7 @@ political_decisions = {
     }
 
     alpine_union_6 = {
+        picture = alpine_union_6
         potential = {
             tag = ALP
             accepted_culture = venetian
