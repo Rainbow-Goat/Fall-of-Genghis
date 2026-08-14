@@ -3,6 +3,7 @@
 #========================= H E A D E R =========================
 
 color = { 225  165  86 }
+duchy = { 71 109 236 }
 graphical_culture = FrenchGC
 
 

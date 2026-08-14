@@ -3,5 +3,6 @@ controller = LIT
 add_core = MOL
 add_core = ROM
 add_core = RUT
+add_core = KIE
 trade_goods = iron
 life_rating = 35 

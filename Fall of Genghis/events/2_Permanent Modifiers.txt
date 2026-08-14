@@ -37,24 +37,3 @@ country_event = {
         prestige = -20
     }
 }
-
-country_event = {
-    id = 101012
-    title = "The Imperial Capital"
-    desc = "101012D"
-    picture = Picture
-    
-    trigger = {
-        tag = BOH
-        owns = 625
-    }
-
-    fire_only_once = yes
-
-    option = {
-        name = "Long live the Empire"
-        625 = {
-            add_province_modifier = { name = hse_capital duration = 36500 }
-        }
-    }
-}

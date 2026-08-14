@@ -1,7 +1,8 @@
 owner = SMO
 controller = SMO
 add_core = SMO
+add_core = KIE
+add_core = BYE
 # add_core = PLC
 trade_goods = grain
 life_rating = 35 
-add_core = BYE

@@ -2,5 +2,6 @@ owner = LUH
 controller = LUH
 add_core = LUH
 add_core = UKR
+add_core = KIE
 trade_goods = fish
 life_rating = 35 
