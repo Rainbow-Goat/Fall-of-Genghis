@@ -79,6 +79,7 @@ political_decisions = {
     }
 
     rhenish_declaration = {
+        picture = rhenish_declaration
         potential = {
             tag = SGF
             NOT = { 570 = { is_core = THIS } }
@@ -103,6 +104,7 @@ political_decisions = {
     }
 
     sgf_more_rhineland = {
+        picture = rhenish_declaration
         potential = {
             tag = SGF
             570 = { is_core = THIS }
@@ -126,6 +128,7 @@ political_decisions = {
     }
 
     sgf_rhenish_accepted = {
+        picture = rhenish_declaration
         potential = {
             tag = SGF
             has_country_flag = sgf_rhineland
