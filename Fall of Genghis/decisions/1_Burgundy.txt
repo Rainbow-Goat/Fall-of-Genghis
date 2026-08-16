@@ -98,6 +98,7 @@ political_decisions = {
             FRA_445 = { add_core = THIS }
             add_accepted_culture = french
             set_country_flag = lotharingia_restored
+            change_tag = WEF
         }
     }
     protect_the_rhineland = {
@@ -125,6 +126,7 @@ political_decisions = {
             }
         }
         effect = {
+            change_tag = EAF
             prestige = 50
             add_accepted_culture = rhenish
             RHN = { all_core = { add_core = THIS } }

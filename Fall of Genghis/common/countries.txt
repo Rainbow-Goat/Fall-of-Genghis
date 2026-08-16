@@ -93,7 +93,8 @@ LTI     = "countries/Lost Tribe of Israel.txt"
 GBR		= "countries/Great Britain.txt"
 GER		= "countries/Germany.txt"
 ALP     = "countries/Alpine Union.txt"
-LTR     = "countries/Lotharingia.txt"
+WEF     = "countries/West Francia.txt"
+EAF     = "countries/East Francia.txt"
 
 # Common Great Powers
 RUS		= "countries/Russia.txt"
