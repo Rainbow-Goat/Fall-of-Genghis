@@ -28,14 +28,14 @@ reactionary_rebels = {
 		prussian_constitutionalism = absolute_monarchy
 		hms_government = absolute_monarchy
 		democracy = presidential_dictatorship
-		principality = principality
+		principality = absolute_monarchy
 		theocracy = theocracy
 		monastic_order = theocracy
 		caliphate = caliphate
 		sultanate = sultanate
 		merchant_republic = presidential_dictatorship
 		khanate = khanate
-		cossack_host = cossack_host
+		cossack_host = principality
 		tribal_confederation = tribal_confederation
 		viceroyalty = absolute_monarchy
 		crown_colony = viceroyalty
@@ -884,17 +884,17 @@ nationalist_rebels = {
 		prussian_constitutionalism = prussian_constitutionalism
 		hms_government = hms_government
 		democracy = democracy
-		principality = principality
+		principality = absolute_monarchy
 		theocracy = theocracy
-		monastic_order = monastic_order
-		caliphate = caliphate
-		sultanate = sultanate
-		merchant_republic = merchant_republic
+		monastic_order = absolute_monarchy
+		caliphate = absolute_monarchy
+		sultanate = absolute_monarchy
+		merchant_republic = absolute_monarchy
 		khanate = khanate
 		cossack_host = cossack_host
-		tribal_confederation = tribal_confederation
-		viceroyalty = viceroyalty
-		crown_colony = crown_colony
+		tribal_confederation = absolute_monarchy
+		viceroyalty = absolute_monarchy
+		crown_colony = viceroyalty
 		duchy = duchy
 	}
 	
@@ -1390,7 +1390,7 @@ liberal_rebels = {
 		tribal_confederation = democracy
 		viceroyalty = hms_government
 		crown_colony = absolute_monarchy
-		duchy = absolute_monarchy
+		duchy = democracy
 	}
 	
 	

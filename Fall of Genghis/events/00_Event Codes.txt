@@ -20,6 +20,7 @@
 # 101010 = Static modifiers attached to certain cities (Like Constantinople)
 # 101100 - Balkan stuff
 #   101100 - Bulgaria Stuff
+# 101200 - Burgundy stuff
 
 
 ###vanilla

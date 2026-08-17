@@ -7,7 +7,7 @@ political_decisions = {
         }
         allow = {
             war = no
-            state_n_government = 1
+            ideological_thought = 1
             owns = 425
             is_our_vassal = BOR
             has_recently_lost_war = no

@@ -1,3 +1,112 @@
+country_event = {
+	id = 101200
+	title = "The Throne of Lotharingia"
+	desc = "101200D"
+	picture = throne_of_lotharingia
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "The King of the West"
+		set_country_flag = burgundy_west
+		burgundy_west_tooltip = {}
+
+		ai_chance = {
+			factor = 3
+		}
+	}
+	
+	option = {
+		name = "The King of the East"
+		set_country_flag = burgundy_east
+		burgundy_east_tooltip = {}
+
+		ai_chance = {
+			factor = 3
+		}
+	}
+
+	option = {
+		name = "The King of Lotharingia"
+		set_country_flag = burgundy_both
+		burgundy_both_tooltip = {}
+
+		ai_chance = {
+			factor = 3
+		}
+	}
+	
+}
+
+country_event = {
+	id = 101201
+	title = "Our Claims in the West"
+	desc = "101201D"
+	picture = burg_claim_west
+	
+	trigger = {
+		tag = EAF
+		war = no
+		has_country_flag = rhineland_protectorate
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "The West is part of our realm too"
+		set_country_flag = eaf_west
+
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = "Our focus will remain firmly on the East"
+		set_country_flag = eaf_east
+		
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+country_event = {
+	id = 101202
+	title = "Our Claims in the East"
+	desc = "101202D"
+	picture = burg_claim_east
+	
+	trigger = {
+		tag = WEF
+		war = no
+		has_country_flag = brg_france
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "The East is part of our realm too"
+		set_country_flag = wef_east
+
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = "Our focus will remain firmly on the West"
+		set_country_flag = wef_west
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+}
+
+
+
 # Random flavour
 
 country_event = {

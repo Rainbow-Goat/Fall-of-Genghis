@@ -3,7 +3,7 @@ New content:
     - Bulgaria (DONE)
     - Scotland (DONE)
 Rework:
-    - Burgundy
+    - Burgundy (In progress)
     - Lithuania
 Touch up:
     - Russia

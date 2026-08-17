@@ -68,7 +68,6 @@ BOR     = "countries/Bourgogne.txt"
 NPS     = "countries/Naples.txt"
 CAP     = "countries/Cappadocia.txt"
 ERE     = "countries/Byzantium.txt"
-NIL     = "countries/North Italian League.txt"
 
 #Meta Stuff
 GHO     = "countries/Ghost Country.txt"
@@ -95,6 +94,8 @@ GER		= "countries/Germany.txt"
 ALP     = "countries/Alpine Union.txt"
 WEF     = "countries/West Francia.txt"
 EAF     = "countries/East Francia.txt"
+LTR     = "countries/Lotharingia.txt"
+NIL     = "countries/North Italian League.txt"
 
 # Common Great Powers
 RUS		= "countries/Russia.txt"
