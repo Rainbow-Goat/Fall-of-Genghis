@@ -1,4 +1,6 @@
 color = { 67 245 179 }
+bourgeois_dictatorship = { 235 86 0 }
+democracy = { 235 86 0 }
 graphical_culture = EuropeanGC
 
 party = {

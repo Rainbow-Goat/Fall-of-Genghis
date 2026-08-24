@@ -2480,6 +2480,7 @@ unification_humiliate_cb = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
 			is_greater_power = yes
+			NOT = { has_country_flag = future_decided }
 		}
 		NOT = { is_cultural_union = THIS }
 		has_cultural_sphere = yes
@@ -2530,11 +2531,12 @@ unification_release_puppet_cb = {
 			nationalism_n_imperialism = 1
 			is_greater_power = yes		
 			is_cultural_union = no
+			NOT = { has_country_flag = future_decided }
 		}
 		NOT = { is_our_vassal = THIS }
 		NOT = {
 			is_culture_group = THIS
-		}				
+		}			
 	}
 	
 	# THIS - us
@@ -2589,6 +2591,7 @@ unification_casus_belli = {
 			nationalism_n_imperialism = 1
 			is_greater_power = yes
 			is_cultural_union = no
+			NOT = { has_country_flag = future_decided }
 		}
 		NOT = { is_our_vassal = THIS }
 		NOT = {
@@ -2660,6 +2663,7 @@ unification_annex_casus_belli = {
 			nationalism_n_imperialism = 1
 			is_greater_power = yes
 			is_cultural_union = no
+			NOT = { has_country_flag = future_decided }
 		}
 		NOT = {
 			is_culture_group = THIS

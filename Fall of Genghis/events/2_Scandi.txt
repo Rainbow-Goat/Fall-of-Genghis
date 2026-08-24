@@ -10,12 +10,28 @@ country_event = {
         change_tag = SCA
         set_country_flag = scandi_danelaw_path
         militancy = 3
+
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Scandinavia_Danelaw
+			}
+		}
     }
 
     option = {
         name = "Lets make the Baltic our personal lake! (Baltic path)"
         change_tag = SCA
         set_country_flag = scandi_baltic_path
+
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Scandinavia_Baltic
+			}
+		}
     }
 }
 
@@ -31,6 +47,14 @@ country_event = {
         name = "Lets free our Norse brothers and restore the North Sea Empire! (Danelaw path)"
         change_tag = SCA
         set_country_flag = scandi_danelaw_path
+
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Scandinavia_Danelaw
+			}
+		}
     }
 
     option = {
@@ -38,6 +62,14 @@ country_event = {
         change_tag = SCA
         set_country_flag = scandi_baltic_path
         militancy = 3
+
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Scandinavia_Baltic
+			}
+		}
     }
 }
 

@@ -1,0 +1,51 @@
+army = {
+    name = "Armiya na Zapada"
+    location = 809
+    
+    regiment = {
+        name = "1st Royal Infantry Brigade"
+        type = infantry
+        home = 803
+    }
+    regiment = {
+        name = "2nd Royal Infantry Brigade"
+        type = infantry
+        home = 809
+    }
+    regiment = {
+        name = "1st Royal Cavalry Brigade"
+        type = dragoon
+        home = 809
+    }
+    regiment = {
+        name = "2nd Royal Cavalry Brigade"
+        type = dragoon
+        home = 802
+    }
+    regiment = {
+        name = "Royal Artillery Brigade"
+        type = artillery
+        home = 806
+    }
+}
+
+army = {
+    name = "Iztochna armiya"
+    location = 967
+    
+    regiment = {
+        name = "Crimean Infantry Unit"
+        type = infantry
+        home = 807
+    }
+    regiment = {
+        name = "Crimean Cavalry Unit"
+        type = cavalry
+        home = 964
+    }
+    regiment = {
+        name = "Crimean Cavalry Unit"
+        type = cavalry
+        home = 818
+    }
+}

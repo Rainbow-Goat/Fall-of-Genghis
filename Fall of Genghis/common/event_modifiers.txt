@@ -990,3 +990,43 @@ national_confusion = {
 	prestige = -0.01
 	icon = 2
 }
+
+mp_infamy_buff = {
+	badboy = -0.1
+}
+
+post_militia_clash = {
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.1
+}
+
+von_grolman_pm = {
+	mobilisation_economy_impact = 0.4
+	import_cost = 0.2
+	industry_tech_research_bonus = 0.1
+	factory_output = 0.2
+	middle_vote = 0.1
+}
+
+de_chalon_pm = {
+	culture_tech_research_bonus = 0.05
+	education_efficiency_modifier = 0.15
+	prestige = 0.05
+	rich_vote = 0.2
+}
+
+van_brederode_pm = {
+	cb_generation_speed_modifier = 0.15
+	diplomatic_points_modifier = 0.1
+	land_organisation = 0.02
+	global_pop_militancy_modifier = 0.08
+}
+
+van_wassenaer_pm = {
+	global_pop_militancy_modifier = -0.15 
+	global_pop_consciousness_modifier = -0.08
+	cb_generation_speed_modifier = -0.3
+	badboy = -0.03
+}
+
+pm_switch = {}

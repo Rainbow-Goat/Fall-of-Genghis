@@ -1,0 +1,30 @@
+army = {
+    name = "Armée de Bourgogne"
+    location = 448
+    
+    regiment = {
+        name = "I. Brigade d'artillerie"
+        type = artillery
+        home = 428
+    }
+    regiment = {
+        name = "II. Brigade d'artillerie"
+        type = artillery
+        home = 430
+    }
+    regiment = {
+        name = "III. Brigade d'artillerie"
+        type = artillery
+        home = 431
+    }
+    regiment = {
+        name = "IV. Brigade d'artillerie"
+        type = artillery
+        home = 448
+    }
+    regiment = {
+        name = "V. Brigade d'artillerie"
+        type = artillery
+        home = 452
+    }
+}

@@ -3,57 +3,79 @@
 #========================= L A N D =========================
 
 army = {
-name = "Esercito d'Italia"
-location = 724
+name = "Esercito della Gallia"
+location = 470
 regiment = {
-name = "Regiment 0"
+name = "I. Brigade d'artillerie"
 type = artillery
-home = 724
+home = 470
 }
 regiment = {
-name = "Regiment 1"
+name = "II. Brigade d'artillerie"
+type = artillery
+home = 466
+}
+regiment = {
+name = "III. Brigade d'artillerie"
+type = artillery
+home = 454
+}
+regiment = {
+name = "IV. Brigade d'artillerie"
+type = artillery
+home = 468
+}
+regiment = {
+name = "V. Brigade d'artillerie"
+type = artillery
+home = 720
+}
+regiment = {
+name = "I. Brigade de cavalerie"
+type = hussar
+home = 472
+}
+regiment = {
+name = "I. Brigade d'infanterie"
+type = infantry
+home = 469
+}
+regiment = {
+name = "II. Brigade d'infanterie"
 type = infantry
 home = 723
 }
 regiment = {
-name = "Regiment 2"
-type = cavalry
-home = 720
-}
-regiment = {
-name = "Regiment 3"
+name = "III. Brigade d'infanterie"
 type = infantry
 home = 720
 }
+regiment = {
+name = "IV. Brigade d'infanterie"
+type = infantry
+home = 465
 }
+}
+
 army = {
-name = "Esercito della Gallia"
-location = 470
-regiment = {
-name = "Regiment 0"
-type = artillery
-home = 470
-}
-regiment = {
-name = "Regiment 1"
-type = artillery
-home = 470
-}
-regiment = {
-name = "Regiment 2"
-type = cuirassier
-home = 468
-}
-regiment = {
-name = "Regiment 3"
-type = cuirassier
-home = 472
-}
-regiment = {
-name = "Regiment 4"
-type = infantry
-home = 469
-}
+    name = "Forces de soutien"
+    location = 453
+    
+    regiment = {
+        name = "II. Brigade de cavalerie"
+        type = hussar
+        home = 467
+    }
+    regiment = {
+        name = "VI. Brigade d'artillerie"
+        type = artillery
+        home = 722
+    }
+    regiment = {
+        name = "VII. Brigade d'artillerie"
+        type = artillery
+        home = 725
+    }
 }
 
 

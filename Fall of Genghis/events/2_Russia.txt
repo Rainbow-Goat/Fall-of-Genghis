@@ -1,19 +1,35 @@
 country_event = {
     id = 100300
-    title = "EVTNAME100300"
-    desc = "EVTDESC100300"
+    title = "Deciding our Destiny"
+    desc = "100300D"
     picture = "celebration"
 	
     is_triggered_only = yes
 
     option = {
-        name = "EVTOPT100300A"
+        name = "Strike East!"
         set_country_flag = russia_east
+
+        ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Russia_East
+			}
+		}
     }
 
     option = {
-        name = "EVTOPT100300B"
+        name = "Strike West!"
         set_country_flag = russia_west
+
+        ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Russia_West
+			}
+		}
     }
 }
 

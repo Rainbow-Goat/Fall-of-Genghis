@@ -28,6 +28,12 @@ political_decisions = {
             TUR_788 = { add_core = THIS }
             set_country_flag = bulgaria_balkan
         }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = AI_Bulgaria_Sea
+            }
+        }
     }
 
     bulgaria_yug_2 = {
@@ -194,8 +200,10 @@ political_decisions = {
                             OR = {
                                 owned_by = THIS
 						        owner = {
-							        in_sphere = THIS
-                                    vassal_of = THIS
+                                    OR = {
+                                        in_sphere = THIS
+                                        vassal_of = THIS
+                                    } 
 						        }
                             }
                         }
@@ -205,8 +213,10 @@ political_decisions = {
                             OR = {
                                 owned_by = THIS
                                 owner = {
-                                    in_sphere = THIS
-                                    vassal_of = THIS
+                                    OR = {
+                                        in_sphere = THIS
+                                        vassal_of = THIS
+                                    }
                                 }
                             }
                         }
@@ -335,6 +345,12 @@ political_decisions = {
                 }
             }
             set_country_flag = bulgaria_black_sea
+        }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = AI_Bulgaria_Balkan
+            }
         }
     }
 

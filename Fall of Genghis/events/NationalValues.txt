@@ -128,18 +128,11 @@ country_event = {
 
 country_event = {
 	id = 18540
-	title = "EVTNAME18540"
+	title = "Debug: Reduce me infamy matey"
 	desc = "EVTDESC18540"
 	picture = "Expansion"
 	
-	trigger = {
-		nationalvalue = nv_liberty
-		badboy = 0.7
-	}
-	
-	mean_time_to_happen = {
-		months = 200
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA18540"
@@ -150,7 +143,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB18540"
-		badboy = -3
+		badboy = -18
 	}
 }
 

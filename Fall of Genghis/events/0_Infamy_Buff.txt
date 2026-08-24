@@ -1,0 +1,45 @@
+country_event = {
+    id = 120020
+    title = "Infamy Buff for MP"
+    desc = "This event gives an infamy reduction for all nations if MP mode was selected."
+    picture = "census"
+    
+    trigger = {
+        has_global_flag = multiplayer_mode
+        THIS = {
+            exists = yes
+            war = no
+            ai = no
+            NOT = { has_country_modifier = mp_infamy_buff }
+        }
+    }
+
+
+    option = {
+        name = "Go forth and conquer young man"
+        add_country_modifier = { name = mp_infamy_buff duration = -1 }
+    }
+}
+
+country_event = {
+    id = 120021
+    title = "Infamy Buff for MP"
+    desc = "This event takes away the bonus infamy reduction for any nation that is at war."
+    picture = "census"
+    
+    trigger = {
+        has_global_flag = multiplayer_mode
+        THIS = {
+            exists = yes
+            war = yes
+            ai = no
+            has_country_modifier = mp_infamy_buff 
+        }
+    }
+
+
+    option = {
+        name = "Leave Kuwait, or be driven out."
+        remove_country_modifier = mp_infamy_buff
+    }  
+}

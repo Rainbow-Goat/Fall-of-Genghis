@@ -1,4 +1,6 @@
 # 120000 = Grants and other "meta" stuff
+#   120020 - Events to change infamy reduction
+#   120100 = Campaign setup events
 # 500059 = Sanctions
 #9999199 = Goods Setup
 #80080 = Batbayar stuff

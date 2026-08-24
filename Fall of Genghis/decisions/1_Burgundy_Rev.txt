@@ -1,0 +1,291 @@
+political_decisions = {
+    lrb_core_net = {
+        picture = netherlands
+        potential = {
+            tag = LRB
+            has_global_flag = burg_civil_war_started
+            has_global_flag = burg_big_civil_war
+        }
+        allow = {
+            NET = {
+                exists = no
+            }
+        }
+        effect = {
+            NET = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    lrb_core_wef = {
+        picture = MapFrance
+        potential = {
+            tag = LRB
+            has_global_flag = burg_civil_war_started
+            has_global_flag = burg_big_civil_war
+        }
+        allow = {
+            WEF = {
+                exists = no
+            }
+        }
+        effect = {
+            WEF = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    lrb_core_eaf = {
+        picture = rhenish_declaration
+        potential = {
+            tag = LRB
+            has_global_flag = burg_civil_war_started
+            has_global_flag = burg_big_civil_war
+        }
+        allow = {
+            EAF = {
+                exists = no
+            }
+        }
+        effect = {
+            EAF = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    lrb_end_war_1 = {
+        picture = brg_peace
+        potential = {
+            tag = LRB
+            has_global_flag = burg_civil_war_started
+            has_global_flag = burg_big_civil_war
+        }
+        allow = {
+            NET = { exists = no }
+            WEF = { exists = no }
+            EAF = { exists = no }
+        }
+        effect = {
+            clr_global_flag = burg_big_civil_war
+            country_event = { id = 101228 days = -1 }
+        }
+    }
+
+    lrb_end_war_2 = {
+        picture = brg_peace
+        potential = {
+            tag = LRB
+            has_global_flag = burg_civil_war_started
+            has_global_flag = burg_wef_civil_war
+        }
+        allow = {
+            WEF = { exists = no }
+        }
+        effect = {
+            clr_global_flag = burg_wef_civil_war
+            country_event = { id = 101229 days = -1 }
+        }
+    }
+
+    lrb_end_war_3 = {
+        picture = brg_peace
+        potential = {
+            tag = LRB
+            has_global_flag = burg_civil_war_started
+            has_global_flag = burg_eaf_civil_war
+        }
+        allow = {
+            EAF = { exists = no }
+        }
+        effect = {
+            clr_global_flag = burg_eaf_civil_war
+            country_event = { id = 101230 days = -1 }
+        }
+    }
+
+    lrb_end_war_4 = {
+        picture = brg_peace
+        potential = {
+            tag = LRB
+            has_global_flag = burg_civil_war_started
+            has_global_flag = burg_ltr_civil_war
+        }
+        allow = {
+            LTR = { exists = no }
+        }
+        effect = {
+            clr_global_flag = burg_ltr_civil_war
+            country_event = { id = 101228 days = -1 }
+        }
+    }
+
+    brg_king_end_war = {
+        picture = brg_peace
+        potential = {
+            OR = {
+                tag = LTR
+                tag = WEF
+                tag = EAF
+            }
+            OR = {
+                has_global_flag = burg_ltr_civil_war
+                has_global_flag = burg_wef_civil_war
+                has_global_flag = burg_eaf_civil_war
+            }
+            has_global_flag = burg_civil_war_started
+        }
+        allow = {
+            LRB = { exists = no }
+        }
+        effect = {
+            LRB = {
+                all_core = {
+                    remove_core = LRB
+                }
+            }
+            clr_global_flag = burg_ltr_civil_war
+            country_event = { id = 101233 days = -1 }
+        }
+    }
+
+    ltr_constitutional_convention = {
+        potential = {
+            tag = LTR
+            has_country_flag = liberal_win
+            NOT = { has_country_flag = burg_constitution }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+        }
+        effect = {
+            country_event = { id = 101236 days = -1 }
+            set_country_flag = burg_constitution
+        }
+    }
+
+    wef_constitutional_convention = {
+        potential = {
+            tag = WEF
+            has_country_flag = liberal_win
+            NOT = { has_country_flag = burg_constitution }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+        }
+        effect = {
+            country_event = { id = 101237 days = -1 }
+            set_country_flag = burg_constitution
+        }
+    }
+
+    eaf_constitutional_convention = {
+        potential = {
+            tag = EAF
+            has_country_flag = liberal_win
+            NOT = { has_country_flag = burg_constitution }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+        }
+        effect = {
+            country_event = { id = 101237 days = -1 }
+            set_country_flag = burg_constitution
+        }
+    }
+
+    ltr_form_eu = {
+        potential = {
+            tag = LTR
+            has_country_flag = liberal_win
+            has_country_flag = burg_constitution
+            has_country_flag = burg_federation
+            NOT = { has_global_flag = multiplayer_mode }
+        }
+        allow = {
+            war = no
+            mass_politics = 1
+            FRA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
+                    }
+                }
+            }
+            GER = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
+                    }
+                }
+            }
+            SPA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
+                    }
+                }
+            }
+            ITA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = EUR
+            any_country = {
+                limit = {
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                    OR = {
+                        is_culture_group = iberian
+                        is_culture_group = italian
+                        is_culture_group = french
+                        is_culture_group = germanic
+                        is_culture_group = lotharingian
+                    }
+                }
+                country_event = { id = 11101 days = -1 }
+                all_core = {
+                    add_core = THIS
+                }
+            }
+            add_accepted_culture = french
+            add_accepted_culture = occitan
+            add_accepted_culture = norman
+            add_accepted_culture = castillian
+            add_accepted_culture = catalan
+            add_accepted_culture = south_german
+            add_accepted_culture = north_german
+            add_accepted_culture = rhenish
+            add_accepted_culture = north_italian
+            add_accepted_culture = south_italian
+            add_accepted_culture = venetian
+            add_accepted_culture = provencal
+        }
+    }
+}

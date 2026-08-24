@@ -81,6 +81,14 @@ country_event = {
         clr_country_flag = hidden_tooltip
         clr_country_flag = byzantinist_plot
         byz_plot_succede_tooltip = {}
+
+        ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Greece_ERE
+			}
+		}
     }
     
     option = {
@@ -91,11 +99,12 @@ country_event = {
 
         
         ai_chance = {
-            factor = 3
-            modifier = {
-                factor = 1
-            }
-        }
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Greece_CAP
+			}
+		}
     }
 }
 
@@ -292,6 +301,13 @@ country_event = {
     option = {
         name = "The Phoenix is not yet dead"
         prestige = -30
+        ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Greece_ERE
+			}
+		}
     }
     option = {
         name = "The Phoenix is dead, long live the republic"
@@ -302,6 +318,13 @@ country_event = {
         primary_culture = antiqua_greek
         add_accepted_culture = novum_greek
         greek_revolution_tooltip = {}
+        ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Greece_GRE
+			}
+		}
     }
 }
 

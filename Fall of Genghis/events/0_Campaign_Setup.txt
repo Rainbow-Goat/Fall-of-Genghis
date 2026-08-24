@@ -1,0 +1,528 @@
+country_event = {
+    id = 120100
+    title = "Campaign Setup"
+    desc = "120100D"
+    picture = Campaign_Setup
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "Campaign Mode"
+        country_event = 120101
+    }
+    
+    option = {
+        name = "Country Paths"
+        country_event = 120102
+    }
+
+    option = {
+        name = "Meme Content"
+        country_event = 120200
+    }
+
+    option = {
+        name = "Finish the Campaign Setup"
+        set_global_flag = campaign_setup
+    }
+    
+}
+
+country_event = {
+    id = 120101
+    title = "Campaign Mode"
+    desc = "120101D"
+    picture = campaign_mode
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Singleplayer mode"
+        set_global_flag = singleplayer_mode
+        country_event = 120100
+    }
+    
+    option = {
+        name = "Multiplayer mode"
+        set_global_flag = multiplayer_mode
+        country_event = 120100
+    }
+}
+
+country_event = {
+    id = 120200
+    title = "Meme Content"
+    desc = "120200D"
+    picture = meme_content
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "I love joy and whimsy"
+        set_global_flag = meme_yes
+        country_event = 120100
+    }
+    
+    option = {
+        name = "In your visage I clearly see Prussian Spirit!"
+        set_global_flag = meme_no
+        country_event = 120100
+    }
+}
+
+
+country_event = {
+    id = 120102
+    title = "Country Path Selector Page I"
+    desc = "120102D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Burgundy"
+        country_event = 120103
+    }
+    
+    option = {
+        name = "France"
+        country_event = 120104
+    }
+
+    option = {
+        name = "Bohemia"
+        country_event = 120105
+    }
+
+    option = {
+        name = "Bulgaria"
+        country_event = 120106
+    }
+
+    option = {
+        name = "Next Page"
+        country_event = 120107
+    }
+
+    option = {
+        name = "Return to the Main Menu"
+        country_event = 120100
+    }
+    
+}
+
+country_event = {
+    id = 120107
+    title = "Country Path Selector Page II"
+    desc = "120107D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Russia"
+        country_event = 120108
+    }
+    
+    option = {
+        name = "Ukraine"
+        country_event = 120109
+    }
+
+    option = {
+        name = "Castille"
+        country_event = 120110
+    }
+
+    option = {
+        name = "Prussia"
+        country_event = 120111
+    }
+
+    option = {
+        name = "Next Page"
+        country_event = 120112
+    }
+
+    option = {
+        name = "Return to the Main Menu"
+        country_event = 120100
+    }
+    
+}
+
+country_event = {
+    id = 120112
+    title = "Country Path Selector Page III"
+    desc = "120112D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Cappadocia"
+        country_event = 120113
+    }
+    
+    option = {
+        name = "Venice"
+        country_event = 120114
+    }
+
+    option = {
+        name = "Taichiud"
+        country_event = 120115
+    }
+
+    option = {
+        name = "Scandinavia"
+        country_event = 120116
+    }
+
+    option = {
+        name = "Return to the First Page"
+        country_event = 120102
+    }
+
+    option = {
+        name = "Return to the Main Menu"
+        country_event = 120100
+    }
+    
+}
+
+country_event = {
+    id = 120103
+    title = "Country Path Selector: Burgundy"
+    desc = "120103D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "West Francia"
+        set_global_flag = AI_Burgundy_West
+        country_event = 120102
+    }
+    
+    option = {
+        name = "East Francia"
+        set_global_flag = AI_Burgundy_East
+        country_event = 120102
+    }
+
+    option = {
+        name = "Lotharingia"
+        set_global_flag = AI_Burgundy_Both
+        country_event = 120102
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120102
+    }
+}
+
+country_event = {
+    id = 120104
+    title = "Country Path Selector: France"
+    desc = "120104D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Natural Borders"
+        set_global_flag = AI_France_1
+        country_event = 120102
+    }
+    
+    option = {
+        name = "Slightly Big France"
+        set_global_flag = AI_France_2
+        country_event = 120102
+    }
+
+    option = {
+        name = "Biggest France Possible"
+        set_global_flag = AI_France_3
+        country_event = 120102
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120102
+    }
+}
+
+country_event = {
+    id = 120105
+    title = "Country Path Selector: Bohemia"
+    desc = "120105D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Holy Slavic Empire"
+        set_global_flag = AI_Bohemia_HSE
+        country_event = 120102
+    }
+    
+    option = {
+        name = "Holy Slavic Union"
+        set_global_flag = AI_Bohemia_HSU
+        country_event = 120102
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120102
+    }
+}
+
+country_event = {
+    id = 120106
+    title = "Country Path Selector: Bulgaria"
+    desc = "120106D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Balkan Path"
+        set_global_flag = AI_Bulgaria_Balkan
+        country_event = 120102
+    }
+    
+    option = {
+        name = "Black Sea Path"
+        set_global_flag = AI_Bulgaria_Sea
+        country_event = 120102
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120102
+    }
+}
+
+country_event = {
+    id = 120108
+    title = "Country Path Selector: Russia"
+    desc = "120108D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Form Russia, Go West"
+        set_global_flag = AI_Russia_West
+        country_event = 120107
+    }
+    
+    option = {
+        name = "Form Russia, Go East"
+        set_global_flag = AI_Russia_East
+        country_event = 120107
+    }
+
+    option = {
+        name = "Form Kievan Rus"
+        set_global_flag = AI_Russia_Rus
+        country_event = 120107
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120107
+    }
+}
+
+country_event = {
+    id = 120109
+    title = "Country Path Selector: Ukraine"
+    desc = "120109D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Form Ukraine"
+        set_global_flag = AI_Ukraine_Ukraine
+        country_event = 120107
+    }
+    
+    option = {
+        name = "Form Kievan Rus"
+        set_global_flag = AI_Ukraine_Rus
+        country_event = 120107
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120107
+    }
+}
+
+country_event = {
+    id = 120110
+    title = "Country Path Selector: Castille"
+    desc = "120110D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Stabilize the Colonies"
+        set_global_flag = AI_Castille_New
+        country_event = 120107
+    }
+    
+    option = {
+        name = "Focus on Iberia"
+        set_global_flag = AI_Castille_Old
+        country_event = 120107
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120107
+    }
+}
+
+country_event = {
+    id = 120111
+    title = "Country Path Selector: Prussia"
+    desc = "120111D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Return to Germany"
+        set_global_flag = AI_Prussia_West
+        country_event = 120107
+    }
+    
+    option = {
+        name = "Create a new Homeland"
+        set_global_flag = AI_Prussia_East
+        country_event = 120107
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120107
+    }
+}
+
+country_event = {
+    id = 120113
+    title = "Country Path Selector: Cappadocia"
+    desc = "120113D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Stay as Cappadocia"
+        set_global_flag = AI_Greece_CAP
+        country_event = 120112
+    }
+    
+    option = {
+        name = "Restore the Glory of Rome"
+        set_global_flag = AI_Greece_ERE
+        country_event = 120112
+    }
+
+    option = {
+        name = "Restore Democracy"
+        set_global_flag = AI_Greece_GRE
+        country_event = 120112
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120112
+    }
+}
+
+country_event = {
+    id = 120114
+    title = "Country Path Selector: Venice"
+    desc = "120114D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Unite Italy Diplomatically"
+        set_global_flag = AI_Venice_Diplo
+        country_event = 120112
+    }
+    
+    option = {
+        name = "Unite Italy Militarily"
+        set_global_flag = AI_Venice_War
+        country_event = 120112
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120112
+    }
+}
+
+country_event = {
+    id = 120115
+    title = "Country Path Selector: Taichiud"
+    desc = "120115D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "A Terror upon Europe"
+        set_global_flag = AI_Taichiud_West
+        country_event = 120112
+    }
+    
+    option = {
+        name = "A Terror upon China"
+        set_global_flag = AI_Taichiud_East
+        country_event = 120112
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120112
+    }
+}
+
+country_event = {
+    id = 120116
+    title = "Country Path Selector: Scandinavia"
+    desc = "120116D"
+    picture = Country_Path_Selector
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Restore the Danelaw"
+        set_global_flag = AI_Scandinavia_Danelaw
+        country_event = 120112
+    }
+    
+    option = {
+        name = "Dominate the Baltic"
+        set_global_flag = AI_Scandinavia_Baltic
+        country_event = 120112
+    }
+
+    option = {
+        name = "Keep it random"
+        country_event = 120112
+    }
+}

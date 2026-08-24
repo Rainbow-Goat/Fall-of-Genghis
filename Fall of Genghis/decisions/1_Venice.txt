@@ -79,6 +79,12 @@ political_decisions = {
             badboy = -18
             set_country_flag = violent_ita_unify
         }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = AI_Venice_Diplo
+            }
+        }
     }
 
     restore_the_italian_league = {
@@ -106,6 +112,13 @@ political_decisions = {
 				}
 				country_event = { id = 100500 days = 0 }
 			}
+        }
+
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = AI_Venice_War
+            }
         }
     }
 

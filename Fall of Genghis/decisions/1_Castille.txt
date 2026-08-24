@@ -46,6 +46,13 @@ political_decisions = {
             clr_country_flag = hidden_tooltip
             spanish_union_tooltip = {}
         }
+
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = AI_Castille_New
+            }
+        }
     }
 
     pivot_new_world = {
@@ -60,6 +67,12 @@ political_decisions = {
         effect = {
             set_country_flag = cas_new_world
             cas_new_world_tooltip = {}
+        }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = AI_Castille_Old
+            }
         }
     }
 

@@ -96,6 +96,10 @@ WEF     = "countries/West Francia.txt"
 EAF     = "countries/East Francia.txt"
 LTR     = "countries/Lotharingia.txt"
 NIL     = "countries/North Italian League.txt"
+EUR     = "countries/European Union.txt"
+
+# Rebellion tags
+LRB     = "countries/LiberalRevolutionBurgundy.txt"
 
 # Common Great Powers
 RUS		= "countries/Russia.txt"
@@ -206,6 +210,7 @@ TRN		="countries/Transvaal.txt"
 TUN		="countries/Tunis.txt"
 ZAN		="countries/Zanzibar.txt"
 ZUL		="countries/Zulu.txt"
+CAR     ="countries/Cape Republic.txt"
 
 # Cental Asia
 ABU		="countries/Abu Dhabi.txt"

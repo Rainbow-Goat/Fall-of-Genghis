@@ -94,8 +94,11 @@ political_decisions = {
 			set_global_flag = holy_slavic_empire
 		}
 		ai_will_do = {
-				factor = 3
-		}
+            modifier = {
+                factor = -50
+                has_global_flag = AI_Bohemia_HSU
+            }
+        }
 	}
 	
 	form_kingdom_of_slavia = {
@@ -158,7 +161,13 @@ political_decisions = {
 		}
 
 		ai_will_do = {
-				factor = 1
-		}
+            modifier = {
+                factor = -50
+				AND = {
+					primary_culture = bohemian
+					has_global_flag = AI_Bohemia_HSE
+				}
+            }
+        }
 	}
 }

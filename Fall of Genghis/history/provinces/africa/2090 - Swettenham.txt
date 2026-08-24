@@ -1,6 +1,6 @@
-owner = BRG
-controller = BRG
-add_core = SAF
+owner = CAR
+controller = CAR
+add_core = CAR
 trade_goods = wool
 life_rating = 35 
 colonial = 2

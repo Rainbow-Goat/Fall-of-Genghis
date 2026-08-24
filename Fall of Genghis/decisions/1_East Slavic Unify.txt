@@ -58,6 +58,25 @@ political_decisions = {
                 annex_to = KIE
             }
         }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                AND = {
+                    primary_culture = russian
+                    OR = {
+                        has_global_flag = AI_Russia_West
+                        has_global_flag = AI_Russia_East
+                    }
+                }
+            }
+            modifier = {
+                factor = -50
+                AND = {
+                    primary_culture = ukrainian
+                    has_global_flag = AI_Ukraine_Ukraine
+                }
+            }
+        }
     }
 
     abandon_the_cossacks = {
@@ -131,6 +150,15 @@ political_decisions = {
             inherit = VLA
             inherit = RYA
         }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                AND = {
+                    primary_culture = russian
+                    has_global_flag = AI_Russia_Rus
+                }
+            }
+        }
     }
 
     a_unified_cossack_state = {
@@ -197,6 +225,15 @@ political_decisions = {
 			}
             prestige = 10
             badboy = -5
+        }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                AND = {
+                    primary_culture = ukrainian
+                    has_global_flag = AI_Ukraine_Rus
+                }
+            }
         }
     }
 }

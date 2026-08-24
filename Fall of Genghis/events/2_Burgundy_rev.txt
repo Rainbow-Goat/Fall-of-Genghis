@@ -1,0 +1,940 @@
+country_event = {
+	id = 101216
+	title = "The Rhenish Declaration"
+	desc = "101216D"
+	picture = Celebration
+	
+	trigger = {
+		NOT = { has_global_flag = burg_civil_war_started }
+		has_country_flag = burg_religious_conflict
+		check_variable = { which = rhenish_anger value = 15 }
+		year = 1855
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Traitors"
+		change_variable = { which = burg_liberal value = 3 }
+		set_country_flag = rhenish_civil_war_enabled
+	}
+}
+
+country_event = {
+	id = 101217
+	title = "The French Declaration"
+	desc = "101217D"
+	picture = Celebration
+	
+	trigger = {
+		NOT = { has_global_flag = burg_civil_war_started }
+		has_country_flag = burg_religious_conflict
+		check_variable = { which = french_anger value = 15 }
+		year = 1855
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Traitors"
+		change_variable = { which = burg_liberal value = 3 }
+		set_country_flag = french_civil_war_enabled
+	}
+}
+
+country_event = {
+	id = 101218
+	title = "The Liberal Protest"
+	desc = "101218D"
+	picture = Celebration
+	
+	trigger = {
+		NOT = { has_global_flag = burg_civil_war_started }
+		has_country_flag = burg_liberal_woes
+		check_variable = { which = burg_liberal value = 15 }
+		year = 1855
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Traitors"
+		change_variable = { which = rhenish_anger value = 3 }
+		change_variable = { which = french_anger value = 3 }
+		set_country_flag = liberal_civil_war_enabled
+	}
+}
+
+country_event = {
+	id = 101219
+	title = "East Francia declares independence"
+	desc = "101219D"
+	picture = brg_civil_war
+	
+	trigger = {
+		has_country_flag = rhenish_civil_war_enabled
+		NOT = {
+			OR = {
+				has_country_flag = french_civil_war_enabled
+				has_country_flag = liberal_civil_war_enabled
+			}
+		}
+		year = 1860
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Death to the traitors!"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = rhenish
+					culture = south_german
+					culture = sorbian
+				}
+			}
+			secede_province = EAF
+			add_core = EAF
+		}
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_eaf_civil_war
+		clr_country_flag = burg_religious_conflict
+		war = {
+			target = EAF
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+	}
+}
+
+country_event = {
+	id = 101220
+	title = "West Francia declares independence"
+	desc = "101220D"
+	picture = brg_civil_war
+	
+	trigger = {
+		has_country_flag = french_civil_war_enabled
+		NOT = {
+			OR = {
+				has_country_flag = rhenish_civil_war_enabled
+				has_country_flag = liberal_civil_war_enabled
+			}
+		}
+		year = 1860
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Death to the traitors"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = french
+					culture = picard
+					culture = norman
+					culture = occitan
+					culture = provencal
+				}
+			}
+			secede_province = WEF
+			add_core = WEF
+		}
+
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_wef_civil_war
+		clr_country_flag = burg_religious_conflict
+		war = {
+			target = WEF
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+	}
+}
+
+country_event = {
+	id = 101221
+	title = "The Liberal Revolution"
+	desc = "101221D"
+	picture = brg_civil_war
+	
+	trigger = {
+		has_country_flag = liberal_civil_war_enabled
+		NOT = {
+			OR = {
+				has_country_flag = rhenish_civil_war_enabled
+				has_country_flag = french_civil_war_enabled
+			}
+		}
+		year = 1860
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the king!"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = dutch
+					culture = picard
+					region = BEL_394
+					liberal = 40
+				}
+			}
+			secede_province = LRB
+			add_core = LRB
+		}
+
+		war = {
+			target = LRB
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = no
+		}
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_ltr_civil_war
+		clr_country_flag = burg_liberal_woes
+		clr_country_flag = burg_religious_conflict
+	}
+
+	option = {
+		name = "Long live the revolution!"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = dutch
+					culture = picard
+					region = BEL_394
+					liberal = 60
+				}
+			}
+			secede_province = LRB
+			add_core = LRB
+		}
+
+		LTR = { 
+			war = {
+				target = LRB
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+				call_ally = no
+			}
+		}
+		change_tag_no_core_switch = LRB
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_ltr_civil_war
+		clr_country_flag = burg_liberal_woes
+		clr_country_flag = burg_religious_conflict
+	}
+}
+
+country_event = {
+	id = 101231
+	title = "The Liberal Revolution"
+	desc = "101231D"
+	picture = brg_civil_war
+	
+	trigger = {
+		tag = WEF
+		has_country_flag = liberal_civil_war_enabled
+		year = 1860
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the king!"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = dutch
+					culture = picard
+					region = BEL_394
+					liberal = 60
+				}
+			}
+			secede_province = LRB
+			add_core = LRB
+		}
+
+		war = {
+			target = LRB
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = no
+		}
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_wef_civil_war
+		clr_country_flag = burg_liberal_woes
+	}
+
+	option = {
+		name = "Long live the revolution!"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = dutch
+					culture = picard
+					region = BEL_394
+					liberal = 40
+				}
+			}
+			secede_province = LRB
+			add_core = LRB
+		}
+
+		WEF = { 
+			war = {
+				target = LRB
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+				call_ally = no
+			}
+		}
+		change_tag_no_core_switch = LRB
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_wef_civil_war
+		clr_country_flag = burg_liberal_woes
+	}
+}
+
+country_event = {
+	id = 101232
+	title = "The Liberal Revolution"
+	desc = "101232D"
+	picture = brg_civil_war
+	
+	trigger = {
+		tag = EAF
+		has_country_flag = liberal_civil_war_enabled
+		year = 1860
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the king!"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = dutch
+					culture = picard
+					region = BEL_394
+					liberal = 60
+				}
+			}
+			secede_province = LRB
+			add_core = LRB
+		}
+
+		war = {
+			target = LRB
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = no
+		}
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_eaf_civil_war
+		clr_country_flag = burg_liberal_woes
+	}
+
+	option = {
+		name = "Long live the revolution!"
+		any_owned = {
+			limit = {
+				OR = {
+					culture = dutch
+					culture = picard
+					region = BEL_394
+					liberal = 40
+				}
+			}
+			secede_province = LRB
+			add_core = LRB
+		}
+
+		EAF = { 
+			war = {
+				target = LRB
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = civil_war
+				}
+				call_ally = no
+			}
+		}
+		change_tag_no_core_switch = LRB
+		set_global_flag = burg_civil_war_started
+		set_global_flag = burg_eaf_civil_war
+		clr_country_flag = burg_liberal_woes
+	}
+}
+
+country_event = {
+	id = 101222
+	title = "The Collapse of Lotharingia"
+	desc = "101222D"
+	picture = brg_anarchy
+	major = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_country_flag = liberal_civil_war_enabled
+				has_country_flag = rhenish_civil_war_enabled
+			}
+			AND = {
+				has_country_flag = liberal_civil_war_enabled
+				has_country_flag = french_civil_war_enabled
+			}
+			AND = {
+				has_country_flag = rhenish_civil_war_enabled
+				has_country_flag = french_civil_war_enabled
+			}
+		}
+		year = 1860
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "§RA State of total anarchy has begun...§!"
+		LTR = {
+			all_core = {
+				remove_core = LTR
+			}
+		}
+		change_tag = LRB
+		government = bourgeois_dictatorship
+		ruling_party_ideology = anarcho_liberal
+		upper_house = { ideology = anarcho_liberal value = 5 }
+		any_owned = {
+			limit = {
+				OR = {
+					region = BEL_394
+					region = BEL_387
+					culture = picard
+					liberal = 60
+				}
+			}
+			add_core = LRB
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					culture = rhenish
+					culture = south_german
+					culture = pommeranian
+					region = FRA_412
+				}
+				NOT = { is_core = LRB }
+			}
+			secede_province = EAF
+			add_core = EAF
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					culture = french
+					culture = norman
+					culture = occitan
+					culture = provencal
+					region = FRA_411
+				}
+				NOT = { is_core = LRB }
+			}
+			secede_province = WEF
+			add_core = WEF
+		}
+		any_owned = {
+			limit = {
+				culture = dutch
+				NOT = { is_core = LRB }
+			}
+			secede_province = NET
+		}
+		set_global_flag = burg_big_civil_war
+		set_global_flag = burg_civil_war_started
+		clr_country_flag = burg_liberal_woes
+		clr_country_flag = burg_religious_conflict
+		country_event = { id = 101223 days = 30 }
+	}
+}
+
+country_event = {
+	id = 101223
+	title = "The Civil War Begins"
+	desc = "101223D"
+	picture = brg_anarchy
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the revolution!"
+		LRB = {
+			war = {
+				target = EAF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = NET
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+		}
+		EAF = {
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_411
+				}
+				attacker_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_411
+				}
+				defender_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_412
+				}
+				defender_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_412
+				}
+				call_ally = no
+			}
+		}
+	}
+	
+	option = {
+		name = "Long live East Francia!"
+		change_tag_no_core_switch = EAF
+		LRB = {
+			war = {
+				target = EAF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = NET
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+		}
+		EAF = {
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_411
+				}
+				attacker_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_411
+				}
+				defender_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_412
+				}
+				defender_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_412
+				}
+				call_ally = no
+			}
+		}
+	}
+
+	option = {
+		name = "Long live West Francia!"
+		change_tag_no_core_switch = WEF
+		LRB = {
+			war = {
+				target = EAF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = NET
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+		}
+		EAF = {
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_411
+				}
+				attacker_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_411
+				}
+				defender_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_412
+				}
+				defender_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_412
+				}
+				call_ally = no
+			}
+		}
+	}
+
+	option = {
+		name = "Long live the Netherlands!"
+		change_tag_no_core_switch = NET
+		LRB = {
+			war = {
+				target = EAF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+			war = {
+				target = NET
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+		}
+		EAF = {
+			war = {
+				target = WEF
+				attacker_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_411
+				}
+				attacker_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_411
+				}
+				defender_goal = {
+					casus_belli = acquire_state_small
+					state_province_id = FRA_412
+				}
+				defender_goal = {
+					casus_belli = acquire_state_medium
+					state_province_id = FRA_412
+				}
+				call_ally = no
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 101228
+	title = "The End of the Civil War"
+	desc = "101228D"
+	picture = greatpowers
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the republic!"
+		change_tag = LTR
+		set_country_flag = civil_war_ended
+		set_country_flag = liberal_win
+	}	
+}
+
+country_event = {
+	id = 101229
+	title = "The End of the Civil War"
+	desc = "101229D"
+	picture = greatpowers
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the republic!"
+		change_tag = WEF
+		set_country_flag = civil_war_ended
+		set_country_flag = liberal_win
+	}	
+}
+
+country_event = {
+	id = 101230
+	title = "The End of the Civil War"
+	desc = "101230D"
+	picture = greatpowers
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the republic!"
+		change_tag = EAF
+		set_country_flag = civil_war_ended
+		set_country_flag = liberal_win
+	}	
+}
+
+country_event = {
+	id = 101233
+	title = "The End of the Civil War"
+	desc = "101233D"
+	picture = greatpowers
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Long live the king!"
+		set_country_flag = civil_war_ended
+	}	
+}
+
+country_event = {
+	id = 101236
+	title = "The Constitutional Convention"
+	desc = "101236D"
+	picture = parliament
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "No King will ever rule us again! Democracy shall prevail!"
+		government = democracy
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = proportional_representation
+		political_reform = free_press
+		political_reform = secret_ballots
+		set_country_flag = burg_democracy
+	}
+
+	option = {
+		name = "The nation needs stability, a monarch would provide such stability."
+		government = hms_government
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = proportional_representation
+		political_reform = free_press
+		political_reform = secret_ballots
+		set_country_flag = burg_hms
+	}
+
+	option = {
+		name = "The only path forward for the nation is a federation of equals!"
+		government = democracy
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = proportional_representation
+		political_reform = free_press
+		political_reform = secret_ballots
+		set_country_flag = burg_federation
+		remove_accepted_culture = rhenish
+		remove_accepted_culture = french
+		release_vassal = EAF
+		EAF = {
+			government = democracy
+			political_reform = universal_voting
+			political_reform = population_equal_weight
+			political_reform = proportional_representation
+			political_reform = free_press
+			political_reform = secret_ballots
+		}
+		release_vassal = WEF
+		WEF = {
+			government = democracy
+			political_reform = universal_voting
+			political_reform = population_equal_weight
+			political_reform = proportional_representation
+			political_reform = free_press
+			political_reform = secret_ballots
+		}
+	}
+}
+
+country_event = {
+	id = 101237
+	title = "The Constitutional Convention"
+	desc = "101237D"
+	picture = parliament
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "No King will ever rule us again! Democracy shall prevail!"
+		government = democracy
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = proportional_representation
+		political_reform = free_press
+		political_reform = secret_ballots
+		set_country_flag = burg_democracy
+	}
+
+	option = {
+		name = "The nation needs stability, a monarch would provide such stability."
+		government = hms_government
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = proportional_representation
+		political_reform = free_press
+		political_reform = secret_ballots
+		set_country_flag = burg_hms
+	}
+}

@@ -25,6 +25,13 @@ PRO = {
     military_access = yes
 }
 
+BOR = {
+    value = 125
+    level = 5
+    influence_value = 100
+    military_access = yes
+}
+
 #========================= L A N D =========================
 
 army = {

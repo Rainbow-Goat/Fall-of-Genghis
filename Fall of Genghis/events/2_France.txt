@@ -9,18 +9,42 @@ country_event = {
     option = {
         name = "EVTOPTA100100"
         set_country_flag = french_borders_1
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 50
+				has_global_flag = AI_France_1
+			}
+		}
     }
 
     option = {
         name = "EVTOPTB100100"
         set_country_flag = french_borders_2
         badboy = 10
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 50
+				has_global_flag = AI_France_2
+			}
+		}
     }
 
     option = {
         name = "EVTOPTC100100"
         set_country_flag = french_borders_3
         badboy = 20
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 50
+				has_global_flag = AI_France_3
+			}
+		}
     }
 }
 

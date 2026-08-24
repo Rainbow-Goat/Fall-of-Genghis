@@ -19,3 +19,8 @@ Rennes - Did some fucking magic that I could not even begin to comprehend to und
 KevinG - for vassal GTFO implementation
 Exeter - Made a thing on Github to make version name changes be done automatically
 Julius and 4th-Kaiser - Helped with coding and localization
+
+#Other help
+BigWeevil - I used his modding guide alot when I started modding, and I still use it regularly when I need to find some specific basic thing that I forgot (like the sizes of the event and decision pictures lol)
+Victoria II Modding Wiki - Insanely helpful tool with lots of good information with all the effects, conditions, scopes etc
+Victoria II Modding Server - Really helpful community that are always willing to help or give input when requested, big shoutout to them!

@@ -56,6 +56,14 @@ vassal = {
 	end_date = 1945.1.1
 }
 
+# French Confederation
+vassal = {
+	first = ORL
+	second = PRO
+	start_date = 1671.2.1
+	end_date = 1845.6.8
+}
+
 # Burgundian Lorrainian Union
 vassal = {
 	first = BRG
@@ -110,4 +118,12 @@ vassal = {
 	second = NAV
 	start_date = 1387.5.3
 	end_date = 1860.3.6
+}
+
+#Burgundy-Cape
+vassal = {
+	first = BRG
+	second = CAR
+	start_date = 1589.2.11
+	end_date = 1890.3.6
 }

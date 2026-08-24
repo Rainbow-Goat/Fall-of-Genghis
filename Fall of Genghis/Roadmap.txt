@@ -3,12 +3,11 @@ New content:
     - Bulgaria (DONE)
     - Scotland (DONE)
 Rework:
-    - Burgundy (In progress)
-    - Lithuania
+    - Burgundy (DONE)
+    - Lithuania 
 Touch up:
-    - Russia
+    - Russia (Merge paths, remove additional accepteds, coremaxxing)
     - Italy
-    - Ukraine
     - Kievan Rus
     - Various subpar localisation things
     - Add missing GFX

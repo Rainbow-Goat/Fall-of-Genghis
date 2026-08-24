@@ -116,5 +116,12 @@ political_decisions = {
             inherit = SRT
             inherit = DOP
         }
+
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = meme_no
+            }
+        }
     }
 }

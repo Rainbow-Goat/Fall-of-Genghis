@@ -43,6 +43,7 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = picard
+            set_country_flag = brg_picard
         }
     }
 
@@ -233,7 +234,7 @@ political_decisions = {
                         owned_by = THIS
                         AND = {
                             owner = { in_sphere = THIS }
-                            year = 1865
+                            year = 1858
                         }
                     }
                 }
@@ -412,40 +413,27 @@ political_decisions = {
         }
     }
 
-    # vanilla stuff
-
-    rename_the_congo = {
-		potential = {
+    burg_force_pm = {
+        potential = {
+            has_country_flag = burg_liberal_woes
             OR = {
-                tag = BRG
-                tag = WEF
-                tag = EAF
+                has_country_modifier = von_grolman_pm
+                has_country_modifier = de_chalon_pm
+                has_country_modifier = van_brederode_pm
+                has_country_modifier = van_wassenaer_pm
             }
-			exists = CNG
-			CNG = {
-				vassal_of = THIS
-			}
-			NOT = {
-				has_global_flag = congo_renamed
-			}
-		}
-		
-		allow = {
-			invention = mission_to_civilize
-		}
-		
-		effect = {
-			1987 = {
-				change_province_name = "Elisabethville"
-			}		
-			1982 = {
-				change_province_name = "Leopoldville"
-			}
-			1996 = {
-				change_province_name = "Stanleyville"
-			}
-			prestige = 10
-			set_global_flag = congo_renamed
-		}
-	}
+        }
+        allow = {
+            war = no
+            NOT = { has_country_modifier = pm_switch }
+        }
+        effect = {
+            remove_country_modifier = von_grolman_pm
+            remove_country_modifier = de_chalon_pm
+            remove_country_modifier = van_brederode_pm
+            remove_country_modifier = van_wassenaer_pm
+            country_event = { id = 101242 days = -1 }
+            change_variable = { which = burg_liberal value = 1 }
+        }
+    }
 }

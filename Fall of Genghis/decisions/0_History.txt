@@ -4,6 +4,7 @@ political_decisions = {
         potential = {
             tag = NRM 
             NOT = { year = 1838 }
+            ai = no
         }
         allow = {}
         effect = {

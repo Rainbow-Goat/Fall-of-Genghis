@@ -51,6 +51,7 @@ political_decisions = {
             NOT = {
                 has_global_flag = israel_claimed
             }
+            NOT = { has_global_flag = meme_no }
         }
         allow = {
             war = no
@@ -62,6 +63,12 @@ political_decisions = {
             EGY_921 = { add_core = THIS }
             set_global_flag = israel_claimed
             add_accepted_culture = ashkenazi
+        }
+        ai_will_do = {
+            modifier = {
+                factor = -50
+                has_global_flag = meme_no
+            }
         }
     }
 }

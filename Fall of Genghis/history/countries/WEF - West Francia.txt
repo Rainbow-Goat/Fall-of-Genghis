@@ -1,8 +1,10 @@
 capital = 387
-primary_culture = burgundian
-culture = dutch
-culture = french
+primary_culture = french
 culture = picard
+culture = burgundian
+culture = occitan
+culture = provencal
+culture = norman
 religion = catholic
 government = hms_government
 plurality = 25.0

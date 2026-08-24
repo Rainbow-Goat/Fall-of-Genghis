@@ -334,6 +334,14 @@ country_event = {
 		}
 		change_tag = MGE
 		set_global_flag = GenghisKhanAwoke
+
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Taichiud_West
+			}
+		}
 	}
 	
 	option = {
@@ -346,6 +354,14 @@ country_event = {
 			}
 		}
 		change_tag = GBT
+
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 50
+				has_global_flag = AI_Taichiud_East
+			}
+		}
 	}
 }
 

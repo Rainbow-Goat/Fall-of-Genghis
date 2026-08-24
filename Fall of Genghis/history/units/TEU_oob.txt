@@ -1,3 +1,49 @@
+army = {
+	name = "Deutsche Befreiungsarmee"
+	location = 695
+	
+	regiment = {
+		name = "I. Infanteriebrigade"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name = "II. Infanteriebrigade"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name = "III. Infanteriebrigade"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name = "I. Kavalleriebrigade"
+		type = hussar
+		home = 693
+	}
+	regiment = {
+		name = "II. Kavalleriebrigade"
+		type = hussar
+		home = 695
+	}
+	regiment = {
+		name = "I. Artilleriebrigade"
+		type = artillery
+		home = 696
+	}
+	regiment = {
+		name = "II. Artilleriebrigade"
+		type = artillery
+		home = 698
+	}
+	regiment = {
+		name = "III. Artilleriebrigade"
+		type = artillery
+		home = 695
+	}
+}
+
 leader = {
 	name = "von Zieten"
 	date = 1813.1.1

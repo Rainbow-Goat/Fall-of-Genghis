@@ -7,6 +7,7 @@ political_decisions = {
 			NOT = {	has_country_flag = nv_change }
 			NOT = { has_country_flag = switched_nv }
 			ai = no
+			NOT = { has_global_flag = singleplayer_mode }
 		}
 		
 		allow = {
@@ -30,6 +31,7 @@ political_decisions = {
 			has_country_flag = nv_change
 			NOT = { has_country_flag = switched_nv }
 			ai = no
+			NOT = { has_global_flag = singleplayer_mode }
 		}
 		
 		allow = { }
