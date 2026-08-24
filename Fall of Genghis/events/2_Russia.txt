@@ -1,23 +1,10 @@
 country_event = {
     id = 100300
-    title = "Deciding our Destiny"
+    title = "Declaration of Russian Unification"
     desc = "100300D"
     picture = "celebration"
 	
     is_triggered_only = yes
-
-    option = {
-        name = "Strike East!"
-        set_country_flag = russia_east
-
-        ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 50
-				has_global_flag = AI_Russia_East
-			}
-		}
-    }
 
     option = {
         name = "Strike West!"
@@ -35,23 +22,23 @@ country_event = {
 
 country_event = {
     id = 100301
-    title = "EVTNAME100301"
-    desc = "EVTDESC100301"
+    title = "The Capital of Russia"
+    desc = "100301D"
     picture = "celebration"
 	is_triggered_only = yes
 
     option = {
-        name = "EVTOPT100301A"
+        name = "St Petersburg"
         capital = 994
     }
 
     option = {
-        name = "EVTOPT100301B"
+        name = "Moscow"
         capital = 1008
     }
 
     option = {
-        name = "EVTOPT100301C"
+        name = "Kursk"
         capital = 977
     }
 }

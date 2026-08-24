@@ -1,6 +1,24 @@
 political_decisions = {
     #expansion stuff 
+    russia_go_east = {
+        picture = rhodesia_charter
+        potential = {
+            tag = RUS
+            has_country_flag = russia_west
+            NOT = { has_country_flag = russia_east }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+        effect = {
+            set_country_flag = russia_east
+            add_accepted_culture = siberian
+        }
+    }
+
     send_expedition_beyond_urals = {
+        picture = Mountain
         potential = {
             tag = RUS
             has_country_flag = russia_east
@@ -10,7 +28,7 @@ political_decisions = {
         }
         allow = {
             war = no
-            early_railroad = 1
+            experimental_railroad = 1
         }
         effect = {
             CHA = {
@@ -21,6 +39,7 @@ political_decisions = {
     }
     
     expand_further_east = {
+        picture = SiberianExpedition
         potential = {
             tag = RUS
             has_country_flag = russia_east
@@ -32,12 +51,13 @@ political_decisions = {
         }
         allow = {
             war = no
-            biologism = 1
+            early_railroad = 1
             DOP = {
                 all_core = {
                     OR = {
                         owned_by = THIS
                         owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
                     }
                 }
             }
@@ -46,6 +66,7 @@ political_decisions = {
                     OR = {
                         owned_by = THIS
                         owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
                     }
                 }
             }
@@ -55,11 +76,11 @@ political_decisions = {
             inherit = OYI
             DOP = { all_core = { add_core = RUS } }
             OYI = { all_core = { add_core = RUS } }
-            prestige = 10
         }
     }
 
     march_to_the_sea = {
+        picture = russian_vladivostok
         potential = {
             tag = RUS
             has_country_flag = russia_east
@@ -70,12 +91,13 @@ political_decisions = {
         }
         allow = {
             war = no
-            empiricism = 1
+            iron_railroad = 1
             NAI = {
                 all_core = {
                     OR = {
                         owned_by = THIS
                         owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
                     }
                 }
             }
@@ -84,6 +106,7 @@ political_decisions = {
                     OR = {
                         owned_by = THIS
                         owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
                     }
                 }
             }
@@ -93,11 +116,11 @@ political_decisions = {
             inherit = MER
             NAI = { all_core = { add_core = RUS } }
             MER = { all_core = { add_core = RUS } }
-            prestige = 10
         }
     }
 
     aquire_warm_water_ports = {
+        picture = clear_out_the_manchu_elite
         potential = {
             tag = RUS
             has_country_flag = russia_east
@@ -108,23 +131,24 @@ political_decisions = {
         }
         allow = {
             war = no
-            social_science = 1
+            steel_railroad = 1
             MCK = {
                 all_core = {
                     OR = {
                         owned_by = THIS
                         owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
                     }
                 }
             }
         }
         effect = {
             MCK = { all_core = { add_core = RUS } }
-            prestige = 10
         }
     }
 
     subjugate_the_southeast = {
+        picture = cossack_march
         potential = {
             tag = RUS
             has_country_flag = russia_east
@@ -134,12 +158,12 @@ political_decisions = {
         }
         allow = {
             war = no
-            nationalism_n_imperialism = 1
             SRT = {
                 all_core = {
                     OR = {
                         owned_by = THIS
                         owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
                     }
                 }
             }
@@ -147,11 +171,11 @@ political_decisions = {
         effect = {
             inherit = SRT
             SRT = { all_core = { add_core = RUS } }
-            prestige = 10
         }
     }
 
     expand_the_northern_front = {
+        picture = livonian_land
         potential = {
             tag = RUS
             has_country_flag = russia_west
@@ -165,12 +189,11 @@ political_decisions = {
         effect = {
             RUS_349 = { add_core = THIS }
             RUS_354 = { add_core = THIS }
-            prestige = 10
-            add_accepted_culture = estonian
         }
     }
 
     safeguard_st_petersburg = {
+        picture = st_petersburg
         potential = {
             tag = RUS
             capital = 994
@@ -191,11 +214,11 @@ political_decisions = {
                 }
             }
             badboy = 15
-            prestige = 15
         }
     }
 
     liberation_of_belarus = {
+        picture = smolensk
         potential = {
             tag = RUS
             has_country_flag = russia_west
@@ -203,18 +226,18 @@ political_decisions = {
         }
         allow = {
             war = no
-            nationalism_n_imperialism = 1
+            state_n_government = 1
             SMO = {
                 all_core = { owned_by = THIS }
             }
         }
         effect = {
             BYE = { all_core = { add_core = RUS } }
-            prestige = 10
         }
     }
 
     subjugate_the_ruthenians = {
+        picture = protect_eastern_christians
         potential = {
             tag = RUS
             has_country_flag = russia_west
@@ -226,27 +249,17 @@ political_decisions = {
         allow = {
             war = no
             nationalism_n_imperialism = 1
-            RUS = {
-                all_core = {
-                    owned_by = THIS
-                }
-            }
+            958 = { owned_by = THIS }
+            963 = { owned_by = THIS }
             RUT = {
                 all_core = {
                     OR = {
                         owned_by = THIS
-                        AND = {
-                            exists = RUT
-                            owned_by = RUT
-                            RUT = {
-                                in_sphere = THIS
-                            }
-                        }
+                        owner = { in_sphere = THIS }
+                        owner = { vassal_of = THIS }
                     }
                 }
             }
-            958 = { owned_by = THIS }
-            963 = { owned_by = THIS }
         }
         effect = {
             RUT = {
@@ -261,6 +274,7 @@ political_decisions = {
     }
 
     crush_lithuania = {
+        picture = burning_city
         potential = {
             tag = RUS
             has_country_flag = russia_west
@@ -271,47 +285,19 @@ political_decisions = {
         }
         allow = {
             war = no
-            empiricism = 1
             360 = { owned_by = THIS }
             936 = { owned_by = THIS }
             947 = { owned_by = THIS }
-            RUS = {
-                all_core = { owned_by = THIS }
-            }
         }
         effect = {
             RUS_360 = { add_core = RUS }
             RUS_707 = { add_core = RUS }
             947 = { add_core = RUS }
-            add_accepted_culture = lithuanian
-            prestige = 30
-        }
-    }
-
-    integrate_the_eastern_slavs = {
-        potential = {
-            tag = RUS
-            has_country_flag = russia_west
-            NOT = { exists = LIT }
-            NOT = { accepted_culture = ruthenian }
-        }
-        allow = {
-            war = no
-            mass_politics = 1
-            UKR = {
-                all_core = { owned_by = THIS }
-            }
-            RUT = {
-                all_core = { owned_by = THIS }
-            }
-        }
-        effect = {
-            add_accepted_culture = ruthenian
-            prestige = 40
         }
     }
 
 	move_the_capital = {
+        picture = st_petersburg
 		potential = {
 			tag = RUS
 			NOT = { has_country_flag = capital_moved }
@@ -324,7 +310,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			country_event = 100301
+			country_event = { id = 100301 days = -1 }
             set_country_flag = capital_moved
 			prestige = 5
 		}
@@ -466,40 +452,6 @@ political_decisions = {
 				}
 				country_event = { id=19030 days=0 }
 			}
-		}
-	}
-	
-	peking_convention = {
-		potential = {
-			tag = RUS
-			MCK = {
-					owns = 1082 }
-			NOT = {
-				has_country_flag = peking_convention
-				war_with = MCK
-			}
-			OR = {
-				is_sphere_leader_of = MCK
-				has_global_flag = summer_palace_torched
-			}
-		}
-		
-		allow = {
-			is_greater_power = yes
-		}
-		
-		effect = {
-			CHI_1082 = {
-				add_core = RUS
-			}
-			1469 = {
-				add_core = RUS
-			}
-			set_country_flag = peking_convention			
-			MCK = {
-				country_event = { id=80000 days=0 }
-			}
-			prestige = 2
 		}
 	}
 }

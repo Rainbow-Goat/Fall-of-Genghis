@@ -227,3 +227,18 @@ duchy = {
 	appoint_ruling_party = yes
 	flagType = monarchy
 }
+
+tsardom = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = monarchy
+}

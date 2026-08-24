@@ -466,7 +466,7 @@ army = {
 }
 
 navy = {
-	name = "Belgische Koninklijk Marine"
+	name = "Burgundische Koninklijk Marine"
 	location = 388
 	ship = {
 		name= "1e Transport Flottille"

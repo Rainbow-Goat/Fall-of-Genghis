@@ -90,13 +90,16 @@ political_decisions = {
         }
         allow = {
             war = no
-            state_n_government = 1
+            ideological_thought = 1
             NOV = {
                 all_core = {
                     OR = {
                         owned_by = THIS
                         owner = {
                             in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
                         }
                     }
                 }
@@ -108,6 +111,9 @@ political_decisions = {
                         owner = {
                             in_sphere = THIS
                         }
+                        owner = {
+                            vassal_of = THIS
+                        }
                     }
                 }
             }
@@ -118,6 +124,9 @@ political_decisions = {
                         owner = {
                             in_sphere = THIS
                         }
+                        owner = {
+                            vassal_of = THIS
+                        }
                     }
                 }
             }
@@ -127,6 +136,16 @@ political_decisions = {
             primary_culture = russian
             add_accepted_culture = byelorussian
             country_event = 100300
+            random_owned = {
+                limit = {
+                    owner = {
+                        government = principality
+                    }
+                }
+                owner = {
+                    government = tsardom
+                }
+            }
             NOV = { 
                 all_core = { 
                     add_core = RUS 
@@ -168,10 +187,11 @@ political_decisions = {
                 primary_culture = ruthenian
             }
             NOT = { tag = KIE }
+            NOT = { exists = UKR }
         }
         allow = {
             war = no
-            state_n_government = 1
+            ideological_thought = 1
             958 = { owned_by = THIS }
             963 = { owned_by = THIS }
             1039 = { owned_by = THIS }
@@ -182,6 +202,9 @@ political_decisions = {
                         owner = {
                             in_sphere = THIS
                         }
+                        owner = {
+                            vassal_of = THIS
+                        }
                     }
                 }
             }
@@ -191,6 +214,9 @@ political_decisions = {
                         owned_by = THIS
                         owner = {
                             in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
                         }
                     }
                 }
@@ -219,12 +245,14 @@ political_decisions = {
                         primary_culture = ukrainian
                         primary_culture = ruthenian
                     }
-					in_sphere = THIS
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
 				}
 				annex_to = THIS
 			}
             prestige = 10
-            badboy = -5
         }
         ai_will_do = {
             modifier = {

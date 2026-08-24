@@ -6,7 +6,7 @@ Rework:
     - Burgundy (DONE)
     - Lithuania 
 Touch up:
-    - Russia (Merge paths, remove additional accepteds, coremaxxing)
+    - Russia (DONE)
     - Italy
     - Kievan Rus
     - Various subpar localisation things
@@ -31,7 +31,20 @@ Meme content:
     - Kurdistan
     - Iraq
 
-V1.3 - The Spice Trade
+V1.3 - The Great Plains
+- Extensive rework to the starting map of North America
+- Extensive content
+    - Quebec
+    - Holy Order of New Castille
+    - Islamic Caliphate of Mexico
+    - Iroquois Confederacy
+Moderate content:
+    - New Venetian Republic
+Minor content:
+    - Kurdish Free State
+    - Hawaii
+
+V1.4 - The Spice Trade
 Extensive content:
     - Panjab
     - Indian colonial system
@@ -40,7 +53,7 @@ Moderate content:
     - Hyderabad
     - Orissa
 
-V1.4 - The Century of Humiliation
+V1.5 - The Century of Humiliation
 Extensive content:
     - Japan
     - China system
@@ -53,29 +66,7 @@ Moderate content:
 Minor content:
     - Korea
 
-V1.5 - The Final Conquest
-Moderate content:
-    - Indonesia
-    - Siam
-Minor content:
-    - Burma
-    - Dai Nam
-    - Australian system
-    - Hawaii
-
-V1.6 - The Great Plains
-Extensive content:
-    - Holy Order of New Castille
-    - Islamic Caliphate of Mexico
-Moderate content:
-    - Iroquois Confederacy
-    - New Venetian Republic
-    - Quebec
-Minor content:
-    - Kurdish Free State
-    - Hawaii
-
-V1.7 - Glory of the Gods
+V1.6 - Glory of the Gods
 Extensive content:
     - West Indische Compagnie
     - Bolivarian Alliance
@@ -85,3 +76,16 @@ Moderate content:
     - Hanseatic League
 Minor:
     - Uruguay
+
+V1.7 - The Final Conquest
+Moderate content:
+    - Indonesia
+    - Siam
+Minor content:
+    - Burma
+    - Dai Nam
+    - Australian system
+    - Hawaii
+
+V1.8 and beyond:
+- Most likely reworking stuff to make it fit the themes and such I desire better and using my experience as a modder
