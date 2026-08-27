@@ -1,6 +1,7 @@
 political_decisions = {
 
 	will_receive = {
+		picture = grant
 		alert = no
 		potential = {
 			ai = no
@@ -37,6 +38,7 @@ political_decisions = {
 #	}
 
 	will_give = {
+		picture = grant
 		alert = no
 		potential = {
 			ai = no
@@ -52,6 +54,7 @@ political_decisions = {
 
 
 	will_not_give = {
+		picture = grant
 		alert = no
 		potential = {
 			ai = no

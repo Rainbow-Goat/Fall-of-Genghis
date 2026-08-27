@@ -1,4 +1,5 @@
 political_decisions = {
+    picture = islamic_army
     declare_continuation_of_jihad = {
         potential = {
             tag = ALA
@@ -16,6 +17,7 @@ political_decisions = {
     }
 
     aragon_jihaded = {
+        picture = crusader_surrender
         potential = {
             tag = ALA
             has_country_flag = jihad_continues
@@ -36,11 +38,11 @@ political_decisions = {
         effect = {
             CAT = { all_core = { add_core = THIS } }
             502 = { add_core = THIS }
-            prestige = 20
         }
     }
 
     the_end_of_jihad = {
+        picture = crescent
         potential = {
             tag = ALA
             has_country_flag = jihad_continues
@@ -62,7 +64,6 @@ political_decisions = {
         }
         effect = {
             change_tag = HNA
-            prestige = 30
             SPA = { all_core = { add_core = HNA } }
             ALA = { all_core = { add_core = HNA } }
             country_event = 100401
@@ -71,6 +72,7 @@ political_decisions = {
     }
 
     subdue_the_maghrebi_movement = {
+        picture = maghreb
         potential = {
             tag = ALA
             NOT = { accepted_culture = maghrebi }
@@ -88,6 +90,7 @@ political_decisions = {
     }
 
     convert_the_catalonians = {
+        picture = 
         potential = {
             498 = { is_core = THIS }
             OR = {

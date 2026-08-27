@@ -11,7 +11,6 @@ political_decisions = {
         }
         allow = {
             NOT = { year = 1844 }
-            war_with = POL
         }
         effect = {
             set_global_flag = lithuania_withdraws
@@ -20,9 +19,14 @@ political_decisions = {
             consciousness = 1
             badboy = -5
         }
+
+        ai_will_do = {
+            factor = 0
+        }
     }
 
     march_on_smolensk = {
+        picture = smolensk
         potential = {
             tag = LIT
             NOT = { has_country_flag = march_east }
@@ -31,7 +35,7 @@ political_decisions = {
         }
         allow = {
             war = no
-            state_n_government = 1
+            ideological_thought = 1
             exists = SMO
             AND = {
                 941 = { owned_by = THIS }
@@ -51,6 +55,7 @@ political_decisions = {
     }
 
     consume_the_remains = {
+        picture = smolensk
         potential = {
             tag = LIT
         	OR = {
@@ -60,6 +65,7 @@ political_decisions = {
         }
         allow = {
             war = no
+            state_n_government = 1
             943 = { owned_by = THIS }
             1016 = { owned_by = THIS }
         }
@@ -74,6 +80,7 @@ political_decisions = {
     }
 
     concessions_to_ruthenians = {
+        picture = cossack_march
         potential = {
             tag = LIT
             NOT = { accepted_culture = ruthenian }

@@ -16,15 +16,6 @@ leader = {
 }
 
 leader = {
-	name = "Sir Edward Codrington"
-	date = 1836.1.1
-	type = sea
-	personality = daring
-	background = expert_raider
-	prestige = 0.3
-}
-
-leader = {
 	name = "Hugh Gough"
 	date = 1830.1.1
 	type = land

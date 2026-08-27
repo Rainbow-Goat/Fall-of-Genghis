@@ -1,5 +1,6 @@
 political_decisions = {
     restore_the_commonwealth = {
+		picture = form_poland_lithuania
         potential = {
             OR = {
                 AND = {
@@ -35,7 +36,6 @@ political_decisions = {
         }
         effect = {
             change_tag = PLC
-            prestige = 20
             add_accepted_culture = polish
             add_accepted_culture = lithuanian
             add_accepted_culture = byelorussian
@@ -43,6 +43,7 @@ political_decisions = {
     }
 
 	form_holy_slavic_empire = {
+		picture = hse_flag
 		potential = {
 				primary_culture = bohemian
 				NOT = {
@@ -50,12 +51,13 @@ political_decisions = {
 						exists = HSE
 						exists = GER
 						exists = KWS
-						year = 1870
+						year = 1860
 					}
 				}
 		}
 		allow = {
 			war = no
+			NOT = { year = 1860 }
 			is_greater_power = yes
 			HSE = {
 				all_core = {
@@ -64,12 +66,10 @@ political_decisions = {
 						owner = {
 							in_sphere = THIS
 						}
-						NOT = {
-							OR = {
-								is_core = POM
-								culture = bohemian
-							}
+						owner = {
+							vassal_of = THIS
 						}
+						culture = rhenish
 					}
 				}
 			}
@@ -84,13 +84,37 @@ political_decisions = {
 						is_greater_power = yes
 					}
 					OR = {
-						is_culture_group = west_slavic
 						primary_culture = rhenish
+						primary_culture = pommeranian
+						primary_culture = south_german
 					}
 					in_sphere = THIS
 				}
 				annex_to = THIS
 			}
+			set_country_flag = hidden_tooltip
+			random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+				owner = {
+					HSE = {
+						all_core = {
+							remove_core = KWS
+							remove_core = POM
+							remove_core = BOH
+							remove_core = SAX
+							remove_core = BRE 
+							remove_core = COB
+							remove_core = HAM
+							remove_core = HEK
+							remove_core = LIP
+							remove_core = MEI
+							remove_core = OLD
+							remove_core = WEI
+							remove_core = OLD
+						}
+					}
+				}
+			}
+			clr_country_flag = hidden_tooltip
 			set_global_flag = holy_slavic_empire
 		}
 		ai_will_do = {
@@ -102,13 +126,72 @@ political_decisions = {
 	}
 	
 	form_kingdom_of_slavia = {
+		picture = slavic_brothers
 		potential = {
-			is_culture_group = west_slavic
 			OR = {
-				primary_culture = bohemian
 				primary_culture = pommeranian
 				primary_culture = polish
 			}
+			NOT = {
+				OR = {
+					exists = KWS
+					exists = HSE
+					exists = HSU
+				}
+			}
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+			KWS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+						owner = {
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}	
+		effect = {
+			change_tag = KWS
+			add_accepted_culture = bohemian
+			add_accepted_culture = pommeranian
+			HSE = {
+				all_core = {
+					remove_core = HSE
+				}
+			}
+			PRU_701 = { add_core = KWS }
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = pommeranian
+						primary_culture = rhenish
+						primary_culture = bohemian
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}
+		}
+
+		ai_will_do = {
+            factor = 1
+        }
+	}
+
+	form_holy_slavic_union = {
+		picture = slavic_brothers
+		potential = {
+			tag = BOH
 			NOT = {
 				OR = {
 					exists = KWS
@@ -134,16 +217,20 @@ political_decisions = {
 			}
 		}	
 		effect = {
-			prestige = 20
-			change_tag = KWS
-			add_accepted_culture = bohemian
+			change_tag = HSU
+			KWS = {
+				all_core = {
+					add_core = HSU
+					remove_core = KWS
+				}
+			}
 			add_accepted_culture = pommeranian
 			HSE = {
 				all_core = {
 					remove_core = HSE
 				}
 			}
-			PRU_701 = { add_core = KWS }
+			PRU_701 = { add_core = HSU }
 			any_country = {
 				limit = {
 					OR = {

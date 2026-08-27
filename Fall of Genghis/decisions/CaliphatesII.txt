@@ -318,6 +318,7 @@ political_decisions = {
 	}
 	
 	holy_cities_united = {
+		picture = the_holy_city
 		potential = {
 			OR = {
 				any_owned_province = {

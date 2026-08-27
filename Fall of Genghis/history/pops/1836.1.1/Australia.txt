@@ -1118,26 +1118,26 @@
 #Perth (23000/5750 POPS)
 2497 = {
 	clergymen = {
-		culture = castillian
-		religion = protestant
+		culture = venetian
+		religion = catholic
 		size = 15
 	}
 
 	artisans = {
-		culture = castillian
-		religion = protestant
+		culture = venetian
+		religion = catholic
 		size = 40
 	}
 
 	soldiers = {
-		culture = castillian
-		religion = protestant
+		culture = venetian
+		religion = catholic
 		size = 10
 	}
 
 	farmers = {
-		culture = castillian
-		religion = protestant
+		culture = venetian
+		religion = catholic
 		size = 685
 	}
 

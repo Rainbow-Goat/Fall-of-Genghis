@@ -3,6 +3,7 @@ political_decisions = {
         potential = {
             tag = HSE
             NOT = { accepted_culture = north_german }
+            NOT = { has_global_flag = multiplayer_mode }
         }
         allow = {
             early_railroad = 1
@@ -29,6 +30,7 @@ political_decisions = {
         potential = {
             tag = HSE
             NOT = { accepted_culture = south_german }
+            NOT = { has_global_flag = multiplayer_mode }
         }
         allow = {
             war = no
@@ -63,6 +65,7 @@ political_decisions = {
         potential = {
             tag = HSE
             NOT = { accepted_culture = rhenish }
+            NOT = { has_global_flag = multiplayer_mode }
         }
         allow = {
             war = no

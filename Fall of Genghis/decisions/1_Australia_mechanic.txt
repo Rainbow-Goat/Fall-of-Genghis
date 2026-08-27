@@ -1,0 +1,148 @@
+political_decisions = {
+    australia_debug = {
+        potential = {
+            ai = no
+        }
+        allow = {
+            ai = no
+        }
+        effect = {
+            AST = {
+                all_core = {
+                    secede_province = THIS
+                }
+            }
+        }
+    }
+    
+    venice_australia = {
+        potential = {
+            tag = VEN
+            AST = {
+                any_core = {
+                    owned_by = THIS
+                }
+            }
+            NOT = { exists = AST }
+            NOT = { has_global_flag = australia_trick }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            AST = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            any_owned = {
+                limit = {
+                    is_core = AST
+                }
+                    assimilate = yes
+                }
+            release = AST
+            AST = {
+                primary_culture = venetian
+                capital = 2497
+            }
+            set_global_flag = australia_trick
+            set_country_flag = ven_australia
+        }
+    }
+
+    castille_australia = {
+        potential = {
+            tag = CAS
+            AST = {
+                any_core = {
+                    owned_by = THIS
+                }
+            }
+            NOT = { exists = AST }
+            NOT = { has_global_flag = australia_trick }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            AST = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            any_owned = {
+                limit = {
+                    is_core = AST
+                }
+                    assimilate = yes
+                }
+            release = AST
+            AST = {
+                primary_culture = castillian
+                capital = 2483
+            }
+            set_global_flag = australia_trick
+            set_country_flag = cas_australia
+        }
+    }
+
+    andalus_australia = {
+        potential = {
+            tag = ALA
+            AST = {
+                any_core = {
+                    owned_by = THIS
+                }
+            }
+            NOT = { exists = AST }
+            NOT = { has_global_flag = australia_trick }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            AST = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            any_owned = {
+                limit = {
+                    is_core = AST
+                }
+                    assimilate = yes
+                }
+            release = AST
+            AST = {
+                primary_culture = andalusian
+                capital = 2468
+            }
+            set_global_flag = australia_trick
+            set_country_flag = ala_australia
+        }
+    }
+
+    annex_australia = {
+        potential = {
+            OR = {
+                has_country_flag = ala_australia
+                has_country_flag = cas_australia
+                has_country_flag = ven_australia
+            }
+            exists = AST
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+        }
+        effect = {
+            THIS = {
+                inherit = AST
+            }
+        }
+    }
+}

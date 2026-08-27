@@ -241,12 +241,30 @@ political_decisions = {
 		allow = {
 			war = no
 			state_n_government = 1
-			owns = 418
-			owns = 419
-			owns = 420
-			owns = 434
+			418 = {
+				OR = {
+					owned_by = THIS 
+					owner = { vassal_of = THIS }
+				}
+			}
+			434 = {
+				OR = {
+					owned_by = THIS 
+					owner = { vassal_of = THIS }
+				}
+			}
 		}
 		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					primary_culture = norman
+				}
+				annex_to = THIS
+			}
 			add_accepted_culture = norman
 		}
 	}

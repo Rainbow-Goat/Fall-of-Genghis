@@ -10,7 +10,7 @@ Touch up:
     - Italy
     - Kievan Rus
     - Various subpar localisation things
-    - Add missing GFX
+    - Add missing GFX (Russia done, Burgundy done, SGF done, ALP done, West Slavic Unifiers done, LIT done)
 Meme content:
     - Serbia (DONE)
 
@@ -19,7 +19,7 @@ Extensive content:
     - Rashidun Caliphate
     - Egypt
     - Sultanate of Rum
-    - Persia
+    - Persia    
 Moderate content:
     - Armenia
     - Afghanistan
@@ -87,5 +87,37 @@ Minor content:
     - Australian system
     - Hawaii
 
-V1.8 and beyond:
-- Most likely reworking stuff to make it fit the themes and such I desire better and using my experience as a modder
+Updates that will be worked on when I have extra time or once I get the urge to:
+(These updates may be worked on or released inbetween or after the roadmapped updates)
+
+An Empire in Crisis
+- HSE major rework
+- Bohemia rework
+- Pomerania rework
+
+The Commonwealth
+- Poland rework
+- Lithuania rework
+- Polish-Lithuanian commonwealth content
+
+Liberté, Égalité, Fraternité
+- French confederation major rework
+- Post unification France rework
+
+(heavily tied to the update below)
+
+The 1000 Year War 
+- 1000 Year War rework
+- Englaland rework
+- Angevin Empire rework
+- Great Britain rework
+- Scotland rework
+
+The Heart of Darkness (Highest prio of the non roadmap updates)
+- Total Africa Overhaul
+- Cape Colony content
+- East Africa content
+- West Africa content
+- Zulu content 
+- Etc 
+
