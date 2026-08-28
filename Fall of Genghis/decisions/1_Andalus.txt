@@ -90,7 +90,7 @@ political_decisions = {
     }
 
     convert_the_catalonians = {
-        picture = 
+        picture = spanish_restoration
         potential = {
             498 = { is_core = THIS }
             OR = {

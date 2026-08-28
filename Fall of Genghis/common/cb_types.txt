@@ -2052,7 +2052,10 @@ make_puppet = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { number_of_states = 4 }
+		OR = {
+			NOT = { number_of_states = 4 }
+			NOT = { total_pops = 800000 }
+		}
 		is_greater_power = no
 		is_vassal = no
 		NOT = { tag = GHO }

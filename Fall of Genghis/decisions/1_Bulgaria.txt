@@ -1,4 +1,5 @@
 political_decisions = {
+    picture = greater_serbia
     bulgaria_yug_1 = {
         potential = {
             tag = BLG
@@ -14,7 +15,9 @@ political_decisions = {
                         owned_by = THIS
                     }
                 }
-                is_our_vassal = SER
+                SER = {
+                    vassal_of = THIS
+                }
                 SER = {
                     in_sphere = THIS
                 }
@@ -37,6 +40,7 @@ political_decisions = {
     }
 
     bulgaria_yug_2 = {
+        picture = greater_serbia
         potential = {
             tag = BLG
             NOT = {
@@ -57,6 +61,7 @@ political_decisions = {
     }
 
     bulgaria_yug_3 = {
+        picture = croatia_map
         potential = {
             tag = BLG
             794 = {
@@ -75,7 +80,9 @@ political_decisions = {
                     771 = { owned_by = THIS }
                     780 = { owned_by = THIS }
                 }
-                is_our_vassal = CRO
+                CRO = {
+                    vassal_of = THIS
+                }
                 CRO = {
                     in_sphere = THIS
                 }
@@ -101,6 +108,7 @@ political_decisions = {
     }
 
     bulgaria_yug_4 = {
+        picture = reclaim_croatia
         potential = {
             tag = BLG
             771 = {
@@ -124,6 +132,7 @@ political_decisions = {
     }
 
     bulgaria_yug_5 = {
+        picture = map_balkans
         potential = {
             tag = BLG
             NOT = {
@@ -146,31 +155,43 @@ political_decisions = {
             }
             SER = {
                 all_core = {
+                    add_core = YUG
                     remove_core = SER
                 }
             }
             ALB = {
                 all_core = {
+                    add_core = YUG
                     remove_core = ALB
                 }
             }
             CRO = {
                 all_core = {
+                    add_core = YUG
                     remove_core = CRO
                 }
             }
             MON = {
                 all_core = {
+                    add_core = YUG
                     remove_core = MON
                 }
             }
             SLO = {
                 all_core = {
+                    add_core = YUG
                     remove_core = SLO
                 }
             }
             BLG = {
                 all_core = {
+                    add_core = YUG
+                    remove_core = BLG
+                }
+            }
+            BUL = {
+                all_core = {
+                    add_core = YUG
                     remove_core = BLG
                 }
             }
@@ -178,6 +199,7 @@ political_decisions = {
     }
 
     bulgaria_yug_6 = {
+        picture = map_moldavia
         potential = {
             tag = YUG
             primary_culture = bulgarian
@@ -235,7 +257,6 @@ political_decisions = {
                 }
                 annex_to = THIS
             }
-            prestige = 30
             WAL_665 = { add_core = THIS }
             MOL_673 = { add_core = THIS }
             TUR_674 = { add_core = THIS }
@@ -246,6 +267,7 @@ political_decisions = {
     }
 
     bulgaria_yug_7 = {
+        picture = create_romania
         potential = {
             tag = YUG
             primary_culture = bulgarian
@@ -262,7 +284,6 @@ political_decisions = {
             }
         }
         effect = {
-            prestige = 30
             add_accepted_culture = romanian
             WAL = {
                 all_core = {
@@ -278,6 +299,7 @@ political_decisions = {
     }
 
     bulgaria_yug_8 = {
+        picture = unite_with_greece
         potential = {
             tag = YUG
             primary_culture = bulgarian
@@ -291,7 +313,7 @@ political_decisions = {
             mass_politics = 1
         }
         effect = {
-            badboy = 30
+            badboy = 25
             TUR_805 = { add_core = THIS }
             TUR_819 = { add_core = THIS }
             GRE_826 = { add_core = THIS }
@@ -300,6 +322,7 @@ political_decisions = {
     }
 
     bulgaria_yug_9 = {
+        picture = unite_with_greece
         potential = {
             tag = YUG
             primary_culture = bulgarian
@@ -313,12 +336,12 @@ political_decisions = {
             owns = 834
         }
         effect = {
-            prestige = 20
             add_accepted_culture = antiqua_greek
         }
     }
 
     bulgaria_blacksea_1 = {
+        picture = map_moldavia
         potential = {
             tag = BLG
             NOT = { has_country_flag = bulgaria_balkan }
@@ -333,7 +356,6 @@ political_decisions = {
             }
         }
         effect = {
-            prestige = 10
             WAL = {
                 all_core = {
                     add_core = THIS
@@ -355,6 +377,7 @@ political_decisions = {
     }
 
     bulgaria_blacksea_2 = {
+        picture = claim_ruthenia
         potential = {
             tag = BLG
             has_country_flag = bulgaria_black_sea
@@ -370,7 +393,6 @@ political_decisions = {
             owns = 967
         }
         effect = {
-            prestige = 10
             RUS_965 = { add_core = THIS }
             LUH_976 = { add_core = THIS }
             RUS_980 = { add_core = THIS }            
@@ -379,6 +401,7 @@ political_decisions = {
     }
 
     bulgaria_blacksea_3 = {
+        picture = claim_ruthenia
         potential = {
             tag = BLG
             968 = { is_core = THIS }
@@ -404,7 +427,6 @@ political_decisions = {
             }
         }
         effect = {
-            prestige = 20
             ROS = {
                 all_core = {
                     add_core = THIS
@@ -415,6 +437,7 @@ political_decisions = {
     }
 
     bulgaria_blacksea_4 = {
+        picture = create_romania
         potential = {
             tag = BLG
             NOT = { accepted_culture = romanian }
@@ -428,12 +451,12 @@ political_decisions = {
             owns = 670
         }
         effect = {
-            prestige = 20
             add_accepted_culture = romanian
         }
     }
 
     bulgaria_blacksea_5 = {
+        picture = greater_ukraine
         potential = {
             tag = BLG
             has_country_flag = bulgaria_black_sea
@@ -448,12 +471,12 @@ political_decisions = {
             owns = 1048
         }
         effect = {
-            prestige = 20
             add_accepted_culture = ukrainian
         }
     }
 
     bulgaria_blacksea_6 = {
+        picture = dreams_of_empire
         potential = {
             tag = BLG
             has_country_flag = bulgaria_black_sea
@@ -471,6 +494,7 @@ political_decisions = {
     }
 
     bulgaria_blacksea_7 = {
+        picture = unite_caucasus
         potential = {
             tag = BSE
             NOT = { 
@@ -496,7 +520,6 @@ political_decisions = {
             }
         }
         effect = {
-            prestige = 5
             GRO = {
                 all_core = {
                     add_core = THIS
@@ -507,6 +530,7 @@ political_decisions = {
     }
 
     bulgaria_blacksea_8 = {
+        picture = treaty_signing
         potential = {
             tag = BSE
             NOT = { has_country_flag = bse_trade_deal }
@@ -537,7 +561,4 @@ political_decisions = {
             set_country_flag = bse_trade_deal
         }
     }
-
-
-
 }

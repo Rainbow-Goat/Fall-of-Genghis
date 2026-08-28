@@ -1,9 +1,16 @@
 political_decisions = {
     union_of_the_crowns = {
+        picture = create_iberia
         potential = {
             tag = CAS
             exists = ARO
             NOT = { has_country_flag = cas_new_world }
+            OR = {
+                NOT = { has_global_flag = multiplayer_mode }
+                ARO = {
+                    ai = yes
+                }
+            }
         }
         allow = {
             alliance_with = ARO
@@ -56,6 +63,7 @@ political_decisions = {
     }
 
     pivot_new_world = {
+        picture = dreams_of_empire
         potential = {
             tag = CAS
             NOT = { has_country_flag = cas_new_world }
@@ -77,6 +85,7 @@ political_decisions = {
     }
 
     crush_bolivarian_dudes = {
+        picture = colombia_map
         potential = {
             OR = {
                 tag = CAS
@@ -107,6 +116,7 @@ political_decisions = {
     }
 
     stabilize_colonies = {
+        picture = colombia_map
         potential = {
             OR = {
                 tag = CAS
@@ -133,6 +143,7 @@ political_decisions = {
     }
 
     integrate_colombia = {
+        picture = map_colombia
         potential = {
             OR = {
                 tag = CAS
@@ -160,6 +171,7 @@ political_decisions = {
     }
 
     abolish_slavery = {
+        picture = free_slaves
         potential = {
             OR = {
                 tag = CAS
@@ -179,6 +191,7 @@ political_decisions = {
     }
 
     integrate_black_spain = {
+        picture = acceptation_afro
         potential = {
             OR = {
                 tag = CAS
@@ -194,11 +207,11 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = afro_caribbean
-            prestige = 20
         }
     }
 
     integrate_caribeno = {
+        picture = map_caribbean
         potential = {
             OR = {
                 tag = CAS
@@ -215,11 +228,11 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = caribeno
-            prestige = 10
         }
     }
 
     dominate_carribean = {
+        picture = claim_the_caribbean
         potential = {
             OR = {
                 tag = CAS
@@ -250,6 +263,7 @@ political_decisions = {
     }
 
     subjugate_peru = {
+        picture = spanish_restoration
         potential = {
             OR = {
                 tag = CAS
@@ -273,6 +287,7 @@ political_decisions = {
     }
 
     integrate_peru = {
+        picture = spanish_restoration
         potential = {
             OR = {
                 tag = CAS
@@ -297,11 +312,11 @@ political_decisions = {
             }
             add_accepted_culture = quechua
             badboy = 2
-            prestige = 10
         }
     }
 
     expedition_to_central_america = {
+        picture = map_central_america
         potential = {
             OR = {
                 tag = CAS
@@ -345,6 +360,7 @@ political_decisions = {
     }
 
     cas_invade_mexico = {
+        picture = restore_mexican_empire
         potential = {
             OR = {
                 tag = CAS
@@ -370,6 +386,7 @@ political_decisions = {
     }
 
     cas_consume_mexico = {
+        picture = restore_mexican_empire
         potential = {
             OR = {
                 tag = CAS
@@ -398,6 +415,7 @@ political_decisions = {
     }
 
     cas_move_capital = {
+        picture = dreams_of_empire
         potential = {
             OR = {
                 tag = CAS

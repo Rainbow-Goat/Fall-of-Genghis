@@ -1,19 +1,20 @@
 political_decisions = {
 	###Englaland
 	accept_norse = {
+		picture = repeal_the_corn_laws
 		potential = {
 			tag = ENG
-			NOT = {accepted_culture = norse}
-			NOT = {has_country_flag = saxon_german_path}
+			NOT = { accepted_culture = norse }
+			NOT = { has_country_flag = saxon_german_path }
 		}
 		
 		allow = {
+			war = no
+			state_n_government = 1
 			AND = {
 				owns = 281
 				owns = 290
 			}
-			war = no
-			state_n_government = 1
 		}
 		effect = {
 			add_accepted_culture = norse
@@ -27,6 +28,7 @@ political_decisions = {
 	}
 	
 	reform_uk = {
+		picture = reform_the_uk
 		potential = {
 			OR = {
 				tag = ENG
@@ -36,6 +38,7 @@ political_decisions = {
 		}
 		allow = {
 			war = no
+			state_n_government = 1
 			GBR = {
 				all_core = {
 					OR = {
@@ -84,6 +87,11 @@ political_decisions = {
 							remove_core = SCO
 						}
 					}
+					IRE = {
+						all_core = {
+							remove_core = IRE
+						}
+					}
 				}
 			}
 			clr_country_flag = hidden_tooltip
@@ -91,18 +99,19 @@ political_decisions = {
 	}
 	
 	alternative_to_germany = {
+		picture = form_north_german_confederation
 		potential = {
 			tag = ENG
 			has_country_flag = englaland_rules_waves
-			NOT = {has_country_flag = alternative_to_germany}
+			NOT = { has_global_flag = meme_no }
 		}
 		allow = {
+			war = no
 			AND = {
 				owns = 528
 				owns = 549
 				owns = 546
 			}
-			war = no
 		}
 		effect = {
 			change_tag = GER
@@ -115,6 +124,7 @@ political_decisions = {
 	###Scotland
 
 	reunite_with_ireland = {
+		picture = ireland_map
 		potential = {
 			OR = {
 				tag = SCO
@@ -130,13 +140,13 @@ political_decisions = {
 		}
 		effect = {
 			IRE = { all_core = { add_core = THIS} }
-			prestige = 30
 			clr_country_flag = irish_struggles
 			clr_country_flag = irish_rebellion
 		}
 	}
 
 	scotland_invade_englaland = {
+		picture = war
 		potential = {
 			tag = SCO
 			has_country_flag = scottish_nationalist_pm

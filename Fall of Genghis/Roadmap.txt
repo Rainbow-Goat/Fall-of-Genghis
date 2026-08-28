@@ -10,7 +10,8 @@ Touch up:
     - Italy
     - Kievan Rus
     - Various subpar localisation things
-    - Add missing GFX (Russia done, Burgundy done, SGF done, ALP done, West Slavic Unifiers done, LIT done)
+    - Add missing decision GFX (Currently up to Germany is done)
+    - Add missing event GFX ()
 Meme content:
     - Serbia (DONE)
 

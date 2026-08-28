@@ -1,6 +1,6 @@
 political_decisions = {
-    
     the_kayseri_accords = {
+        picture = asia_minor
         potential = {
             tag = CAP
             NOT = { accepted_culture = anatolian }
@@ -15,11 +15,11 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = anatolian
-            prestige = 25
         }
     }
 
     mend_the_schizm = {
+        picture = bulgarian_orthodox_church
         potential = {
             OR = {
                 tag = CAP
@@ -35,11 +35,11 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = antiqua_greek
-            prestige = 30
         }
     }
 
     push_into_levant_cap = {
+        picture = map_levant
         potential = {
             tag = CAP
             NOT = {
@@ -60,6 +60,7 @@ political_decisions = {
     }
 
     protector_of_east_christians = {
+        picture = protect_eastern_christians
         potential = {
             tag = CAP
             NOT = { accepted_culture = armenian }
@@ -86,6 +87,7 @@ political_decisions = {
     }
 
     cap_invade_iraq = {
+        picture = map_iraq
         potential = {
             tag = CAP
             NOT = { 926 = { is_core = THIS } }

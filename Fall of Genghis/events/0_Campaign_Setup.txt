@@ -46,6 +46,9 @@ country_event = {
         name = "Multiplayer mode"
         set_global_flag = multiplayer_mode
         country_event = 120100
+        GHO = {
+            country_event = { id = 120200 days = -1 }
+        }
     }
 }
 

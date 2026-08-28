@@ -175,6 +175,7 @@ political_decisions = {
 	}
 
 	remove_pomerania = {
+		picture = map_brandenburg
 		potential = {
 			tag = GER
 			549 = { is_core = POM }

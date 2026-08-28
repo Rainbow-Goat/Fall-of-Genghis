@@ -2,7 +2,7 @@ political_decisions = {
 	form_iberia = {
 		potential = {
 			is_culture_group = iberian
-			NOT = {exists = SPA}
+			NOT = { exists = SPA }
 			OR = {
 				tag = NAV
 				tag = CAS
@@ -44,15 +44,16 @@ political_decisions = {
 		    set_country_flag = andalus_killed
 		}
 	}
-	annex_naples = {
+	spain_annex_naples = {
 		potential = {
 			tag = SPA
 			is_our_vassal = NPS
 		}
 		allow = {
+			war = no
+			nationalism_n_imperialism = 1
 			relation = { who = NPS value = 200 }
 			owns = 762
-			nationalism_n_imperialism = 1
 		}
 		effect = {
 			inherit = NPS
@@ -62,7 +63,38 @@ political_decisions = {
 				}
 			}
 			add_accepted_culture = south_italian
-			prestige = 20
 		}
 	}
+
+	spain_annex_nav = {
+        picture = navaree
+        potential = {
+            OR = {
+                tag = CAS
+                tag = ARO 
+                tag = ART
+                tag = SPA
+            }
+            exists = NAV
+            NAV = {
+                vassal_of = THIS
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            NAV = {
+                vassal_of = THIS
+            }
+        }
+        effect = {
+            inherit = NAV
+            NAV = {
+                all_core = {
+                    add_core = THIS
+                    remove_core = NAV
+                }
+            }
+        }
+    }
 }

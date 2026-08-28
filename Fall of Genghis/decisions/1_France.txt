@@ -1,5 +1,6 @@
 political_decisions = {
 	shaping_our_natural_borders = {
+		picture = MapFrance
 		potential = {
 			tag = FRA
 			NOT = {
@@ -28,6 +29,7 @@ political_decisions = {
 	}
 
 	the_throne_of_lorraine = {
+		picture = throne_of_lorraine
 		potential = {
 			tag = FRA
 			NOT = {
@@ -61,6 +63,7 @@ political_decisions = {
 	}
 
 	march_on_brussels = {
+		picture = picardy
 		potential = {
 			tag = FRA
 			NOT = {
@@ -93,6 +96,7 @@ political_decisions = {
 	}
 
 	claim_the_provencal_lands = {
+		picture = map_provence
 		potential = {
 			tag = FRA
 			NOT = { 
@@ -127,6 +131,7 @@ political_decisions = {
 	}
 
 	demand_provence_relinquishes_their_land = {
+		picture = map_provence
 		potential = {
 			tag = FRA
 			NOT = { 
@@ -161,6 +166,7 @@ political_decisions = {
 	}
 
 	protecting_the_southern_flank = {
+		picture = map_provence
 		potential = {
 			has_country_flag = french_borders_3
 			has_country_flag = french_south_1
@@ -211,6 +217,7 @@ political_decisions = {
 	}
 
 	occitan_accepted = {
+		picture = apanage
 		potential = {
 			tag = FRA
 			NOT = { accepted_culture = occitan}
@@ -230,6 +237,7 @@ political_decisions = {
 	}
 
 	norman_accepted = {
+		picture = apanage
 		potential = {
 			is_culture_group = french
 			OR = {

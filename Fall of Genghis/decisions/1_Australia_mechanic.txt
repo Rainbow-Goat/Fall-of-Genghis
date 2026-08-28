@@ -1,21 +1,6 @@
-political_decisions = {
-    australia_debug = {
-        potential = {
-            ai = no
-        }
-        allow = {
-            ai = no
-        }
-        effect = {
-            AST = {
-                all_core = {
-                    secede_province = THIS
-                }
-            }
-        }
-    }
-    
+political_decisions = {  
     venice_australia = {
+        picture = australia
         potential = {
             tag = VEN
             AST = {
@@ -53,6 +38,7 @@ political_decisions = {
     }
 
     castille_australia = {
+        picture = australia
         potential = {
             tag = CAS
             AST = {
@@ -90,6 +76,7 @@ political_decisions = {
     }
 
     andalus_australia = {
+        picture = australia
         potential = {
             tag = ALA
             AST = {
@@ -127,6 +114,7 @@ political_decisions = {
     }
 
     annex_australia = {
+        picture = australia
         potential = {
             OR = {
                 has_country_flag = ala_australia

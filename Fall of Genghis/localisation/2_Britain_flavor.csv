@@ -1,10 +1,10 @@
 key;ENGLISH;x
 accept_norse_title;Remedying the Wounds left by St Brice's Day;;x;
 accept_norse_desc;Ever since the St Brice's Day massacre the norse people inhabiting our lands have seen us as untrustworthy. While in the past we have not bothered dealing with the problem due to our uninvolvement in most European affairs, recent developments make a stable homefront a neccesity. Regretably nowadays you cannot commit a massacre in Europe without people getting mad, so we must instead finally sign a treaty with the norse people so that they will identify as Englishmen.;;x;
-reform_uk_title;Reform United Kingdoms;;x;
-reform_uk_desc;Europe seems unpleasant to deal with so instead we shall unite the isles!;;x;
+reform_uk_title;Reform Great Britain;;x;
+reform_uk_desc;Despite the union falling apart during the early 1700s, the idea of a united British Isles is one worth pursuing. The continental powers may bicker about their petty squabbles. While they are busy with that we will create the largest empire since the time of the Romans.;x;
 alternative_to_germany_title;Alternative to Germany;;x;
-alternative_to_germany_desc;While we could stay here on our island and not care about what goes on in Europe it is simply not possible to do so. The brutal savages in the Holy Slavic Empire are oppressing our German brothers and we cannot turn a blind eye any longer! The German states are too weak to form a independent german nation due to burgundian and bohemian domineering so we must do it for them! Deutschland den Deutschen, ausländer raus!;;x;
+alternative_to_germany_desc;While we could stay here on our island and not care about what goes on in Europe it is simply not possible to do so. The brutal savages in the Holy Slavic Empire are oppressing our German brothers and we cannot turn a blind eye any longer! The German states are too weak to form a independent German nation due to Burgundian and Bohemian domineering so we must do it for them! Deutschland den Deutschen, ausländer raus!;x;
 EVTNAME100020;Coup in Siam;;x;
 100020D;The King of Siam is dead! His heir, His Royal Highness John Siam, has been overthrown by the landed nobles and replaced by his brother. This has been disastrous for the Scottish East Asia Company as they have invested a lot of money in Siam, and the new government seems far less willing to cooperate with us. The legitimate Prince has started gathering troops in Johore to retake his throne, and we could use his legitimate claim to the throne to intervene and further our grip of the Indochina area. What should we do?;x;
 100020OPTA;We shall come to his Aid!;x;

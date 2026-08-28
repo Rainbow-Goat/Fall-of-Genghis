@@ -158,6 +158,7 @@ political_decisions = {
     }
 
     ltr_constitutional_convention = {
+        picture = brg_peace
         potential = {
             tag = LTR
             has_country_flag = liberal_win
@@ -174,6 +175,7 @@ political_decisions = {
     }
 
     wef_constitutional_convention = {
+        picture = brg_peace
         potential = {
             tag = WEF
             has_country_flag = liberal_win
@@ -190,6 +192,7 @@ political_decisions = {
     }
 
     eaf_constitutional_convention = {
+        picture = brg_peace
         potential = {
             tag = EAF
             has_country_flag = liberal_win
@@ -206,6 +209,7 @@ political_decisions = {
     }
 
     ltr_form_eu = {
+        picture = form_eu
         potential = {
             tag = LTR
             has_country_flag = liberal_win

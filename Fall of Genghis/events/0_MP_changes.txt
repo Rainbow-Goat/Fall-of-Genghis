@@ -1,0 +1,19 @@
+country_event = {
+    id = 120200
+    title = "MP MODE ACTIVATED"
+    desc = "120200D"
+    picture = campaign_mode
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "A More Balanced Campaign"
+        NPS = {
+            annex_to = ARO
+            all_core = {
+                add_core = ARO
+                remove_core = NPS
+            }
+        }
+    }
+}

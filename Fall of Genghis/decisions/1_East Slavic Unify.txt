@@ -80,6 +80,7 @@ political_decisions = {
     }
 
     abandon_the_cossacks = {
+        picture = form_russia
         potential = {
             OR = {
                 primary_culture = russian
@@ -181,6 +182,7 @@ political_decisions = {
     }
 
     a_unified_cossack_state = {
+        picture = greater_ukraine
         potential = {
             OR = {
                 primary_culture = ukrainian

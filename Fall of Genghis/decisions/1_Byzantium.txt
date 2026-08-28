@@ -1,4 +1,5 @@
 political_decisions = {
+    picture = restore_macedonia
     securing_macedonia = {
         potential = {
             tag = ERE
@@ -19,6 +20,7 @@ political_decisions = {
     }
 
     defensive_expansion = {
+        picture = greater_serbia
         potential = {
             tag = ERE
             810 = { is_core = THIS }
@@ -40,6 +42,7 @@ political_decisions = {
     }
 
     restoring_old_illyria = {
+        picture = croatia_map
         potential = {
             tag = ERE
             NOT = { 783 = { is_core = THIS } }
@@ -60,6 +63,7 @@ political_decisions = {
     }
 
     recruit_the_bulgarians = {
+        picture = greater_macedonia
         potential = {
             tag = ERE
             810 = { is_core = ERE }
@@ -73,11 +77,11 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = bulgarian
-            prestige = 15
         }
     }
 
     local_serbian_administrators = {
+        picture = greater_serbia
         potential = {
             tag = ERE
             NOT = { accepted_culture = serb }
@@ -93,11 +97,11 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = serb
-            prestige = 20
         }
     }
 
     securing_naples = {
+        picture = italian_islands
         potential = {
             tag = ERE
             NOT = { 754 = { is_core = THIS } }
@@ -108,7 +112,6 @@ political_decisions = {
             owns = 753
         }
         effect = {
-            prestige = 20
             SIC_754 = { add_core = THIS }
             SIC_753 = { add_core = THIS }
             add_accepted_culture = south_italian
@@ -116,6 +119,7 @@ political_decisions = {
     }
 
     hold_triumph = {
+        picture = triumph
         potential = {
             tag = ERE
             has_country_flag = byz_time_limit
@@ -131,11 +135,12 @@ political_decisions = {
         effect = {
             prestige = 50
             clr_country_flag = byz_time_limit
-            add_casus_belli = { target = PAP type = take_capital months = 18 }
+            casus_belli = { target = PAP type = take_capital months = 18 }
         }
     }
 
     crown_emperor = {
+        picture = roman_emperor
         potential = {
             tag = ERE
             has_country_flag = byz_no_empire
