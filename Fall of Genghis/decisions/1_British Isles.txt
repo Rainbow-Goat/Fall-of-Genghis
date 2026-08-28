@@ -28,7 +28,7 @@ political_decisions = {
 	}
 	
 	reform_uk = {
-		picture = reform_the_uk
+		picture = British_islands
 		potential = {
 			OR = {
 				tag = ENG
