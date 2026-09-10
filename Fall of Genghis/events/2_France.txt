@@ -209,6 +209,36 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 100105
+	title = "The Provencal Revolution"
+	desc = "100105D"
+	picture = Picture
+	
+	trigger = {
+		is_our_vassal = PRO
+		OR = {
+			tag = ORL
+			tag = FRA
+		}
+		OR = {
+			year = 1845
+			has_country_flag = duchy_killed
+			tag = FRA
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "We will attain greatness for the people of France without them!"
+		release_vassal = PRO
+		PRO = {
+			government = absolute_monarchy
+		}
+	}
+}
+
 # Random flavour
 
 country_event = {
