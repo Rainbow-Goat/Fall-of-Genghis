@@ -1,5 +1,6 @@
 political_decisions = {
     restore_venetian_greece = {
+        picture = map_greece
         potential = {
             primary_culture = venetian
             OR = {
@@ -24,6 +25,7 @@ political_decisions = {
     }
 
     unite_with_our_greek_brothers = {
+        picture = unite_with_greece
         potential = {
             primary_culture = venetian
             OR = {
@@ -53,6 +55,7 @@ political_decisions = {
     }
 
     push_into_lombardy = {
+        picture = map_lombardy
         potential = {
             tag = VEN
             exists = LOM
@@ -88,6 +91,7 @@ political_decisions = {
     }
 
     restore_the_italian_league = {
+        picture = italian_nationalism
         potential = {
             tag = VEN
             NOT = { has_country_flag = violent_ita_unify }
@@ -123,6 +127,7 @@ political_decisions = {
     }
 
     kick_out_provence = {
+        picture = plated_knights
         potential = {
             tag = VEN
             has_country_flag = italian_league
@@ -162,6 +167,7 @@ political_decisions = {
     }
 
     unify_the_league = {
+        picture = map_north_italy
         potential = {
             tag = VEN
             has_country_flag = italian_league
@@ -213,6 +219,7 @@ political_decisions = {
     }
 
     nil_unify_italy = {
+        picture = form_italy
         potential = {
             tag = NIL
         }

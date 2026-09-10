@@ -1,5 +1,6 @@
 political_decisions = {
 	form_iberia = {
+		picture = create_iberia
 		potential = {
 			is_culture_group = iberian
 			NOT = { exists = SPA }
@@ -26,6 +27,7 @@ political_decisions = {
 		}
 	}
 	kill_andalus = {
+		picture = reconquista
 		potential = {
 			tag = SPA
 			NOT = {has_country_flag = andalus_killed}
@@ -44,7 +46,9 @@ political_decisions = {
 		    set_country_flag = andalus_killed
 		}
 	}
+
 	spain_annex_naples = {
+		picture = italian_islands
 		potential = {
 			tag = SPA
 			is_our_vassal = NPS

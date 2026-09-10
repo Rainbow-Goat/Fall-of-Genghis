@@ -1,5 +1,6 @@
 political_decisions = {
     ruthenian_accepted = {
+        picture = greater_ukraine
         potential = {
             tag = KIE
             NOT = { accepted_culture = ruthenian }
@@ -18,6 +19,7 @@ political_decisions = {
     }
 
     ukrainian_accepted = {
+        picture = claim_ruthenia
         potential = {
             tag = KIE
             NOT = { accepted_culture = ukrainian }

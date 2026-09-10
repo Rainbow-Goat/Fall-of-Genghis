@@ -98,6 +98,7 @@ LTR     = "countries/Lotharingia.txt"
 NIL     = "countries/North Italian League.txt"
 EUR     = "countries/European Union.txt"
 HSU     = "countries/Holy Slavic Union.txt"
+BRI     = "countries/Britannia.txt"
 
 # Rebellion tags
 LRB     = "countries/LiberalRevolutionBurgundy.txt"

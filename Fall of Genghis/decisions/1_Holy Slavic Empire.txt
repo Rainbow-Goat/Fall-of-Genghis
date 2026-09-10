@@ -1,12 +1,12 @@
 political_decisions = {
     integrate_the_slaves = {
+        picture = elbe_river
         potential = {
             tag = HSE
             NOT = { accepted_culture = north_german }
             NOT = { has_global_flag = multiplayer_mode }
         }
         allow = {
-            early_railroad = 1
             slavery = no_slavery
             369 = { owned_by = THIS }
             546 = { owned_by = THIS }
@@ -27,6 +27,7 @@ political_decisions = {
     }
     
     crush_the_south = {
+        picture = southern_expedition
         potential = {
             tag = HSE
             NOT = { accepted_culture = south_german }
@@ -62,6 +63,7 @@ political_decisions = {
     }
 
     strangle_the_rhine = {
+        picture = rhenish_declaration
         potential = {
             tag = HSE
             NOT = { accepted_culture = rhenish }

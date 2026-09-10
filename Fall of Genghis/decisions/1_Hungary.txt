@@ -1,5 +1,6 @@
 political_decisions = {
     integrate_croatia = {
+        picture = reclaim_croatia
         potential = {
             tag = HUN
             NOT = { has_country_flag = bye_bye_croatia }
@@ -18,12 +19,12 @@ political_decisions = {
                     add_core = THIS
                 }
             }
-            prestige = 15
             set_country_flag = bye_bye_croatia
         }
     }
 
     sign_the_pacta_conventa = {
+        picture = reclaim_croatia
         potential = {
             tag = HUN
             has_country_flag = bye_bye_croatia
@@ -40,12 +41,12 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = croat
-            prestige = 10
             set_country_flag = pacta_conventa_signed
         }
     }
 
     supplex_libellus_valachorum = {
+        picture = map_moldavia
         potential = {
             tag = HUN
             NOT = { has_country_flag = supplex_accepted }
@@ -78,6 +79,7 @@ political_decisions = {
     }
 
     reforming_the_decree_of_turda = {
+        picture = create_romania
         potential = {
             tag = HUN
             has_country_flag = supplex_accepted
@@ -100,7 +102,6 @@ political_decisions = {
         effect = {
             set_country_flag = turda_reformed
             add_accepted_culture = romanian
-            prestige = 10
             any_pop = {
                 limit = {
                     is_culture = romanian
@@ -112,6 +113,7 @@ political_decisions = {
     }
 
     expanding_the_unio_trium_nationum_accord = {
+        picture = map_balkans
         potential = {
             tag = HUN
             AND = {
@@ -160,12 +162,12 @@ political_decisions = {
             SER = {
                 all_core = { add_core = HUN }
             }
-            prestige = 30
             set_country_flag = unio_fiveo_nationum
         }
     }
 
     adapt_policy_magyarization = {
+        picture = switch_to_autocracy
         potential = {
             tag = HUN
             government = fascist_dictatorship

@@ -1,5 +1,6 @@
 political_decisions = {
 	mongological_excavations = {
+		picture = genghis_statue
 		potential = {
 			is_greater_power = yes
 			civilized = yes
@@ -32,6 +33,7 @@ political_decisions = {
 	}
 
 	forced_mongological_excavations = {
+		picture = genghis_statue
 		potential = {			
 			OR = {
 				owns = 1418

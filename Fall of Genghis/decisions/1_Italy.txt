@@ -1,5 +1,6 @@
 political_decisions = {
 	italia_must_grow_larger = {
+		picture = venice
 		potential = {
 			tag = ITA
 			ITA = { all_core = { owned_by = ITA } }
@@ -20,12 +21,12 @@ political_decisions = {
 					add_core = ITA
 				}
 			}
-			prestige = 20
 			set_country_flag = italy_5_booms
 		}
 	}
 
 	integrate_venetians = {
+		picture = venice
 		potential = {
 			tag = ITA
 			has_country_flag = italy_5_booms
@@ -42,11 +43,11 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = venetian
-			prestige = 10
 		}
 	}
 
 	annex_croatia = {
+		picture = croatia_map
 		potential = {
 			tag = ITA
 			778 = { is_core = ITA }
@@ -69,11 +70,11 @@ political_decisions = {
 		effect = {
 			AUS_768 = { add_core = ITA }
 			AUS_771 = { add_core = ITA }
-			prestige = 20
 		}
 	}
 
 	croatian_administration = {
+		picture = reclaim_croatia
 		potential = {
 			tag = ITA
 			771 = { is_core = ITA }
@@ -87,11 +88,11 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = croat
-			prestige = 15
 		}
 	}
 
 	dominate_the_balkans = {
+		picture = cecil_balkans
 		potential = {
 			tag = ITA
 			has_country_flag = italy_5_booms
@@ -100,7 +101,7 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			expressionism = 1
+			nationalism_n_imperialism = 1
 			owns = 783
 			owns = 794 
 			owns = 2583
@@ -109,11 +110,11 @@ political_decisions = {
 			TUR_788 = { add_core = ITA }
 			SER_794 = { add_core = ITA }
 			MON_2582 = { add_core = ITA }
-			prestige = 20
 		}
 	}
 
 	strengthen_our_grip_on_the_balkans = {
+		picture = map_balkans
 		potential = {
 			tag = ITA
 			has_country_flag = italy_5_booms
@@ -122,18 +123,14 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			electricity = 1
+			revolution_n_counterrevolution = 1
 			owns = 849
-			owns = 802
 			owns = 806
 		}
 		effect = {
 			add_accepted_culture = serb
 			TUR_853 = { add_core = ITA }
-			TUR_803 = { add_core = ITA }
 			TUR_806 = { add_core = ITA }
-			TUR_809 = { add_core = ITA }
-			TUR_810 = { add_core = ITA }
 		}
 	}
 

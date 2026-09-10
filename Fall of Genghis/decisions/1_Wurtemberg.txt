@@ -1,5 +1,6 @@
 political_decisions = {
     unite_south_germany = {
+        picture = southern_expedition
         potential = {
             OR = {
                 tag = BAV
@@ -75,6 +76,13 @@ political_decisions = {
 					add_core = SGF
 				}
 			}
+            SGF = {
+                all_core = {
+                    remove_core = BAV
+                    remove_core = WUR
+                    remove_core = BAD
+                }
+            }
         }
     }
 
@@ -188,6 +196,12 @@ political_decisions = {
         }
         effect = {
             prestige = 50
+            THIS = {
+                all_core = {
+                    add_core = GER
+                    remove_core = THIS
+                }
+            }
             change_tag = GER
             HSE = {
                 all_core = {

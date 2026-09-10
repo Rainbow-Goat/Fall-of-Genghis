@@ -1,5 +1,6 @@
 political_decisions = {
     end_the_civil_war = {
+        picture = reform_kalmar
         potential = {
 	    primary_culture = scandinavian
             OR = {
@@ -30,6 +31,7 @@ political_decisions = {
     }
 
     our_return_to_the_isles = {
+        picture = dreams_of_empire
         potential = {
             tag = SCA
             has_country_flag = scandi_danelaw_path
@@ -52,6 +54,7 @@ political_decisions = {
     }
 
     expanding_the_danelaw = {
+        picture = British_islands
         potential = {
             tag = SCA
             has_country_flag = scandi_danelaw_path
@@ -81,6 +84,7 @@ political_decisions = {
     }
 
     integrating_the_norse = {
+        picture = form_scandinavia
         potential = {
             tag = SCA
             has_country_flag = scandi_danelaw_path
@@ -104,6 +108,7 @@ political_decisions = {
     }
 
     end_of_holsteinian_independence = {
+        picture = treaty_signing
         potential = {
             tag = SCA
             NOT = {
@@ -113,6 +118,7 @@ political_decisions = {
             }
         }
         allow = {
+            war = no
             is_our_vassal = HOL
             nationalism_n_imperialism = 1
         }
@@ -127,6 +133,7 @@ political_decisions = {
     }
 
     restore_the_kurland_march = {
+        picture = kurland
         potential = {
             tag = SCA
             has_country_flag = scandi_baltic_path
@@ -156,6 +163,7 @@ political_decisions = {
     }
 
     protecting_the_germans = {
+        picture = sgf_germany_1
         potential = {
             tag = SCA
             accepted_culture = estonian
@@ -170,7 +178,6 @@ political_decisions = {
         }
         allow = {
             war = no
-            nationalism_n_imperialism = 1
             OR = {
                 548 = { owned_by = SCA }
                 545 = { owned_by = SCA }
@@ -191,6 +198,7 @@ political_decisions = {
     }
 
     one_people_one_kingdom = {
+        picture = form_germany
         potential = {
             tag = SCA
             has_country_flag = scandi_baltic_path
@@ -212,6 +220,7 @@ political_decisions = {
     }
 
     claim_prussia = {
+        picture = reclaim_baltic_empire
         potential = {
             tag = SCA
             has_country_flag = scandi_baltic_path

@@ -1,5 +1,6 @@
 political_decisions = {
     ending_livonian_independence = {
+        picture = map_livonia
         potential = {
             tag = TEU
             NOT = { 354 = { is_core = THIS } }
@@ -15,6 +16,7 @@ political_decisions = {
     }
 
     uniting_our_two_halves = {
+        picture = livonian_land
         potential = {
             tag = TEU
             354 = { is_core = THIS }
@@ -30,6 +32,7 @@ political_decisions = {
     }
 
     remove_the_baltic_people = {
+        picture = manifest_destiny
         potential = {
             tag = TEU
             365 = { is_core = THIS }
@@ -62,6 +65,7 @@ political_decisions = {
     }
 
     look_to_the_future = {
+        picture = PrussianEagle
         potential = {
             tag = TEU
             354 = { is_core = THIS }
@@ -78,6 +82,7 @@ political_decisions = {
     }
 
     enact_further_genocide = {
+        picture = teuton_soldier
         potential = {
             tag = TEU
             has_country_flag = teuton_genocide_baltics
@@ -118,6 +123,7 @@ political_decisions = {
     }
 
     expanding_the_teuton_colonies = {
+        picture = teuton_army
         potential = {
             tag = TEU
             has_country_flag = genocide_big
@@ -152,6 +158,7 @@ political_decisions = {
     ### Prussia stuff
 
     securing_an_opening = {
+        picture = map_of_prussia
         potential = {
             tag = PRU
             NOT = { 546 = { is_core = THIS } }
@@ -172,6 +179,7 @@ political_decisions = {
     }
 
     spread_the_rebellion = {
+        picture = sgf_germany_1
         potential = {
             tag = PRU
             549 = { is_core = THIS }
@@ -194,6 +202,7 @@ political_decisions = {
     }
 
     reform_germany = {
+        picture = sgf_germany_2
         potential = {
             tag = PRU
         }

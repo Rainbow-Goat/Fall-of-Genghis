@@ -225,6 +225,7 @@ political_decisions = {
 				}
 			}
 			add_accepted_culture = pommeranian
+			add_accepted_culture = south_german
 			HSE = {
 				all_core = {
 					remove_core = HSE
@@ -235,7 +236,7 @@ political_decisions = {
 				limit = {
 					OR = {
 						primary_culture = pommeranian
-						primary_culture = rhenish
+						primary_culture = south_german
 						primary_culture = bohemian
 					}
 					OR = {

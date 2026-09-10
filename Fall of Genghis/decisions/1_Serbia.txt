@@ -1,5 +1,6 @@
 political_decisions = {
     serbia_1 = {
+        picture = reclaim_croatia
         potential = {
             tag = SER
             NOT = {
@@ -24,6 +25,7 @@ political_decisions = {
     }
 
     serbia_2 = {
+        picture = cecil_balkans
         potential = {
             tag = SER
             771 = { is_core = THIS }
@@ -45,6 +47,7 @@ political_decisions = {
     }
 
     serbia_3 = {
+        picture = greater_serbia
         potential = {
             tag = YUG
             primary_culture = serb

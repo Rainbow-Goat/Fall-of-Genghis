@@ -1,5 +1,6 @@
 political_decisions = {
     ruthenians_are_ukrainian_too = {
+        picture = greater_ukraine
         potential = {
             tag = UKR
             NOT = { accepted_culture = ruthenian }
@@ -25,11 +26,11 @@ political_decisions = {
                     add_core = UKR
                 }
             }
-            prestige = 20
         }
     }
 
     the_caucasus = {
+        picture = unite_caucasus
         potential = {
             tag = UKR
             NOT = { accepted_culture = north_caucasian }
@@ -46,9 +47,11 @@ political_decisions = {
     }
 
     realize_greater_cossackstan = {
+        picture = borat
         potential = {
             tag = UKR
             accepted_culture = ruthenian
+            NOT = { has_global_flag = meme_no }
         }
         allow = {
             war = no
@@ -115,13 +118,6 @@ political_decisions = {
             inherit = KHI
             inherit = SRT
             inherit = DOP
-        }
-
-        ai_will_do = {
-            modifier = {
-                factor = -50
-                has_global_flag = meme_no
-            }
         }
     }
 }

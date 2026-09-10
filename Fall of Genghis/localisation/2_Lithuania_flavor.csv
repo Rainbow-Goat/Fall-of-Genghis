@@ -2,14 +2,10 @@ key;ENGLISH;x
 restore_the_commonwealth_title;Restore the Commonwealth;x;
 restore_the_commonwealth_desc;PLC path (it sucks, do not do it);x;
 withdraw_from_east_title;Withdraw from the East;x;
-withdraw_from_east_desc;Do not click on this, it is pointless;x;
+withdraw_from_east_desc;While we have spent the last hundred or so years focused on keeping the Principalities and Host disorganized and broken, the dawn of a new age forces us to reconsider this approach. We need to withdraw from the East and focus on reforging the broken alliance with Poland. §RThis decision locks you out of your content in favor of being able to form the PLC. As that path currently has no content I do not recommend pressing this decision.§!;x;
 march_on_smolensk_title;March on Smolensk;x;
-march_on_smolensk_desc;Smolensk war, wow;x;
+march_on_smolensk_desc;The Principality of Smolensk has long acted as a buffer state between us and the other Russian principalities. It had served its purpose well but the time has come for us to seize control.;x;
 consume_the_remains_title;Consume the Remains;x;
-consume_the_remains_desc;Kill the rest of Smolensk;x;
+consume_the_remains_desc;With their capital occupied by us all that remains is to consume the rest of Smolensk.;x;
 concessions_to_ruthenians_title;Concessions to Ruthenians;x;
-concessions_to_ruthenians_desc;Ruthenian accepted;x;
-add_the_cossacks_to_our_ranks_title;Add the Cossacks to our Ranks;x;
-add_the_cossacks_to_our_ranks_desc;Ukrainian accepted;x;
-expanding_further_east_title;Expanding further East;x;
-expanding_further_east_desc;Cores in Ukraine;x;
+concessions_to_ruthenians_desc;The Ruthenians could form a vital backbone of our armed forces. With their strength added to our ranks our eastern flank will be easier to hold, and their strength would allow us to maybe even seek expansion in the West.;x;

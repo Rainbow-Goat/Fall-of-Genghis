@@ -10,7 +10,7 @@ Touch up:
     - Italy
     - Kievan Rus
     - Various subpar localisation things
-    - Add missing decision GFX (Currently up to Germany is done)
+    - Add missing decision GFX (Currently up to Ukraine is done)
     - Add missing event GFX ()
 Meme content:
     - Serbia (DONE)
