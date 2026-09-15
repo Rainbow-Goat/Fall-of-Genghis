@@ -3033,7 +3033,7 @@ conquest_low = {
 		OR = {
 			AND = {
 				civilized = yes
-				NOT = { number_of_states = 3 }
+				NOT = { number_of_states = 4 }
 			}
 			AND = {
 				civilized = no

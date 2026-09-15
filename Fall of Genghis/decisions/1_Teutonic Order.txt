@@ -106,10 +106,6 @@ political_decisions = {
                 assimilate = yes 
                 add_core = THIS
             }
-            RUS_707 = { 
-                assimilate = yes 
-                add_core = THIS
-            }
             RUS_718 = { 
                 assimilate = yes 
                 add_core = THIS

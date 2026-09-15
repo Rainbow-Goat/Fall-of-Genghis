@@ -7,11 +7,11 @@ Rework:
     - Lithuania 
 Touch up:
     - Russia (DONE)
-    - Italy
-    - Kievan Rus
-    - Various subpar localisation things
-    - Add missing decision GFX (Currently up to Ukraine is done)
-    - Add missing event GFX ()
+    - Italy (DONE)
+    - Kievan Rus (DONE)
+    - Various subpar localisation things (DONE)
+    - Add missing decision GFX (DONE)
+    - Add missing event GFX (WIP)
 Meme content:
     - Serbia (DONE)
 

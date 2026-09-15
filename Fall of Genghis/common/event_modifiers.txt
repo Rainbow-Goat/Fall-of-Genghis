@@ -625,12 +625,6 @@ local_stock_exchange = {
 	icon = 11
 }
 
-economic_boom = {
-	factory_throughput = 0.05
-	rgo_output = 0.05
-	icon = 11
-}
-
 #### ENG - ENGLAND #####
 corn_laws_repealed = {
 	max_tariff = -0.05

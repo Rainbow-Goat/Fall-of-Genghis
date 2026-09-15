@@ -18,8 +18,7 @@ political_decisions = {
         effect = {
             set_country_flag = eu4_reference
             GRE_826 = { add_core = THIS }
-            TUR_832 = { add_core = THIS }
-            GRE_837 = { add_core = THIS }
+            TUR_819 = { add_core = THIS }
             EGY_843 = { add_core = THIS }
         }
     }

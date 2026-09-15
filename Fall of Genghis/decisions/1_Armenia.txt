@@ -1,0 +1,106 @@
+political_decisions = {
+    the_grozny_protectorate = {
+        picture = grozny_flag
+        potential = {
+            tag = ARM
+            NOT = { 1055 = { is_core = THIS } }
+        }
+        allow = {
+            war = no 
+            GRO = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            GRO = {
+                all_core = {
+                    add_core = ARM
+                }
+            }
+        }
+    }
+
+    armenia_caucausus = {
+        picture = unite_caucasus
+        potential = {
+            tag = ARM
+            1055 = { is_core = THIS }
+            NOT = { accepted_culture = north_caucasian }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            owns = 1048
+            owns = 1095
+        }
+        effect = {
+            add_accepted_culture = north_caucasian
+            1095 = { add_core = ARM }
+            RUS_1048 = { add_core = ARM }
+        }
+    }
+
+    armenia_azerbaijan = {
+        picture = azerbaijan_coa
+        potential = {
+            tag = ARM
+            NOT = { accepted_culture = azerbaijani }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            owns = 1108
+            owns = 1102
+            owns = 1111
+        }
+        effect = {
+            1110 = { add_core = ARM }
+            1111 = { add_core = ARM }
+            add_accepted_culture = azerbaijani
+        }
+    }
+
+    armenia_georgia = {
+        picture = georgia_coa
+        potential = {
+            tag = ARM
+            NOT = { accepted_culture = georgian }
+        }
+        allow = {
+            war = no
+            state_n_government = 1 
+        }
+        effect = {
+            add_accepted_culture = georgian
+        }
+    }
+
+    armenia_big = {
+        picture = armenia_coa
+        potential = {
+            tag = ARM
+            NOT = { has_country_flag = armenia_big }
+            accepted_culture = georgian
+            accepted_culture = azerbaijani
+            accepted_culture = north_caucasian
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            owns = 892
+            owns = 893
+            owns = 879
+        }
+        effect = {
+            set_country_flag = armenia_big
+            884 = { add_core = ARM }
+            879 = { add_core = ARM }
+            892 = { add_core = ARM }
+            893 = { add_core = ARM }
+            889 = { add_core = ARM }
+            899 = { add_core = ARM }
+        }
+    }
+}
