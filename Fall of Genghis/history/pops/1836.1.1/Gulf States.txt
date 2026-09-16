@@ -3,31 +3,31 @@
 #Kuwait (12000/3000 POPS) #now part of Kuwait 
 935 = {
 	aristocrats = {
-		culture = mashriqi
+		culture = iraqi
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = iraqi
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = iraqi
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = mashriqi
+		culture = iraqi
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = iraqi
 		religion = sunni
 		size = 2725
 	}

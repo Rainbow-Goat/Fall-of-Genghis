@@ -22,15 +22,15 @@ Extensive content:
     - Sultanate of Rum
     - Persia    
 Moderate content:
-    - Armenia
+    - Armenia (DONE)
     - Afghanistan
     - Timurids
 Minor content:
     - Umayyad Caliphate
-    - Yemen
+    - Iraq
 Meme content:
     - Kurdistan
-    - Iraq
+    - Yemen
 
 V1.3 - The Great Plains
 - Extensive rework to the starting map of North America

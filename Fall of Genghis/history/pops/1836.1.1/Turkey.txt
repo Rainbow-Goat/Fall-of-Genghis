@@ -2397,19 +2397,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 145
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 400
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 6725
 	}
@@ -2717,19 +2717,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 45
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 200
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 2875
 	}
@@ -2797,37 +2797,37 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 400
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 2050
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 40750
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 145
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 800
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = catholic
 		size = 14525
 	}
@@ -2909,19 +2909,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 250
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 4800
 	}
@@ -2977,19 +2977,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 45
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 2875
 	}
@@ -3027,19 +3027,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 600
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 10650
 	}
@@ -3079,31 +3079,31 @@
 	}
 
 	aristocrats = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 450
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 275
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 1650
 	}
 
 	soldiers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 400
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 25525
 	}
@@ -3129,31 +3129,31 @@
 #Urfa (348000/87000 POPS)
 899 = {
 	aristocrats = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 450
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 275
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 1800
 	}
 
 	soldiers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 275
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 26500
 	}
@@ -3269,49 +3269,49 @@
 	}
 
 	aristocrats = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 400
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 1050
 	}
 
 	soldiers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 275
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 18975
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 145
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 850
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = syrian
 		religion = sunni
 		size = 16475
 	}
