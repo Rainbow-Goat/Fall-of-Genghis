@@ -1,6 +1,6 @@
 political_decisions = {
-    picture = greater_serbia
     bulgaria_yug_1 = {
+        picture = greater_serbia
         potential = {
             tag = BLG
             NOT = { 794 = { is_core = THIS } }

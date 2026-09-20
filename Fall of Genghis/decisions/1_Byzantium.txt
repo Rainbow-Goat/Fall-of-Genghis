@@ -155,7 +155,7 @@ political_decisions = {
             PAP_752 = { add_core = THIS }
             clr_country_flag = byz_no_empire
             government = absolute_monarchy
-            event = { id = 100911 days = 0}
+            country_event = { id = 100911 days = 0}
         }
     }
 }
