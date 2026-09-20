@@ -1,6 +1,8 @@
 capital = 1209
 primary_culture = pashtun
-religion = orthodox
+culture = baluchi
+culture = kazak
+religion = mahayana
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
@@ -20,8 +22,6 @@ upper_house = {
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
-foreign_training = yes_foreign_training
 
 oob = "AFG_oob.txt"
 

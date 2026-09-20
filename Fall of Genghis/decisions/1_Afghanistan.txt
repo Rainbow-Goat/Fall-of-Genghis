@@ -1,0 +1,87 @@
+political_decisions = {
+    afg_path = {
+        picture = map_baluchistan
+        potential = {
+            tag = AFG
+            NOT = { has_country_flag = afghanistan_path }
+        }
+        allow = {
+            war = no
+            owns = 1221
+            owns = 1222
+        }
+        effect = {
+            set_country_flag = afghanistan_path
+            KAL_1221 = { add_core = THIS }
+            country_event = { id = 100920 days = -1 }
+        }
+    }
+
+    afghanistan_muslim_1 = {
+        potential = {
+            tag = AFG
+            has_country_flag = afghanistan_muslim
+            NOT = { 1204 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            owns = 1207
+            owns = 1147
+            owns = 1204
+        }
+        effect = {
+            PER_1148 = { add_core = THIS}
+            RUS_1196 = { add_core = THIS}
+            KHI_1191 = { add_core = THIS}
+            1194 = { add_core = THIS}
+        }
+    }
+
+    afghanistan_muslim_2 = {
+        potential = {
+            tag = AFG
+            has_country_flag = afghanistan_muslim
+            1204 = { is_core = THIS }
+        }
+        allow = {
+            war = no
+            civilized = yes
+            AFG = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            change_tag = KHO
+            AFG = {
+                all_core = {
+                    add_core = KHO
+                    remove_core = AFG
+                }
+            }
+            KHI = {
+                all_core = {
+                    remove_core = KHI
+                }
+            }
+            BUK = {
+                all_core = {
+                    remove_core = BUK
+                }
+            }
+            KAL = {
+                all_core = {
+                    remove_core = KAL
+                }
+            }
+            MAK = {
+                all_core = {
+                    remove_core = MAK
+                }
+            }
+        }
+    }
+
+
+}
