@@ -1,6 +1,6 @@
 political_decisions = {
-    picture = restore_macedonia
     securing_macedonia = {
+        picture = restore_macedonia
         potential = {
             tag = ERE
             NOT = { 806 = { is_core = THIS } }

@@ -906,28 +906,18 @@ country_event = {
 	picture = Unite
 	
 	trigger = {
-		OR = {
-			BRG = {
-				OR = {
-					has_country_flag = burgundy_both
-					has_country_flag = burgundy_east
-				}
-			}
-			LTR = {
+		BRG = {
+			OR = {
 				has_country_flag = burgundy_both
+				has_country_flag = burgundy_east
 			}
 		}
 		BRG = {
 			NOT = { has_country_flag = rhineland_protectorate }
 		}
-		LTR = {
-			NOT = { has_country_flag = rhineland_protectorate }
-		}
 		OR = {
 			vassal_of = BRG
-			vassal_of = LTR
 			in_sphere = BRG
-			in_sphere = LTR
 		}
 		primary_culture = rhenish
 		ai = yes
