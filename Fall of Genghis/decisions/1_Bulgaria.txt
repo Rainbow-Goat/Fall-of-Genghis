@@ -122,7 +122,7 @@ political_decisions = {
             war = no
             state_n_government = 1
             owns = 771
-            vote_franschise = landed_voting
+            vote_franschise = wealth_weighted_voting
         }
         effect = {
             prestige = 10

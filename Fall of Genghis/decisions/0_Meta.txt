@@ -4,8 +4,7 @@ political_decisions = {
 			tag = GHO
 			NOT = { has_global_flag = day_one_grants }
 		}
-		allow = {
-		}
+		allow = {}
 		effect = {
 			any_country = {
 				limit = { is_greater_power = yes }
@@ -17,7 +16,7 @@ political_decisions = {
 			}
 			set_global_flag = day_one_grants
 		}
-		 ai_will_do = {
+		ai_will_do = {
             factor = 100
         }
 	}
@@ -26,13 +25,16 @@ political_decisions = {
 day1_state_sizing = { 
 		potential = { 
 			tag = GHO
-			NOT = { has_country_flag = states_sized_day1}
+			NOT = { has_global_flag = states_sized_day1 }
 		}	
-		allow = { } 
+		allow = {} 
 		effect = {
 			GHO = { country_event = 700700 }
-			set_country_flag = states_sized_day1
-		}	
+			set_global_flag = states_sized_day1
+		}
+		ai_will_do = {
+            factor = 100
+        }	
 }
 
 release_vassals = { 	#stolen from Victoria Universalis

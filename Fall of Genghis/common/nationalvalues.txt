@@ -17,6 +17,7 @@ nv_equality = {
 }
 
 nv_productivity = {
+	mobilisation_size = 0.01
 	RGO_output = 0.05
 	factory_input = -0.05
 	factory_output = 0.25
@@ -25,11 +26,13 @@ nv_productivity = {
 }
 
 nv_education = {
+	mobilisation_size = 0.01
 	education_efficiency_modifier = 0.4
 	culture_tech_research_bonus = 0.05
 }
 
 nv_diplomacy = {
+	mobilisation_size = 0.01
 	diplomatic_points_modifier = 2
 	influence_modifier = 0.75
 	import_cost = -0.1
