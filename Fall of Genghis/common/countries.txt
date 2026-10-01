@@ -101,6 +101,8 @@ HSU     = "countries/Holy Slavic Union.txt"
 BRI     = "countries/Britannia.txt"
 KHO     = "countries/Khorasan.txt"
 MAU     = "countries/Maurya Empire.txt"
+SEE     = "countries/Seleucid Empire.txt"
+MAC     = "countries/Macedonia.txt"
 
 
 # Rebellion tags

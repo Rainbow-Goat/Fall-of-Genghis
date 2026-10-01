@@ -12,6 +12,7 @@ political_decisions = {
         }
         effect = {
             set_country_flag = afghanistan_path
+            add_accepted_culture = baluchi
             KAL_1221 = { add_core = THIS }
             country_event = { id = 100920 days = -1 }
         }
@@ -54,7 +55,8 @@ political_decisions = {
         }
         effect = {
             change_tag = KHO
-            add_accepted_culture = baluchi
+            add_accepted_culture = kashmiri
+            add_accepted_culture = panjabi
             AFG = {
                 all_core = {
                     add_core = KHO
@@ -129,6 +131,136 @@ political_decisions = {
         effect = {
             set_country_flag = islamic_conversion
             badboy = 5
+        }
+    }
+
+    afghanistan_greek_1 = {
+        potential = {
+            tag = AFG
+            has_country_flag = afghanistan_greek
+            NOT = { has_country_flag = afghanistan_persia }
+        }
+        allow = {
+            war = no
+            owns = 1147
+            owns = 1144
+        }
+        effect = {
+            set_country_flag = afghanistan_persia
+            PER_1121 = { add_core = THIS }
+            PER_1127 = { add_core = THIS }
+            PER_1138 = { add_core = THIS }
+            PER_1122 = { add_core = THIS }
+            1111 = { add_core = THIS }
+        }
+    }
+
+    afghanistan_greek_2 = {
+        potential = {
+            tag = AFG
+            has_country_flag = afghanistan_persia
+        }
+        allow = {
+            war = no
+            owns = 1147
+            owns = 1144
+            owns = 1121
+            owns = 1127
+            owns = 1138
+            owns = 1122
+            owns = 1111
+        }
+        effect = {
+            change_tag = SEE
+            add_accepted_culture = persian
+            AFG = {
+                all_core = {
+                    add_core = SEE
+                    remove_core = AFG
+                }
+            }
+        }
+    }
+
+    afghanistan_greek_3 = {
+        potential = {
+            tag = SEE
+            NOT = { has_country_flag = seleucid_mesopotamia }
+        }
+        allow = {
+            war = no
+            owns = 923
+            owns = 926
+            owns = 932
+            owns = 902
+            owns = 900
+        }
+        effect = {
+            set_country_flag = seleucid_mesopotamia
+            TUR_923 = { add_core = THIS }
+            TUR_931 = { add_core = THIS }
+            TUR_935 = { add_core = THIS }
+            EGY_903 = { add_core = THIS }
+            EGY_897 = { add_core = THIS }
+            PER_1112 = { add_core = THIS }
+            TUR_889 = { add_core = THIS }
+        }
+    }
+
+    afghanistan_greek_4 = {
+        potential = {
+            tag = SEE
+            has_country_flag = seleucid_mesopotamia
+        }
+        allow = {
+            war = no
+            owns = 894
+            owns = 879
+            owns = 876
+            owns = 875
+            owns = 862
+            owns = 869
+            owns = 834
+            owns = 832
+            owns = 805
+            owns = 860
+            SEE = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            change_tag = MAC
+            TUR_894 = { add_core = THIS }
+            TUR_875 = { add_core = THIS }
+            TUR_869 = { add_core = THIS }
+            TUR_876 = { add_core = THIS }
+            TUR_863 = { add_core = THIS }
+            TUR_860 = { add_core = THIS }
+            TUR_805 = { add_core = THIS }
+            TUR_819 = { add_core = THIS }
+            GRE_826 = { add_core = THIS }
+            EGY_843 = { add_core = THIS }
+            TUR_884 = { add_core = THIS }
+            RUS_1098 = { add_core = THIS }
+            RUS_1102 = { add_core = THIS }
+            RUS_1090 = { add_core = THIS }
+            add_accepted_culture = novum_greek
+            add_accepted_culture = anatolian
+            add_accepted_culture = syrian
+            add_accepted_culture = iraqi
+            SEE = {
+                all_core = {
+                    add_core = MAC
+                    remove_core = SEE
+                }
+            }
+            capital = 805
+            805 = {
+                change_province_name = "Pella"
+                add_province_modifier = { name = baby_boom duration = -1 }
+            }
         }
     }
 
