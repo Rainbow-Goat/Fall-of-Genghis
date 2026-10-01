@@ -54,6 +54,7 @@ political_decisions = {
         }
         effect = {
             change_tag = KHO
+            add_accepted_culture = baluchi
             AFG = {
                 all_core = {
                     add_core = KHO
@@ -83,5 +84,139 @@ political_decisions = {
         }
     }
 
+    afghanistan_india_cores = {
+        potential = {
+            tag = KHO
+            has_country_flag = islamic_conversion
+            any_owned_province = {
+                AND = {
+                    is_core = MAU
+                    NOT = { is_core = KHO }
+                }
+            }
+        }
+        allow = {
+            war = no
+            any_owned_province = {
+                AND = {
+                    is_core = MAU
+                    is_state_religion = yes
+                    NOT = { is_core = KHO }
+                }
+            }
+        }
+        effect = {
+            any_owned = {
+                limit = {
+                    is_core = MAU
+                    is_state_religion = yes
+                    NOT = { is_core = KHO }
+                }
+                add_core = KHO
+            }
+        }
+    }
 
+    afghanistan_muslim_conversion_start = {
+        potential = {
+            tag = KHO
+            NOT = { has_country_flag = islamic_conversion }
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+        }
+        effect = {
+            set_country_flag = islamic_conversion
+            badboy = 5
+        }
+    }
+
+    afghanistan_debug_2 = {
+        potential = {
+            tag = AFG
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            inherit = PER
+            inherit = KHI
+            inherit = BUK
+            inherit = KOK
+            inherit = KAL
+            inherit = MAK
+            inherit = PAN
+            inherit = JAI
+            inherit = BER
+            civilized = yes
+        }
+    }
+
+    afghanistan_debug_1 = {
+        potential = {
+            tag = KHO
+            any_owned_province = {
+                is_core = MAU
+                is_state_religion = no
+            }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            any_owned = {
+                limit = {
+                    is_core = PAN
+                    is_state_religion = no
+                }
+                add_province_modifier = { name = islamic_preachers duration = 365 }
+                }
+            any_owned = {
+                limit = {
+                    is_core = BER
+                    is_state_religion = no
+                }
+                add_province_modifier = { name = religious_mission duration = 365 }
+            }
+            any_owned = {
+                limit = {
+                    is_core = JAI
+                    is_state_religion = no
+                }
+                add_province_modifier = { name = religious_zealots duration = 365 }
+            }
+            any_owned = {
+                limit = {
+                    is_core = MAU
+                }
+                
+            }
+        }
+    }
+
+    afghanistan_debug_3 = {
+        potential = { tag = KHO }
+        allow = {}
+        effect = {
+            any_owned = {
+                limit = {
+                    is_core = MAU
+                    NOT = { is_core = KHO }
+                }
+                any_pop = {
+                    limit = {
+                        is_state_religion = no
+                    }
+                    reduce_pop = 0.95
+                }
+                any_pop = {
+                    limit = {
+                        is_state_religion = yes
+                    }
+                    reduce_pop = 2
+                }
+            }
+        }
+    }
 }

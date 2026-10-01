@@ -100,6 +100,8 @@ EUR     = "countries/European Union.txt"
 HSU     = "countries/Holy Slavic Union.txt"
 BRI     = "countries/Britannia.txt"
 KHO     = "countries/Khorasan.txt"
+MAU     = "countries/Maurya Empire.txt"
+
 
 # Rebellion tags
 LRB     = "countries/LiberalRevolutionBurgundy.txt"

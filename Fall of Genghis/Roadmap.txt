@@ -1,19 +1,4 @@
-V1.1:
-New content:
-    - Bulgaria (DONE)
-    - Scotland (DONE)
-Rework:
-    - Burgundy (DONE)
-    - Lithuania 
-Touch up:
-    - Russia (DONE)
-    - Italy (DONE)
-    - Kievan Rus (DONE)
-    - Various subpar localisation things (DONE)
-    - Add missing decision GFX (DONE)
-    - Add missing event GFX (WIP)
-Meme content:
-    - Serbia (DONE)
+DEVELOPED IN THE ORDER LISTED
 
 V1.2 - Riches of the Orient
 Extensive content:
@@ -23,7 +8,7 @@ Extensive content:
     - Persia    
 Moderate content:
     - Armenia (DONE)
-    - Afghanistan
+    - Afghanistan (Half done)
     - Timurids
 Minor content:
     - Umayyad Caliphate
@@ -33,7 +18,7 @@ Meme content:
     - Yemen
 
 V1.3 - The Great Plains
-- Extensive rework to the starting map of North America
+- Rework to the starting map of North America
 - Extensive content
     - Quebec
     - Holy Order of New Castille
@@ -85,11 +70,11 @@ Moderate content:
 Minor content:
     - Burma
     - Dai Nam
-    - Australian system
     - Hawaii
 
 Updates that will be worked on when I have extra time or once I get the urge to:
 (These updates may be worked on or released inbetween or after the roadmapped updates)
+(They are also more oriented towards SP than MP)
 
 An Empire in Crisis
 - HSE major rework
@@ -122,3 +107,8 @@ The Heart of Darkness (Highest prio of the non roadmap updates)
 - Zulu content 
 - Etc 
 
+For King and Country
+- Kalmar Union major rework
+- Denmark rework
+- Sweden rework
+- Prussia rework
