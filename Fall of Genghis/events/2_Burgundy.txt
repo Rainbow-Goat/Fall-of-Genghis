@@ -941,8 +941,7 @@ country_event = {
 
 	option = {
 		name = "Send the proposal!"
-		BRG = { country_event = 101226 }
-		LTR = { country_event = 101226 }
+		sphere_owner = { country_event = 101226 }
 	}
 }
 

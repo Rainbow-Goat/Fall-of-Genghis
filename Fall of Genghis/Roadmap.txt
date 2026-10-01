@@ -1,19 +1,4 @@
-V1.1:
-New content:
-    - Bulgaria (DONE)
-    - Scotland (DONE)
-Rework:
-    - Burgundy (DONE)
-    - Lithuania 
-Touch up:
-    - Russia (DONE)
-    - Italy
-    - Kievan Rus
-    - Various subpar localisation things
-    - Add missing decision GFX (Currently up to Ukraine is done)
-    - Add missing event GFX ()
-Meme content:
-    - Serbia (DONE)
+BEING DEVELOPED IN THE ORDER LISTED
 
 V1.2 - Riches of the Orient
 Extensive content:
@@ -22,7 +7,7 @@ Extensive content:
     - Sultanate of Rum
     - Persia    
 Moderate content:
-    - Armenia
+    - Armenia (DONE)
     - Afghanistan
     - Timurids
 Minor content:
