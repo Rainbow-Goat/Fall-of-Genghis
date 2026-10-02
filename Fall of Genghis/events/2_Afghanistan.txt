@@ -2,9 +2,36 @@ country_event = {
     id = 100920
     title = "The Destiny of Afghanistan"
     desc = "100920D"
-    picture = Picture
+    picture = afghan_royal_court
     
     is_triggered_only = yes
+    
+    option = {
+        name = "We are Greeks, the heirs to Alexander the Great!"
+        set_country_flag = afghanistan_greek
+        PER_1141 = { add_core = THIS }
+        PER_1148 = { add_core = THIS }
+    }
+    
+    option = {
+        name = "We are muslims, the shield and sword of Islam!"
+        set_country_flag = afghanistan_muslim
+        religion = shiite
+        PAN_1224 = { add_core = THIS }
+        BUK_1207 = { add_core = THIS }
+    }
+}
+
+country_event = {
+    id = 100921
+    title = "Islamic Preachers"
+    desc = "100921D"
+    picture = afghan_royal_court
+    
+    trigger = {
+        has_country_flag = islamic_conversion
+        NOT = { has_country_modifier = islamic_conversion }
+    }
     
     option = {
         name = "We are Greeks, the heirs to Alexander the Great!"

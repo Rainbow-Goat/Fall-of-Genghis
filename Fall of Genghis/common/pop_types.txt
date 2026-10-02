@@ -674,6 +674,32 @@ assimilation_chance =
 conversion_chance = 
 {
 	factor = 1
+	modifier = {
+		factor = 20
+		has_country_flag = islamic_conversion
+	}
+
+	modifier = {
+		factor = 2
+		location = {
+			has_province_modifier = islamic_preachers
+		}
+	}
+
+	modifier = {
+		factor = 3
+		location = {
+			has_province_modifier = religious_mission
+		}
+	}
+
+	modifier = {
+		factor = 4
+		location = {
+			has_province_modifier = religious_zealots
+		}
+	}
+
 
 	group = {
 		modifier = {
