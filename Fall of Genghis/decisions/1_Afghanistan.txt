@@ -56,7 +56,6 @@ political_decisions = {
         effect = {
             change_tag = KHO
             add_accepted_culture = kashmiri
-            add_accepted_culture = panjabi
             AFG = {
                 all_core = {
                     add_core = KHO
@@ -86,39 +85,6 @@ political_decisions = {
         }
     }
 
-    afghanistan_india_cores = {
-        potential = {
-            tag = KHO
-            has_country_flag = islamic_conversion
-            any_owned_province = {
-                AND = {
-                    is_core = MAU
-                    NOT = { is_core = KHO }
-                }
-            }
-        }
-        allow = {
-            war = no
-            any_owned_province = {
-                AND = {
-                    is_core = MAU
-                    is_state_religion = yes
-                    NOT = { is_core = KHO }
-                }
-            }
-        }
-        effect = {
-            any_owned = {
-                limit = {
-                    is_core = MAU
-                    is_state_religion = yes
-                    NOT = { is_core = KHO }
-                }
-                add_core = KHO
-            }
-        }
-    }
-
     afghanistan_muslim_conversion_start = {
         potential = {
             tag = KHO
@@ -131,6 +97,236 @@ political_decisions = {
         effect = {
             set_country_flag = islamic_conversion
             badboy = 5
+        }
+    }
+
+    afghanistan_muslim_3 = {
+        potential = {
+            tag = KHO
+            NOT = { accepted_culture = panjabi }
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+            owns = 1224
+            owns = 1227
+        }
+        effect = {
+            add_accepted_culture = panjabi
+        }
+    }
+
+    afghanistan_muslim_4 = {
+        potential = {
+            tag = KHO
+            NOT = { accepted_culture = gujarati }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            owns = 1291
+            owns = 1293
+        }
+        effect = {
+            add_accepted_culture = gujarati
+        }
+    }
+
+    afghanistan_muslim_5 = {
+        potential = {
+            tag = KHO
+            NOT = { accepted_culture = rajput }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            owns = 1265
+            owns = 1266
+            owns = 1267
+            owns = 1268
+            owns = 1269
+        }
+        effect = {
+            add_accepted_culture = rajput
+        }
+    }
+
+    afghanistan_muslim_6 = {
+        potential = {
+            tag = KHO
+            NOT = { accepted_culture = avadhi }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            owns = 1236
+            owns = 1237
+            owns = 1238
+            owns = 1239
+        }
+        effect = {
+            add_accepted_culture = avadhi
+        }
+    }
+
+    afghanistan_jihad_1 = {
+        potential = {
+            tag = KHO
+            NOT = { has_country_flag = afghan_jihad_1 }
+            NOT = { has_country_flag = afghan_jihad_1_end }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+        }
+        effect = {
+            set_country_flag = afghan_jihad_1
+            badboy = 10
+        }
+    }
+
+    afghanistan_jihad_1_end = {
+        potential = {
+            tag = KHO
+            has_country_flag = afghan_jihad_1
+        }
+        allow = {
+            war = no
+            CHK = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = afghan_jihad_1
+            set_country_flag = afghan_jihad_1_end
+        }
+    }
+
+    afghanistan_jihad_2 = {
+        potential = {
+            tag = KHO
+            has_country_flag = afghan_jihad_1_end
+            NOT = {
+                OR = {
+                    has_country_flag = afghan_jihad_2_end
+                    has_country_flag = afghan_jihad_3
+                    has_country_flag = afghan_jihad_4
+                }
+            }
+            NOT = { has_country_flag = afghan_jihad_2 }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1 
+        }
+        effect = {
+            set_country_flag = afghan_jihad_2
+            badboy = 10
+        }
+    }
+
+    afghanistan_jihad_2_end = {
+        potential = {
+            tag = KHO
+            has_country_flag = afghan_jihad_2
+        }
+        allow = {
+            war = no
+            MYS = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = afghan_jihad_2
+            set_country_flag = afghan_jihad_2_end
+        }
+    }
+
+    afghanistan_jihad_3 = {
+        potential = {
+            tag = KHO
+            has_country_flag = afghan_jihad_1_end
+            NOT = {
+                OR = {
+                    has_country_flag = afghan_jihad_3_end
+                    has_country_flag = afghan_jihad_2
+                    has_country_flag = afghan_jihad_4
+                }
+            }
+            NOT = { has_country_flag = afghan_jihad_3 }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1 
+        }
+        effect = {
+            set_country_flag = afghan_jihad_3
+            badboy = 10
+        }
+    }
+
+    afghanistan_jihad_3_end = {
+        potential = {
+            tag = KHO
+            has_country_flag = afghan_jihad_3
+        }
+        allow = {
+            war = no
+            NAN = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = afghan_jihad_3
+            set_country_flag = afghan_jihad_3_end
+        }
+    }
+
+    afghanistan_jihad_4 = {
+        potential = {
+            tag = KHO
+            has_country_flag = afghan_jihad_1_end
+            NOT = {
+                OR = {
+                    has_country_flag = afghan_jihad_4_end
+                    has_country_flag = afghan_jihad_2
+                    has_country_flag = afghan_jihad_3
+                }
+            }
+            NOT = { has_country_flag = afghan_jihad_4 }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1 
+        }
+        effect = {
+            set_country_flag = afghan_jihad_4
+            badboy = 10
+        }
+    }
+
+    afghanistan_jihad_4_end = {
+        potential = {
+            tag = KHO
+            has_country_flag = afghan_jihad_4
+        }
+        allow = {
+            war = no
+            BEN = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            clr_country_flag = afghan_jihad_4
+            set_country_flag = afghan_jihad_4_end
         }
     }
 
@@ -282,48 +478,6 @@ political_decisions = {
             inherit = JAI
             inherit = BER
             civilized = yes
-        }
-    }
-
-    afghanistan_debug_1 = {
-        potential = {
-            tag = KHO
-            any_owned_province = {
-                is_core = MAU
-                is_state_religion = no
-            }
-        }
-        allow = {
-            always = yes
-        }
-        effect = {
-            any_owned = {
-                limit = {
-                    is_core = PAN
-                    is_state_religion = no
-                }
-                add_province_modifier = { name = islamic_preachers duration = 365 }
-                }
-            any_owned = {
-                limit = {
-                    is_core = BER
-                    is_state_religion = no
-                }
-                add_province_modifier = { name = religious_mission duration = 365 }
-            }
-            any_owned = {
-                limit = {
-                    is_core = JAI
-                    is_state_religion = no
-                }
-                add_province_modifier = { name = religious_zealots duration = 365 }
-            }
-            any_owned = {
-                limit = {
-                    is_core = MAU
-                }
-                
-            }
         }
     }
 

@@ -1024,9 +1024,3 @@ van_wassenaer_pm = {
 }
 
 pm_switch = {}
-
-islamic_preachers = {}
-
-religious_mission = {}
-
-religious_zealots = {}

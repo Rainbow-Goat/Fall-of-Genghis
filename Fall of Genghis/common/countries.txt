@@ -103,6 +103,9 @@ KHO     = "countries/Khorasan.txt"
 MAU     = "countries/Maurya Empire.txt"
 SEE     = "countries/Seleucid Empire.txt"
 MAC     = "countries/Macedonia.txt"
+CHK     = "countries/Chalukya.txt"
+NAN     = "countries/Nanda Empire.txt"
+
 
 
 # Rebellion tags

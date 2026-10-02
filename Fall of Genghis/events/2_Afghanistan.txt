@@ -17,6 +17,7 @@ country_event = {
         name = "We are muslims, the shield and sword of Islam!"
         set_country_flag = afghanistan_muslim
         religion = shiite
+        primary_culture = pashtun
         PAN_1224 = { add_core = THIS }
         BUK_1207 = { add_core = THIS }
     }
@@ -24,27 +25,41 @@ country_event = {
 
 country_event = {
     id = 100921
-    title = "Islamic Preachers"
+    title = "A succesfull Jihad"
     desc = "100921D"
-    picture = afghan_royal_court
-    
-    trigger = {
-        has_country_flag = islamic_conversion
-        NOT = { has_country_modifier = islamic_conversion }
-    }
-    
+    picture = picture
+
+    is_triggered_only = yes
+
     option = {
-        name = "We are Greeks, the heirs to Alexander the Great!"
-        set_country_flag = afghanistan_greek
-        PER_1141 = { add_core = THIS }
-        PER_1148 = { add_core = THIS }
-    }
-    
-    option = {
-        name = "We are muslims, the shield and sword of Islam!"
-        set_country_flag = afghanistan_muslim
-        religion = shiite
-        PAN_1224 = { add_core = THIS }
-        BUK_1207 = { add_core = THIS }
+        name = "Damn those Muslims!"
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_1 }
+                is_core = CHK
+            }
+            secede_province = KHO
+        }
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_2 }
+                is_core = MYS
+            }
+            secede_province = KHO
+        }
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_3 }
+                is_core = NAN
+            }
+            secede_province = KHO
+        }
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_4 }
+                is_core = BEN
+            }
+            secede_province = KHO
+        }
     }
 }

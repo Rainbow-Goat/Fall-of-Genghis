@@ -114,7 +114,20 @@ conquest_low_short;Annex $RECIPIENT$;x;
 conquest_tiny;Tiny Conquest;x;
 conquest_tiny_desc;Annex a §Ycountry§W of small size and population by conquest;x;
 conquest_tiny_setup;Annex minor nation of $RECIPIENT$;x;
-conquest_tiny_short;Annex $RECIPIENT$;x;negotiated_transfer;Negotiated Transfer;;;;;;;x
+conquest_tiny_short;Annex $RECIPIENT$;x;
+treaty_of_winchester;Treaty of Winchester;x;
+treaty_of_winchester_desc;A negotiated deal where they return Wales to us and leave our island, hopefully for good.;x;
+treaty_of_winchester_setup;Retrieve Wales;x;
+treaty_of_winchester_short;Restore order to Wales;x;
+conquer_england;Conquer Englaland;x;
+conquer_england_desc;Seize our crown that we have been denied for nearly a thousand years;x;
+conquer_england_setup;Restore our claim to the Throne;x;
+conquer_england_short;Conquer Englaland;x;
+afghan_jihad;Jihad against India;x;
+afghan_jihad_desc;Use religious justification to seize land from the heathens;x;
+afghan_jihad_setup;Seize heathen land from $RECIPIENT$;x;
+afghan_jihad_short;Seize certain land;x;
+negotiated_transfer;Negotiated Transfer;;;;;;;x
 negotiated_transfer_cb;Negotiated Transfer §R(!)§!;;;;;;;x
 negotiated_transfer_cb_desc;§YCAN BE USED FOR YOURSELF OR A HUMAN ALLY.§! Take a state or colonial region from another player with no effect on infamy, prestige, or jingoism, with their consent;;;;;;;x
 negotiated_transfer_cb_short;Take $STATE$ from $RECIPIENT$ for $THIRD$;;;;;;;x
