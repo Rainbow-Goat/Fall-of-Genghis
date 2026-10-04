@@ -19,6 +19,7 @@ political_decisions = {
     }
 
     afghanistan_muslim_1 = {
+        picture = afg_leader
         potential = {
             tag = AFG
             has_country_flag = afghanistan_muslim
@@ -39,6 +40,7 @@ political_decisions = {
     }
 
     afghanistan_muslim_2 = {
+        picture = khorasan_flag
         potential = {
             tag = AFG
             has_country_flag = afghanistan_muslim
@@ -85,6 +87,7 @@ political_decisions = {
     }
 
     afghanistan_muslim_conversion_start = {
+        picture = islamic_conversion
         potential = {
             tag = KHO
             NOT = { has_country_flag = islamic_conversion }
@@ -100,6 +103,7 @@ political_decisions = {
     }
 
     afghanistan_muslim_3 = {
+        picture = panjab_flag
         potential = {
             tag = KHO
             NOT = { accepted_culture = panjabi }
@@ -116,6 +120,7 @@ political_decisions = {
     }
 
     afghanistan_muslim_4 = {
+        picture = beroda_flag
         potential = {
             tag = KHO
             NOT = { accepted_culture = gujarati }
@@ -132,6 +137,7 @@ political_decisions = {
     }
 
     afghanistan_muslim_5 = {
+        picture = rajput_flag
         potential = {
             tag = KHO
             NOT = { accepted_culture = rajput }
@@ -151,6 +157,7 @@ political_decisions = {
     }
 
     afghanistan_muslim_6 = {
+        picture = awadh_flag
         potential = {
             tag = KHO
             NOT = { accepted_culture = avadhi }
@@ -169,6 +176,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_1 = {
+        picture = jihad_chk
         potential = {
             tag = KHO
             NOT = { has_country_flag = afghan_jihad_1 }
@@ -185,6 +193,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_1_end = {
+        picture = jihad_chk
         potential = {
             tag = KHO
             has_country_flag = afghan_jihad_1
@@ -204,6 +213,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_2 = {
+        picture = jihad_mys
         potential = {
             tag = KHO
             has_country_flag = afghan_jihad_1_end
@@ -227,6 +237,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_2_end = {
+        picture = jihad_mys
         potential = {
             tag = KHO
             has_country_flag = afghan_jihad_2
@@ -246,6 +257,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_3 = {
+        picture = jihad_nan
         potential = {
             tag = KHO
             has_country_flag = afghan_jihad_1_end
@@ -269,6 +281,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_3_end = {
+        picture = jihad_nan
         potential = {
             tag = KHO
             has_country_flag = afghan_jihad_3
@@ -288,6 +301,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_4 = {
+        picture = jihad_ben
         potential = {
             tag = KHO
             has_country_flag = afghan_jihad_1_end
@@ -311,6 +325,7 @@ political_decisions = {
     }
 
     afghanistan_jihad_4_end = {
+        picture = jihad_ben
         potential = {
             tag = KHO
             has_country_flag = afghan_jihad_4
@@ -330,6 +345,7 @@ political_decisions = {
     }
 
     afghanistan_greek_1 = {
+        picture = phalanx
         potential = {
             tag = AFG
             has_country_flag = afghanistan_greek
@@ -351,6 +367,7 @@ political_decisions = {
     }
 
     afghanistan_greek_2 = {
+        picture = greek_soldat
         potential = {
             tag = AFG
             has_country_flag = afghanistan_persia
@@ -383,6 +400,7 @@ political_decisions = {
     }
 
     afghanistan_greek_3 = {
+        picture = greek_rush
         potential = {
             tag = SEE
             NOT = { has_country_flag = seleucid_mesopotamia }
@@ -408,6 +426,7 @@ political_decisions = {
     }
 
     afghanistan_greek_4 = {
+        picture = alexander_mog
         potential = {
             tag = SEE
             has_country_flag = seleucid_mesopotamia
@@ -460,52 +479,6 @@ political_decisions = {
             805 = {
                 change_province_name = "Pella"
                 add_province_modifier = { name = baby_boom duration = -1 }
-            }
-        }
-    }
-
-    afghanistan_debug_2 = {
-        potential = {
-            tag = AFG
-        }
-        allow = {
-            always = yes
-        }
-        effect = {
-            inherit = PER
-            inherit = KHI
-            inherit = BUK
-            inherit = KOK
-            inherit = KAL
-            inherit = MAK
-            inherit = PAN
-            inherit = JAI
-            inherit = BER
-            civilized = yes
-        }
-    }
-
-    afghanistan_debug_3 = {
-        potential = { tag = KHO }
-        allow = {}
-        effect = {
-            any_owned = {
-                limit = {
-                    is_core = MAU
-                    NOT = { is_core = KHO }
-                }
-                any_pop = {
-                    limit = {
-                        is_state_religion = no
-                    }
-                    reduce_pop = 0.95
-                }
-                any_pop = {
-                    limit = {
-                        is_state_religion = yes
-                    }
-                    reduce_pop = 2
-                }
             }
         }
     }

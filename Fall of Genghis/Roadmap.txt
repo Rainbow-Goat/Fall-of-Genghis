@@ -8,7 +8,7 @@ Extensive content:
     - Persia    
 Moderate content:
     - Armenia (DONE)
-    - Afghanistan (Content done, needs loc and images)
+    - Afghanistan (DONE)
 Minor content:
     - Umayyad Caliphate
     - Iraq
