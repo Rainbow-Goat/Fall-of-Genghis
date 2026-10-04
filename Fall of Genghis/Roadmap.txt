@@ -2,19 +2,16 @@ DEVELOPED IN THE ORDER LISTED
 
 V1.2 - Riches of the Orient
 Extensive content:
-    - Rashidun Caliphate
-    - Egypt
-    - Sultanate of Rum
-    - Persia    
+    - Rashidun Caliphate (Concept stage)
+    - Egypt (Concept stage)
+    - Sultanate of Rum (Concept stage)
+    - Persia (Started, need to balance the sides.)
 Moderate content:
     - Armenia (DONE)
     - Afghanistan (DONE)
 Minor content:
-    - Umayyad Caliphate
-    - Iraq
-Meme content:
-    - Kurdish Free State
-    - Yemen
+    - Umayyad Caliphate (Concept stage)
+    - Iraq (Started)
 
 V1.3 - The Great Plains
 - Rework to the starting map of North America
