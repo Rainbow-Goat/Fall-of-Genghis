@@ -1,18 +1,18 @@
 name = "The Babylonian Independence War"
 
 1835.2.11 = {
-        add_attacker = PER
+        add_attacker = QAJ
         add_defender = IRQ
 
         war_goal = { 
             casus_belli = civil_war
-            actor = PER
+            actor = QAJ
             receiver = IRQ
         }
 
         war_goal = { 
             casus_belli = become_independent
             actor = IRQ
-            receiver = PER
+            receiver = QAJ
         }
 }

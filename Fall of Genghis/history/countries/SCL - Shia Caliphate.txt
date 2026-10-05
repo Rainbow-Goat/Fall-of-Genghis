@@ -1,17 +1,15 @@
 capital = 1121
 primary_culture = persian
-culture = azerbaijani
-culture = baluchi
 religion = shiite
 set_country_flag = religion_shiite
-government = absolute_monarchy
+government = theocracy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.07
 civilized = yes 
 is_releasable_vassal = no
 
-ruling_party = ARA_conservative
+ruling_party = SCL_conservative
 upper_house = {
 	fascist = 0
 	liberal = 12

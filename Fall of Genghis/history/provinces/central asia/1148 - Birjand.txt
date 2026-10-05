@@ -1,5 +1,6 @@
-owner = PER
-controller = KHI
+owner = ILK
+controller = ILK
+add_core = ILK
 add_core = PER
 trade_goods = cotton
 life_rating = 35 

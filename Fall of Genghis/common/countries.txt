@@ -21,7 +21,7 @@ LYO		= "countries/Lyon.txt"
 PRO		= "countries/Provence.txt"
 ORL		= "countries/Orleans.txt"
 SCO		= "countries/Scotland.txt"
-ENG 		= "countries/Englaland.txt"
+ENG 	= "countries/Englaland.txt"
 IRE		= "countries/Ireland.txt"
 ARO		= "countries/Aragon.txt"
 ALA		= "countries/Al-Andalus.txt"
@@ -68,6 +68,9 @@ BOR     = "countries/Bourgogne.txt"
 NPS     = "countries/Naples.txt"
 CAP     = "countries/Cappadocia.txt"
 ERE     = "countries/Byzantium.txt"
+QAJ     = "countries/Qajar.txt"
+ILK     = "countries/Ilkhanate.txt"
+
 
 #Meta Stuff
 GHO     = "countries/Ghost Country.txt"

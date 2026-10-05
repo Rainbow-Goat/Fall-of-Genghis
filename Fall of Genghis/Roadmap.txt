@@ -6,6 +6,9 @@ Extensive content:
     - Egypt (Concept stage)
     - Sultanate of Rum (Concept stage)
     - Persia (Started, need to balance the sides.)
+        - Shia
+        - Ilkhanate (Not being added this update, just here for future reference)
+        - Qajar
 Moderate content:
     - Armenia (DONE)
     - Afghanistan (DONE)
@@ -28,22 +31,19 @@ Minor content:
 
 V1.4 - The Spice Trade
 Extensive content:
-    - Panjab
     - Indian colonial system
 Moderate content:
     - Bengal
     - Hyderabad
     - Orissa
+    - Panjab
 
 V1.5 - The Century of Humiliation
 Extensive content:
     - Japan
     - China system
 Moderate content:
-    - Yuan Dynasty
-    - Ming Dynasty
-    - Heavenly Kingdom
-    - Yellow Turban Rebellion
+    - Total Chinese rework
     - Mongolian touch up   
 Minor content:
     - Korea

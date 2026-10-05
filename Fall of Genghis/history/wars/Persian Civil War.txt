@@ -2,17 +2,17 @@ name = "The Persian Civil War"
 
 1835.2.11 = {
         add_attacker = SCL
-        add_defender = PER
+        add_defender = QAJ
 
         war_goal = { 
             casus_belli = civil_war
             actor = SCL
-            receiver = PER
+            receiver = QAJ
         }
 
         war_goal = { 
             casus_belli = civil_war
-            actor = PER
+            actor = QAJ
             receiver = SCL
         }
 }

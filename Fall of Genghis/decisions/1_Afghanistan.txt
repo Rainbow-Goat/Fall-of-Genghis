@@ -18,29 +18,8 @@ political_decisions = {
         }
     }
 
-    afghanistan_muslim_1 = {
-        picture = afg_leader
-        potential = {
-            tag = AFG
-            has_country_flag = afghanistan_muslim
-            NOT = { 1204 = { is_core = THIS } }
-        }
-        allow = {
-            war = no
-            owns = 1207
-            owns = 1147
-            owns = 1204
-        }
-        effect = {
-            PER_1148 = { add_core = THIS}
-            RUS_1196 = { add_core = THIS}
-            KHI_1191 = { add_core = THIS}
-            1194 = { add_core = THIS}
-        }
-    }
-
     afghanistan_muslim_2 = {
-        picture = khorasan_flag
+        picture = afg_leader
         potential = {
             tag = AFG
             has_country_flag = afghanistan_muslim
@@ -61,16 +40,6 @@ political_decisions = {
                 all_core = {
                     add_core = KHO
                     remove_core = AFG
-                }
-            }
-            KHI = {
-                all_core = {
-                    remove_core = KHI
-                }
-            }
-            BUK = {
-                all_core = {
-                    remove_core = BUK
                 }
             }
             KAL = {
@@ -389,11 +358,6 @@ political_decisions = {
                 all_core = {
                     add_core = SEE
                     remove_core = AFG
-                }
-            }
-            PER = {
-                all_core = {
-                    remove_core = PER
                 }
             }
         }

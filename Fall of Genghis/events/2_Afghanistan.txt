@@ -19,7 +19,8 @@ country_event = {
         religion = shiite
         primary_culture = pashtun
         PAN_1224 = { add_core = THIS }
-        BUK_1207 = { add_core = THIS }
+        PER_1148 = { add_core = THIS}
+        RUS_1196 = { add_core = THIS}
     }
 }
 
