@@ -3,9 +3,19 @@ country_event = {
     title = "100601NAME"
     desc = "100601DESC"
     picture = Picture
-    
     is_triggered_only = yes
     
+    option = {
+        name = "Neat!"
+    }
+}
+
+country_event = {
+    id = 100602
+    title = "History of Persia"
+    desc = "100602D"
+    is_triggered_only = yes
+
     option = {
         name = "Neat!"
     }

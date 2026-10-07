@@ -68,6 +68,14 @@ Minor content:
     - Dai Nam
     - Hawaii
 
+V1.8 - The Heart of Darkness
+- Total Africa Overhaul
+- Cape Colony content
+- East Africa content
+- West Africa content
+- Zulu content 
+- Etc 
+
 Updates that will be worked on when I have extra time or once I get the urge to:
 (These updates may be worked on or released inbetween or after the roadmapped updates)
 (They are also more oriented towards SP than MP)
@@ -94,14 +102,6 @@ The 1000 Year War
 - Angevin Empire rework
 - Great Britain rework
 - Scotland rework
-
-The Heart of Darkness (Highest prio of the non roadmap updates)
-- Total Africa Overhaul
-- Cape Colony content
-- East Africa content
-- West Africa content
-- Zulu content 
-- Etc 
 
 For King and Country
 - Kalmar Union major rework

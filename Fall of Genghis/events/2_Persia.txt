@@ -1,0 +1,30 @@
+country_event = {
+    id = 100930
+    title = "The Persian Civil War Ends"
+    desc = "100930D"
+    major = yes
+    
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = "§RThe Empire stands tall!§!"
+        set_global_flag = qaj_win_persia
+    }
+}
+
+country_event = {
+    id = 100931
+    title = "The Persian Civil War Ends"
+    desc = "100931D"
+    major = yes
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "§RThe Pretenders have been struck down, by the grace of Allah we are victorious!§!"
+        set_global_flag = scl_win_persia
+    }
+}

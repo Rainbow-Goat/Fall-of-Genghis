@@ -1,0 +1,120 @@
+political_decisions = {
+    qajar_win_cw = {
+        picture = picture
+        potential = {
+            tag = QAJ
+            NOT = { has_global_flag = qaj_win_persia }
+        }
+        allow = {
+            NOT = {
+                exists = SCL
+            }
+        }
+        effect = {
+            SCL = { 
+                all_core = {
+                    add_core = QAJ
+                    remove_core = SCL
+                }
+            }
+            war_exhaustion = -5
+            country_event = { id = 100930 days = -1 }
+        }
+    }
+
+    qaj_core_iraq = {
+        picture = picture
+        potential = {
+            tag = QAJ
+            NOT = { 926 = { is_core = THIS } }
+        }
+        allow = {
+            war = no
+            IRQ = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            IRQ = {
+                all_core = {
+                    add_core = QAJ
+                }
+            }
+        }
+    }
+
+    qaj_form_persia = {
+        picture = picture
+        potential = {
+            tag = QAJ
+            has_global_flag = qaj_win_persia
+        }
+        allow = {
+            war = no
+            PER = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            change_tag = PER
+            government = absolute_monarchy
+            QAJ = {
+                all_core = {
+                    remove_core = QAJ
+                }
+            }
+            prestige = 20
+        }
+    }
+
+    persia_azeri_1 = {
+        picture = picture
+        potential = {
+            tag = PER
+            NOT = { has_country_flag = persia_azeri }
+        }
+        allow = {
+            war = no
+            owns = 1111
+            OR = {
+                admin_reform = yes_admin_reform
+                civilized = yes
+            }
+        }
+        effect = {
+            release_vassal = AZB
+            set_country_flag = persia_azeri
+        }
+    }
+
+    persia_azeri_2 = {
+        picture = picture
+        potential = {
+            tag = PER
+            has_country_flag = persia_azeri
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+            is_our_vassal = AZB
+            AZB = {
+                all_core = {
+                    owned_by = AZB
+                }
+            }
+        }
+        effect = {
+            inherit = AZB
+            add_accepted_culture = azerbaijani
+            AZB = {
+                all_core = {
+                    add_core = PER
+                }
+            }
+        }
+    }
+}

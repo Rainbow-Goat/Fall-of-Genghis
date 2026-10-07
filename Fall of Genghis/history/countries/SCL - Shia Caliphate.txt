@@ -6,7 +6,7 @@ government = theocracy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.07
-civilized = yes 
+civilized = no
 is_releasable_vassal = no
 
 ruling_party = SCL_conservative
@@ -37,5 +37,8 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
+
+land_reform = yes_land_reform
+foreign_weapons = yes_foreign_weapons
 
 flintlock_rifles = 1

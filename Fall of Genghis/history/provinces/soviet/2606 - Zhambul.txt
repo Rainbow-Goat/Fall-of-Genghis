@@ -1,6 +1,6 @@
+owner = DOP
+controller = DOP
 add_core = DOP
 trade_goods = coal
 life_rating = 25 
-owner = DOP
-controller = DOP
  
