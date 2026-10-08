@@ -24,3 +24,10 @@ Julius and 4th-Kaiser - Helped with coding and localization
 BigWeevil - I used his modding guide alot when I started modding, and I still use it regularly when I need to find some specific basic thing that I forgot (like the sizes of the event and decision pictures lol)
 Victoria II Modding Wiki - Insanely helpful tool with lots of good information with all the effects, conditions, scopes etc
 Victoria II Modding Server - Really helpful community that are always willing to help or give input when requested, big shoutout to them!
+
+#Cultural Sensitivity
+Fall of Genghis (informally known as RainbowMod) is made and supported by a diverse group of people. All subjects covered in the mod should be seen as only being included for narrative, gameplay or time period reasons.
+Any references to terrorism has been approved by Theagle, our Syrian member.
+Any references to Bandera or rape and pillaging have been approved by Red, our Ukrainian member.
+Any references to genocide have been approved by our German members, Julius and Kaiser.
+Any references to economics have been approved by our econ member, Julius.

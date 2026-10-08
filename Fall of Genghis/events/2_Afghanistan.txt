@@ -16,6 +16,7 @@ country_event = {
     option = {
         name = "We are muslims, the shield and sword of Islam!"
         set_country_flag = afghanistan_muslim
+        set_country_flag = religion_shiite
         religion = shiite
         primary_culture = pashtun
         PAN_1224 = { add_core = THIS }

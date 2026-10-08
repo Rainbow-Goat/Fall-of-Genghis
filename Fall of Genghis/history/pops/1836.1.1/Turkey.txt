@@ -2862,6 +2862,104 @@
 		size = 61600
 	}
 }
+
+3256 = {
+	aristocrats = {
+		culture = anatolian
+		religion = sunni
+		size = 45
+	}
+
+	clergymen = {
+		culture = anatolian
+		religion = sunni
+		size = 400
+	}
+
+	artisans = {
+		culture = anatolian
+		religion = sunni
+		size = 400
+	}
+
+	soldiers = {
+		culture = anatolian
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = anatolian
+		religion = sunni
+		size = 4200
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = catholic
+		size = 400
+	}
+
+	artisans = {
+		culture = syrian
+		religion = catholic
+		size = 2050
+	}
+
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 40750
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = catholic
+		size = 145
+	}
+
+	artisans = {
+		culture = syrian
+		religion = catholic
+		size = 800
+	}
+
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 14525
+	}
+
+	aristocrats = {
+		culture = armenian
+		religion = sunni
+		size = 1250
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = sunni
+		size = 650
+	}
+
+	artisans = {
+		culture = armenian
+		religion = sunni
+		size = 2750
+	}
+
+	soldiers = {
+		culture = armenian
+		religion = sunni
+		size = 1250
+	}
+
+	farmers = {
+		culture = armenian
+		religion = sunni
+		size = 61600
+	}
+}
 #Cilicia Region (540000)
 #under the rule of Ottoman Empire in 1836
 #Adana (252000/63000 POPS)
