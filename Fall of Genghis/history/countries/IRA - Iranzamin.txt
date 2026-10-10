@@ -1,15 +1,15 @@
 capital = 1121
-primary_culture = antiqua_greek
-culture = pashtun
-culture = persian
-religion = orthodox
+primary_culture = persian
+religion = shiite
+set_country_flag = religion_shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.07
 is_releasable_vassal = no
+civilized = yes
 
-ruling_party = SEE_conservative
+ruling_party = IRA_conservative
 upper_house = {
 	fascist = 0
 	liberal = 12
@@ -47,9 +47,4 @@ foreign_weapons = yes_foreign_weapons
 finance_reform = yes_finance_reform
 
 flintlock_rifles = 1
-
-1851.1.1 = {
-	decision = establish_the_dar_al_funun
-}
-
 

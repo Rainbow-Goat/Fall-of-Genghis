@@ -1,4 +1,3 @@
-army = {
     name = "Armée de Bourgogne"
     location = 448
     

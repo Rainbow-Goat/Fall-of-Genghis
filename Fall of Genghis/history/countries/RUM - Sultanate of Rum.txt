@@ -1,5 +1,5 @@
 capital = 900
-primary_culture = mashriqi
+primary_culture = syrian
 culture = anatolian
 religion = sunni
 set_country_flag = religion_sunni

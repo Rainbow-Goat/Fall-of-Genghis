@@ -139,6 +139,7 @@ political_decisions = {
             add_accepted_culture = syrian
             EGY_897 = { add_core = THIS }
             EGY_903 = { add_core = THIS }
+            ARM_889 = { add_core = THIS }
         }
     }
 
@@ -167,6 +168,51 @@ political_decisions = {
             PAN_1227 = { add_core = THIS }
             PAN_1224 = { add_core = THIS }
             RUS_1196 = { add_core = THIS }
+        }
+    }
+
+    persia_form_iran = {
+        picture = picture
+        potential = {
+            tag = PER
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            accepted_culture = pashtun
+            accepted_culture = syrian
+            accepted_culture = azerbaijani
+            PER = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            change_tag = IRA
+            prestige = 50
+            PER = {
+                all_core = {
+                    add_core = IRA
+                    remove_core = PER
+                }
+            }
+        }
+    }
+
+    debug_iran = {
+        potential = {
+            ai = no
+        }
+        allow = {}
+        effect = {
+            change_tag = IRA
+            inherit = SCL
+            inherit = ILK
+            inherit = AFG
+            inherit = IRQ
+            inherit = RUM
+            inherit = ARM
         }
     }
 }

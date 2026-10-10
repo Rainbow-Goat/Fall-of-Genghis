@@ -2,7 +2,7 @@ color = { 66  111  19 }
 graphical_culture = EuropeanGC
 
 party = {
-	name = "ARA_conservative"
+	name = "SCL_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "ARA_liberal"
+	name = "SCL_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "ARA_reactionary"
+	name = "SCL_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "ARA_anarcho_liberals"
+	name = "SCL_anarcho_liberals"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "ARA_socialist"
+	name = "SCL_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "ARA_communist"
+	name = "SCL_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "ARA_fascist"
+	name = "SCL_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 
