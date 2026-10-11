@@ -11,10 +11,11 @@ political_decisions = {
 			}
 			has_country_flag = religion_sunni
 			RAS = { exists = yes }
+			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -51,10 +52,11 @@ political_decisions = {
 			}
 			RAS = { exists = yes }
 			has_country_flag = religion_shiite
+			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -96,10 +98,11 @@ political_decisions = {
 			}
 			ALA = { exists = yes }
 			has_country_flag = religion_sunni
+			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -132,10 +135,11 @@ political_decisions = {
 			}
 			ALA = { exists = yes }
 			has_country_flag = religion_shiite
+			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -176,10 +180,11 @@ political_decisions = {
 			}
 			HNA = { exists = yes }
 			has_country_flag = religion_sunni
+			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -211,11 +216,12 @@ political_decisions = {
 				}
 			}
 			HNA = { exists = yes }
+			NOT = { has_global_flag = global_caliphate }
 			has_country_flag = religion_shiite
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -255,11 +261,12 @@ political_decisions = {
 				}
 			}
 			MEX = { exists = yes }
+			NOT = { has_global_flag = global_caliphate }
 			has_country_flag = religion_sunni
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -292,11 +299,12 @@ political_decisions = {
 				}
 			}
 			MEX = { exists = yes }
+			NOT = { has_global_flag = global_caliphate }
 			has_country_flag = religion_shiite
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -326,22 +334,25 @@ political_decisions = {
 			MEX = { prestige = 1 }
 		}
 	}
-	
-	shiite_reject_the_caliphates = {
+
+	shiite_align_ourselves_with_shia = {
 		potential = {
 			NOT = {
 				OR = {
 					tag = RAS
-					tag = ALA 
+					tag = ALA
 					tag = HNA
 					tag = MEX
+					tag = SCL
 				}
 			}
 			has_country_flag = religion_shiite
+			has_global_flag = Shiite_Caliphate 
+			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
 			not = { has_country_modifier = mexican_alignment }
-			not = { has_country_modifier = shiite_rejection }
+			not = { has_country_modifier = shia_alignment }
 		}
 		
 		allow = {
@@ -350,7 +361,7 @@ political_decisions = {
 		
 		effect = {
 			add_country_modifier = {
-				name = shiite_rejection
+				name = shia_alignment
 				duration = -1
 			}
 			prestige = 10

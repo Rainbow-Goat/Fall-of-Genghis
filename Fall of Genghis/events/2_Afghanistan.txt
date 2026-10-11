@@ -65,3 +65,52 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = 100922
+    title = "A Union of the Shias?"
+    desc = "100922D"
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "Together we shall change the course of history restore the true caliph!"
+        SCL = {
+            inherit = AFG
+            add_accepted_culture = pashtun
+        }
+        AFG = {
+            all_core = {
+                add_core = SCL
+            }
+        }
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                relation = { who = SCL value = 150 }
+            }
+            modifier = {
+                factor = 3
+                alliance_with = SCL
+            }
+        }
+    }
+
+    option = {
+        name = "The Pashtun people have more important matters to worry about"
+        prestige = 20
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                NOT = { relation = { who = SCL value = 100 } }
+            }
+            modifier = {
+                factor = 3
+                has_country_flag = afghanistan_greek
+            }
+        }
+    }
+}

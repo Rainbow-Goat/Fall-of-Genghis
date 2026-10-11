@@ -27,6 +27,7 @@ political_decisions = {
         potential = {
             tag = QAJ
             NOT = { 926 = { is_core = THIS } }
+            has_global_flag = qaj_win_persia
         }
         allow = {
             war = no
@@ -159,7 +160,6 @@ political_decisions = {
         }
         effect = {
             prestige = 20
-            add_accepted_culture = pashtun
             add_accepted_culture = baluchi
             AFG_1214 = { add_core = THIS }
             AFG_1217 = { add_core = THIS }
@@ -179,7 +179,7 @@ political_decisions = {
         allow = {
             war = no
             revolution_n_counterrevolution = 1
-            accepted_culture = pashtun
+            accepted_culture = baluchi
             accepted_culture = syrian
             accepted_culture = azerbaijani
             PER = {
@@ -190,6 +190,7 @@ political_decisions = {
         }
         effect = {
             change_tag = IRA
+            add_accepted_culture = pashtun
             prestige = 50
             PER = {
                 all_core = {
@@ -197,22 +198,6 @@ political_decisions = {
                     remove_core = PER
                 }
             }
-        }
-    }
-
-    debug_iran = {
-        potential = {
-            ai = no
-        }
-        allow = {}
-        effect = {
-            change_tag = IRA
-            inherit = SCL
-            inherit = ILK
-            inherit = AFG
-            inherit = IRQ
-            inherit = RUM
-            inherit = ARM
         }
     }
 }

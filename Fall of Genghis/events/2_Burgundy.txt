@@ -124,10 +124,7 @@ country_event = {
 	picture = religious_wars
 	
 	trigger = {
-		OR = {
-			tag = BRG
-			tag = LTR
-		}
+		tag = BRG
 		has_country_flag = brg_picard
 		has_country_flag = burgundy_both
 	}
@@ -726,7 +723,7 @@ country_event = {
 		name = "Robert Fontaine must hang"
 		change_variable = { which = rhenish_anger value = 0 }
 		change_variable = { which = french_anger value = 3 }
-		change_variable = { which = liberal_anger value = 2 }
+		change_variable = { which = burg_liberal value = 2 }
 		
 		ai_chance = {
 			factor = 1
@@ -745,7 +742,7 @@ country_event = {
 		name = "Fontaine is clearly innocent, let him go"
 		change_variable = { which = rhenish_anger value = 3 }
 		change_variable = { which = french_anger value = 0 }
-		change_variable = { which = liberal_anger value = 0 }
+		change_variable = { which = burg_liberal value = 0 }
 		
 		ai_chance = {
 			factor = 1

@@ -382,13 +382,13 @@ political_decisions = {
             owns = 446
             owns = 451
         }
-        effect = [
+        effect = {
             set_country_flag = wef_final
             FRA_420 = { add_core = THIS }
             FRA_442 = { add_core = THIS }
             FRA_445 = { add_core = THIS }
             FRA_451 = { add_core = THIS }
-        ]
+        }
     }
 
     wef_east_path = {
