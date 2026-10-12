@@ -124,9 +124,13 @@ conquer_england_desc;Seize our crown that we have been denied for nearly a thous
 conquer_england_setup;Restore our claim to the Throne;x;
 conquer_england_short;Conquer Englaland;x;
 afghan_jihad;Jihad against India;x;
-afghan_jihad_desc;Use religious justification to seize land from the heathens;x;
+afghan_jihad_desc;Use religious justification to seize certain land from the heathens;x;
 afghan_jihad_setup;Seize heathen land from $RECIPIENT$;x;
 afghan_jihad_short;Seize certain land;x;
+destroy_caliphate;Topple rival Caliph;x;
+destroy_caliphate_desc;Destroy a rival caliphate, forcing them to renounce their claim as Caliph and adopt a new form of government;x;
+destroy_caliphate_setup;Topple the $RECIPIENT$;x;
+destroy_caliphate_short;Topple the $RECIPIENT$;x;
 negotiated_transfer;Negotiated Transfer;;;;;;;x
 negotiated_transfer_cb;Negotiated Transfer §R(!)§!;;;;;;;x
 negotiated_transfer_cb_desc;§YCAN BE USED FOR YOURSELF OR A HUMAN ALLY.§! Take a state or colonial region from another player with no effect on infamy, prestige, or jingoism, with their consent;;;;;;;x

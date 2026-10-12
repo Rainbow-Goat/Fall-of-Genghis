@@ -105,7 +105,7 @@ political_decisions = {
 			prestige = 20
 			set_country_flag = scl_afghanistan
 			AFG = {
-				country_event = { id = 100932 days = -1 }
+				country_event = { id = 100922 days = -1 }
 			}
 		}
 	}
@@ -114,10 +114,16 @@ political_decisions = {
 		picture = picture
 		potential = {
 			tag = SCL
-			AND = {
-				has_country_flag = scl_afghanistan
-				NOT = { accepted_culture = pashtun }
-			}
+			OR = {
+				AND = {
+					has_country_flag = scl_afghanistan
+				   	NOT = { accepted_culture = pashtun }
+				}
+				AND = {
+					NOT = { has_country_flag = scl_afghanistan }
+					NOT = { exists = AFG }
+				}
+			}	
 		}
 		allow = {
 			war = no

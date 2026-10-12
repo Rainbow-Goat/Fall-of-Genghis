@@ -50,6 +50,7 @@ mongol_subjugation
 gunboat 
 conquest 
 civil_war 
+destroy_caliphate
 acquire_core_state_small
 acquire_core_state_medium
 acquire_core_state_large
@@ -380,9 +381,52 @@ afghan_jihad = {
 	}
 
 	on_po_accepted = {
-		country_event = { id = 100921 days = -1 }
+		country_event = { id = 500500 days = -1 }
 	}
 }
+
+destroy_caliphate = {
+	sprite_index = 8
+	is_triggered_only = no
+	months = 12
+	crisis = no
+	constructing_cb = no
+	always = yes
+
+	badboy_factor = 0
+	prestige_factor = 0.5
+	peace_cost_factor = 80
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		THIS = {
+			government = caliphate
+		}
+		government = caliphate
+	} # This part must be empty, or the CB will cause lag
+
+	po_disarmament = yes
+
+	on_po_accepted = {
+		country_event = { id = 500501 days = -1 }
+	}
+
+	on_add = {}
+
+	war_name = WAR_CALIPHATE_NAME
+}
+
+
+# Normal CBs
 
 status_quo = {
 	sprite_index = 1

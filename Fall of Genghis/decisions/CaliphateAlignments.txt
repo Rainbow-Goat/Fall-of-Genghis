@@ -10,7 +10,10 @@ political_decisions = {
 				}
 			}
 			has_country_flag = religion_sunni
-			RAS = { exists = yes }
+			RAS = { 
+				exists = yes 
+				government = caliphate
+			}
 			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
 			not = { has_country_modifier = umayyad_alignment }
@@ -50,7 +53,10 @@ political_decisions = {
 					tag = MEX
 				}
 			}
-			RAS = { exists = yes }
+			RAS = { 
+				exists = yes 
+				government = caliphate
+			}
 			has_country_flag = religion_shiite
 			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
@@ -96,7 +102,10 @@ political_decisions = {
 					tag = MEX
 				}
 			}
-			ALA = { exists = yes }
+			ALA = { 
+				exists = yes 
+				government = caliphate
+			}
 			has_country_flag = religion_sunni
 			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
@@ -133,7 +142,10 @@ political_decisions = {
 					tag = MEX
 				}
 			}
-			ALA = { exists = yes }
+			ALA = { 
+				exists = yes 
+				government = caliphate
+			}
 			has_country_flag = religion_shiite
 			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
@@ -178,7 +190,10 @@ political_decisions = {
 					tag = MEX
 				}
 			}
-			HNA = { exists = yes }
+			HNA = { 
+				exists = yes 
+				government = caliphate
+			}
 			has_country_flag = religion_sunni
 			NOT = { has_global_flag = global_caliphate }
 			not = { has_country_modifier = rashidun_alignment }
@@ -215,7 +230,10 @@ political_decisions = {
 					tag = MEX
 				}
 			}
-			HNA = { exists = yes }
+			HNA = { 
+				exists = yes 
+				government = caliphate
+			}
 			NOT = { has_global_flag = global_caliphate }
 			has_country_flag = religion_shiite
 			not = { has_country_modifier = rashidun_alignment }
@@ -260,7 +278,10 @@ political_decisions = {
 					tag = MEX
 				}
 			}
-			MEX = { exists = yes }
+			MEX = { 
+				exists = yes 
+				government = caliphate
+			}
 			NOT = { has_global_flag = global_caliphate }
 			has_country_flag = religion_sunni
 			not = { has_country_modifier = rashidun_alignment }
@@ -298,7 +319,10 @@ political_decisions = {
 					tag = MEX
 				}
 			}
-			MEX = { exists = yes }
+			MEX = { 
+				exists = yes 
+				government = caliphate
+			}
 			NOT = { has_global_flag = global_caliphate }
 			has_country_flag = religion_shiite
 			not = { has_country_modifier = rashidun_alignment }
@@ -345,6 +369,10 @@ political_decisions = {
 					tag = MEX
 					tag = SCL
 				}
+			}
+			SCL = { 
+				exists = yes 
+				government = caliphate
 			}
 			has_country_flag = religion_shiite
 			has_global_flag = Shiite_Caliphate 

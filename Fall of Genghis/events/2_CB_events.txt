@@ -1,0 +1,88 @@
+country_event = {
+    id = 500500
+    title = "A succesfull Jihad"
+    desc = "500500D"
+    picture = picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Damn those Muslims!"
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_1 }
+                is_core = CHK
+            }
+            secede_province = KHO
+        }
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_2 }
+                is_core = MYS
+            }
+            secede_province = KHO
+        }
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_3 }
+                is_core = NAN
+            }
+            secede_province = KHO
+        }
+        any_owned = {
+            limit = {
+                KHO = { has_country_flag = afghan_jihad_4 }
+                is_core = BEN
+            }
+            secede_province = KHO
+        }
+    }
+}
+
+country_event = {
+    id = 500501
+    title = "The Caliph loses his claim"
+    desc = "500501D"
+    picture = picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "The Caliphate is dead, long live the $COUNTRY_ADJ$ Kingdom!"
+        government = absolute_monarchy
+        prestige = -50
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+
+    option = {
+        name = "The Caliphate is dead, long live the $COUNTRY_ADJ$ Republic!"
+        government = democracy
+        prestige = -50
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+
+    option = {
+        name = "The Caliphate is dead, long live the uhh.. $COUNTRY_ADJ$ Khanate..?"
+        government = khanate
+        prestige = -50
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+}

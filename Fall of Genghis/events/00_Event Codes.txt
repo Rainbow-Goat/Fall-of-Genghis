@@ -4,6 +4,7 @@
 #   120200 = MP starting changes
 # 500059 = Sanctions
 #9999199 = Goods Setup
+#500500 = CB mechanical events
 #80080 = Batbayar stuff
 #81000 = Excavation
 #82000 = China2

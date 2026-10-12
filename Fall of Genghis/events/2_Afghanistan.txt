@@ -25,46 +25,7 @@ country_event = {
     }
 }
 
-country_event = {
-    id = 100921
-    title = "A succesfull Jihad"
-    desc = "100921D"
-    picture = picture
 
-    is_triggered_only = yes
-
-    option = {
-        name = "Damn those Muslims!"
-        any_owned = {
-            limit = {
-                KHO = { has_country_flag = afghan_jihad_1 }
-                is_core = CHK
-            }
-            secede_province = KHO
-        }
-        any_owned = {
-            limit = {
-                KHO = { has_country_flag = afghan_jihad_2 }
-                is_core = MYS
-            }
-            secede_province = KHO
-        }
-        any_owned = {
-            limit = {
-                KHO = { has_country_flag = afghan_jihad_3 }
-                is_core = NAN
-            }
-            secede_province = KHO
-        }
-        any_owned = {
-            limit = {
-                KHO = { has_country_flag = afghan_jihad_4 }
-                is_core = BEN
-            }
-            secede_province = KHO
-        }
-    }
-}
 
 country_event = {
     id = 100922
