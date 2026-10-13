@@ -1,6 +1,6 @@
-capital = 1121
-primary_culture = persian
-culture = kazak
+capital = 1204
+primary_culture = kazak
+culture = persian
 religion = gelugpa
 government = khanate
 plurality = 0.0

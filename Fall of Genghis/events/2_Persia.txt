@@ -28,3 +28,144 @@ country_event = {
         set_global_flag = scl_win_persia
     }
 }
+
+country_event = {
+    id = 100932
+    title = "The Khanate Marches to War"
+    desc = "100932D"
+    picture = picture
+    fire_only_once = yes
+
+    trigger = {
+        tag = ILK
+        year = 1837
+        month = 1
+        war = no
+    }
+
+    option = {
+        name = "Exploit their weakness to subjugate Persia"
+        THIS = {
+            war = {
+                target = QAJ
+                attacker_goal = {
+                    casus_belli = conquest
+                }
+                defender_goal = {
+                    casus_belli = acquire_state_small
+                    state_province_id = PER_1148
+                }
+                call_ally = no
+            }
+            war = {
+                target = SCL
+                attacker_goal = {
+                    casus_belli = conquest
+                }
+                defender_goal = {
+                    casus_belli = acquire_state_small
+                    state_province_id = PER_1148
+                }
+                call_ally = no
+            }
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    badboy = -44
+                }
+            }
+            clr_country_flag = hidden_tooltip
+        }
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                AND = {
+                    exists = SCL
+                    exists = QAJ
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "We must strengthen our horde, Afghanistan will bend the knee"
+        war = {
+            target = AFG
+            attacker_goal = {
+                casus_belli = conquest
+            }
+            defender_goal = {
+                casus_belli = humiliate
+            }
+            call_ally = yes
+        }
+        set_country_flag = hidden_tooltip
+        random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+            owner = {
+                badboy = -22
+            }
+        }
+        clr_country_flag = hidden_tooltip
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    QAJ = { exists = no }
+                    SCL = { exists = no }
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100933
+    title = "The Islamic World Shivers"
+    desc = "100933D"
+    major = yes
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "They call him §RThe Scourge of God§!"
+        add_country_modifier = { name = scourge_of_god duration = 14610 }
+        scourge_of_god_tooltip = {}
+    }
+}
+
+country_event = {
+    id = 100934
+    title = "The Khan of Khans"
+    desc = "100934D"
+    major = yes
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "§RHad you not sinned, God would not have sent me§!"
+        prestige = 50
+        add_country_modifier = { name = khan_of_khans duration = -1 }
+    }
+}
+
+country_event = {
+    id = 100935
+    title = "Timur the Great"
+    desc = "100935D"
+    picture = picture
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "A man with no equal"
+        prestige = 20
+        add_country_modifier = { name = timurs_reforms duration = 3652 }
+    }
+}

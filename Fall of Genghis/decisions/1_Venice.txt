@@ -78,7 +78,13 @@ political_decisions = {
                 }
                 call_ally = yes
             }
-            badboy = -18
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    badboy = -22
+                }
+            }
+            clr_country_flag = hidden_tooltip
             set_country_flag = violent_ita_unify
         }
         ai_will_do = {

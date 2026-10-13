@@ -1024,3 +1024,14 @@ van_wassenaer_pm = {
 }
 
 pm_switch = {}
+
+scourge_of_god = {
+	badboy = -0.05
+	cb_generation_speed_modifier = 0.08
+	prestige = -0.05
+	land_unit_start_experience = 5
+	land_organisation = 0.03
+}
+
+khan_of_khans = {}
+timurs_reforms = {}

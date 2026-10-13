@@ -1173,3 +1173,4 @@ burgundy_east_tooltip = {}
 burgundy_both_tooltip = {}
 burgundy_religious_wars_tooltip = {}
 burgundy_liberalisation_tooltip = {}
+scourge_of_god_tooltip = {}
