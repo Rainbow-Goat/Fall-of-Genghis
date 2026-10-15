@@ -33,7 +33,7 @@ country_event = {
     id = 100932
     title = "The Khanate Marches to War"
     desc = "100932D"
-    picture = picture
+    picture = mongols
     fire_only_once = yes
 
     trigger = {
@@ -158,7 +158,7 @@ country_event = {
     id = 100935
     title = "Timur the Great"
     desc = "100935D"
-    picture = picture
+    major = yes
 
     is_triggered_only = yes
     fire_only_once = yes
@@ -167,5 +167,46 @@ country_event = {
         name = "A man with no equal"
         prestige = 20
         add_country_modifier = { name = timurs_reforms duration = 3652 }
+        random_owned = {
+            owner = {
+                limit = {
+                    government = khanate
+                }
+                government = absolute_monarchy
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100936
+    title = "The Final Raid"
+    desc = "100936D"
+    major = yes
+
+    trigger = {
+        OR = {
+            tag = ILK
+            tag = TIM
+        }
+        has_country_flag = persia_killed
+        NOT = { has_country_modifier = scourge_of_god }
+        NOT = { has_country_flag = khan_of_khans }
+        year = 1850
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Era of the Horse has ended, the Age of the Machine Gun has come"
+        random_owned = {
+            owner = {
+                limit = {
+                    government = khanate
+                }
+                government = absolute_monarchy
+            }
+        }
+        prestige = -50
     }
 }

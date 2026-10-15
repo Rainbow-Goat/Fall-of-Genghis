@@ -125,7 +125,6 @@ country_event = {
 	
 	trigger = {
 		tag = BRG
-		has_country_flag = brg_picard
 		has_country_flag = burgundy_both
 	}
 	

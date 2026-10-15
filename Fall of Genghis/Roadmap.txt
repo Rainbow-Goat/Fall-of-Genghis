@@ -5,16 +5,15 @@ Extensive content:
     - Rashidun Caliphate (Concept stage)
     - Egypt (Concept stage)
     - Sultanate of Rum (Concept stage)
-    - Persia (Started, need to balance the sides.)
-        - Shia
-        - Ilkhanate (Not being added this update, just here for future reference)
-        - Qajar
+    - Persia (Started, need to balance the sides by fixing the OOBs.)
+        - Shia (Content done for now, will be revisited in the future. Needs loc and GFX)
+        - Ilkhanate (Content and Loc done, just needs GFX)
+        - Qajar (Content done, needs loc and GFX)
 Moderate content:
-    - Armenia (DONE)
     - Afghanistan (DONE)
+    - Religious Mechanics (Almost done, just need to make the modifier for if you are the only caliphate in existance)
 Minor content:
-    - Umayyad Caliphate (Concept stage)
-    - Iraq (Started)
+    - Armenia (DONE)
 
 V1.3 - The Great Plains
 - Rework to the starting map of North America

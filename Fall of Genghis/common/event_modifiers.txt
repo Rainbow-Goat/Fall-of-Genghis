@@ -1033,5 +1033,20 @@ scourge_of_god = {
 	land_organisation = 0.03
 }
 
-khan_of_khans = {}
-timurs_reforms = {}
+khan_of_khans = {
+	prestige = 0.2
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+}
+
+timurs_reforms = {
+	education_efficiency_modifier = 0.2
+	research_points_modifier = 0.05
+	industry_tech_research_bonus = 0.1
+	army_tech_research_bonus = 0.1
+	navy_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.1
+	culture_tech_research_bonus = 0.1
+	global_pop_militancy_modifier = 0.15
+	global_pop_consciousness_modifier = 0.15
+}
