@@ -6,9 +6,9 @@ Extensive content:
     - Egypt (Concept stage)
     - Sultanate of Rum (Concept stage)
     - Persia (Started, need to balance the sides by fixing the OOBs.)
-        - Shia (Content done for now, will be revisited in the future. Needs loc and GFX)
+        - Shia (DONE for now, will be revisited in the future.)
         - Ilkhanate (Content and Loc done, just needs GFX)
-        - Qajar (Content done, needs loc and GFX)
+        - Qajar (DONE)
 Moderate content:
     - Afghanistan (DONE)
     - Religious Mechanics (Almost done, just need to make the modifier for if you are the only caliphate in existance)

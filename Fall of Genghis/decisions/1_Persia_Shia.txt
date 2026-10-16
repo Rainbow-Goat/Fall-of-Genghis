@@ -1,5 +1,6 @@
 political_decisions = {
 	forge_a_new_caliphate_old_continent = {
+		picture = crescent
 		potential = {
 			tag = SCL
 			NOT = { has_global_flag = Shiite_Caliphate_Attempted }
@@ -31,7 +32,7 @@ political_decisions = {
 	}
 
 	scl_iraq_core = {
-		picture = picture
+		picture = map_iraq
 		potential = {
 			tag = SCL
 			NOT = { has_country_flag = scl_core_iraq }
@@ -58,7 +59,7 @@ political_decisions = {
 	}
 
 	scl_win_cw = {
-		picture = picture
+		picture = islam_civil_war
 		potential = {
 			tag = SCL
 			NOT = { has_global_flag = scl_win_persia }
@@ -76,12 +77,12 @@ political_decisions = {
                 }
             }
             war_exhaustion = -5
-            country_event = { id = 100931 days = -1 }
+            set_global_flag = scl_win_persia
         }
 	}
 
 	scl_unite_afghanistan = {
-		picture = picture
+		picture = map_baluchistan
 		potential = {
 			tag = SCL
 			has_global_flag = scl_win_persia
@@ -96,9 +97,7 @@ political_decisions = {
 			}
 			AFG = {
 				war = no
-				all_core = {
-					owned_by = AFG
-				}
+				exists = yes
 			}
 		}
 		effect = {
@@ -111,7 +110,7 @@ political_decisions = {
 	}
 
 	scl_kill_afghanistan = {
-		picture = picture
+		picture = map_baluchistan
 		potential = {
 			tag = SCL
 			OR = {
@@ -146,6 +145,7 @@ political_decisions = {
 	}
 	
 	accept_the_bedouins_shiite_cal = {
+		picture = map_arabia
 		potential = {
 			has_global_flag = Shiite_Caliphate
 			tag = SCL

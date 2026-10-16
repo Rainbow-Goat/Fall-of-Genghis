@@ -1,6 +1,6 @@
 political_decisions = {
     qajar_win_cw = {
-        picture = picture
+        picture = persia_emperor
         potential = {
             tag = QAJ
             NOT = { has_global_flag = qaj_win_persia }
@@ -18,12 +18,12 @@ political_decisions = {
                 }
             }
             war_exhaustion = -5
-            country_event = { id = 100930 days = -1 }
+            set_global_flag = qaj_win_persia
         }
     }
 
     qaj_core_iraq = {
-        picture = picture
+        picture = map_iraq
         potential = {
             tag = QAJ
             NOT = { 926 = { is_core = THIS } }
@@ -47,7 +47,7 @@ political_decisions = {
     }
 
     qaj_form_persia = {
-        picture = picture
+        picture = form_persia
         potential = {
             tag = QAJ
             has_global_flag = qaj_win_persia
@@ -73,7 +73,7 @@ political_decisions = {
     }
 
     persia_azeri_1 = {
-        picture = picture
+        picture = azerbaijan_coa
         potential = {
             tag = PER
             NOT = { has_country_flag = persia_azeri }
@@ -93,7 +93,7 @@ political_decisions = {
     }
 
     persia_azeri_2 = {
-        picture = picture
+        picture = azerbaijan_coa
         potential = {
             tag = PER
             has_country_flag = persia_azeri
@@ -101,7 +101,10 @@ political_decisions = {
         allow = {
             war = no
             ideological_thought = 1
-            is_our_vassal = AZB
+            OR = {
+                is_our_vassal = AZB
+                AZB = { in_sphere = THIS }
+            }
             AZB = {
                 all_core = {
                     owned_by = AZB
@@ -120,7 +123,7 @@ political_decisions = {
     }
 
     persia_syria = {
-        picture = picture
+        picture = map_levant
         potential = {
             tag = PER
             NOT = { has_country_flag = persian_syria }
@@ -145,7 +148,7 @@ political_decisions = {
     }
 
     persia_east = {
-        picture = picture
+        picture = map_baluchistan
         potential = {
             tag = PER
             NOT = { accepted_culture = pashtun }
@@ -172,7 +175,7 @@ political_decisions = {
     }
 
     persia_form_iran = {
-        picture = picture
+        picture = iran_coa
         potential = {
             tag = PER
         }
@@ -182,6 +185,7 @@ political_decisions = {
             accepted_culture = baluchi
             accepted_culture = syrian
             accepted_culture = azerbaijani
+            is_greater_power = yes
             PER = {
                 all_core = {
                     owned_by = THIS

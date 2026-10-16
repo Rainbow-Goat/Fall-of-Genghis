@@ -1,21 +1,29 @@
-#Fully fleshed content
+#Extensive content / great for SP
+Burgundy
+Teutonic Order
 Taichiud
 Cappadocia
-Scandinavia (Denmark and Sweden)
-Orleans/France
-Teutonic Order
 Wurtemburg
-Bulgaria
+Sultanate of Rum
+Rashidun Caliphate
 
+#Fully fleshed content
+Scandinavia (Denmark and Sweden)
+Orleans
+Bulgaria
+Castille
+Ilkhanate
+Safavid Dynasty
+Venice
+Afghanistan
 
 #Decent amount of content
 Aragon
 Hungary
 Bohemia
 Lithuania
-Luhansk / Ukraine
+Luhansk
 Umayyads
-Venice
 Scotland
 Russia (Novgorod, Smolensk, Ryazan and Vladimir)
 
@@ -24,6 +32,7 @@ Normandy
 Provence
 Englaland
 Poland
-Castille
 Pommerania
 Serbia
+Shia Insurrection
+Armenia

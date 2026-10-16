@@ -1,6 +1,6 @@
 political_decisions = {
     ilkhanate_subjugate_persia = {
-        picture = picture
+        picture = timur1
         potential = {
             tag = ILK
             NOT = { has_country_flag = persia_killed }
@@ -28,7 +28,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_iraq = {
-        picture = picture
+        picture = map_iraq
         potential = {
             OR = {
                 tag = ILK
@@ -54,7 +54,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_azerbajian = {
-        picture = picture
+        picture = unite_caucasus
         potential = {
             OR = {
                 tag = ILK
@@ -78,7 +78,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_afghanistan = {
-        picture = picture
+        picture = map_baluchistan
         potential = {
             OR = {
                 tag = ILK
@@ -104,7 +104,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_armenia = {
-        picture = picture
+        picture = map_armenia
         potential = {
             OR = {
                 tag = ILK
@@ -140,7 +140,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_caucasus = {
-        picture = picture
+        picture = unite_caucasus
         potential = {
             OR = {
                 tag = ILK
@@ -171,7 +171,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_syria = {
-        picture = picture
+        picture = map_levant
         potential = {
             OR = {
                 tag = ILK
@@ -271,7 +271,7 @@ political_decisions = {
     }
 
     ilkhanate_big_win = {
-        picture = picture
+        picture = greater_iran
         potential = {
             OR = {
                 tag = ILK
@@ -306,7 +306,7 @@ political_decisions = {
     }
 
     ilkhanate_form_timurids = {
-        picture = picture
+        picture = timur2
         potential = {
             tag = ILK
             has_country_flag = persia_killed
