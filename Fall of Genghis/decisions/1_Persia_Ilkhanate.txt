@@ -194,7 +194,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_palestine = {
-        picture = picture
+        picture = jerusalem
         potential = {
             OR = {
                 tag = ILK
