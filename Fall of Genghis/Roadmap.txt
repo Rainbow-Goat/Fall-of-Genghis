@@ -3,11 +3,11 @@ DEVELOPED IN THE ORDER LISTED
 V1.2 - Riches of the Orient
 Extensive content:
     - Rashidun Caliphate (Concept stage)
-    - Egypt (Concept stage)
+    - Egypt (Started)
     - Sultanate of Rum (Concept stage)
-    - Persia (Started, need to balance the sides by fixing the OOBs.)
+    - Persia (DONE)
         - Shia (DONE for now, will be revisited in the future.)
-        - Ilkhanate (Content and Loc done, just needs GFX)
+        - Ilkhanate (DONE)
         - Qajar (DONE)
 Moderate content:
     - Afghanistan (DONE)

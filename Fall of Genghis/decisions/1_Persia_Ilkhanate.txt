@@ -23,6 +23,7 @@ political_decisions = {
                     add_core = THIS
                 }
             }
+            capital = 1121
             country_event = { id = 100933 days = -1 }
         }
     }
@@ -218,7 +219,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_east_anatolia = {
-        picture = picture
+        picture = turkicraid1
         potential = {
             OR = {
                 tag = ILK
@@ -244,7 +245,7 @@ political_decisions = {
     }
 
     ilkhanate_subjugate_west_anatolia = {
-        picture = picture
+        picture = turkicraid1
         potential = {
             OR = {
                 tag = ILK
@@ -323,7 +324,7 @@ political_decisions = {
     }
 
     ilkhanate_accept_pashtun = {
-        picture = picture
+        picture = timuraura
         potential = {
             OR = {
                 tag = ILK
@@ -341,7 +342,7 @@ political_decisions = {
     }
 
     ilkhanate_accept_iraqi = {
-        picture = picture
+        picture = timuraura
         potential = {
             OR = {
                 tag = ILK
@@ -359,7 +360,7 @@ political_decisions = {
     }
 
     ilkhanate_accept_armenian = {
-        picture = picture
+        picture = timuraura
         potential = {
             OR = {
                 tag = ILK
@@ -377,7 +378,7 @@ political_decisions = {
     }
 
     ilkhanate_accept_azerbaijani = {
-        picture = picture
+        picture = timuraura
         potential = {
             OR = {
                 tag = ILK
@@ -395,7 +396,7 @@ political_decisions = {
     }
 
     ilkhanate_accept_syrian = {
-        picture = picture
+        picture = timuraura
         potential = {
             OR = {
                 tag = ILK
@@ -413,7 +414,7 @@ political_decisions = {
     }
 
     ilkhanate_accept_anatolian = {
-        picture = picture
+        picture = timuraura
         potential = {
             OR = {
                 tag = ILK

@@ -11,6 +11,7 @@ political_decisions = {
             }
         }
         effect = {
+            capital = 1121
             SCL = { 
                 all_core = {
                     add_core = QAJ

@@ -42,3 +42,5 @@ land_reform = yes_land_reform
 foreign_weapons = yes_foreign_weapons
 
 flintlock_rifles = 1
+
+oob = "SCL_oob.txt"
