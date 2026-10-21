@@ -1,0 +1,69 @@
+country_event = {
+    id = 100950
+    title = "Factions"
+    desc = "100950D"
+    picture = Picture
+    
+    trigger = {
+        tag = EGY
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Ok"
+        set_country_flag = egypt_faction_system
+        set_variable = { which = egy_merchant_status value = 0 }
+        set_variable = { which = egy_military_status value = 0 }
+        set_variable = { which = egy_cleric_status value = 0 }
+        set_global_flag = egy_military_neutral
+        set_global_flag = egy_merchant_neutral
+        set_global_flag = egy_cleric_neutral
+    }
+}
+
+country_event = {
+    id = 100951
+    title = "Faction Status"
+    desc = "100951D"
+    picture = picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Should show loyalty of different factions"
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = egy_military_status value = 5 }
+                }
+            }
+            owner = {
+                egypt_military_loyal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        check_variable = { which = egy_military_status value = -5 }
+                        NOT = { check_variable = { which = egy_military_status value = 5 } }
+                    }
+                }
+            }
+            owner = {
+                egypt_military_neutral = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = egy_military_status value = -4 } }
+                }
+            }
+            owner = {
+                egypt_military_disloyal = {}
+            }
+        }
+    }
+}

@@ -22,6 +22,7 @@
 #   100900 = Cappadocia events
 #   100920 = Afghanistan events
 #   100930-40 = Persian events
+#   100950-60 = Egyptian events
 # 101010 = Static modifiers attached to certain cities (Like Constantinople)
 # 101100 = Balkan stuff
 #   101100 = Bulgaria events

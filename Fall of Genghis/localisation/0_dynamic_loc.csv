@@ -1,0 +1,5 @@
+key;ENGLISH;x
+egypt_military;neutral. They are neither staunchly loyal or disloyal. They observe our every move carefully.;x;
+egypt_military_loyal;The §YMamluks§! are feeling §Gloyal§!. They support the current direction we are heading and are unlikely to cause any trouble.;x;
+egypt_military_neutral;The §YMamluks§! are feeling §Wneutral§!. They are neither staunchly loyal or disloyal. They observe our every move carefully.;x;
+egypt_military_disloyal;The §YMamluks§! are feeling §Rdisloyal§!. They see our recent actions as a threat to their power and a threat to the nation. They might soon overthrow us unless we appease them.;x;
