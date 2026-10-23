@@ -308,3 +308,65 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = 100957
+    title = "The Question of Jerusalem"
+    desc = "100957D"
+    picture = Picture
+    
+    trigger = {
+        tag = EGY
+        month = 3
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We shall keep it, it is ours by right of conquest!"
+        set_country_flag = egypt_defy_rashidun
+        set_country_flag = option_1
+        badboy = 5
+        RAS = { 
+            country_event = { id = 100990 days = -1 }
+        }
+        change_variable = { which = egy_cleric_status value = -2 }
+        change_variable = { which = egy_military_status value = 3 }
+        change_variable = { which = egy_merchant_status value = -1 }
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+    option = {
+        name = "We will offer to assist Rum in their war in exchange for keeping Jerusalem"
+        set_country_flag = option_2
+        RAS = {
+            country_event = { id = 100990 days = -1 }
+        }
+        change_variable = { which = egy_cleric_status value = -1 }
+        change_variable = { which = egy_military_status value = 1 }
+        change_variable = { which = egy_merchant_status value = -2 }
+        
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "We will return the holy land to the Caliph, as any pious muslim would"
+        set_country_flag = option_3
+        RAS = {
+            country_event = { id = 100990 days = -1 }
+        }
+        change_variable = { which = egy_cleric_status value = 3 }
+        change_variable = { which = egy_military_status value = -2 }
+        change_variable = { which = egy_merchant_status value = 1 }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
