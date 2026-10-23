@@ -71,14 +71,6 @@ ERE     = "countries/Byzantium.txt"
 QAJ     = "countries/Qajar.txt"
 ILK     = "countries/Ilkhanate.txt"
 
-
-#Meta Stuff
-GHO     = "countries/Ghost Country.txt"
-SMA     = "countries/Small State.txt"
-MED     = "countries/Medium State.txt"
-LRG     = "countries/Large State.txt"
-HUG     = "countries/Huge State.txt"
-
 # Formables!
 HSE		= "countries/HolySlavicEmpire.txt"
 KWS		= "countries/KingdomOfWestSlavia.txt"
@@ -322,9 +314,6 @@ PRG		="countries/Paraguay.txt"
 URU		="countries/Uruguay.txt"
 VNZ		="countries/Venezuela.txt"
 
-# Australasia
-AST		="countries/Australia.txt"
-
 
 #new for 1.2
 BYZ		="countries/Byzantium.txt"
@@ -336,6 +325,17 @@ UBD		= "countries/United Baltic Provinces.txt"
 BYE		= "countries/Belarus.txt"
 PLC		= "countries/Poland-Lithuania.txt"
 GCO		="countries/Gran Colombia.txt"
+
+#Anti smiley face measures
+AFR     = "countries/Africa.txt"
+AST		= "countries/Australia.txt"
+
+#Meta Stuff
+GHO     = "countries/Ghost Country.txt"
+SMA     = "countries/Small State.txt"
+MED     = "countries/Medium State.txt"
+LRG     = "countries/Large State.txt"
+HUG     = "countries/Huge State.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

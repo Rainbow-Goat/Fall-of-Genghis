@@ -26,6 +26,15 @@ political_decisions = {
 		}
 		
 		effect = {
+			random_owned = {
+				owner = {
+					limit = {
+						tag = EGY
+						has_country_flag = egypt_faction_system
+					}
+					change_variable = { which = egy_cleric_status value = 2 }
+				}
+			} 
 			add_country_modifier = {
 				name = rashidun_alignment
 				duration = -1
@@ -119,6 +128,16 @@ political_decisions = {
 		}
 		
 		effect = {
+			random_owned = {
+				owner = {
+					limit = {
+						tag = EGY
+						has_country_flag = egypt_faction_system
+					}
+					change_variable = { which = egy_military_status value = 2 }
+					change_variable = { which = egy_cleric_status value = -1 }
+				}
+			}
 			add_country_modifier = {
 				name = umayyad_alignment
 				duration = -1
@@ -207,6 +226,16 @@ political_decisions = {
 		}
 		
 		effect = {
+			random_owned = {
+				owner = {
+					limit = {
+						tag = EGY
+						has_country_flag = egypt_faction_system
+					}
+					change_variable = { which = egy_military_status value = 2 }
+					change_variable = { which = egy_cleric_status value = -2 }
+				}
+			}
 			add_country_modifier = {
 				name = umayyad_alignment
 				duration = -1
@@ -295,6 +324,16 @@ political_decisions = {
 		}
 		
 		effect = {
+			random_owned = {
+				owner = {
+					limit = {
+						tag = EGY
+						has_country_flag = egypt_faction_system
+					}
+					change_variable = { which = egy_merchant_status value = 2 }
+					change_variable = { which = egy_cleric_status value = -2 }
+				}
+			}
 			add_country_modifier = {
 				name = mexican_alignment
 				duration = -1

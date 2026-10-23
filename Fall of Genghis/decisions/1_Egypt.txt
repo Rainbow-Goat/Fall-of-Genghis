@@ -14,31 +14,123 @@ political_decisions = {
         }
     }
 
-    egypt_military_boost = {
+    egypt_path_select_1 = {
+        picture = picture
         potential = {
             tag = EGY
-            ai = no
-            has_country_flag = egypt_faction_system
+            NOT = { has_country_flag = path_selected }
+            has_global_flag = rum_vs_cappadocia_end
         }
         allow = {
-            always = yes
+            war = no
         }
         effect = {
-            change_variable = { which = egy_military_status value = 5 }
+            country_event = { id = 100956 days = -1 }
+            set_country_flag = path_selected
         }
     }
 
-    egypt_military_decrease = {
+    egypt_syria_cores = {
+        picture = picture
         potential = {
             tag = EGY
-            ai = no
-            has_country_flag = egypt_faction_system
+            NOT = { has_country_flag = egypt_syria }
+            NOT = { has_country_flag = merchant_coup }
+            OR = {
+                NOT = { has_country_flag = cleric_coup }
+                AND = {
+                    has_country_flag = cleric_coup
+                    900 = {
+                        owner = {
+                            OR = {
+                                has_country_flag = rum_defy_rashidun
+                                tag = ILK
+                                tag = TIM
+                                tag = CAP
+                            }
+                        }
+                    }
+                }
+            }
+            NOT = { has_country_flag = embrace_africa }
+            OR = {
+                RUM = { has_country_flag = rum_defy_rashidun }
+                has_country_flag = egypt_defy_rashidun
+                900 = {
+                    owner = {
+                        OR = {
+                            has_country_flag = religion_shiite
+                            tag = ILK
+                            tag = TIM
+                            tag = CAP
+                        }
+                    }
+                }
+            }
         }
         allow = {
-            always = yes
+            war = no
         }
         effect = {
-            change_variable = { which = egy_military_status value = -5 }
+            EGY_897 = { add_core = THIS }
+            EGY_903 = { add_core = THIS }
+            badboy = 7
+            set_country_flag = egypt_syria
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = egypt_defy_rashidun
+                    }
+                }
+                owner = {
+                    change_variable = { which = egy_cleric_status value = -2 }
+                }
+            }
+            change_variable = { which = egy_merchant_status value = -1 }
+        }
+    }
+
+    egypt_anatolia_cores = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_syria
+            NOT = { has_country_flag = merchant_coup }
+            OR = {
+                NOT = { has_country_flag = cleric_coup }
+                AND = {
+                    has_country_flag = cleric_coup
+                    has_global_flag = jihad_vs_cappadocia
+                }
+            }
+            NOT = { has_country_flag = embrace_africa }
+            OR = {
+                has_global_flag = jihad_vs_cappadocia
+                has_country_flag = egypt_defy_rashidun
+            }
+            NOT = { has_country_flag = rum_vassal_yes }
+            NOT = { has_country_flag = egypt_overlord_path }
+        }
+        allow = {
+            war = no
+            has_global_flag = jihad_vs_cappadocia
+            has_country_flag = egypt_defy_rashidun
+        }
+        effect = {
+            893 = { add_core = THIS }
+            SEL_899 = { add_core = THIS }
+            badboy = 5
+            change_variable = { which = egy_merchant_status value = -1 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = egypt_defy_rashidun
+                    }
+                }
+                owner = {
+                    change_variable = { which = egy_cleric_status value = -2 }
+                }
+            }
         }
     }
 }

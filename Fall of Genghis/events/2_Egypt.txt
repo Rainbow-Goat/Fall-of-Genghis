@@ -16,9 +16,6 @@ country_event = {
         set_variable = { which = egy_merchant_status value = 0 }
         set_variable = { which = egy_military_status value = 0 }
         set_variable = { which = egy_cleric_status value = 0 }
-        set_global_flag = egy_military_neutral
-        set_global_flag = egy_merchant_neutral
-        set_global_flag = egy_cleric_neutral
     }
 }
 
@@ -30,8 +27,7 @@ country_event = {
 
     is_triggered_only = yes
 
-    option = {
-        name = "Should show loyalty of different factions"
+    immediate = {
         random_owned = {
             limit = {
                 owner = {
@@ -46,7 +42,7 @@ country_event = {
             limit = {
                 owner = {
                     AND = {
-                        check_variable = { which = egy_military_status value = -5 }
+                        check_variable = { which = egy_military_status value = -4 }
                         NOT = { check_variable = { which = egy_military_status value = 5 } }
                     }
                 }
@@ -63,6 +59,251 @@ country_event = {
             }
             owner = {
                 egypt_military_disloyal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = egy_merchant_status value = 5 }
+                }
+            }
+            owner = {
+                egypt_merchant_loyal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        check_variable = { which = egy_merchant_status value = -4 }
+                        NOT = { check_variable = { which = egy_merchant_status value = 5 } }
+                    }
+                }
+            }
+            owner = {
+                egypt_merchant_neutral = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = egy_merchant_status value = -4 } }
+                }
+            }
+            owner = {
+                egypt_merchant_disloyal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = egy_cleric_status value = 5 }
+                }
+            }
+            owner = {
+                egypt_cleric_loyal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        check_variable = { which = egy_cleric_status value = -4 }
+                        NOT = { check_variable = { which = egy_cleric_status value = 5 } }
+                    }
+                }
+            }
+            owner = {
+                egypt_cleric_neutral = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = egy_cleric_status value = -4 } }
+                }
+            }
+            owner = {
+                egypt_cleric_disloyal = {}
+            }
+        }
+    }
+
+    option = {
+        name = "Remind me about the factions and their values"
+        country_event = { id = 100955 days = -1 }
+    }
+
+    option = {
+        name = "Ok"
+    }
+}
+
+country_event = {
+    id = 100955
+    title = "The Factions and their Values"
+    desc = "100955D"
+    picture = picture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Show me the loyalties again"
+        country_event = { id = 100951 days = -1 }
+    }
+    
+    option = {
+        name = "Ok"
+    }
+}
+
+country_event = {
+    id = 100952
+    title = "The Mamluk Coup"
+    desc = "100952D"
+    picture = Picture
+    
+    trigger = {
+        tag = EGY
+        war = no
+        NOT = { check_variable = { which = egy_military_status value = -9 } }
+        NOT = {
+            OR = {
+                has_country_flag = merchant_coup
+                has_country_flag = cleric_coup
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Untrustworthy snakes!"
+        government = sultanate
+        set_country_flag = mamluk_coup
+        prestige = -40
+        war_exhaustion = 10
+    }
+}
+
+country_event = {
+    id = 100953
+    title = "The Merchant Coup"
+    desc = "100953D"
+    picture = Picture
+    
+    trigger = {
+        tag = EGY
+        war = no
+        NOT = { check_variable = { which = egy_merchant_status value = -9 } }
+        NOT = {
+            OR = {
+                has_country_flag = mamluk_coup
+                has_country_flag = cleric_coup
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Untrustworthy snakes!"
+        government = merchant_republic
+        set_country_flag = merchant_coup
+        prestige = -40
+        war_exhaustion = 10
+    }
+}
+
+country_event = {
+    id = 100954
+    title = "The Religious Coup"
+    desc = "100954D"
+    picture = Picture
+    
+    trigger = {
+        tag = EGY
+        war = no
+        NOT = { check_variable = { which = egy_cleric_status value = -9 } }
+        NOT = {
+            OR = {
+                has_country_flag = mamluk_coup
+                has_country_flag = merchant_coup
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Untrustworthy snakes!"
+        government = theocracy
+        set_country_flag = cleric_coup
+        prestige = -40
+        war_exhaustion = 10
+    }
+}
+
+country_event = {
+    id = 100956
+    title = "The Road to Greater Egypt"
+    desc = "100956D"
+    picture = Picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    immediate = {
+        random_owned = {
+            limit = {
+                878 = {
+                    owned_by = RUM
+                }
+            }
+            owner = {
+                egypt_rum_win = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                878 = {
+                    owned_by = CAP
+                }
+            }
+            owner = {
+                egypt_rum_lose = {}
+            }
+        }
+    }
+
+    option = {
+        name = "The lands of Africa will be converted"
+        set_country_flag = embrace_africa
+        change_variable = { which = egy_military_status value = -3 }
+        change_variable = { which = egy_cleric_status value = 3 }
+        change_variable = { which = egy_merchant_status value = 1 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                NOT = { has_country_flag = egypt_defy_rashidun }
+            }
+        }
+    }
+    
+    option = {
+        name = "The Levant must be secured"
+        set_country_flag = egypt_orient_path
+        change_variable = { which = egy_military_status value = 3 }
+        change_variable = { which = egy_cleric_status value = -3 }
+        change_variable = { which = egy_merchant_status value = -1 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                has_country_flag = egypt_defy_rashidun
             }
         }
     }

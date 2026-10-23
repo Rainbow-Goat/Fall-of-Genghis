@@ -1175,10 +1175,17 @@ burgundy_religious_wars_tooltip = {}
 burgundy_liberalisation_tooltip = {}
 scourge_of_god_tooltip = {}
 
-#Dynamic loc?
-egypt_military = {}
+#Dynamic loc - Faction status
 egypt_military_loyal = {}
 egypt_military_neutral = {}
 egypt_military_disloyal = {}
-egypt_merchants = {}
-egypt_clerics = {}
+egypt_merchant_loyal = {}
+egypt_merchant_neutral = {}
+egypt_merchant_disloyal = {}
+egypt_cleric_loyal = {}
+egypt_cleric_neutral = {}
+egypt_cleric_disloyal = {}
+
+#Dynamic loc - Path select event
+egypt_rum_win = {}
+egypt_rum_lose = {}
