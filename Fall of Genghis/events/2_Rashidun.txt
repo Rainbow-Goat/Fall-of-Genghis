@@ -1,0 +1,139 @@
+country_event = {
+    id = 100990
+    title = "The Status of Jerusalem"
+    desc = "100990D"
+    picture = Picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    immediate = {
+        random_owned = {
+            limit = {
+                EGY = { has_country_flag = option_1 }
+            }
+            owner = {
+                option_1_text = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                EGY = { has_country_flag = option_2 }
+            }
+            owner = {
+                option_2_text = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                EGY = { has_country_flag = option_3 }
+            }
+            owner = {
+                option_3_text = {}
+            }
+        }
+    }
+
+    option = {
+        name = "We accept their proposal"
+        random_owned = {
+            limit = {
+                EGY = { has_country_flag = option_1 }
+            }
+            owner = {
+                prestige = -10
+                relation = { who = EGY value = -200 }
+            }
+        }
+        random_owned = {
+            limit = {
+                EGY = { has_country_flag = option_2 }
+            }
+            EGY = {
+                create_alliance = RUM
+                war = {
+                    target = CAP
+                    attacker_goal = {
+                        casus_belli = humiliate
+                    }
+                    defender_goal = {
+                        casus_belli = humiliate
+                    }
+                    call_ally = no
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                EGY = { has_country_flag = option_3 }
+            }
+            EGY = {
+                EGY_921 = {
+                    secede_province = RAS
+                }
+                EGY_910 = {
+                    secede_province = RAS
+                }
+            }
+        }
+        EGY = {
+            clr_country_flag = option_1
+            clr_country_flag = option_2
+            clr_country_flag = option_3
+        }
+        
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 5
+                EGY = { has_country_flag = option_3 }
+            }
+            modifier = {
+                factor = 3
+                EGY = { has_country_flag = option_2 }
+            }
+        }
+    }
+    
+    option = {
+        name = "Jerusalem will be ours, by force"
+        war = {
+            target = EGY
+            attacker_goal = {
+                casus_belli = acquire_core_state_small
+                state_province_id = EGY_921
+            }
+            attacker_goal = {
+                casus_belli = acquire_core_state_small
+                state_province_id = EGY_910
+            }
+            defender_goal = {
+                casus_belli = status_quo
+                state_province_id = REGION_D
+            }
+            call_ally = no
+        }
+        EGY = {
+            clr_country_flag = option_1
+            clr_country_flag = option_2
+            clr_country_flag = option_3
+        }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 5
+                EGY = {
+                    has_country_flag = option_1
+                }
+            }
+            modifier = {
+                factor = 2
+                EGY = {
+                    has_country_flag = option_2
+                }
+            }
+        }
+    }
+}

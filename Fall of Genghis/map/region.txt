@@ -1189,3 +1189,8 @@ egypt_cleric_disloyal = {}
 #Dynamic loc - Path select event
 egypt_rum_win = {}
 egypt_rum_lose = {}
+
+#Dynamic loc - Rashidun Jerusalem event
+option_1_text = {}
+option_2_text = {}
+option_3_text = {}
