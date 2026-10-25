@@ -28,26 +28,7 @@ Minor content:
     - Kurdish Free State
     - Hawaii
 
-V1.4 - The Spice Trade
-Extensive content:
-    - Indian colonial system
-Moderate content:
-    - Bengal
-    - Hyderabad
-    - Orissa
-    - Panjab
-
-V1.5 - The Century of Humiliation
-Extensive content:
-    - Japan
-    - China system
-Moderate content:
-    - Total Chinese rework
-    - Mongolian touch up   
-Minor content:
-    - Korea
-
-V1.6 - Glory of the Gods
+V1.4 - Glory of the Gods
 Extensive content:
     - West Indische Compagnie
     - Bolivarian Alliance
@@ -57,6 +38,24 @@ Moderate content:
     - Hanseatic League
 Minor:
     - Uruguay
+
+
+V1.5 - The Spice Trade
+Extensive content:
+    - Indian colonial system
+Moderate content:
+    - Bengal
+    - Hyderabad
+    - Orissa
+    - Panjab
+
+V1.6 - The Century of Humiliation
+Extensive content:
+    - Japan
+Moderate content:
+    - Mongolian touch up   
+Minor content:
+    - Korea
 
 V1.7 - The Final Conquest
 Moderate content:
@@ -83,6 +82,7 @@ An Empire in Crisis
 - HSE major rework
 - Bohemia rework
 - Pomerania rework
+- Burgundy rework
 
 The Commonwealth
 - Poland rework
@@ -108,3 +108,6 @@ For King and Country
 - Sweden rework
 - Teutonic Order rework
 
+Century of Humiliation
+- Chinese system
+- Total China Rework

@@ -250,3 +250,17 @@ tsardom = {
 	appoint_ruling_party = yes
 	flagType = monarchy
 }
+
+beylik = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+
+	election = yes
+	appoint_ruling_party = yes
+	flagType = monarchy
+}

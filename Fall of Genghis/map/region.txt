@@ -1194,3 +1194,7 @@ egypt_rum_lose = {}
 option_1_text = {}
 option_2_text = {}
 option_3_text = {}
+
+#Dynamic loc - Egypt Rum vassal event
+rum_vassal_yes_text = {}
+rum_vassal_no_text = {}

@@ -1,7 +1,7 @@
 country_event = {
     id = 100990
     title = "The Status of Jerusalem"
-    desc = "100990D"
+    desc = ""
     picture = Picture
     
     is_triggered_only = yes
@@ -68,11 +68,12 @@ country_event = {
                 EGY = { has_country_flag = option_3 }
             }
             EGY = {
-                EGY_921 = {
+                any_owned = {
+                    limit = {
+                        is_core = RAS
+                    }
                     secede_province = RAS
-                }
-                EGY_910 = {
-                    secede_province = RAS
+                    remove_core = EGY
                 }
             }
         }

@@ -71,6 +71,10 @@ ERE     = "countries/Byzantium.txt"
 QAJ     = "countries/Qajar.txt"
 ILK     = "countries/Ilkhanate.txt"
 
+#Egyptian Vassal States
+ANA     = "countries/Anatolia.txt"
+DUL     = "countries/Dulkadir.txt"
+
 # Formables!
 HSE		= "countries/HolySlavicEmpire.txt"
 KWS		= "countries/KingdomOfWestSlavia.txt"
