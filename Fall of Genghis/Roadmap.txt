@@ -3,7 +3,7 @@ DEVELOPED IN THE ORDER LISTED
 V1.2 - Riches of the Orient
 Extensive content:
     - Rashidun Caliphate (Concept stage)
-    - Egypt (Started)
+    - Egypt (Started, roughly 1/5th or 1/4th done)
     - Sultanate of Rum (Concept stage)
     - Persia (DONE)
         - Shia (DONE for now, will be revisited in the future.)
@@ -17,6 +17,7 @@ Minor content:
 
 V1.3 - The Great Plains
 - Rework to the starting map of North America
+- Unique colonial mechanic for N. America
 - Extensive content
     - Quebec
     - Holy Order of New Castille
@@ -39,23 +40,23 @@ Moderate content:
 Minor:
     - Uruguay
 
-
-V1.5 - The Spice Trade
-Extensive content:
-    - Indian colonial system
-Moderate content:
-    - Bengal
-    - Hyderabad
-    - Orissa
-    - Panjab
-
-V1.6 - The Century of Humiliation
+V1.5 - The Rising Sun
 Extensive content:
     - Japan
 Moderate content:
     - Mongolian touch up   
 Minor content:
     - Korea
+
+
+V1.6 - The Spice Trade
+Mechanics:
+    - Indian colonial system
+Moderate content:
+    - Bengal
+    - Hyderabad
+    - Orissa
+    - Panjab
 
 V1.7 - The Final Conquest
 Moderate content:
@@ -79,21 +80,28 @@ Updates that will be worked on when I have extra time or once I get the urge to:
 (They are also more oriented towards SP than MP)
 
 An Empire in Crisis
-- HSE major rework
-- Bohemia rework
-- Pomerania rework
+- HSE Overhaul
+- Bohemia Overhaul
+- Pomerania / Sorbian overhaul
 - Burgundy rework
 
 The Commonwealth
 - Poland rework
-- Lithuania rework
+- Lithuania overhaul
 - Polish-Lithuanian commonwealth content
+
+(heavily tied to the update above)
+
+For the Motherland
+- Russia Overhaul
+- Kievan Rus Rework
+- Ukraine Rework
 
 Liberté, Égalité, Fraternité
 - French confederation major rework
 - Post unification France rework
 
-(heavily tied to the update below)
+(tied to the update below)
 
 The 1000 Year War 
 - 1000 Year War rework
@@ -110,4 +118,27 @@ For King and Country
 
 Century of Humiliation
 - Chinese system
-- Total China Rework
+- Total China Overhaul
+- Japan Rework
+- Korea Rework
+
+The Crown of St Stephan
+- Hungary Rework
+- Serbia Rework
+- Potential Bulgar Empire rework (undecided)
+
+The Heirs to Rome
+- Italian content overhaul
+    - Venice Rework
+    - North Italian League Rework
+    - Lombardy -> Milan Rework
+    - Papal States content
+    - Provence Rework
+- Aragon Rework
+- Cappadocia Rework
+
+(tied to the update below)
+
+The Reconquista
+- Andalus Rework
+- Castille Rework
