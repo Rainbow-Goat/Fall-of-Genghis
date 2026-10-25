@@ -1951,6 +1951,17 @@ liberate_country = {
 							tag = YUG
 							#tag = ROM # TODO: shoudl we let the rest be liberated too?
 							tag = CZH
+							tag = BRG
+							tag = HSE
+							tag = HSU
+							tag = LTR
+							tag = WEF
+							tag = EAF
+							tag = KIE
+							tag = RUS
+							tag = UKR
+							tag = SPA
+							tag = PLC
 						}
 					}
 				}
@@ -1976,7 +1987,6 @@ liberate_country = {
 	}
 	all_allowed_states = yes
 	po_transfer_provinces = yes
-	po_remove_cores = yes
 
 	war_name = WAR_LIBERATE_NAME
 	

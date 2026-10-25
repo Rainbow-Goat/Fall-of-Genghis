@@ -102,27 +102,6 @@ political_decisions = {
 		}
 	}
 	
-	enact_muhammad_alis_reforms = {
-		potential = {
-			tag = EGY
-			civilized = no
-			NOT = {
-				has_country_flag = muhammad_alis_reforms_enacted
-			}
-		}
-		allow = {
-			prestige = 5
-			average_consciousness = 2
-		}
-		effect = {
-			add_country_modifier = {
-				name = muhammad_alis_reforms
-				duration = 3650
-			}
-			set_country_flag = muhammad_alis_reforms_enacted
-		}
-	}
-	
 	establish_the_dar_al_funun = {
 		potential = {
 			tag = PER

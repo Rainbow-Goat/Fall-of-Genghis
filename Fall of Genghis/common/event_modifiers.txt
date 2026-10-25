@@ -172,12 +172,6 @@ loyal_askaris = {
 	icon = 17
 }
 
-muhammad_alis_reforms = {
-	research_points_modifier = 0.5
-	pop_consciousness_modifier = 0.05
-	icon = 5
-}
-
 ##### SUFFRAGETTE MOVEMENTS #####
 
 female_suffrage = {

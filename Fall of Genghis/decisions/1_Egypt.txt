@@ -150,6 +150,7 @@ political_decisions = {
         potential = {
             tag = EGY
             has_country_flag = egypt_diyarbakir
+            NOT = { has_country_flag = egypt_anatolia }
             NOT = { has_country_flag = merchant_coup }
             NOT = { has_country_flag = embrace_africa }
             NOT = { has_country_flag = rum_vassal_yes }
@@ -173,6 +174,7 @@ political_decisions = {
         }
         effect = {
             badboy = 8
+            set_country_flag = egypt_anatolia
             TUR_894 = { add_core = THIS }
             TUR_875 = { add_core = THIS }
         }
@@ -344,6 +346,7 @@ political_decisions = {
             }
         }
         effect = {
+            set_country_flag = iraq_beylik
             random_owned = {
                 limit = {
                     owner = {
@@ -382,4 +385,87 @@ political_decisions = {
         }
     }
 
+    egypt_big_coast = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = anatolian_beylik
+            has_country_flag = trebizond_beylik
+            has_country_flag = dulkadir_beylik
+            has_country_flag = iraq_beylik
+            NOT = { has_country_flag = cleric_coup }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = big_chungus_coast }
+        }
+        allow = {
+            war = no
+            raider_group_doctrine = 1
+            ANA = { 
+                all_core = {
+                    owned_by = ANA
+                }
+            }
+            TRZ = { 
+                all_core = {
+                    owned_by = TRZ
+                }
+            }
+            DUL = { 
+                all_core = {
+                    owned_by = DUL
+                }
+            }
+            IRQ = { 
+                all_core = {
+                    owned_by = IRQ
+                }
+            }
+        }
+        effect = {
+            prestige = 30
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    869 = { 
+                        secede_province = EGY 
+                        remove_core = ANA
+                        add_core = EGY    
+                    }
+                    844 = { 
+                        secede_province = EGY 
+                        remove_core = ANA
+                        add_core = EGY 
+                    }
+                    843 = { 
+                        secede_province = EGY 
+                        remove_core = ANA
+                        add_core = EGY     
+                    }
+                    872 = { 
+                        secede_province = EGY 
+                        remove_core = ANA
+                        add_core = EGY 
+                    }
+                    875 = { 
+                        secede_province = EGY 
+                        remove_core = ANA
+                        add_core = EGY 
+                    }
+                    895 = { 
+                        secede_province = EGY 
+                        remove_core = ANA
+                        add_core = EGY 
+                    }
+                    894 = { 
+                        secede_province = EGY 
+                        remove_core = ANA
+                        add_core = EGY 
+                    }
+                }
+            }
+            clr_country_flag = hidden_tooltip
+        }
+    }
+
+    
 }
