@@ -467,5 +467,74 @@ political_decisions = {
         }
     }
 
+    egypt_tripoli = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = embrace_africa
+            NOT = { has_country_flag = egypt_tripoli }
+            NOT = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = merchant_coup }
+        }
+        allow = {
+            war = no
+            owns = 1735
+            owns = 1731
+            owns = 1725
+        }
+        effect = {
+            set_country_flag = egypt_tripoli
+            EGY_1754 = { add_core = THIS }
+            TRI_1743 = { add_core = THIS }
+            TUN_1726 = { add_core = THIS }
+        }
+    }
+
+    egypt_algeria = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_tripoli
+            NOT = { has_country_flag = egypt_algeria }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = mamluk_coup }
+        }
+        allow = {
+            war = no
+            owns = 1708
+            owns = 1700
+        }
+        effect = {
+            set_country_flag = egypt_algeria
+            FRA_1700 = { add_core = THIS }
+            ALD_1708 = { add_core = THIS }
+        }
+    }
+
+    egypt_morocco = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_algeria
+            NOT = { has_country_flag = egypt_morocco }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = mamluk_coup }
+        }
+        allow = {
+            war = no
+            owns = 1688
+            owns = 1698
+            owns = 1681
+            owns = 1691
+        }
+        effect = {
+            set_country_flag = egypt_morocco
+            MOR_1688 = { add_core = THIS }
+            MOR_1683 = { add_core = THIS }
+            MOR_1686 = { add_core = THIS }
+            MOR_1693 = { add_core = THIS }
+        }
+    }
+
     
 }

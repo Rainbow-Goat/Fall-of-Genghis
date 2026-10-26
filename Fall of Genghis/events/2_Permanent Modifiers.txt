@@ -37,3 +37,131 @@ country_event = {
         prestige = -20
     }
 }
+
+country_event = {
+    id = 101012
+    title = "The Kaaba"
+    desc = "101012D"
+    picture = Picture
+    
+    trigger = {
+        OR = {
+            has_country_flag = religion_sunni
+            has_country_flag = religion_shiite
+        }
+        OR = {
+            AND = {
+                owns = 1151
+                NOT = { has_global_flag = kaaba_stolen }
+                NOT = { has_country_modifier = owner_of_kaaba }
+            }
+            AND = {
+                owns = 2172
+                has_global_flag = kaaba_stolen
+                NOT = { has_country_modifier = owner_of_kaaba }
+            }
+        }
+    }
+
+    option = {
+        name = "Mashallah"
+        add_country_modifier = { name = owner_of_kaaba duration = -1 }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { has_global_flag = kaaba_stolen }
+                }
+            }
+            1151 = {
+                add_province_modifier = { name = kaaba duration = -1 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = kaaba_stolen
+                }
+            }
+            2172 = {
+                add_province_modifier = { name = kaaba duration = -1 }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 101013
+    title = "The Loss of the Kaaba"
+    desc = "101013"
+    picture = Picture
+    
+    trigger = {
+        OR = {
+            AND = {
+                OR = {
+                    continent = asia
+                    continent = europe
+                }
+                NOT = { owns = 1151 }
+                NOT = { has_global_flag = kaaba_stolen }
+                has_country_modifier = owner_of_kaaba
+            }
+            AND = {
+                continent = north_america
+                NOT = { owns = 2172 }
+                has_global_flag = kaaba_stolen
+                has_country_modifier = owner_of_kaaba
+            }
+        }
+    }
+
+    option = {
+        name = "Has Allah abandoned us?"
+        remove_country_modifier = owner_of_kaaba
+        prestige = -50
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { has_global_flag = kaaba_stolen }
+                }
+            }
+            1151 = {
+                remove_province_modifier = kaaba
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = kaaba_stolen
+                }
+            }
+            2172 = {
+                remove_province_modifier = kaaba
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 101014
+    title = "The Kaaba was stolen...?"
+    desc = "101014D"
+    picture = Picture
+    
+    trigger = {
+        AND = {
+            owns = 1151
+            has_global_flag = kaaba_stolen
+            has_country_modifier = owner_of_kaaba
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "How the fuck did they do that"
+        remove_country_modifier = owner_of_kaaba
+        1151 = { remove_province_modifier = kaaba }
+        prestige = -50
+    }
+}

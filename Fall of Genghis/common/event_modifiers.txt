@@ -872,6 +872,22 @@ constantinople_country = {
 	icon = 7
 }
 
+owner_of_kaaba = {
+	prestige = 0.1
+	diplomatic_points_modifier = 0.5
+	influence_modifier = 0.5
+	core_pop_militancy_modifier = -0.2
+	core_pop_consciousness_modifier = -0.2
+	global_immigrant_attract = 0.5
+	tax_efficiency = 0.1
+	icon = 7
+}
+
+kaaba = {
+	immigrant_attract = 0.5
+	icon = 9
+}
+
 muslim_alignment_changed = {
 	global_pop_consciousness_modifier = 0.01
 	icon = 4
