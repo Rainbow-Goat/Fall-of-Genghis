@@ -160,4 +160,85 @@ political_decisions = {
             change_variable = { which = egy_cleric_status value = -5 }
         }
     }
+
+    egypt_purge_military_dbug = {
+        potential = {
+            tag = EGY
+            ai = no
+            has_country_flag = show_debug
+            has_country_flag = egypt_faction_system
+            NOT = { has_country_flag = egy_military_purged }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            set_country_flag = egy_military_purged
+        }
+    }
+
+    egypt_purge_merchant_dbug = {
+        potential = {
+            tag = EGY
+            ai = no
+            has_country_flag = show_debug
+            has_country_flag = egypt_faction_system
+            NOT = { has_country_flag = egy_merchant_purged }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            set_country_flag = egy_merchant_purged
+        }
+    }
+
+    egypt_purge_clerk_dbug = {
+        potential = {
+            tag = EGY
+            ai = no
+            has_country_flag = show_debug
+            has_country_flag = egypt_faction_system
+            NOT = { has_country_flag = egy_cleric_purged }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            set_country_flag = egy_cleric_purged
+        }
+    }
+
+    egypt_central_dbug = {
+        potential = {
+            tag = EGY
+            ai = no
+            has_country_flag = show_debug
+            has_country_flag = egypt_faction_system
+            NOT = { has_country_flag = egypt_central_authority }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            set_country_flag = egypt_central_authority
+            set_variable = { which = egypt_authority value = 0 }
+        }
+    }
+
+    egypt_central_boost_dbug = {
+        potential = {
+            tag = EGY
+            ai = no
+            has_country_flag = show_debug
+            has_country_flag = egypt_faction_system
+            has_country_flag = egypt_central_authority
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            change_variable = { which = egypt_authority value = 5 }
+        }
+    }
 }

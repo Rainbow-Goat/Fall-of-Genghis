@@ -1,0 +1,550 @@
+political_decisions = {
+    show_faction_content = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            NOT = { has_country_flag = show_faction_stuff }
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            set_country_flag = show_faction_stuff
+        }
+    }
+
+    hide_faction_content = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            ai = no
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            clr_country_flag = show_faction_stuff
+        }
+    }
+
+    purge_the_clerics = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_central_authority
+            AND = {
+                NOT = { has_country_flag = cleric_coup }
+                NOT = { has_country_flag = mamluk_coup }
+                NOT = { has_country_flag = merchant_coup }
+            }
+            NOT = { has_country_flag = egy_cleric_purged }
+        }
+        allow = {
+            war = no
+            ruling_party_ideology = conservative
+            OR = {
+                check_variable = { which = egypt_authority value = 10 }
+                check_variable = { which = egy_military_status value = 10 }
+            }
+        }
+        effect = {
+            set_country_flag = egy_cleric_purged
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_modifier = sharia_law
+                    }
+                }
+                owner = {
+                    remove_country_modifier = sharia_law
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_modifier = egypt_tight_censorship
+                    }
+                }
+                owner = {
+                    remove_country_modifier = egypt_tight_censorship
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = {
+                            check_variable = { which = egypt_authority value = 10 }
+                        }
+                    }
+                }
+                owner = {
+                    change_variable = { which = egy_military_status value = -4 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        check_variable = { which = egypt_authority value = 10 }
+                    }
+                }
+                owner = {
+                    change_variable = { which = egypt_authority value = -10 }
+                }
+            }
+        }
+    }
+
+    purge_the_nobility = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_central_authority
+            AND = {
+                NOT = { has_country_flag = cleric_coup }
+                NOT = { has_country_flag = mamluk_coup }
+                NOT = { has_country_flag = merchant_coup }
+            }
+            NOT = { has_country_flag = egy_military_purged }
+        }
+        allow = {
+            war = no
+            ruling_party_ideology = liberal
+            OR = {
+                check_variable = { which = egypt_authority value = 10 }
+                check_variable = { which = egy_merchant_status value = 10 }
+            }
+        }
+        effect = {
+            set_country_flag = egy_military_purged
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = {
+                            check_variable = { which = egypt_authority value = 10 }
+                        }
+                    }
+                }
+                owner = {
+                    change_variable = { which = egy_merchant_status value = -4 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        check_variable = { which = egypt_authority value = 10 }
+                    }
+                }
+                owner = {
+                    change_variable = { which = egypt_authority value = -10 }
+                }
+            }
+        }
+    }
+
+    purge_the_merchants = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_central_authority
+            AND = {
+                NOT = { has_country_flag = cleric_coup }
+                NOT = { has_country_flag = mamluk_coup }
+                NOT = { has_country_flag = merchant_coup }
+            }
+            NOT = { has_country_flag = egy_merchant_purged }
+        }
+        allow = {
+            war = no
+            ruling_party_ideology = reactionary
+            OR = {
+                check_variable = { which = egypt_authority value = 10 }
+                check_variable = { which = egy_cleric_status value = 10 }
+            }
+        }
+        effect = {
+            set_country_flag = egy_merchant_purged
+            random_owned = {
+                limit = {
+                    owner = {
+                        NOT = {
+                            check_variable = { which = egypt_authority value = 10 }
+                        }
+                    }
+                }
+                owner = {
+                    change_variable = { which = egy_cleric_status value = -4 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        check_variable = { which = egypt_authority value = 10 }
+                    }
+                }
+                owner = {
+                    change_variable = { which = egypt_authority value = -10 }
+                }
+            }
+        }
+    }
+
+    university_of_cairo = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_flag = cairo_university }
+        }
+        allow = {
+            war = no
+            owns = 1745
+            OR = {
+                education_reform = yes_education_reform
+                malthusian_thought = 1
+            }
+        }
+        effect = {
+            set_country_flag = cairo_university
+            research_points = 2000
+            change_variable = { which = egy_merchant_status value = 3 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = merchant_coup
+                    }
+                }
+                owner = {
+                    add_country_modifier = { name = cairo_university_merchant duration = 7305 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = mamluk_coup
+                    }
+                }
+                owner = {
+                    add_country_modifier = { name = cairo_university_military duration = 7305 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = cleric_coup
+                    }
+                }
+                owner = {
+                    add_country_modifier = { name = cairo_university_cleric duration = 7305 }
+                }
+            }
+        }
+    }
+
+    allow_the_printing_press = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_flag = egy_merchant_purged }
+            NOT = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = cleric_coup }
+            NOT = { has_country_flag = printing_press }
+        }
+        allow = {
+            OR = {
+                admin_reform = yes_admin_reform
+                enlightenment_thought = 1
+            }
+        }
+        effect = {
+            set_country_flag = printing_press
+            research_points = 2000
+            add_country_modifier = { name = the_printing_press duration = 1826 }
+            change_variable = { which = egy_merchant_status value = 3 }
+            change_variable = { which = egy_military_status value = 1 }
+            change_variable = { which = egy_cleric_status value = -3 }
+        }
+    }
+
+    egypt_end_slavery = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            has_country_flag = egyptian_slavery
+            slavery = yes_slavery
+            NOT = { has_country_flag = egy_merchant_purged }
+            NOT = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = cleric_coup }
+        }
+        allow = {
+            war = no
+            slavery = yes_slavery
+            enlightenment_thought = 1
+        }
+        effect = {
+            slavery = no_slavery
+            clr_country_flag = egyptian_slavery
+            change_variable = { which = egy_merchant_status value = 2 }
+            change_variable = { which = egy_military_status value = -2 }
+            change_variable = { which = egy_cleric_status value = -1 }
+        }
+    }
+
+    egypt_enact_land_reform = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_flag = land_reformed }
+            NOT = { has_country_flag = egy_merchant_purged }
+            NOT = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = cleric_coup }
+        }
+        allow = {
+            war = no
+            OR = {
+                AND = {
+                    land_reform = yes_land_reform
+                    admin_reform = yes_admin_reform
+                }
+                civilized = yes
+            }
+        }
+        effect = {
+            set_country_flag = land_reformed
+            add_country_modifier = { name = egyptian_land_reform duration = 5478 }
+            change_variable = { which = egy_merchant_status value = 3 }
+            change_variable = { which = egy_military_status value = -3 }
+            change_variable = { which = egy_cleric_status value = -1 }
+        }
+    }
+
+    egypt_create_parliament = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            OR = {
+                vote_franschise = none_voting
+                upper_house_composition = party_appointed
+            }
+            civilized = yes
+            NOT = { has_country_flag = egy_merchant_purged }
+            NOT = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = cleric_coup }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+        }
+        effect = {
+            random_owned = {
+                limit = {
+                    owner = {
+                        vote_franschise = none_voting
+                    }
+                }
+                owner = {
+                    vote_franschise = landed_voting
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        upper_house_composition = party_appointed
+                    }
+                }
+                owner = {
+                    upper_house_composition = appointed
+                }
+            }
+            change_variable = { which = egy_merchant_status value = 5 }
+            change_variable = { which = egy_military_status value = -2 }
+            change_variable = { which = egy_cleric_status value = -2 }
+            change_variable = { which = egypt_authority value = -2 }
+        }
+    }
+
+    egypt_military_reforms = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_flag = military_reformed }
+            NOT = { has_country_flag = egy_military_purged }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = cleric_coup }
+        }
+        allow = {
+            war = no
+            OR = {
+                foreign_officers = yes_foreign_officers
+                AND = {
+                    civilized = yes
+                    post_napoleonic_thought = 1
+                }
+            }
+        }
+        effect = {
+            set_country_flag = military_reformed
+            leadership = 60
+            add_country_modifier = { name = egypt_military_reform duration = 3652 }
+            change_variable = { which = egy_merchant_status value = -2 }
+            change_variable = { which = egy_military_status value = 3 }
+            change_variable = { which = egy_cleric_status value = -1 }
+        }
+    }
+
+    egypt_naval_reforms = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_flag = navy_reformed }
+            NOT = { has_country_flag = egy_military_purged }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = cleric_coup }
+        }
+        allow = {
+            war = no
+            total_amount_of_ships = 50
+            total_num_of_ports = 12
+        }
+        effect = {
+            set_country_flag = navy_reformed
+            add_country_modifier = { name = egypt_navy_reform duration = 3652 }
+            change_variable = { which = egy_merchant_status value = 2 }
+            change_variable = { which = egy_military_status value = 2 }
+            change_variable = { which = egy_cleric_status value = -2 }
+        }
+    }
+
+    egypt_declare_sharia_law = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_modifier = sharia_law }
+            NOT = { has_country_flag = egy_cleric_purged }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = mamluk_coup }            
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            add_country_modifier = { name = sharia_law duration = -1 }
+            change_variable = { which = egy_merchant_status value = -3 }
+            change_variable = { which = egy_military_status value = -1 }
+            change_variable = { which = egy_cleric_status value = 3 }
+        }
+    }
+
+    egypt_no_sex = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_modifier = egypt_no_sex }
+            NOT = { has_country_flag = egy_cleric_purged }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = mamluk_coup }             
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            add_country_modifier = { name = egypt_no_sex duration = 1826 }
+            change_variable = { which = egy_merchant_status value = -1 }
+            change_variable = { which = egy_military_status value = -1 }
+            change_variable = { which = egy_cleric_status value = 3 }
+        }
+    }
+
+    egypt_tight_censorship = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            NOT = { has_country_flag = egypt_end_censorship }
+            NOT = { has_country_modifier = egypt_tight_censorship }
+            NOT = { has_country_flag = egy_cleric_purged }
+            NOT = { has_country_flag = merchant_coup }
+            NOT = { has_country_flag = mamluk_coup }               
+        }
+        allow = {
+            religious_policy = moralism
+            OR = {
+                has_country_modifier = the_printing_press
+                ideological_thought = 1
+            }
+        }
+        effect = {
+            add_country_modifier = { name = egypt_tight_censorship duration = -1 }
+            change_variable = { which = egy_merchant_status value = -2 }
+            change_variable = { which = egy_military_status value = 1 }
+            change_variable = { which = egy_cleric_status value = 3 }
+        }
+    }
+
+    egypt_end_censorship = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = show_faction_stuff
+            has_country_modifier = egypt_tight_censorship
+            NOT = { has_country_flag = cleric_coup }
+            NOT = { has_country_flag = egy_merchant_purged }
+            NOT = { has_country_flag = mamluk_coup } 
+        }
+        allow = {
+            has_country_modifier = egypt_tight_censorship
+            secularization = 1
+        }
+        effect = {
+            remove_country_modifier = egypt_tight_censorship
+            change_variable = { which = egy_merchant_status value = 2 }
+            change_variable = { which = egy_military_status value = 1 }
+            change_variable = { which = egy_cleric_status value = -2 }
+        }
+    }
+
+    egypt_sultan_power = {
+        picture = picture
+        potential = {
+            tag = EGY
+            has_country_flag = egypt_faction_system
+            has_country_flag = egypt_central_authority
+            NOT = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = cleric_coup }
+            NOT = { has_country_flag = merchant_coup }
+        }
+        allow = {
+            war = no
+            NOT = { has_country_modifier = sultan_power_cd }
+        }
+        effect = {
+            badboy = 2
+            change_variable = { which = egypt_authority value = 2 }
+            add_country_modifier = { name = sultan_power_cd duration = 1095 }
+        }
+    }
+
+
+
+}

@@ -422,14 +422,6 @@ colonialmigration_chance =
 		}
 	}
 
-
-	modifier = {
-		factor = -0.3
-		state_scope = {
-			has_factories = yes
-			}
-	}
-
 	group = {
 		modifier = {
 			factor = 0.3
@@ -587,7 +579,7 @@ assimilation_chance =
 	}
 
 	modifier = {
-    	factor = -20
+    	factor = -17
 		has_culture_core = yes
 	}
 	modifier = {
@@ -616,8 +608,16 @@ assimilation_chance =
 			luxury_needs = 0.9
 		}
 		modifier = {
+			factor = 0.1
+			luxury_needs = 0.8
+		}
+		modifier = {
 			factor = 0.2
 			luxury_needs = 0.7
+		}
+		modifier = {
+			factor = 0.1
+			luxury_needs = 0.6
 		}
 		modifier = {
 			factor = 0.2

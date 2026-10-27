@@ -878,7 +878,6 @@ owner_of_kaaba = {
 	influence_modifier = 0.5
 	core_pop_militancy_modifier = -0.2
 	core_pop_consciousness_modifier = -0.2
-	global_immigrant_attract = 0.5
 	tax_efficiency = 0.1
 	icon = 7
 }
@@ -1060,3 +1059,87 @@ timurs_reforms = {
 	global_pop_militancy_modifier = 0.15
 	global_pop_consciousness_modifier = 0.15
 }
+
+cairo_university_merchant = {
+	education_efficiency_modifier = 0.3
+	research_points_modifier = 0.08
+	commerce_tech_research_bonus = 0.2
+	culture_tech_research_bonus = 0.15
+	navy_tech_research_bonus = 0.1
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.1
+}
+
+cairo_university_merchant_censored = {
+	education_efficiency_modifier = 0.1
+	research_points_modifier = 0.04
+	commerce_tech_research_bonus = 0.1
+	culture_tech_research_bonus = 0.05
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+}
+
+cairo_university_military = {
+	education_efficiency_modifier = 0.1
+	research_points_modifier = 0.04
+	army_tech_research_bonus = 0.3
+	navy_tech_research_bonus = 0.3
+}
+
+cairo_university_cleric = {
+	education_efficiency_modifier = 0.4
+	research_points_modifier = 0.02
+	industry_tech_research_bonus = -0.05
+	army_tech_research_bonus = -0.05
+	navy_tech_research_bonus = -0.05
+	commerce_tech_research_bonus = -0.05
+	culture_tech_research_bonus = -0.05
+	global_pop_militancy_modifier = -0.1
+	global_pop_consciousness_modifier = -0.1
+}
+
+the_printing_press = {
+	education_efficiency_modifier = 0.2
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.1
+}
+
+egyptian_land_reform = {
+	global_population_growth = 0.01
+	rgo_output = 0.1
+	core_pop_militancy_modifier = -0.1
+	core_pop_consciousness_modifier = -0.1
+	administrative_efficiency_modifier = -0.08
+}
+
+egypt_military_reform = {
+	army_tech_research_bonus = 0.1
+	cb_generation_speed_modifier = 0.2
+	land_unit_start_experience = 15
+	leadership_modifier = 0.3
+}
+
+egypt_navy_reform = {
+	navy_tech_research_bonus = 0.1
+	naval_unit_start_experience = 20
+	naval_organisation = 0.05
+}
+
+sharia_law = {
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	political_reform_desire = 0.2
+	administrative_efficiency_modifier = 0.1
+}
+
+egypt_no_sex = {
+	global_population_growth = -0.01
+}
+
+egypt_tight_censorship = {
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = -0.15
+	education_efficiency_modifier = -0.07
+}
+
+sultan_power_cd = {}

@@ -218,10 +218,10 @@ political_reforms = {
 			rules = { slavery_allowed = no }
 			allow = { 
 				OR = {
-					NOT = { 
-						has_country_flag = the_slavery_debate
+					NOT = {
+						has_country_flag = egyptian_slavery
 					}
-					year = 1875
+					has_country_flag = egy_merchant_purged
 				}
 			}
 

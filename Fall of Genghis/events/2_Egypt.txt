@@ -16,6 +16,7 @@ country_event = {
         set_variable = { which = egy_merchant_status value = 0 }
         set_variable = { which = egy_military_status value = 0 }
         set_variable = { which = egy_cleric_status value = 0 }
+        set_variable = { which = egypt_authority value = 0 }
     }
 }
 
@@ -32,6 +33,7 @@ country_event = {
             limit = {
                 owner = {
                     check_variable = { which = egy_military_status value = 5 }
+                    NOT = { has_country_flag = egy_military_purged }
                 }
             }
             owner = {
@@ -44,6 +46,7 @@ country_event = {
                     AND = {
                         check_variable = { which = egy_military_status value = -4 }
                         NOT = { check_variable = { which = egy_military_status value = 5 } }
+                        NOT = { has_country_flag = egy_military_purged }
                     }
                 }
             }
@@ -55,6 +58,7 @@ country_event = {
             limit = {
                 owner = {
                     NOT = { check_variable = { which = egy_military_status value = -4 } }
+                    NOT = { has_country_flag = egy_military_purged }
                 }
             }
             owner = {
@@ -64,7 +68,18 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
+                    has_country_flag = egy_military_purged
+                }
+            }
+            owner = {
+                egypt_military_dead = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
                     check_variable = { which = egy_merchant_status value = 5 }
+                    NOT = { has_country_flag = egy_merchant_purged }
                 }
             }
             owner = {
@@ -77,6 +92,7 @@ country_event = {
                     AND = {
                         check_variable = { which = egy_merchant_status value = -4 }
                         NOT = { check_variable = { which = egy_merchant_status value = 5 } }
+                        NOT = { has_country_flag = egy_merchant_purged }
                     }
                 }
             }
@@ -88,6 +104,7 @@ country_event = {
             limit = {
                 owner = {
                     NOT = { check_variable = { which = egy_merchant_status value = -4 } }
+                    NOT = { has_country_flag = egy_merchant_purged }
                 }
             }
             owner = {
@@ -97,7 +114,18 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
+                    has_country_flag = egy_merchant_purged
+                }
+            }
+            owner = {
+                egypt_merchant_dead = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
                     check_variable = { which = egy_cleric_status value = 5 }
+                    NOT = { has_country_flag = egy_cleric_purged }
                 }
             }
             owner = {
@@ -110,6 +138,7 @@ country_event = {
                     AND = {
                         check_variable = { which = egy_cleric_status value = -4 }
                         NOT = { check_variable = { which = egy_cleric_status value = 5 } }
+                        NOT = { has_country_flag = egy_cleric_purged }
                     }
                 }
             }
@@ -121,10 +150,92 @@ country_event = {
             limit = {
                 owner = {
                     NOT = { check_variable = { which = egy_cleric_status value = -4 } }
+                    NOT = { has_country_flag = egy_cleric_purged }
                 }
             }
             owner = {
                 egypt_cleric_disloyal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = egy_cleric_purged
+                }
+            }
+            owner = {
+                egypt_cleric_dead = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = egypt_central_authority
+                    check_variable = { which = egypt_authority value = 0 }
+                    NOT = { check_variable = { which = egypt_authority value = 5 } }
+                    NOT = {
+                        AND = {
+                            has_country_flag = egy_military_purged
+                            has_country_flag = egy_merchant_purged
+                            has_country_flag = egy_cleric_purged
+                        }
+                    }
+                }
+            }
+            owner = {
+                egypt_central_low = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = egypt_central_authority
+                    check_variable = { which = egypt_authority value = 5 }
+                    NOT = { check_variable = { which = egypt_authority value = 9 } }
+                    NOT = {
+                        AND = {
+                            has_country_flag = egy_military_purged
+                            has_country_flag = egy_merchant_purged
+                            has_country_flag = egy_cleric_purged
+                        }
+                    }
+                }
+            }
+            owner = {
+                egypt_central_medium = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = egypt_central_authority
+                    check_variable = { which = egypt_authority value = 10 }
+                    NOT = {
+                        AND = {
+                            has_country_flag = egy_military_purged
+                            has_country_flag = egy_merchant_purged
+                            has_country_flag = egy_cleric_purged
+                        }
+                    }
+                }
+            }
+            owner = {
+                egypt_central_high = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_country_flag = egypt_central_authority
+                    AND = {
+                        has_country_flag = egy_military_purged
+                        has_country_flag = egy_merchant_purged
+                        has_country_flag = egy_cleric_purged
+                    }
+                }
+            }
+            owner = {
+                egypt_central_absolute = {}
             }
         }
     }
@@ -167,6 +278,7 @@ country_event = {
         tag = EGY
         war = no
         NOT = { check_variable = { which = egy_military_status value = -9 } }
+        NOT = { has_country_flag = egy_military_purged }
         NOT = {
             OR = {
                 has_country_flag = merchant_coup
@@ -179,7 +291,6 @@ country_event = {
 
     option = {
         name = "Untrustworthy snakes!"
-        government = sultanate
         set_country_flag = mamluk_coup
         prestige = -40
         war_exhaustion = 10
@@ -196,6 +307,7 @@ country_event = {
         tag = EGY
         war = no
         NOT = { check_variable = { which = egy_merchant_status value = -9 } }
+        NOT = { has_country_flag = egy_merchant_purged }
         NOT = {
             OR = {
                 has_country_flag = mamluk_coup
@@ -225,6 +337,7 @@ country_event = {
         tag = EGY
         war = no
         NOT = { check_variable = { which = egy_cleric_status value = -9 } }
+        NOT = { has_country_flag = egy_cleric_purged }
         NOT = {
             OR = {
                 has_country_flag = mamluk_coup
@@ -241,71 +354,6 @@ country_event = {
         set_country_flag = cleric_coup
         prestige = -40
         war_exhaustion = 10
-    }
-}
-
-country_event = {
-    id = 100956
-    title = "The Road to Greater Egypt"
-    desc = "100956D"
-    picture = Picture
-    
-    is_triggered_only = yes
-    fire_only_once = yes
-
-    immediate = {
-        random_owned = {
-            limit = {
-                878 = {
-                    owned_by = RUM
-                }
-            }
-            owner = {
-                egypt_rum_win = {}
-            }
-        }
-        random_owned = {
-            limit = {
-                878 = {
-                    owned_by = CAP
-                }
-            }
-            owner = {
-                egypt_rum_lose = {}
-            }
-        }
-    }
-
-    option = {
-        name = "The lands of Africa will be converted"
-        set_country_flag = embrace_africa
-        change_variable = { which = egy_military_status value = -3 }
-        change_variable = { which = egy_cleric_status value = 3 }
-        change_variable = { which = egy_merchant_status value = 1 }
-        
-        ai_chance = {
-            factor = 1
-            modifier = {
-                factor = 2
-                NOT = { has_country_flag = egypt_defy_rashidun }
-            }
-        }
-    }
-    
-    option = {
-        name = "The Levant must be secured"
-        set_country_flag = egypt_orient_path
-        change_variable = { which = egy_military_status value = 3 }
-        change_variable = { which = egy_cleric_status value = -3 }
-        change_variable = { which = egy_merchant_status value = -1 }
-        
-        ai_chance = {
-            factor = 1
-            modifier = {
-                factor = 2
-                has_country_flag = egypt_defy_rashidun
-            }
-        }
     }
 }
 
@@ -413,6 +461,117 @@ country_event = {
             }
             TUR_875 = { add_core = ANA }
             TUR_894 = { add_core = ANA }
+        }
+    }
+}
+
+country_event = {
+    id = 100956
+    title = "The Curriculum at the University of Cairo"
+    desc = "100956D"
+    picture = Picture
+    
+    trigger = {
+        tag = EGY
+        has_country_flag = cairo_university
+        NOT = {
+            has_country_flag = cleric_coup
+            has_country_flag = mamluk_coup
+            has_country_flag = merchant_coup
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Economics, history and the arts"
+        change_variable = { which = egy_merchant_status value = 1 }
+        change_variable = { which = egy_military_status value = -1 }
+        change_variable = { which = egy_cleric_status value = -3 }
+        add_country_modifier = { name = cairo_university_merchant duration = 7305 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                NOT = { check_variable = { which = egy_merchant_status value = -4 } }
+            }
+            modifier = {
+                factor = -2
+                NOT = { check_variable = { which = egy_cleric_status value = -4 } }
+            }
+        }
+    }
+
+    option = {
+        name = "History and economics, but it will be censored if needed"
+        change_variable = { which = egy_merchant_status value = -1 }
+        change_variable = { which = egy_military_status value = -1 }
+        change_variable = { which = egy_cleric_status value = 1 }
+        add_country_modifier = { name = cairo_university_merchant_censored duration = 7305 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+                NOT = { check_variable = { which = egy_military_status value = -4 } }
+            }
+            modifier = {
+                factor = 1
+                NOT = { check_variable = { which = egy_cleric_status value = -4 } }
+            }
+            modifier = {
+                factor = 1
+                NOT = { check_variable = { which = egy_merchant_status value = -4 } }
+            }
+        }
+    }
+    
+    option = {
+        name = "Military history, tactics and science"
+        change_variable = { which = egy_merchant_status value = -2 }
+        change_variable = { which = egy_military_status value = 3 }
+        change_variable = { which = egy_cleric_status value = -2 }
+        add_country_modifier = { name = cairo_university_military duration = 7305 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                NOT = { check_variable = { which = egy_military_status value = -4 } }
+            }
+            modifier = {
+                factor = -2
+                NOT = { check_variable = { which = egy_cleric_status value = -4 } }
+            }
+            modifier = {
+                factor = -2
+                NOT = { check_variable = { which = egy_merchant_status value = -4 } }
+            }
+        }
+    }
+
+    option = {
+        name = "The teachings of the Quran and how to live a pious life"
+        change_variable = { which = egy_merchant_status value = -3 }
+        change_variable = { which = egy_military_status value = -1 }
+        change_variable = { which = egy_cleric_status value = 5 }
+        add_country_modifier = { name = cairo_university_cleric duration = 7305 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                NOT = { check_variable = { which = egy_cleric_status value = -4 } }
+            }
+            modifier = {
+                factor = -2
+                NOT = { check_variable = { which = egy_merchant_status value = -4 } }
+            }
         }
     }
 }

@@ -14,19 +14,24 @@ political_decisions = {
         }
     }
 
-    egypt_path_select = {
+    egypt_kingdom = {
         picture = picture
         potential = {
             tag = EGY
-            NOT = { has_country_flag = path_selected }
-            has_global_flag = rum_vs_cappadocia_end
+            government = sultanate
+            NOT = { has_country_flag = mamluk_coup }
         }
         allow = {
             war = no
+            civilized = yes
         }
         effect = {
-            country_event = { id = 100956 days = -1 }
-            set_country_flag = path_selected
+            government = absolute_monarchy
+            set_country_flag = egypt_central_authority
+            change_variable = { which = egypt_authority value = 2 }
+            change_variable = { which = egy_merchant_status value = -1 }
+            change_variable = { which = egy_military_status value = -1 }
+            change_variable = { which = egy_cleric_status value = -1 }
         }
     }
 
@@ -52,7 +57,6 @@ political_decisions = {
                     }
                 }
             }
-            NOT = { has_country_flag = embrace_africa }
             OR = {
                 RUM = { has_country_flag = rum_defy_rashidun }
                 has_country_flag = egypt_defy_rashidun
@@ -87,6 +91,7 @@ political_decisions = {
                 }
             }
             change_variable = { which = egy_merchant_status value = -1 }
+            change_variable = { which = egy_military_status value = 2 }
         }
     }
 
@@ -108,7 +113,6 @@ political_decisions = {
                     RUM = { has_country_flag = rum_defy_rashidun }
                 }
             }
-            NOT = { has_country_flag = embrace_africa }
             NOT = { has_country_flag = rum_vassal_yes }
             NOT = { has_country_flag = egypt_overlord_path }
         }
@@ -132,6 +136,7 @@ political_decisions = {
             SEL_899 = { add_core = THIS }
             badboy = 5
             change_variable = { which = egy_merchant_status value = -1 }
+            change_variable = { which = egy_military_status value = 2 }
             random_owned = {
                 limit = {
                     owner = {
@@ -152,7 +157,6 @@ political_decisions = {
             has_country_flag = egypt_diyarbakir
             NOT = { has_country_flag = egypt_anatolia }
             NOT = { has_country_flag = merchant_coup }
-            NOT = { has_country_flag = embrace_africa }
             NOT = { has_country_flag = rum_vassal_yes }
             NOT = { has_country_flag = egypt_overlord_path }
         }
@@ -177,6 +181,31 @@ political_decisions = {
             set_country_flag = egypt_anatolia
             TUR_894 = { add_core = THIS }
             TUR_875 = { add_core = THIS }
+            change_variable = { which = egy_merchant_status value = -2 }
+            change_variable = { which = egy_military_status value = 2 }
+            random_owned = {
+                limit = {
+                    owner = {
+                        has_country_flag = egypt_defy_rashidun
+                        878 = { owned_by = RUM }
+                        NOT = { RUM = { has_country_flag = rum_defy_rashidun } }
+                    }
+                }
+                owner = {
+                    change_variable = { which = egy_cleric_status value = -3 }
+                }
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        878 = { owned_by = CAP }
+                        has_global_flag = jihad_vs_cappadocia
+                    }
+                }
+                owner = {
+                    change_variable = { which = egy_cleric_status value = 3 }
+                }
+            }
         }
     }
 
@@ -213,7 +242,13 @@ political_decisions = {
             has_country_flag = egypt_overlord_path
             NOT = { has_country_flag = anatolian_beylik }
             NOT = { has_country_flag = merchant_coup }
-            NOT = { has_country_flag = cleric_coup }
+            OR = {
+                NOT = { has_country_flag = cleric_coup }
+                AND = {
+                    has_country_flag = cleric_coup
+                    has_global_flag = jihad_vs_cappadocia
+                }
+            } 
         }
         allow = {
             war = no
@@ -260,6 +295,7 @@ political_decisions = {
             876 = { add_core = ANA }
             881 = { add_core = ANA }
             set_country_flag = anatolian_beylik
+            change_variable = { which = egypt_authority value = 1 }
         }
     }
 
@@ -270,7 +306,13 @@ political_decisions = {
             has_country_flag = egypt_overlord_path
             NOT = { has_country_flag = trebizond_beylik }
             NOT = { has_country_flag = merchant_coup }
-            NOT = { has_country_flag = cleric_coup }
+            OR = {
+                NOT = { has_country_flag = cleric_coup }
+                AND = {
+                    has_country_flag = cleric_coup
+                    has_global_flag = jihad_vs_cappadocia
+                }
+            } 
         }
         allow = {
             war = no
@@ -284,8 +326,10 @@ political_decisions = {
                 government = beylik
                 TUR_884 = { add_core = THIS }
                 set_country_flag = religion_sunni
+                civilized = yes
             }
             set_country_flag = trebizond_beylik
+            change_variable = { which = egypt_authority value = 1 }
         }
     }
 
@@ -310,6 +354,8 @@ political_decisions = {
             ARM_889 = { add_core = DUL }
             release_vassal = DUL
             set_country_flag = dulkadir_beylik
+            DUL = { civilized = yes }
+            change_variable = { which = egypt_authority value = 1 }
         }
     }
 
@@ -382,6 +428,15 @@ political_decisions = {
                     }
                 }
             }
+            random_owned = {
+                limit = {
+                    IRQ = {
+                        civilized = no
+                    }
+                }
+                IRQ = { civilized = yes }
+            }
+            change_variable = { which = egypt_authority value = 1 }
         }
     }
 
@@ -422,6 +477,7 @@ political_decisions = {
             }
         }
         effect = {
+            set_country_flag = big_chungus_coast
             prestige = 30
             set_country_flag = hidden_tooltip
             random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
@@ -467,6 +523,27 @@ political_decisions = {
         }
     }
 
+    egypt_embrace_africa = {
+        picture = picture
+        potential = {
+            tag = EGY
+            NOT = { has_country_flag = embrace_africa }
+            NOT = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = merchant_coup }
+        }
+        allow = {
+            war = no
+            check_variable = { which = egy_cleric_status value = 5 }
+        }
+        effect = {
+            set_country_flag = embrace_africa
+            badboy = 5
+            change_variable = { which = egypt_military_status value = -2 }
+            change_variable = { which = egypt_merchant_status value = 1 }
+            change_variable = { which = egypt_cleric_status value = 3 }
+        }
+    }
+
     egypt_tripoli = {
         picture = picture
         potential = {
@@ -487,6 +564,8 @@ political_decisions = {
             EGY_1754 = { add_core = THIS }
             TRI_1743 = { add_core = THIS }
             TUN_1726 = { add_core = THIS }
+            change_variable = { which = egypt_military_status value = -1 }
+            change_variable = { which = egypt_cleric_status value = 2 }
         }
     }
 
@@ -508,6 +587,8 @@ political_decisions = {
             set_country_flag = egypt_algeria
             FRA_1700 = { add_core = THIS }
             ALD_1708 = { add_core = THIS }
+            change_variable = { which = egypt_military_status value = -1 }
+            change_variable = { which = egypt_cleric_status value = 2 }
         }
     }
 
@@ -533,8 +614,180 @@ political_decisions = {
             MOR_1683 = { add_core = THIS }
             MOR_1686 = { add_core = THIS }
             MOR_1693 = { add_core = THIS }
+            change_variable = { which = egypt_military_status value = -1 }
+            change_variable = { which = egypt_cleric_status value = 3 }
         }
     }
 
+    egypt_ethiopia = {
+        picture = picture
+        potential = {
+            tag = EGY
+            NOT = { has_country_flag = egypt_ethiopia }
+            NOT = { has_country_flag = merchant_coup }
+        }
+        allow = {
+            war = no
+            owns = 1852
+            owns = 1863
+            owns = 1859
+        }
+        effect = {
+            prestige = 20
+            change_variable = { which = egypt_authority value = 2 }
+            ETH_1854 = { add_core = THIS }
+            ETH_1864 = { add_core = THIS }
+            ETH_1867 = { add_core = THIS }
+        }
+    }
+
+    egypt_sand_1 = {
+        picture = picture
+        potential = {
+            tag = EGY
+            NOT = { year = 1870 }
+            has_country_flag = egypt_tripoli
+            NOT = { has_country_flag = egypt_sand_1 }
+            NOT = { has_country_flag = mamluk_coup }
+        }
+        allow = {
+            war = no
+            money = 500000
+            medicine = 1
+            owns = 1741
+            owns = 1740
+        }
+        effect = {
+            set_country_flag = egypt_sand_1
+            treasury = -500000
+            1739 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 5
+                reduce_pop = 3
+            }
+            2585 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 5
+                reduce_pop = 3
+            }
+            1758 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 10
+                reduce_pop = 3
+            }
+            1759 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 10
+                reduce_pop = 3
+            }
+            1760 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 10
+                reduce_pop = 3
+            }
+            1761 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 10
+                reduce_pop = 3
+            }
+            1835 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 15
+                reduce_pop = 3
+            }
+            2564 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 15
+                reduce_pop = 3
+            }
+        }
+    }
+
+    egypt_sand_2 = {
+        picture = picture
+        potential = {
+            tag = EGY
+            NOT = { year = 1870 }
+            has_country_flag = egypt_tripoli
+            has_country_flag = egypt_algeria
+            has_country_flag = egypt_morocco
+            NOT = { has_country_flag = egypt_sand_2 }
+            NOT = { has_country_flag = mamluk_coup }
+        }
+        allow = {
+            war = no
+            money = 500000
+            medicine = 1
+            owns = 1698
+            owns = 1715
+            owns = 1711
+        }
+        effect = {
+            set_country_flag = egypt_sand_2
+            treasury = -500000
+            1714 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1716 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1717 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1718 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1719 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1720 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1721 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1722 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+            1724 = {
+                add_core = THIS
+                secede_province = THIS
+                life_rating = 20
+                reduce_pop = 3
+            }
+        }
+    }
     
 }
