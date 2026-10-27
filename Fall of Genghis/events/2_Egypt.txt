@@ -270,7 +270,7 @@ country_event = {
 
 country_event = {
     id = 100952
-    title = "The Mamluk Coup"
+    title = "The Nubala Coup"
     desc = "100952D"
     picture = Picture
     
@@ -299,7 +299,7 @@ country_event = {
 
 country_event = {
     id = 100953
-    title = "The Merchant Coup"
+    title = "The Burjwaziyyin Revolution"
     desc = "100953D"
     picture = Picture
     
@@ -329,7 +329,7 @@ country_event = {
 
 country_event = {
     id = 100954
-    title = "The Religious Coup"
+    title = "The Ulama Takeover"
     desc = "100954D"
     picture = Picture
     
@@ -573,5 +573,35 @@ country_event = {
                 NOT = { check_variable = { which = egy_merchant_status value = -4 } }
             }
         }
+    }
+}
+
+country_event = {
+    id = 100959
+    title = "The Centralization of Power"
+    desc = "100959D"
+    picture = Picture
+    
+    trigger = {
+        tag = EGY
+        has_country_flag = egypt_faction_system
+        AND = {
+            has_country_flag = egy_military_purged
+            has_country_flag = egy_merchant_purged
+            has_country_flag = egy_cleric_purged
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 24
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Long live Egypt!"
+        clr_country_flag = egypt_faction_system
+        prestige = 50
+        badboy = -10
     }
 }
