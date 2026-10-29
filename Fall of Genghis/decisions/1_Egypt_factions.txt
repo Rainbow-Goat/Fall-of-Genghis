@@ -1,6 +1,6 @@
 political_decisions = {
     show_faction_content = {
-        picture = picture
+        picture = egyptthinker
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -15,7 +15,7 @@ political_decisions = {
     }
 
     hide_faction_content = {
-        picture = picture
+        picture = egyptthinker
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -452,7 +452,7 @@ political_decisions = {
         }
     }
 
-    egypt_no_sex = {
+    egypt_no_sex_decision = {
         picture = picture
         potential = {
             tag = EGY
@@ -474,7 +474,7 @@ political_decisions = {
         }
     }
 
-    egypt_tight_censorship = {
+    egypt_tight_censorship_decision = {
         picture = picture
         potential = {
             tag = EGY

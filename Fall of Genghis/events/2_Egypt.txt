@@ -2,7 +2,7 @@ country_event = {
     id = 100950
     title = "Factions"
     desc = "100950D"
-    picture = Picture
+    picture = egyptcourt
     
     trigger = {
         tag = EGY
@@ -24,7 +24,7 @@ country_event = {
     id = 100951
     title = "Faction Status"
     desc = "100951D"
-    picture = picture
+    picture = egyptcourt
 
     is_triggered_only = yes
 
@@ -254,7 +254,7 @@ country_event = {
     id = 100955
     title = "The Factions and their Values"
     desc = "100955D"
-    picture = picture
+    picture = egyptcourt
 
     is_triggered_only = yes
 
@@ -272,7 +272,7 @@ country_event = {
     id = 100952
     title = "The Nubala Coup"
     desc = "100952D"
-    picture = Picture
+    picture = mamlukarmy
     
     trigger = {
         tag = EGY
@@ -301,7 +301,7 @@ country_event = {
     id = 100953
     title = "The Burjwaziyyin Revolution"
     desc = "100953D"
-    picture = Picture
+    picture = mamlukdie
     
     trigger = {
         tag = EGY
@@ -331,7 +331,7 @@ country_event = {
     id = 100954
     title = "The Ulama Takeover"
     desc = "100954D"
-    picture = Picture
+    picture = egyptpray
     
     trigger = {
         tag = EGY
@@ -361,7 +361,7 @@ country_event = {
     id = 100957
     title = "The Question of Jerusalem"
     desc = "100957D"
-    picture = Picture
+    picture = jerusalem_event
     
     trigger = {
         tag = EGY
@@ -423,7 +423,7 @@ country_event = {
     id = 100958
     title = "The Sultan's Reply"
     desc = ""
-    picture = Picture
+    picture = sultanlisten
     
     is_triggered_only = yes
     fire_only_once = yes
@@ -469,7 +469,7 @@ country_event = {
     id = 100956
     title = "The Curriculum at the University of Cairo"
     desc = "100956D"
-    picture = Picture
+    picture = cairouniversity
     
     trigger = {
         tag = EGY
@@ -580,7 +580,7 @@ country_event = {
     id = 100959
     title = "The Centralization of Power"
     desc = "100959D"
-    picture = Picture
+    picture = egyptprocession
     
     trigger = {
         tag = EGY
