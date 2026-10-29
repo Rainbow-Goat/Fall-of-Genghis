@@ -31,7 +31,7 @@ political_decisions = {
     }
 
     purge_the_clerics = {
-        picture = picture
+        picture = egyptclergy
         potential = {
             tag = EGY
             has_country_flag = egypt_central_authority
@@ -98,7 +98,7 @@ political_decisions = {
     }
 
     purge_the_nobility = {
-        picture = picture
+        picture = egyptnoble
         potential = {
             tag = EGY
             has_country_flag = egypt_central_authority
@@ -145,7 +145,7 @@ political_decisions = {
     }
 
     purge_the_merchants = {
-        picture = picture
+        picture = egyptmerchant
         potential = {
             tag = EGY
             has_country_flag = egypt_central_authority
@@ -192,11 +192,12 @@ political_decisions = {
     }
 
     university_of_cairo = {
-        picture = picture
+        picture = islamic_uni
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
             has_country_flag = show_faction_stuff
+            NOT = { has_country_flag = egy_merchant_purged }
             NOT = { has_country_flag = cairo_university }
         }
         allow = {
@@ -245,7 +246,7 @@ political_decisions = {
     }
 
     allow_the_printing_press = {
-        picture = picture
+        picture = printing_press
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -272,7 +273,7 @@ political_decisions = {
     }
 
     egypt_end_slavery = {
-        picture = picture
+        picture = black_guy
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -298,7 +299,7 @@ political_decisions = {
     }
 
     egypt_enact_land_reform = {
-        picture = picture
+        picture = land_reform
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -328,7 +329,7 @@ political_decisions = {
     }
 
     egypt_create_parliament = {
-        picture = picture
+        picture = islam_parliament
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -375,7 +376,7 @@ political_decisions = {
     }
 
     egypt_military_reforms = {
-        picture = picture
+        picture = egy_mil_reform
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -406,7 +407,7 @@ political_decisions = {
     }
 
     egypt_naval_reforms = {
-        picture = picture
+        picture = egy_nav_reform
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -431,7 +432,7 @@ political_decisions = {
     }
 
     egypt_declare_sharia_law = {
-        picture = picture
+        picture = justice
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -453,7 +454,7 @@ political_decisions = {
     }
 
     egypt_no_sex_decision = {
-        picture = picture
+        picture = egypt_sex_image
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -475,7 +476,7 @@ political_decisions = {
     }
 
     egypt_tight_censorship_decision = {
-        picture = picture
+        picture = egypt_clergy_2
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -502,7 +503,7 @@ political_decisions = {
     }
 
     egypt_end_censorship = {
-        picture = picture
+        picture = bixby_letter
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -525,7 +526,7 @@ political_decisions = {
     }
 
     egypt_sultan_power = {
-        picture = picture
+        picture = sultan_mog
         potential = {
             tag = EGY
             has_country_flag = egypt_faction_system
@@ -544,7 +545,4 @@ political_decisions = {
             add_country_modifier = { name = sultan_power_cd duration = 1095 }
         }
     }
-
-
-
 }
