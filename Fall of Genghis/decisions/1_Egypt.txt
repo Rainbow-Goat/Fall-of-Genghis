@@ -1,6 +1,6 @@
 political_decisions = {
     egypt_faction_status = {
-        picture = picture
+        picture = brg_peace
         potential = {
             tag = EGY
             ai = no
@@ -15,7 +15,7 @@ political_decisions = {
     }
 
     egypt_kingdom = {
-        picture = picture
+        picture = sultan_mog
         potential = {
             tag = EGY
             government = sultanate
@@ -36,7 +36,7 @@ political_decisions = {
     }
 
     egypt_syria_cores = {
-        picture = picture
+        picture = map_levant
         potential = {
             tag = EGY
             NOT = { has_country_flag = egypt_syria }
@@ -96,7 +96,7 @@ political_decisions = {
     }
 
     egypt_diyarbakir_cores = {
-        picture = picture
+        picture = map_diyarbakir
         potential = {
             tag = EGY
             has_country_flag = egypt_syria
@@ -136,7 +136,7 @@ political_decisions = {
             SEL_899 = { add_core = THIS }
             badboy = 5
             change_variable = { which = egy_merchant_status value = -1 }
-            change_variable = { which = egy_military_status value = 2 }
+            change_variable = { which = egy_military_status value = 1 }
             random_owned = {
                 limit = {
                     owner = {
@@ -151,7 +151,7 @@ political_decisions = {
     }
 
     egypt_anatolia_cores = {
-        picture = picture
+        picture = map_anatolia
         potential = {
             tag = EGY
             has_country_flag = egypt_diyarbakir
@@ -210,7 +210,7 @@ political_decisions = {
     }
 
     egypt_rum_vassal = {
-        picture = picture
+        picture = egy_mil_reform
         potential = {
             tag = EGY
             has_country_flag = egypt_syria
@@ -236,7 +236,7 @@ political_decisions = {
     }
 
     egypt_anatolian_beylik = {
-        picture = picture
+        picture = map_anatolia
         potential = {
             tag = EGY
             has_country_flag = egypt_overlord_path
@@ -300,7 +300,7 @@ political_decisions = {
     }
 
     egypt_trebizond_beylik = {
-        picture = picture   
+        picture = map_armenia   
         potential = {
             tag = EGY
             has_country_flag = egypt_overlord_path
@@ -334,7 +334,7 @@ political_decisions = {
     }
 
     egypt_dulkadir_beylik = {
-        picture = picture
+        picture = map_diyarbakir
         potential = {
             tag = EGY
             has_country_flag = egypt_overlord_path
@@ -360,7 +360,7 @@ political_decisions = {
     }
 
     egypt_iraq_beylik = {
-        picture = picture
+        picture = map_iraq
         potential = {
             tag = EGY
             has_country_flag = egypt_overlord_path
@@ -441,7 +441,7 @@ political_decisions = {
     }
 
     egypt_big_coast = {
-        picture = picture
+        picture = egy_nav_reform
         potential = {
             tag = EGY
             has_country_flag = anatolian_beylik
@@ -524,7 +524,7 @@ political_decisions = {
     }
 
     egypt_embrace_africa = {
-        picture = picture
+        picture = map_africa
         potential = {
             tag = EGY
             NOT = { has_country_flag = embrace_africa }
@@ -545,7 +545,7 @@ political_decisions = {
     }
 
     egypt_tripoli = {
-        picture = picture
+        picture = map_libya
         potential = {
             tag = EGY
             has_country_flag = embrace_africa
@@ -564,13 +564,13 @@ political_decisions = {
             EGY_1754 = { add_core = THIS }
             TRI_1743 = { add_core = THIS }
             TUN_1726 = { add_core = THIS }
-            change_variable = { which = egypt_military_status value = -1 }
+            change_variable = { which = egypt_military_status value = -2 }
             change_variable = { which = egypt_cleric_status value = 2 }
         }
     }
 
     egypt_algeria = {
-        picture = picture
+        picture = map_algeria
         potential = {
             tag = EGY
             has_country_flag = egypt_tripoli
@@ -593,7 +593,7 @@ political_decisions = {
     }
 
     egypt_morocco = {
-        picture = picture
+        picture = map_morocco
         potential = {
             tag = EGY
             has_country_flag = egypt_algeria
@@ -610,17 +610,18 @@ political_decisions = {
         }
         effect = {
             set_country_flag = egypt_morocco
+            add_accepted_culture = maghrebi
             MOR_1688 = { add_core = THIS }
             MOR_1683 = { add_core = THIS }
             MOR_1686 = { add_core = THIS }
             MOR_1693 = { add_core = THIS }
-            change_variable = { which = egypt_military_status value = -1 }
+            change_variable = { which = egypt_military_status value = 1 }
             change_variable = { which = egypt_cleric_status value = 3 }
         }
     }
 
     egypt_ethiopia = {
-        picture = picture
+        picture = map_abyssinia
         potential = {
             tag = EGY
             NOT = { has_country_flag = egypt_ethiopia }
@@ -633,6 +634,7 @@ political_decisions = {
             owns = 1859
         }
         effect = {
+            set_country_flag = egypt_ethiopia
             prestige = 20
             change_variable = { which = egypt_authority value = 2 }
             ETH_1854 = { add_core = THIS }
@@ -642,7 +644,7 @@ political_decisions = {
     }
 
     egypt_sand_1 = {
-        picture = picture
+        picture = cross_desert
         potential = {
             tag = EGY
             NOT = { year = 1870 }
@@ -712,7 +714,7 @@ political_decisions = {
     }
 
     egypt_sand_2 = {
-        picture = picture
+        picture = cross_desert
         potential = {
             tag = EGY
             NOT = { year = 1870 }

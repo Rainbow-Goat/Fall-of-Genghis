@@ -3,7 +3,7 @@ DEVELOPED IN THE ORDER LISTED
 V1.2 - Riches of the Orient
 Extensive content:
     - Rashidun Caliphate (Concept stage)
-    - Egypt (Content done, GFX half for factions and events done. Loc maybe 1/3rd done.)
+    - Egypt (DONE)
     - Sultanate of Rum (Concept stage)
     - Persia (DONE)
         - Shia (DONE for now, will be revisited in the future.)

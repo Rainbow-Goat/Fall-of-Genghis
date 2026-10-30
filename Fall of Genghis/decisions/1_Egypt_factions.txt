@@ -510,6 +510,7 @@ political_decisions = {
             has_country_flag = show_faction_stuff
             has_country_modifier = egypt_tight_censorship
             NOT = { has_country_flag = cleric_coup }
+            NOT = { has_country_flag = egy_cleric_purged }
             NOT = { has_country_flag = egy_merchant_purged }
             NOT = { has_country_flag = mamluk_coup } 
         }
