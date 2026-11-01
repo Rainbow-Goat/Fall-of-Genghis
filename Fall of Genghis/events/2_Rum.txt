@@ -9,6 +9,7 @@ country_event = {
 
     option = {
         name = "We have no choice"
+        prestige = -50
         change_tag = ANA
         government = beylik
         relation = { who = EGY value = 100 }
@@ -34,6 +35,86 @@ country_event = {
         
         ai_chance = {
             factor = 1
+            modifier = {
+                factor = 3
+                OR = {
+                    owns = 876
+                    owns = 879
+                }
+            }
         }
     }
 }
+
+country_event = {
+    id = 100971
+    title = "Victory over Cappadocia"
+    desc = "100971D"
+    major = yes
+    
+    trigger = {
+        tag = RUM
+        NOT = { has_global_flag = rum_vs_cappadocia_ended }
+        war = no 
+        owns = 876
+        owns = 879
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Long live the Sultanate of Rum!"
+        set_global_flag = rum_vs_cappadocia_ended
+        change_variable = { which = legacy_conquest value = 1 }
+        TUR_876 = { add_core = THIS }
+        879 = { add_core = THIS }
+        884 = { add_core = THIS }
+    }
+}
+
+country_event = {
+    id = 100972
+    title = "Cappadocia has stopped our advance"
+    desc = "100972D"
+    picture = picture
+    
+    trigger = {
+        tag = RUM
+        NOT = { has_global_flag = rum_vs_cappadocia_ended }
+        war = no 
+        OR = {
+            NOT = { owns = 876 }
+            NOT = { owns = 879 }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "A setback, but we will recover!"
+        change_variable = { which = legacy_conquest value = -1 }
+        set_global_flag = rum_vs_cappadocia_ended
+    }
+}
+
+country_event = {
+    id = 100973
+    title = "The Sultanate of Rum"
+    desc = "100973D"
+    picture = picture
+    
+    trigger = {
+        tag = RUM
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We will crush the Greeks, to arms!"
+        set_variable = { which = legacy_conquest value = 0 }
+        set_variable = { which = legacy_admin value = 0 }
+        set_variable = { which = legacy_military value = 0 }
+        add_country_modifier = { name = rum_military_start duration = -1 }
+    }
+}
+

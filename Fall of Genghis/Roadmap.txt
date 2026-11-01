@@ -4,7 +4,7 @@ V1.2 - Riches of the Orient
 Extensive content:
     - Rashidun Caliphate (Concept stage)
     - Egypt (DONE)
-    - Sultanate of Rum (Concept stage)
+    - Sultanate of Rum (Started)
     - Persia (DONE)
         - Shia (DONE for now, will be revisited in the future.)
         - Ilkhanate (DONE)

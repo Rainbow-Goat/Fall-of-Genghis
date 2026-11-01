@@ -39,6 +39,7 @@ political_decisions = {
         picture = map_levant
         potential = {
             tag = EGY
+            has_global_flag = rum_vs_cappadocia_ended
             NOT = { has_country_flag = egypt_syria }
             NOT = { has_country_flag = merchant_coup }
             OR = {

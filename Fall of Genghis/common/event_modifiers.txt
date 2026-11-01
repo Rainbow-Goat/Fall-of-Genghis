@@ -1143,3 +1143,113 @@ egypt_tight_censorship = {
 }
 
 sultan_power_cd = {}
+
+rum_military_start = {
+	mobilisation_size = -0.2
+	land_organisation = 0.04
+}
+
+
+#Legacy of Osman II conditional modifiers, explanation below
+# 0 = no accomplishments in that category
+# 1 = anything between 1 accomplishment and 99% of them in that category
+# 2 = 100% of accomplishments in that category
+# A = conquests, tracks specific wars. B = administrative reforms. C = Military reforms. Adding an additional category would lead to like 60 more permutations.
+# Modifier lasts for roughly 20 years.
+#Modifiers are ordered based on the A value and then the number at the end. So A00, A01, A02, A10, A11, A12, A20, A21, A22.
+
+#The modifiers listed below here are what the numbers represent, so legacy_conquest_1 is the modifiers associated with having A = 1, and so on and so forth. These modifiers only serve as a visual guide to anyone poking around it the code and are not actually used, only the ABC system modifers are used.
+
+
+
+
+
+
+#Doing nothing all game
+legacy_A0_B0_C0 = {
+	prestige = -0.05
+}
+
+legacy_A0_B0_C1 = {
+}
+
+legacy_A0_B0_C2 = {
+}
+
+legacy_A0_B1_C0 = {
+}
+
+legacy_A0_B1_C1 = {
+}
+
+legacy_A0_B1_C2 = {
+}
+
+legacy_A0_B2_C0 = {
+}
+
+legacy_A0_B2_C1 = {
+}
+
+legacy_A0_B2_C2 = {
+}
+
+
+
+
+legacy_A1_B0_C0 = {
+}
+
+legacy_A1_B0_C1 = {
+}
+
+legacy_A1_B0_C2 = {
+}
+
+legacy_A1_B1_C0 = {
+}
+
+legacy_A1_B1_C1 = {
+}
+
+legacy_A1_B1_C2 = {
+}
+
+legacy_A1_B2_C0 = {
+}
+
+legacy_A1_B2_C1 = {
+}
+
+legacy_A1_B2_C2 = {
+}
+
+
+
+
+legacy_A2_B0_C0 = {
+}
+
+legacy_A2_B0_C1 = {
+}
+
+legacy_A2_B0_C2 = {
+}
+
+legacy_A2_B1_C0 = {
+}
+
+legacy_A2_B1_C1 = {
+}
+
+legacy_A2_B1_C2 = {
+}
+
+legacy_A2_B2_C0 = {
+}
+
+legacy_A2_B2_C1 = {
+}
+
+legacy_A2_B2_C2 = {
+}

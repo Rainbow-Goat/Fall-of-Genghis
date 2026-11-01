@@ -1,0 +1,9 @@
+political_decisions = {
+    rum_core_anatolia_1 = {
+        potential = {
+            tag = RUM
+            has_global_flag = rum_vs_cappadocia_ended
+            NOT = { 876 = { is_core = THIS } }
+        }
+    }
+}
