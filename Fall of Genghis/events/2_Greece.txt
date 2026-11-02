@@ -119,7 +119,6 @@ country_event = {
         NOT = { has_country_flag = byzantinist_plot }
         year = 1843
         month = 3
-        day = 15
     }
 
     fire_only_once = yes
@@ -240,7 +239,7 @@ country_event = {
         name = "There is nothing we can do..."
         prestige = -30
         government = democracy
-        set_ruling_party_ideology = liberal
+        ruling_party_ideology = liberal
         clr_country_flag = byz_time_limit
         primary_culture = antiqua_greek
         add_accepted_culture = novum_greek
@@ -271,7 +270,7 @@ country_event = {
         name = "There is nothing we can do..."
         prestige = -30
         government = democracy
-        set_ruling_party_ideology = liberal
+        ruling_party_ideology = liberal
         clr_country_flag = byz_no_empire
         clr_country_flag = byz_time_limit
         primary_culture = antiqua_greek
@@ -314,7 +313,7 @@ country_event = {
         prestige = -30
         change_tag = GRE
         government = democracy
-        set_ruling_party_ideology = liberal
+        ruling_party_ideology = liberal
         primary_culture = antiqua_greek
         add_accepted_culture = novum_greek
         greek_revolution_tooltip = {}
@@ -339,7 +338,7 @@ country_event = {
 
     option = {
         name = "Rome"
-        set_capital = 749
+        capital = 749
     }
     option = {
         name = "Constantinople"
@@ -364,5 +363,37 @@ country_event = {
         SIC_753 = { remove_core = THIS }
         PAP_752 = { remove_core = THIS }
         remove_accepted_culture = south_italian
+    }
+}
+
+country_event = {
+    id = 100913
+    title = "Rum demands Constantinople"
+    desc = "100913D"
+    picture = Picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "The City is fallen yet we are still alive..."
+        prestige = -30
+        TUR_860 = {
+            secede_province = RUM
+            add_core = RUM
+        }
+        RUM = { country_event = { id = 100975 days = -1 } }
+    }
+
+    option = {
+        name = "The Turkic hordes will never take the city while we breathe!"
+        prestige = 50
+        war_exhaustion = -20
+        TUR_860 = {
+            add_core = RUM
+        }
+        RUM = {
+            country_event = { id = 100974 days = -1 }
+        }
     }
 }

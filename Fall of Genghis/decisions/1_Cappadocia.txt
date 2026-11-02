@@ -15,6 +15,7 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = anatolian
+            TUR_894 = { add_core = THIS }
         }
     }
 
@@ -78,7 +79,8 @@ political_decisions = {
             add_accepted_culture = armenian
             add_accepted_culture = georgian
             TUR_884 = { add_core = THIS }
-            TUR_889 = { add_core = THIS }
+            SEL_899 = { add_core = THIS }
+            ARM_889 = { add_core = THIS }
             PER_1112 = { add_core = THIS }
             RUS_1098 = { add_core = THIS }
             RUS_1090 = { add_core = THIS }

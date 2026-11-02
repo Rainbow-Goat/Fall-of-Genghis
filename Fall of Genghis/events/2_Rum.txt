@@ -92,7 +92,8 @@ country_event = {
 
     option = {
         name = "A setback, but we will recover!"
-        change_variable = { which = legacy_conquest value = -1 }
+        prestige = -10
+        change_variable = { which = legacy_conquest value = 0 }
         set_global_flag = rum_vs_cappadocia_ended
     }
 }
@@ -118,3 +119,163 @@ country_event = {
     }
 }
 
+country_event = {
+    id = 100974
+    title = "The City still stands defiant"
+    desc = "100974D"
+    picture = picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "§RThey will be buried among the ruins of their city§!"
+        change_variable = { which = legacy_conquest value = 1 }
+        war = {
+            target = FROM
+            attacker_goal = {
+                casus_belli = acquire_core_state_huge
+                state_province_id = 860
+            }
+            defender_goal = {
+                casus_belli = cut_down_to_size
+            }
+            call_ally = yes
+        }
+        set_country_flag = hidden_tooltip
+        random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+            owner = {
+                FROM = { badboy = -15 }
+            }
+        }
+        clr_country_flag = hidden_tooltip
+    }
+
+    option = {
+        name = "We will allow them to cling on to life, for now"
+        prestige = -15
+    }
+}
+
+country_event = {
+    id = 100975
+    title = "The City Surrenders"
+    desc = "100975D"
+    picture = picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "The City is ours!"
+        prestige = 20
+    }
+}
+
+country_event = {
+    id = 100976
+    title = "The Fall of Constantinople"
+    desc = "100976D"
+    major = yes
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "The Queen of Cities is finally ours!"
+        set_global_flag = fall_of_constantinople
+        prestige = 50
+        change_variable = { which = legacy_conquest value = 1 }
+    }
+}
+
+country_event = {
+    id = 100977
+    title = "The Albanian Revolution"
+    desc = "100977D"
+    picture = picture
+    
+    trigger = {   
+        OR = {
+            tag = RUM
+            tag = SEL
+        }
+        war = no 
+        has_country_flag = rum_bulgaria
+        owns = 829
+        owns = 809
+        owns = 810
+        owns = 818
+        849 = {
+            owner = { tag = BLG }
+        }
+        807 = {
+            owner = { tag = BLG }
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 6
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Albanian people deserve our support"
+        BLG = {
+            release = ALB
+        }
+        803 = { 
+            secede_province = ALB 
+            add_core = ALB
+        }
+        807 = { 
+            secede_province = ALB 
+            add_core = ALB
+        }
+        806 = { add_core = THIS }
+        799 = { add_core = THIS }
+        802 = { add_core = THIS }
+        relation = { who = ALB value = 200 }
+        diplomatic_influence = { who = ALB value = 400 }
+        create_alliance = ALB
+        set_country_flag = rum_albania
+
+        BLG = { country_event = { id = 101106 days = -1 } }
+        prestige = 15
+        badboy = 5
+    }
+
+    option = {
+        name = "We will not interfere in their affairs"
+        prestige = -10
+    }
+}
+
+country_event = {
+    id = 100978
+    title = "The Albanian Triumph"
+    desc = "100978D"
+    picture = Picture
+    
+    trigger = {
+        war = no
+        has_country_flag = rum_albania
+        ALB = {
+            all_core = {
+                owned_by = ALB
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We will continue to ensure their protection"
+        create_vassal = ALB
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+}
