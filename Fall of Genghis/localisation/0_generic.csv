@@ -1,6 +1,12 @@
 key;ENGLISH;x
 form_kurdistan_title;Balfour Declaration;x;
 form_kurdistan_desc;The kurds are our greatest ally and need to be returned to their homeland!;x;
+enable_meta_title;Show Meta Decisions;x;
+enable_meta_desc;Shows some extra decisions that are more meta in nature.;x;
+hide_meta_title;Hide Meta Decisions;x;
+hide_meta_desc;Will hide the meta decisions to declutter your decisions tab. They can be shown again by pressing the "show meta decisions" decision.;x;
+disable_army_mutiny_title;Disable Army Mutinies;x;
+disable_army_mutiny_desc;Should disable or atleast greatly reduce the amount of army mutinies that happen.;x;
 demote_crats_title;Demote Bureaucrats;x;
 demote_crats_desc;Bureaucrat fix;x;
 will_receive_title;Request a Grant;x;

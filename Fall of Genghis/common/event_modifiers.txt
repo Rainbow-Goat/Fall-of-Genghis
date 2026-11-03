@@ -1149,6 +1149,11 @@ rum_military_start = {
 	land_organisation = 0.04
 }
 
+rum_assim_boost = {
+	global_assimilation_rate = 0.1
+	badboy = 0.02
+}
+
 
 #Legacy of Osman II conditional modifiers, explanation below
 # 0 = no accomplishments in that category

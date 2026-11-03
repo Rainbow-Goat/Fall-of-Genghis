@@ -598,6 +598,17 @@ assimilation_chance =
 		has_country_flag = magyarization
 	}
 	modifier = {
+		factor = 20
+		AND = {
+			has_country_flag = rum_assimilation_boost
+			OR = {
+				has_pop_culture = novum_greek
+				has_pop_culture = armenian
+			}
+
+		}
+	}
+	modifier = {
 		factor = 15
 		nationalvalue = nv_equality
 	}

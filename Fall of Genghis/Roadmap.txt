@@ -16,18 +16,18 @@ Minor content:
     - Armenia (DONE)
 
 V1.3 - The Great Plains
-- Rework to the starting map of North America
-- Unique colonial mechanic for N. America
+- Rework to the starting map of North America (Nearly finished concept stage)
+- Unique colonial mechanic for N. America (Early concept stage)
 - Extensive content
-    - Quebec
-    - Holy Order of New Castille
-    - Islamic Caliphate of Mexico
-    - Iroquois Confederacy
+    - Quebec (Advanced concept stage)
+    - Holy Order of New Castille (Early concept stage)
+    - Islamic Caliphate of Mexico (Early concept stage)
+    - Iroquois Confederacy (Early concept stage)
 Moderate content:
-    - New Venetian Republic
+    - New Venetian Republic (Nearly finished concept stage)
 Minor content:
-    - Kurdish Free State
-    - Hawaii
+    - Kurdish Free State (Advanced concept stage)
+    - Hawaii (Early concept stage)
 
 V1.4 - Glory of the Gods
 Extensive content:

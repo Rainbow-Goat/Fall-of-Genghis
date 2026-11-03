@@ -18,7 +18,7 @@ political_decisions = {
 			set_global_flag = day_one_grants
 		}
 		 ai_will_do = {
-            factor = 100
+            factor = 1
         }
 	}
 
@@ -35,12 +35,56 @@ day1_state_sizing = {
 		}	
 }
 
+enable_meta = {
+	alert = no
+	picture = gtfo
+	potential = {
+		ai = no
+		NOT = { has_country_flag = show_meta }
+	}
+	allow = {
+	}
+	effect = {
+		set_country_flag = show_meta
+	}
+}
+
+hide_meta = {
+	alert = no
+	picture = gtfo
+	potential = {
+		ai = no
+		has_country_flag = show_meta
+	}
+	allow = {
+	}
+	effect = {
+		clr_country_flag = show_meta
+	}
+}
+
+disable_army_mutiny = {
+	alert = no
+	picture = gtfo
+	potential = {
+		ai = no
+		has_country_flag = show_meta
+		NOT = { has_global_flag = multiplayer_mode }
+	}
+	allow = {
+	}
+	effect = {
+		set_country_flag = no_mutiny
+	}
+}
+
 release_vassals = { 	#stolen from Victoria Universalis
 		alert = no
 		picture = gtfo
 		potential = {
 			ai = no
 			num_of_vassals_no_substates = 1
+			has_country_flag = show_meta
 		}
 		allow = {
 		}
@@ -53,6 +97,7 @@ demote_crats = {
 		potential = {
 			ai = no
 			NOT = { has_country_modifier = recently_demoted }
+			has_country_flag = show_meta
 		}
 		
 		allow = {
