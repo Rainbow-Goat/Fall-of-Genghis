@@ -130,7 +130,6 @@ country_event = {
 
     option = {
         name = "§RThey will be buried among the ruins of their city§!"
-        change_variable = { which = legacy_conquest value = 1 }
         war = {
             target = FROM
             attacker_goal = {
@@ -276,6 +275,378 @@ country_event = {
         
         ai_chance = {
             factor = 3
+        }
+    }
+}
+
+country_event = {
+    id = 100979
+    title = "The Death of Osman II"
+    desc = "100979"
+    major = yes
+    
+    trigger = {
+        year = 1870
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Sultan is dead, long live the Sultan"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B0_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B0_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B0_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B1_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B1_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B1_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B2_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B2_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B2_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B0_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B0_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B0_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B1_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B1_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B1_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B2_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B2_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B2_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B0_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B0_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B0_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B1_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B1_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B1_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 5 }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B2_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B2_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B2_C2 duration = 10957 }
+            }
         }
     }
 }

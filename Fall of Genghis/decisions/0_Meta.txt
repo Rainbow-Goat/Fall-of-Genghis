@@ -69,6 +69,7 @@ disable_army_mutiny = {
 	potential = {
 		ai = no
 		has_country_flag = show_meta
+		NOT = { has_country_flag = no_mutiny }
 		NOT = { has_global_flag = multiplayer_mode }
 	}
 	allow = {
