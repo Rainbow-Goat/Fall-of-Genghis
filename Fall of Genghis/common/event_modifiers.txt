@@ -1167,8 +1167,35 @@ rum_assim_boost = {
 
 #The modifiers listed below here are what the numbers represent, so legacy_conquest_1 is the modifiers associated with having A = 1, and so on and so forth. These modifiers only serve as a visual guide to anyone poking around it the code and are not actually used, only the ABC system modifers are used.
 
-
-
+# rum conquest legacy small = {
+#	cb_generation_speed_modifier = 0.2
+#}
+#rum conquest legacy big = {
+#	cb_generation_speed_modifier = 0.3
+#	badboy = -0.02
+#}
+# rum admin legacy small = {
+#	admin_efficiency = 0.1
+#	education_efficiency = 0.05
+#	prestige = 0.005
+#}
+# rum admin legacy big = {
+#	admin_efficiency = 0.15
+#	education_efficiency = 0.15
+#	prestige = 0.01
+#   tax_efficiency = 0.1
+#}
+# rum military legacy small = {
+#	mobilization_size = 0.02
+#	unit_start_experience = 0.03
+#   mobilisation_economy_impact = -0.1
+#}
+# rum military legacy big = {
+#	mobilization_size = 0.04
+#	unit_start_experience = 0.05
+#   mobilisation_economy_impact = -0.2
+#   org_regain = 0.05
+#}
 
 
 
@@ -1178,85 +1205,238 @@ legacy_A0_B0_C0 = {
 }
 
 legacy_A0_B0_C1 = {
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A0_B0_C2 = {
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 legacy_A0_B1_C0 = {
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
 }
 
 legacy_A0_B1_C1 = {
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A0_B1_C2 = {
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 legacy_A0_B2_C0 = {
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
 }
 
 legacy_A0_B2_C1 = {
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A0_B2_C2 = {
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 
 
 
 legacy_A1_B0_C0 = {
+	cb_generation_speed_modifier = 0.2
 }
 
 legacy_A1_B0_C1 = {
+	cb_generation_speed_modifier = 0.2
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A1_B0_C2 = {
+	cb_generation_speed_modifier = 0.2
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 legacy_A1_B1_C0 = {
+	cb_generation_speed_modifier = 0.2
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
 }
 
 legacy_A1_B1_C1 = {
+	cb_generation_speed_modifier = 0.2
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A1_B1_C2 = {
+	cb_generation_speed_modifier = 0.2
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 legacy_A1_B2_C0 = {
+	cb_generation_speed_modifier = 0.2
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
 }
 
 legacy_A1_B2_C1 = {
+	cb_generation_speed_modifier = 0.2
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A1_B2_C2 = {
+	cb_generation_speed_modifier = 0.2
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 
 
 
 legacy_A2_B0_C0 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
 }
 
 legacy_A2_B0_C1 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A2_B0_C2 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 legacy_A2_B1_C0 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
 }
 
 legacy_A2_B1_C1 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A2_B1_C2 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }
 
 legacy_A2_B2_C0 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
 }
 
 legacy_A2_B2_C1 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
 }
 
 legacy_A2_B2_C2 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
 }

@@ -286,6 +286,10 @@ country_event = {
     major = yes
     
     trigger = {
+        OR = {
+            tag = RUM
+            tag = SEL
+        }
         year = 1870
     }
     
