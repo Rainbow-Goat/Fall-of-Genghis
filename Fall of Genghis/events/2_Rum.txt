@@ -177,11 +177,19 @@ country_event = {
     desc = "100976D"
     major = yes
     
-    is_triggered_only = yes
+    trigger = {
+        OR = {
+            tag = RUM
+            tag = SEL
+        }
+        owns = 860
+        NOT = { has_global_flag = fall_of_constantinople }
+    }
+
     fire_only_once = yes
 
     option = {
-        name = "The Queen of Cities is finally ours!"
+        name = "The End of an Era"
         set_global_flag = fall_of_constantinople
         prestige = 50
         change_variable = { which = legacy_conquest value = 1 }
@@ -282,7 +290,7 @@ country_event = {
 country_event = {
     id = 100979
     title = "The Death of Osman II"
-    desc = "100979"
+    desc = "100979D"
     major = yes
     
     trigger = {

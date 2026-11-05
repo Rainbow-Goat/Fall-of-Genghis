@@ -328,7 +328,10 @@ political_decisions = {
             has_country_flag = rum_armenia_finished
         }
         effect = {
+            change_variable = { which = legacy_conquest value = 1 }
             prestige = 30
+            primary_culture = anatolian
+            add_accepted_culture = syrian
             change_tag = SEL
             RUM = {
                 all_core = {
@@ -354,8 +357,6 @@ political_decisions = {
             set_country_flag = rum_caliph_title
             set_country_flag = rum_caliph_title_attempted
             prestige = 50
-            primary_culture = anatolian
-            add_accepted_culture = syrian
         }
     }
 
