@@ -152,7 +152,7 @@ country_event = {
 
     option = {
         name = "We will allow them to cling on to life, for now"
-        prestige = -15
+        prestige = -40
     }
 }
 
@@ -190,6 +190,16 @@ country_event = {
 
     option = {
         name = "The End of an Era"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { 860 = { is_core = THIS } }
+                }
+            }
+            860 = {
+                add_core = THIS
+            }
+        }
         set_global_flag = fall_of_constantinople
         prestige = 50
         change_variable = { which = legacy_conquest value = 1 }
@@ -659,6 +669,79 @@ country_event = {
             owner = {
                 add_country_modifier = { name = legacy_A2_B2_C2 duration = 10957 }
             }
+        }
+    }
+}
+
+country_event = {
+    id = 100980
+    title = "The New Capital?"
+    desc = "100980D"
+    picture = Picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "The Queen of Cities, Constantinople!"
+        capital = 860
+        prestige = 50
+        badboy = 2
+        any_pop = {
+            limit = {
+                is_culture = syrian
+            }
+            consciousness = 4
+            militancy = 4
+        }
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+    
+    option = {
+        name = "The Heart of Anatolia, Ankara!"
+        capital = 876
+        any_pop = {
+            limit = {
+                is_culture = anatolian
+            }
+            consciousness = -3
+            militancy = -3
+        }
+        any_pop = {
+            limit = {
+                is_culture = syrian
+            }
+            consciousness = 4
+            militancy = 4
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "The cradle of Rum, Antioch!"
+        any_pop = {
+            limit = {
+                is_culture = syrian
+            }
+            consciousness = -3
+            militancy = -3
+        }
+        any_pop = {
+            limit = {
+                is_culture = anatolian
+            }
+            consciousness = 3
+            militancy = 3
+        }
+
+        ai_chance = {
+            factor = 1
         }
     }
 }
