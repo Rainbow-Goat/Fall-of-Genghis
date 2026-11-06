@@ -370,7 +370,7 @@ country_event = {
     id = 100913
     title = "Rum demands Constantinople"
     desc = "100913D"
-    picture = Picture
+    picture = constantinople
     
     is_triggered_only = yes
     fire_only_once = yes

@@ -2,7 +2,7 @@ country_event = {
     id = 100970
     title = "The Egyptian Proposal"
     desc = "100970D"
-    picture = Picture
+    picture = turkishsultan
     
     is_triggered_only = yes
     fire_only_once = yes
@@ -76,7 +76,7 @@ country_event = {
     id = 100972
     title = "Cappadocia has stopped our advance"
     desc = "100972D"
-    picture = picture
+    picture = turkishdeafeat
     
     trigger = {
         tag = RUM
@@ -102,7 +102,7 @@ country_event = {
     id = 100973
     title = "The Sultanate of Rum"
     desc = "100973D"
-    picture = picture
+    picture = turkisharmyevent
     
     trigger = {
         tag = RUM
@@ -123,7 +123,7 @@ country_event = {
     id = 100974
     title = "The City still stands defiant"
     desc = "100974D"
-    picture = picture
+    picture = constantinople
     
     is_triggered_only = yes
     fire_only_once = yes
@@ -160,7 +160,7 @@ country_event = {
     id = 100975
     title = "The City Surrenders"
     desc = "100975D"
-    picture = picture
+    picture = fall_of_constantinople
     
     is_triggered_only = yes
     fire_only_once = yes
@@ -210,7 +210,7 @@ country_event = {
     id = 100977
     title = "The Albanian Revolution"
     desc = "100977D"
-    picture = picture
+    picture = albanianrevolution
     
     trigger = {   
         OR = {
@@ -273,7 +273,7 @@ country_event = {
     id = 100978
     title = "The Albanian Triumph"
     desc = "100978D"
-    picture = Picture
+    picture = albaniatriumph
     
     trigger = {
         war = no
@@ -677,7 +677,7 @@ country_event = {
     id = 100980
     title = "The New Capital?"
     desc = "100980D"
-    picture = Picture
+    picture = turkishsultan
     
     is_triggered_only = yes
     fire_only_once = yes

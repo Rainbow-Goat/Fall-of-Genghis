@@ -1040,12 +1040,14 @@ scourge_of_god = {
 	prestige = -0.05
 	land_unit_start_experience = 5
 	land_organisation = 0.03
+	icon = 15
 }
 
 khan_of_khans = {
 	prestige = 0.2
 	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = -0.05
+	icon = 7
 }
 
 timurs_reforms = {
@@ -1058,6 +1060,7 @@ timurs_reforms = {
 	culture_tech_research_bonus = 0.1
 	global_pop_militancy_modifier = 0.15
 	global_pop_consciousness_modifier = 0.15
+	icon = 5
 }
 
 cairo_university_merchant = {
@@ -1068,6 +1071,7 @@ cairo_university_merchant = {
 	navy_tech_research_bonus = 0.1
 	global_pop_militancy_modifier = 0.1
 	global_pop_consciousness_modifier = 0.1
+	icon = 7
 }
 
 cairo_university_merchant_censored = {
@@ -1077,6 +1081,7 @@ cairo_university_merchant_censored = {
 	culture_tech_research_bonus = 0.05
 	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = 0.05
+	icon = 7
 }
 
 cairo_university_military = {
@@ -1084,6 +1089,7 @@ cairo_university_military = {
 	research_points_modifier = 0.04
 	army_tech_research_bonus = 0.3
 	navy_tech_research_bonus = 0.3
+	icon = 7
 }
 
 cairo_university_cleric = {
@@ -1096,12 +1102,14 @@ cairo_university_cleric = {
 	culture_tech_research_bonus = -0.05
 	global_pop_militancy_modifier = -0.1
 	global_pop_consciousness_modifier = -0.1
+	icon = 7
 }
 
 the_printing_press = {
 	education_efficiency_modifier = 0.2
 	global_pop_militancy_modifier = 0.1
 	global_pop_consciousness_modifier = 0.1
+	icon = 5
 }
 
 egyptian_land_reform = {
@@ -1110,6 +1118,7 @@ egyptian_land_reform = {
 	core_pop_militancy_modifier = -0.1
 	core_pop_consciousness_modifier = -0.1
 	administrative_efficiency_modifier = -0.08
+	icon = 9
 }
 
 egypt_military_reform = {
@@ -1117,12 +1126,14 @@ egypt_military_reform = {
 	cb_generation_speed_modifier = 0.2
 	land_unit_start_experience = 15
 	leadership_modifier = 0.3
+	icon = 15
 }
 
 egypt_navy_reform = {
 	navy_tech_research_bonus = 0.1
 	naval_unit_start_experience = 20
 	naval_organisation = 0.05
+	icon = 15
 }
 
 sharia_law = {
@@ -1130,16 +1141,19 @@ sharia_law = {
 	global_pop_consciousness_modifier = 0.05
 	political_reform_desire = 0.2
 	administrative_efficiency_modifier = 0.1
+	icon = 6
 }
 
 egypt_no_sex = {
 	global_population_growth = -0.01
+	icon = 18
 }
 
 egypt_tight_censorship = {
 	global_pop_militancy_modifier = 0.05
 	global_pop_consciousness_modifier = -0.15
 	education_efficiency_modifier = -0.07
+	icon = 14
 }
 
 sultan_power_cd = {}
@@ -1147,37 +1161,44 @@ sultan_power_cd = {}
 rum_military_start = {
 	mobilisation_size = -0.2
 	land_organisation = 0.05
+	icon = 15
 }
 
 rum_assim_boost = {
 	global_assimilation_rate = 0.1
 	badboy = 0.02
+	icon = 1
 }
 
 education_boost = {
 	education_efficiency_modifier = 0.1
+	icon = 3
 }
 
 rum_land_reform = {
 	administrative_efficiency_modifier = 0.1
 	rgo_output = 0.3
+	icon = 17
 }
 
 rum_industry = {
 	factory_cost = -0.1
 	factory_output = 0.2
 	factory_owner_cost = -0.1
+	icon = 11
 }
 
 navy_boost = {
 	naval_organisation = 0.1
 	navy_tech_research_bonus = 0.1
 	naval_unit_start_experience = 0.15
+	icon = 15
 }
 
 military_tech_boost = {
 	army_tech_research_bonus = 0.15
 	leadership_modifier = 0.2
+	icon = 15
 }
 
 
@@ -1228,12 +1249,14 @@ military_tech_boost = {
 #Doing nothing all game
 legacy_A0_B0_C0 = {
 	prestige = -0.05
+	icon = 13
 }
 
 legacy_A0_B0_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A0_B0_C2 = {
@@ -1241,12 +1264,14 @@ legacy_A0_B0_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 legacy_A0_B1_C0 = {
 	administrative_efficiency_modifier = 0.1
 	education_efficiency = 0.05
 	prestige = 0.005
+	icon = 13
 }
 
 legacy_A0_B1_C1 = {
@@ -1256,6 +1281,7 @@ legacy_A0_B1_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A0_B1_C2 = {
@@ -1266,6 +1292,7 @@ legacy_A0_B1_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 legacy_A0_B2_C0 = {
@@ -1273,6 +1300,7 @@ legacy_A0_B2_C0 = {
 	education_efficiency = 0.15
 	prestige = 0.01
     tax_efficiency = 0.1
+	icon = 13
 }
 
 legacy_A0_B2_C1 = {
@@ -1283,6 +1311,7 @@ legacy_A0_B2_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A0_B2_C2 = {
@@ -1294,6 +1323,7 @@ legacy_A0_B2_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 
@@ -1301,6 +1331,7 @@ legacy_A0_B2_C2 = {
 
 legacy_A1_B0_C0 = {
 	cb_generation_speed_modifier = 0.2
+	icon = 13
 }
 
 legacy_A1_B0_C1 = {
@@ -1308,6 +1339,7 @@ legacy_A1_B0_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A1_B0_C2 = {
@@ -1316,6 +1348,7 @@ legacy_A1_B0_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 legacy_A1_B1_C0 = {
@@ -1323,6 +1356,7 @@ legacy_A1_B1_C0 = {
 	administrative_efficiency_modifier = 0.1
 	education_efficiency = 0.05
 	prestige = 0.005
+	icon = 13
 }
 
 legacy_A1_B1_C1 = {
@@ -1333,6 +1367,7 @@ legacy_A1_B1_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A1_B1_C2 = {
@@ -1344,6 +1379,7 @@ legacy_A1_B1_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 legacy_A1_B2_C0 = {
@@ -1352,6 +1388,7 @@ legacy_A1_B2_C0 = {
 	education_efficiency = 0.15
 	prestige = 0.01
     tax_efficiency = 0.1
+	icon = 13
 }
 
 legacy_A1_B2_C1 = {
@@ -1363,6 +1400,7 @@ legacy_A1_B2_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A1_B2_C2 = {
@@ -1375,6 +1413,7 @@ legacy_A1_B2_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 
@@ -1383,6 +1422,7 @@ legacy_A1_B2_C2 = {
 legacy_A2_B0_C0 = {
 	cb_generation_speed_modifier = 0.3
 	badboy = -0.02
+	icon = 13
 }
 
 legacy_A2_B0_C1 = {
@@ -1391,6 +1431,7 @@ legacy_A2_B0_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A2_B0_C2 = {
@@ -1400,6 +1441,7 @@ legacy_A2_B0_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 legacy_A2_B1_C0 = {
@@ -1408,6 +1450,7 @@ legacy_A2_B1_C0 = {
 	admin_efficiency = 0.1
 	education_efficiency = 0.05
 	prestige = 0.005
+	icon = 13
 }
 
 legacy_A2_B1_C1 = {
@@ -1419,6 +1462,7 @@ legacy_A2_B1_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A2_B1_C2 = {
@@ -1431,6 +1475,7 @@ legacy_A2_B1_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }
 
 legacy_A2_B2_C0 = {
@@ -1440,6 +1485,7 @@ legacy_A2_B2_C0 = {
 	education_efficiency = 0.15
 	prestige = 0.01
     tax_efficiency = 0.1
+	icon = 13
 }
 
 legacy_A2_B2_C1 = {
@@ -1452,6 +1498,7 @@ legacy_A2_B2_C1 = {
 	mobilization_size = 0.02
 	unit_start_experience = 0.03
     mobilisation_economy_impact = -0.1
+	icon = 13
 }
 
 legacy_A2_B2_C2 = {
@@ -1465,4 +1512,5 @@ legacy_A2_B2_C2 = {
 	unit_start_experience = 0.05
     mobilisation_economy_impact = -0.2
     org_regain = 0.05
+	icon = 13
 }

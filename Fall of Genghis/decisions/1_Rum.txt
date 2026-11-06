@@ -1,6 +1,6 @@
 political_decisions = {
     rum_core_anatolia_1 = {
-        picture = picture
+        picture = turkicraid1
         potential = {
             tag = RUM
             has_global_flag = rum_vs_cappadocia_ended
@@ -22,7 +22,7 @@ political_decisions = {
     }
 
     rum_core_anatolia_2 = {
-        picture = picture
+        picture = map_anatolia
         potential = {
             tag = RUM
             876 = { is_core = THIS }
@@ -48,7 +48,7 @@ political_decisions = {
     }
 
     rum_take_constantinople = {
-        picture = picture
+        picture = fall_of_constantinople
         potential = {
             tag = RUM
             875 = { is_core = THIS }
@@ -83,7 +83,7 @@ political_decisions = {
     }
 
     the_road_to_europe = {
-        picture = picture
+        picture = map_balkans
         potential = {
             OR = {
                 tag = RUM
@@ -113,13 +113,13 @@ political_decisions = {
     }
 
     the_bulgarian_conquest = {
-        picture = picture
+        picture = greater_bulgaria
         potential = {
             OR = {
                 tag = RUM
                 tag = SEL
             }
-            has_global_flag = rum_europe
+            has_country_flag = rum_europe
             NOT = { has_country_flag = rum_bulgaria }
         }
         allow = {
@@ -140,7 +140,7 @@ political_decisions = {
     }
 
     rum_armenia_1 = {
-        picture = picture
+        picture = map_armenia
         potential = {
             OR = {
                 tag = RUM
@@ -166,7 +166,7 @@ political_decisions = {
     }
 
     rum_armenia_2 = {
-        picture = picture
+        picture = islamic_army
         potential = {
             OR = {
                 tag = RUM
@@ -193,7 +193,7 @@ political_decisions = {
     }
 
     rum_iraq = {
-        picture = picture
+        picture = map_iraq
         potential = {
             OR = {
                 tag = RUM
@@ -219,7 +219,7 @@ political_decisions = {
     }
 
     rum_islands = {
-        picture = picture
+        picture = map_crete
         potential = {
             OR = {
                 tag = RUM
@@ -241,7 +241,7 @@ political_decisions = {
     }
 
     rum_conquer_holyland = {
-        picture = picture
+        picture = jerusalem
         potential = {
             OR = {
                 tag = RUM
@@ -270,7 +270,7 @@ political_decisions = {
     }
 
     rum_core_mecca = {
-        picture = picture
+        picture = the_holy_city
         potential = {
             OR = {
                 tag = RUM
@@ -296,7 +296,7 @@ political_decisions = {
     }
 
     rum_sponsor_coup_egypt = {
-        picture = picture
+        picture = egyptthinker
         potential = {
             tag = SEL
             917 = { is_core = THIS }
@@ -318,7 +318,7 @@ political_decisions = {
     }
 
     form_seljuks = {
-        picture = picture
+        picture = seljukmog
         potential = {
             tag = RUM
         }
@@ -345,7 +345,7 @@ political_decisions = {
     }
 
     declare_ourselves_caliph = {
-        picture = picture
+        picture = egyptclergy
         potential = {
             tag = SEL
             NOT = { has_country_flag = rum_caliph_title }
@@ -362,7 +362,7 @@ political_decisions = {
     }
 
     pursue_assimilation_politics_rum = {
-        picture = picture
+        picture = tanzimat_reforms
         potential = {
             tag = SEL
             NOT = { has_country_flag = rum_assimilation_boost }
@@ -380,7 +380,7 @@ political_decisions = {
     }
 
     rum_improve_school_system = {
-        picture = picture
+        picture = turkishschool
         potential = {
             OR = {
                 tag = RUM
@@ -406,7 +406,7 @@ political_decisions = {
     }
 
     rum_land_reform = {
-        picture = picture
+        picture = land_reform
         potential = {
             OR = {
                 tag = RUM
@@ -427,7 +427,7 @@ political_decisions = {
     }
 
     rum_embrace_industrialization = {
-        picture = picture
+        picture = switch_to_industry_tech
         potential = {
             OR = {
                 tag = RUM
@@ -449,7 +449,7 @@ political_decisions = {
     }
 
     rum_sponsor_the_arts = {
-        picture = picture
+        picture = turkishtheater
         potential = {
             OR = {
                 tag = RUM
@@ -471,13 +471,13 @@ political_decisions = {
     }
 
     rum_reform_the_military_standards = {
-        picture = picture
+        picture = turkisharmy3
         potential = {
             OR = {
                 tag = RUM
                 tag = SEL
             }
-            NOT = { has_country_flag = reform_military_1 }
+            NOT = { has_country_flag = reform_military }
             has_country_flag = anatolia_finished
         }
         allow = {
@@ -493,7 +493,7 @@ political_decisions = {
     }
 
     rum_reform_navy = {
-        picture = picture
+        picture = turkishnavy
         potential = {
             OR = {
                 tag = RUM
@@ -515,7 +515,7 @@ political_decisions = {
     }
 
     rum_big_army = {
-        picture = picture
+        picture = turkisharmy2
         potential = {
             OR = {
                 tag = RUM
@@ -580,7 +580,7 @@ political_decisions = {
     }
 
     rum_adapt_mobilization = {
-        picture = picture
+        picture = turkisharmy
         potential = {
             OR = {
                 tag = RUM
@@ -602,7 +602,7 @@ political_decisions = {
     }
 
     rum_move_capital = {
-        picture = picture
+        picture = turkishsultan
         potential = {
             OR = {
                 tag = RUM
@@ -617,6 +617,7 @@ political_decisions = {
             war = no
         }
         effect = {
+            set_country_flag = moved_capital
             country_event = { id = 100980 days = -1 }
         }
     }

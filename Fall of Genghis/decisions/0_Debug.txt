@@ -241,4 +241,18 @@ political_decisions = {
             change_variable = { which = egypt_authority value = 5 }
         }
     }
+
+    rum_annex_cap = {
+        potential = {
+            ai = no
+            tag = RUM
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            inherit = CAP
+            inherit = ARM
+        }
+    }
 }
