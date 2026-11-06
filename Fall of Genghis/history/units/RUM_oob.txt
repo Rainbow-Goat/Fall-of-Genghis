@@ -1,0 +1,190 @@
+leader = {
+    name = "Ibrahim Enver Pasha"
+    date = 1831.1.1
+    type = land
+    personality = relentless
+    background = natural_born_leader
+    prestige = 0.5
+}
+leader = {
+    name = "Mehmed Osmanuglu"
+    date = 1827.1.1
+    type = land
+    personality = gallant
+    background = school_of_defense
+    prestige = 0.2
+}
+leader = {
+    name = "Abdullah Bey Osmanuglu"
+    date = 1817.1.1
+    type = land
+    personality = persistant
+    background = school_of_the_bayonet
+    prestige = 0.3
+}
+
+army = {
+    name = "Army of Antioch"
+    location = 900
+    
+    regiment = {
+        name = "Infantry 1"
+        type = infantry
+        home = 897
+    }
+    regiment = {
+        name = "Infantry 2"
+        type = infantry
+        home = 897
+    }
+    regiment = {
+        name = "Infantry 3"
+        type = infantry
+        home = 897
+    }
+    regiment = {
+        name = "Infantry 4"
+        type = infantry
+        home = 897
+    }
+    regiment = {
+        name = "Cavalry 1"
+        type = hussar
+        home = 902
+    }
+    regiment = {
+        name = "Artillery 1"
+        type = artillery
+        home = 903
+    }
+    regiment = {
+        name = "Artillery 2"
+        type = artillery
+        home = 904
+    }
+    regiment = {
+        name = "Artillery 3"
+        type = artillery
+        home = 905
+    }
+    regiment = {
+        name = "Artillery 4"
+        type = artillery
+        home = 905
+    }
+    regiment = {
+        name = "Artillery 5"
+        type = artillery
+        home = 905
+    }
+}
+army = {
+    name = "Army of Anatolia"
+    location = 894
+    
+    regiment = {
+        name = "Infantry 1"
+        type = infantry
+        home = 873
+    }
+    regiment = {
+        name = "Infantry 2"
+        type = infantry
+        home = 873
+    }
+    regiment = {
+        name = "Infantry 3"
+        type = infantry
+        home = 873
+    }
+    regiment = {
+        name = "Infantry 4"
+        type = infantry
+        home = 873
+    }
+    regiment = {
+        name = "Cavalry 1"
+        type = hussar
+        home = 902
+    }
+    regiment = {
+        name = "Artillery 1"
+        type = artillery
+        home = 878
+    }
+    regiment = {
+        name = "Artillery 2"
+        type = artillery
+        home = 878
+    }
+    regiment = {
+        name = "Artillery 3"
+        type = artillery
+        home = 878
+    }
+    regiment = {
+        name = "Artillery 4"
+        type = artillery
+        home = 878
+    }
+    regiment = {
+        name = "Artillery 5"
+        type = artillery
+        home = 878
+    }
+}
+army = {
+    name = "Army of the Conqueror"
+    location = 905
+    
+    regiment = {
+        name = "Infantry 1"
+        type = infantry
+        home = 889
+    }
+    regiment = {
+        name = "Infantry 2"
+        type = infantry
+        home = 889
+    }
+    regiment = {
+        name = "Infantry 3"
+        type = infantry
+        home = 889
+    }
+    regiment = {
+        name = "Infantry 4"
+        type = infantry
+        home = 889
+    }
+    regiment = {
+        name = "Cavalry 1"
+        type = hussar
+        home = 902
+    }
+    regiment = {
+        name = "Artillery 1"
+        type = artillery
+        home = 893
+    }
+    regiment = {
+        name = "Artillery 2"
+        type = artillery
+        home = 893
+    }
+    regiment = {
+        name = "Artillery 3"
+        type = artillery
+        home = 3256
+    }
+    regiment = {
+        name = "Artillery 4"
+        type = artillery
+        home = 3256
+    }
+    regiment = {
+        name = "Artillery 5"
+        type = artillery
+        home = 3256
+    }
+}

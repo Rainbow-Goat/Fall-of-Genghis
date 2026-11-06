@@ -135,7 +135,7 @@ military = {
 	BASE_COMBAT_WIDTH = 30,
 	POP_MIN_SIZE_FOR_REGIMENT = 1000,
 	POP_SIZE_PER_REGIMENT = 3000,
-	SOLDIER_TO_POP_DAMAGE = 0.2,
+	SOLDIER_TO_POP_DAMAGE = 0.3,
 	LAND_SPEED_MODIFIER = 1,
 	NAVAL_SPEED_MODIFIER = 2,
 	EXP_GAIN_DIV = 0.05,
@@ -150,7 +150,7 @@ military = {
 	LEADER_AGE_DEATH_FACTOR = 4, -- higher value means leaders live longer
 	LEADER_PRESTIGE_TO_MORALE_FACTOR = 0.8, -- f.ex. 100% of prestige = +10% morale
 	LEADER_PRESTIGE_TO_MAX_ORG_FACTOR = 0.7, -- f.ex. 100% of prestige = +10 max org
-	LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0.05, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
+	LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0.01, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
 	LEADER_PRESTIGE_LAND_GAIN =0.3, -- extra speed gain on prestige for land combat
 	LEADER_PRESTIGE_NAVAL_GAIN =0.3, -- extra speed gain on prestige for naval combat
 	NAVAL_COMBAT_SEEKING_CHANCE = 0.5, -- base chance of picking a target (increased by leader reconaissance)
@@ -658,7 +658,7 @@ pops = {
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
 	
-	NATIONAL_FOCUS_DIVIDER = 400000.0,
+	NATIONAL_FOCUS_DIVIDER = 300000.0,
 	
 	POP_SAVINGS = 0.018,
 	
@@ -699,7 +699,7 @@ ai =
 	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
 	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
 	SOLDIER_WEIGHT = 30.0, -- ai weight for soldiers
-	SOLDIER_FRACTION = 0.03, -- max amount of population AI wants to be soldiers
+	SOLDIER_FRACTION = 0.05, -- max amount of population AI wants to be soldiers
 	CAPITALIST_FRACTION = 0.001, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 0.05, -- ai weight for new production
 	SPAM_PENALTY = 10, -- makes certain diplomatic action less common 
@@ -712,7 +712,7 @@ ai =
 	CHANCE_BUILD_FORT = 0.5,
 	CHANCE_INVEST_POP_PROJ = 0.16,
 	CHANCE_FOREIGN_INVEST = 0.16,
-	TWS_AWARENESS_SCORE_LOW_CAP = 0.2, -- AI will always add CBs if current warscore is less then that number (including TWS)
+	TWS_AWARENESS_SCORE_LOW_CAP = 0.15, -- AI will always add CBs if current warscore is less then that number (including TWS)
 	TWS_AWARENESS_SCORE_ASPECT = 0.5, -- AI will not add any more CBs when TWS is more then X% of total WS. (to not destroy the progress)
 	PEACE_BASE_RELUCTANCE = 20, -- AI base stubbornness to refuse peace (always applied)
 	PEACE_TIME_MONTHS = 30, -- months of additional AI stubbornness in a war
@@ -727,8 +727,8 @@ ai =
 	PEACE_ALLY_WAR_EXHAUSTION_MULT = 1.0, -- Multiplies PEACE_WAR_EXHAUSTION_FACTOR for allies in a war
 	PEACE_ALLY_WAR_DIRECTION_MULT = 0, -- Multiplies PEACE_WAR_DIRECTION_FACTOR for allies in a war
 	PEACE_ALLY_FORCE_BALANCE_MULT = 0, -- Multiplies PEACE_FORCE_BALANCE_FACTOR for allies in a war
-	AGGRESSION_BASE = 5, -- general AI aggression
-	AGGRESSION_UNCIV_BONUS = 10, -- additional AI civ aggression against uncivs
+	AGGRESSION_BASE = 8, -- general AI aggression
+	AGGRESSION_UNCIV_BONUS = 12, -- additional AI civ aggression against uncivs
 	FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MAX_FLEETS = 10, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)

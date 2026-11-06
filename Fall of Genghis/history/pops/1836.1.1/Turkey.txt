@@ -1197,9 +1197,9 @@
 	}
 
 	soldiers = {
-		culture = novum_greek
-		religion = orthodox
-		size = 2050
+		culture = anatolian
+		religion = sunni
+		size = 12050
 	}
 
 	farmers = {
@@ -1547,7 +1547,7 @@
 	soldiers = {
 		culture = anatolian
 		religion = sunni
-		size = 450
+		size = 15500
 	}
 
 	farmers = {
@@ -2369,7 +2369,7 @@
 	soldiers = {
 		culture = anatolian
 		religion = sunni
-		size = 250
+		size = 15500
 	}
 
 	farmers = {
@@ -2787,7 +2787,7 @@
 	soldiers = {
 		culture = anatolian
 		religion = sunni
-		size = 100
+		size = 3000
 	}
 
 	farmers = {
@@ -2853,7 +2853,7 @@
 	soldiers = {
 		culture = armenian
 		religion = sunni
-		size = 1250
+		size = 4250
 	}
 
 	farmers = {
@@ -2885,7 +2885,7 @@
 	soldiers = {
 		culture = anatolian
 		religion = sunni
-		size = 100
+		size = 10000
 	}
 
 	farmers = {
@@ -2951,7 +2951,7 @@
 	soldiers = {
 		culture = armenian
 		religion = sunni
-		size = 1250
+		size = 2250
 	}
 
 	farmers = {
