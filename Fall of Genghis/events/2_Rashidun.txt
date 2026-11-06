@@ -111,7 +111,6 @@ country_event = {
             }
             defender_goal = {
                 casus_belli = status_quo
-                state_province_id = REGION_D
             }
             call_ally = no
         }
