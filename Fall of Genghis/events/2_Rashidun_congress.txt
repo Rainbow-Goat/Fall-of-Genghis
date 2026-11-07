@@ -1,0 +1,271 @@
+country_event = {
+    id = 100991
+    title = "The Opening of the Pan Islamic Congress"
+    desc = "100991D"
+    major = yes
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "The Main Agenda should be a global alliance!"
+        set_global_flag = islam_purpose_alliance
+        any_country = {
+            limit = {
+                exists = yes
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100993 days = 5 }
+        }
+        country_event = { id = 100994 days = 10 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_greater_power = no
+            }
+        }
+    }
+    
+    option = {
+        name = "The main agenda should be a united nation of muslims!"
+        set_global_flag = islam_purpose_nation
+        any_country = {
+            limit = {
+                exists = yes
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100993 days = 5 }
+        }
+        country_event = { id = 100994 days = 10 }
+        
+        ai_chance = {
+            factor = 2
+            modifier = {
+                factor = 2
+                is_greater_power = yes
+            }
+        }
+    }
+
+    option = {
+        name = "The main agenda should be ending the schizm within Islam!"
+        set_global_flag = islam_purpose_schizm
+        any_country = {
+            limit = {
+                exists = yes
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100993 days = 5 }
+        }
+        country_event = { id = 100994 days = 10 }
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 1
+                MEX = { 
+                    government = caliphate 
+                    exists = yes
+                }
+            }
+            modifier = {
+                factor = 1
+                OR = {
+                    ALA = { 
+                        government = caliphate 
+                        exists = yes
+                    }
+                    HNA = { 
+                        government = caliphate 
+                        exists = yes
+                    }
+                }
+            }
+            modifier = {
+                factor = 1
+                SCL = {
+                    exists = yes
+                    government = caliphate
+                }
+            }
+            modifier = {
+                factor = 1
+                OR = {
+                    RUM = {
+                        exists = yes
+                        has_country_flag = rum_caliph_title
+                    }
+                    SEL = {
+                        exists = yes
+                        has_country_flag = rum_caliph_title
+                    }
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100992
+    title = "An Invitation to the Islamic Congress"
+    desc = "100992D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "We will attend the Congress"
+        set_country_flag = islamic_congress_member
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+    
+    option = {
+        name = "Thanks, but no thanks"
+        set_country_flag = rejected_islamic_congress
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                is_greater_power = yes
+            }
+            modifier = {
+                factor = 1
+                AND = {
+                    has_country_flag = religion_shiite
+                    NOT = { check_variable = { which = shia_appeasement value = 3 } }
+                }
+            }
+            modifier = {
+                factor = 1
+                has_country_flag = rum_caliph_title
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100993
+    title = "The Opening Speech"
+    desc = "100993D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "Twas a good speech"
+        RAS = { prestige = 2 }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 100994
+    title = "Justification for the Proposal"
+    desc = ""
+    picture = Picture
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    immediate = {
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_alliance
+                }
+            }
+            event_1_alliance = {}
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_nation
+                }
+            }
+            event_1_nation = {}
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_schizm
+                }
+            }
+            event_1_schizm = {}
+        }    
+    }
+
+    option = {
+        name = "Internal bickering hurts us all"
+        set_global_flag = event_1_internal
+        change_variable = { which = islam_congress_faith value = 1 }
+        change_variable = { which = islam_congress_nobility value = 1 }
+        change_variable = { which = islam_congress_trust value = -2 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100995 days = 10 }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+    option = {
+        name = "Our enemies can use our differences against us"
+        set_global_flag = event_1_external
+        change_variable = { which = islam_congress_faith value = 1 }
+        change_variable = { which = islam_congress_nobility value = 2 }
+        change_variable = { which = islam_congress_trust value = -1 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100995 days = 10 }
+        }
+
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "This is not what the Prophet nor Allah would have wanted"
+        set_global_flag = event_1_religious
+        change_variable = { which = islam_congress_faith value = 3 }
+        change_variable = { which = islam_congress_nobility value = -1 }
+        change_variable = { which = islam_congress_trust value = -3 }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_schizm
+                }
+            }
+            owner = {
+                change_variable = { which = islam_congress_faith value = 2 }
+            }
+        }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100995 days = 10 }
+        }
+
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

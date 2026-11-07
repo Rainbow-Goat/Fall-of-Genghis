@@ -1201,3 +1201,18 @@ option_3_text = {}
 #Dynamic loc - Egypt Rum vassal event
 rum_vassal_yes_text = {}
 rum_vassal_no_text = {}
+
+#Dynamic loc - Islamic Congress
+event_1_alliance = {}
+event_1_nation = {}
+event_1_schizm = {}
+
+event_1_member_alliance_internal = {}
+event_1_member_alliance_external = {}
+event_1_member_alliance_religion = {}
+event_1_member_nation_internal = {}
+event_1_member_nation_external = {}
+event_1_member_nation_religion = {}
+event_1_member_schizm_internal = {}
+event_1_member_schizm_external = {}
+event_1_member_schizm_religion = {}
