@@ -196,7 +196,7 @@ country_event = {
                     NOT = { 860 = { is_core = THIS } }
                 }
             }
-            860 = {
+            TUR_860 = {
                 add_core = THIS
             }
         }

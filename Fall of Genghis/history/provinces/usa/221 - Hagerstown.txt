@@ -1,6 +1,6 @@
-owner = IRO
-controller = IRO
-add_core = IRO
+owner = NVR
+controller = NVR
+add_core = NVR
 trade_goods = tobacco
 life_rating = 35 
 1861.1.1 = { state_building = { level = 1 building = artillery_factory upgrade = yes } state_building = { level = 1 building = steel_factory upgrade = yes } } 
