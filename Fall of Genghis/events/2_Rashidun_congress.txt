@@ -17,7 +17,7 @@ country_event = {
             }
             country_event = { id = 100993 days = 5 }
         }
-        country_event = { id = 100994 days = 10 }
+        country_event = { id = 100994 days = 15 }
         
         ai_chance = {
             factor = 1
@@ -38,70 +38,13 @@ country_event = {
             }
             country_event = { id = 100993 days = 5 }
         }
-        country_event = { id = 100994 days = 10 }
+        country_event = { id = 100994 days = 15 }
         
         ai_chance = {
             factor = 2
             modifier = {
                 factor = 2
                 is_greater_power = yes
-            }
-        }
-    }
-
-    option = {
-        name = "The main agenda should be ending the schizm within Islam!"
-        set_global_flag = islam_purpose_schizm
-        any_country = {
-            limit = {
-                exists = yes
-                has_country_flag = islamic_congress_member
-            }
-            country_event = { id = 100993 days = 5 }
-        }
-        country_event = { id = 100994 days = 10 }
-
-        ai_chance = {
-            factor = 1
-            modifier = {
-                factor = 1
-                MEX = { 
-                    government = caliphate 
-                    exists = yes
-                }
-            }
-            modifier = {
-                factor = 1
-                OR = {
-                    ALA = { 
-                        government = caliphate 
-                        exists = yes
-                    }
-                    HNA = { 
-                        government = caliphate 
-                        exists = yes
-                    }
-                }
-            }
-            modifier = {
-                factor = 1
-                SCL = {
-                    exists = yes
-                    government = caliphate
-                }
-            }
-            modifier = {
-                factor = 1
-                OR = {
-                    RUM = {
-                        exists = yes
-                        has_country_flag = rum_caliph_title
-                    }
-                    SEL = {
-                        exists = yes
-                        has_country_flag = rum_caliph_title
-                    }
-                }
             }
         }
     }
@@ -192,28 +135,39 @@ country_event = {
                 }
             }
             event_1_nation = {}
-        }
-        random_owned = {
-            limit = {
-                owner = {
-                    has_global_flag = islam_purpose_schizm
-                }
-            }
-            event_1_schizm = {}
-        }    
+        }  
     }
 
     option = {
         name = "Internal bickering hurts us all"
         set_global_flag = event_1_internal
-        change_variable = { which = islam_congress_faith value = 1 }
-        change_variable = { which = islam_congress_nobility value = 1 }
+        change_variable = { which = islam_congress_unity value = 1 }
         change_variable = { which = islam_congress_trust value = -2 }
         any_country = {
             limit = {
                 has_country_flag = islamic_congress_member
             }
             country_event = { id = 100995 days = 10 }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_alliance
+                }
+            }
+            owner = {
+                country_event = { id = 100996 days = 20 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_nation
+                }
+            }
+            owner = {
+                country_event = { id = 100997 days = 20 }
+            }
         }
         
         ai_chance = {
@@ -224,16 +178,34 @@ country_event = {
     option = {
         name = "Our enemies can use our differences against us"
         set_global_flag = event_1_external
-        change_variable = { which = islam_congress_faith value = 1 }
-        change_variable = { which = islam_congress_nobility value = 2 }
-        change_variable = { which = islam_congress_trust value = -1 }
+        change_variable = { which = islam_congress_unity value = 2 }
+        change_variable = { which = islam_congress_trust value = 0 }
         any_country = {
             limit = {
                 has_country_flag = islamic_congress_member
             }
             country_event = { id = 100995 days = 10 }
         }
-
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_alliance
+                }
+            }
+            owner = {
+                country_event = { id = 100996 days = 20 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_nation
+                }
+            }
+            owner = {
+                country_event = { id = 100997 days = 20 }
+            }
+        }
 
         ai_chance = {
             factor = 1
@@ -243,17 +215,16 @@ country_event = {
     option = {
         name = "This is not what the Prophet nor Allah would have wanted"
         set_global_flag = event_1_religious
-        change_variable = { which = islam_congress_faith value = 3 }
-        change_variable = { which = islam_congress_nobility value = -1 }
-        change_variable = { which = islam_congress_trust value = -3 }
+        change_variable = { which = islam_congress_unity value = 3 }
+        change_variable = { which = islam_congress_trust value = -5 }
         random_owned = {
             limit = {
                 owner = {
-                    has_global_flag = islam_purpose_schizm
+                    has_global_flag = true_caliphate
                 }
             }
             owner = {
-                change_variable = { which = islam_congress_faith value = 2 }
+                change_variable = { which = islam_congress_trust value = 5 }
             }
         }
         any_country = {
@@ -262,8 +233,284 @@ country_event = {
             }
             country_event = { id = 100995 days = 10 }
         }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_alliance
+                }
+            }
+            owner = {
+                country_event = { id = 100996 days = 20 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = islam_purpose_nation
+                }
+            }
+            owner = {
+                country_event = { id = 100997 days = 20 }
+            }
+        }
 
 
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 100995
+    title = "The Call for Unity"
+    desc = ""
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    immediate = {
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        has_global_flag = islam_purpose_alliance
+                        has_global_flag = event_1_internal
+                    }
+                }
+            }
+            owner = {
+                event_1_member_alliance_internal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        has_global_flag = islam_purpose_alliance
+                        has_global_flag = event_1_external
+                    }
+                }
+            }
+            owner = {
+                event_1_member_alliance_external = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        has_global_flag = islam_purpose_alliance
+                        has_global_flag = event_1_religious
+                    }
+                }
+            }
+            owner = {
+                event_1_member_alliance_religion = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        has_global_flag = islam_purpose_nation
+                        has_global_flag = event_1_internal
+                    }
+                }
+            }
+            owner = {
+                event_1_member_nation_internal = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        has_global_flag = islam_purpose_nation
+                        has_global_flag = event_1_external
+                    }
+                }
+            }
+            owner = {
+                event_1_member_nation_external = {}
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    AND = {
+                        has_global_flag = islam_purpose_nation
+                        has_global_flag = event_1_religious
+                    }
+                }
+            }
+            owner = {
+                event_1_member_nation_religion = {}
+            }
+        }
+    }
+
+    option = {
+        name = "An intelligent and well argued speech"
+        RAS = { prestige = 1 }
+        
+        ai_chance = {
+            factor = 2
+        }
+    }
+    
+    option = {
+        name = "Bah, just fearmongering by an irrelevant institution"
+        RAS = { prestige = -1 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                NOT = { relation = { who = RAS value = 50 } }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100996
+    title = "The Issue of National Sovereignity"
+    desc = "100996D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "External Alliances will be allowed"
+        set_global_flag = event_2_external
+        change_variable = { which = islam_congress_unity value = -1 }
+        change_variable = { which = islam_congress_trust value = 2 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100998 days = 5 }
+        }
+        country_event = { id = 100999 days = 15 }
+        
+        ai_chance = {
+            factor = 2
+        }
+    }
+    
+    option = {
+        name = "The Great Powers have a need for other commitments"
+        set_global_flag = event_2_great_powers
+        change_variable = { which = islam_congress_unity value = 1 }
+        change_variable = { which = islam_congress_trust value = -2 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100998 days = 5 }
+        }
+        country_event = { id = 100999 days = 15 }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "The Alliance will be centralized under our leadership"
+        set_global_flag = event_2_central
+        change_variable = { which = islam_congress_unity value = 2 }
+        change_variable = { which = islam_congress_trust value = -5 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100998 days = 5 }
+        }
+        country_event = { id = 100999 days = 15 }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "An alliance with the faithful trumps all other agreements"
+        set_global_flag = event_2_central
+        change_variable = { which = islam_congress_unity value = 3 }
+        change_variable = { which = islam_congress_trust value = -1 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100998 days = 5 }
+        }
+        country_event = { id = 100999 days = 15 }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 100997
+    title = "The Issue of Nationality"
+    desc = "100997D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "Local nobility and culture will be protected"
+        set_global_flag = event_2_local
+        change_variable = { which = islam_congress_unity value = 1 }
+        change_variable = { which = islam_congress_trust value = 2 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100998 days = 5 }
+        }
+        country_event = { id = 100999 days = 15 }        
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+    option = {
+        name = "Local administration is needed, but under central control"
+        set_global_flag = event_2_local_admin
+        change_variable = { which = islam_congress_unity value = 2 }
+        change_variable = { which = islam_congress_trust value = 1 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100998 days = 5 }
+        }
+        country_event = { id = 100999 days = 15 }        
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "Everything within the Caliphate, nothing outside the Caliphate"
+        set_global_flag = event_2_central
+        change_variable = { which = islam_congress_unity value = 3 }
+        change_variable = { which = islam_congress_trust value = -2 }
+        any_country = {
+            limit = {
+                has_country_flag = islamic_congress_member
+            }
+            country_event = { id = 100998 days = 5 }
+        }
+        country_event = { id = 100999 days = 15 }        
+        
         ai_chance = {
             factor = 1
         }

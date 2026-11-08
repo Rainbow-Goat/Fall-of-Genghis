@@ -15,8 +15,7 @@ political_decisions = {
         effect = {
             set_country_flag = islamic_congress_leader
             prestige = 10
-            set_variable = { which = islam_congress_faith value = 0 }
-            set_variable = { which = islam_congress_nobility value = 0 }
+            set_variable = { which = islam_congress_unity value = 0 }
             set_variable = { which = islam_congress_trust value = 20 }
             country_event = { id = 100991 days = 15 }
             any_country = {
