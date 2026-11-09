@@ -106,6 +106,7 @@ CHK     = "countries/Chalukya.txt"
 NAN     = "countries/Nanda Empire.txt"
 IRA     = "countries/Iranzamin.txt"
 TIM     = "countries/Timurids.txt"
+TGC     = "countries/Global Caliphate.txt"
 
 
 

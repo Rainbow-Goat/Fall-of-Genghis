@@ -1,7 +1,7 @@
 country_event = {
-    id = 101010
+    id = 202020
     title = "The City of the World's Desire"
-    desc = "101010D"
+    desc = "202020D"
     picture = Picture
     
     trigger = {
@@ -20,9 +20,9 @@ country_event = {
 }
 
 country_event = {
-    id = 101011
+    id = 202021
     title = "The Loss of Constantinople"
-    desc = "101011D"
+    desc = "202021D"
     picture = Picture
     
     trigger = {
@@ -39,9 +39,9 @@ country_event = {
 }
 
 country_event = {
-    id = 101012
+    id = 202022
     title = "The Kaaba"
-    desc = "101012D"
+    desc = "202022D"
     picture = Picture
     
     trigger = {
@@ -90,9 +90,9 @@ country_event = {
 }
 
 country_event = {
-    id = 101013
+    id = 202023
     title = "The Loss of the Kaaba"
-    desc = "101013"
+    desc = "202023D"
     picture = Picture
     
     trigger = {
@@ -143,9 +143,9 @@ country_event = {
 }
 
 country_event = {
-    id = 101014
+    id = 202024
     title = "The Kaaba was stolen...?"
-    desc = "101014D"
+    desc = "202024D"
     picture = Picture
     
     trigger = {

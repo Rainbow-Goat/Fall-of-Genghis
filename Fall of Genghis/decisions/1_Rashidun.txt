@@ -20,9 +20,8 @@ political_decisions = {
             country_event = { id = 100991 days = 15 }
             any_country = {
                 limit = {
+                    NOT = { has_country_flag = islamic_congress_leader }
                     OR = {
-                        NOT = { has_country_flag = islamic_congress_leader }
-                        exists = yes
                         has_country_flag = religion_sunni
                         has_country_flag = religion_shiite
                     }
