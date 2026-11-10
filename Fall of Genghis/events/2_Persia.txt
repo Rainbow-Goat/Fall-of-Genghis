@@ -179,3 +179,17 @@ country_event = {
         prestige = -50
     }
 }
+
+country_event = {
+    id = 100937
+    title = "The Caliph of Mecca sends us Aid"
+    desc = "100937D"
+    picture = egyptpray
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "A most kind gesture"
+        add_country_modifier = { name = rashidun_aid duration = 1826 }
+    }
+}

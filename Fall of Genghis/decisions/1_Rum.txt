@@ -201,6 +201,10 @@ political_decisions = {
             }
             has_country_flag = anatolia_finished
             NOT = { accepted_culture = iraqi } 
+            OR = {
+                NOT = { has_country_flag = rum_submit_to_rashidun }
+                NOT = { RAS = { government = caliphate } }
+            }
         }
         allow = {
             war = no
@@ -257,6 +261,10 @@ political_decisions = {
                 THIS = { has_country_flag = rum_defy_rashidun }
             }
             NOT = { 917 = { is_core = THIS } }
+            OR = {
+                NOT = { has_country_flag = rum_submit_to_rashidun }
+                NOT = { RAS = { government = caliphate } }
+            }
         }
         allow = {
             war = no
@@ -282,6 +290,10 @@ political_decisions = {
                     NOT = { government = caliphate }
                 }
             }
+            OR = {
+                NOT = { has_country_flag = rum_submit_to_rashidun }
+                NOT = { RAS = { government = caliphate } }
+            }
             NOT = { 1151 = { is_core = THIS } }
         }
         allow = {
@@ -301,6 +313,11 @@ political_decisions = {
             tag = SEL
             917 = { is_core = THIS }
             EGY = { has_country_flag = mamluk_coup }
+            NOT = { has_country_flag = egypt_coup_sponsor }
+            OR = {
+                NOT = { has_country_flag = rum_submit_to_rashidun }
+                NOT = { RAS = { government = caliphate } }
+            }
         }
         allow = {
             war = no
@@ -314,6 +331,7 @@ political_decisions = {
             prestige = 20
             badboy = 15
             create_vassal = EGY
+            set_country_flag = egypt_coup_sponsor
         }
     }
 
@@ -350,6 +368,10 @@ political_decisions = {
             tag = SEL
             NOT = { has_country_flag = rum_caliph_title }
             NOT = { has_country_flag = rum_caliph_title_attempted }
+            OR = {
+                NOT = { has_country_flag = rum_submit_to_rashidun }
+                NOT = { RAS = { government = caliphate } }
+            }
         }
         allow = {
             owns = 1151

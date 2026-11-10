@@ -30,4 +30,75 @@ political_decisions = {
             }
         }
     }
+
+    declare_cappadocian_jihad = {
+        picture = picture
+        potential = {
+            tag = RAS
+            has_global_flag = rum_vs_cappadocia_ended
+            government = caliphate
+            OR = {
+                894 = { owned_by = CAP }
+                894 = { owned_by = ERE }
+            }
+            NOT = { has_global_flag = jihad_vs_cappadocia }
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+        }
+        effect = {
+            set_global_flag = jihad_vs_cappadocia
+            prestige = 25
+            badboy = 5
+            country_event = { id = 101008 days = 10 }
+        }
+    }
+
+    demand_rum_stand_down = {
+        picture = picture
+        potential = {
+            tag = RAS
+            government = caliphate
+            OR = {
+                RUM = {
+                    OR = {
+                        accepted_culture = iraqi
+                        917 = { is_core = RUM }
+                        has_country_flag = egypt_coup_sponsor
+                        has_country_flag = sponsor_the_arts
+                        has_country_flag = embrace_industry
+                        has_country_modifier = mexican_alignment
+                        has_country_modifier = umayyad_alignment
+                    }
+                }
+                SEL = {
+                    exists = yes
+                }
+            }
+            NOT = { has_country_flag = demand_rum }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            any_country = {
+                limit = {
+                    AND = {
+                        exists = yes
+                        OR = {
+                            tag = RUM
+                            tag = SEL
+                        }
+                    }
+                }
+                country_event = { id = 100981 days = 10 }
+            }
+            prestige = 20
+            set_country_flag = demand_rum
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
 }

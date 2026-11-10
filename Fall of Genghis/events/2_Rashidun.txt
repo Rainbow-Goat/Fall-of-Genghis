@@ -2,7 +2,7 @@ country_event = {
     id = 100990
     title = "The Status of Jerusalem"
     desc = ""
-    picture = Picture
+    picture = jerusalem_event
     
     is_triggered_only = yes
     fire_only_once = yes
@@ -138,3 +138,169 @@ country_event = {
     }
 }
 
+country_event = {
+    id = 101008
+    title = "The Jihad against Cappadocia"
+    desc = "101008D"
+    major = yes
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "From the Med to the black sea, Anatolia will be free!"
+        any_country = {
+            limit = {
+                has_country_modifier = rashidun_alignment
+            }
+            relation = { who = CAP value = -200 }
+            relation = { who = ERE value = -200 }
+        }
+    }
+}
+
+country_event = {
+    id = 101009
+    title = "The Assyrian Plea"
+    desc = "101009D"
+    picture = sultanlisten
+    
+    trigger = {
+        tag = RAS
+        month = 6
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We shall come to their aid"
+        war = {
+            target = QAJ
+            attacker_goal = {
+                casus_belli = cut_down_to_size
+            }
+            defender_goal = {
+                casus_belli = cut_down_to_size
+            }
+            call_ally = no
+        }
+        set_country_flag = hidden_tooltip
+        random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+            owner = {
+                QAJ = { badboy = -13 }
+                RAS = { badboy = -13 }
+            }
+        }
+        clr_country_flag = hidden_tooltip
+        set_variable = { which = shia_appeasement value = 0 }
+        relation = { who = IRQ value = 100 }
+        relation = { who = QAJ value = -100 }
+        create_alliance = IRQ
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+    
+    option = {
+        name = "They will have to stand on their own"
+        set_variable = { which = shia_appeasement value = 1 }
+        relation = { who = IRQ value = -100 }
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 101010
+    title = "The Persian Plea"
+    desc = "101010D"
+    picture = mongols
+    
+    trigger = {
+        tag = RAS
+        QAJ = {
+            war_with = ILK
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 7
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We will send them aid"
+        QAJ = {
+            country_event = { id = 100937 days = 15 }
+        }
+        change_variable = { which = shia_appeasement value = 1 }
+        
+        ai_chance = {
+            factor = 2
+            modifier = {
+                factor = 3
+                relation = { who = QAJ value = 100 }
+            }
+        }
+    }
+    
+    option = {
+        name = "They can deal with the Mongols on their own!"
+        change_variable = { which = shia_appeasement value = 0 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                NOT = { relation = { who = QAJ value = 50 } }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 101011
+    title = "The Khorasan Jihad"
+    desc = "101011D"
+    picture = rebellion
+    
+    trigger = {
+        tag = RAS
+        KHO = {
+            exists = yes
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We support their plans"
+        change_variable = { which = shia_appeasement value = 1 }
+        KHO = { prestige = 50 }
+
+        ai_chance = {
+            factor = 3
+        }
+    }
+    
+    option = {
+        name = "A deceptive claim, they clearly just desire the lands of India"
+        change_variable = { which = shia_appeasement value = 0 }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 4
+                NOT = { relation = { who = KHO value = 50 } }
+            }
+        }
+    }
+}

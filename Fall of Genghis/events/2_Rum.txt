@@ -745,3 +745,75 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = 100981
+    title = "The Rashidun Caliphate Demand Our Submission"
+    desc = "100981D"
+    picture = egyptpray
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "We will submit to their demands"
+        set_country_flag = rum_submit_to_rashidun
+        prestige = -50
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 917
+                }
+            }
+            owner = {
+                any_owned = {
+                    limit = {
+                        is_core = RAS
+                    }
+                    secede_province = RAS
+                    remove_core = THIS
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    is_our_vassal = EGY
+                }
+            }
+            owner = {
+                release_vassal = EGY   
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    accepted_culture = iraqi
+                }
+            }
+            owner = {
+                release = IRQ
+                remove_accepted_culture = iraqi
+                any_owned = {
+                    limit = {
+                        is_core = IRQ
+                    }
+                    remove_core = THIS
+                }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+    option = {
+        name = "Who does he think he is? We refuse!"
+        set_country_flag = rum_defy_rashidun
+        prestige = 15
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+}

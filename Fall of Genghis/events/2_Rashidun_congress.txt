@@ -60,7 +60,7 @@ country_event = {
                 factor = 2
                 AND = {
                     has_country_flag = religion_shiite
-                    NOT = { check_variable = { which = shia_appeasement value = 3 } }
+                    NOT = { check_variable = { which = shia_appeasement value = 1 } }
                 }
             }
             modifier = {
@@ -625,7 +625,7 @@ country_event = {
         name = "Give them large concessions"
         change_variable = { which = islam_congress_unity value = -2 }
         change_variable = { which = islam_congress_trust value = -3 }
-        change_variable = { which = shia_appeasement value = 3 }
+        change_variable = { which = shia_appeasement value = 5 }
         set_global_flag = event_5_big
         random_owned = {
             limit = {
@@ -658,7 +658,7 @@ country_event = {
         name = "Give them minor concessions"
         change_variable = { which = islam_congress_unity value = 1 }
         change_variable = { which = islam_congress_trust value = -1 }
-        change_variable = { which = shia_appeasement value = 1 }
+        change_variable = { which = shia_appeasement value = 3 }
         set_global_flag = event_5_small
         random_owned = {
             limit = {
@@ -859,7 +859,7 @@ country_event = {
                 }
             }
             modifier = {
-                factor = 2
+                factor = 5
                 AND = {
                     has_country_flag = religion_shiite
                     NOT = { check_variable = { which = shia_appeasement value = 6 } }
