@@ -2,7 +2,7 @@ DEVELOPED IN THE ORDER LISTED
 
 V1.2 - Riches of the Orient
 Extensive content:
-    - Rashidun Caliphate (Started)
+    - Rashidun Caliphate (DONE)
     - Egypt (DONE)
     - Sultanate of Rum (DONE)
     - Persia (DONE)
@@ -11,7 +11,7 @@ Extensive content:
         - Qajar (DONE)
 Moderate content:
     - Afghanistan (DONE)
-    - Religious Mechanics (Almost done, just need to make the modifier for if you are the only caliphate in existance)
+    - Religious Mechanics (DONE)
 Minor content:
     - Armenia (DONE)
 
