@@ -117,8 +117,8 @@ country_event = {
     trigger = {
         tag = CAP
         NOT = { has_country_flag = byzantinist_plot }
-        year = 1843
-        month = 3
+        year = 1842
+        month = 2
     }
 
     fire_only_once = yes

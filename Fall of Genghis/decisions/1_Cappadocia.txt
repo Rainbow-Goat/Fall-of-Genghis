@@ -44,19 +44,22 @@ political_decisions = {
         potential = {
             tag = CAP
             NOT = {
-                894 = { is_core = THIS }
+                900 = { is_core = THIS }
             }
             has_country_flag = cap_no_coup
         }
         allow = {
             war = no
-            owns = 894
-            owns = 899
+            owns = 896
+            owns = 900
+            owns = 913
         }
         effect = {
             badboy = 3
+            SEL_899 = { add_core = THIS }
             EGY_897 = { add_core = THIS }
             EGY_903 = { add_core = THIS }
+            893 = { add_core = THIS }
         }
     }
 

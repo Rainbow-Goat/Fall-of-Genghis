@@ -114,6 +114,10 @@ political_decisions = {
                 assimilate = yes 
                 add_core = THIS
             }
+            RUS_719 = {
+                assimilate = yes
+                add_core = THIS
+            }
             set_country_flag = genocide_big
         }
     }

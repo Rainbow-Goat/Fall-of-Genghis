@@ -21,7 +21,7 @@ V1.3 - The Great Plains
 - Extensive content
     - Quebec (Advanced concept stage)
     - Holy Order of New Castille (Early concept stage)
-    - Islamic Caliphate of Mexico (Early concept stage)
+    - Islamic Caliphate of Mexico (Advanced concept stage)
     - Iroquois Confederacy (Early concept stage)
 Moderate content:
     - New Venetian Republic (Advanced concept stage)

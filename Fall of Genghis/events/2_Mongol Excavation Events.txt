@@ -1,13 +1,13 @@
 country_event = {
 	id = 81000
-	title = "EVTNAME81000"
-	desc = "EVTDESC81000"
+	title = "The Search for Genghis Tomb"
+	desc = "81000D"
 	picture = "ValleyoftheKings"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA81000"
+		name = "Alright"
 		set_global_flag = mongol_excavation_rights
 		FROM = {
 			country_event = { id=81001 days=0 }
@@ -34,7 +34,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTB81000"
+		name = "NO!"
 		FROM = {
 			country_event = { id=81002 days=0 }
 		}
@@ -44,14 +44,14 @@ country_event = {
 #Java Allows
 country_event = {
 	id = 81001
-	title = "EVTNAME81001"
-	desc = "EVTDESC81001"
+	title = "Excavation rights secured!"
+	desc = "81001D"
 	picture = "ValleyoftheKings"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA81001"
+		name = "Fantastic!"
 		add_country_modifier = {
 			name = mongological_excavations
 			duration = -1
@@ -68,14 +68,14 @@ country_event = {
 #Java Refuses
 country_event = {
 	id = 81002
-	title = "EVTNAME81002"
-	desc = "EVTDESC81002"
+	title = "Excavation request denied!"
+	desc = "81002D"
 	picture = "ValleyoftheKings"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA81002"
+		name = "Clearly they desire annexation, why else anger us?"
 		relation = {
 			who = FROM
 			value = -20
@@ -87,8 +87,8 @@ country_event = {
 # Excavation team gets into trouble
 country_event = {
 	id = 81003
-	title = "EVTNAME81003"
-	desc = "EVTDESC81003"
+	title = "The Excavation Mishap"
+	desc = "81003D"
 	picture = "ValleyoftheKings"
 
 	trigger = {
@@ -120,12 +120,12 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA81003"
-		treasury = -20
+		name = "We are most sorry for this"
+		treasury = -1000000
 	}
 
 	option = {
-		name = "EVTOPTB81003"
+		name = "Meh, their culture is worthless anyways"
 		relation = {
 			who = JAV
 			value = -20
@@ -137,8 +137,8 @@ country_event = {
 # Tomb Found
 country_event = {
 	id = 81004
-	title = "EVTNAME81004"
-	desc = "EVTDESC81004"
+	title = "A Mongolian Tomb has been Found!"
+	desc = "81004D"
 	picture = "Tomb"
 
 	trigger = {
@@ -150,7 +150,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA81004"
+		name = "A most fascinating discovery"
 		prestige = 10
 		years_of_research = 0.1
 	}
@@ -159,8 +159,8 @@ country_event = {
 #Curse of Ghengis
 country_event = {
 	id = 81005
-	title = "EVTNAME81005"
-	desc = "EVTDESC81005"
+	title = "The Curse of Genghis"
+	desc = "81005D"
 	picture = "Egyptian"
 
 	trigger = {
@@ -172,7 +172,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA81005"
+		name = "Wait what was that about my wife?"
 		any_pop = {
 			militancy = 1
 		}
@@ -183,8 +183,8 @@ country_event = {
 country_event = {
 	id = 81006
 	news = yes
-	title = "EVTNAME81006"
-	desc = "EVTDESC81006"
+	title = "The Final Resting Place"
+	desc = "81006D"
 	picture = "Egyptian"
 
 	trigger = {
@@ -201,7 +201,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA81006"
+		name = "Looks comfy!"
 		prestige = 30
 		years_of_research = 1
 		set_global_flag = ghengis_found
@@ -216,8 +216,8 @@ country_event = {
 #Mummy Found
 country_event = {
 	id = 81007
-	title = "EVTNAME81007"
-	desc = "EVTDESC81007"
+	title = "Mummy found!"
+	desc = "81007D"
 	picture = "Egyptian"
 
 	trigger = {
@@ -229,7 +229,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA81007"
+		name = "Looks scary, would not want to meet someone dressed like that"
 		prestige = 5
 		years_of_research = 0.05
 	}
@@ -239,7 +239,7 @@ country_event = {
 country_event = {
 	id = 81008
 	title = "Army of Terracotta Horses discovered"
-	desc = "EVTDESC81008"
+	desc = "81008D"
 	picture = "ValleyoftheKings"
 	
 	trigger = {
