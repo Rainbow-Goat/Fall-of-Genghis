@@ -168,3 +168,7 @@ IRQ_liberal;The Modern Party;x;
 IRQ_anarcho_liberal;The Freedom Party;x;
 IRQ_conservative;The Kings Party;x;
 IRQ_fascist;Unity Party;x;
+TGC;The International Union of Muslims;x;
+TGC_ADJ;Muslim;x;
+TGC_caliphate;The Global Caliphate;x;
+TGC_caliphate_ADJ;Islamic;x;
