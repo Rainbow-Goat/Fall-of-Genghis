@@ -1,6 +1,6 @@
 political_decisions = {
     the_pan_islamic_convention = {
-        picture = picture
+        picture = form_arab_union
         potential = {
             tag = RAS
             government = caliphate
@@ -32,7 +32,7 @@ political_decisions = {
     }
 
     declare_cappadocian_jihad = {
-        picture = picture
+        picture = islamic_army
         potential = {
             tag = RAS
             has_global_flag = rum_vs_cappadocia_ended
@@ -56,7 +56,7 @@ political_decisions = {
     }
 
     demand_rum_stand_down = {
-        picture = picture
+        picture = islam_civil_war
         potential = {
             tag = RAS
             government = caliphate

@@ -114,3 +114,121 @@ country_event = {
 		remove_country_modifier = mexican_alignment
 	}
 }
+
+country_event = {
+	id = 80204
+	title = "The True Caliph"
+	desc = "80204D"
+	major = yes
+	
+	trigger = {
+		THIS = {
+			OR = {
+				government = caliphate
+				has_country_flag = rum_caliph_title
+			}
+		}
+		NOT = { has_global_flag = true_caliphate }
+		OR = {
+			AND = {
+				NOT = { MEX = { government = caliphate} }
+				NOT = { SCL = { government = caliphate} }
+				NOT = { ALA = { government = caliphate} }
+				NOT = { HNA = { government = caliphate } }
+				NOT = { SEL = { has_country_flag = rum_caliph_title } }
+			}
+			AND = {
+				NOT = { RAS = { government = caliphate} }
+				NOT = { SCL = { government = caliphate} }
+				NOT = { ALA = { government = caliphate} }
+				NOT = { HNA = { government = caliphate } }
+				NOT = { SEL = { has_country_flag = rum_caliph_title } }
+			}
+			AND = {
+				NOT = { MEX = { government = caliphate} }
+				NOT = { RAS = { government = caliphate} }
+				NOT = { ALA = { government = caliphate} }
+				NOT = { HNA = { government = caliphate } }
+				NOT = { SEL = { has_country_flag = rum_caliph_title } }
+			}
+			AND = {
+				NOT = { MEX = { government = caliphate} }
+				NOT = { SCL = { government = caliphate} }
+				NOT = { RAS = { government = caliphate} }
+				NOT = { SEL = { has_country_flag = rum_caliph_title } }
+			}
+			AND = {
+				NOT = { RAS = { government = caliphate} }
+				NOT = { MEX = { government = caliphate} }
+				NOT = { SCL = { government = caliphate} }
+				NOT = { ALA = { government = caliphate} }
+				NOT = { HNA = { government = caliphate } }
+			}
+		}
+	}
+
+	option = {
+		name = "No one can deny the truth of our word!"
+		set_global_flag = true_caliphate
+		prestige = 150
+		badboy = -20
+	}
+}
+
+country_event = {
+	id = 80205
+	title = "The Fall of a Caliphate"
+	desc = "80205D"
+	picture = Picture
+	
+	trigger = {
+		tag = GHO
+		OR = {
+			RAS = {
+				exists = no
+				government = caliphate
+			}
+			ALA = {
+				exists = no
+				government = caliphate
+			}
+			MEX = {
+				exists = no
+				government = caliphate
+			}
+			SCL = {
+				exists = no
+				government = caliphate
+			}
+			SEL = {
+				exists = no
+				has_country_flag = rum_caliph_title
+			} 
+		}
+	}
+
+	option = {
+		name = "Let's fix that"
+		any_country = {
+			limit = {
+				government = caliphate
+				exists = no
+			}
+			government = absolute_monarchy
+		}
+		any_country = {
+			limit = {
+				tag = SEL
+				has_country_flag = rum_caliph_title
+				exists = no
+			}
+			SEL = {
+				clr_country_flag = rum_caliph_title
+			}
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

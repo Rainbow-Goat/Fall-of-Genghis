@@ -1203,7 +1203,6 @@ rum_vassal_yes_text = {}
 rum_vassal_no_text = {}
 
 #Dynamic loc - Islamic Congress
-event_1_nation = {}
 
 event_1_member_internal = {}
 event_1_member_external = {}

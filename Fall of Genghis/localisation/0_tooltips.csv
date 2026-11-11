@@ -21,3 +21,5 @@ scourge_of_god_tooltip;§GThis modifier will last for 40 years. During this time
 purge_military_tooltip;To §Rpurge§! the §YNobility§! you need to either have §YCentral Authority§! §Ghigh§! or have §YMerchants§! at §Gmaximum loyalty§!.§b;x;
 purge_cleric_tooltip;To §Rpurge§! the §YClerics§! you need to either have §YCentral Authority§! §Ghigh§! or have §YNobility§! at §Gmaximum loyalty§!.§b;x;
 purge_merchant_tooltip;To §Rpurge§! the §YMerchants§! you need to either have §YCentral Authority§! §Ghigh§! or have §YClerics§! at §Gmaximum loyalty§!.§b;x;
+true_caliph_yes_tooltip;§GThe successful play to topple all other Caliphs has paid off, and our legitmacy is strengthened as a result.§!§b;x;
+true_caliph_no_tooltip;§RWe have not achieved a position as the sole Caliph in the world, hurting our legitimacy and making this option impossible to use.§!§b;x;

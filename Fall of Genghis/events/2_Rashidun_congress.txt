@@ -33,7 +33,7 @@ country_event = {
     id = 100992
     title = "An Invitation to the Islamic Congress"
     desc = "100992D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -75,7 +75,7 @@ country_event = {
     id = 100993
     title = "The Opening Speech"
     desc = "100993D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -93,7 +93,7 @@ country_event = {
     id = 100994
     title = "Justification for the Proposal"
     desc = "100994D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
     fire_only_once = yes
@@ -169,7 +169,7 @@ country_event = {
     id = 100995
     title = "The Call for Unity"
     desc = ""
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -233,7 +233,7 @@ country_event = {
     id = 100997
     title = "The Issue of Nationality"
     desc = "100997D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -296,7 +296,7 @@ country_event = {
     id = 100998
     title = "The Administration of the Nation"
     desc = ""
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -342,7 +342,7 @@ country_event = {
     id = 100999
     title = "The Question of Monarchy"
     desc = "100999D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -405,7 +405,7 @@ country_event = {
     id = 101001
     title = "The Proposal for the Monarchies"
     desc = ""
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -561,7 +561,7 @@ country_event = {
     id = 101002
     title = "The Issue of the Schizm"
     desc = ""
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -617,7 +617,7 @@ country_event = {
     id = 101003
     title = "The Status of Shia Islam"
     desc = "101003D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -649,7 +649,7 @@ country_event = {
             factor = 1
             modifier = {
                 factor = 5
-                NOT = { check_variable = { which = shia_appeasement value = 4 } }
+                NOT = { check_variable = { which = shia_appeasement value = 3 } }
             }
         }
     }
@@ -682,7 +682,8 @@ country_event = {
             factor = 1
             modifier = {
                 factor = 5
-                check_variable = { which = shia_appeasement value = 5 }
+                check_variable = { which = shia_appeasement value = 3 }
+                NOT = { check_variable = { which = shia_appeasement value = 4 } }
             }
         }
     }
@@ -724,7 +725,7 @@ country_event = {
     id = 101004
     title = "The Shia Status"
     desc = ""
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -773,7 +774,7 @@ country_event = {
     id = 101005
     title = "The Final Speech"
     desc = "101005D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -800,7 +801,7 @@ country_event = {
     id = 101006
     title = "Should we join the Global Caliphate?"
     desc = "101006D"
-    picture = Picture
+    picture = islamiccongress
     
     is_triggered_only = yes
 
@@ -835,6 +836,13 @@ country_event = {
             modifier = {
                 factor = 3
                 check_variable = { which = islam_congress_trust value = 20 }
+            }
+            modifier = {
+                factor = 3
+                AND = {
+                    has_country_flag = religion_shiite
+                    has_global_flag = shia_appeased
+                }
             }
         }
     }
@@ -951,7 +959,10 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    has_global_flag = event_5_big
+                    AND = {
+                        has_global_flag = shia_appeased
+                        has_global_flag = event_5_big
+                    }
                 }
             }
             owner = {
@@ -961,7 +972,10 @@ country_event = {
         random_owned = {
             limit = {
                 owner = {
-                    has_global_flag = event_5_small
+                    AND = {
+                        has_global_flag = shia_appeased
+                        has_global_flag = event_5_small
+                    }
                 }
             }
             owner = {
