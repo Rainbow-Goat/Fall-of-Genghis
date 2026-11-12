@@ -549,50 +549,15 @@ political_decisions = {
         allow = {
             war = no
             is_mobilised = no
-            OR = {
-                AND = {
-                    exists = CAP
-                    stronger_army_than = CAP
-                }
-                AND = {
-                    exists = ERE
-                    stronger_army_than = ERE
-                }
-                AND = {
-                    NOT = { exists = CAP }
-                    NOT = { exists = ERE }
-                }
-            }
-            OR = {
-                AND = {
-                    exists = VEN
-                    stronger_army_than = VEN
-                }
-                AND = {
-                    exists = ITA
-                    stronger_army_than = ITA
-                }
-                AND = {
-                    NOT = { exists = VEN }
-                    NOT = { exists = ITA }
-                }
-            }
-            OR = {
-                AND = {
-                    exists = ARO
-                    stronger_army_than = ARO
-                }
-                AND = {
-                    exists = ART
-                    stronger_army_than = ART
-                }
-                AND = {
-                    NOT = { exists = ARO }
-                    NOT = { exists = ART }
-                }
-            }
-            stronger_army_than = HUN
-            stronger_army_than = RAS
+            CAP = { NOT = { brigades_compare = 1 } }
+            ERE = { NOT = { brigades_compare = 1 } }
+            GRE = { NOT = { brigades_compare = 1 } }
+            VEN = { NOT = { brigades_compare = 1 } }
+            ITA = { NOT = { brigades_compare = 1 } }
+            ARO = { NOT = { brigades_compare = 1 } }
+            ART = { NOT = { brigades_compare = 1 } }
+            HUN = { NOT = { brigades_compare = 1 } }
+            RAS = { NOT = { brigades_compare = 1 } }
         }
         effect = {
             set_country_flag = rum_big_army
