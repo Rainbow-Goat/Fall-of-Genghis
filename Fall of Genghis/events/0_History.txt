@@ -1,8 +1,8 @@
 country_event = {
-    id = 100601
-    title = "100601NAME"
-    desc = "100601DESC"
-    picture = Picture
+    id = 300001
+    title = "The History of Normandy"
+    desc = "300001D"
+    picture = historyevent
     is_triggered_only = yes
     
     option = {
@@ -11,9 +11,83 @@ country_event = {
 }
 
 country_event = {
-    id = 100602
-    title = "History of Persia"
-    desc = "100602D"
+    id = 300002
+    title = "The Fall of Persia"
+    desc = "300002D"
+    picture = historyevent
+    is_triggered_only = yes
+
+    option = {
+        name = "Neat!"
+    }
+}
+
+country_event = {
+    id = 300003
+    title = "The Rise of the Sultanate of Rum"
+    desc = "300003D"
+    picture = historyevent
+    is_triggered_only = yes
+
+    option = {
+        name = "Neat!"
+        country_event = { id = 300004 days = -1 }
+    }
+}
+
+country_event = {
+    id = 300004
+    title = "The Sultanate Today"
+    desc = "300004D"
+    picture = historyevent
+    is_triggered_only = yes
+
+    option = {
+        name = "Neat!"
+    }
+}
+
+country_event = {
+    id = 300005
+    title = "The Modern Akhenaton"
+    desc = "300005D"
+    picture = historyevent
+    is_triggered_only = yes
+
+    option = {
+        name = "Neat!"
+    }
+}
+
+country_event = {
+    id = 300006
+    title = "The Guardian of Christendom"
+    desc = "300006D"
+    picture = historyevent
+    is_triggered_only = yes
+
+    option = {
+        name = "Neat!"
+    }
+}
+
+country_event = {
+    id = 300007
+    title = "The Crossroads of Empires"
+    desc = "300007D"
+    picture = historyevent
+    is_triggered_only = yes
+
+    option = {
+        name = "Neat!"
+    }
+}
+
+country_event = {
+    id = 300008
+    title = "The Heirs to the Prophet"
+    desc = "300008D"
+    picture = historyevent
     is_triggered_only = yes
 
     option = {

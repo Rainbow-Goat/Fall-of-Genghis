@@ -15,7 +15,6 @@
 # 100300 = Russia stuff
 # 100400 = Iberia stuff
 # 100500 = Italy stuff
-# 100600 = History Events
 # 100700 = Germany stuff
 # 100800 = South America stuff
 # 100900 = Mideast stuff
@@ -30,7 +29,7 @@
 #   101100 = Bulgaria events
 # 101200 = Burgundy events
 # 202020 = Static modifiers attached to certain cities (Like Constantinople)
-
+# 300000 = History Events
 
 ###vanilla
 # Ideology - 1000

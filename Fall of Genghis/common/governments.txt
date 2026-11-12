@@ -150,7 +150,7 @@ sultanate = {
 	anarcho_liberal = yes
 	fascist = yes
 	
-	election = yes
+	election = no
 	duration = 24
 	appoint_ruling_party = yes
 	flagType = monarchy

@@ -5,17 +5,14 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			NOT = { has_country_flag = will_receive_grants }
+			civilized = yes
 			NOT = { has_global_flag = singleplayer_mode }
 		}
-		
 		allow = { 
-			NOT = { has_country_flag = will_receive_grants } 
 			ai = no
 			}
 		effect = {
 			country_event = {id = 120000 days = 0}
-
 		}
 
 	}
@@ -42,10 +39,10 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
+			civilized = yes
 			NOT = { has_country_flag = will_give_grants }
 			NOT = { has_global_flag = singleplayer_mode }
 		}
-
 		allow = { NOT = { has_country_flag = will_give_grants } }
 		effect = {
 			set_country_flag = will_give_grants
@@ -58,10 +55,10 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
+			civilized = yes
 			has_country_flag = will_give_grants
 			NOT = { has_global_flag = singleplayer_mode }
 		}
-		
 		allow = { 
 			ai = no
 			has_country_flag = will_give_grants }

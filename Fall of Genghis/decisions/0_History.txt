@@ -8,7 +8,7 @@ political_decisions = {
         }
         allow = {}
         effect = {
-            country_event = { id = 100601 days = -1 }
+            country_event = { id = 300001 days = -1 }
         }
     }
 
@@ -24,7 +24,72 @@ political_decisions = {
         }
         allow = {}
         effect = {
-            country_event = { id = 100602 days = -1 }
+            country_event = { id = 300002 days = -1 }
+        }
+    }
+
+    history_rum = {
+        picture = history
+        potential = {
+            tag = RUM
+            ai = no
+            NOT = { year = 1838 }
+        }
+        allow = {}
+        effect = {
+            country_event = { id = 300003 days = -1 }
+        }
+    }
+
+    history_egypt = {
+        picture = history
+        potential = {
+            tag = EGY
+            ai = no
+            NOT = { year = 1838 }
+        }
+        allow = {}
+        effect = {
+            country_event = { id = 300005 days = -1 }
+        }
+    }
+
+    history_armenia = {
+        picture = history
+        potential = {
+            tag = ARM
+            ai = no
+            NOT = { year = 1838 }
+        }
+        allow = {}
+        effect = {
+            country_event = { id = 300006 days = -1 }
+        }
+    }
+
+    history_afghanistan = {
+        picture = history
+        potential = {
+            tag = AFG
+            ai = no
+            NOT = { year = 1838 }
+        }
+        allow = {}
+        effect = {
+            country_event = { id = 300007 days = -1 }
+        }
+    }
+
+    history_rashidun = {
+        picture = history
+        potential = {
+            tag = RAS
+            ai = no
+            NOT = { year = 1838 }
+        }
+        allow = {}
+        effect = {
+            country_event = { id = 300008 days = -1 }
         }
     }
 }
