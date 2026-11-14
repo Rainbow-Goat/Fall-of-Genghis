@@ -65,11 +65,11 @@ reactionary_rebels = {
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.3
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.2
 		}
 		
 		modifier = {
@@ -101,6 +101,11 @@ reactionary_rebels = {
 					pop_majority_ideology = fascist
 				}
 			}
+		}
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
 		}
 		modifier = {
 			factor = 0
@@ -277,11 +282,11 @@ fascist_rebels = {
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.3
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.4
 		}
 		
 		modifier = {
@@ -311,6 +316,12 @@ fascist_rebels = {
 	spawn_chance = {
 		factor = 1.02
 		
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
+
 		modifier = {
 			factor = 0
 			NOT = {
@@ -491,11 +502,11 @@ communist_rebels = {
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.3
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.4
 		}
 		
 		modifier = {
@@ -537,6 +548,12 @@ communist_rebels = {
 	spawn_chance = {
 		factor = 1.02
 		
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
+
 		modifier = {
 			factor = 0
 			country = { civilized = no }
@@ -716,11 +733,11 @@ anarcho_liberal_rebels = {
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.2
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.4
 		}
 		
 		modifier = {
@@ -744,7 +761,7 @@ anarcho_liberal_rebels = {
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 2
 			country = {
 				has_country_modifier = global_liberal_agitation
 			}
@@ -754,6 +771,13 @@ anarcho_liberal_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 1.02
+
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
+
 		modifier = {
 			factor = 0.01
 			NOT = {
@@ -923,11 +947,11 @@ nationalist_rebels = {
 	# triggers a general rising, modifier will be multiplied with the country's army strength and compared to the faction's strength
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.3
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.4
 		}
 		
 		modifier = {
@@ -949,6 +973,12 @@ nationalist_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 3
+
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
 		
 		modifier = {
 			factor = 0
@@ -1183,11 +1213,11 @@ boxer_rebels = {
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.3
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.4
 		}
 		
 		modifier = {
@@ -1210,6 +1240,12 @@ boxer_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 1.02
+
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
 		
 		modifier = {
 			factor = 0
@@ -1422,11 +1458,11 @@ liberal_rebels = {
 	# triggers a general rising, modifier will be multiplied with the countrys army strength and compared to the factions strenght
 	will_rise = 
 	{
-		factor = 0.5
+		factor = 0.3
 		
 		modifier = {
 			war = yes
-			factor = 0.8
+			factor = 0.4
 		}
 		
 		modifier = {
@@ -1460,6 +1496,13 @@ liberal_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 1.02
+
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
+
 		modifier = {
 			factor = 0
 			country = { civilized = no }
@@ -1667,6 +1710,12 @@ unciv_reactionary_rebels = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 3
+		
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
 		modifier = {
 			factor = 0
 			country = { civilized = yes }
@@ -1842,6 +1891,13 @@ chudjak = {
 	# The rebel type with the highest modifier for this pop gets picked
 	spawn_chance = {
 		factor = 100
+
+		modifier = {
+			factor = 0
+			type = soldiers
+			country = { has_country_flag = no_mutiny }
+		}
+
 		modifier = {
 			factor = 0
 			not = { country = { civilization_progress = 0.7 } }

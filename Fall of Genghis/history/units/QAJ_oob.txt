@@ -1,0 +1,76 @@
+army = {
+    name = "Loyalist Forces"
+    location = 1129
+    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1127
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1129
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1130
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1135
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1137
+    }
+    regiment = {
+        name = "Cavalry"
+        type = cavalry
+        home = 1142
+    }
+    regiment = {
+        name = "Cavalry"
+        type = cavalry
+        home = 1141
+    }
+    regiment = {
+        name = "Cavalry"
+        type = cavalry
+        home = 1117
+    }
+}
+
+army = {
+    name = "Lions of Assyria"
+    location = 1132
+    
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1127
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1145
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1122
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1120
+    }
+    regiment = {
+        name = "Infantry"
+        type = infantry
+        home = 1125
+    }
+}

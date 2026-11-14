@@ -21,7 +21,7 @@ LYO		= "countries/Lyon.txt"
 PRO		= "countries/Provence.txt"
 ORL		= "countries/Orleans.txt"
 SCO		= "countries/Scotland.txt"
-ENG 		= "countries/Englaland.txt"
+ENG 	= "countries/Englaland.txt"
 IRE		= "countries/Ireland.txt"
 ARO		= "countries/Aragon.txt"
 ALA		= "countries/Al-Andalus.txt"
@@ -68,13 +68,12 @@ BOR     = "countries/Bourgogne.txt"
 NPS     = "countries/Naples.txt"
 CAP     = "countries/Cappadocia.txt"
 ERE     = "countries/Byzantium.txt"
+QAJ     = "countries/Qajar.txt"
+ILK     = "countries/Ilkhanate.txt"
 
-#Meta Stuff
-GHO     = "countries/Ghost Country.txt"
-SMA     = "countries/Small State.txt"
-MED     = "countries/Medium State.txt"
-LRG     = "countries/Large State.txt"
-HUG     = "countries/Huge State.txt"
+#Egyptian Vassal States
+ANA     = "countries/Anatolia.txt"
+DUL     = "countries/Dulkadir.txt"
 
 # Formables!
 HSE		= "countries/HolySlavicEmpire.txt"
@@ -99,6 +98,17 @@ NIL     = "countries/North Italian League.txt"
 EUR     = "countries/European Union.txt"
 HSU     = "countries/Holy Slavic Union.txt"
 BRI     = "countries/Britannia.txt"
+KHO     = "countries/Khorasan.txt"
+MAU     = "countries/Maurya Empire.txt"
+SEE     = "countries/Seleucid Empire.txt"
+MAC     = "countries/Macedonia.txt"
+CHK     = "countries/Chalukya.txt"
+NAN     = "countries/Nanda Empire.txt"
+IRA     = "countries/Iranzamin.txt"
+TIM     = "countries/Timurids.txt"
+TGC     = "countries/Global Caliphate.txt"
+
+
 
 # Rebellion tags
 LRB     = "countries/LiberalRevolutionBurgundy.txt"
@@ -309,9 +319,6 @@ PRG		="countries/Paraguay.txt"
 URU		="countries/Uruguay.txt"
 VNZ		="countries/Venezuela.txt"
 
-# Australasia
-AST		="countries/Australia.txt"
-
 
 #new for 1.2
 BYZ		="countries/Byzantium.txt"
@@ -323,6 +330,17 @@ UBD		= "countries/United Baltic Provinces.txt"
 BYE		= "countries/Belarus.txt"
 PLC		= "countries/Poland-Lithuania.txt"
 GCO		="countries/Gran Colombia.txt"
+
+#Anti smiley face measures
+AFR     = "countries/Africa.txt"
+AST		= "countries/Australia.txt"
+
+#Meta Stuff
+GHO     = "countries/Ghost Country.txt"
+SMA     = "countries/Small State.txt"
+MED     = "countries/Medium State.txt"
+LRG     = "countries/Large State.txt"
+HUG     = "countries/Huge State.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions

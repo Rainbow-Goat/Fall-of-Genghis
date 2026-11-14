@@ -1,4 +1,5 @@
 color = { 78 78 78 }
+beylik = { 226 146 84 }
 graphical_culture = OttomanGC
 
 party = {

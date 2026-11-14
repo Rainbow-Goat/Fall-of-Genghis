@@ -1,6 +1,7 @@
 owner = BEN
 controller = BEN
 add_core = BEN
+add_core = NAN
 add_core = HND
 trade_goods = opium
 life_rating = 32 

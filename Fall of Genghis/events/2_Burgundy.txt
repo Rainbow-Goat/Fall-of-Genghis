@@ -124,11 +124,7 @@ country_event = {
 	picture = religious_wars
 	
 	trigger = {
-		OR = {
-			tag = BRG
-			tag = LTR
-		}
-		has_country_flag = brg_picard
+		tag = BRG
 		has_country_flag = burgundy_both
 	}
 	
@@ -726,7 +722,7 @@ country_event = {
 		name = "Robert Fontaine must hang"
 		change_variable = { which = rhenish_anger value = 0 }
 		change_variable = { which = french_anger value = 3 }
-		change_variable = { which = liberal_anger value = 2 }
+		change_variable = { which = burg_liberal value = 2 }
 		
 		ai_chance = {
 			factor = 1
@@ -745,7 +741,7 @@ country_event = {
 		name = "Fontaine is clearly innocent, let him go"
 		change_variable = { which = rhenish_anger value = 3 }
 		change_variable = { which = french_anger value = 0 }
-		change_variable = { which = liberal_anger value = 0 }
+		change_variable = { which = burg_liberal value = 0 }
 		
 		ai_chance = {
 			factor = 1
@@ -911,8 +907,6 @@ country_event = {
 				has_country_flag = burgundy_both
 				has_country_flag = burgundy_east
 			}
-		}
-		BRG = {
 			NOT = { has_country_flag = rhineland_protectorate }
 		}
 		OR = {
@@ -941,7 +935,7 @@ country_event = {
 
 	option = {
 		name = "Send the proposal!"
-		sphere_owner = { country_event = 101226 }
+		BRG = { country_event = 101226 }
 	}
 }
 
@@ -957,7 +951,7 @@ country_event = {
 		name = "We shall gladly accept their annexation"
 		inherit = FROM
 		prestige = 10
-		treasury = -100000
+		treasury = -50000
 		
 		ai_chance = {
 			factor = 5

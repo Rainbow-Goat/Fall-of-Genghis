@@ -15,6 +15,7 @@ political_decisions = {
         }
         effect = {
             add_accepted_culture = anatolian
+            TUR_894 = { add_core = THIS }
         }
     }
 
@@ -43,19 +44,22 @@ political_decisions = {
         potential = {
             tag = CAP
             NOT = {
-                894 = { is_core = THIS }
+                900 = { is_core = THIS }
             }
             has_country_flag = cap_no_coup
         }
         allow = {
             war = no
-            owns = 894
-            owns = 899
+            owns = 896
+            owns = 900
+            owns = 913
         }
         effect = {
             badboy = 3
+            SEL_899 = { add_core = THIS }
             EGY_897 = { add_core = THIS }
             EGY_903 = { add_core = THIS }
+            893 = { add_core = THIS }
         }
     }
 
@@ -78,7 +82,8 @@ political_decisions = {
             add_accepted_culture = armenian
             add_accepted_culture = georgian
             TUR_884 = { add_core = THIS }
-            TUR_889 = { add_core = THIS }
+            SEL_899 = { add_core = THIS }
+            ARM_889 = { add_core = THIS }
             PER_1112 = { add_core = THIS }
             RUS_1098 = { add_core = THIS }
             RUS_1090 = { add_core = THIS }

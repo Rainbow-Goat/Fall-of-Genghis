@@ -1,0 +1,77 @@
+country_event = {
+    id = 100920
+    title = "The Destiny of Afghanistan"
+    desc = "100920D"
+    picture = afghan_royal_court
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "We are Greeks, the heirs to Alexander the Great!"
+        set_country_flag = afghanistan_greek
+        PER_1141 = { add_core = THIS }
+        PER_1148 = { add_core = THIS }
+    }
+    
+    option = {
+        name = "We are muslims, the shield and sword of Islam!"
+        set_country_flag = afghanistan_muslim
+        set_country_flag = religion_shiite
+        religion = shiite
+        primary_culture = pashtun
+        PAN_1224 = { add_core = THIS }
+        PER_1148 = { add_core = THIS}
+        RUS_1196 = { add_core = THIS}
+    }
+}
+
+
+
+country_event = {
+    id = 100922
+    title = "A Union of the Shias?"
+    desc = "100922D"
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "Together we shall change the course of history restore the true caliph!"
+        SCL = {
+            inherit = AFG
+            add_accepted_culture = pashtun
+        }
+        AFG = {
+            all_core = {
+                add_core = SCL
+            }
+        }
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                relation = { who = SCL value = 150 }
+            }
+            modifier = {
+                factor = 3
+                alliance_with = SCL
+            }
+        }
+    }
+
+    option = {
+        name = "The Pashtun people have more important matters to worry about"
+        prestige = 20
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 2
+                NOT = { relation = { who = SCL value = 100 } }
+            }
+            modifier = {
+                factor = 3
+                has_country_flag = afghanistan_greek
+            }
+        }
+    }
+}

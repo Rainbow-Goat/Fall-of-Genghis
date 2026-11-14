@@ -1,6 +1,7 @@
 capital = 1151
 primary_culture = bedouin
-culture = mashriqi
+culture = iraqi
+culture = syrian
 religion = sunni
 set_country_flag = religion_sunni
 government = caliphate

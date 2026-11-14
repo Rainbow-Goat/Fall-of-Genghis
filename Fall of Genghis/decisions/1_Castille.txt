@@ -111,7 +111,13 @@ political_decisions = {
             }
             relation = { who = BLV value = -100 }
             set_country_flag = invade_bolivar
-            badboy = -20
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    badboy = -22
+                }
+            }
+            clr_country_flag = hidden_tooltip
         }
     }
 
@@ -182,7 +188,7 @@ political_decisions = {
         }
         allow = {
             realism = 1
-            ideology = liberal
+            ruling_party_ideology  = liberal
         }
         effect = {
             political_reform = no_slavery

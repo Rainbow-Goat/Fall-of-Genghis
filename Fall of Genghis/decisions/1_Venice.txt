@@ -18,8 +18,7 @@ political_decisions = {
         effect = {
             set_country_flag = eu4_reference
             GRE_826 = { add_core = THIS }
-            TUR_832 = { add_core = THIS }
-            GRE_837 = { add_core = THIS }
+            TUR_819 = { add_core = THIS }
             EGY_843 = { add_core = THIS }
         }
     }
@@ -79,7 +78,13 @@ political_decisions = {
                 }
                 call_ally = yes
             }
-            badboy = -18
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    badboy = -22
+                }
+            }
+            clr_country_flag = hidden_tooltip
             set_country_flag = violent_ita_unify
         }
         ai_will_do = {

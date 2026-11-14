@@ -4,11 +4,6 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
-			OR = {
-				ruling_party_ideology = conservative
-				ruling_party_ideology = reactionary
-				ruling_party_ideology = fascist
-			}
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -17,7 +12,6 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			military_score = 100
-			jingoism = 10
 		}
 		effect = {
 			prestige = -15
@@ -34,11 +28,6 @@ political_decisions = {
 			civilized = yes
 			colonial_nation = yes
 			tech_school = traditional_academic
-			OR = {
-				ruling_party_ideology = conservative
-				ruling_party_ideology = liberal
-				ruling_party_ideology = anarcho_liberal
-			}
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -48,8 +37,6 @@ political_decisions = {
 			prestige = 45
 			military_score = 100
 			total_amount_of_ships = 30
-			pro_military = 5
-			free_trade = 5
 		}
 		effect = {
 			prestige = -15
@@ -65,11 +52,6 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = fascist
-				ruling_party_ideology = communist
-			}
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -78,7 +60,6 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			average_consciousness = 4
-			pacifism = 8
 		}
 		effect = {
 			prestige = -15
@@ -94,10 +75,6 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = anarcho_liberal
-			}
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -106,7 +83,6 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			industrial_score = 100
-			free_trade = 10
 		}
 		effect = {
 			prestige = -15
@@ -122,11 +98,6 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
-			OR = {
-				ruling_party_ideology = conservative
-				ruling_party_ideology = socialist
-				ruling_party_ideology = communist
-			}
 			NOT = {
 				tech_school = prussian_tech_school
 				has_country_modifier = academic_confusion
@@ -135,7 +106,6 @@ political_decisions = {
 		allow = {
 			prestige = 45
 			industrial_score = 100
-			interventionism = 10
 		}
 		effect = {
 			prestige = -15

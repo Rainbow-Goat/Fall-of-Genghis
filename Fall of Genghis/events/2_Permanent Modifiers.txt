@@ -1,7 +1,7 @@
 country_event = {
-    id = 101010
+    id = 202020
     title = "The City of the World's Desire"
-    desc = "101010D"
+    desc = "202020D"
     picture = Picture
     
     trigger = {
@@ -20,9 +20,9 @@ country_event = {
 }
 
 country_event = {
-    id = 101011
+    id = 202021
     title = "The Loss of Constantinople"
-    desc = "101011D"
+    desc = "202021D"
     picture = Picture
     
     trigger = {
@@ -35,5 +35,133 @@ country_event = {
         clr_country_flag = constantinople_modifier
         remove_country_modifier = constantinople_country
         prestige = -20
+    }
+}
+
+country_event = {
+    id = 202022
+    title = "The Kaaba"
+    desc = "202022D"
+    picture = Picture
+    
+    trigger = {
+        OR = {
+            has_country_flag = religion_sunni
+            has_country_flag = religion_shiite
+        }
+        OR = {
+            AND = {
+                owns = 1151
+                NOT = { has_global_flag = kaaba_stolen }
+                NOT = { has_country_modifier = owner_of_kaaba }
+            }
+            AND = {
+                owns = 2172
+                has_global_flag = kaaba_stolen
+                NOT = { has_country_modifier = owner_of_kaaba }
+            }
+        }
+    }
+
+    option = {
+        name = "Mashallah"
+        add_country_modifier = { name = owner_of_kaaba duration = -1 }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { has_global_flag = kaaba_stolen }
+                }
+            }
+            1151 = {
+                add_province_modifier = { name = kaaba duration = -1 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = kaaba_stolen
+                }
+            }
+            2172 = {
+                add_province_modifier = { name = kaaba duration = -1 }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 202023
+    title = "The Loss of the Kaaba"
+    desc = "202023D"
+    picture = Picture
+    
+    trigger = {
+        OR = {
+            AND = {
+                OR = {
+                    continent = asia
+                    continent = europe
+                }
+                NOT = { owns = 1151 }
+                NOT = { has_global_flag = kaaba_stolen }
+                has_country_modifier = owner_of_kaaba
+            }
+            AND = {
+                continent = north_america
+                NOT = { owns = 2172 }
+                has_global_flag = kaaba_stolen
+                has_country_modifier = owner_of_kaaba
+            }
+        }
+    }
+
+    option = {
+        name = "Has Allah abandoned us?"
+        remove_country_modifier = owner_of_kaaba
+        prestige = -50
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { has_global_flag = kaaba_stolen }
+                }
+            }
+            1151 = {
+                remove_province_modifier = kaaba
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    has_global_flag = kaaba_stolen
+                }
+            }
+            2172 = {
+                remove_province_modifier = kaaba
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 202024
+    title = "The Kaaba was stolen...?"
+    desc = "202024D"
+    picture = Picture
+    
+    trigger = {
+        AND = {
+            owns = 1151
+            has_global_flag = kaaba_stolen
+            has_country_modifier = owner_of_kaaba
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "How the fuck did they do that"
+        remove_country_modifier = owner_of_kaaba
+        1151 = { remove_province_modifier = kaaba }
+        prestige = -50
     }
 }

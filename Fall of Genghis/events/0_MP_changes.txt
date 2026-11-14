@@ -1,7 +1,7 @@
 country_event = {
-    id = 120200
+    id = 120201
     title = "MP MODE ACTIVATED"
-    desc = "120200D"
+    desc = "120201D"
     picture = campaign_mode
     
     is_triggered_only = yes
@@ -14,6 +14,16 @@ country_event = {
                 add_core = ARO
                 remove_core = NPS
             }
+        }
+        ORL = {
+            inherit = BOR
+            inherit = LYO
+        }
+        any_country = {
+            limit = {
+                ai = no
+            }
+            set_country_flag = no_mutiny
         }
     }
 }

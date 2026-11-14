@@ -10,6 +10,7 @@ political_decisions = {
             NOT = { exists = KIE }
             NOT = { tag = RUS }
             NOT = { tag = UKR }
+            NOT = { tag = CSS }
         }
         allow = {
             war = no

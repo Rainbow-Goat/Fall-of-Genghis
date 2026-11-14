@@ -1,0 +1,208 @@
+political_decisions = {
+    qajar_win_cw = {
+        picture = persia_emperor
+        potential = {
+            tag = QAJ
+            NOT = { has_global_flag = qaj_win_persia }
+        }
+        allow = {
+            NOT = {
+                exists = SCL
+            }
+        }
+        effect = {
+            capital = 1121
+            SCL = { 
+                all_core = {
+                    add_core = QAJ
+                    remove_core = SCL
+                }
+            }
+            war_exhaustion = -5
+            set_global_flag = qaj_win_persia
+        }
+    }
+
+    qaj_core_iraq = {
+        picture = map_iraq
+        potential = {
+            tag = QAJ
+            NOT = { 926 = { is_core = THIS } }
+            has_global_flag = qaj_win_persia
+        }
+        allow = {
+            war = no
+            IRQ = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            IRQ = {
+                all_core = {
+                    add_core = QAJ
+                }
+            }
+        }
+    }
+
+    qaj_form_persia = {
+        picture = form_persia
+        potential = {
+            tag = QAJ
+            has_global_flag = qaj_win_persia
+        }
+        allow = {
+            war = no
+            PER = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            change_tag = PER
+            government = absolute_monarchy
+            QAJ = {
+                all_core = {
+                    remove_core = QAJ
+                }
+            }
+            prestige = 20
+        }
+    }
+
+    persia_azeri_1 = {
+        picture = azerbaijan_coa
+        potential = {
+            tag = PER
+            NOT = { has_country_flag = persia_azeri }
+        }
+        allow = {
+            war = no
+            owns = 1111
+            OR = {
+                admin_reform = yes_admin_reform
+                civilized = yes
+            }
+        }
+        effect = {
+            release_vassal = AZB
+            set_country_flag = persia_azeri
+        }
+    }
+
+    persia_azeri_2 = {
+        picture = azerbaijan_coa
+        potential = {
+            tag = PER
+            has_country_flag = persia_azeri
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+            OR = {
+                is_our_vassal = AZB
+                AZB = { in_sphere = THIS }
+            }
+            AZB = {
+                all_core = {
+                    owned_by = AZB
+                }
+            }
+        }
+        effect = {
+            inherit = AZB
+            add_accepted_culture = azerbaijani
+            AZB = {
+                all_core = {
+                    add_core = PER
+                }
+            }
+        }
+    }
+
+    persia_syria = {
+        picture = map_levant
+        potential = {
+            tag = PER
+            NOT = { has_country_flag = persian_syria }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            IRQ = { 
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            badboy = 5
+            set_country_flag = persian_syria
+            add_accepted_culture = syrian
+            EGY_897 = { add_core = THIS }
+            EGY_903 = { add_core = THIS }
+            ARM_889 = { add_core = THIS }
+        }
+    }
+
+    persia_east = {
+        picture = map_baluchistan
+        potential = {
+            tag = PER
+            NOT = { accepted_culture = pashtun }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            owns = 1214
+            owns = 1209
+            owns = 1221
+            owns = 1204
+        }
+        effect = {
+            prestige = 20
+            add_accepted_culture = baluchi
+            AFG_1214 = { add_core = THIS }
+            AFG_1217 = { add_core = THIS }
+            KAL_1221 = { add_core = THIS }
+            SIN_1288 = { add_core = THIS }
+            PAN_1227 = { add_core = THIS }
+            PAN_1224 = { add_core = THIS }
+            RUS_1196 = { add_core = THIS }
+        }
+    }
+
+    persia_form_iran = {
+        picture = iran_coa
+        potential = {
+            tag = PER
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            accepted_culture = baluchi
+            accepted_culture = syrian
+            accepted_culture = azerbaijani
+            is_greater_power = yes
+            PER = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            change_tag = IRA
+            add_accepted_culture = pashtun
+            prestige = 50
+            PER = {
+                all_core = {
+                    add_core = IRA
+                    remove_core = PER
+                }
+            }
+        }
+    }
+}

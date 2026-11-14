@@ -1,0 +1,104 @@
+political_decisions = {
+    the_pan_islamic_convention = {
+        picture = form_arab_union
+        potential = {
+            tag = RAS
+            government = caliphate
+            NOT = { has_country_flag = islamic_congress_leader }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+            year = 1890
+            owns = 1151
+        }
+        effect = {
+            set_country_flag = islamic_congress_leader
+            prestige = 10
+            set_variable = { which = islam_congress_unity value = 0 }
+            set_variable = { which = islam_congress_trust value = 20 }
+            country_event = { id = 100991 days = 15 }
+            any_country = {
+                limit = {
+                    NOT = { has_country_flag = islamic_congress_leader }
+                    OR = {
+                        has_country_flag = religion_sunni
+                        has_country_flag = religion_shiite
+                    }
+                }
+                country_event = { id = 100992 days = 5 }
+            }
+        }
+    }
+
+    declare_cappadocian_jihad = {
+        picture = islamic_army
+        potential = {
+            tag = RAS
+            has_global_flag = rum_vs_cappadocia_ended
+            government = caliphate
+            OR = {
+                894 = { owned_by = CAP }
+                894 = { owned_by = ERE }
+            }
+            NOT = { has_global_flag = jihad_vs_cappadocia }
+        }
+        allow = {
+            war = no
+            ideological_thought = 1
+        }
+        effect = {
+            set_global_flag = jihad_vs_cappadocia
+            prestige = 25
+            badboy = 5
+            country_event = { id = 101008 days = 10 }
+        }
+    }
+
+    demand_rum_stand_down = {
+        picture = islam_civil_war
+        potential = {
+            tag = RAS
+            government = caliphate
+            OR = {
+                RUM = {
+                    OR = {
+                        accepted_culture = iraqi
+                        917 = { is_core = RUM }
+                        has_country_flag = egypt_coup_sponsor
+                        has_country_flag = sponsor_the_arts
+                        has_country_flag = embrace_industry
+                        has_country_modifier = mexican_alignment
+                        has_country_modifier = umayyad_alignment
+                    }
+                }
+                SEL = {
+                    exists = yes
+                }
+            }
+            NOT = { has_country_flag = demand_rum }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            any_country = {
+                limit = {
+                    AND = {
+                        exists = yes
+                        OR = {
+                            tag = RUM
+                            tag = SEL
+                        }
+                    }
+                }
+                country_event = { id = 100981 days = 10 }
+            }
+            prestige = 20
+            set_country_flag = demand_rum
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

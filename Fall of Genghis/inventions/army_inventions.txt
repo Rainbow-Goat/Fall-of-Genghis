@@ -56,7 +56,7 @@ field_fortifications = {
 			defence = 1
 		}
 		artillery = {
-			defence = 1
+			defence = 0.5
 		}
 		dragoon = {
 			defence = 1
@@ -139,7 +139,7 @@ flexible_firepower = {
 			defence = 1
 		}
 		artillery = {
-			defence = 1
+			defence = 0.5
 		}
 		dragoon = {
 			defence = 1
@@ -182,7 +182,7 @@ synchronized_heavy_support = {
 			defence = 1
 		}
 		artillery = {
-			defence = 1
+			defence = 0.75
 		}
 		dragoon = {
 			defence = 1
@@ -243,7 +243,7 @@ trench_systems = {
 			defence = 1
 		}
 		artillery = {
-			defence = 1
+			defence = 0.75
 		}
 		dragoon = {
 			defence = 1
@@ -1062,7 +1062,7 @@ anti_aircraft_artillery = {
 	effect = {
 		artillery = {
 			attack = 0.1
-			defence = 1
+			defence = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1084,7 +1084,7 @@ improved_anti_aircraft_artillery = {
 	effect = {
 		artillery = {
 			attack = 0.1
-			defence = 1
+			defence = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -2173,7 +2173,7 @@ the_winged_chariot = {
 				tag = MGE
 			}
 		}
-		modifer = {
+		modifier = {
 			factor = 10
 			has_country_flag = BATmoon_mission
 		}

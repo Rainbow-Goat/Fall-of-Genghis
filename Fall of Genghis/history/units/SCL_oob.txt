@@ -1,0 +1,111 @@
+army = {
+    name = "The Azeri Forces"
+    location = 1111
+    
+    regiment = {
+        name = "1st Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+    regiment = {
+        name = "2nd Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+    regiment = {
+        name = "1st Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+    regiment = {
+        name = "3rd Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+    regiment = {
+        name = "4th Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+    regiment = {
+        name = "5th Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+    regiment = {
+        name = "6th Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+    regiment = {
+        name = "7th Faithful Brigade"
+        type = irregular
+        home = 1111
+    }
+}
+
+army = {
+    name = "Followers of the Prophet"
+    location = 1121
+    
+    regiment = {
+        name = "1st Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "2nd Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "3rd Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "4th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "5th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "6th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "7th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "8th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "9th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "10th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "11th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+    regiment = {
+        name = "12th Faithful Brigade"
+        type = irregular
+        home = 1121
+    }
+}

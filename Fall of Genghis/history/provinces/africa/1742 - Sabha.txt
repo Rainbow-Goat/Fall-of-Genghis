@@ -3,5 +3,6 @@ controller = ALA
 add_core = ALA
 add_core = TRI
 trade_goods = wool
-life_rating = 25 
+life_rating = 25
+add_core = AFR
 1861.1.1 = { owner = TUR controller = TUR colonial = 0 } 

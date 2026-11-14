@@ -622,7 +622,7 @@ iron_muzzle_loaded_artillery = {
 	cost = 7200
 	unciv_military = yes
 	artillery = {
-		attack = 0.25
+		attack = 0.5
 		support = 0.5
 		supply_consumption = 0.15
 	}
@@ -666,7 +666,7 @@ iron_breech_loaded_artillery = {
 	cost = 10800
 	unciv_military = yes
 	artillery = {
-		attack = 0.25
+		attack = 0.5
 		support = 0.5
 		supply_consumption = 0.3
 	}
@@ -709,7 +709,7 @@ steel_breech_loaded_artillery = {
 	cost = 14400
 	unciv_military = yes
 	artillery = {
-		attack = 0.5
+		attack = 0.75
 		support = 0.5
 		supply_consumption = 0.3
 	}

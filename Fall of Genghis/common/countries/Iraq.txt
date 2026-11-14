@@ -1,4 +1,5 @@
 color = { 122 132 110}
+beylik = { 193 168 98 }
 graphical_culture = Generic
 
 party = {

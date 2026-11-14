@@ -215,3 +215,41 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = 101106
+    title = "The Albanian Revolt"
+    desc = "101106D"
+    major = yes
+
+    is_triggered_only = yes
+
+    option = {
+        name = "We will crush them, regardless of the cost"
+        war = {
+            target = ALB
+            attacker_goal = {
+                casus_belli = civil_war
+            }
+            defender_goal = {
+                casus_belli = become_independent
+            }
+            call_ally = yes
+        }
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "There is nothing we can do"
+        799 = { secede_province = FROM }
+        802 = { secede_province = FROM }
+        806 = { secede_province = FROM }
+        
+        ai_chance = {
+            factor = 2
+        }
+    }
+}

@@ -422,14 +422,6 @@ colonialmigration_chance =
 		}
 	}
 
-
-	modifier = {
-		factor = -0.3
-		state_scope = {
-			has_factories = yes
-			}
-	}
-
 	group = {
 		modifier = {
 			factor = 0.3
@@ -587,7 +579,7 @@ assimilation_chance =
 	}
 
 	modifier = {
-    	factor = -20
+    	factor = -17
 		has_culture_core = yes
 	}
 	modifier = {
@@ -606,6 +598,17 @@ assimilation_chance =
 		has_country_flag = magyarization
 	}
 	modifier = {
+		factor = 20
+		AND = {
+			has_country_flag = rum_assimilation_boost
+			OR = {
+				has_pop_culture = novum_greek
+				has_pop_culture = armenian
+			}
+
+		}
+	}
+	modifier = {
 		factor = 15
 		nationalvalue = nv_equality
 	}
@@ -616,8 +619,16 @@ assimilation_chance =
 			luxury_needs = 0.9
 		}
 		modifier = {
+			factor = 0.1
+			luxury_needs = 0.8
+		}
+		modifier = {
 			factor = 0.2
 			luxury_needs = 0.7
+		}
+		modifier = {
+			factor = 0.1
+			luxury_needs = 0.6
 		}
 		modifier = {
 			factor = 0.2
@@ -674,6 +685,10 @@ assimilation_chance =
 conversion_chance = 
 {
 	factor = 1
+	modifier = {
+		factor = 10
+		country = { has_country_flag = islamic_conversion }
+	}
 
 	group = {
 		modifier = {

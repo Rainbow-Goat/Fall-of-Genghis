@@ -27,15 +27,22 @@ very_hard_player = {
 
 
 very_easy_ai = {
+	research_points = 0.5
 }
 
 easy_ai = {
+	badboy = -0.05
+	research_points = 1
 }
 
 hard_ai = {
+	badboy = -0.10
+	research_points = 1.5
 }
 
 very_hard_ai = {
+	badboy = -0.15
+	research_points = 2.5
 }
 
 

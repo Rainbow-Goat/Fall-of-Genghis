@@ -13,7 +13,7 @@ nv_liberty = {
 
 nv_equality = {
 	mobilisation_size = 0.04
-	global_assimilation_rate = 0.02
+	global_assimilation_rate = 0.05
 }
 
 nv_productivity = {

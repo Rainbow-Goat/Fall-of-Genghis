@@ -1,6 +1,6 @@
 name = "The War for Anatolia"
 
-1835.2.11 = {
+1832.2.11 = {
         add_attacker = RUM
         add_defender = CAP
 

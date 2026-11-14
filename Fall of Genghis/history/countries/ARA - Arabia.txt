@@ -1,6 +1,5 @@
 capital = 354
-primary_culture = mashriqi
-culture = bedouin
+primary_culture = bedouin
 culture = misri
 culture = maghrebi
 religion = sunni

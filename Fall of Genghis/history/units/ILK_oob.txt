@@ -1,0 +1,97 @@
+army = {
+	name = "Army of the Khanate of Khiva"
+	location = 1204
+	regiment = {
+		name= "1.Yomud"
+		type = cavalry
+		home = 1116
+	}
+
+	regiment = {
+		name= "2.Yomud"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "3.Yomud"
+		type = cavalry
+		home = 1148
+	}
+
+	regiment = {
+		name= "1.Kirgiz"
+		type = cavalry
+		home = 1192
+	}
+
+	regiment = {
+		name= "2.Kirgiz"
+		type = cavalry
+		home = 1196
+	}
+
+	regiment = {
+		name= "3.Kirgiz"
+		type = cavalry
+		home = 1196
+	}
+}
+
+army = {
+	name = "Timur's Horde"
+	location = 1147
+	regiment = {
+		name= "1.Yomud"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "2.Yomud"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "3.Yomud"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "1.Kirgiz"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "2.Kirgiz"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "3.Kirgiz"
+		type = cavalry
+		home = 1147
+	}
+
+    regiment = {
+		name= "1.Kirgiz"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "2.Kirgiz"
+		type = cavalry
+		home = 1147
+	}
+
+	regiment = {
+		name= "3.Kirgiz"
+		type = cavalry
+		home = 1147
+	}
+}

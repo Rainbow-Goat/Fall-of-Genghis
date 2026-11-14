@@ -172,12 +172,6 @@ loyal_askaris = {
 	icon = 17
 }
 
-muhammad_alis_reforms = {
-	research_points_modifier = 0.5
-	pop_consciousness_modifier = 0.05
-	icon = 5
-}
-
 ##### SUFFRAGETTE MOVEMENTS #####
 
 female_suffrage = {
@@ -625,12 +619,6 @@ local_stock_exchange = {
 	icon = 11
 }
 
-economic_boom = {
-	factory_throughput = 0.05
-	rgo_output = 0.05
-	icon = 11
-}
-
 #### ENG - ENGLAND #####
 corn_laws_repealed = {
 	max_tariff = -0.05
@@ -873,15 +861,31 @@ lesser_famine = {
 #City modifiers
 
 constantinople_province = {
-	local_ship_build = -0.25
+	local_ship_build = -0.5
+	local_rgo_output = -0.2
 	icon = 9
 }
 
 constantinople_country = {
 	prestige = 0.05
 	diplomatic_points_modifier = 0.3
-	influence_modifier = 0.3
+	influence_modifier = 0.15
 	icon = 7
+}
+
+owner_of_kaaba = {
+	prestige = 0.1
+	diplomatic_points_modifier = 0.5
+	influence_modifier = 0.25
+	core_pop_militancy_modifier = -0.2
+	core_pop_consciousness_modifier = -0.2
+	tax_efficiency = 0.1
+	icon = 7
+}
+
+kaaba = {
+	immigrant_attract = 0.5
+	icon = 9
 }
 
 muslim_alignment_changed = {
@@ -890,7 +894,7 @@ muslim_alignment_changed = {
 }
 
 rashidun_alignment = {
-	global_population_growth = 0.005
+	global_population_growth = 0.001
 	research_points_modifier = -0.05
 	global_pop_militancy_modifier = -0.01
 	global_pop_consciousness_modifier = -0.01
@@ -899,11 +903,11 @@ rashidun_alignment = {
 
 umayyad_alignment = {
 	badboy = 0.03
-	min_military_spending = 0.1
+	min_military_spending = 0.2
 	diplomatic_points_modifier = -0.05
 	land_organisation = 0.1
 	research_points_on_conquer = 0.1
-	military_tech_research_bonus = 0.1
+	army_tech_research_bonus = 0.1
 	culture_tech_research_bonus = -0.05
 	land_unit_start_experience = 10
 	icon = 17
@@ -911,20 +915,18 @@ umayyad_alignment = {
 
 mexican_alignment = {
 	badboy = -0.05
-	education_efficiency_modifier = 0.1
-	research_points_modifier = 0.05
-	global_population_growth = -0.002
+	education_efficiency_modifier = 0.15
+	research_points_modifier = 0.06
 	global_pop_consciousness_modifier = 0.01
 	global_pop_militancy_modifier = 0.01
 	icon = 17
 }
-	
-shiite_rejection = {
-	global_population_growth = 0.002
+
+shia_alignment = {
 	global_pop_consciousness_modifier = -0.01
 	global_pop_militancy_modifier = -0.01
 	land_unit_start_experience = 5
-	badboy = -0.01
+	badboy = -0.02
 	diplomatic_points_modifier = -0.1
 	icon = 17
 }
@@ -1030,3 +1032,540 @@ van_wassenaer_pm = {
 }
 
 pm_switch = {}
+
+scourge_of_god = {
+	badboy = -0.05
+	cb_generation_speed_modifier = 0.08
+	prestige = -0.05
+	land_unit_start_experience = 5
+	land_organisation = 0.03
+	icon = 15
+}
+
+khan_of_khans = {
+	prestige = 0.2
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.05
+	icon = 7
+}
+
+timurs_reforms = {
+	education_efficiency_modifier = 0.2
+	research_points_modifier = 0.05
+	industry_tech_research_bonus = 0.1
+	army_tech_research_bonus = 0.1
+	navy_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.1
+	culture_tech_research_bonus = 0.1
+	global_pop_militancy_modifier = 0.15
+	global_pop_consciousness_modifier = 0.15
+	icon = 5
+}
+
+cairo_university_merchant = {
+	education_efficiency_modifier = 0.3
+	research_points_modifier = 0.08
+	commerce_tech_research_bonus = 0.2
+	culture_tech_research_bonus = 0.15
+	navy_tech_research_bonus = 0.1
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.1
+	icon = 7
+}
+
+cairo_university_merchant_censored = {
+	education_efficiency_modifier = 0.1
+	research_points_modifier = 0.04
+	commerce_tech_research_bonus = 0.1
+	culture_tech_research_bonus = 0.05
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	icon = 7
+}
+
+cairo_university_military = {
+	education_efficiency_modifier = 0.1
+	research_points_modifier = 0.04
+	army_tech_research_bonus = 0.3
+	navy_tech_research_bonus = 0.3
+	icon = 7
+}
+
+cairo_university_cleric = {
+	education_efficiency_modifier = 0.4
+	research_points_modifier = 0.02
+	industry_tech_research_bonus = -0.05
+	army_tech_research_bonus = -0.05
+	navy_tech_research_bonus = -0.05
+	commerce_tech_research_bonus = -0.05
+	culture_tech_research_bonus = -0.05
+	global_pop_militancy_modifier = -0.1
+	global_pop_consciousness_modifier = -0.1
+	icon = 7
+}
+
+the_printing_press = {
+	education_efficiency_modifier = 0.2
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.1
+	icon = 5
+}
+
+egyptian_land_reform = {
+	global_population_growth = 0.01
+	rgo_output = 0.1
+	core_pop_militancy_modifier = -0.1
+	core_pop_consciousness_modifier = -0.1
+	administrative_efficiency_modifier = -0.08
+	icon = 9
+}
+
+egypt_military_reform = {
+	army_tech_research_bonus = 0.1
+	cb_generation_speed_modifier = 0.2
+	land_unit_start_experience = 15
+	leadership_modifier = 0.3
+	icon = 15
+}
+
+egypt_navy_reform = {
+	navy_tech_research_bonus = 0.1
+	naval_unit_start_experience = 20
+	naval_organisation = 0.05
+	icon = 15
+}
+
+sharia_law = {
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.05
+	political_reform_desire = 0.2
+	administrative_efficiency_modifier = 0.1
+	icon = 6
+}
+
+egypt_no_sex = {
+	global_population_growth = -0.01
+	icon = 18
+}
+
+egypt_tight_censorship = {
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = -0.15
+	education_efficiency_modifier = -0.07
+	icon = 14
+}
+
+sultan_power_cd = {}
+
+rum_military_start = {
+	mobilisation_size = -0.2
+	land_organisation = 0.05
+	icon = 15
+}
+
+rum_assim_boost = {
+	global_assimilation_rate = 0.1
+	badboy = 0.02
+	icon = 1
+}
+
+education_boost = {
+	education_efficiency_modifier = 0.1
+	icon = 3
+}
+
+rum_land_reform = {
+	administrative_efficiency_modifier = 0.1
+	rgo_output = 0.3
+	icon = 17
+}
+
+rum_industry = {
+	factory_cost = -0.1
+	factory_output = 0.2
+	factory_owner_cost = -0.1
+	icon = 11
+}
+
+navy_boost = {
+	naval_organisation = 0.1
+	navy_tech_research_bonus = 0.1
+	naval_unit_start_experience = 0.15
+	icon = 15
+}
+
+military_tech_boost = {
+	army_tech_research_bonus = 0.15
+	leadership_modifier = 0.2
+	icon = 15
+}
+
+
+#Legacy of Osman II conditional modifiers, explanation below
+# 0 = no accomplishments in that category
+# 1 = anything between 1 accomplishment and 99% of them in that category
+# 2 = 100% of accomplishments in that category
+# A = conquests, tracks specific wars. B = administrative reforms. C = Military reforms. Adding an additional category would lead to like 60 more permutations.
+# Modifier lasts for roughly 20 years.
+#Modifiers are ordered based on the A value and then the number at the end. So A00, A01, A02, A10, A11, A12, A20, A21, A22.
+#3 total points for conquest, 5 for Admin and 4 for military reforms. Achieving none = 0, achieving all = 2, achieving some but not all = 1.
+
+
+#The modifiers listed below here are what the numbers represent, so legacy_conquest_1 is the modifiers associated with having A = 1, and so on and so forth. These modifiers only serve as a visual guide to anyone poking around it the code and are not actually used, only the ABC system modifers are used.
+
+# rum conquest legacy small = {
+#	cb_generation_speed_modifier = 0.2
+#}
+#rum conquest legacy big = {
+#	cb_generation_speed_modifier = 0.3
+#	badboy = -0.02
+#}
+# rum admin legacy small = {
+#	admin_efficiency = 0.1
+#	education_efficiency = 0.05
+#	prestige = 0.005
+#}
+# rum admin legacy big = {
+#	admin_efficiency = 0.15
+#	education_efficiency = 0.15
+#	prestige = 0.01
+#   tax_efficiency = 0.1
+#}
+# rum military legacy small = {
+#	mobilization_size = 0.02
+#	unit_start_experience = 0.03
+#   mobilisation_economy_impact = -0.1
+#}
+# rum military legacy big = {
+#	mobilization_size = 0.04
+#	unit_start_experience = 0.05
+#   mobilisation_economy_impact = -0.2
+#   org_regain = 0.05
+#}
+
+
+
+#Doing nothing all game
+legacy_A0_B0_C0 = {
+	prestige = -0.05
+	icon = 13
+}
+
+legacy_A0_B0_C1 = {
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A0_B0_C2 = {
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+legacy_A0_B1_C0 = {
+	administrative_efficiency_modifier = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	icon = 13
+}
+
+legacy_A0_B1_C1 = {
+	administrative_efficiency_modifier = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A0_B1_C2 = {
+	administrative_efficiency_modifier = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+legacy_A0_B2_C0 = {
+	administrative_efficiency_modifier = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	icon = 13
+}
+
+legacy_A0_B2_C1 = {
+	administrative_efficiency_modifier = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A0_B2_C2 = {
+	administrative_efficiency_modifier = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+
+
+
+legacy_A1_B0_C0 = {
+	cb_generation_speed_modifier = 0.2
+	icon = 13
+}
+
+legacy_A1_B0_C1 = {
+	cb_generation_speed_modifier = 0.2
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A1_B0_C2 = {
+	cb_generation_speed_modifier = 0.2
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+legacy_A1_B1_C0 = {
+	cb_generation_speed_modifier = 0.2
+	administrative_efficiency_modifier = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	icon = 13
+}
+
+legacy_A1_B1_C1 = {
+	cb_generation_speed_modifier = 0.2
+	administrative_efficiency_modifier = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A1_B1_C2 = {
+	cb_generation_speed_modifier = 0.2
+	administrative_efficiency_modifier = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+legacy_A1_B2_C0 = {
+	cb_generation_speed_modifier = 0.2
+	administrative_efficiency_modifier = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	icon = 13
+}
+
+legacy_A1_B2_C1 = {
+	cb_generation_speed_modifier = 0.2
+	administrative_efficiency_modifier = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A1_B2_C2 = {
+	cb_generation_speed_modifier = 0.2
+	administrative_efficiency_modifier = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+
+
+
+legacy_A2_B0_C0 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	icon = 13
+}
+
+legacy_A2_B0_C1 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A2_B0_C2 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+legacy_A2_B1_C0 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	icon = 13
+}
+
+legacy_A2_B1_C1 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A2_B1_C2 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.1
+	education_efficiency = 0.05
+	prestige = 0.005
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+legacy_A2_B2_C0 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	icon = 13
+}
+
+legacy_A2_B2_C1 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.02
+	unit_start_experience = 0.03
+    mobilisation_economy_impact = -0.1
+	icon = 13
+}
+
+legacy_A2_B2_C2 = {
+	cb_generation_speed_modifier = 0.3
+	badboy = -0.02
+	admin_efficiency = 0.15
+	education_efficiency = 0.15
+	prestige = 0.01
+    tax_efficiency = 0.1
+	mobilization_size = 0.04
+	unit_start_experience = 0.05
+    mobilisation_economy_impact = -0.2
+    org_regain = 0.05
+	icon = 13
+}
+
+# Rashidun related modifiers
+
+rashidun_aid = {
+	land_organisation = 0.1
+	war_exhaustion = -0.3
+}
+
+event_2_local_mod = {
+	admin_efficiency = -0.1
+	tax_efficiency = -0.05
+	education_efficiency = -0.1
+	prestige = -0.05
+}
+
+event_2_local_admin_mod = {
+	admin_efficiency = -0.05
+	tax_efficiency = 0.02
+	education_efficiency = -0.1	
+}
+
+event_3_compromise_mod = {
+	prestige = -0.05
+	tax_efficiency = -0.02
+	global_assimilation_rate = -0.1
+}
+
+event_3_monarchs_mod = {
+	prestige = -0.1
+	tax_efficiency = -0.05
+	admin_efficiency = -0.1
+	global_assimilation_rate = -0.2
+}
+
+event_4_compromise_mod = {
+	core_pop_militancy_modifier = 0.05
+	core_pop_consciousness_modifier = 0.05
+	education_efficiency = -0.2
+	prestige = -0.05
+}
+
+event_4_stupid_mod = {
+	core_pop_militancy_modifier = 0.1
+	core_pop_consciousness_modifier = 0.1
+	education_efficiency = -0.5
+	prestige = -0.2	
+}
+
+event_5_big_mod = {
+	tax_efficiency = -0.15
+	prestige = -0.05
+}
+
+event_5_small_mod = {
+	tax_efficiency = -0.05
+}

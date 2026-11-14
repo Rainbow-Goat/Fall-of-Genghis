@@ -1,5 +1,6 @@
 owner = SCO
 controller = SCO
+add_core = AFR
 trade_goods = fruit
 life_rating = 30 
 colonial = 2

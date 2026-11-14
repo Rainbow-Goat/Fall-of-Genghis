@@ -1,0 +1,819 @@
+country_event = {
+    id = 100970
+    title = "The Egyptian Proposal"
+    desc = "100970D"
+    picture = turkishsultan
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "We have no choice"
+        prestige = -50
+        change_tag = ANA
+        government = beylik
+        relation = { who = EGY value = 100 }
+        EGY = {
+            clr_country_flag = rum_vassal_no
+            create_vassal = ANA
+            country_event = { id = 100958 days = -1 }
+            set_country_flag = egypt_overlord_path
+        }
+        
+        ai_chance = {
+            factor = 2
+        }
+    }
+    
+    option = {
+        name = "Rum will never be subjugated"
+        relation = { who = EGY value = -100 }
+        EGY = {
+            clr_country_flag = rum_vassal_yes
+            country_event = { id = 100958 days = -1 }
+        }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                OR = {
+                    owns = 876
+                    owns = 879
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100971
+    title = "Victory over Cappadocia"
+    desc = "100971D"
+    major = yes
+    
+    trigger = {
+        tag = RUM
+        NOT = { has_global_flag = rum_vs_cappadocia_ended }
+        war = no 
+        owns = 876
+        owns = 879
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Long live the Sultanate of Rum!"
+        set_global_flag = rum_vs_cappadocia_ended
+        change_variable = { which = legacy_conquest value = 1 }
+        TUR_876 = { add_core = THIS }
+        879 = { add_core = THIS }
+        884 = { add_core = THIS }
+    }
+}
+
+country_event = {
+    id = 100972
+    title = "Cappadocia has stopped our advance"
+    desc = "100972D"
+    picture = turkishdeafeat
+    
+    trigger = {
+        tag = RUM
+        NOT = { has_global_flag = rum_vs_cappadocia_ended }
+        war = no 
+        OR = {
+            NOT = { owns = 876 }
+            NOT = { owns = 879 }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "A setback, but we will recover!"
+        prestige = -10
+        change_variable = { which = legacy_conquest value = 0 }
+        set_global_flag = rum_vs_cappadocia_ended
+    }
+}
+
+country_event = {
+    id = 100973
+    title = "The Sultanate of Rum"
+    desc = "100973D"
+    picture = turkisharmyevent
+    
+    trigger = {
+        tag = RUM
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We will crush the Greeks, to arms!"
+        set_variable = { which = legacy_conquest value = 0 }
+        set_variable = { which = legacy_admin value = 0 }
+        set_variable = { which = legacy_military value = 0 }
+        add_country_modifier = { name = rum_military_start duration = -1 }
+    }
+}
+
+country_event = {
+    id = 100974
+    title = "The City still stands defiant"
+    desc = "100974D"
+    picture = constantinople
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "§RThey will be buried among the ruins of their city§!"
+        war = {
+            target = FROM
+            attacker_goal = {
+                casus_belli = acquire_core_state_huge
+                state_province_id = 860
+            }
+            defender_goal = {
+                casus_belli = cut_down_to_size
+            }
+            call_ally = yes
+        }
+        set_country_flag = hidden_tooltip
+        random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+            owner = {
+                FROM = { badboy = -15 }
+            }
+        }
+        clr_country_flag = hidden_tooltip
+    }
+
+    option = {
+        name = "We will allow them to cling on to life, for now"
+        prestige = -40
+    }
+}
+
+country_event = {
+    id = 100975
+    title = "The City Surrenders"
+    desc = "100975D"
+    picture = fall_of_constantinople
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "The City is ours!"
+        prestige = 20
+    }
+}
+
+country_event = {
+    id = 100976
+    title = "The Fall of Constantinople"
+    desc = "100976D"
+    major = yes
+    
+    trigger = {
+        OR = {
+            tag = RUM
+            tag = SEL
+        }
+        owns = 860
+        NOT = { has_global_flag = fall_of_constantinople }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The End of an Era"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { 860 = { is_core = THIS } }
+                }
+            }
+            TUR_860 = {
+                add_core = THIS
+            }
+        }
+        set_global_flag = fall_of_constantinople
+        prestige = 50
+        change_variable = { which = legacy_conquest value = 1 }
+    }
+}
+
+country_event = {
+    id = 100977
+    title = "The Albanian Revolution"
+    desc = "100977D"
+    picture = albanianrevolution
+    
+    trigger = {   
+        OR = {
+            tag = RUM
+            tag = SEL
+        }
+        war = no 
+        has_country_flag = rum_bulgaria
+        owns = 829
+        owns = 809
+        owns = 810
+        owns = 818
+        849 = {
+            owner = { tag = BLG }
+        }
+        807 = {
+            owner = { tag = BLG }
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 6
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Albanian people deserve our support"
+        BLG = {
+            release = ALB
+        }
+        803 = { 
+            secede_province = ALB 
+            add_core = ALB
+        }
+        807 = { 
+            secede_province = ALB 
+            add_core = ALB
+        }
+        806 = { add_core = THIS }
+        799 = { add_core = THIS }
+        802 = { add_core = THIS }
+        relation = { who = ALB value = 200 }
+        diplomatic_influence = { who = ALB value = 400 }
+        create_alliance = ALB
+        set_country_flag = rum_albania
+
+        BLG = { country_event = { id = 101106 days = -1 } }
+        prestige = 15
+        badboy = 5
+    }
+
+    option = {
+        name = "We will not interfere in their affairs"
+        prestige = -10
+    }
+}
+
+country_event = {
+    id = 100978
+    title = "The Albanian Triumph"
+    desc = "100978D"
+    picture = albaniatriumph
+    
+    trigger = {
+        war = no
+        has_country_flag = rum_albania
+        ALB = {
+            all_core = {
+                owned_by = ALB
+            }
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "We will continue to ensure their protection"
+        create_vassal = ALB
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+}
+
+country_event = {
+    id = 100979
+    title = "The Death of Osman II"
+    desc = "100979D"
+    major = yes
+    
+    trigger = {
+        OR = {
+            tag = RUM
+            tag = SEL
+        }
+        year = 1870
+    }
+    
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Sultan is dead, long live the Sultan"
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B0_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B0_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B0_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B1_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B1_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B1_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B2_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B2_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { check_variable = { which = legacy_conquest value = 1 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A0_B2_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B0_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B0_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B0_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B1_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B1_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B1_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B2_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B2_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 1 }
+                    NOT = { check_variable = { which = legacy_conquest value = 3 } }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A1_B2_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B0_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B0_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    NOT = { check_variable = { which = legacy_admin value = 1 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B0_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B1_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B1_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 1 }
+                    NOT = { check_variable = { which = legacy_admin value = 5 } }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B1_C2 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 5 }
+                    NOT = { check_variable = { which = legacy_military value = 1 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B2_C0 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 1 }
+                    NOT = { check_variable = { which = legacy_military value = 4 } }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B2_C1 duration = 10957 }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    check_variable = { which = legacy_conquest value = 3 }
+                    check_variable = { which = legacy_admin value = 5 }
+                    check_variable = { which = legacy_military value = 4 }
+                }
+            }
+            owner = {
+                add_country_modifier = { name = legacy_A2_B2_C2 duration = 10957 }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 100980
+    title = "The New Capital?"
+    desc = "100980D"
+    picture = turkishsultan
+    
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        name = "The Queen of Cities, Constantinople!"
+        capital = 860
+        prestige = 50
+        badboy = 2
+        any_pop = {
+            limit = {
+                is_culture = syrian
+            }
+            consciousness = 4
+            militancy = 4
+        }
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+    
+    option = {
+        name = "The Heart of Anatolia, Ankara!"
+        capital = 876
+        any_pop = {
+            limit = {
+                is_culture = anatolian
+            }
+            consciousness = -3
+            militancy = -3
+        }
+        any_pop = {
+            limit = {
+                is_culture = syrian
+            }
+            consciousness = 4
+            militancy = 4
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = "The cradle of Rum, Antioch!"
+        any_pop = {
+            limit = {
+                is_culture = syrian
+            }
+            consciousness = -3
+            militancy = -3
+        }
+        any_pop = {
+            limit = {
+                is_culture = anatolian
+            }
+            consciousness = 3
+            militancy = 3
+        }
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 100981
+    title = "The Rashidun Caliphate Demand Our Submission"
+    desc = "100981D"
+    picture = egyptpray
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "We will submit to their demands"
+        set_country_flag = rum_submit_to_rashidun
+        prestige = -50
+        random_owned = {
+            limit = {
+                owner = {
+                    owns = 917
+                }
+            }
+            owner = {
+                any_owned = {
+                    limit = {
+                        is_core = RAS
+                    }
+                    secede_province = RAS
+                    remove_core = THIS
+                }
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    is_our_vassal = EGY
+                }
+            }
+            owner = {
+                release_vassal = EGY   
+            }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    accepted_culture = iraqi
+                }
+            }
+            owner = {
+                release = IRQ
+                remove_accepted_culture = iraqi
+                any_owned = {
+                    limit = {
+                        is_core = IRQ
+                    }
+                    remove_core = THIS
+                }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+    option = {
+        name = "Who does he think he is? We refuse!"
+        set_country_flag = rum_defy_rashidun
+        prestige = 15
+        
+        ai_chance = {
+            factor = 3
+        }
+    }
+}

@@ -1,30 +1,35 @@
 # 120000 = Grants and other "meta" stuff
-#   120020 - Events to change infamy reduction
+#   120020 = Events to change infamy reduction
 #   120100 = Campaign setup events
 #   120200 = MP starting changes
 # 500059 = Sanctions
 #9999199 = Goods Setup
+#500500 = CB mechanical events
 #80080 = Batbayar stuff
 #81000 = Excavation
 #82000 = China2
 # 100000 = 1000 year war / NRM / ANG / ENG stuff
-#   100020 = Scotland Events
-#   100030 = Scotland Events
+#   100020-30 = Scotland events
 # 100100 = France stuff
 # 100200 = Scandi stuff
 # 100300 = Russia stuff
 # 100400 = Iberia stuff
 # 100500 = Italy stuff
-# 100600 = History Events
 # 100700 = Germany stuff
 # 100800 = South America stuff
 # 100900 = Mideast stuff
-#   100900 = Cappadocia stuff
-# 101010 = Static modifiers attached to certain cities (Like Constantinople)
-# 101100 - Balkan stuff
-#   101100 - Bulgaria Stuff
-# 101200 - Burgundy stuff
-
+#   100900 = Cappadocia events
+#   100920 = Afghanistan events
+#   100930-40 = Persian events
+#   100950-60 = Egyptian events
+#   100970-90 = Rum events
+#   100990-1010   = Rashidun / Arabia events
+#       100991-1007   = Islamic Congress events
+# 101100 = Balkan stuff
+#   101100 = Bulgaria events
+# 101200 = Burgundy events
+# 202020 = Static modifiers attached to certain cities (Like Constantinople)
+# 300000 = History Events
 
 ###vanilla
 # Ideology - 1000

@@ -1,6 +1,7 @@
 owner = MEW
 controller = MEW
 add_core = MEW
+add_core = CHK
 add_core = HND
 trade_goods = fruit
 life_rating = 32 

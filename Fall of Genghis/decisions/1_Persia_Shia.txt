@@ -1,0 +1,167 @@
+political_decisions = {
+	forge_a_new_caliphate_old_continent = {
+		picture = crescent
+		potential = {
+			tag = SCL
+			NOT = { has_global_flag = Shiite_Caliphate_Attempted }
+		}
+		
+		allow = {
+			PER = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+		}
+		
+		effect = {
+			set_global_flag = Shiite_Caliphate_Attempted
+			set_global_flag = Shiite_Caliphate
+			prestige = 50
+			government = caliphate
+			RAS = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		}
+	}
+
+	scl_iraq_core = {
+		picture = map_iraq
+		potential = {
+			tag = SCL
+			NOT = { has_country_flag = scl_core_iraq }
+			has_global_flag = scl_win_persia
+			has_country_flag = scl_pashtun
+		}
+		allow = {
+			war = no
+			IRQ = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			IRQ = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = scl_core_iraq
+		}
+	}
+
+	scl_win_cw = {
+		picture = islam_civil_war
+		potential = {
+			tag = SCL
+			NOT = { has_global_flag = scl_win_persia }
+		}
+		allow = {
+			NOT = {
+				exists = QAJ
+			}
+		}
+		effect = {
+            QAJ = { 
+                all_core = {
+                    add_core = SCL
+                    remove_core = QAJ
+                }
+            }
+            war_exhaustion = -5
+            set_global_flag = scl_win_persia
+        }
+	}
+
+	scl_unite_afghanistan = {
+		picture = map_baluchistan
+		potential = {
+			tag = SCL
+			has_global_flag = scl_win_persia
+			NOT = { has_country_flag = scl_afghanistan }
+		}
+		allow = {
+			war = no
+			PER = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			AFG = {
+				war = no
+				exists = yes
+			}
+		}
+		effect = {
+			prestige = 20
+			set_country_flag = scl_afghanistan
+			AFG = {
+				country_event = { id = 100922 days = -1 }
+			}
+		}
+	}
+
+	scl_kill_afghanistan = {
+		picture = map_baluchistan
+		potential = {
+			tag = SCL
+			OR = {
+				AND = {
+					has_country_flag = scl_afghanistan
+				   	NOT = { accepted_culture = pashtun }
+				}
+				AND = {
+					NOT = { has_country_flag = scl_afghanistan }
+					NOT = { exists = AFG }
+				}
+			}	
+		}
+		allow = {
+			war = no
+			AFG = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			AFG = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_accepted_culture = pashtun
+			set_country_flag = scl_pashtun
+		}
+	}
+	
+	accept_the_bedouins_shiite_cal = {
+		picture = map_arabia
+		potential = {
+			has_global_flag = Shiite_Caliphate
+			tag = SCL
+			NOT = { accepted_culture = bedouin }
+			NOT = { primary_culture = bedouin }
+		}
+		allow = {
+			RAS = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = {
+			prestige = 10
+			add_accepted_culture = bedouin
+		}
+	}
+}
