@@ -1,6 +1,6 @@
 political_decisions = {
-    picture = islamic_army
     declare_continuation_of_jihad = {
+        picture = islamic_army
         potential = {
             tag = ALA
             NOT = { has_country_flag = jihad_continues }
