@@ -1,11 +1,12 @@
-#Extensive content / great for SP
+#Extensive content
 Burgundy
 Teutonic Order
 Taichiud
 Cappadocia
 Wurtemburg
 Sultanate of Rum
-Rashidun Caliphate
+Egypt
+Afghanistan
 
 #Fully fleshed content
 Scandinavia (Denmark and Sweden)
@@ -13,9 +14,7 @@ Orleans
 Bulgaria
 Castille
 Ilkhanate
-Safavid Dynasty
 Venice
-Afghanistan
 
 #Decent amount of content
 Aragon
@@ -25,7 +24,9 @@ Lithuania
 Luhansk
 Umayyads
 Scotland
+Safavid Dynasty
 Russia (Novgorod, Smolensk, Ryazan and Vladimir)
+Rashidun Caliphate (They are kinda weird to place anywhere)
 
 #Has a formable / some expansion
 Normandy

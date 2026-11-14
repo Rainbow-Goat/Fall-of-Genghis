@@ -17,14 +17,14 @@ Minor content:
 
 V1.3 - The Great Plains
 - Rework to the starting map of North America (Nearly finished concept stage)
-- Unique colonial mechanic for N. America (Early concept stage)
+- Unique colonial mechanic for N. America (Advanced concept stage)
 - Extensive content
     - Quebec (Advanced concept stage)
-    - Holy Order of New Castille (Early concept stage)
     - Islamic Caliphate of Mexico (Advanced concept stage)
-    - Iroquois Confederacy (Early concept stage)
-Moderate content:
     - New Venetian Republic (Advanced concept stage)
+Moderate content:
+    - Iroquois Confederacy (Early concept stage)
+    - Holy Order of New Castille (Early concept stage)
 Minor content:
     - Kurdish Free State (Advanced concept stage)
     - Hawaii (Early concept stage)
