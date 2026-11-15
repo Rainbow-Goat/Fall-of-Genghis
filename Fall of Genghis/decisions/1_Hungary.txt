@@ -9,10 +9,17 @@ political_decisions = {
         allow = {
             war = no
             state_n_government = 1
-            is_our_vassal = CRO
+            OR = {
+                is_our_vassal = CRO
+                CRO = {
+                    all_core = {
+                        owned_by = THIS
+                    }
+                }
+            }
         }
         effect = {
-            badboy = 10
+            badboy = 6
             inherit = CRO
             CRO = {
                 all_core = {
