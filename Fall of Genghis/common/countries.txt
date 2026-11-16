@@ -107,6 +107,9 @@ NAN     = "countries/Nanda Empire.txt"
 IRA     = "countries/Iranzamin.txt"
 TIM     = "countries/Timurids.txt"
 TGC     = "countries/Global Caliphate.txt"
+BUH     = "countries/Bohemia-Hungary.txt"
+BHA     = "countries/Bohemia-Hungary-Austria.txt"
+
 
 
 
