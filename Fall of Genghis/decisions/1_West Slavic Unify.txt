@@ -45,19 +45,18 @@ political_decisions = {
 	form_holy_slavic_empire = {
 		picture = hse_flag
 		potential = {
-				primary_culture = bohemian
-				NOT = {
-					OR = {
-						exists = HSE
-						exists = GER
-						exists = KWS
-						year = 1860
-					}
+			tag = BOH
+			NOT = { has_global_flag = multiplayer_mode }
+			NOT = {
+				OR = {
+					exists = HSE
+					exists = GER
+					exists = KWS
 				}
+			}
 		}
 		allow = {
 			war = no
-			NOT = { year = 1860 }
 			is_greater_power = yes
 			HSE = {
 				all_core = {
@@ -117,12 +116,6 @@ political_decisions = {
 			clr_country_flag = hidden_tooltip
 			set_global_flag = holy_slavic_empire
 		}
-		ai_will_do = {
-            modifier = {
-                factor = -50
-                has_global_flag = AI_Bohemia_HSU
-            }
-        }
 	}
 	
 	form_kingdom_of_slavia = {
@@ -192,6 +185,7 @@ political_decisions = {
 		picture = slavic_brothers
 		potential = {
 			tag = BOH
+			has_global_flag = multiplayer_mode
 			NOT = {
 				OR = {
 					exists = KWS
@@ -201,7 +195,7 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			state_n_government = 1
+			revolution_n_counterrevolution = 1
 			KWS = {
 				all_core = {
 					OR = {
@@ -247,15 +241,5 @@ political_decisions = {
 				annex_to = THIS
 			}
 		}
-
-		ai_will_do = {
-            modifier = {
-                factor = -50
-				AND = {
-					primary_culture = bohemian
-					has_global_flag = AI_Bohemia_HSE
-				}
-            }
-        }
 	}
 }
