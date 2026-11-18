@@ -1,0 +1,135 @@
+political_decisions = {
+    bohemian_magyar_union = {
+        picture = picture
+        potential = {
+            tag = BOH
+            ai = no
+        }
+        allow = {
+            war = no
+            owns = 635
+            HUN = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = BOH
+                        }
+                        owner = {
+                            vassal_of = BOH
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            change_tag = BUH
+            inherit = HUN
+            HUN = {
+                all_core = {
+                    add_core = THIS
+                    remove_core = HUN
+                }
+            }
+            BOH = {
+                all_core = {
+                    remove_core = BOH
+                }
+            }
+            AUS_647 = { add_core = THIS }
+            AUS_654 = { add_core = THIS }
+        }
+    }
+
+    three_crowns = {
+        picture = picture
+        potential = {
+            tag = BUH
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            BUH = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            owns = 617
+            owns = 622
+            owns = 613
+        }
+        effect = {
+            change_tag = BHA
+            BUH = {
+                all_core = {
+                    remove_core = BUH
+                }
+            }
+            add_accepted_culture = south_german
+            AUS_613 = { add_core = THIS }
+            AUS_612 = { add_core = THIS }
+            AUS_619 = { add_core = THIS }
+        }
+    }
+
+    croatia_buh = {
+        picture = croatia_map
+        potential = {
+            OR = {
+                tag = BUH
+                tag = BHA
+            }
+            NOT = {
+               is_accepted_culture = croat 
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            CRO = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
+                        }
+                    }
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = croat
+            add_accepted_culture = slovene
+            AUS_768 = { add_core = THIS }
+            AUS_771 = { add_core = THIS }
+            TUR_788 = { add_core = THIS }
+            AUS_780 = { add_core = THIS }
+        }
+    }
+
+    slovak_buh = {
+        picture = slovakia
+        potential = {
+            OR = {
+                tag = BUH
+                tag = BHA
+            }
+            NOT = { is_accepted_culture = slovak }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            SLV = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            add_accepted_culture = slovak
+        }
+    }
+}
