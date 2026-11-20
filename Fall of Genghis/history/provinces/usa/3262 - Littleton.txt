@@ -1,0 +1,8 @@
+# 3262 - Littleton: made in ModEditor from #247 Concord (without buildings)
+owner = NVR
+controller = NVR
+add_core = NVR
+#add_core = NEN
+trade_goods = timber
+life_rating = 35 
+1861.1.1 = {  } 

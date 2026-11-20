@@ -3,7 +3,22 @@
 #############################################;;;;;;;;;;;;;;x
 #############Added_Provinces##############;;;;;;;;;;;;;x
 PROV3257;Newhamn;;;;;;;;;;;;;x
+PROV3258;Saugerties;;;;;;;;;;;;;x
+PROV3259;Durham;;;;;;;;;;;;;x
+PROV3260;Eastport;;;;;;;;;;;;;x
+PROV3261;Rutland;;;;;;;;;;;;;x
+PROV3262;Littleton;;;;;;;;;;;;;x
+PROV3263;Conway;;;;;;;;;;;;;x
 ##############;;;;;;;;;;;;;x
 #############Added_Nations##############;;;;;;;;;;;;;x
 NVR_democracy;The Commonwealth of Avalon;;;;;;;;;;;;;x
+##############;;;;;;;;;;;;;x
+#############Added_States##############;;;;;;;;;;;;;x
+QOZ_248;Nova Scotia;;;;;;;;;;;;;x
+QOZ_246;Concord;;;;;;;;;;;;;x
+QUE_238;Syracuse;;;;;;;;;;;;;x
+QUE_46;Toronto;;;;;;;;;;;;;x
+QUE_58;Montreal;;;;;;;;;;;;;x
+NVR_220;Washington;;;;;;;;;;;;;x
+PRU_544;Strzalasund;;;;;;;;;;;;;x
 ##############;;;;;;;;;;;;;x

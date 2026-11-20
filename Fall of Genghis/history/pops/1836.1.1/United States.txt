@@ -9095,122 +9095,122 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 152
+		size = 83
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = catholic
-		size = 654
+		size = 356
 	}
 	officers = {
 		culture = french_canadian
 		religion = catholic
-		size = 44
+		size = 24
 	}
 	officers = {
 		culture = new_scottish
 		religion = catholic
-		size = 189
+		size = 103
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 56
+		size = 31
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = catholic
-		size = 241
+		size = 131
 	}
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 270
+		size = 147
 	}
 	artisans = {
 		culture = new_scottish
 		religion = catholic
-		size = 1161
+		size = 633
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 164
+		size = 89
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = catholic
-		size = 705
+		size = 384
 	}
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 6030
+		size = 3287
 	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 25876
+		size = 14104
 	}
 	bureaucrats = {
 		culture = french_canadian
 		religion = protestant
-		size = 207
+		size = 113
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 887
+		size = 483
 	}
 	officers = {
 		culture = french_canadian
 		religion = protestant
-		size = 60
+		size = 33
 	}
 	officers = {
 		culture = new_scottish
 		religion = protestant
-		size = 257
+		size = 140
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 76
+		size = 41
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 327
+		size = 178
 	}
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 367
+		size = 200
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 1577
+		size = 860
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 223
+		size = 122
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 958
+		size = 522
 	}
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 8192
+		size = 4465
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 35152
+		size = 19160
 	}
 }
 #Binghamton (352000/88000 POPS)
@@ -9219,7 +9219,7 @@
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 11613
+		size = 11469
 	}
 	clergymen = {
 		culture = french_canadian
@@ -9234,17 +9234,17 @@
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 473
+		size = 467
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = catholic
-		size = 125
+		size = 123
 	}
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 152
+		size = 150
 	}
 	artisans = {
 		culture = french_canadian
@@ -9254,17 +9254,17 @@
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 3332
+		size = 3291
 	}
 	artisans = {
 		culture = new_scottish
 		religion = catholic
-		size = 876
+		size = 865
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 69
+		size = 68
 	}
 	soldiers = {
 		culture = french_canadian
@@ -9274,27 +9274,27 @@
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 1515
+		size = 1496
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = catholic
-		size = 398
+		size = 393
 	}
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 2424
+		size = 2394
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 52998
+		size = 52340
 	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 13940
+		size = 13767
 	}
 }
 #Buffalo (244000/61000 POPS)
@@ -10102,122 +10102,122 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 200
+		size = 128
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = catholic
-		size = 168
+		size = 107
 	}
 	officers = {
 		culture = french_canadian
 		religion = catholic
-		size = 120
+		size = 77
 	}
 	officers = {
 		culture = new_scottish
 		religion = catholic
-		size = 100
+		size = 64
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 884
+		size = 563
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = catholic
-		size = 748
+		size = 476
 	}
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 5696
+		size = 3626
 	}
 	artisans = {
 		culture = new_scottish
 		religion = catholic
-		size = 4812
+		size = 3063
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 7576
+		size = 4822
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = catholic
-		size = 6408
+		size = 4079
 	}
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 98912
+		size = 62967
 	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 83620
+		size = 53232
 	}
 	bureaucrats = {
 		culture = french_canadian
 		religion = protestant
-		size = 72
+		size = 46
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 60
+		size = 38
 	}
 	officers = {
 		culture = french_canadian
 		religion = protestant
-		size = 44
+		size = 28
 	}
 	officers = {
 		culture = new_scottish
 		religion = protestant
-		size = 36
+		size = 23
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 308
+		size = 196
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 260
+		size = 166
 	}
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 2000
+		size = 1273
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 1692
+		size = 1077
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 2664
+		size = 1696
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 2252
+		size = 1433
 	}
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 34772
+		size = 22136
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 29396
+		size = 18714
 	}
 }
 #New Hampshire Region (276000)  
@@ -10227,162 +10227,162 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 116
+		size = 46
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = catholic
-		size = 200
+		size = 79
 	}
 	officers = {
 		culture = french_canadian
 		religion = catholic
-		size = 32
+		size = 13
 	}
 	officers = {
 		culture = new_scottish
 		religion = catholic
-		size = 60
+		size = 23
 	}
 	clerks = {
 		culture = french_canadian
 		religion = catholic
-		size = 12
+		size = 5
 	}
 	clerks = {
 		culture = new_scottish
 		religion = catholic
-		size = 20
+		size = 8
 	}
 	craftsmen = {
 		culture = french_canadian
 		religion = catholic
-		size = 228
+		size = 90
 	}
 	craftsmen = {
 		culture = new_scottish
 		religion = catholic
-		size = 400
+		size = 158
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 520
+		size = 206
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = catholic
-		size = 920
+		size = 364
 	}
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 1324
+		size = 523
 	}
 	artisans = {
 		culture = new_scottish
 		religion = catholic
-		size = 2340
+		size = 925
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 908
+		size = 359
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = catholic
-		size = 1596
+		size = 631
 	}
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 28192
+		size = 11146
 	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 49732
+		size = 19661
 	}
 	bureaucrats = {
 		culture = french_canadian
 		religion = protestant
-		size = 248
+		size = 98
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 436
+		size = 172
 	}
 	officers = {
 		culture = french_canadian
 		religion = protestant
-		size = 76
+		size = 30
 	}
 	officers = {
 		culture = new_scottish
 		religion = protestant
-		size = 132
+		size = 52
 	}
 	clerks = {
 		culture = french_canadian
 		religion = protestant
-		size = 24
+		size = 9
 	}
 	clerks = {
 		culture = new_scottish
 		religion = protestant
-		size = 44
+		size = 17
 	}
 	craftsmen = {
 		culture = french_canadian
 		religion = protestant
-		size = 496
+		size = 196
 	}
 	craftsmen = {
 		culture = new_scottish
 		religion = protestant
-		size = 876
+		size = 346
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 1144
+		size = 452
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 2016
+		size = 797
 	}
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 2908
+		size = 1150
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 5128
+		size = 2027
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 1988
+		size = 786
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 3508
+		size = 1387
 	}
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 61820
+		size = 24441
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 109056
+		size = 43115
 	}
 }
 #Maine Region (432000)  
@@ -10392,122 +10392,122 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 40
+		size = 28
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = catholic
-		size = 136
+		size = 94
 	}
 	officers = {
 		culture = french_canadian
 		religion = catholic
-		size = 20
+		size = 14
 	}
 	officers = {
 		culture = new_scottish
 		religion = catholic
-		size = 76
+		size = 53
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+		size = 69
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = catholic
-		size = 352
+		size = 245
 	}
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 660
+		size = 458
 	}
 	artisans = {
 		culture = new_scottish
 		religion = catholic
-		size = 2340
+		size = 1625
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 132
+		size = 92
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = catholic
-		size = 468
+		size = 325
 	}
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 12256
+		size = 8513
 	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 43420
+		size = 30160
 	}
 	bureaucrats = {
 		culture = french_canadian
 		religion = protestant
-		size = 116
+		size = 81
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 408
+		size = 283
 	}
 	officers = {
 		culture = french_canadian
 		religion = protestant
-		size = 68
+		size = 47
 	}
 	officers = {
 		culture = new_scottish
 		religion = protestant
-		size = 236
+		size = 164
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 296
+		size = 206
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 1052
+		size = 731
 	}
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 1980
+		size = 1375
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 7020
+		size = 4876
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 396
+		size = 275
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 1404
+		size = 975
 	}
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 36760
+		size = 25534
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 130264
+		size = 90483
 	}
 }
 #Bangor (156000/44000 POPS)
@@ -10516,85 +10516,85 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 168
+		size = 110
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 1152
+		size = 756
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 252
+		size = 165
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 21472
+		size = 14092
 	}
 	clergymen = {
+		culture = new_scottish
+		religion = catholic
+		size = 176
+	}
+	artisans = {
+		culture = new_scottish
+		religion = catholic
+		size = 1355
+	}
+	soldiers = {
 		culture = new_scottish
 		religion = catholic
 		size = 268
 	}
-	artisans = {
-		culture = new_scottish
-		religion = catholic
-		size = 2064
-	}
-	soldiers = {
-		culture = new_scottish
-		religion = catholic
-		size = 408
-	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 38508
+		size = 25273
 	}
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 244
+		size = 160
 	}
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 1688
+		size = 1108
 	}
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 368
+		size = 242
 	}
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 31520
+		size = 20686
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 400
+		size = 263
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 3028
+		size = 1987
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 596
+		size = 391
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 56528
+		size = 37099
 	}
 }
 #ruled by the UK
@@ -10705,5 +10705,783 @@
 		culture = new_scottish
 		religion = protestant
 		size = 9872
+	}
+}
+
+3258 = {
+	bureaucrats = {
+		culture = french_canadian
+		religion = catholic
+		size = 69
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = catholic
+		size = 298
+	}
+	officers = {
+		culture = french_canadian
+		religion = catholic
+		size = 20
+	}
+	officers = {
+		culture = new_scottish
+		religion = catholic
+		size = 86
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = catholic
+		size = 25
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = catholic
+		size = 112
+	}
+	artisans = {
+		culture = french_canadian
+		religion = catholic
+		size = 123
+	}
+	artisans = {
+		culture = new_scottish
+		religion = catholic
+		size = 539
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = catholic
+		size = 75
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = catholic
+		size = 326
+	}
+	farmers = {
+		culture = french_canadian
+		religion = catholic
+		size = 2887
+	}
+	farmers = {
+		culture = new_scottish
+		religion = catholic
+		size = 11945
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 94
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = protestant
+		size = 404
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 27
+	}
+	officers = {
+		culture = new_scottish
+		religion = protestant
+		size = 117
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 35
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = protestant
+		size = 155
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 169
+	}
+	artisans = {
+		culture = new_scottish
+		religion = protestant
+		size = 758
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 102
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = protestant
+		size = 455
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 3757
+	}
+	farmers = {
+		culture = new_scottish
+		religion = protestant
+		size = 16650
+	}
+}
+
+3259 = {
+	bureaucrats = {
+		culture = french_canadian
+		religion = catholic
+		size = 12
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = catholic
+		size = 42
+	}
+	officers = {
+		culture = french_canadian
+		religion = catholic
+		size = 6
+	}
+	officers = {
+		culture = new_scottish
+		religion = catholic
+		size = 23
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = catholic
+		size = 31
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = catholic
+		size = 107
+	}
+	artisans = {
+		culture = french_canadian
+		religion = catholic
+		size = 202
+	}
+	artisans = {
+		culture = new_scottish
+		religion = catholic
+		size = 715
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = catholic
+		size = 40
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = catholic
+		size = 143
+	}
+	farmers = {
+		culture = french_canadian
+		religion = catholic
+		size = 3743
+	}
+	farmers = {
+		culture = new_scottish
+		religion = catholic
+		size = 13260
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 35
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = protestant
+		size = 125
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 21
+	}
+	officers = {
+		culture = new_scottish
+		religion = protestant
+		size = 72
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 90
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = protestant
+		size = 321
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 605
+	}
+	artisans = {
+		culture = new_scottish
+		religion = protestant
+		size = 2144
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 121
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = protestant
+		size = 429
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 11226
+	}
+	farmers = {
+		culture = new_scottish
+		religion = protestant
+		size = 39781
+	}
+}
+
+3260 = {
+	clergymen = {
+		culture = french_canadian
+		religion = catholic
+		size = 58
+	}
+	artisans = {
+		culture = french_canadian
+		religion = catholic
+		size = 396
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = catholic
+		size = 87
+	}
+	farmers = {
+		culture = french_canadian
+		religion = catholic
+		size = 7380
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = catholic
+		size = 92
+	}
+	artisans = {
+		culture = new_scottish
+		religion = catholic
+		size = 709
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = catholic
+		size = 140
+	}
+	farmers = {
+		culture = new_scottish
+		religion = catholic
+		size = 13235
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 84
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 580
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 126
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 10834
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = protestant
+		size = 137
+	}
+	artisans = {
+		culture = new_scottish
+		religion = protestant
+		size = 1041
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = protestant
+		size = 205
+	}
+	farmers = {
+		culture = new_scottish
+		religion = protestant
+		size = 19429
+	}
+}
+
+3261 = {
+	bureaucrats = {
+		culture = french_canadian
+		religion = catholic
+		size = 72
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = catholic
+		size = 61
+	}
+	officers = {
+		culture = french_canadian
+		religion = catholic
+		size = 43
+	}
+	officers = {
+		culture = new_scottish
+		religion = catholic
+		size = 36
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = catholic
+		size = 320
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = catholic
+		size = 271
+	}
+	artisans = {
+		culture = french_canadian
+		religion = catholic
+		size = 2063
+	}
+	artisans = {
+		culture = new_scottish
+		religion = catholic
+		size = 1743
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = catholic
+		size = 2744
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = catholic
+		size = 2321
+	}
+	farmers = {
+		culture = french_canadian
+		religion = catholic
+		size = 35819
+	}
+	farmers = {
+		culture = new_scottish
+		religion = catholic
+		size = 30282
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 26
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = protestant
+		size = 22
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 16
+	}
+	officers = {
+		culture = new_scottish
+		religion = protestant
+		size = 13
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 112
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = protestant
+		size = 94
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 724
+	}
+	artisans = {
+		culture = new_scottish
+		religion = protestant
+		size = 613
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 965
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = protestant
+		size = 816
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 12592
+	}
+	farmers = {
+		culture = new_scottish
+		religion = protestant
+		size = 10645
+	}
+}
+
+3262 = {
+	clergymen = {
+		culture = french_canadian
+		religion = catholic
+		size = 127
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = catholic
+		size = 224
+	}
+	artisans = {
+		culture = french_canadian
+		religion = catholic
+		size = 328
+	}
+	artisans = {
+		culture = new_scottish
+		religion = catholic
+		size = 573
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = catholic
+		size = 230
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = catholic
+		size = 395
+	}
+	farmers = {
+		culture = french_canadian
+		religion = catholic
+		size = 6958
+	}
+	farmers = {
+		culture = new_scottish
+		religion = catholic
+		size = 12159
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 708
+	}
+	artisans = {
+		culture = new_scottish
+		religion = protestant
+		size = 1245
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 485
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = protestant
+		size = 853
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 15026
+	}
+	farmers = {
+		culture = new_scottish
+		religion = protestant
+		size = 26467
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = catholic
+		size = 28
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = catholic
+		size = 48
+	}
+	officers = {
+		culture = french_canadian
+		religion = catholic
+		size = 8
+	}
+	officers = {
+		culture = new_scottish
+		religion = catholic
+		size = 15
+	}
+	clerks = {
+		culture = french_canadian
+		religion = catholic
+		size = 3
+	}
+	clerks = {
+		culture = new_scottish
+		religion = catholic
+		size = 5
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = catholic
+		size = 55
+	}
+	craftsmen = {
+		culture = new_scottish
+		religion = catholic
+		size = 97
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 60
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = protestant
+		size = 106
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 18
+	}
+	officers = {
+		culture = new_scottish
+		religion = protestant
+		size = 32
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 6
+	}
+	clerks = {
+		culture = new_scottish
+		religion = protestant
+		size = 11
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 120
+	}
+	craftsmen = {
+		culture = new_scottish
+		religion = protestant
+		size = 212
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 277
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = protestant
+		size = 489
+	}
+}
+
+3263 = {
+	bureaucrats = {
+		culture = french_canadian
+		religion = catholic
+		size = 42
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = catholic
+		size = 73
+	}
+	officers = {
+		culture = french_canadian
+		religion = catholic
+		size = 11
+	}
+	officers = {
+		culture = new_scottish
+		religion = catholic
+		size = 22
+	}
+	clerks = {
+		culture = french_canadian
+		religion = catholic
+		size = 4
+	}
+	clerks = {
+		culture = new_scottish
+		religion = catholic
+		size = 7
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = catholic
+		size = 83
+	}
+	craftsmen = {
+		culture = new_scottish
+		religion = catholic
+		size = 145
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = catholic
+		size = 188
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = catholic
+		size = 333
+	}
+	artisans = {
+		culture = french_canadian
+		religion = catholic
+		size = 480
+	}
+	artisans = {
+		culture = new_scottish
+		religion = catholic
+		size = 848
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = catholic
+		size = 329
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = catholic
+		size = 578
+	}
+	farmers = {
+		culture = french_canadian
+		religion = catholic
+		size = 10214
+	}
+	farmers = {
+		culture = new_scottish
+		religion = catholic
+		size = 18018
+	}
+	bureaucrats = {
+		culture = french_canadian
+		religion = protestant
+		size = 90
+	}
+	bureaucrats = {
+		culture = new_scottish
+		religion = protestant
+		size = 158
+	}
+	officers = {
+		culture = french_canadian
+		religion = protestant
+		size = 28
+	}
+	officers = {
+		culture = new_scottish
+		religion = protestant
+		size = 48
+	}
+	clerks = {
+		culture = french_canadian
+		religion = protestant
+		size = 9
+	}
+	clerks = {
+		culture = new_scottish
+		religion = protestant
+		size = 16
+	}
+	craftsmen = {
+		culture = french_canadian
+		religion = protestant
+		size = 180
+	}
+	craftsmen = {
+		culture = new_scottish
+		religion = protestant
+		size = 318
+	}
+	clergymen = {
+		culture = french_canadian
+		religion = protestant
+		size = 415
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = protestant
+		size = 730
+	}
+	artisans = {
+		culture = french_canadian
+		religion = protestant
+		size = 1053
+	}
+	artisans = {
+		culture = new_scottish
+		religion = protestant
+		size = 1858
+	}
+	soldiers = {
+		culture = french_canadian
+		religion = protestant
+		size = 720
+	}
+	soldiers = {
+		culture = new_scottish
+		religion = protestant
+		size = 1271
+	}
+	farmers = {
+		culture = french_canadian
+		religion = protestant
+		size = 22397
+	}
+	farmers = {
+		culture = new_scottish
+		religion = protestant
+		size = 39511
 	}
 }
