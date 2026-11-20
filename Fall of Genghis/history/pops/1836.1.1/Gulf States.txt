@@ -5,31 +5,31 @@
 	aristocrats = {
 		culture = iraqi
 		religion = sunni
-		size = 50
+		size = 72
 	}
 
 	clergymen = {
 		culture = iraqi
 		religion = sunni
-		size = 50
+		size = 72
 	}
 
 	artisans = {
 		culture = iraqi
 		religion = sunni
-		size = 150
+		size = 216
 	}
 
 	soldiers = {
 		culture = iraqi
 		religion = sunni
-		size = 25
+		size = 36
 	}
 
 	farmers = {
 		culture = iraqi
 		religion = sunni
-		size = 2725
+		size = 3924
 	}
 }
 #Bahrain Region (28000) #see Saudi Arabia.txt for balance of region  

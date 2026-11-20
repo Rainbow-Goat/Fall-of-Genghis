@@ -99,6 +99,39 @@ latin_colonial = {
 	}
 }
 
+new_british = {
+	new_scottish = {
+		color = { 0 20 140 }
+		first_names = { James Robert Henry Alexander Arthur Walter John Charles Malcolm Donald David Duncan 
+			Alan Ailpein Bruce Cameron Conall Douglas Duff Edan Evander 
+			Fraser Garry Glen Ian Keir Kennedy Logan Mungo Munroe Scott Wallace Adam 
+			Alpin Alwin Alastair Andrew Angus Arran Aulay Olaf Brian Brice Calum Colban 
+			Kolbein Colin Nicholas Conan Constantine Dermid Dugald Edward Edwin Eric Ewan 
+			Eugene Farquhar Fingal Finn Findlay Frang Francis Gavin Gillespie Gilpatrick Gilroy Giric 
+			Glenn Godfrey Gregor Gregory Hamish Hector Hugh Iain 
+			Indulf Jacob Kenneth Kentigern Lachlan Roland Laurence Lennon Macbeth Magnus Maldoven 
+		    Malmure Maoilios Marcas Marcus Matad Matthew Michael Mungo 
+			Murdoch Murray Neil Nigel Oscar Patrick Peter Philip Radulf Ralph Ranald 
+			Reginald Richard Ronald Ragnvald Rory Roderick Ross Roy Shaw Simon Stephan Stephen 
+			Sweeny Tadhg Tadg Talore Thomas Torquil Torkel Uhtred Uisdean Walan Valentin 
+			Waltheof William }
+
+		last_names = { Stuart Stewart Campbell Lennox Murray Graham Gordon Erskine Leslie
+			Scott Douglas Hamilton Lindsay Ker Hay Sinclair Dunbar Kennedy
+			Fraser Dishington Burnett "Lockhart" "Corbet"
+			Mackintosh Dingwall Melville Corrie Aberach Cunningham Donald
+			Buchanan Menzies Moffat Malcolm "Cameron" "Forbes" "Arbuthnot" "Cockburn" "Adam" Wallace "Abernethy"
+		Smith Brown Wilson Robertson Thomson Anderson MacDonald Reid Taylor Clark Ross Young Mitchell Watson Paterson Morrison Sanders }
+	}
+	canadien = { 
+		color = { 165 110 197 }
+		first_names = { Narcisse Rene Edouard Luc Letellier Theodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugene Huguel Jean-Pierre Gilles
+		}
+		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Langelier Damasne LeBlanc Brodeur Perodeau
+		}
+	}
+}
+
 germanic = {
 	leader = european
 	unit = EuropeanGC

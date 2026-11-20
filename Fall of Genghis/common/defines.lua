@@ -711,7 +711,7 @@ ai =
 	CHANCE_BUILD_NAVAL_BASE = 0.75,
 	CHANCE_BUILD_FORT = 0.5,
 	CHANCE_INVEST_POP_PROJ = 0.16,
-	CHANCE_FOREIGN_INVEST = 0.16,
+	CHANCE_FOREIGN_INVEST = 0.2,
 	TWS_AWARENESS_SCORE_LOW_CAP = 0.15, -- AI will always add CBs if current warscore is less then that number (including TWS)
 	TWS_AWARENESS_SCORE_ASPECT = 0.5, -- AI will not add any more CBs when TWS is more then X% of total WS. (to not destroy the progress)
 	PEACE_BASE_RELUCTANCE = 20, -- AI base stubbornness to refuse peace (always applied)
@@ -728,10 +728,10 @@ ai =
 	PEACE_ALLY_WAR_DIRECTION_MULT = 0, -- Multiplies PEACE_WAR_DIRECTION_FACTOR for allies in a war
 	PEACE_ALLY_FORCE_BALANCE_MULT = 0, -- Multiplies PEACE_FORCE_BALANCE_FACTOR for allies in a war
 	AGGRESSION_BASE = 8, -- general AI aggression
-	AGGRESSION_UNCIV_BONUS = 12, -- additional AI civ aggression against uncivs
+	AGGRESSION_UNCIV_BONUS = 15, -- additional AI civ aggression against uncivs
 	FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
-	MAX_FLEETS = 10, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
+	MAX_FLEETS = 6, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MONTHS_BEFORE_DISBAND = 6, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
 },
 

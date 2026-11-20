@@ -424,7 +424,7 @@
 	labourers = {
 		culture = picard
 		religion = protestant
-		size = 51200
+		size = 36285
 	}
 
 	clerks = {
@@ -472,13 +472,18 @@
 	labourers = {
 		culture = dutch
 		religion = protestant
-		size = 17825
+		size = 18381
 	}
 
 	clergymen = {
 		culture = dutch
 		religion = protestant
 		size = 75
+	}
+	labourers = {
+		culture = burgundian
+		religion = protestant
+		size = 14359
 	}
 }
 #Tournai (292000/73000 POPS)
@@ -505,19 +510,19 @@
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 1100
+		size = 1654
 	}
 
 	soldiers = {
 		culture = burgundian
 		religion = protestant
-		size = 9000
+		size = 10594
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 12800
+		size = 22119
 	}
 
 	clergymen = {
@@ -535,25 +540,30 @@
 	craftsmen = {
 		culture = picard
 		religion = protestant
-		size = 2000
+		size = 1557
 	}
 
 	artisans = {
 		culture = picard
 		religion = protestant
-		size = 2500
+		size = 1946
 	}
 
 	soldiers = {
 		culture = picard
 		religion = protestant
-		size = 7200
+		size = 5606
 	}
 
 	farmers = {
 		culture = picard
 		religion = protestant
-		size = 42075
+		size = 32756
+	}
+	craftsmen = {
+		culture = burgundian
+		religion = protestant
+		size = 443
 	}
 }
 #Charleroi (396000/99000 POPS)
@@ -681,43 +691,29 @@
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 275
+		size = 350
 	}
 
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 1300
-	}
-	
-	clergymen = {
-		culture = dutch
-		religion = protestant
-		size = 75
-	}
-
-	artisans = {
-		culture = dutch
-		religion = protestant
-		size = 450
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 1200
-	}
-
-	farmers = {
-		culture = dutch
-		religion = protestant
-		size = 8375
+		size = 1750
 	}
 
 	farmers = {
 		culture = rhenish
 		religion = protestant
-		size = 24175
+		size = 15426
+	}
+	soldiers = {
+		culture = burgundian
+		religion = protestant
+		size = 1200
+	}
+	farmers = {
+		culture = burgundian
+		religion = protestant
+		size = 17124
 	}
 }
 #Luxembourg Region (172000)
@@ -750,12 +746,12 @@
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 10125
+		size = 23989
 	}
 
 	farmers = {
 		culture = picard
 		religion = protestant
-		size = 39125
+		size = 25261
 	}
 }

@@ -355,7 +355,7 @@ political_decisions = {
                     }
                 }
                 owner = {
-                    vote_franschise = landed_voting
+                    political_reform = landed_voting
                 }
             }
             random_owned = {
@@ -365,7 +365,7 @@ political_decisions = {
                     }
                 }
                 owner = {
-                    upper_house_composition = appointed
+                    political_reform = appointed
                 }
             }
             change_variable = { which = egy_merchant_status value = 5 }

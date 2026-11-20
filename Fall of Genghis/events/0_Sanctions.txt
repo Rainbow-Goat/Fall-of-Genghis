@@ -8,10 +8,7 @@ country_event = {
 		ai = no
 		badboy = 1.3
 		NOT = {
-			OR = {
 				has_country_modifier = kinda_bad_badboy 
-				has_country_modifier = bad_badboy 
-			}
 		}
 	}
 		
@@ -27,11 +24,6 @@ country_event = {
 			target = THIS
 			type = humiliate
 			months = 60
-			}
-		casus_belli = {
-			target = THIS
-			type = free_peoples
-			months = 12
 			}
 		relation = {
 			who = THIS

@@ -1,22 +1,22 @@
 capital = 232
-primary_culture = italiano
-religion = catholic
-government = merchant_republic
+primary_culture = new_scottish
+religion = protestant
+government = democracy
 plurality = 0.1
 nationalvalue = nv_order
-literacy = 0.43
+literacy = 0.5
 civilized = yes
 
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = landed_voting
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_weighted_voting
 public_meetings = yes_meeting
-press_rights = state_press
+press_rights = free_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = secret_ballots
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -30,9 +30,9 @@ school_reforms = no_schools
 ruling_party = VEN_conservative
 upper_house = {
 	fascist = 0
-	liberal = 30
-	conservative = 60
-	reactionary = 10
+	liberal = 46
+	conservative = 46
+	reactionary = 8
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -80,3 +80,7 @@ hierarchical_order = yes
 traditionalism = yes
 political_religion = yes
 paternalism = yes
+prestige = 10
+consciousness = 1
+last_election = 1835.6.2
+schools = naval_tech_school

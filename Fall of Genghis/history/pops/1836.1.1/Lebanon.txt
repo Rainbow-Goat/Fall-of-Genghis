@@ -5,67 +5,67 @@
 	aristocrats = {
 		culture = syrian
 		religion = sunni
-		size = 175
+		size = 350
 	}
 
 	clergymen = {
 		culture = syrian
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	artisans = {
 		culture = syrian
 		religion = sunni
-		size = 500
+		size = 1000
 	}
 
 	soldiers = {
 		culture = syrian
 		religion = sunni
-		size = 175
+		size = 350
 	}
 
 	farmers = {
 		culture = syrian
 		religion = sunni
-		size = 9050
+		size = 18100
 	}
 
 	clergymen = {
 		culture = syrian
 		religion = shiite
-		size = 50
+		size = 100
 	}
 
 	artisans = {
 		culture = syrian
 		religion = shiite
-		size = 300
+		size = 600
 	}
 
 	farmers = {
 		culture = syrian
 		religion = shiite
-		size = 5450
+		size = 10900
 	}
 
 	clergymen = {
 		culture = syrian
 		religion = orthodox
-		size = 25
+		size = 50
 	}
 
 	artisans = {
 		culture = syrian
 		religion = orthodox
-		size = 50
+		size = 100
 	}
 
 	farmers = {
 		culture = syrian
 		religion = orthodox
-		size = 925
+		size = 1850
 	}
 }
 #Bayrut Region (260000)  #see Israel-Palestine.txt for balance of region
@@ -75,251 +75,91 @@
 	aristocrats = {
 		culture = syrian
 		religion = sunni
-		size = 150
+		size = 300
 	}
 
 	bureaucrats = {
 		culture = syrian
 		religion = sunni
-		size = 75
+		size = 150
 	}
 
 	officers = {
 		culture = syrian
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	clergymen = {
 		culture = syrian
 		religion = sunni
+		size = 300
+	}
+
+	artisans = {
+		culture = syrian
+		religion = sunni
+		size = 1400
+	}
+
+	soldiers = {
+		culture = syrian
+		religion = sunni
+		size = 650
+	}
+
+	farmers = {
+		culture = syrian
+		religion = sunni
+		size = 24100
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = orthodox
 		size = 150
 	}
 
 	artisans = {
 		culture = syrian
-		religion = sunni
-		size = 700
-	}
-
-	soldiers = {
-		culture = syrian
-		religion = sunni
-		size = 325
-	}
-
-	farmers = {
-		culture = syrian
-		religion = sunni
-		size = 12050
-	}
-
-	clergymen = {
-		culture = syrian
 		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = syrian
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = syrian
-		religion = orthodox
-		size = 4675
-	}
-
-	aristocrats = {
-		culture = syrian
-		religion = catholic
-		size = 100
-	}
-
-	clergymen = {
-		culture = syrian
-		religion = catholic
-		size = 100
-	}
-
-	artisans = {
-		culture = syrian
-		religion = catholic
-		size = 450
-	}
-
-	farmers = {
-		culture = syrian
-		religion = catholic
-		size = 8350
-	}
-
-	clergymen = {
-		culture = syrian
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = syrian
-		religion = animist
-		size = 100
-	}
-
-	farmers = {
-		culture = syrian
-		religion = animist
-		size = 1875
-	}
-
-	clergymen = {
-		culture = armenian
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = armenian
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 1875
-	}
-}
-#Askaleh (48000/12000 POPS) 
-914 = {
-	aristocrats = {
-		culture = syrian
-		religion = sunni
-		size = 125
-	}
-
-	clergymen = {
-		culture = syrian
-		religion = sunni
-		size = 100
-	}
-
-	artisans = {
-		culture = syrian
-		religion = sunni
 		size = 500
 	}
 
-	soldiers = {
-		culture = syrian
-		religion = sunni
-		size = 100
-	}
-
-	farmers = {
-		culture = syrian
-		religion = sunni
-		size = 9175
-	}
-
-	clergymen = {
-		culture = syrian
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = syrian
-		religion = orthodox
-		size = 100
-	}
-
 	farmers = {
 		culture = syrian
 		religion = orthodox
-		size = 1875
-	}
-}
-#Sidon (84000/21000 POPS) 
-915 = {
-	aristocrats = {
-		culture = syrian
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = syrian
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = syrian
-		religion = sunni
-		size = 100
-	}
-
-	soldiers = {
-		culture = syrian
-		religion = sunni
-		size = 25
-	}
-
-	farmers = {
-		culture = syrian
-		religion = sunni
-		size = 2000
-	}
-
-	clergymen = {
-		culture = syrian
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = syrian
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = syrian
-		religion = orthodox
-		size = 925
+		size = 9350
 	}
 
 	aristocrats = {
 		culture = syrian
 		religion = catholic
-		size = 75
+		size = 200
 	}
 
 	clergymen = {
 		culture = syrian
 		religion = catholic
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = syrian
 		religion = catholic
-		size = 250
+		size = 900
 	}
 
 	farmers = {
 		culture = syrian
 		religion = catholic
-		size = 5050
+		size = 16700
 	}
 
 	clergymen = {
 		culture = syrian
 		religion = animist
-		size = 75
+		size = 50
 	}
 
 	artisans = {
@@ -331,30 +171,190 @@
 	farmers = {
 		culture = syrian
 		religion = animist
-		size = 3725
+		size = 3750
+	}
+
+	clergymen = {
+		culture = armenian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = armenian
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = armenian
+		religion = orthodox
+		size = 3750
+	}
+}
+#Askaleh (48000/12000 POPS) 
+914 = {
+	aristocrats = {
+		culture = syrian
+		religion = sunni
+		size = 250
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = syrian
+		religion = sunni
+		size = 1000
+	}
+
+	soldiers = {
+		culture = syrian
+		religion = sunni
+		size = 200
+	}
+
+	farmers = {
+		culture = syrian
+		religion = sunni
+		size = 18350
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = syrian
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = syrian
+		religion = orthodox
+		size = 3750
+	}
+}
+#Sidon (84000/21000 POPS) 
+915 = {
+	aristocrats = {
+		culture = syrian
+		religion = sunni
+		size = 50
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = syrian
+		religion = sunni
+		size = 200
+	}
+
+	soldiers = {
+		culture = syrian
+		religion = sunni
+		size = 50
+	}
+
+	farmers = {
+		culture = syrian
+		religion = sunni
+		size = 4000
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = syrian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = syrian
+		religion = orthodox
+		size = 1850
+	}
+
+	aristocrats = {
+		culture = syrian
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = syrian
+		religion = catholic
+		size = 500
+	}
+
+	farmers = {
+		culture = syrian
+		religion = catholic
+		size = 10100
+	}
+
+	clergymen = {
+		culture = syrian
+		religion = animist
+		size = 150
+	}
+
+	artisans = {
+		culture = syrian
+		religion = animist
+		size = 400
+	}
+
+	farmers = {
+		culture = syrian
+		religion = animist
+		size = 7450
 	}
 
 	aristocrats = {
 		culture = syrian
 		religion = shiite
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = syrian
 		religion = shiite
-		size = 75
+		size = 150
 	}
 
 	artisans = {
 		culture = syrian
 		religion = shiite
-		size = 450
+		size = 900
 	}
 
 	farmers = {
 		culture = syrian
 		religion = shiite
-		size = 8350
+		size = 16700
 	}
 }

@@ -11050,57 +11050,47 @@
 
 # Bangor
 249 = {
-    unit = {
-        x = 1734.000000
-        y = 1733.000000
-    }
-
-    text_position = {
-        x = 1734.599976
-        y = 1727.199951
-    }
-
-    text_scale = 3.899999
-    building_construction = {
-        x = 1742.099976
-        y = 1720.900024
-    }
-
-    military_construction = {
-        x = 1726.000000
-        y = 1738.099976
-    }
-
-    factory = {
-        x = 1742.099976
-        y = 1739.199951
-    }
-
-    building_position = {
-        fort = {
-            x = 1724.000000
-            y = 1710.000000
-        }
-
-        naval_base = {
-            x = 1756.000000
-            y = 1717.300049
-        }
-
-    }
-
-    spawn_railway_track = {
+	unit = {
+		x = 1734.000000
+		y = 1733.000000
+	}
+	text_position = {
+		x = 1734.599976
+		y = 1727.199951
+	}
+	text_scale = 3.899999
+	building_construction = {
+		x = 1742.099976
+		y = 1720.900024
+	}
+	military_construction = {
+		x = 1726.000000
+		y = 1738.099976
+	}
+	factory = {
+		x = 1742.099976
+		y = 1739.199951
+	}
+	building_position = {
+		fort = {
+			x = 1733.500000
+			y = 1737.500000
+		}
+		naval_base = {
+			x = 1732.500000
+			y = 1716.500000
+		}
+	}
+	building_rotation = {
+		naval_base = 5.234792
+	}
+	spawn_railway_track = {
         {
             x = 1710.301392
             y = 1758.102417
         }
 
     }
-
-    building_rotation = {
-        naval_base = 4.537856
-    }
-
 }
 
 # Caribou
@@ -122980,4 +122970,45 @@
 
     }
 
+}
+3257 = {
+	unit = {
+		x = 1722.500000
+		y = 1713.500000
+	}
+	text_position = {
+		x = 1726.904584
+		y = 1712.699352
+	}
+	text_rotation = 1.225731
+	text_scale = 3.010000
+	building_construction = {
+		x = 1727.500000
+		y = 1709.500000
+	}
+	military_construction = {
+		x = 1718.500000
+		y = 1707.500000
+	}
+	factory = {
+		x = 1720.500000
+		y = 1713.500000
+	}
+	building_position = {
+		fort = {
+			x = 1722.500000
+			y = 1716.500000
+		}
+		naval_base = {
+			x = 1729.500000
+			y = 1712.500000
+		}
+		railroad = {
+			x = 1720.500000
+			y = 1710.500000
+		}
+	}
+	building_rotation = {
+		naval_base = 3.299361
+	}
 }

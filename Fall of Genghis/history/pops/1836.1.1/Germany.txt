@@ -3022,79 +3022,114 @@
 	aristocrats = {
 		culture = rhenish
 		religion = protestant
-		size = 750 
+		size = 627 
 	}
 
 	clergymen = {
 		culture = rhenish
 		religion = protestant
-		size = 900
+		size = 752
 	}
 
 	artisans = {
 		culture = rhenish
 		religion = protestant
-		size = 5500
+		size = 4597
 	}
 
 	soldiers = {
 		culture = rhenish
 		religion = protestant
-		size = 5600 
+		size = 4681 
 	}
 
 	farmers = {
 		culture = rhenish
 		religion = protestant
-		size = 64025
+		size = 53513
 	}
 
 	aristocrats = {
 		culture = rhenish
 		religion = catholic
-		size = 400 
+		size = 334 
 	}
 
 	clergymen = {
 		culture = rhenish
 		religion = catholic
-		size = 550 
+		size = 460 
 	}
 
 	artisans = {
 		culture = rhenish
 		religion = catholic
-		size = 2600
+		size = 2173
 	}
 
 	soldiers = {
 		culture = rhenish
 		religion = catholic
-		size = 400 
+		size = 334 
 	}
 
 	farmers = {
 		culture = rhenish
 		religion = catholic
-		size = 59300 
+		size = 49564 
 	}
 
 	clergymen = {
 		culture = burgundian
 		religion = protestant
-		size = 125 
+		size = 273 
 	}
 
 	artisans = {
 		culture = burgundian
 		religion = protestant
-		size = 100
+		size = 1003
 	}
 
 	farmers = {
 		culture = burgundian
 		religion = protestant
-		size = 3000 
+		size = 13512 
+	}
+	aristocrats = {
+		culture = burgundian
+		religion = protestant
+		size = 123
+	}
+	soldiers = {
+		culture = burgundian
+		religion = protestant
+		size = 919
+	}
+	aristocrats = {
+		culture = burgundian
+		religion = catholic
+		size = 66
+	}
+	clergymen = {
+		culture = burgundian
+		religion = catholic
+		size = 90
+	}
+	artisans = {
+		culture = burgundian
+		religion = catholic
+		size = 427
+	}
+	soldiers = {
+		culture = burgundian
+		religion = catholic
+		size = 66
+	}
+	farmers = {
+		culture = burgundian
+		religion = catholic
+		size = 9736
 	}
 }
 #Kreuznach (228000/57000 POPS)
