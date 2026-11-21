@@ -3262,11 +3262,11 @@ province;red;green;blue;x;x
 3261;58;14;240;Rutland;x
 3262;59;14;244;Littleton;x
 3263;60;14;248;Conway;x
-;61;14;232;x;
-;62;14;236;x
-;63;14;240;x
-;64;14;244;x
-;65;14;248;x
+3264;61;14;232;Huron;x
+3265;62;14;236;Minnehaha;x
+3266;63;14;240;Minne Waukon;x
+3267;64;14;244;Aakii-pisskan;x
+3268;65;14;248;Ammalapashkuua;x
 ;66;14;232;x
 ;67;14;236;x
 ;68;14;240;x

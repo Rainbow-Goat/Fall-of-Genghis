@@ -104,7 +104,6 @@ democracy = {
 	anarcho_liberal = yes
 	fascist = yes
 	
-	
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
@@ -263,4 +262,18 @@ beylik = {
 	election = yes
 	appoint_ruling_party = yes
 	flagType = monarchy
+}
+
+federal_republic = {
+	liberal = yes
+	socialist = yes
+	conservative = yes
+	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	
+	election = yes
+	duration = 48
+	appoint_ruling_party = yes
 }

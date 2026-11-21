@@ -1,0 +1,5 @@
+# 3268 - Ammalapashkuua: made in ModEditor from #116 Billings (without buildings)
+trade_goods = cattle
+life_rating = 35 
+colony = 2
+1861.1.1 = { colony = 0 } 

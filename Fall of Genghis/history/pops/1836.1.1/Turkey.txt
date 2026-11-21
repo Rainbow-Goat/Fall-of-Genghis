@@ -65,31 +65,19 @@
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
-		size = 200
+		size = 285
 	}
 
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 8000
+		size = 11675
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
 		size = 32950
-	}
-
-	clergymen = {
-		culture = armenian
-		religion = orthodox
-		size = 85
-	}
-
-	artisans = {
-		culture = armenian
-		religion = orthodox
-		size = 3675
 	}
 }
 #Kirklareli (112000/28000 POPS)

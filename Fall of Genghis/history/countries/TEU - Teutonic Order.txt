@@ -85,3 +85,8 @@ nonstate_consciousness = 1
 schools = army_tech_school
 
 oob = "TEU_oob.txt"
+iron_muzzle_loaded_artillery = 1
+muzzle_loaded_rifles = 1
+medicine = 1
+clean_coal = 1
+experimental_railroad = 1

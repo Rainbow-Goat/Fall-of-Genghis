@@ -62,3 +62,14 @@ nonstate_consciousness = 0
 
 oob = "PEU_oob.txt"
 
+military_staff_system = 1
+early_classical_theory_and_critique = 1
+freedom_of_trade = 1
+introspectionism = 1
+malthusian_thought = 1
+basic_chemistry = 1
+mechanized_mining = 1
+experimental_railroad = 1
+naval_design_bureaus = 1
+alphabetic_flag_signaling = 1
+clipper_design = 1

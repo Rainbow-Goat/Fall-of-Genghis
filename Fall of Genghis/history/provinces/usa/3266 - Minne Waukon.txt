@@ -1,0 +1,6 @@
+# 3266 - Minne Waukon: made in ModEditor from #3265 Minnehaha (without buildings)
+# 3265 - Minnehaha: made in ModEditor from #120 Sioux Falls (without buildings)
+trade_goods = grain
+life_rating = 35 
+colony = 2
+1861.1.1 = { colony = 0 } 

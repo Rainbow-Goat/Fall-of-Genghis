@@ -1,0 +1,7 @@
+# 3264 - Huron: made in ModEditor from #180 Sandusky (without buildings)
+owner = IRO
+controller = IRO
+add_core = IRO
+trade_goods = timber
+life_rating = 35 
+1861.1.1 = {  } 

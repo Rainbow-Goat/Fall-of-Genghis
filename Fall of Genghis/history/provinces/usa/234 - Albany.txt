@@ -1,6 +1,6 @@
-owner = NVR
-controller = NVR
-add_core = NVR
+owner = QUE
+controller = QUE
+add_core = QUE
 trade_goods = iron
-life_rating = 35 
+life_rating = 35
 1861.1.1 = { railroad = 2 } 

@@ -33,3 +33,6 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
+foreign_navies = yes_foreign_navies
+naval_schools = yes_naval_schools
+army_schools = yes_army_schools

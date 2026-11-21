@@ -97,6 +97,13 @@ latin_colonial = {
 			"al-Najdi" "al-Hijazi"   
 		}
 	}
+	franco_indian = {
+		color = { 168 45 68 }
+		first_names = { Narcisse Rene Edouard Luc Letellier Theodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugene Huguel Jean-Pierre Gilles
+		}
+		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Langelier Damasne LeBlanc Brodeur Perodeau
+		}
+	}
 }
 
 new_british = {

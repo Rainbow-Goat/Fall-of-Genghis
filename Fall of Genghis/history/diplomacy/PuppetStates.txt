@@ -7,6 +7,21 @@
 
 # NEW ONES
 
+##Quebec
+vassal = {
+	first = QUE
+	second = CAN
+	start_date = 1769.4.1
+	end_date = 1910.3.2
+}
+
+vassal = {
+	first = QUE
+	second = FIT
+	start_date = 1621.12.5
+	end_date = 1910.3.2
+}
+
 ## HUNGARY
 # Hungary-Croatia
 vassal = {
