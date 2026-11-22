@@ -1,0 +1,7 @@
+#Relations
+
+MEX = { value = -200 }
+CHE = { value = 50 }
+NVR = { value = -100 }
+TEX = { value = 100 }
+QUE = { value = 50 }

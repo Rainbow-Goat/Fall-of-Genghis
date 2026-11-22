@@ -72,6 +72,7 @@ QAJ     = "countries/Qajar.txt"
 ILK     = "countries/Ilkhanate.txt"
 CAN     = "countries/Canada.txt"
 FIT     = "countries/French-Indian Tribes.txt"
+TEX     = "countries/Texas.txt"
 
 #Egyptian Vassal States
 ANA     = "countries/Anatolia.txt"

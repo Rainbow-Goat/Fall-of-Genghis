@@ -26,7 +26,7 @@ Moderate content:
     - Quebec (Advanced concept stage)
     - Holy Order of New Castille (Early concept stage)
     - The Pinot-Rouge (Finished Concept Stage)
-    - The New Scotland Occupation Zone (Finished Concept Stage)
+    - The Quebecois Occupation Zone (Finished Concept Stage)
 Minor content:
     - Kurdish Free State (Advanced concept stage)
     - Hawaii (Early concept stage)
@@ -132,7 +132,7 @@ For King and Country
 Century of Humiliation
 - Chinese system
 - Total China Overhaul
-- Japan Rework
+- New Japanese content related to China
 - Korea Rework
 
 

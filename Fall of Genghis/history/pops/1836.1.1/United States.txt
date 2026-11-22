@@ -5,31 +5,56 @@
 	aristocrats = {
 		culture = polynesian
 		religion = animist
-		size = 25
+		size = 92
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = animist
-		size = 50
+		size = 185
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = animist
-		size = 100
+		size = 369
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = animist
-		size = 25
+		size = 92
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = animist
-		size = 1750
+		size = 6461
+	}
+	aristocrats = {
+		culture = cree
+		religion = animist
+		size = 8
+	}
+	clergymen = {
+		culture = cree
+		religion = animist
+		size = 15
+	}
+	artisans = {
+		culture = cree
+		religion = animist
+		size = 31
+	}
+	soldiers = {
+		culture = cree
+		religion = animist
+		size = 8
+	}
+	farmers = {
+		culture = cree
+		religion = animist
+		size = 539
 	}
 }
 #Yakutat (4000/1000 POPS)
@@ -37,31 +62,56 @@
 	aristocrats = {
 		culture = polynesian
 		religion = animist
-		size = 10
+		size = 77
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = animist
-		size = 25
+		size = 193
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = animist
-		size = 50
+		size = 387
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = animist
-		size = 15
+		size = 117
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = animist
-		size = 900
+		size = 6959
+	}
+	aristocrats = {
+		culture = cree
+		religion = animist
+		size = 5
+	}
+	clergymen = {
+		culture = cree
+		religion = animist
+		size = 11
+	}
+	artisans = {
+		culture = cree
+		religion = animist
+		size = 23
+	}
+	soldiers = {
+		culture = cree
+		religion = animist
+		size = 7
+	}
+	farmers = {
+		culture = cree
+		religion = animist
+		size = 413
 	}
 }
 #Kenai (2400/600 POPS)
@@ -459,61 +509,161 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 200
+		size = 181
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 200
+		size = 181
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 4000
+		size = 3612
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 6000
+		size = 5418
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 27000
+		size = 24381
 	}
 
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 500
+		size = 366
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 1000
+		size = 732
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 12000
+		size = 8782
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 17000
+		size = 12441
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 116000
+		size = 84893
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 86
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 171
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 2054
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 2909
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 19855
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 19
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 19
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 388
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 582
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 2619
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 39
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 79
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 943
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 1337
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 9119
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 9
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 18
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 221
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 313
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 2133
 	}
 }
 #Eureka (4000/1000 POPS)
@@ -521,31 +671,106 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 200
+		size = 157
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 500
+		size = 395
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 6000
+		size = 4731
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 7000
+		size = 5519
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 38000
+		size = 29960
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 22
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 55
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 663
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 774
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 4202
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 18
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 44
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 531
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 620
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 3366
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 3
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 6
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 75
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 87
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 472
 	}
 }
 #Sacramento (12000/3000 POPS)
@@ -553,31 +778,106 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 300
+		size = 224
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 350
+		size = 262
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 3000
+		size = 2246
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 5000
+		size = 3744
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 54000
+		size = 40433
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 41
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 47
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 406
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 676
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 7304
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 30
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 35
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 295
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 491
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 5305
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 5
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 6
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 53
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 89
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 958
 	}
 }
 #Monterey (6400/1600 POPS)
@@ -585,67 +885,182 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 240
+		size = 158
 	}
 
 	bureaucrats = {
 		culture = kurdish
 		religion = sunni
-		size = 60
+		size = 39
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 300
+		size = 197
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 10000
+		size = 6579
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 2000
+		size = 1316
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 38500
+		size = 25327
 	}
 
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 200
+		size = 178
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 500
+		size = 446
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 5000
+		size = 4460
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 3000
+		size = 2676
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 22000
+		size = 19624
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 56
+	}
+	bureaucrats = {
+		culture = navajo
+		religion = sunni
+		size = 14
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 70
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 2342
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 468
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 9016
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 19
+	}
+	bureaucrats = {
+		culture = kurdish
+		religion = animist
+		size = 5
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 24
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 796
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 159
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 3066
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 22
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 54
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 540
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 324
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 2376
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 7
+	}
+	bureaucrats = {
+		culture = navajo
+		religion = animist
+		size = 2
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 9
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 283
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 57
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 1091
 	}
 }
 #Mariposa (8000/2000 POPS)
@@ -653,31 +1068,66 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 168
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 100
+		size = 337
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 200
+		size = 673
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 168
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 3600
+		size = 9364
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 2744
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 39
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 78
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 157
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 39
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 2182
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 640
 	}
 }
 #Los Angeles (12000/3000 POPS)
@@ -685,61 +1135,161 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 20
+		size = 17
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 43
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 100
+		size = 85
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 30
+		size = 26
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 7800
+		size = 6646
 	}
 
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 31
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 100
+		size = 64
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 2000
+		size = 1269
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 32
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 15600
+		size = 9900
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 11
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 21
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 435
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 11
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 3391
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 3
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 7
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 15
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 4
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 1154
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 6
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 11
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 221
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 5
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 1720
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 2
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 4
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 75
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 2
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 589
 	}
 }
 #San Diego (12000/3000 POPS)
@@ -747,61 +1297,161 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 20
+		size = 17
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 42
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 100
+		size = 85
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 30
+		size = 25
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 3800
+		size = 3230
 	}
 
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 30
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 100
+		size = 59
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 200
+		size = 117
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 30
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 13600
+		size = 8008
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 13
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 26
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 53
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 13
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 3552
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 3
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 8
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 15
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 5
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 570
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 5
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 10
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 21
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 5
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 1413
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 2
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 5
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 9
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 2
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 627
 	}
 }
 #Idaho Region (24000)
@@ -811,31 +1461,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1394
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 2788
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1800
+		size = 50181
 	}
 }
 #Coeur d'Alene (4000/1000 POPS)
@@ -843,31 +1493,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 279
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1394
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 418
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 900
+		size = 25090
 	}
 }
 #Pocatello (12000/3000 POPS)
@@ -875,31 +1525,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1394
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 75
+		size = 2091
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 150
+		size = 4182
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 2700
+		size = 75272
 	}
 }
 #Nevada Region (12000)
@@ -909,13 +1559,13 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 40
+		size = 41
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 150
+		size = 148
 	}
 
 	artisans = {
@@ -927,43 +1577,88 @@
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 3500
+		size = 3497
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 3900
+		size = 3898
 	}
-
 	aristocrats = {
-		culture = rifian
+		culture = navajo
 		religion = sunni
-		size = 50
+		size = 100
 	}
-
 	clergymen = {
-		culture = rifian
+		culture = navajo
 		religion = sunni
-		size = 250
+		size = 473
 	}
-
 	artisans = {
-		culture = rifian
+		culture = navajo
 		religion = sunni
-		size = 500
+		size = 1615
 	}
-
 	soldiers = {
-		culture = rifian
+		culture = navajo
 		religion = sunni
-		size = 1500
+		size = 4290
 	}
-
 	farmers = {
-		culture = rifian
+		culture = navajo
 		religion = sunni
-		size = 1900
+		size = 5136
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 22
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 81
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 800
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 1868
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 2081
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 53
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 253
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 862
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 2288
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 2740
 	}
 }
 #Elko (4000/1000 POPS)
@@ -971,61 +1666,161 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 25
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 130
+		size = 64
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 1800
+		size = 883
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 2100
+		size = 1029
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 5900
+		size = 2893
 	}
 
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 20
+		size = 25
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 150
+		size = 193
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 800
+		size = 1033
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 900
+		size = 1161
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 1900
+		size = 2451
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 39
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 104
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 1439
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 1680
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 4717
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 15
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 39
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 535
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 626
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 1756
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 17
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 118
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 626
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 705
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 1489
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 25
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 62
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 875
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 1020
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 2868
 	}
 }
 #Las Vegas (4000/1000 POPS)
@@ -1033,61 +1828,86 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 60
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 130
+		size = 158
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 1800
+		size = 2193
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 2100
+		size = 2560
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 7800
+		size = 9502
 	}
 
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 20
+		size = 29
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 150
+		size = 224
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 800
+		size = 1186
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 900
+		size = 1333
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 3600
+		size = 5334
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 112
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 422
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 4074
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 4706
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 17841
 	}
 }
 #Utah Region (16000)
@@ -1097,31 +1917,76 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 25
+		size = 211
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 442
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 100
+		size = 883
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 25
+		size = 211
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 3800
+		size = 7718
+	}
+	farmers = {
+		culture = rifian
+		religion = sunni
+		size = 2669
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 22579
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 269
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 518
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 1037
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 269
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 9350
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 3245
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 27399
 	}
 }
 #Loa (4000/1000 POPS)
@@ -1129,31 +1994,66 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 10
+		size = 64
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 25
+		size = 166
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 318
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 15
+		size = 102
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 2900
+		size = 5479
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 13518
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 64
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 153
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 318
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 89
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 5173
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 12780
 	}
 }
 #Moab (4000/1000 POPS)
@@ -1161,31 +2061,66 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 10
+		size = 221
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 25
+		size = 531
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 1062
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 15
+		size = 310
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 1900
+		size = 13138
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 27737
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 221
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 575
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 1150
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 354
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 13846
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 29329
 	}
 }
 #Arizona Region (37000)
@@ -1195,31 +2130,66 @@
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 49
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 75
+		size = 74
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 3500
+		size = 3447
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 2500
+		size = 2463
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 12700
+		size = 6242
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 6267
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 17
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 26
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 1212
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 865
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 2193
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 2202
 	}
 }
 #Flagstaff (12000/3000 POPS)
@@ -1227,61 +2197,161 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 25
+		size = 157
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 325
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 100
+		size = 649
 	}
 
 	soldiers = {
 		culture = kurdish
 		religion = sunni
-		size = 25
+		size = 157
 	}
 
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 1800
+		size = 11580
 	}
 
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 10
+		size = 45
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 25
+		size = 100
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 50
+		size = 213
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 15
+		size = 67
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 900
+		size = 3841
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 190
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 414
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 818
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 224
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 14817
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 93
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 192
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 385
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 93
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 6859
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 26
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 60
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 126
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 40
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 2275
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 113
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 246
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 484
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 133
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 8776
 	}
 }
 #ruled by Mexico 1836
@@ -1290,19 +2360,19 @@
 	aristocrats = {
 		culture = kurdish
 		religion = sunni
-		size = 50
+		size = 52
 	}
 
 	clergymen = {
 		culture = kurdish
 		religion = sunni
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = kurdish
 		religion = sunni
-		size = 150
+		size = 155
 	}
 
 	soldiers = {
@@ -1314,7 +2384,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 9700
+		size = 10013
 	}
 
 	aristocrats = {
@@ -1326,31 +2396,131 @@
 	bureaucrats = {
 		culture = rifian
 		religion = sunni
-		size = 1
+		size = 2
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 5
+		size = 7
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 12
+		size = 17
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 5
+		size = 7
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 2250
+		size = 3188
+	}
+	aristocrats = {
+		culture = navajo
+		religion = sunni
+		size = 19
+	}
+	clergymen = {
+		culture = navajo
+		religion = sunni
+		size = 28
+	}
+	artisans = {
+		culture = navajo
+		religion = sunni
+		size = 58
+	}
+	soldiers = {
+		culture = navajo
+		religion = sunni
+		size = 10
+	}
+	farmers = {
+		culture = navajo
+		religion = sunni
+		size = 3728
+	}
+	aristocrats = {
+		culture = kurdish
+		religion = animist
+		size = 12
+	}
+	clergymen = {
+		culture = kurdish
+		religion = animist
+		size = 18
+	}
+	artisans = {
+		culture = kurdish
+		religion = animist
+		size = 35
+	}
+	soldiers = {
+		culture = kurdish
+		religion = animist
+		size = 6
+	}
+	farmers = {
+		culture = kurdish
+		religion = animist
+		size = 2303
+	}
+	aristocrats = {
+		culture = rifian
+		religion = animist
+		size = 1
+	}
+	clergymen = {
+		culture = rifian
+		religion = animist
+		size = 2
+	}
+	artisans = {
+		culture = rifian
+		religion = animist
+		size = 4
+	}
+	soldiers = {
+		culture = rifian
+		religion = animist
+		size = 2
+	}
+	farmers = {
+		culture = rifian
+		religion = animist
+		size = 733
+	}
+	aristocrats = {
+		culture = navajo
+		religion = animist
+		size = 4
+	}
+	clergymen = {
+		culture = navajo
+		religion = animist
+		size = 7
+	}
+	artisans = {
+		culture = navajo
+		religion = animist
+		size = 13
+	}
+	soldiers = {
+		culture = navajo
+		religion = animist
+		size = 2
+	}
+	farmers = {
+		culture = navajo
+		religion = animist
+		size = 858
 	}
 }
 #New Mexico Region (56000)
@@ -1552,129 +2722,113 @@
 #Denver (8000/2000 POPS)
 106 = {
 	aristocrats = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	clergymen = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	artisans = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 100
+		size = 2560
 	}
-
 	soldiers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	farmers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 1800
+		size = 46080
 	}
 }
 #Grand Junction (4000/1000 POPS)
 107 = {
 	aristocrats = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 10
+		size = 256
 	}
-
 	clergymen = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	artisans = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	soldiers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 15
+		size = 384
 	}
-
 	farmers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 900
+		size = 23040
 	}
 }
 #Alamosa (4000/1000 POPS)
 108 = {
 	aristocrats = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 10
+		size = 256
 	}
-
 	clergymen = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	artisans = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	soldiers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 15
+		size = 384
 	}
-
 	farmers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 900
+		size = 23040
 	}
 }
 #Pueblo (4000/1000 POPS)
 109 = {
 	aristocrats = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 10
+		size = 256
 	}
-
 	clergymen = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	artisans = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	soldiers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 15
+		size = 384
 	}
-
 	farmers = {
-		culture = native_american_minor
+		culture = osage
 		religion = animist
-		size = 900
+		size = 23040
 	}
 }
 #Wyoming Region (28000)
@@ -1684,31 +2838,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 704
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1408
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 2816
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 704
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1800
+		size = 50688
 	}
 }
 #Cody (12000/3000 POPS)
@@ -1716,31 +2870,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1394
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 75
+		size = 2091
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 150
+		size = 4182
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 2700
+		size = 75272
 	}
 }
 #Casper (8000/2000 POPS)
@@ -1748,31 +2902,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 704
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1408
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 2816
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 704
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1800
+		size = 50688
 	}
 }
 #Montana Region (32000)
@@ -1782,31 +2936,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1394
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 2788
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1800
+		size = 50181
 	}
 }
 #Missoula (4000/1000 POPS)
@@ -1814,31 +2968,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 279
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 697
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1394
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 418
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 900
+		size = 25090
 	}
 }
 #Great Falls (8000/2000 POPS)
@@ -1846,61 +3000,61 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 5
+		size = 141
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 14
+		size = 394
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 26
+		size = 733
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 8
+		size = 225
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 482
+		size = 13573
 	}
 
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 5
+		size = 141
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 14
+		size = 394
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 26
+		size = 733
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 8
+		size = 225
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 482
+		size = 13573
 	}
 }
 #Billings (12000/3000 POPS)
@@ -1908,61 +3062,61 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 4
+		size = 112
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 282
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 20
+		size = 563
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 6
+		size = 169
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 355
+		size = 9997
 	}
 
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 282
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 20
+		size = 563
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 39
+		size = 1098
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 282
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 711
+		size = 20022
 	}
 }
 #North Dakota Region (24000)
@@ -1972,31 +3126,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 760
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1521
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 3041
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 760
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1800
+		size = 54743
 	}
 }
 #Minot (8000/2000 POPS)
@@ -2004,61 +3158,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 608
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 1521
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 3041
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 913
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 900
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
+		size = 54743
 	}
 }
 #Dickinson (8000/2000 POPS)
@@ -2066,61 +3190,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 608
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 1521
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 3041
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 913
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 900
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
+		size = 54743
 	}
 }
 #South Dakota Region (24000)
@@ -2130,61 +3224,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 5
+		size = 282
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 13
+		size = 732
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 26
+		size = 1464
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 8
+		size = 451
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 462
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 5
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 13
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 26
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 8
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 462
+		size = 26019
 	}
 }
 #Dupree (8000/2000 POPS)
@@ -2192,31 +3256,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 704
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1408
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 2816
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 704
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1800
+		size = 50688
 	}
 }
 #Rapid City (8000/2000 POPS)
@@ -2224,61 +3288,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 563
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 1408
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 2816
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 845
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 900
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
+		size = 50688
 	}
 }
 #Nebraska Region (20000)
@@ -2288,61 +3322,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 563
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 1408
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 2816
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 845
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 900
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
+		size = 50688
 	}
 }
 #Alliance (4000/1000 POPS)
@@ -2350,63 +3354,59 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 282
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 704
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1408
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 422
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 900
+		size = 25344
 	}
 }
 #North Platte (8000/2000 POPS)
 125 = {
 	aristocrats = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	clergymen = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	artisans = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 100
+		size = 2560
 	}
-
 	soldiers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	farmers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 1800
+		size = 46080
 	}
 }
 #Kansas Region (24000)
@@ -2414,97 +3414,85 @@
 #Topeka (8000/2000 POPS)
 126 = {
 	aristocrats = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	clergymen = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	artisans = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 100
+		size = 2560
 	}
-
 	soldiers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	farmers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 1800
+		size = 46080
 	}
 }
 #Goodland (8000/2000 POPS)
 127 = {
 	aristocrats = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	clergymen = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	artisans = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 100
+		size = 2560
 	}
-
 	soldiers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	farmers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 1800
+		size = 46080
 	}
 }
 #Wichita (8000/2000 POPS)
 128 = {
 	aristocrats = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	clergymen = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	artisans = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 100
+		size = 2560
 	}
-
 	soldiers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	farmers = {
-		culture = dakota
+		culture = osage
 		religion = animist
-		size = 1800
+		size = 46080
 	}
 }
 #Oklahoma Region (32000)
@@ -2512,169 +3500,90 @@
 #Oklahoma City (12000/3000 POPS)
 129 = {
 	aristocrats = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 10
+		size = 896
 	}
-
 	clergymen = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 25
+		size = 1920
 	}
-
 	artisans = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 50
+		size = 3840
 	}
-
 	soldiers = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 15
+		size = 1024
 	}
-
 	farmers = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 800
+		size = 66560
 	}
-
 	slaves = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 100
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 1800
+		size = 2560
 	}
 }
 #Tahlequah (12000/3000 POPS)
 130 = {
 	aristocrats = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 25
+		size = 896
 	}
-
 	clergymen = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1920
 	}
-
 	artisans = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 100
+		size = 3840
 	}
-
 	soldiers = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 25
+		size = 1024
 	}
-
 	farmers = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 1600
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
+		size = 64000
 	}
 }
 #Okmulgee (8000/2000 POPS)
 131 = {
+	farmers = {
+		culture = osage
+		religion = animist
+		size = 46080
+	}
 	aristocrats = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 25
+		size = 640
 	}
-
 	clergymen = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 50
+		size = 1280
 	}
-
 	artisans = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 100
+		size = 2560
 	}
-
 	soldiers = {
-		culture = cherokee
+		culture = osage
 		religion = animist
-		size = 25
-	}
-
-	farmers = {
-		culture = cherokee
-		religion = animist
-		size = 800
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 1000
+		size = 640
 	}
 }
 #Texas Region (67400)
@@ -3252,55 +4161,55 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 150
+		size = 292
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 50
+		size = 97
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 175
+		size = 341
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 100
+		size = 195
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 3525
+		size = 6869
 	}
 
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 15
+		size = 29
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 75
+		size = 146
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 10
+		size = 20
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 4900
+		size = 9549
 	}
 }
 #Shreveport (44000/11000 POPS)
@@ -3308,55 +4217,55 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 150
+		size = 292
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 75
+		size = 146
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 200
+		size = 390
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 125
+		size = 244
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 4550
+		size = 8867
 	}
 
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 15
+		size = 29
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 100
+		size = 195
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 10
+		size = 20
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 5875
+		size = 11449
 	}
 }
 #Arkansas Region (88000)
@@ -3366,102 +4275,102 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 100
+		size = 195
 	}
 
 	bureaucrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 50
+		size = 97
 	}
 
 	officers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 15
+		size = 29
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 25
+		size = 49
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 200
+		size = 390
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 75
+		size = 146
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 5000
+		size = 9744
 	}
 
 	aristocrats = {
 		culture = cherokee
 		religion = animist
-		size = 50
+		size = 97
 	}
 	bureaucrats = {
 		culture = cherokee
 		religion = animist
-		size = 25
+		size = 49
 	}
 	officers = {
 		culture = cherokee
 		religion = animist
-		size = 10
+		size = 20
 	}
 	clergymen = {
 		culture = cherokee
 		religion = animist
-		size = 150
+		size = 292
 	}
 	artisans = {
 		culture = cherokee
 		religion = animist
-		size = 2000
+		size = 3898
 	}
 	soldiers = {
 		culture = cherokee
 		religion = animist
-		size = 750
+		size = 1462
 	}
 	farmers = {
 		culture = cherokee
 		religion = animist
-		size = 12000
+		size = 23385
 	}
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 50
+		size = 97
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 135
+		size = 263
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 15
+		size = 29
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 3800
+		size = 7405
 	}
 }
 #Hot Springs (16000/4000 POPS)
@@ -3469,49 +4378,49 @@
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 75
+		size = 146
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 900
+		size = 1754
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 500
+		size = 974
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 3675
+		size = 7162
 	}
 
 	clergymen = {
 		culture = cherokee
 		religion = animist
-		size = 75
+		size = 146
 	}
 
 	artisans = {
 		culture = cherokee
 		religion = animist
-		size = 2000
+		size = 3897
 	}
 
 	soldiers = {
 		culture = cherokee
 		religion = animist
-		size = 500
+		size = 974
 	}
 
 	farmers = {
 		culture = cherokee
 		religion = animist
-		size = 6675
+		size = 13008
 	}
 }
 #Fayetteville (16000/4000 POPS)
@@ -3519,45 +4428,45 @@
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 35
+		size = 68
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 100
+		size = 195
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 25
+		size = 49
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 2000
+		size = 3897
 	}
 	clergymen = {
 		culture = cherokee
 		religion = animist
-		size = 35
+		size = 68
 	}
 	artisans = {
 		culture = cherokee
 		religion = animist
-		size = 100
+		size = 195
 	}
 	soldiers = {
 		culture = cherokee
 		religion = animist
-		size = 25
+		size = 49
 	}
 	farmers = {
 		culture = cherokee
 		religion = animist
-		size = 5000
+		size = 9744
 	}
 }
 #Missouri Region (365000)
@@ -3567,31 +4476,31 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 160
+		size = 1062
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 315
+		size = 2090
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 2025
+		size = 13437
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 4600
+		size = 30522
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 43540
+		size = 288912
 	}
 }
 #Joplin (25000/5000 POPS)
@@ -3599,25 +4508,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 75
+		size = 496
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 250
+		size = 1658
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 333
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 4625
+		size = 30688
 	}
 }
 #Malden (40000/10000 POPS)
@@ -3625,31 +4534,56 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 240
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 125
+		size = 598
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 500
+		size = 2387
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 2950
+		size = 14093
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 6375
+		size = 30458
+	}
+	aristocrats = {
+		culture = cherokee
+		religion = animist
+		size = 93
+	}
+	clergymen = {
+		culture = cherokee
+		religion = animist
+		size = 234
+	}
+	artisans = {
+		culture = cherokee
+		religion = animist
+		size = 928
+	}
+	soldiers = {
+		culture = cherokee
+		religion = animist
+		size = 5482
+	}
+	farmers = {
+		culture = cherokee
+		religion = animist
+		size = 11843
 	}
 }
 #Jefferson City (56000/14000 POPS)
@@ -3657,43 +4591,43 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 100
+		size = 662
 	}
 
 	bureaucrats = {
 		culture = iroquois
 		religion = animist
-		size = 300
+		size = 1990
 	}
 
 	officers = {
 		culture = iroquois
 		religion = animist
-		size = 95
+		size = 630
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 200
+		size = 1328
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 650
+		size = 4314
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 4200
+		size = 27869
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 9955
+		size = 66058
 	}
 }
 #Kansas City (56000/14000 POPS)
@@ -3701,31 +4635,31 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 333
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 140
+		size = 928
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 675
+		size = 4480
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 1025
+		size = 6800
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 13110
+		size = 86992
 	}
 }
 #Iowa Region (44000)
@@ -3735,37 +4669,37 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 25
+		size = 166
 	}
 
 	bureaucrats = {
 		culture = iroquois
 		religion = animist
-		size = 10
+		size = 67
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 65
+		size = 432
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 150
+		size = 995
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 333
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 2700
+		size = 17917
 	}
 }
 #Oskaloosa (8000/2000 POPS)
@@ -3773,25 +4707,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 25
+		size = 104
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 100
+		size = 419
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 25
+		size = 104
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 1850
+		size = 7737
 	}
 }
 #Cedar Rapids (16000/4000 POPS)
@@ -3799,31 +4733,31 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 10
+		size = 42
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 60
+		size = 250
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 200
+		size = 836
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 40
+		size = 167
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 3690
+		size = 15431
 	}
 }
 #Sioux City (8000/2000 POPS)
@@ -3831,31 +4765,31 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 25
+		size = 166
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 333
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 100
+		size = 662
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 25
+		size = 166
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 1800
+		size = 11942
 	}
 }
 #Minnesota Region (32000)
@@ -3865,31 +4799,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 19
+		size = 578
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 49
+		size = 1490
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 97
+		size = 2950
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 29
+		size = 882
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1747
+		size = 53131
 	}
 }
 #Granite Falls (8000/2000 POPS)
@@ -3897,31 +4831,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 760
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1521
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 3041
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 25
+		size = 760
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1794
+		size = 54561
 	}
 }
 #Moorhead (8000/2000 POPS)
@@ -3929,31 +4863,31 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 20
+		size = 608
 	}
 
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 50
+		size = 1521
 	}
 
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 100
+		size = 3041
 	}
 
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 30
+		size = 912
 	}
 
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1800
+		size = 54743
 	}
 }
 #Duluth (8000/2000 POPS)
@@ -3995,25 +4929,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 50
+		size = 288
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 2000
+		size = 11520
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 500
+		size = 2880
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 7700
+		size = 44352
 	}
 }
 #Eau Claire (4000/1000 POPS)
@@ -4021,31 +4955,31 @@
 	aristocrats = {
 		culture = cree
 		religion = animist
-		size = 10
+		size = 58
 	}
 
 	clergymen = {
 		culture = cree
 		religion = animist
-		size = 25
+		size = 144
 	}
 
 	artisans = {
 		culture = cree
 		religion = animist
-		size = 50
+		size = 288
 	}
 
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 15
+		size = 86
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 900
+		size = 5184
 	}
 }
 #Green Bay (8000/2000 POPS)
@@ -4053,55 +4987,55 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 150
+		size = 864
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 500
+		size = 2880
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 2500
+		size = 14400
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 9100
+		size = 52416
 	}
 
 	aristocrats = {
 		culture = cree
 		religion = animist
-		size = 10
+		size = 58
 	}
 
 	clergymen = {
 		culture = cree
 		religion = animist
-		size = 25
+		size = 144
 	}
 
 	artisans = {
 		culture = cree
 		religion = animist
-		size = 500
+		size = 2880
 	}
 
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 150
+		size = 864
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 2000
+		size = 11520
 	}
 }
 #Madison (8000/2000 POPS)
@@ -4109,31 +5043,31 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 95
+		size = 547
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 250
+		size = 1440
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 1000
+		size = 5760
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 250
+		size = 1440
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 5835
+		size = 33610
 	}
 }
 #Illinois Region (452000)
@@ -4143,25 +5077,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 275
+		size = 1149
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 2150
+		size = 8990
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 450
+		size = 1882
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 40125
+		size = 167793
 	}
 }
 #Rockford (44000/11000 POPS)
@@ -4169,25 +5103,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 75
+		size = 313
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 550
+		size = 2300
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 125
+		size = 523
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 10250
+		size = 42863
 	}
 }
 #Champaign (36000/9000 POPS)
@@ -4195,25 +5129,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 209
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 450
+		size = 1882
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 100
+		size = 419
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 8400
+		size = 35126
 	}
 }
 #Peoria (100000/25000 POPS)
@@ -4221,25 +5155,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 150
+		size = 627
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 1250
+		size = 5227
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 250
+		size = 1045
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 23350
+		size = 97645
 	}
 }
 #Springfield (36000/9000 POPS)
@@ -4247,37 +5181,37 @@
 	bureaucrats = {
 		culture = iroquois
 		religion = animist
-		size = 300
+		size = 1255
 	}
 
 	officers = {
 		culture = iroquois
 		religion = animist
-		size = 125
+		size = 523
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 209
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 450
+		size = 1882
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 100
+		size = 419
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 8075
+		size = 33767
 	}
 }
 #Carbondale (68000/17000 POPS)
@@ -4285,25 +5219,45 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 115
+		size = 313
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 910
+		size = 2472
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 175
+		size = 477
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 15800
+		size = 42947
+	}
+	clergymen = {
+		culture = cherokee
+		religion = animist
+		size = 167
+	}
+	artisans = {
+		culture = cherokee
+		religion = animist
+		size = 1335
+	}
+	soldiers = {
+		culture = cherokee
+		religion = animist
+		size = 255
+	}
+	farmers = {
+		culture = cherokee
+		religion = animist
+		size = 23126
 	}
 }
 #Indiana Region (644000)
@@ -4313,37 +5267,37 @@
 	bureaucrats = {
 		culture = iroquois
 		religion = animist
-		size = 275
+		size = 366
 	}
 
 	officers = {
 		culture = iroquois
 		religion = animist
-		size = 150
+		size = 200
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 450
+		size = 599
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 3450
+		size = 4592
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 6500
+		size = 8652
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 68900
+		size = 91706
 	}
 }
 #Evansville (196000/49000 POPS)
@@ -4351,25 +5305,45 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 370
+		size = 205
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 2500
+		size = 1380
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 450
+		size = 249
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 45680
+		size = 25232
+	}
+	clergymen = {
+		culture = cherokee
+		religion = animist
+		size = 287
+	}
+	artisans = {
+		culture = cherokee
+		religion = animist
+		size = 1947
+	}
+	soldiers = {
+		culture = cherokee
+		religion = animist
+		size = 350
+	}
+	farmers = {
+		culture = cherokee
+		religion = animist
+		size = 35568
 	}
 }
 #South Bend (44000/11000 POPS)
@@ -4377,25 +5351,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 50
+		size = 67
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 550
+		size = 732
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 125
+		size = 166
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 10275
+		size = 13676
 	}
 }
 #Fort Wayne (128000/32000 POPS)
@@ -4403,25 +5377,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 225
+		size = 299
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 1600
+		size = 2130
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 325
+		size = 433
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 29850
+		size = 39730
 	}
 }
 #Michigan Region (148000)
@@ -4431,61 +5405,61 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 50
+		size = 288
 	}
 
 	officers = {
 		culture = french_canadian
 		religion = catholic
-		size = 25
+		size = 144
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+		size = 576
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 900
+		size = 5184
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+		size = 576
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 16825
+		size = 96912
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 20
+		size = 115
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 200
+		size = 1152
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 10
+		size = 58
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 2770
+		size = 15955
 	}
 }
 #Grand Rapids (POPS)
@@ -4493,25 +5467,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 75
+		size = 432
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 300
+		size = 1728
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 75
+		size = 432
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 5550
+		size = 31968
 	}
 }
 #Saginaw (POPS)
@@ -4519,25 +5493,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 50
+		size = 288
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 200
+		size = 1152
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 50
+		size = 288
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 3700
+		size = 21312
 	}
 }
 #Traverse City (POPS)
@@ -4545,25 +5519,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 50
+		size = 288
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 150
+		size = 864
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 40
+		size = 230
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 2750
+		size = 15840
 	}
 }
 #Marquette (POPS)
@@ -4571,55 +5545,55 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 10
+		size = 58
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 50
+		size = 288
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 15
+		size = 86
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 925
+		size = 5328
 	}
 
 	aristocrats = {
 		culture = cree
 		religion = animist
-		size = 25
+		size = 144
 	}
 
 	clergymen = {
 		culture = cree
 		religion = animist
-		size = 50
+		size = 288
 	}
 
 	artisans = {
 		culture = cree
 		religion = animist
-		size = 100
+		size = 576
 	}
 
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 25
+		size = 144
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 1800
+		size = 10368
 	}
 }
 #Ohio Region (1344000)
@@ -4629,43 +5603,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 350
+		size = 691
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 2248
+		size = 4490
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 450
+		size = 778
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 41910
-	}
-
-	clergymen = {
-		culture = italiano
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = italiano
-		religion = catholic
-		size = 350
-	}
-
-	farmers = {
-		culture = italiano
-		religion = catholic
-		size = 6594
+		size = 83814
 	}
 }
 #Columbus (268000/67000 POPS)
@@ -4673,37 +5629,37 @@
 	bureaucrats = {
 		culture = iroquois
 		religion = animist
-		size = 625
+		size = 1080
 	}
 
 	officers = {
 		culture = iroquois
 		religion = animist
-		size = 275
+		size = 475
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 450
+		size = 778
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 3000
+		size = 5184
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 500
+		size = 864
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 55200
+		size = 95386
 	}
 }
 #Sandusky (188000/47000 POPS)
@@ -4711,25 +5667,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 246
+		size = 327
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 1775
+		size = 2363
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 283
+		size = 377
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 33200
+		size = 44189
 	}
 }
 #Dayton (224000/56000 POPS)
@@ -4737,25 +5693,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 375
+		size = 499
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 2800
+		size = 3727
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 500
+		size = 665
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 52325
+		size = 69645
 	}
 }
 #Cincinnati (296000/74000 POPS)
@@ -4763,25 +5719,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 550
+		size = 950
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 3750
+		size = 6480
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 525
+		size = 907
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 69175
+		size = 119534
 	}
 }
 #Marietta (160000/40000 POPS)
@@ -4789,25 +5745,25 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 240
+		size = 415
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 2035
+		size = 3516
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 400
+		size = 691
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 37325
+		size = 64498
 	}
 }
 #Kentucky Region (740000)
@@ -4815,345 +5771,143 @@
 #Louisville (156000/39000 POPS)
 184 = {
 	clergymen = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 100
+		size = 554
 	}
-
 	artisans = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 700
+		size = 3168
 	}
-
 	soldiers = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 150
+		size = 554
 	}
-
 	farmers = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 19050
+		size = 51559
 	}
-
 	aristocrats = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 250
+		culture = cherokee
+		religion = animist
+		size = 396
 	}
-
-	clergymen = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 150
-	}
-
-	artisans = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 600
-	}
-
-	soldiers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 200
-	}
-
-	farmers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 12800
-	}
-
-	clergymen = {
-		culture = afro_castillian
-		religion = catholic
-		size = 100
-	}
-
-	artisans = {
-		culture = afro_castillian
-		religion = catholic
-		size = 700
-	}
-
-	farmers = {
-		culture = afro_castillian
-		religion = catholic
-		size = 700
-	}
-
 	slaves = {
-		culture = afro_castillian
-		religion = catholic
-		size = 9500
+		culture = cherokee
+		religion = animist
+		size = 15048
 	}
 }
 #Lexington (332000/83000 POPS)
 185 = {
-	bureaucrats = {
-		culture = iroquois
-		religion = animist
-		size = 125
-	}
-
-	officers = {
-		culture = iroquois
-		religion = animist
-		size = 75
-	}
-
-	clergymen = {
-		culture = iroquois
-		religion = animist
-		size = 350
-	}
-
-	artisans = {
-		culture = iroquois
-		religion = animist
-		size = 2350
-	}
-
-	soldiers = {
-		culture = iroquois
-		religion = animist
-		size = 475
-	}
-
-	farmers = {
-		culture = iroquois
-		religion = animist
-		size = 43725
-	}
-
 	aristocrats = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 450
+		culture = cherokee
+		religion = animist
+		size = 713
 	}
-
 	bureaucrats = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 125
+		culture = cherokee
+		religion = animist
+		size = 396
 	}
-
 	officers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 125
+		culture = cherokee
+		religion = animist
+		size = 317
 	}
-
 	clergymen = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 175
+		culture = cherokee
+		religion = animist
+		size = 990
 	}
-
 	artisans = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 950
+		culture = cherokee
+		religion = animist
+		size = 6494
 	}
-
 	soldiers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 350
+		culture = cherokee
+		religion = animist
+		size = 1307
 	}
-
 	farmers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 21825
+		culture = cherokee
+		religion = animist
+		size = 105178
 	}
-
-	clergymen = {
-		culture = afro_castillian
-		religion = catholic
-		size = 100
-	}
-
-	artisans = {
-		culture = afro_castillian
-		religion = catholic
-		size = 800
-	}
-
-	farmers = {
-		culture = afro_castillian
-		religion = catholic
-		size = 850
-	}
-
 	slaves = {
-		culture = afro_castillian
-		religion = catholic
-		size = 10250
+		culture = cherokee
+		religion = animist
+		size = 16236
 	}
 }
 #Bowling Green (144000/36000 POPS)
 186 = {
 	clergymen = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 75
+		size = 356
 	}
-
 	artisans = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 650
+		size = 2970
 	}
-
 	soldiers = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 125
+		size = 554
 	}
-
 	farmers = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 12150
+		size = 39283
 	}
-
 	aristocrats = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 250
+		culture = cherokee
+		religion = animist
+		size = 396
 	}
-
-	clergymen = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 525
-	}
-
-	soldiers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 225
-	}
-
-	farmers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 11950
-	}
-
-	clergymen = {
-		culture = afro_castillian
-		religion = catholic
-		size = 100
-	}
-
-	artisans = {
-		culture = afro_castillian
-		religion = catholic
-		size = 700
-	}
-
-	farmers = {
-		culture = afro_castillian
-		religion = catholic
-		size = 700
-	}
-
 	slaves = {
-		culture = afro_castillian
-		religion = catholic
-		size = 9500
+		culture = cherokee
+		religion = animist
+		size = 15048
 	}
 }
 #Paducah (108000/27000 POPS)
 187 = {
 	clergymen = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 75
+		culture = cherokee
+		religion = animist
+		size = 356
 	}
-
 	artisans = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 250
+		culture = cherokee
+		religion = animist
+		size = 1822
 	}
-
 	soldiers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 50
+		culture = cherokee
+		religion = animist
+		size = 436
 	}
-
 	farmers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 4625
+		culture = cherokee
+		religion = animist
+		size = 27839
 	}
-
 	aristocrats = {
-		culture = iroquois
+		culture = cherokee
 		religion = animist
-		size = 275
+		size = 436
 	}
-
-	clergymen = {
-		culture = iroquois
-		religion = animist
-		size = 100
-	}
-
-	artisans = {
-		culture = iroquois
-		religion = animist
-		size = 550
-	}
-
-	soldiers = {
-		culture = iroquois
-		religion = animist
-		size = 225
-	}
-
-	farmers = {
-		culture = iroquois
-		religion = animist
-		size = 12850
-	}
-
-	clergymen = {
-		culture = afro_castillian
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = afro_castillian
-		religion = catholic
-		size = 350
-	}
-
-	farmers = {
-		culture = afro_castillian
-		religion = catholic
-		size = 100
-	}
-
 	slaves = {
-		culture = afro_castillian
-		religion = catholic
-		size = 7500
+		culture = cherokee
+		religion = animist
+		size = 11880
 	}
 }
 #Tennessee Region (772000)
@@ -5163,103 +5917,47 @@
 	bureaucrats = {
 		culture = cherokee
 		religion = animist
-		size = 200
+		size = 792
 	}
 
 	officers = {
 		culture = cherokee
 		religion = animist
-		size = 50
+		size = 317
 	}
 
 	clergymen = {
 		culture = cherokee
 		religion = animist
-		size = 275
+		size = 1426
 	}
 
 	artisans = {
 		culture = cherokee
 		religion = animist
-		size = 1800
+		size = 9108
 	}
 
 	soldiers = {
 		culture = cherokee
 		religion = animist
-		size = 350
+		size = 3722
 	}
 
 	farmers = {
 		culture = cherokee
 		religion = animist
-		size = 28525
+		size = 118562
 	}
-
 	aristocrats = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 950
+		culture = cherokee
+		religion = animist
+		size = 1505
 	}
-
-	bureaucrats = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 300
-	}
-
-	officers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 150
-	}
-
-	clergymen = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 500
-	}
-
-	artisans = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 3100
-	}
-
-	soldiers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 2000
-	}
-
-	farmers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 46000
-	}
-
-	clergymen = {
-		culture = afro_castillian
-		religion = catholic
-		size = 125
-	}
-
-	artisans = {
-		culture = afro_castillian
-		religion = catholic
-		size = 850
-	}
-
-	farmers = {
-		culture = afro_castillian
-		religion = catholic
-		size = 325
-	}
-
 	slaves = {
-		culture = afro_castillian
-		religion = catholic
-		size = 13700
+		culture = cherokee
+		religion = animist
+		size = 21701
 	}
 }
 #Memphis (128000/32000 POPS)
@@ -5267,79 +5965,35 @@
 	clergymen = {
 		culture = cherokee
 		religion = animist
-		size = 50
+		size = 396
 	}
 
 	artisans = {
 		culture = cherokee
 		religion = animist
-		size = 400
+		size = 2455
 	}
 
 	soldiers = {
 		culture = cherokee
 		religion = animist
-		size = 75
+		size = 594
 	}
 
 	farmers = {
 		culture = cherokee
 		religion = animist
-		size = 6475
+		size = 34650
 	}
-
 	aristocrats = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 450
+		culture = cherokee
+		religion = animist
+		size = 713
 	}
-
-	clergymen = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 150
-	}
-
-	artisans = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 800
-	}
-
-	soldiers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 300
-	}
-
-	farmers = {
-		culture = nuevo_castillian
-		religion = catholic
-		size = 15300
-	}
-
-	clergymen = {
-		culture = afro_castillian
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = afro_castillian
-		religion = catholic
-		size = 350
-	}
-
-	farmers = {
-		culture = afro_castillian
-		religion = catholic
-		size = 100
-	}
-
 	slaves = {
-		culture = afro_castillian
-		religion = catholic
-		size = 7500
+		culture = cherokee
+		religion = animist
+		size = 11880
 	}
 }
 #Knoxville (116000/29000 POPS)
@@ -5347,13 +6001,13 @@
 	clergymen = {
 		culture = cherokee
 		religion = animist
-		size = 50
+		size = 125
 	}
 
 	artisans = {
 		culture = cherokee
 		religion = animist
-		size = 350
+		size = 600
 	}
 
 	soldiers = {
@@ -5365,7 +6019,7 @@
 	farmers = {
 		culture = cherokee
 		religion = animist
-		size = 5525
+		size = 10200
 	}
 
 	aristocrats = {
@@ -5396,24 +6050,6 @@
 		culture = nuevo_castillian
 		religion = catholic
 		size = 8950
-	}
-
-	clergymen = {
-		culture = iroquois
-		religion = animist
-		size = 75
-	}
-
-	artisans = {
-		culture = iroquois
-		religion = animist
-		size = 250
-	}
-
-	farmers = {
-		culture = iroquois
-		religion = animist
-		size = 4675
 	}
 
 	clergymen = {
@@ -6835,67 +7471,67 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 1200
+		size = 1452
 	}
 
 	bureaucrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 500
+		size = 605
 	}
 
 	officers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 250
+		size = 303
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 375
+		size = 454
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 2300
+		size = 2783
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 2000
+		size = 2420
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 51475
+		size = 62285
 	}
 
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 225
+		size = 272
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 1400
+		size = 1694
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 1125
+		size = 1361
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 28000
+		size = 33880
 	}
 }
 #Manassas (68000/17000 POPS)
@@ -6903,32 +7539,32 @@
 	aristocrats = {
 		culture = new_scottish
 		religion = catholic
-		size = 200
+		size = 288
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = catholic
-		size = 125
+		size = 180
 	}
 	artisans = {
 		culture = new_scottish
 		religion = catholic
-		size = 800
+		size = 1152
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = catholic
-		size = 150
+		size = 216
 	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 5975
+		size = 8604
 	}
 	slaves = {
 		culture = new_scottish
 		religion = catholic
-		size = 9750
+		size = 14040
 	}
 }
 #Fredericksburg (116000/29000 POPS)
@@ -6936,55 +7572,55 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 425
+		size = 514
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 125
+		size = 151
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 600
+		size = 726
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 275
+		size = 333
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 13575
+		size = 16426
 	}
 
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 75
+		size = 91
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 650
+		size = 787
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 400
+		size = 484
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 12875
+		size = 15579
 	}
 }
 #Norfolk (108000/27000 POPS)
@@ -6992,85 +7628,85 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 125
+		size = 151
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 75
+		size = 91
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 175
+		size = 212
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 75
+		size = 91
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 3650
+		size = 4417
 	}
 
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 225
+		size = 272
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 100
+		size = 121
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 500
+		size = 605
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 175
+		size = 212
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 11000
+		size = 13310
 	}
 
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 50
+		size = 60
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 500
+		size = 605
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 225
+		size = 272
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 10225
+		size = 12372
 	}
 }
 #Staunton (60000/15000 POPS)
@@ -7078,55 +7714,55 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 200
+		size = 242
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 50
+		size = 60
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 325
+		size = 393
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 150
+		size = 181
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 7275
+		size = 8803
 	}
 
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 50
+		size = 60
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 350
+		size = 424
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 250
+		size = 303
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 6400
+		size = 7744
 	}
 }
 #Roanoke (120000/30000 POPS)
@@ -7134,55 +7770,55 @@
 	aristocrats = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 225
+		size = 272
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 150
+		size = 181
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 650
+		size = 787
 	}
 
 	soldiers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 300
+		size = 363
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 14675
+		size = 17757
 	}
 
 	clergymen = {
 		culture = afro_castillian
 		religion = catholic
-		size = 25
+		size = 30
 	}
 
 	artisans = {
 		culture = afro_castillian
 		religion = catholic
-		size = 650
+		size = 787
 	}
 
 	farmers = {
 		culture = afro_castillian
 		religion = catholic
-		size = 50
+		size = 60
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 13275
+		size = 16063
 	}
 }
 #became West Virginia in 1863
@@ -7191,127 +7827,127 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 16
+		size = 23
 	}
 	
 	bureaucrats = {
 		culture = iroquois
 		religion = animist
-		size = 13
+		size = 19
 	}
 
 	clergymen = {
-		culture = iroquois
-		religion = animist
-		size = 10
-	}
-
-	artisans = {
-		culture = iroquois
-		religion = animist
-		size = 43
-	}
-
-	soldiers = {
 		culture = iroquois
 		religion = animist
 		size = 14
 	}
 
+	artisans = {
+		culture = iroquois
+		religion = animist
+		size = 62
+	}
+
+	soldiers = {
+		culture = iroquois
+		religion = animist
+		size = 20
+	}
+
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 988
+		size = 1423
 	}
 	aristocrats = {
 		culture = iroquois
 		religion = protestant
-		size = 70
+		size = 101
 	}
 	bureaucrats = {
 		culture = iroquois
 		religion = protestant
-		size = 56
+		size = 81
 	}
 	clergymen = {
 		culture = iroquois
 		religion = protestant
-		size = 45
+		size = 65
 	}
 	artisans = {
 		culture = iroquois
 		religion = protestant
-		size = 217
+		size = 313
 	}
 	soldiers = {
 		culture = iroquois
 		religion = protestant
-		size = 63
+		size = 91
 	}
 	farmers = {
 		culture = iroquois
 		religion = protestant
-		size = 4775
+		size = 6876
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 152
+		size = 219
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 855
+		size = 1231
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 17450
+		size = 25128
 	}
 	aristocrats = {
 		culture = new_scottish
 		religion = animist
-		size = 30
+		size = 43
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = animist
-		size = 24
+		size = 35
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = animist
-		size = 18
+		size = 26
 	}
 	artisans = {
 		culture = new_scottish
 		religion = animist
-		size = 85
+		size = 122
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = animist
-		size = 27
+		size = 39
 	}
 	farmers = {
 		culture = new_scottish
 		religion = animist
-		size = 1887
+		size = 2717
 	}
 	aristocrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 134
+		size = 193
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 107
+		size = 154
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 121
+		size = 174
 	}
 }
 #Huntington (100000/25000 POPS)
@@ -7319,55 +7955,55 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 250
+		size = 302
 	}
 
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 125
+		size = 151
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 625
+		size = 756
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 2250
+		size = 2723
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 13775
+		size = 16668
 	}
 
 	clergymen = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 75
+		size = 91
 	}
 
 	artisans = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 500
+		size = 605
 	}
 
 	farmers = {
 		culture = nuevo_castillian
 		religion = catholic
-		size = 2425
+		size = 2934
 	}
 
 	slaves = {
 		culture = afro_castillian
 		religion = catholic
-		size = 7000
+		size = 8470
 	}
 }
 #Maryland Region (452000)
@@ -7532,127 +8168,127 @@
 	aristocrats = {
 		culture = italiano
 		religion = catholic
-		size = 8
+		size = 12
 	}
 	
 	bureaucrats = {
 		culture = italiano
 		religion = catholic
-		size = 7
+		size = 10
 	}
 
 	clergymen = {
 		culture = italiano
 		religion = catholic
-		size = 6
+		size = 9
 	}
 
 	artisans = {
 		culture = italiano
 		religion = catholic
-		size = 125
+		size = 180
 	}
 
 	soldiers = {
 		culture = italiano
 		religion = catholic
-		size = 96
+		size = 138
 	}
 
 	farmers = {
 		culture = italiano
 		religion = catholic
-		size = 631
+		size = 909
 	}
 	aristocrats = {
 		culture = new_scottish
 		religion = catholic
-		size = 57
+		size = 82
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = catholic
-		size = 48
+		size = 69
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = catholic
-		size = 42
+		size = 61
 	}
 	artisans = {
 		culture = new_scottish
 		religion = catholic
-		size = 855
+		size = 1231
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = catholic
-		size = 657
+		size = 946
 	}
 	farmers = {
 		culture = new_scottish
 		religion = catholic
-		size = 4340
+		size = 6250
 	}
 	aristocrats = {
 		culture = italiano
 		religion = protestant
-		size = 52
+		size = 75
 	}
 	bureaucrats = {
 		culture = italiano
 		religion = protestant
-		size = 44
+		size = 63
 	}
 	clergymen = {
 		culture = italiano
 		religion = protestant
-		size = 38
+		size = 55
 	}
 	artisans = {
 		culture = italiano
 		religion = protestant
-		size = 777
+		size = 1119
 	}
 	soldiers = {
 		culture = italiano
 		religion = protestant
-		size = 596
+		size = 858
 	}
 	farmers = {
 		culture = italiano
 		religion = protestant
-		size = 3945
+		size = 5681
 	}
 	aristocrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 358
+		size = 516
 	}
 	bureaucrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 301
+		size = 433
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 264
+		size = 380
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 5343
+		size = 7694
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 4101
+		size = 5905
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 27109
+		size = 39037
 	}
 }
 #Hagerstown (56000/14000 POPS)
@@ -7660,7 +8296,7 @@
 	aristocrats = {
 		culture = iroquois
 		religion = animist
-		size = 1
+		size = 2
 	}
 
 	clergymen = {
@@ -7671,95 +8307,95 @@
 
 	artisans = {
 		culture = iroquois
-		religion = animist
-		size = 3
-	}
-
-	soldiers = {
-		culture = iroquois
-		religion = animist
-		size = 1
-	}
-
-	farmers = {
-		culture = iroquois
-		religion = animist
-		size = 123
-	}
-	aristocrats = {
-		culture = new_scottish
-		religion = animist
-		size = 13
-	}
-	clergymen = {
-		culture = new_scottish
 		religion = animist
 		size = 4
 	}
+
+	soldiers = {
+		culture = iroquois
+		religion = animist
+		size = 1
+	}
+
+	farmers = {
+		culture = iroquois
+		religion = animist
+		size = 177
+	}
+	aristocrats = {
+		culture = new_scottish
+		religion = animist
+		size = 19
+	}
+	clergymen = {
+		culture = new_scottish
+		religion = animist
+		size = 6
+	}
 	artisans = {
 		culture = new_scottish
 		religion = animist
-		size = 28
+		size = 40
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = animist
-		size = 13
+		size = 19
 	}
 	farmers = {
 		culture = new_scottish
 		religion = animist
-		size = 1083
+		size = 1560
 	}
 	aristocrats = {
 		culture = iroquois
 		religion = protestant
-		size = 14
+		size = 20
 	}
 	clergymen = {
 		culture = iroquois
 		religion = protestant
-		size = 4
+		size = 6
 	}
 	artisans = {
 		culture = iroquois
 		religion = protestant
-		size = 30
+		size = 43
 	}
 	soldiers = {
 		culture = iroquois
 		religion = protestant
-		size = 14
+		size = 20
 	}
 	farmers = {
 		culture = iroquois
 		religion = protestant
-		size = 1162
+		size = 1673
 	}
 	aristocrats = {
 		culture = new_scottish
 		religion = protestant
-		size = 122
+		size = 176
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 91
+		size = 131
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 564
+		size = 812
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 122
+		size = 176
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 13607
+		size = 19594
 	}
 }
 #Delaware Region (76000)  
@@ -8311,85 +8947,85 @@
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 6
+		size = 9
 	}
 
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 39
+		size = 56
 	}
 
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 64
+		size = 92
 	}
 
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 562
+		size = 809
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = animist
-		size = 32
+		size = 46
 	}
 	artisans = {
 		culture = new_scottish
 		religion = animist
-		size = 210
+		size = 302
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = animist
-		size = 346
+		size = 498
 	}
 	farmers = {
 		culture = new_scottish
 		religion = animist
-		size = 3044
+		size = 4383
 	}
 	clergymen = {
 		culture = iroquois
 		religion = protestant
-		size = 80
+		size = 115
 	}
 	artisans = {
 		culture = iroquois
 		religion = protestant
-		size = 529
+		size = 762
 	}
 	soldiers = {
 		culture = iroquois
 		religion = protestant
-		size = 871
+		size = 1254
 	}
 	farmers = {
 		culture = iroquois
 		religion = protestant
-		size = 7664
+		size = 11036
 	}
 	clergymen = {
 		culture = new_scottish
 		religion = protestant
-		size = 432
+		size = 622
 	}
 	artisans = {
 		culture = new_scottish
 		religion = protestant
-		size = 2872
+		size = 4136
 	}
 	soldiers = {
 		culture = new_scottish
 		religion = protestant
-		size = 4719
+		size = 6795
 	}
 	farmers = {
 		culture = new_scottish
 		religion = protestant
-		size = 52330
+		size = 75355
 	}
 }
 #Pittsburgh (332000/83000 POPS)
@@ -11604,27 +12240,22 @@
 	artisans = {
 		culture = iroquois
 		religion = animist
-		size = 577
+		size = 1436
 	}
 	farmers = {
 		culture = iroquois
 		religion = animist
-		size = 10790
-	}
-	farmers = {
-		culture = italiano
-		religion = catholic
-		size = 6
+		size = 26864
 	}
 	clergymen = {
 		culture = iroquois
 		religion = animist
-		size = 79
+		size = 197
 	}
 	soldiers = {
 		culture = iroquois
 		religion = animist
-		size = 92
+		size = 229
 	}
 }
 
@@ -11632,52 +12263,27 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 3
+		size = 183
 	}
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 6
+		size = 365
 	}
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 12
+		size = 730
 	}
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 4
+		size = 243
 	}
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 223
-	}
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 3
-	}
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 12
-	}
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 4
-	}
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 221
+		size = 13503
 	}
 }
 
@@ -11685,52 +12291,27 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 3
+		size = 152
 	}
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 7
+		size = 395
 	}
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 15
+		size = 821
 	}
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 4
+		size = 213
 	}
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 274
-	}
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 2
-	}
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 6
-	}
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 12
-	}
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 3
-	}
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 217
+		size = 14933
 	}
 }
 
@@ -11738,27 +12319,27 @@
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 10
+		size = 279
 	}
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 22
+		size = 613
 	}
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 46
+		size = 1282
 	}
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 14
+		size = 390
 	}
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 816
+		size = 22749
 	}
 }
 
@@ -11766,26 +12347,26 @@
 	artisans = {
 		culture = dakota
 		religion = animist
-		size = 93
+		size = 2619
 	}
 	farmers = {
 		culture = dakota
 		religion = animist
-		size = 1654
+		size = 46576
 	}
 	aristocrats = {
 		culture = dakota
 		religion = animist
-		size = 21
+		size = 592
 	}
 	clergymen = {
 		culture = dakota
 		religion = animist
-		size = 45
+		size = 1267
 	}
 	soldiers = {
 		culture = dakota
 		religion = animist
-		size = 24
+		size = 675
 	}
 }

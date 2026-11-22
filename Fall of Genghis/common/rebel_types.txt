@@ -41,6 +41,7 @@ reactionary_rebels = {
 		crown_colony = viceroyalty
 		duchy = duchy
 		tsardom = tsardom
+		federal_republic = presidential_dictatorship
 	}
 	
 	
@@ -258,6 +259,7 @@ fascist_rebels = {
 		crown_colony = fascist_dictatorship
 		duchy = fascist_dictatorship
 		tsardom = fascist_dictatorship
+		federal_republic = fascist_dictatorship
 	}
 	
 	
@@ -478,6 +480,7 @@ communist_rebels = {
 		crown_colony = proletarian_dictatorship
 		duchy = proletarian_dictatorship
 		tsardom = proletarian_dictatorship
+		federal_republic = proletarian_dictatorship
 	}
 	
 	
@@ -709,6 +712,7 @@ anarcho_liberal_rebels = {
 		crown_colony = bourgeois_dictatorship
 		duchy = bourgeois_dictatorship
 		tsardom = bourgeois_dictatorship
+		federal_republic = bourgeois_dictatorship
 	}
 	
 	
@@ -925,6 +929,7 @@ nationalist_rebels = {
 		crown_colony = viceroyalty
 		duchy = duchy
 		tsardom = tsardom
+		federal_republic = federal_republic
 	}
 	
 	
@@ -1189,6 +1194,7 @@ boxer_rebels = {
 		crown_colony = absolute_monarchy
 		duchy = absolute_monarchy
 		tsardom = absolute_monarchy
+		federal_republic = absolute_monarchy
 	}
 	
 	
@@ -1434,6 +1440,7 @@ liberal_rebels = {
 		crown_colony = absolute_monarchy
 		duchy = democracy
 		tsardom = hms_government
+		federal_republic = democracy
 	}
 	
 	
@@ -1659,6 +1666,7 @@ unciv_reactionary_rebels = {
 		crown_colony = crown_colony
 		duchy = duchy
 		tsardom = tsardom
+		federal_republic = federal_republic
 	}
 	
 	
@@ -1861,6 +1869,7 @@ chudjak = {
 		crown_colony = crown_colony
 		duchy = duchy
 		tsardom = tsardom
+		federal_republic = federal_republic
 	}
 
 	defection = none					# Will defect to the "best" alternative.

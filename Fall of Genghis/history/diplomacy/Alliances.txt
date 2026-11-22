@@ -201,3 +201,21 @@ alliance = {
     start_date = 1789.2.9
     end_date = 1935.1.1
 }
+alliance = {
+	first = NCS
+	second = CHE
+	start_date = 1836.1.1
+	end_date = 1935.1.1
+}
+alliance = {
+	first = BOH
+	second = HUN
+	start_date = 1836.1.1
+	end_date = 1935.1.1
+}
+alliance = {
+	first = ORL
+	second = NRM
+	start_date = 1836.1.1
+	end_date = 1935.1.1
+}

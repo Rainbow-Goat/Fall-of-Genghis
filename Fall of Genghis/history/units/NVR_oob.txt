@@ -1,0 +1,6 @@
+#Relations
+
+CAN = { value = -150 }
+QUE = { value = -200 }
+FIT = { value = -100 }
+IRO = { value = -100 }

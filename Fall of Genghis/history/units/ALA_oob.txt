@@ -490,3 +490,9 @@ name = "Ship 31"
 type = clipper_transport
 }
 }
+
+#Relations
+
+ARO = { value = -100 }
+NAV = { value = -100 }
+CAS = { value = -100 }

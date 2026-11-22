@@ -1,8 +1,8 @@
-owner = NCS
-controller = NCS
-add_core = NCS
+owner = CHE
+controller = CHE
+add_core = CHE
 trade_goods = grain
-life_rating = 35 
+life_rating = 35
 party_loyalty = { ideology = conservative loyalty_value = 15 } # state_building = {
 ################################################################################
 # level = 1
