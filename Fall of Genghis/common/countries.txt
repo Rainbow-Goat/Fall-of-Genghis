@@ -78,6 +78,16 @@ TEX     = "countries/Texas.txt"
 ANA     = "countries/Anatolia.txt"
 DUL     = "countries/Dulkadir.txt"
 
+#Native American Tribes
+OMH     = "countries/Omaha.txt"
+SUS     = "countries/Susquehannock.txt"
+CHY     = "countries/Cheyenne.txt"
+COM     = "countries/Comanche.txt"
+DAK     = "countries/Dakota.txt"
+WCH     = "countries/Wichita.txt"
+MOH     = "countries/Mohican.txt"
+SAU     = "countries/Sauk.txt"
+
 # Formables!
 HSE		= "countries/HolySlavicEmpire.txt"
 KWS		= "countries/KingdomOfWestSlavia.txt"
