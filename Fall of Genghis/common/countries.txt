@@ -79,6 +79,7 @@ ANA     = "countries/Anatolia.txt"
 DUL     = "countries/Dulkadir.txt"
 
 #Native American Tribes
+CHE		= "countries/Cherokee.txt"
 OMH     = "countries/Omaha.txt"
 SUS     = "countries/Susquehannock.txt"
 CHY     = "countries/Cheyenne.txt"
@@ -87,6 +88,15 @@ DAK     = "countries/Dakota.txt"
 WCH     = "countries/Wichita.txt"
 MOH     = "countries/Mohican.txt"
 SAU     = "countries/Sauk.txt"
+OSA     = "countries/Osage.txt"
+POT     = "countries/Potawatomi.txt"
+MES     = "countries/Meskwaki.txt"
+MIA     = "countries/Miami.txt"
+HOC     = "countries/Ho Chunk.txt"
+KIO     = "countries/Kiowa.txt"
+SHA     = "countries/Shawnee.txt"
+SUT     = "countries/Sutaio.txt"
+KIC     = "countries/Kickapoo.txt"
 
 # Formables!
 HSE		= "countries/HolySlavicEmpire.txt"
@@ -306,7 +316,6 @@ PHI		="countries/Philippines.txt"
 SXI		="countries/Shanxi.txt"
 
 # North America
-CHE		="countries/Cherokee.txt"
 COL		="countries/Columbia.txt"
 COS		="countries/Costa Rica.txt"
 CUB		="countries/Cuba.txt"
