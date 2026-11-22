@@ -3,6 +3,5 @@ controller = FIT
 add_core = FIT
 trade_goods = coal
 life_rating = 35
-colony = 2
 1861.1.1 = { colony = 0 } 
 1861.1.1 = { railroad = 3 } 

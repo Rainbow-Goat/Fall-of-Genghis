@@ -1,6 +1,6 @@
-owner = IRO
-controller = IRO
-add_core = IRO
+owner = MIA
+controller = MIA
+add_core = MIA
 trade_goods = grain
-life_rating = 35 
+life_rating = 35
 1861.1.1 = { railroad = 3 } 

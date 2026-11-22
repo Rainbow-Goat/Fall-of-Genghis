@@ -5358,40 +5358,34 @@
 
 # Goodland
 127 = {
-    unit = {
-        x = 1261.000000
-        y = 1623.000000
-    }
-
-    text_position = {
-        x = 1268.699951
-        y = 1616.199951
-    }
-
-    text_scale = 4.399998
-    building_construction = {
-        x = 1246.099976
-        y = 1612.300049
-    }
-
-    military_construction = {
-        x = 1287.300049
-        y = 1625.000000
-    }
-
-    factory = {
-        x = 1245.199951
-        y = 1624.500000
-    }
-
-    building_position = {
-        fort = {
-            x = 1286.000000
-            y = 1614.000000
-        }
-
-    }
-
+	unit = {
+		x = 1266.500000
+		y = 1589.500000
+	}
+	text_position = {
+		x = 1270.000000
+		y = 1579.911250
+	}
+	text_rotation = 0.000000
+	text_scale = 5.450000
+	building_construction = {
+		x = 1269.500000
+		y = 1589.500000
+	}
+	military_construction = {
+		x = 1287.300049
+		y = 1625.000000
+	}
+	factory = {
+		x = 1269.500000
+		y = 1592.500000
+	}
+	building_position = {
+		fort = {
+			x = 1266.500000
+			y = 1592.500000
+		}
+	}
 }
 
 # Wichita
@@ -123262,6 +123256,40 @@
 		railroad = {
 			x = 1104.500000
 			y = 1753.500000
+		}
+	}
+}
+3269 = {
+	unit = {
+		x = 1270.500000
+		y = 1619.500000
+	}
+	text_position = {
+		x = 1274.000000
+		y = 1611.165500
+	}
+	text_rotation = 0.000000
+	text_scale = 7.020000
+	building_construction = {
+		x = 1273.500000
+		y = 1619.500000
+	}
+	military_construction = {
+		x = 1267.500000
+		y = 1622.500000
+	}
+	factory = {
+		x = 1273.500000
+		y = 1622.500000
+	}
+	building_position = {
+		fort = {
+			x = 1270.500000
+			y = 1622.500000
+		}
+		railroad = {
+			x = 1267.500000
+			y = 1619.500000
 		}
 	}
 }

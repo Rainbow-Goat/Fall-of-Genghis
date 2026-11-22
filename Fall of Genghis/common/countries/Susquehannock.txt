@@ -1,4 +1,4 @@
-color = { 102 71 195 }
+color = { 102 164 67 }
 graphical_culture = Generic
 party = {
 	name = "SUS_liberal"

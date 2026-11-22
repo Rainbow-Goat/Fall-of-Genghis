@@ -132,6 +132,7 @@ north_america = {
 		3265 3266
 		3267
 		3268
+		3269
 	}
 	assimilation_rate = 1.0
 	farm_rgo_size = 10

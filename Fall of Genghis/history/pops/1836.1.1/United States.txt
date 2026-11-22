@@ -3416,27 +3416,27 @@
 	aristocrats = {
 		culture = osage
 		religion = animist
-		size = 640
+		size = 637
 	}
 	clergymen = {
 		culture = osage
 		religion = animist
-		size = 1280
+		size = 1276
 	}
 	artisans = {
 		culture = osage
 		religion = animist
-		size = 2560
+		size = 2552
 	}
 	soldiers = {
 		culture = osage
 		religion = animist
-		size = 640
+		size = 637
 	}
 	farmers = {
 		culture = osage
 		religion = animist
-		size = 46080
+		size = 45926
 	}
 }
 #Goodland (8000/2000 POPS)
@@ -3444,27 +3444,27 @@
 	aristocrats = {
 		culture = osage
 		religion = animist
-		size = 640
+		size = 411
 	}
 	clergymen = {
 		culture = osage
 		religion = animist
-		size = 1280
+		size = 821
 	}
 	artisans = {
 		culture = osage
 		religion = animist
-		size = 2560
+		size = 1643
 	}
 	soldiers = {
 		culture = osage
 		religion = animist
-		size = 640
+		size = 411
 	}
 	farmers = {
 		culture = osage
 		religion = animist
-		size = 46080
+		size = 29566
 	}
 }
 #Wichita (8000/2000 POPS)
@@ -12368,5 +12368,33 @@
 		culture = dakota
 		religion = animist
 		size = 675
+	}
+}
+
+3269 = {
+	aristocrats = {
+		culture = osage
+		religion = animist
+		size = 232
+	}
+	clergymen = {
+		culture = osage
+		religion = animist
+		size = 463
+	}
+	artisans = {
+		culture = osage
+		religion = animist
+		size = 925
+	}
+	soldiers = {
+		culture = osage
+		religion = animist
+		size = 232
+	}
+	farmers = {
+		culture = osage
+		religion = animist
+		size = 16668
 	}
 }

@@ -1,5 +1,5 @@
-color = { 102 71 195 }
-graphical_culture = GenericGC
+color = { 32 78 119 }
+graphical_culture = Generic
 party = {
 	name = "MIA_liberal"
 	start_date = 1836.1.1
@@ -30,7 +30,7 @@ party = {
 
 party = {
 	name = "MIA_socialist"
-	start_date = 1848.1.1
+	start_date = 1860.1.1
 	end_date = 2000.1.1
 
 	ideology = socialist
@@ -72,7 +72,7 @@ party = {
 
 party = {
 	name = "MIA_communist"
-	start_date = 1848.1.1
+	start_date = 1870.1.1
 	end_date = 2000.1.1
 
 	ideology = communist

@@ -1,5 +1,5 @@
-color = { 102 71 195 }
-graphical_culture = GenericGC
+color = { 153 90 175 }
+graphical_culture = Generic
 party = {
 	name = "CHY_liberal"
 	start_date = 1836.1.1

@@ -1,4 +1,4 @@
-capital = 220
+capital = 195
 primary_culture = nuevo_castillian
 religion = catholic
 government = monastic_order

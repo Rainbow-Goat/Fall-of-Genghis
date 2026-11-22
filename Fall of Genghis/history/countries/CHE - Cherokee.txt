@@ -1,4 +1,4 @@
-capital = 143
+capital = 184
 primary_culture = cherokee
 religion = animist
 government = democracy

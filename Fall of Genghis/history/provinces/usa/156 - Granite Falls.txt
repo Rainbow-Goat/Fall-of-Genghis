@@ -1,4 +1,7 @@
+owner = MES
+controller = MES
+add_core = DAK
+add_core = MES
 trade_goods = coal
-life_rating = 35 
-colony = 2
+life_rating = 35
 1861.1.1 = { colony = 0 } 

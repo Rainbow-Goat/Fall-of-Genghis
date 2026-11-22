@@ -1,11 +1,11 @@
-capital = 238
+capital = 178
 primary_culture = iroquois
 religion = animist
 set_country_flag = native_american
 government = tribal_confederation
-plurality = 25.0
+plurality = 10
 nationalvalue = nv_order
-literacy = 0.34
+literacy = 0.15
 civilized = no
 
 # Political reforms
@@ -44,6 +44,8 @@ upper_house = {
 consciousness = 2
 nonstate_consciousness = 1
 
-schools = army_tech_school
+schools = traditional_academic
 
 oob = "MIA_oob.txt"
+military_constructions = yes_military_constructions
+post_napoleonic_thought = 1

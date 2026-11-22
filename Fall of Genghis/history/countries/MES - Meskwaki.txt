@@ -1,11 +1,11 @@
-capital = 238
-primary_culture = iroquois
+capital = 117
+primary_culture = dakota
 religion = animist
 set_country_flag = native_american
 government = tribal_confederation
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.34
+literacy = 0.5
 civilized = no
 
 # Political reforms
@@ -44,6 +44,7 @@ upper_house = {
 consciousness = 2
 nonstate_consciousness = 1
 
-schools = army_tech_school
+schools = traditional_academic
 
 oob = "MES_oob.txt"
+land_reform = yes_land_reform

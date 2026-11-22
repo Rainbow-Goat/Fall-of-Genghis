@@ -1,7 +1,6 @@
-owner = IRO
-controller = IRO
-add_core = IRO
+owner = SUT
+controller = SUT
+add_core = SUT
 trade_goods = grain
-life_rating = 35 
-colony = 2
+life_rating = 35
 1861.1.1 = { colony = 0 } 

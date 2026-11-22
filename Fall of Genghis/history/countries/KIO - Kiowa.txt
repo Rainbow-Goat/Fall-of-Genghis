@@ -1,5 +1,5 @@
-capital = 238
-primary_culture = iroquois
+capital = 111
+primary_culture = dakota
 religion = animist
 set_country_flag = native_american
 government = tribal_confederation
@@ -44,6 +44,7 @@ upper_house = {
 consciousness = 2
 nonstate_consciousness = 1
 
-schools = army_tech_school
+schools = traditional_academic
 
 oob = "KIO_oob.txt"
+flintlock_rifles = 1

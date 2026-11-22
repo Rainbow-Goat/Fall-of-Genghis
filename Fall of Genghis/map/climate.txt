@@ -109,6 +109,7 @@ temperate_climate = {
 	3265 3266
 	3267
 	3268
+	3269
 }
 
 # Vanilla climate: never remove it, the base game expects it to exist. (ModEditor will not delete it.)
