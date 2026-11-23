@@ -16,31 +16,23 @@ country_event = {
                 factor = 5
                 has_country_flag = quebecois_governor
             }
+            modifier = {
+                factor = 3
+                has_country_flag = canadien_governor
+            }
         }
     }
     
     option = {
         name = "Our oppression ends today, our brothers have come to liberate us!"
         set_country_flag = canadie_secede
+        QUE = { release_vassal = CAN }
         
         ai_chance = {
             factor = 1
             modifier = {
                 factor = 5
                 has_country_flag = avalonian_governor
-            }
-        }
-    }
-
-    option = {
-        name = "Death to the occupier, death to the imperialist! Freedom or Death!"
-        set_country_flag = canadie_revolution
-        
-        ai_chance = {
-            factor = 1
-            modifier = {
-                factor = 5
-                has_country_flag = canadien_governor
             }
         }
     }

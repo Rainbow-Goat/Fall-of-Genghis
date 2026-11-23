@@ -1,3 +1,6 @@
+owner = KIO
+controller = KIO
 add_core = DAK
+add_core = KIO
 trade_goods = timber
 life_rating = 35

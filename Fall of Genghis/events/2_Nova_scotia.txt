@@ -63,14 +63,6 @@ country_event = {
                 canadie_secede_text = {}
             }
         }
-        random_owned = {
-            owner = {
-                limit = {
-                    CAN = { has_country_flag = canadie_revolution }
-                }
-                canadie_revolution_text = {}
-            }
-        }
     }
 
     option = {
@@ -108,45 +100,6 @@ country_event = {
                         casus_belli = scripted_war_for_land_cb
                     }
                     call_ally = no
-                }
-            }
-        }
-        random_owned = {
-            owner = {
-                limit = {
-                    CAN = { has_country_flag = canadie_revolution }
-                }
-                war = {
-                    target = QUE
-                    attacker_goal = {
-                        casus_belli = scripted_war_for_land_cb
-                    }
-                    defender_goal = {
-                        casus_belli = scripted_war_for_land_cb
-                    }
-                    call_ally = no
-                }
-                war = {
-                    target = CAN
-                    attacker_goal = {
-                        casus_belli = scripted_war_for_land_cb
-                    }
-                    defender_goal = {
-                        casus_belli = scripted_war_for_land_cb
-                    }
-                    call_ally = no
-                }
-                CAN = {
-                    war = {
-                        target = QUE
-                        attacker_goal = {
-                            casus_belli = scripted_war_for_land_cb
-                        }
-                        defender_goal = {
-                            casus_belli = scripted_war_for_land_cb
-                        }
-                        call_ally = no
-                    }
                 }
             }
         }
@@ -209,18 +162,64 @@ country_event = {
                 war = {
                     target = CAN
                     attacker_goal = {
-                        casus_belli = scripted_war_for_land_cb
+                        casus_belli = conquest
                     }
                     defender_goal = {
-                        casus_belli = scripted_war_for_land_cb
+                        casus_belli = scripted_war_for_treaty_cb
                     }
                     call_ally = no
                 }
+                set_country_flag = hidden_tooltip
+                random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                    owner = {
+                        badboy = -22
+                    }
+                }
+                clr_country_flag = hidden_tooltip
             }
         }
         
         ai_chance = {
             factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 101304
+    title = "Our Struggle is Victorious"
+    desc = "101304D"
+    major = yes
+    
+    trigger = {
+        tag = NVR
+        war = no
+        has_country_flag = nova_scotian_war
+        QUE = { has_country_flag = custom_treaty_loser }
+    }
+
+    option = {
+        name = "Long live the Commonwealth!"
+        prestige = 20
+        war_exhaustion = -15
+        QUE = {
+            any_owned = {
+                limit = {
+                    is_core = NVR
+                }
+                secede_province = NVR
+                remove_core = QUE
+            }
+            clr_country_flag = nova_scotian_war
+            clr_country_flag = custom_treaty_loser
+            country_event = { id = 101323 days = 14 }
+        }
+        
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
         }
     }
 }
