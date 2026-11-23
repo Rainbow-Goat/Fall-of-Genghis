@@ -1,27 +1,31 @@
-I STOLE one decision from JuliusMod, I do not care if he wants it back it is mine now.
-4th-Kaiser for making several racist remarks inside of the mod, and being the laziest worker I have ever seen. Addendum; He is now a slightly less lazy worker.
-Theagle for shouting at me 1 time, not sure why but he hates how I save my files.
-Siiarla for reinvigorating my love for Epic Rap Battles of History.
-Julius for making all the really dumb Mongolian content.
-Azod for being the mods official number one fan, also came with a lot of balancing ideas (about half were used in some way)
+#Fall of Genghis Dev team and frequent helpers
+Rainbow - Glorious leader of the project, and responsible for most of the work
+4th-Kaiser - My right hand man. Great at pitching ideas at, and has also assisted with coding and localising some European content.
+Julius - Did most of the code for the Mongolian / Mongological excavations content.
+Rennes - Did some fucking magic that I could not even begin to comprehend to understand, but nontheless it made the mod much more optimized. Also helped me set up the GitHub. Huge thanks to him!
+Azod, Theagle, Honk, and Exeter - Helped with balancing and MP features
+My players - Thanks for playing and enjoying the mod, and special thanks to those of you who spread the word about it!
+
+
+#Code / tools
+BigWeevil - I used his modding guide alot when I started modding, and I still use it regularly when I need to find some specific basic thing that I forgot (like the sizes of the event and decision pictures lol)
+Victoria II Modding Wiki - Insanely helpful tool with lots of good information with all the effects, conditions, scopes etc
+Victoria II Modding Server - Really helpful community that are always willing to help or give input when requested, big shoutout to them!
+SteelRyan and his ModEditor. Cannot stress enough that it is by far the best tool for modding Victoria II, it has every feature one can imagine and then some. Insanely usefull tool and I highly recommend you check it out if you are making a mod.
+
+
+# Game stuff
+IGoR - I ripped out the state sizing system and modified it a bit. Also took the national values images and decisions from it.
+JuliusMod - Pretty sure this is where my transfer system is from, unsure tho...
+KevinG - for vassal GTFO implementation
+Exeter - Made a thing on Github to make version name changes be done automatically
+DoDFF - The Soldier anti-Mutiny feature is based on theirs, + I respect and appreciate the way they structure content in their mod
+
 
 # GFX
 DanielFlagGuy on tennessine - Ummayad formable flag
 Honk - Sent me the stuff to make the map look pretty. I assume he took it from other mods, not sure which so ask him if you are curious.
 
-# Game stuff
-IGoR - I ripped out the state sizing system and modified it a bit. Also took the national values images and decisions from it.
-JuliusMod - Pretty sure this is where my transfer system is from, unsure tho...
-Rennes - Did some fucking magic that I could not even begin to comprehend to understand, but nontheless it made the mod much more optimized. Also helped me set up the GitHub. Huge thanks to him!
-KevinG - for vassal GTFO implementation
-Exeter - Made a thing on Github to make version name changes be done automatically
-Julius and 4th-Kaiser - Helped with coding and localization
-DoDFF - The Soldier anti-Mutiny feature is based on theirs, + I respect and appreciate the way they structure content in their mod
-
-#Other help
-BigWeevil - I used his modding guide alot when I started modding, and I still use it regularly when I need to find some specific basic thing that I forgot (like the sizes of the event and decision pictures lol)
-Victoria II Modding Wiki - Insanely helpful tool with lots of good information with all the effects, conditions, scopes etc
-Victoria II Modding Server - Really helpful community that are always willing to help or give input when requested, big shoutout to them!
 
 #Cultural Sensitivity
 Fall of Genghis (informally known as RainbowMod) is made and supported by a diverse group of people. All subjects covered in the mod should be seen as only being included for narrative, gameplay or time period reasons.
@@ -29,3 +33,12 @@ Any references to terrorism has been approved by Theagle, our Syrian member.
 Any references to Bandera or rape and pillaging have been approved by Red, our Ukrainian member.
 Any references to genocide have been approved by our German members, Julius and Kaiser.
 Any references to economics have been approved by our accountant, Julius.
+
+
+#Stupid Thanks
+I STOLE one decision from JuliusMod, I do not care if he wants it back it is mine now.
+4th-Kaiser for making several racist remarks inside of the mod, and being the laziest worker I have ever seen. Addendum; He is now a slightly less lazy worker.
+Theagle for shouting at me 1 time, not sure why but he hates how I save my files.
+Siiarla for reinvigorating my love for Epic Rap Battles of History.
+Julius for making all the really dumb Mongolian content.
+Azod for being the mods official number one fan, also came with a lot of balancing ideas (about half were used in some way)

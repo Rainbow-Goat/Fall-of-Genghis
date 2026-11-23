@@ -131,6 +131,14 @@ destroy_caliphate;Topple rival Caliph;x;
 destroy_caliphate_desc;Destroy a rival caliphate, forcing them to renounce their claim as Caliph and adopt a new form of government;x;
 destroy_caliphate_setup;Topple the $RECIPIENT$;x;
 destroy_caliphate_short;Topple the $RECIPIENT$;x;
+manifest_destiny_cb;Manifest Destiny;x;
+manifest_destiny_cb_desc;It is our duty and moral obligation to spread the ideals of liberty and civilization across this vast continent.;x;
+manifest_destiny_cb_setup;Force the natives to surrender a border province to us.;x;
+manifest_destiny_cb_short;Take a province from $RECIPIENT$;x;
+war_against_natives_cb;Claim the Frontier;x;
+war_against_natives_cb_desc;We must stake our claim on the Frontier;x;
+war_against_natives_cb_setup;Seize a border province from a native tribe;x;
+war_against_natives_cb_short;Take a province from $RECIPIENT$;x;
 negotiated_transfer;Negotiated Transfer;;;;;;;x
 negotiated_transfer_cb;Negotiated Transfer §R(!)§!;;;;;;;x
 negotiated_transfer_cb_desc;§YCAN BE USED FOR YOURSELF OR A HUMAN ALLY.§! Take a state or colonial region from another player with no effect on infamy, prestige, or jingoism, with their consent;;;;;;;x

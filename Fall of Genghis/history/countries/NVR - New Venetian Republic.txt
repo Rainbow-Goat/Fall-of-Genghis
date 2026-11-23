@@ -1,6 +1,7 @@
 capital = 232
 primary_culture = new_scottish
 religion = protestant
+set_country_flag = manifest_destiny
 government = democracy
 plurality = 0.1
 nationalvalue = nv_order
@@ -27,7 +28,7 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = VEN_conservative
+ruling_party = NVR_conservative
 upper_house = {
 	fascist = 0
 	liberal = 46

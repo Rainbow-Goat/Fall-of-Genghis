@@ -4927,25 +4927,22 @@
 #Milwaukee (16000/4000 POPS)
 159 = {
 	clergymen = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 288
 	}
-
 	artisans = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 11520
 	}
-
 	soldiers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 2880
 	}
-
 	farmers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 44352
 	}
@@ -4984,29 +4981,6 @@
 }
 #Green Bay (8000/2000 POPS)
 161 = {
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 864
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 2880
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 14400
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 52416
-	}
 
 	aristocrats = {
 		culture = cree
@@ -5017,55 +4991,91 @@
 	clergymen = {
 		culture = cree
 		religion = animist
-		size = 144
+		size = 143
 	}
 
 	artisans = {
 		culture = cree
 		religion = animist
-		size = 2880
+		size = 2868
 	}
 
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 864
+		size = 860
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 11520
+		size = 11470
+	}
+	clergymen = {
+		culture = franco_indian
+		religion = animist
+		size = 1
+	}
+	artisans = {
+		culture = franco_indian
+		religion = animist
+		size = 12
+	}
+	soldiers = {
+		culture = franco_indian
+		religion = animist
+		size = 4
+	}
+	farmers = {
+		culture = franco_indian
+		religion = animist
+		size = 50
+	}
+	clergymen = {
+		culture = franco_indian
+		religion = catholic
+		size = 864
+	}
+	artisans = {
+		culture = franco_indian
+		religion = catholic
+		size = 2880
+	}
+	soldiers = {
+		culture = franco_indian
+		religion = catholic
+		size = 14400
+	}
+	farmers = {
+		culture = franco_indian
+		religion = catholic
+		size = 52416
 	}
 }
 #Madison (8000/2000 POPS)
 162 = {
 	bureaucrats = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 547
 	}
-
 	clergymen = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 1440
 	}
-
 	artisans = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 5760
 	}
-
 	soldiers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 1440
 	}
-
 	farmers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 33610
 	}
@@ -5403,61 +5413,52 @@
 #Detroit (POPS)
 173 = {
 	bureaucrats = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 288
 	}
-
 	officers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 144
 	}
-
 	clergymen = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 576
 	}
-
 	artisans = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 5184
 	}
-
 	soldiers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 576
 	}
-
 	farmers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 96912
 	}
-
 	clergymen = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = protestant
 		size = 115
 	}
-
 	artisans = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = protestant
 		size = 1152
 	}
-
 	soldiers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = protestant
 		size = 58
 	}
-
 	farmers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = protestant
 		size = 15955
 	}
@@ -5465,25 +5466,22 @@
 #Grand Rapids (POPS)
 174 = {
 	clergymen = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 432
 	}
-
 	artisans = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 1728
 	}
-
 	soldiers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 432
 	}
-
 	farmers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 31968
 	}
@@ -5491,25 +5489,22 @@
 #Saginaw (POPS)
 175 = {
 	clergymen = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 288
 	}
-
 	artisans = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 1152
 	}
-
 	soldiers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 288
 	}
-
 	farmers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 21312
 	}
@@ -5517,54 +5512,28 @@
 #Traverse City (POPS)
 176 = {
 	clergymen = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 288
 	}
-
 	artisans = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 864
 	}
-
 	soldiers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 230
 	}
-
 	farmers = {
-		culture = french_canadian
+		culture = franco_indian
 		religion = catholic
 		size = 15840
 	}
 }
 #Marquette (POPS)
 177 = {
-	clergymen = {
-		culture = french_canadian
-		religion = catholic
-		size = 58
-	}
-
-	artisans = {
-		culture = french_canadian
-		religion = catholic
-		size = 288
-	}
-
-	soldiers = {
-		culture = french_canadian
-		religion = catholic
-		size = 86
-	}
-
-	farmers = {
-		culture = french_canadian
-		religion = catholic
-		size = 5328
-	}
 
 	aristocrats = {
 		culture = cree
@@ -5594,6 +5563,31 @@
 		culture = cree
 		religion = animist
 		size = 10368
+	}
+	clergymen = {
+		culture = franco_indian
+		religion = catholic
+		size = 58
+	}
+	artisans = {
+		culture = franco_indian
+		religion = catholic
+		size = 288
+	}
+	soldiers = {
+		culture = franco_indian
+		religion = catholic
+		size = 86
+	}
+	farmers = {
+		culture = cree
+		religion = catholic
+		size = 1
+	}
+	farmers = {
+		culture = franco_indian
+		religion = catholic
+		size = 5327
 	}
 }
 #Ohio Region (1344000)

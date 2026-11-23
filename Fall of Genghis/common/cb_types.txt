@@ -105,7 +105,7 @@ negotiated_transfer
 
 #Negotiated Transfer
 negotiated_transfer_cb = {
-	sprite_index = 5
+	sprite_index = 25
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -170,7 +170,7 @@ negotiated_transfer_cb = {
 
 
 gunboat = {
-	sprite_index = 1
+	sprite_index = 31
 	is_triggered_only = yes
 	months = 12
 	constructing_cb = no
@@ -212,7 +212,7 @@ gunboat = {
 
 # Event war CBs
 treaty_of_winchester = {
-	sprite_index = 1
+	sprite_index = 20
 	is_triggered_only = yes
 	months = 12
 	constructing_cb = no
@@ -248,7 +248,7 @@ treaty_of_winchester = {
 }
 
 conquer_england = {
-	sprite_index = 2
+	sprite_index = 26
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -296,7 +296,7 @@ conquer_england = {
 # Unique CBs
 
 afghan_jihad = {
-	sprite_index = 2
+	sprite_index = 29
 	is_triggered_only = yes
 	constructing_cb = yes
 	months = 12
@@ -386,7 +386,7 @@ afghan_jihad = {
 }
 
 destroy_caliphate = {
-	sprite_index = 8
+	sprite_index = 24
 	is_triggered_only = no
 	months = 12
 	crisis = no
@@ -470,6 +470,20 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+			AND = {
+				THIS = { has_country_flag = manifest_destiny }
+				year = 1870
+			}
+			AND = {
+				THIS = { has_country_flag = allowed_to_invade_natives }
+				year = 1870
+			}
+			tag = IRO
+		}
 		NOT = { total_pops = 4000000 }
 		NOT = { number_of_states = 5 }
 		NOT = { tag = GHO }
@@ -591,6 +605,13 @@ add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+			THIS = { has_country_flag = manifest_destiny }
+			THIS = { has_country_flag = allowed_to_invade_natives }
+		}
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		is_independant = yes
@@ -640,6 +661,15 @@ take_from_sphere = {
 		this = { is_greater_power = yes }
 		is_greater_power = yes
 		NOT = { is_our_vassal = THIS }
+		OR = {
+			NOT = { has_country_flag = native_american }
+			AND = {
+				has_country_flag = native_american
+				THIS = { has_country_flag = native_american }
+			}
+			THIS = { has_country_flag = manifest_destiny }
+			THIS = { has_country_flag = allowed_to_invade_natives }
+		}
 	}
 
 	
@@ -2074,6 +2104,13 @@ take_puppet = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+			THIS = { has_country_flag = manifest_destiny }
+			THIS = { has_country_flag = allowed_to_invade_natives }
+		}
 		NOT = { is_our_vassal = THIS }
 	}
 	
@@ -2131,7 +2168,7 @@ take_puppet = {
 
 # Release Puppet
 release_puppet = {
-	sprite_index = 10
+	sprite_index = 9
 	is_triggered_only = yes
 	months = 12
 
@@ -2178,7 +2215,7 @@ release_puppet = {
 
 # Make Puppet
 make_puppet = {
-	sprite_index = 10
+	sprite_index = 18
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -2198,6 +2235,13 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+			THIS = { has_country_flag = manifest_destiny }
+			THIS = { has_country_flag = allowed_to_invade_natives }
+		}
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			NOT = { number_of_states = 4 }
@@ -2231,7 +2275,7 @@ make_puppet = {
 
 # Become Independent
 become_independent = {
-	sprite_index = 10
+	sprite_index = 30
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -2352,6 +2396,11 @@ demand_concession_casus_belli_small = {
 	always = no
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		civilized = no
 		THIS = {
 			civilized = yes
@@ -2405,6 +2454,11 @@ demand_concession_casus_belli_medium = {
 	always = no
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		civilized = no
 		THIS = {
 			civilized = yes
@@ -2458,6 +2512,11 @@ demand_concession_casus_belli_large = {
 	always = no
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		civilized = no
 		THIS = {
 			civilized = yes
@@ -2511,6 +2570,11 @@ demand_concession_casus_belli_huge = {
 	always = no
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		civilized = no
 		THIS = {
 			civilized = yes
@@ -2564,6 +2628,11 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		civilized = no
 		THIS = {
 			civilized = yes
@@ -2623,6 +2692,11 @@ unification_humiliate_cb = {
 	always = yes
 	
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		is_greater_power = yes
 		is_culture_group = THIS
 		NOT = { is_our_vassal = THIS }
@@ -2653,7 +2727,7 @@ unification_humiliate_cb = {
 
 # Release Puppet
 unification_release_puppet_cb = {
-	sprite_index = 10
+	sprite_index = 9
 	is_triggered_only = yes
 	months = 12
 	crisis = no
@@ -2675,6 +2749,11 @@ unification_release_puppet_cb = {
 	always = yes
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		num_of_vassals_no_substates = 1
 		THIS = {
 			culture_has_union_tag = yes
@@ -2736,6 +2815,11 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -2804,6 +2888,11 @@ unification_annex_casus_belli = {
 	
 	always = yes
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		NOT = {
 			number_of_states = 2
 		}
@@ -2841,7 +2930,7 @@ unification_annex_casus_belli = {
 
 # Bad Boy
 rude_boy = {
-	sprite_index = 11
+	sprite_index = 28
 	is_triggered_only = no
 	months = 12
 	construction_speed = 2
@@ -3055,7 +3144,7 @@ great_war_penalty_cb = {
 }
 
 mongol_subjugation = {
-	sprite_index = 2
+	sprite_index = 21
 	is_triggered_only = yes
 	months = 12
 	constructing_cb = no
@@ -3113,6 +3202,11 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -3173,6 +3267,11 @@ conquest_low = {
 	crisis = no
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		NOT = { number_of_states = 5 }
 		NOT = {	total_pops = 800000 }
 		NOT = { is_our_vassal = THIS }
@@ -3237,6 +3336,11 @@ conquest_tiny = {
 	crisis = no
 
 	can_use = {
+		OR = {
+			NOT = { has_country_flag = native_american }
+			year = 1880
+			THIS = { has_country_flag = native_american }
+		}
 		NOT = { number_of_states = 3 }
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
@@ -3292,4 +3396,115 @@ conquest_tiny = {
 	po_annex = yes
 
 	war_name = WAR_CONQUEST_NAME
+}
+
+# Used for wars against Native Americans
+manifest_destiny_cb = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = yes
+	crisis = no
+
+	badboy_factor = 0.25
+	prestige_factor = 0
+	peace_cost_factor = 60
+	penalty_factor = 0
+	
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 30
+	break_truce_militancy_factor = 0
+	truce_months = 24
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	construction_speed = 1
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		has_country_flag = native_american
+		is_vassal = no
+		THIS = {
+			has_country_flag = manifest_destiny
+		}
+	} 
+
+	po_reparations = yes
+	
+	on_po_accepted = {
+		NVR = {
+			change_variable = { which = native_fear value = 2 }
+			change_variable = { which = native_anger value = 1 }
+		}
+		random_owned = {
+			limit = {
+				any_neighbor_province = {
+					owned_by = THIS
+				}
+			}
+			secede_province = THIS
+		}
+	}
+
+	war_name = WAR_MANIFEST_DESTINY_NAME
+	
+	on_add = {
+	}
+}
+
+war_against_natives_cb = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	constructing_cb = yes
+	crisis = no
+
+	badboy_factor = 0.25
+	prestige_factor = 0
+	peace_cost_factor = 60
+	penalty_factor = 0
+	
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 30
+	break_truce_militancy_factor = 0
+	truce_months = 24
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	construction_speed = 1
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		has_country_flag = native_american
+		is_vassal = no
+		THIS = {
+			has_country_flag = allowed_to_invade_natives
+		}
+	} 
+
+	po_reparations = yes
+	
+	on_po_accepted = {
+		NVR = {
+			change_variable = { which = native_fear value = 1 }
+			change_variable = { which = native_anger value = 1 }
+		}
+		random_owned = {
+			limit = {
+				any_neighbor_province = {
+					owned_by = THIS
+				}
+			}
+			secede_province = THIS
+		}
+	}
+
+	war_name = WAR_NATIVES_AMERICA_NAME
+	
+	on_add = {
+	}
 }
