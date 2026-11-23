@@ -1,0 +1,89 @@
+country_event = {
+    id = 101321
+    title = "The Dawn of the Second Nova Scotian Liberation War"
+    desc = "101321D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "The Quebecois have aided us greatly, we shall stand together!"
+        set_country_flag = canadie_loyal
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 5
+                has_country_flag = quebecois_governor
+            }
+        }
+    }
+    
+    option = {
+        name = "Our oppression ends today, our brothers have come to liberate us!"
+        set_country_flag = canadie_secede
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 5
+                has_country_flag = avalonian_governor
+            }
+        }
+    }
+
+    option = {
+        name = "Death to the occupier, death to the imperialist! Freedom or Death!"
+        set_country_flag = canadie_revolution
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 5
+                has_country_flag = canadien_governor
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 101322
+    title = "The Dawn of the Second Nova Scotian Liberation War"
+    desc = "101322D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "We will stand alone if we must!"
+        set_country_flag = canadie_revolution
+        QUE = { release_vassal = CAN }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                has_country_flag = quebecois_governor
+            }
+            modifier = {
+                factor = 6
+                has_country_flag = canadien_governor
+            }
+        }
+    }
+    
+    option = {
+        name = "The Day of Unity has finally arrived!"
+        set_country_flag = canadie_unite
+        clr_country_flag = nova_scotian_war
+        QUE = { release_vassal = CAN }
+        
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 3
+                has_country_flag = avalonian_governor
+            }
+        }
+    }
+}

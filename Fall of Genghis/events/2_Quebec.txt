@@ -1,0 +1,40 @@
+country_event = {
+    id = 101320
+    title = "The Nova Scotians Demand the Occupation Ends"
+    desc = "101320D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "They can try to take it if they dare"
+        CAN = { country_event = { id = 101321 days = 7 } }
+        NVR = { country_event = { id = 101302 days = 30 } }
+
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+    
+    option = {
+        name = "We are left with no choice..."
+        clr_country_flag = nova_scotian_war
+        CAN = { country_event = { id = 101322 days = 7 } }
+        NVR = { country_event = { id = 101303 days = 30 } }
+
+        ai_chance = {
+            factor = 1
+            modifier = {
+                factor = 4
+                THIS = {
+                    NOT = {
+                        brigades_compare = 0.5
+                    }
+                }
+            }
+        }
+    }
+}

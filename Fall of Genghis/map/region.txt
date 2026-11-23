@@ -1229,3 +1229,9 @@ event_4_member_stupid = {}
 event_5_member_big = {}
 event_5_member_small = {}
 event_5_member_nada = {}
+
+#Dynamic loc - Nova Scotian War
+canadie_loyal_text = {}
+canadie_secede_text = {}
+canadie_revolution_text = {}
+canadie_unite_text = {}

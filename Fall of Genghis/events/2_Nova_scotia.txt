@@ -1,0 +1,226 @@
+country_event = {
+    id = 101300
+    title = "Manifest Destiny"
+    desc = "101300D"
+    major = yes
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "We shall spread the torch of liberty across this vast continent we call home"
+        badboy = 2
+        set_variable = { which = native_fear value = 0 }
+        set_variable = { which = native_anger value = 0 }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 101301
+    title = "The Brothers to the North"
+    desc = "101301D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "Nova Scotia will either be returned with a pen or with Quebecois blood!"
+        QUE = {
+            country_event = { id = 101320 days = 15 }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 101302
+    title = "Freedom or Death"
+    desc = "101302D"
+    major = yes
+    
+    is_triggered_only = yes
+
+    immediate = {
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_loyal }
+                }
+                canadie_loyal_text = {}
+            }
+        }
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_secede }
+                }
+                canadie_secede_text = {}
+            }
+        }
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_revolution }
+                }
+                canadie_revolution_text = {}
+            }
+        }
+    }
+
+    option = {
+        name = "§RThe Connecticut river will run red with their blood!§!"
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_loyal }
+                }
+                war = {
+                    target = QUE
+                    attacker_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    defender_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    call_ally = no
+                }
+            }
+        }
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_secede }
+                }
+                create_alliance = CAN
+                create_vassal = CAN
+                war = {
+                    target = QUE
+                    attacker_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    defender_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    call_ally = no
+                }
+            }
+        }
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_revolution }
+                }
+                war = {
+                    target = QUE
+                    attacker_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    defender_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    call_ally = no
+                }
+                war = {
+                    target = CAN
+                    attacker_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    defender_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    call_ally = no
+                }
+                CAN = {
+                    war = {
+                        target = QUE
+                        attacker_goal = {
+                            casus_belli = scripted_war_for_land_cb
+                        }
+                        defender_goal = {
+                            casus_belli = scripted_war_for_land_cb
+                        }
+                        call_ally = no
+                    }
+                }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 101303
+    title = "The Quebecois Government Surrenders!"
+    desc = "101303D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    immediate = {
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_revolution }
+                }
+                canadie_revolution_text = {}
+            }
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_unite }
+                }
+                canadie_unite_text = {}
+            }
+        }
+    }
+
+    option = {
+        name = "Long live the Commonwealth of Nova Scotia!"
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_unite }
+                }
+                ENG_68 = { 
+                    secede_province = QUE 
+                    add_core = QUE
+                    remove_core = CAN
+                }
+                inherit = CAN
+                CAN = {
+                    all_core = {
+                        remove_core = CAN
+                    }
+                }
+                clr_country_flag = nova_scotian_war
+            }
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_revolution }
+                }
+                war = {
+                    target = CAN
+                    attacker_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    defender_goal = {
+                        casus_belli = scripted_war_for_land_cb
+                    }
+                    call_ally = no
+                }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
