@@ -2,7 +2,7 @@ color = { 130 7 50 }
 graphical_culture = Generic
 
 party = {
-	name = "VEN_reactionary"
+	name = "NVR_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "VEN_liberal"
+	name = "NVR_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "VEN_conservative"
+	name = "NVR_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "VEN_socialist"
+	name = "NVR_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "VEN_communist"
+	name = "NVR_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "VEN_reactionary_2"
+	name = "NVR_reactionary_2"
 	start_date = 1874.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "VEN_anarcho_liberal"
+	name = "NVR_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -100,7 +100,7 @@ party = {
 }
 
 party = {
-	name = "VEN_fascist"
+	name = "NVR_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 
@@ -115,65 +115,43 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Giove Fulminante" "Costanza Guerriera" "San Vittorio" "San Giovanni Battista" "Redentor del Mondo" "Leon Coronato" 
-		"San Lorenzo Giustian" "Stella Maris" Iride "San Sebastiano" Aurora Tigre "Sol d'Oro" Giove "Amozzane Guerriera" 
-		"Rizzo d'Oro" Aquila "Croce Rossa" "Colomba d'Oro" "Grande Alessandro" Corona Costanza "Madonna della Salute"
-		"Regina del Mar" Trionfo "Madonna dell' Arsenal" "Leone Triofante" "San Gaetano" "San Pio Quinto" "Gloria Veneta" 
-		"Adria in Pace" Europa Fedelta Forza Fenice Galatea Vittoria Vulcano
-		
+		"Duke of Rothesay" "Edinburgh" "Glasgow" "Aberdeen" "Dundee" "Inverness" "Perth"
+		"Strathclyde" "Stirling"	
 	}
 	ironclad = {
-		"Giove Fulminante" "Costanza Guerriera" "San Vittorio" "San Giovanni Battista" "Redentor del Mondo" "Leon Coronato" 
-		"San Lorenzo Giustian" "Stella Maris" Iride "San Sebastiano" Aurora Tigre "Sol d'Oro" Giove "Amozzane Guerriera" 
-		"Rizzo d'Oro" Aquila "Croce Rossa" "Colomba d'Oro" "Grande Alessandro" Corona Costanza "Madonna della Salute"
-		"Regina del Mar" Trionfo "Madonna dell' Arsenal" "Leone Triofante" "San Gaetano" "San Pio Quinto" "Gloria Veneta" 
-		"Adria in Pace" Europa Fedelta Forza Fenice Galatea Vittoria Vulcano
-		
+		"Arran" "Islay" "Jura" "Lewis" "Harris" "Skye"
 	}
 	manowar = {
-		"Giove Fulminante" "Costanza Guerriera" "San Vittorio" "San Giovanni Battista" "Redentor del Mondo" "Leon Coronato" 
-		"San Lorenzo Giustian" "Stella Maris" Iride "San Sebastiano" Aurora Tigre "Sol d'Oro" Giove "Amozzane Guerriera" 
-		"Rizzo d'Oro" Aquila "Croce Rossa" "Colomba d'Oro" "Grande Alessandro" Corona Costanza "Madonna della Salute"
-		"Regina del Mar" Trionfo "Madonna dell' Arsenal" "Leone Triofante" "San Gaetano" "San Pio Quinto" "Gloria Veneta" 
-		"Adria in Pace" Europa Fedelta Forza Fenice Galatea Vittoria Vulcano
-		
+		"Duke of Rothesay" "Edinburgh" "Glasgow" "Aberdeen" "Dundee" "Inverness" "Perth"
+		"Strathclyde" "Stirling"
 	}
 	cruiser = {
-		"Giove Fulminante" "Costanza Guerriera" "San Vittorio" "San Giovanni Battista" "Redentor del Mondo" "Leon Coronato" 
-		"San Lorenzo Giustian" "Stella Maris" Iride "San Sebastiano" Aurora Tigre "Sol d'Oro" Giove "Amozzane Guerriera" 
-		"Rizzo d'Oro" Aquila "Croce Rossa" "Colomba d'Oro" "Grande Alessandro" Corona Costanza "Madonna della Salute"
-		"Regina del Mar" Trionfo "Madonna dell' Arsenal" "Leone Triofante" "San Gaetano" "San Pio Quinto" "Gloria Veneta" 
-		"Adria in Pace" Europa Fedelta Forza Fenice Galatea Vittoria Vulcano
-		
+		"Hamilton" "Buccleuch" "Lennox" "Argyll" "Atholl" "Montrose" "Roxburghe" "Lothian"
+		"Selkirk"
 	}
 	frigate = {
-		"Giove Fulminante" "Costanza Guerriera" "San Vittorio" "San Giovanni Battista" "Redentor del Mondo" "Leon Coronato" 
-		"San Lorenzo Giustian" "Stella Maris" Iride "San Sebastiano" Aurora Tigre "Sol d'Oro" Giove "Amozzane Guerriera" 
-		"Rizzo d'Oro" Aquila "Croce Rossa" "Colomba d'Oro" "Grande Alessandro" Corona Costanza "Madonna della Salute"
-		"Regina del Mar" Trionfo "Madonna dell' Arsenal" "Leone Triofante" "San Gaetano" "San Pio Quinto" "Gloria Veneta" 
-		"Adria in Pace" Europa Fedelta Forza Fenice Galatea Vittoria Vulcano
-		
+		"Loch Lomond" "Loch Ness" "Loch Morar" "Loch Tay" "Loch Awe"
 	}
 	monitor = {
-		"Giove Fulminante" "Costanza Guerriera" "San Vittorio" "San Giovanni Battista" "Redentor del Mondo" "Leon Coronato" 
-		"San Lorenzo Giustian" "Stella Maris" Iride "San Sebastiano" Aurora Tigre "Sol d'Oro" Giove "Amozzane Guerriera" 
-		"Rizzo d'Oro" Aquila "Croce Rossa" "Colomba d'Oro" "Grande Alessandro" Corona Costanza "Madonna della Salute"
-		"Regina del Mar" Trionfo "Madonna dell' Arsenal" "Leone Triofante" "San Gaetano" "San Pio Quinto" "Gloria Veneta" 
-		"Adria in Pace" Europa Fedelta Forza Fenice Galatea Vittoria Vulcano
+		"Duke of Rothesay" "Edinburgh" "Glasgow" "Aberdeen" "Dundee" "Inverness" "Perth"
+		"Strathclyde" "Stirling"
 		
 	}
 	clipper_transport = {
-		
+		"Flying Spur" "Cutty Sark" "Falls of Clyde" "Glenlee" "Mull of Kintyre" "Walter Scott"
+		"William Wallace" Parkhead Govan Gorgie Leith "Mount Florida" "James Bruce"
+		"David Douglas" "Alexander Gordon Laing" "Patrick Miller" "William Symington"
+		"Archibald Cochrane" "Andrew Moray" "Water of Leith" "River Tay" "Alexander Dalzeel"
+		"John Gow" "William Kidd" "William Greaves"
 	}
 	steam_transport = {
-		
+		"Flying Spur" "Cutty Sark" "Falls of Clyde" "Glenlee" "Mull of Kintyre" "Walter Scott"
+		"William Wallace" Parkhead Govan Gorgie Leith "Mount Florida" "James Bruce"
+		"David Douglas" "Alexander Gordon Laing" "Patrick Miller" "William Symington"
+		"Archibald Cochrane" "Andrew Moray" "Water of Leith" "River Tay" "Alexander Dalzeel"
+		"John Gow" "William Kidd" "William Greaves"
 	}
 	commerce_raider = {
-		"Giove Fulminante" "Costanza Guerriera" "San Vittorio" "San Giovanni Battista" "Redentor del Mondo" "Leon Coronato" 
-		"San Lorenzo Giustian" "Stella Maris" Iride "San Sebastiano" Aurora Tigre "Sol d'Oro" Giove "Amozzane Guerriera" 
-		"Rizzo d'Oro" Aquila "Croce Rossa" "Colomba d'Oro" "Grande Alessandro" Corona Costanza "Madonna della Salute"
-		"Regina del Mar" Trionfo "Madonna dell' Arsenal" "Leone Triofante" "San Gaetano" "San Pio Quinto" "Gloria Veneta" 
-		"Adria in Pace" Europa Fedelta Forza Fenice Galatea Vittoria Vulcano
-		
+		"Enterprise" "Ossian" "Tweed" "Stornoway"
 	}
 }

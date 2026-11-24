@@ -8,24 +8,147 @@ leader = {
 
 
 army = {
-	name = "Army of Texas"
-	location = 133
-	regiment = {
-		name= "Travis' Command"
-		type = cavalry
-		home = 133
+	name = "Army of Christ"
+	location = 132
+	leader = {
+		name = "Pablo 'El Rojo' Garcia"
+		date = 1835.1.1
+		type = land
+		personality = vicious
+		background = uncommonly_young
+		prestige = 20
 	}
 
 	regiment = {
-		name= "Fannin's Command"
-		type = guard
+		name= "1st Hussar Regiment"
+		type = hussar
+		home = 132
+	}
+
+	regiment = {
+		name= "1st Infantry Regiment"
+		type = infantry
 		home = 132
 	}
 	
 	regiment = {
-		name = "Burleson's Command"
-		type = artillery
-		home = 137
+		name= "2nd Infantry Regiment"
+		type = infantry
+		home = 132
 	}
 	
+	regiment = {
+		name= "3rd Infantry Regiment"
+		type = infantry
+		home = 132
+	}
+	
+	regiment = {
+		name= "4th Infantry Regiment"
+		type = infantry
+		home = 134
+	}
+	
+	regiment = {
+		name= "1st Artillery Regiment"
+		type = artillery
+		home = 134
+	}
+	
+	regiment = {
+		name= "2nd Artillery Regiment"
+		type = artillery
+		home = 134
+	}
+	
+	regiment = {
+		name= "3rd Artillery Regiment"
+		type = artillery
+		home = 134
+	}
+	
+	regiment = {
+		name= "4th Artillery Regiment"
+		type = artillery
+		home = 134
+	}
+	
+	regiment = {
+		name= "5th Artillery Regiment"
+		type = artillery
+		home = 134
+	}
+}
+
+army = {
+	name = "Voluntarios fieles"
+	location = 135
+	leader = {
+		name = "Carlos Fernandez"
+		date = 1835.1.1
+		type = land
+		personality = implacable
+		background = cursed_luck
+		prestige = 0
+	}
+
+	regiment = {
+		name= "6th Artillery Regiment"
+		type = artillery
+		home = 135
+	}
+
+	regiment = {
+		name= "7th Artillery Regiment"
+		type = artillery
+		home = 135
+	}
+	
+	regiment = {
+		name= "8th Artillery Regiment"
+		type = artillery
+		home = 135
+	}
+	
+	regiment = {
+		name= "9th Artillery Regiment"
+		type = artillery
+		home = 135
+	}
+	
+	regiment = {
+		name= "10th Artillery Regiment"
+		type = artillery
+		home = 135
+	}
+	
+	regiment = {
+		name= "2nd Hussar Regiment"
+		type = hussar
+		home = 135
+	}
+	
+	regiment = {
+		name= "5th Infantry Regiment"
+		type = infantry
+		home = 134
+	}
+	
+	regiment = {
+		name= "6th Infantry Regiment"
+		type = infantry
+		home = 134
+	}
+	
+	regiment = {
+		name= "7th Infantry Regiment"
+		type = infantry
+		home = 134
+	}
+	
+	regiment = {
+		name= "8th Infantry Regiment"
+		type = infantry
+		home = 135
+	}
 }

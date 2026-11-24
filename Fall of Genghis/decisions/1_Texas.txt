@@ -1,0 +1,51 @@
+political_decisions = {
+    catholic_texas_win = {
+        potential = {
+            tag = CTE
+        }
+        allow = {
+            war = no
+            ITE = { exists = no }
+        }
+        effect = {
+            NCS = {
+                inherit = CTE
+            }
+            CTE = {
+                all_core = {
+                    add_core = NCS
+                    remove_core = CTE
+                    remove_core = ITE
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    islamic_texas_win = {
+        potential = {
+            tag = ITE
+        }
+        allow = {
+            war = no
+            CTE = { exists = no }
+        }
+        effect = {
+            MEX = {
+                inherit = ITE
+            }
+            ITE = {
+                all_core = {
+                    add_core = MEX
+                    remove_core = CTE
+                    remove_core = ITE
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

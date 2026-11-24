@@ -3,4 +3,24 @@
 #############################################;;;;;;;;;;;;;;x
 #############Added_Nations##############;;;;;;;;;;;;;x
 NVR_presidential_dictatorship;The New Gaellic Republic;;;;;;;;;;;;;x
+ITE;Islamic Insurgency of Tiksãs;;;;;;;;;;;;;x
+ITE_ADJ;Tiksãsan;;;;;;;;;;;;;x
+CTE;El Ejército Católico;;;;;;;;;;;;;x
+CTE_ADJ;Tejan;;;;;;;;;;;;;x
+##############;;;;;;;;;;;;;x
+#############Added_Misc##############;;;;;;;;;;;;;x
+CTE_anarcho_liberal;Republican Faction;;;;;;;;;;;;;x
+CTE_communist;Labour and Farmer Faction;;;;;;;;;;;;;x
+CTE_conservative;Spanish Faction;;;;;;;;;;;;;x
+CTE_fascist;Independant Faction;;;;;;;;;;;;;x
+CTE_liberal;Comopolitan Faction;;;;;;;;;;;;;x
+CTE_reactionary;Crusader Faction;;;;;;;;;;;;;x
+CTE_socialist;Workers Faction;;;;;;;;;;;;;x
+ITE_anarcho_liberal;Heathen Faction;;;;;;;;;;;;;x
+ITE_communist;Radical Faction;;;;;;;;;;;;;x
+ITE_conservative;Rashidun Faction;;;;;;;;;;;;;x
+ITE_fascist;Extremist Faction;;;;;;;;;;;;;x
+ITE_liberal;Rifian Faction;;;;;;;;;;;;;x
+ITE_reactionary;Hardline Faction;;;;;;;;;;;;;x
+ITE_socialist;Reformist Faction;;;;;;;;;;;;;x
 ##############;;;;;;;;;;;;;x

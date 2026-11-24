@@ -50,6 +50,12 @@ country_event = {
         name = "We will stand alone if we must!"
         set_country_flag = canadie_revolution
         QUE = { release_vassal = CAN }
+        any_owned = {
+            limit = {
+                is_core = QUE
+            }
+            remove_core = QUE
+        }
         
         ai_chance = {
             factor = 1
@@ -75,6 +81,48 @@ country_event = {
             modifier = {
                 factor = 3
                 has_country_flag = avalonian_governor
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 101325
+    title = "The Revolution has been Triumphant!"
+    desc = "101325D"
+    major = yes
+    
+    trigger = {
+        tag = CAN
+        has_country_flag = nova_scotian_war
+        war = no
+        is_independant = yes
+        NVR = { has_country_flag = custom_treaty_loser }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "Long live the Canadien People!"
+        prestige = 40
+        set_global_flag = canadie_independant
+        clr_country_flag = nova_scotian_war
+        clr_country_flag = canadie_revolution
+        NVR = {
+            clr_country_flag = nova_scotian_war
+            clr_country_flag = custom_treaty_loser
+        }
+        any_owned = {
+            limit = {
+                is_core = NVR
+            }
+            remove_core = NVR
+        }
+
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
             }
         }
     }

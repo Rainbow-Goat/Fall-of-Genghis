@@ -2530,37 +2530,37 @@
 	aristocrats = {
 		culture = texan
 		religion = catholic
-		size = 400
+		size = 361
 	}
 
 	bureaucrats = {
 		culture = texan
 		religion = catholic
-		size = 40
+		size = 36
 	}
 
 	clergymen = {
 		culture = texan
 		religion = catholic
-		size = 220
+		size = 199
 	}
 
 	artisans = {
 		culture = texan
 		religion = catholic
-		size = 1000
+		size = 902
 	}
 
 	soldiers = {
 		culture = texan
 		religion = catholic
-		size = 200
+		size = 180
 	}
 
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 17940
+		size = 16190
 	}
 
 	aristocrats = {
@@ -2592,35 +2592,60 @@
 		religion = sunni
 		size = 7200
 	}
-
 	aristocrats = {
-		culture = native_american_minor
+		culture = rifian
 		religion = animist
 		size = 40
 	}
-
 	clergymen = {
-		culture = native_american_minor
+		culture = rifian
 		religion = animist
 		size = 100
 	}
-
 	artisans = {
-		culture = native_american_minor
+		culture = rifian
 		religion = animist
 		size = 200
 	}
-
 	soldiers = {
-		culture = native_american_minor
+		culture = rifian
 		religion = animist
 		size = 60
 	}
-
 	farmers = {
-		culture = native_american_minor
+		culture = rifian
 		religion = animist
 		size = 3600
+	}
+	aristocrats = {
+		culture = rifian
+		religion = catholic
+		size = 39
+	}
+	bureaucrats = {
+		culture = rifian
+		religion = catholic
+		size = 4
+	}
+	clergymen = {
+		culture = rifian
+		religion = catholic
+		size = 21
+	}
+	artisans = {
+		culture = rifian
+		religion = catholic
+		size = 98
+	}
+	soldiers = {
+		culture = rifian
+		religion = catholic
+		size = 20
+	}
+	farmers = {
+		culture = rifian
+		religion = catholic
+		size = 1750
 	}
 }
 #Albuquerque (20000/5000 POPS)
@@ -2714,7 +2739,12 @@
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 3600
+		size = 3498
+	}
+	farmers = {
+		culture = rifian
+		religion = catholic
+		size = 102
 	}
 }
 #Colorado Region (20000)
@@ -3593,61 +3623,31 @@
 	aristocrats = {
 		culture = texan
 		religion = catholic
-		size = 200
+		size = 280
 	}
 
 	clergymen = {
 		culture = texan
 		religion = catholic
-		size = 600
+		size = 960
 	}
 
 	artisans = {
 		culture = texan
 		religion = catholic
-		size = 10000
+		size = 16000
 	}
 
 	soldiers = {
 		culture = texan
 		religion = catholic
-		size = 8400
+		size = 11400
 	}
 
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 78700
-	}
-
-	aristocrats = {
-		culture = rifian
-		religion = sunni
-		size = 80
-	}
-
-	clergymen = {
-		culture = rifian
-		religion = sunni
-		size = 360
-	}
-
-	artisans = {
-		culture = rifian
-		religion = sunni
-		size = 6000
-	}
-
-	soldiers = {
-		culture = rifian
-		religion = sunni
-		size = 3000
-	}
-
-	farmers = {
-		culture = rifian
-		religion = sunni
-		size = 44100
+		size = 122800
 	}
 }
 133 = {
@@ -3655,73 +3655,153 @@
 	aristocrats = {
 		culture = texan
 		religion = catholic
-		size = 100
+		size = 66
 	}
 
 	bureaucrats = {
 		culture = texan
 		religion = catholic
-		size = 300
+		size = 201
 	}
 
 	officers = {
 		culture = texan
 		religion = catholic
-		size = 80
+		size = 54
 	}
 
 	clergymen = {
 		culture = texan
 		religion = catholic
-		size = 200
+		size = 134
 	}
 
 	artisans = {
 		culture = texan
 		religion = catholic
-		size = 5000
+		size = 2682
 	}
 
 	soldiers = {
 		culture = texan
 		religion = catholic
-		size = 8400
+		size = 6271
 	}
 
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 84880
+		size = 56710
 	}
 
 	aristocrats = {
 		culture = rifian
 		religion = sunni
-		size = 160
+		size = 163
 	}
 
 	clergymen = {
 		culture = rifian
 		religion = sunni
-		size = 240
+		size = 247
 	}
 
 	artisans = {
 		culture = rifian
 		religion = sunni
-		size = 12000
+		size = 9766
 	}
 
 	soldiers = {
 		culture = rifian
 		religion = sunni
-		size = 4000
+		size = 6676
 	}
 
 	farmers = {
 		culture = rifian
 		religion = sunni
-		size = 30000
+		size = 32798
+	}
+	aristocrats = {
+		culture = rifian
+		religion = catholic
+		size = 14
+	}
+	bureaucrats = {
+		culture = rifian
+		religion = catholic
+		size = 39
+	}
+	officers = {
+		culture = rifian
+		religion = catholic
+		size = 10
+	}
+	clergymen = {
+		culture = rifian
+		religion = catholic
+		size = 26
+	}
+	artisans = {
+		culture = rifian
+		religion = catholic
+		size = 529
+	}
+	soldiers = {
+		culture = rifian
+		religion = catholic
+		size = 1237
+	}
+	farmers = {
+		culture = rifian
+		religion = catholic
+		size = 11190
+	}
+	aristocrats = {
+		culture = texan
+		religion = sunni
+		size = 17
+	}
+	bureaucrats = {
+		culture = texan
+		religion = sunni
+		size = 50
+	}
+	officers = {
+		culture = texan
+		religion = sunni
+		size = 13
+	}
+	clergymen = {
+		culture = texan
+		religion = sunni
+		size = 33
+	}
+	artisans = {
+		culture = texan
+		religion = sunni
+		size = 670
+	}
+	soldiers = {
+		culture = texan
+		religion = sunni
+		size = 1569
+	}
+	farmers = {
+		culture = texan
+		religion = sunni
+		size = 14182
+	}
+	bureaucrats = {
+		culture = rifian
+		religion = sunni
+		size = 10
+	}
+	officers = {
+		culture = rifian
+		religion = sunni
+		size = 3
 	}
 }
 
@@ -3730,31 +3810,31 @@
 	aristocrats = {
 		culture = texan
 		religion = catholic
-		size = 100
+		size = 80
 	}
 
 	clergymen = {
 		culture = texan
 		religion = catholic
-		size = 100
+		size = 81
 	}
 
 	artisans = {
 		culture = texan
 		religion = catholic
-		size = 4000
+		size = 3216
 	}
 
 	soldiers = {
 		culture = texan
 		religion = catholic
-		size = 8400
+		size = 6754
 	}
 
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 63000
+		size = 50657
 	}
 
 	aristocrats = {
@@ -3786,37 +3866,62 @@
 		religion = sunni
 		size = 28000
 	}
+	aristocrats = {
+		culture = rifian
+		religion = catholic
+		size = 20
+	}
+	clergymen = {
+		culture = rifian
+		religion = catholic
+		size = 19
+	}
+	artisans = {
+		culture = rifian
+		religion = catholic
+		size = 784
+	}
+	soldiers = {
+		culture = rifian
+		religion = catholic
+		size = 1646
+	}
+	farmers = {
+		culture = rifian
+		religion = catholic
+		size = 12343
+	}
 }
 #Laredo (6000/1500 POPS)
 138 = {
 	aristocrats = {
 		culture = texan
 		religion = catholic
-		size = 400
+		size = 345
 	}
 
 	clergymen = {
 		culture = texan
 		religion = catholic
-		size = 1000
+		size = 863
 	}
 
 	artisans = {
 		culture = texan
 		religion = catholic
-		size = 20000
+		size = 17250
 	}
 
 	soldiers = {
 		culture = texan
 		religion = catholic
-		size = 6000
+		size = 5175
 	}
 
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 76000
+		size = 65551
 	}
 
 	aristocrats = {
@@ -3848,33 +3953,35 @@
 		religion = sunni
 		size = 38000
 	}
+	aristocrats = {
+		culture = rifian
+		religion = catholic
+		size = 55
+	}
+	clergymen = {
+		culture = rifian
+		religion = catholic
+		size = 137
+	}
+	artisans = {
+		culture = rifian
+		religion = catholic
+		size = 2750
+	}
+	soldiers = {
+		culture = rifian
+		religion = catholic
+		size = 825
+	}
+	farmers = {
+		culture = rifian
+		religion = catholic
+		size = 10449
+	}
 }
 #"ruled" by Texas/de facto under Native Control
 #Dallas (4400/1100 POPS)
 134 = {
-	clergymen = {
-		culture = rifian
-		religion = sunni
-		size = 200
-	}
-
-	artisans = {
-		culture = rifian
-		religion = sunni
-		size = 20000
-	}
-
-	soldiers = {
-		culture = rifian
-		religion = sunni
-		size = 20000
-	}
-
-	farmers = {
-		culture = rifian
-		religion = sunni
-		size = 30000
-	}
 
 	aristocrats = {
 		culture = texan
@@ -3885,7 +3992,39 @@
 	clergymen = {
 		culture = texan
 		religion = catholic
-		size = 1000
+		size = 1200
+	}
+
+	artisans = {
+		culture = texan
+		religion = catholic
+		size = 40000
+	}
+
+	soldiers = {
+		culture = texan
+		religion = catholic
+		size = 26000
+	}
+
+	farmers = {
+		culture = texan
+		religion = catholic
+		size = 154000
+	}
+}
+#Lubbock (8000/2000 POPS)
+135 = {
+	aristocrats = {
+		culture = texan
+		religion = catholic
+		size = 1100
+	}
+
+	clergymen = {
+		culture = texan
+		religion = catholic
+		size = 2200
 	}
 
 	artisans = {
@@ -3897,75 +4036,13 @@
 	soldiers = {
 		culture = texan
 		religion = catholic
-		size = 6000
+		size = 28000
 	}
 
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 124000
-	}
-}
-#Lubbock (8000/2000 POPS)
-135 = {
-	aristocrats = {
-		culture = texan
-		religion = catholic
-		size = 100
-	}
-
-	clergymen = {
-		culture = texan
-		religion = catholic
-		size = 200
-	}
-
-	artisans = {
-		culture = texan
-		religion = catholic
-		size = 4000
-	}
-
-	soldiers = {
-		culture = texan
-		religion = catholic
-		size = 18000
-	}
-
-	farmers = {
-		culture = texan
-		religion = catholic
-		size = 76480
-	}
-
-	aristocrats = {
-		culture = rifian
-		religion = sunni
-		size = 1000
-	}
-
-	clergymen = {
-		culture = rifian
-		religion = sunni
-		size = 2000
-	}
-
-	artisans = {
-		culture = rifian
-		religion = sunni
-		size = 16000
-	}
-
-	soldiers = {
-		culture = rifian
-		religion = sunni
-		size = 10000
-	}
-
-	farmers = {
-		culture = rifian
-		religion = sunni
-		size = 31200
+		size = 107680
 	}
 }
 #El Paso (9000/2250 POPS)
@@ -3973,31 +4050,31 @@
 	aristocrats = {
 		culture = texan
 		religion = catholic
-		size = 100
+		size = 90
 	}
 
 	clergymen = {
 		culture = texan
 		religion = catholic
-		size = 1000
+		size = 901
 	}
 
 	artisans = {
 		culture = texan
 		religion = catholic
-		size = 4000
+		size = 3606
 	}
 
 	soldiers = {
 		culture = texan
 		religion = catholic
-		size = 10000
+		size = 9014
 	}
 
 	farmers = {
 		culture = texan
 		religion = catholic
-		size = 56000
+		size = 50479
 	}
 
 	aristocrats = {
@@ -4028,6 +4105,31 @@
 		culture = rifian
 		religion = sunni
 		size = 9000
+	}
+	aristocrats = {
+		culture = rifian
+		religion = catholic
+		size = 10
+	}
+	clergymen = {
+		culture = rifian
+		religion = catholic
+		size = 99
+	}
+	artisans = {
+		culture = rifian
+		religion = catholic
+		size = 394
+	}
+	soldiers = {
+		culture = rifian
+		religion = catholic
+		size = 986
+	}
+	farmers = {
+		culture = rifian
+		religion = catholic
+		size = 5521
 	}
 }
 #Louisiana Region (280000)

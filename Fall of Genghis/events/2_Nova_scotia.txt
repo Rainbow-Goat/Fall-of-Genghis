@@ -154,6 +154,7 @@ country_event = {
                     }
                 }
                 clr_country_flag = nova_scotian_war
+                set_country_flag = nova_scotia_liberated
             }
             owner = {
                 limit = {
@@ -191,6 +192,8 @@ country_event = {
     desc = "101304D"
     major = yes
     
+    fire_only_once = yes
+
     trigger = {
         tag = NVR
         war = no
@@ -202,17 +205,50 @@ country_event = {
         name = "Long live the Commonwealth!"
         prestige = 20
         war_exhaustion = -15
+        set_country_flag = nova_scotia_liberated
+        clr_country_flag = nova_scotian_war
         QUE = {
-            any_owned = {
+            country_event = { id = 101323 days = 5 }
+        }
+        
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 101305
+    title = "Defeated Once More"
+    desc = "101305D"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "A day that shall live in infamy"
+        prestige = -20
+        set_country_flag = nova_scotian_defeat_vs_quebec
+        clr_country_flag = nova_scotian_war
+        clr_country_flag = custom_treaty_loser
+        QUE = {
+            any_core = {
                 limit = {
                     is_core = NVR
                 }
-                secede_province = NVR
-                remove_core = QUE
+                remove_core = NVR
             }
-            clr_country_flag = nova_scotian_war
-            clr_country_flag = custom_treaty_loser
-            country_event = { id = 101323 days = 14 }
+        }
+        CAN = {
+            any_core = {
+                limit = {
+                    is_core = NVR
+                }
+                remove_core = NVR
+            }
         }
         
         ai_chance = {

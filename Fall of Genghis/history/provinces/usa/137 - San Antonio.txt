@@ -1,6 +1,7 @@
-owner = TEX
-controller = TEX
+owner = ITE
+controller = ITE
 add_core = TEX
+add_core = ITE
 trade_goods = cattle
 life_rating = 35
 fort = 1

@@ -1,7 +1,8 @@
-owner = TEX
-controller = TEX
+owner = CTE
+controller = CTE
 add_core = TEX
 add_core = OSA
+add_core = CTE
 trade_goods = grain
 life_rating = 35
 1861.1.1 = {

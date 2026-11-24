@@ -1,5 +1,6 @@
-owner = TEX
-controller = TEX
+owner = CTE
+controller = CTE
 add_core = TEX
+add_core = CTE
 trade_goods = sulphur
 life_rating = 35

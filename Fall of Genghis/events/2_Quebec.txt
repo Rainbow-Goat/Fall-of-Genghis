@@ -38,3 +38,118 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = 101323
+    title = "Defeat in the Nova Scotian War"
+    desc = "101323"
+    picture = Picture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "A tragedy for the nation..."
+        prestige = -30
+        any_owned = {
+            limit = {
+                is_core = NVR
+            }
+            secede_province = NVR
+            remove_core = QUE
+        }
+        clr_country_flag = nova_scotian_war
+        clr_country_flag = custom_treaty_loser
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_loyal }
+                }
+                ENG_68 = { 
+                    secede_province = QUE 
+                    add_core = QUE
+                    remove_core = CAN
+                }
+                NVR = {
+                    inherit = CAN
+                }
+                CAN = {
+                    all_core = {
+                        add_core = NVR
+                        remove_core = CAN
+                    }
+                }
+            }
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_secede }
+                }
+                NVR = {
+                    inherit = CAN
+                }
+                CAN = {
+                    all_core = {
+                        add_core = NVR
+                        remove_core = CAN
+                    }
+                }
+            }
+        }
+        
+            
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = 101324
+    title = "The Nova Scotians have been Defeated Once Again!"
+    desc = "101324D"
+    major = yes
+    
+    trigger = {
+        tag = QUE
+        has_country_flag = nova_scotian_war
+        war = no
+        NVR = { has_country_flag = custom_treaty_loser }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "A glorious day for the nation!"
+        prestige = 30
+        war_exhaustion = -20
+        clr_country_flag = nova_scotian_war
+        NVR = { country_event = { id = 101305 days = 5 } }
+        random_owned = {
+            owner = {
+                limit = {
+                    CAN = { has_country_flag = canadie_secede }
+                }
+                NVR = {
+                    release_vassal = CAN
+                    leave_alliance = CAN
+                }
+                inherit = CAN
+                CAN = {
+                    all_core = {
+                        add_core = QUE
+                        remove_core = CAN
+                    }
+                }
+            }
+        }
+        
+        ai_chance = {
+            factor = 3
+            modifier = {
+                factor = 1
+            }
+        }
+    }
+}

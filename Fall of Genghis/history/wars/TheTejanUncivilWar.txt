@@ -1,0 +1,23 @@
+name = "The Tejan Uncivil War"
+
+1836.1.1 = {
+	add_attacker = ITE
+	add_defender = CTE
+
+	war_goal = {
+		casus_belli = civil_war
+		actor = CTE
+		receiver = ITE
+	}
+
+	war_goal = {
+		casus_belli = civil_war
+		actor = ITE
+		receiver = CTE
+	}
+}
+
+1850.2.12 = {
+	rem_attacker = ITE
+	rem_defender = CTE
+}
