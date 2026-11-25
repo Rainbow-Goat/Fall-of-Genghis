@@ -1,0 +1,166 @@
+political_decisions = {
+    iroquois_defeated = {
+        picture = picture
+        potential = {
+            has_global_flag = iroquois_active
+            OR = {
+                tag = NVR
+                tag = AVL
+                tag = QUE
+                tag = NCS
+                tag = MEX
+                tag = KDS
+                tag = FIT
+                tag = CAN
+            }
+        }
+        allow = {
+            war = no
+            is_greater_power = yes
+            NOT = { exists = IRO }
+        }
+        effect = {
+            set_global_flag = iroquois_defeated
+            clr_global_flag = iroquois_active
+            prestige = 100
+            IRO = {
+                all_core = {
+                    remove_core = IRO
+                }
+            }
+        }
+    }
+
+    remove_core_native_land_generic = {
+        picture = picture
+        potential = {
+            has_global_flag = iroquois_defeated
+            NOT = { has_country_flag = native_american }
+            continent = north_america
+            any_owned_province = {
+                AND = {
+                    OR = {
+                        is_core = MIA
+                        is_core = SHA
+                        is_core = CHE
+                        is_core = CHY
+                        is_core = HOC
+                        is_core = OMH
+                        is_core = KIC
+                        is_core = SUT
+                        is_core = POT
+                        is_core = OSA
+                        is_core = WCH
+                        is_core = DAK
+                    }
+                    OR = {
+                        is_core = THIS
+                        is_primary_culture = yes
+                        is_accepted_culture = yes
+                    }
+                }
+            }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            rank = 12
+        }
+        effect = {
+            any_owned = {
+                limit = {
+                    OR = {
+                        is_core = THIS
+                        is_primary_culture = yes
+                        is_accepted_culture = yes
+                    }
+                    OR = {
+                        is_core = MIA
+                        is_core = SHA
+                        is_core = CHE
+                        is_core = CHY
+                        is_core = HOC
+                        is_core = OMH
+                        is_core = KIC
+                        is_core = SUT
+                        is_core = POT
+                        is_core = OSA
+                        is_core = WCH
+                        is_core = DAK
+                    }
+                }
+                remove_core = MIA
+                remove_core = SHA
+                remove_core = CHE
+                remove_core = CHY
+                remove_core = HOC
+                remove_core = OMH
+                remove_core = KIC
+                remove_core = SUT
+                remove_core = POT
+                remove_core = OSA
+                remove_core = WCH
+                remove_core = DAK
+                remove_core = KIO
+                remove_core = MOH
+                remove_core = SAU
+                remove_core = COM
+                remove_core = SUS
+                remove_core = MES
+            }
+        }
+    }
+
+    annex_native_vassal = {
+        picture = picture
+        potential = {
+            OR = {
+                has_country_flag = manifest_destiny
+                has_country_flag = allowed_to_invade_natives
+            }
+            any_neighbor_country = {
+                OR = {
+                    primary_culture = iroquois
+                    primary_culture = dakota
+                    primary_culture = osage
+                }
+            }       
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            any_neighbor_country = {
+                AND = {
+                    OR = {
+                        vassal_of = THIS
+                        in_sphere = THIS
+                    }
+                    OR = {
+                        primary_culture = iroquois
+                        primary_culture = dakota
+                    }
+                }
+            }
+        }
+        effect = {
+            prestige = 5
+            GHO = {
+                change_variable = { which = native_fear value = 3 }
+                change_variable = { which = native_anger value = 6 }
+            }
+            random_country = {
+                limit = {
+                    OR = {
+                        vassal_of = THIS
+                        in_sphere = THIS
+                    }
+                    OR = {
+                        primary_culture = iroquois
+                        primary_culture = dakota
+                    }
+                }
+                annex_to = THIS
+            }
+        }
+    }
+}

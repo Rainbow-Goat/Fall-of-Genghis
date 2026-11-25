@@ -3431,7 +3431,7 @@ manifest_destiny_cb = {
 	po_reparations = yes
 	
 	on_po_accepted = {
-		NVR = {
+		GHO = {
 			change_variable = { which = native_fear value = 2 }
 			change_variable = { which = native_anger value = 1 }
 		}
@@ -3486,7 +3486,7 @@ war_against_natives_cb = {
 	po_reparations = yes
 	
 	on_po_accepted = {
-		NVR = {
+		GHO = {
 			change_variable = { which = native_fear value = 1 }
 			change_variable = { which = native_anger value = 1 }
 		}

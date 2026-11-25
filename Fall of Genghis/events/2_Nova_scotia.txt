@@ -9,9 +9,10 @@ country_event = {
     option = {
         name = "We shall spread the torch of liberty across this vast continent we call home"
         badboy = 2
-        set_variable = { which = native_fear value = 0 }
-        set_variable = { which = native_anger value = 0 }
-        
+        GHO = {
+            set_variable = { which = native_fear value = 0 }
+            set_variable = { which = native_anger value = 2 }
+        }
         ai_chance = {
             factor = 1
         }

@@ -1,0 +1,154 @@
+country_event = {
+    id = 101385
+    title = "Selector thingy for Iroquois rebellion"
+    desc = "101385D"
+    picture = picture
+    
+    trigger = {
+        GHO = {
+            check_variable = { which = native_anger value = 20 }
+        }
+        tag = GHO
+    }
+    
+    mean_time_to_happen = {
+        months = 24
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "The Leader has been selected"
+        random_country = {
+            limit = {
+                ai = no
+                exists = yes
+                OR = {
+                    primary_culture = iroquois
+                    primary_culture = osage
+                    primary_culture = dakota
+                    primary_culture = cree
+                }
+            }
+            set_country_flag = iroquois_leader
+            set_global_flag = iroquois_selected
+        }
+        random_country = {
+            limit = {
+                ai = yes
+                primary_culture = iroquois
+                exists = yes
+                NOT = { has_global_flag = iroquois_selected }
+            }
+            set_country_flag = iroquois_leader
+            set_global_flag = iroquois_selected
+        }
+        random_country = {
+            limit = {
+                ai = yes
+                primary_culture = dakota
+                exists = yes
+                NOT = { has_global_flag = iroquois_selected }
+            }
+            set_country_flag = iroquois_leader
+            set_global_flag = iroquois_selected
+        }
+        random_country = {
+            limit = {
+                ai = yes
+                primary_culture = osage
+                exists = yes
+                NOT = { has_global_flag = iroquois_selected }
+            }
+            set_country_flag = iroquois_leader
+            set_global_flag = iroquois_selected
+        }
+        random_country = {
+            limit = {
+                ai = yes
+                primary_culture = cree
+                exists = yes
+                NOT = { has_global_flag = iroquois_selected }
+            }
+            set_country_flag = iroquois_leader
+            set_global_flag = iroquois_selected
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+country_event = {
+    id = 101386
+    title = "The United Armies of Turtle Island"
+    desc = "101386D"
+    major = yes
+    
+    trigger = {
+        has_country_flag = iroquois_leader
+        has_global_flag = iroquois_selected
+    }
+    
+    mean_time_to_happen = {
+        months = 3
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "§RFrom the Mississippi to the Atlantic Sea, Turtle Island will be free!§!"
+        change_tag = IRO
+        civilized = yes
+        any_country = {
+            limit = {
+                primary_culture = iroquois
+            }
+            all_core = {
+                add_core = IRO
+            }
+        }
+        any_country = {
+            limit = {
+                exists = yes
+                primary_culture = iroquois
+                NOT = { has_country_flag = iroquois_leader }
+            }
+            annex_to = IRO
+        }
+        any_country = {
+            limit = {
+                exists = yes
+                OR = {
+                    primary_culture = dakota
+                    primary_culture = cree
+                }
+                GHO = { 
+                    check_variable = { which = native_anger value = 25 }
+                }
+            }
+            annex_to = IRO
+            all_core = {
+                add_core = IRO
+            }
+        }
+        any_country = {
+            limit = {
+                exists = yes
+                primary_culture = osage
+                GHO = { 
+                    check_variable = { which = native_anger value = 30 }
+                }
+            }
+            annex_to = IRO
+            all_core = {
+                add_core = IRO
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

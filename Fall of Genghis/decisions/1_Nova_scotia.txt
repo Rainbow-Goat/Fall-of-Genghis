@@ -19,57 +19,6 @@ political_decisions = {
         }
     }
 
-    annex_native_vassal = {
-        picture = picture
-        potential = {
-            OR = {
-                tag = NVR
-                tag = AVL
-            }
-            has_country_flag = manifest_destiny
-            any_neighbor_country = {
-                OR = {
-                    primary_culture = iroquois
-                    primary_culture = dakota
-                }
-            }       
-        }
-        allow = {
-            war = no
-            state_n_government = 1
-            any_neighbor_country = {
-                AND = {
-                    OR = {
-                        vassal_of = THIS
-                        in_sphere = THIS
-                    }
-                    OR = {
-                        primary_culture = iroquois
-                        primary_culture = dakota
-                    }
-                }
-            }
-        }
-        effect = {
-            prestige = 5
-            change_variable = { which = native_fear value = 3 }
-            change_variable = { which = native_anger value = 6 }
-            random_country = {
-                limit = {
-                    OR = {
-                        vassal_of = THIS
-                        in_sphere = THIS
-                    }
-                    OR = {
-                        primary_culture = iroquois
-                        primary_culture = dakota
-                    }
-                }
-                annex_to = THIS
-            }
-        }
-    }
-
     liberate_nova_scotia = {
         picture = picture
         potential = {
@@ -88,6 +37,7 @@ political_decisions = {
             prestige = 15
             badboy = 5
             set_country_flag = nova_scotian_war
+            set_global_flag = nova_scotian_war_happened
             QUE = { set_country_flag = nova_scotian_war }
             CAN = { set_country_flag = nova_scotian_war }
             country_event = { id = 101301 days = 15 }
@@ -127,4 +77,299 @@ political_decisions = {
             }
         }
     }
+
+    myaamia_cores_nova = {
+        picture = manifest_destiny
+        potential = {
+            tag = NVR
+            has_country_flag = manifest_destiny
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = cored_myaamia }
+            any_owned_province = {
+                is_core = MIA
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            MIA = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            set_country_flag = cored_myaamia
+            MIA = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    shawnee_cores_nova = {
+        picture = manifest_destiny
+        potential = {
+            tag = NVR
+            has_country_flag = manifest_destiny
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = cored_shawnee }
+            any_owned_province = {
+                is_core = SHA
+            }
+        }
+        allow = {
+            war = no
+            state_n_government = 1
+            SHA = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            set_country_flag = cored_shawnee
+            SHA = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    nova_expand_southwards = {
+        picture = picture
+        potential = {
+            tag = NVR
+            179 = { is_core = THIS }
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = expand_southwards }
+        }
+        allow = {
+            war = no
+            owns = 211
+            owns = 2556
+            owns = 184
+        }
+        effect = {
+            prestige = 15
+            set_country_flag = expand_southwards
+            USA_211 = { add_core = THIS }
+            USA_2556 = { add_core = THIS }
+            USA_185 = { add_core = THIS }
+        }
+    }
+
+    cheyenne_cores_nova = {
+        picture = picture
+        potential = {
+            OR = {
+                tag = NVR
+                tag = AVL
+            }
+            has_country_flag = expand_southwards
+            has_country_flag = cored_shawnee
+            has_country_flag = manifest_destiny
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = cored_cheyenne }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            CHY = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            set_country_flag = cored_cheyenne
+            CHY = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    form_avalonia = {
+        picture = picture
+        potential = {
+            tag = NVR
+            has_country_flag = expand_southwards
+        }
+        allow = {
+            war = no
+            OR = {
+                revolution_n_counterrevolution = 1
+                248 = {
+                    AND = {
+                        owned_by = THIS
+                        is_core = THIS
+                    }
+                }
+            }
+            owns = 195
+            owns = 200
+            owns = 139
+        }
+        effect = {
+            prestige = 50
+            change_tag = AVL
+            NVR = {
+                all_core = {
+                    add_core = AVL
+                    remove_core = NVR
+                }
+            }
+            USA_201 = { add_core = THIS }
+            USA_200 = { add_core = THIS }
+            USA_139 = { add_core = THIS }
+        }
+    }
+
+    avalonia_push_beyond_misssissippi = {
+        picture = picture
+        potential = {
+            tag = AVL
+            has_country_flag = manifest_destiny
+            NOT = { has_country_flag = beyond_mississippi }
+        }
+        allow = {
+            war = no
+            revolution_n_counterrevolution = 1
+        }
+        effect = {
+            set_country_flag = beyond_mississippi
+            prestige = 15
+            badboy = 5
+            USA_144 = { add_core = THIS }
+            set_country_flag = hidden_tooltip
+            random_owned = { limit = { owner = { has_country_flag = hidden_tooltip } }
+                owner = {
+                    145 = { remove_core = AVL }
+                }
+            }
+            clr_country_flag = hidden_tooltip
+        }
+    }
+
+    kickapoo_cores_avl = {
+        picture = picture
+        potential = {
+            tag = AVL
+            has_country_flag = manifest_destiny
+            has_country_flag = cored_cheyenne
+            has_country_flag = beyond_mississippi
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = cored_kickapoo }
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            KIC = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            set_country_flag = cored_kickapoo
+            KIC = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    omaha_cores_avl = {
+        picture = picture
+        potential = {
+            tag = AVL
+            has_country_flag = manifest_destiny
+            has_country_flag = beyond_mississippi
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = cored_omaha }
+        }
+        allow = {
+            war = no
+            OMH = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            set_country_flag = cored_omaha
+            OMH = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    ho_chunk_cores_avl = {
+        picture = picture
+        potential = {
+            tag = AVL
+            has_country_flag = manifest_destiny
+            has_country_flag = beyond_mississippi
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = cored_ho_chunk }
+        }
+        allow = {
+            war = no
+            HOC = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            set_country_flag = cored_ho_chunk
+            HOC = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
+
+    sutaio_cores_avl = {
+        picture = picture
+        potential = {
+            tag = AVL
+            has_country_flag = manifest_destiny
+            has_country_flag = beyond_mississippi
+            NOT = { has_global_flag = iroquois_active }
+            NOT = { has_country_flag = cored_sutaio }
+        }
+        allow = {
+            war = no
+            SUT = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+        effect = {
+            prestige = 10
+            set_country_flag = cored_sutaio
+            SUT = {
+                all_core = {
+                    add_core = THIS
+                }
+            }
+        }
+    }
 }
+
