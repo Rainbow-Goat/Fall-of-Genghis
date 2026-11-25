@@ -2,7 +2,7 @@ country_event = {
     id = 101385
     title = "Selector thingy for Iroquois rebellion"
     desc = "101385D"
-    picture = picture
+    picture = gfx_event_no_image
     
     trigger = {
         GHO = {
@@ -12,7 +12,7 @@ country_event = {
     }
     
     mean_time_to_happen = {
-        months = 24
+        months = 12
     }
 
     fire_only_once = yes
