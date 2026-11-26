@@ -195,6 +195,7 @@ political_decisions = {
             tag = NCS
             has_country_flag = sea_to_sea
             has_country_flag = rifia_pushed
+            government = monastic_order
         }
         allow = {
             war = no
@@ -309,6 +310,7 @@ political_decisions = {
         picture = picture
         potential = {
             tag = SCR
+            government = theocracy
         }
         allow = {
             war = no
