@@ -31,7 +31,10 @@
 # 101300 = North America
 # 101300-20 = Nova Scotia
 # 101320-40 = Quebec and her vassals
-# 101385-99 = Native Americans
+# 101340-50 = New Castille
+# 101350-60 = Rifia
+# 101360-70 = Kurdish Free State
+# 101380-99 = Native Americans
 # 202020 = Static modifiers attached to certain cities (Like Constantinople)
 # 300000 = History Events
 

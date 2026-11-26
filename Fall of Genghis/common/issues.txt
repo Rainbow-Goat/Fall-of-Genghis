@@ -223,6 +223,7 @@ political_reforms = {
 					}
 					has_country_flag = egy_merchant_purged
 				}
+				NOT = { has_country_flag = slavery_not_abolished }
 			}
 
 			global_immigrant_attract = 0.01

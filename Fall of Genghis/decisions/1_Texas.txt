@@ -10,8 +10,9 @@ political_decisions = {
         effect = {
             NCS = {
                 inherit = CTE
+                set_country_flag = texas_cored
             }
-            CTE = {
+            TEX = {
                 all_core = {
                     add_core = NCS
                     remove_core = CTE
@@ -35,8 +36,9 @@ political_decisions = {
         effect = {
             MEX = {
                 inherit = ITE
+                set_country_flag = texas_cored
             }
-            ITE = {
+            TEX = {
                 all_core = {
                     add_core = MEX
                     remove_core = CTE

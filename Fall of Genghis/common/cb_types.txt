@@ -2109,6 +2109,7 @@ take_puppet = {
 			THIS = { has_country_flag = allowed_to_invade_natives }
 		}
 		NOT = { is_our_vassal = THIS }
+		NOT = { tag = CAN }
 	}
 	
 	# THIS - us
@@ -2186,6 +2187,7 @@ release_puppet = {
 	can_use = {
 		num_of_vassals_no_substates = 1
 		NOT = { is_our_vassal = THIS }
+		NOT = { tag = CAN }
 	}
 	
 	# THIS - us

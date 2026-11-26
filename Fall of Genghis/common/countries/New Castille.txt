@@ -2,7 +2,7 @@ color = { 191 169 23 }
 graphical_culture = SpanishGC
 
 party = {
-	name = "CAS_conservative"
+	name = "NCS_conservative"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "CAS_liberal"
+	name = "NCS_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "CAS_conservative_2"
+	name = "NCS_conservative_2"
 	start_date = 1854.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "CAS_reactionary"
+	name = "NCS_reactionary"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "CAS_liberal_2"
+	name = "NCS_liberal_2"
 	start_date = 1868.1.1
 	end_date = 1903.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "CAS_liberal_3"
+	name = "NCS_liberal_3"
 	start_date = 1868.1.1
 	end_date = 1903.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "CAS_socialist"
+	name = "NCS_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -100,7 +100,7 @@ party = {
 }
 
 party = {
-	name = "CAS_liberal_4"
+	name = "NCS_liberal_4"
 	start_date = 1908.1.1
 	end_date = 2000.1.1
 
@@ -114,7 +114,7 @@ party = {
 }
 
 party = {
-	name = "CAS_liberal_5"
+	name = "NCS_liberal_5"
 	start_date = 1903.1.1
 	end_date = 2000.1.1
 
@@ -142,7 +142,7 @@ party = {
 }
 
 party = {
-	name = "CAS_liberal_6"
+	name = "NCS_liberal_6"
 	start_date = 1912.1.1
 	end_date = 2000.1.1
 
@@ -156,7 +156,7 @@ party = {
 }
 
 party = {
-	name = "CAS_conservative_3"
+	name = "NCS_conservative_3"
 	start_date = 1901.1.1
 	end_date = 2000.1.1
 
@@ -170,7 +170,7 @@ party = {
 }
 
 party = {
-	name = "CAS_liberal_7"
+	name = "NCS_liberal_7"
 	start_date = 1906.1.1
 	end_date = 2000.1.1
 
@@ -184,7 +184,7 @@ party = {
 }
 
 party = {
-	name = "CAS_conservative_4"
+	name = "NCS_conservative_4"
 	start_date = 1895.1.1
 	end_date = 2000.1.1
 
@@ -198,7 +198,7 @@ party = {
 }
 
 party = {
-	name = "CAS_conservative_5"
+	name = "NCS_conservative_5"
 	start_date = 1898.1.1
 	end_date = 2000.1.1
 
@@ -212,7 +212,7 @@ party = {
 }
 
 party = {
-	name = "CAS_anarcho_liberal"
+	name = "NCS_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -226,7 +226,7 @@ party = {
 }
 
 party = {
-	name = "CAS_fascist"
+	name = "NCS_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

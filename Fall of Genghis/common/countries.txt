@@ -135,6 +135,7 @@ TGC     = "countries/Global Caliphate.txt"
 BUH     = "countries/Bohemia-Hungary.txt"
 BHA     = "countries/Bohemia-Hungary-Austria.txt"
 AVL     = "countries/Avalonia.txt"
+SCR     = "countries/Seventh Crusade.txt"
 
 
 

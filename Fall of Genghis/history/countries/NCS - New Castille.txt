@@ -1,6 +1,7 @@
 capital = 195
 primary_culture = nuevo_castillian
 religion = catholic
+set_country_flag = slavery_not_abolished
 government = monastic_order
 plurality = 25.0
 nationalvalue = nv_liberty

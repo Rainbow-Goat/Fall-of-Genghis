@@ -24,7 +24,7 @@ V1.3 - The Great Plains
 Moderate content:
     - Iroquois Confederacy (Started)
     - Islamic Caliphate of Mexico (Advanced concept stage)
-    - Holy Order of New Castille (Finished concept stage)
+    - Holy Order of New Castille (Decisions almost done, needs loc and GFX + events)
     - The Quebecois Occupation Zone (Finished Concept Stage)
 Minor content:
     - Kurdish Free State (Advanced concept stage)
