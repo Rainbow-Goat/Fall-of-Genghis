@@ -23,4 +23,19 @@ ITE_fascist;Extremist Faction;;;;;;;;;;;;;x
 ITE_liberal;Rifian Faction;;;;;;;;;;;;;x
 ITE_reactionary;Hardline Faction;;;;;;;;;;;;;x
 ITE_socialist;Reformist Faction;;;;;;;;;;;;;x
+KDS_anarcho_liberal;Pîsesaz;;;;;;;;;;;;;x
+KDS_communist;Eniya Hesini;;;;;;;;;;;;;x
+KDS_conservative;Partiya Waliyan;;;;;;;;;;;;;x
+KDS_conservative_2;Partiya Muhafezekar;;;;;;;;;;;;;x
+KDS_fascist;Welat Vegerinin;;;;;;;;;;;;;x
+KDS_liberal;Opozisyona Liberal;;;;;;;;;;;;;x
+KDS_liberal_2;Hevbendiya Liberal;;;;;;;;;;;;;x
+KDS_liberal_3;Kurdistana Nu;;;;;;;;;;;;;x
+KDS_reactionary;Partiya Kevnesopi;;;;;;;;;;;;;x
+KDS_reactionary_2;Yasayi u Rekupek;;;;;;;;;;;;;x
+KDS_socialist;Liberale Civaki;;;;;;;;;;;;;x
+KDS_socialist_2;Yekitiya Karkeran;;;;;;;;;;;;;x
+##############;;;;;;;;;;;;;x
+#############Added_Continents##############;;;;;;;;;;;;;x
+middle_east;Middle East;;;;;;;;;;;;;x
 ##############;;;;;;;;;;;;;x

@@ -1,6 +1,6 @@
 owner = SHA
 controller = SHA
 add_core = SHA
-trade_goods = timber
+trade_goods = iron
 life_rating = 35
 1861.1.1 = { railroad = 3 } 

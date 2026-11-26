@@ -2,6 +2,6 @@ owner = MOH
 controller = MOH
 add_core = DAK
 add_core = MOH
-trade_goods = cattle
+trade_goods = iron
 life_rating = 35
 1861.1.1 = { colony = 0 } 

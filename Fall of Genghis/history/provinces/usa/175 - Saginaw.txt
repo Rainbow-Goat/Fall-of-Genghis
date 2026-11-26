@@ -1,6 +1,6 @@
 owner = FIT
 controller = FIT
 add_core = FIT
-trade_goods = timber
+trade_goods = grain
 life_rating = 35
 1861.1.1 = { colony = 0 } 

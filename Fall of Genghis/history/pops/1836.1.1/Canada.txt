@@ -2172,31 +2172,31 @@
 	aristocrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 720
+		size = 482
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 1440
+		size = 964
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 14400
+		size = 9642
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 7200
+		size = 4821
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 5040
+		size = 3375
 	}
 }
 #Barrie (4000/1000 POPS)
@@ -2204,31 +2204,31 @@
 	aristocrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 288
+		size = 193
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 720
+		size = 482
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 14400
+		size = 9642
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 4320
+		size = 2893
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 25920
+		size = 17356
 	}
 
 }
@@ -2354,31 +2354,31 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 720
+		size = 482
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 720
+		size = 482
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 15840
+		size = 10606
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 23328
+		size = 15620
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 169920
+		size = 113776
 	}
 }
 #Windsor (36000/9000 POPS)
@@ -2386,25 +2386,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 144
+		size = 97
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 14400
+		size = 9642
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 288
+		size = 193
 	}
 
 	labourers = {
 		culture = french_canadian
 		religion = catholic
-		size = 24048
+		size = 16102
 	}
 }
 #Hamilton (68000/17000 POPS)
@@ -2412,25 +2412,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 288
+		size = 193
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 3168
+		size = 2121
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 576
+		size = 386
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 45216
+		size = 30276
 	}
 }
 #Kingston (72000/18000 POPS)
@@ -2438,49 +2438,49 @@
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 432
+		size = 289
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 5040
+		size = 3375
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 13680
+		size = 9160
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 97704
+		size = 65421
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 720
+		size = 482
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 7200
+		size = 4821
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 720
+		size = 482
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 48960
+		size = 32783
 	}
 }
 #Ottawa (44000/11000 POPS)
@@ -2488,49 +2488,49 @@
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 1440
+		size = 964
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 8640
+		size = 5785
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 17280
+		size = 11571
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 18864
+		size = 12631
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 144
+		size = 97
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 576
+		size = 386
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 144
+		size = 96
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 10656
+		size = 7135
 	}
 
 }
@@ -2741,61 +2741,61 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = protestant
-		size = 200
+		size = 430
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 125
+		size = 269
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 5000
+		size = 10742
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 250
+		size = 537
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 13425
+		size = 28843
 	}
 
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 100
+		size = 215
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 500
+		size = 1074
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 6000
+		size = 12891
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 400
+		size = 859
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 36000
+		size = 77344
 	}
 }
 #Chicoutimi (11200/2800 POPS)
@@ -3024,31 +3024,31 @@
 	bureaucrats = {
 		culture = french_canadian
 		religion = catholic
-		size = 200
+		size = 430
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 175
+		size = 376
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 1100
+		size = 2363
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 5500
+		size = 11816
 	}
 
 	labourers = {
 		culture = french_canadian
 		religion = catholic
-		size = 15675
+		size = 33677
 	}
 }
 #Quebec City (188000/47000 POPS)
@@ -3056,25 +3056,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 500
+		size = 1074
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 5000
+		size = 10742
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 12000
+		size = 25781
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 41000
+		size = 88086
 	}
 }
 #Sherbrooke (68000/17000 POPS)
@@ -3082,49 +3082,49 @@
 	clergymen = {
 		culture = french_canadian
 		religion = protestant
-		size = 50
+		size = 108
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = protestant
-		size = 400
+		size = 859
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = protestant
-		size = 100
+		size = 215
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = protestant
-		size = 4450
+		size = 9561
 	}
 
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 250
+		size = 537
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 700
+		size = 1504
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 150
+		size = 322
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 10900
+		size = 23418
 	}
 }
 #Riviere du Loup (56000/14000 POPS)
@@ -3132,25 +3132,25 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 150
+		size = 322
 	}
 
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 750
+		size = 1611
 	}
 
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 150
+		size = 322
 	}
 
 	labourers = {
 		culture = french_canadian
 		religion = catholic
-		size = 12950
+		size = 27822
 	}
 
 }

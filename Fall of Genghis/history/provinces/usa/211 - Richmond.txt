@@ -1,8 +1,8 @@
 owner = NCS
 controller = NCS
 add_core = NCS
-trade_goods = tobacco
-life_rating = 35 
+trade_goods = iron
+life_rating = 35
 railroad = 1
 ################################################################################
 # state_building = {

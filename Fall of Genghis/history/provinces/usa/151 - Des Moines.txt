@@ -1,6 +1,6 @@
 owner = SUT
 controller = SUT
 add_core = SUT
-trade_goods = grain
+trade_goods = iron
 life_rating = 35
 1861.1.1 = { colony = 0 } 
