@@ -16,19 +16,19 @@ Minor content:
     - Armenia (DONE)
 
 V1.3 - The Great Plains
-- Rework to the starting map of North America (Almost Finished)
-- Unique colonial mechanic for N. America (Almost Finished)
+- Rework to the starting map of North America (Finished)
+- Unique colonial mechanic for N. America (Finished)
 - Extensive content
     - Quebec (Finished concept stage)
-    - New Venetian Republic (Almost done, just needs loc and GFX)
+    - Nova Scotia (Almost done, just needs loc and GFX)
 Moderate content:
-    - Iroquois Confederacy (Started)
-    - Islamic Caliphate of Mexico (Advanced concept stage)
+    - Native American Tribes (Started)
+    - The Rifian Caliphate (Advanced concept stage)
     - Holy Order of New Castille (Decisions almost done, needs loc and GFX + events)
-    - The Quebecois Occupation Zone (Finished Concept Stage)
+    - The Quebecois Occupation Zone (Started)
 Minor content:
     - Kurdish Free State (Advanced concept stage)
-    - The Pinot-Rouge (Finished Concept Stage)
+    - The Pied-Rouge (Finished Concept Stage)
 
 V1.4 - Glory of the Gods
 Extensive content:
